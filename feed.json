@@ -1,0 +1,19 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "VinhLin",
+  "home_page_url": "https://vinhlin.github.io/",
+  "feed_url": "https://vinhlin.github.io/feed.json",
+  "description": "A minimal hugo theme focus on content",
+  "favicon": "https://vinhlin.github.io//assets/favicon.ico",
+  "expired": false,
+  "author": {
+    "name": "Calvin Tran",
+    "url": "https://vinhlin.github.io/"
+  },
+  "items": [
+    
+    
+
+    
+  ]
+}
