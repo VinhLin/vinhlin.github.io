@@ -15,5 +15,65 @@
     
 
     
+    {
+      "id": "4cce4220308fd2f1f01e3e19db45c5f96e482829",
+      "title": "Raspberry OpenAuto",
+      "summary": "",
+      "content_text": "OpenAuto Link\nSource\nTheo như mình hiểu thì OpenAuto, nó như một tool cho việc giao tiếp giữa người dùng và xe hơi, thông qua sử dụng Raspberry.\nHình như CrankShaft cũng từ open source của OpenAuto mà ra.\nTham khảo\nVideo tham khảo https://www.youtube.com/watch?v=RgbHXTHUnQw https://www.youtube.com/watch?v=ko-udLtaPk8 ",
+      "content_html": "\u003ch3 id=\"openauto\"\u003eOpenAuto\u003c/h3\u003e\n\u003cp\u003e\u003ca href=\"https://bluewavestudio.io/#features\"\u003eLink\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"9https://bluewavestudio.io/community/showthread.php?tid=2774\"\u003eSource\u003c/a\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eTheo như mình hiểu thì \u003cstrong\u003eOpenAuto\u003c/strong\u003e, nó như một tool cho việc giao tiếp giữa người dùng và xe hơi, thông qua sử dụng Raspberry.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eHình như \u003cstrong\u003eCrankShaft\u003c/strong\u003e cũng từ open source của \u003cstrong\u003eOpenAuto\u003c/strong\u003e mà ra.\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/f1xpl/openauto/wiki\"\u003eTham khảo\u003c/a\u003e\u003c/p\u003e\n\u003ch3 id=\"video-tham-khao\"\u003eVideo tham khảo\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://www.youtube.com/watch?v=RgbHXTHUnQw\"\u003ehttps://www.youtube.com/watch?v=RgbHXTHUnQw\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://www.youtube.com/watch?v=ko-udLtaPk8\"\u003ehttps://www.youtube.com/watch?v=ko-udLtaPk8\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n",
+      "url": "http://localhost:1313/posts/iot/software/raspberry-openauto/",
+      "date_published": "1046-01-09T457:11:00+07:00",
+      "date_modified": "1046-01-09T457:11:00+07:00",
+      "author": {
+        "name": "Calvin Tran",
+        "url": "http://localhost:1313/"
+      }
+    },
+    
+    {
+      "id": "0bf57abd5b47956c7b4a48e0064a549fbeba3877",
+      "title": "Pi400 Keyboard",
+      "summary": "",
+      "content_text": "Sử dụng Raspberry Pi400 như một bàn phím thông thường. https://www.cnx-software.com/2021/10/14/using-raspberry-pi-400-keyboard-pc-as-a-usb-keyboard-for-your-pc/ https://www.tomshardware.com/news/raspberry-pi-400-usb-hid-keyboard https://github.com/Gadgetoid/pi400kb/tree/main ",
+      "content_html": "\u003ch3 id=\"sử-dụng-raspberry-pi400-như-một-bàn-phím-thông-thường\"\u003eSử dụng Raspberry Pi400 như một bàn phím thông thường.\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://www.cnx-software.com/2021/10/14/using-raspberry-pi-400-keyboard-pc-as-a-usb-keyboard-for-your-pc/\"\u003ehttps://www.cnx-software.com/2021/10/14/using-raspberry-pi-400-keyboard-pc-as-a-usb-keyboard-for-your-pc/\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://www.tomshardware.com/news/raspberry-pi-400-usb-hid-keyboard\"\u003ehttps://www.tomshardware.com/news/raspberry-pi-400-usb-hid-keyboard\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/Gadgetoid/pi400kb/tree/main\"\u003ehttps://github.com/Gadgetoid/pi400kb/tree/main\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cimg\n  src=\"https://www.cytron.io/image/landing/RPI%20400/photo_2020-10-31_11-28-37.jpg\"\n  alt=\"Pi400\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n",
+      "url": "http://localhost:1313/posts/iot/software/pi400-keyboard/",
+      "date_published": "1046-01-09T453:11:00+07:00",
+      "date_modified": "1046-01-09T453:11:00+07:00",
+      "author": {
+        "name": "Calvin Tran",
+        "url": "http://localhost:1313/"
+      }
+    },
+    
+    {
+      "id": "1467c592c4f59f946735e658ee5827f9a222c791",
+      "title": "PiKVM",
+      "summary": "",
+      "content_text": "PiKVM Theo tài liệu thì KVM (Keyboard-Video-Mouse), tức là PiKVM là sử dụng raspberry để điều khiển máy tính từ xa thông qua IP. Tức là giả sử mình có 1 PC, nếu mình muốn sử dụng PC này thì cần: Màn hình để xuất hình ảnh. Chuột và bàn phím để điều khiển. Với PiKVM nó sẽ ảo hóa hết tất cả màn hình, chuột, và bàn phím thông qua WebUI. PiKVM lợi điểm ở chỗ là không cần phải xuống trực tiếp Server (hoặc PC) để fix sự cố, mà có thể làm điều đó từ xa. Thông thường nếu chỉ dùng Anydesk, TeamViewer,\u0026hellip; thì đây chỉ là những ứng dụng sau khi PC đã khởi động hoàn tất. Vậy lúc cần vào bios của PC để fix lỗi thì sao? Thì đây chính là lợi điểm của PiKVM. Tham khảo video https://www.youtube.com/watch?v=2HqbQdZUEmY https://www.youtube.com/watch?v=PppcpSVYh0E https://www.youtube.com/watch?v=KrpHCsK7veA Documents https://docs.pikvm.org/ https://pikvm.org/ https://wiki.geekworm.com/PiKVM Note PiKVM có sẵn OS. Tùy thuộc vào loại Raspberry sử dụng mà có sẵn image. Cần thêm module covert từ HDMI - CSI ",
+      "content_html": "\u003ch3 id=\"pikvmhttpsgithubcompikvmpikvm\"\u003e\u003ca href=\"https://github.com/pikvm/pikvm\"\u003ePiKVM\u003c/a\u003e\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eTheo tài liệu thì \u003cstrong\u003eKVM (Keyboard-Video-Mouse)\u003c/strong\u003e, tức là \u003cstrong\u003ePiKVM\u003c/strong\u003e là sử dụng raspberry để điều khiển máy tính từ xa thông qua IP.\u003c/li\u003e\n\u003cli\u003eTức là giả sử mình có 1 PC, nếu mình muốn sử dụng PC này thì cần:\n\u003cul\u003e\n\u003cli\u003eMàn hình để xuất hình ảnh.\u003c/li\u003e\n\u003cli\u003eChuột và bàn phím để điều khiển.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eVới \u003cstrong\u003ePiKVM\u003c/strong\u003e nó sẽ ảo hóa hết tất cả màn hình, chuột, và bàn phím thông qua \u003cstrong\u003eWebUI\u003c/strong\u003e.\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003ePiKVM\u003c/strong\u003e lợi điểm ở chỗ là không cần phải xuống trực tiếp Server (hoặc PC) để fix sự cố, mà có thể làm điều đó từ xa.\u003c/li\u003e\n\u003cli\u003eThông thường nếu chỉ dùng Anydesk, TeamViewer,\u0026hellip; thì đây chỉ là những ứng dụng sau khi PC đã khởi động hoàn tất.\u003c/li\u003e\n\u003cli\u003eVậy lúc cần vào bios của PC để fix lỗi thì sao? Thì đây chính là lợi điểm của \u003cstrong\u003ePiKVM\u003c/strong\u003e.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3 id=\"tham-khảo-video\"\u003eTham khảo video\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://www.youtube.com/watch?v=2HqbQdZUEmY\"\u003ehttps://www.youtube.com/watch?v=2HqbQdZUEmY\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://www.youtube.com/watch?v=PppcpSVYh0E\"\u003ehttps://www.youtube.com/watch?v=PppcpSVYh0E\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://www.youtube.com/watch?v=KrpHCsK7veA\"\u003ehttps://www.youtube.com/watch?v=KrpHCsK7veA\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2 id=\"documents\"\u003eDocuments\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://docs.pikvm.org/\"\u003ehttps://docs.pikvm.org/\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://pikvm.org/\"\u003ehttps://pikvm.org/\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://wiki.geekworm.com/PiKVM\"\u003ehttps://wiki.geekworm.com/PiKVM\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3 id=\"note\"\u003eNote\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003ePiKVM\u003c/strong\u003e có sẵn OS. Tùy thuộc vào loại Raspberry sử dụng mà có sẵn image.\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://www.waveshare.com/wiki/HDMI_to_CSI_Adapter\"\u003eCần thêm module covert từ HDMI - CSI\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n",
+      "url": "http://localhost:1313/posts/iot/software/pikvm/",
+      "date_published": "1046-01-09T449:11:00+07:00",
+      "date_modified": "1046-01-09T449:11:00+07:00",
+      "author": {
+        "name": "Calvin Tran",
+        "url": "http://localhost:1313/"
+      }
+    },
+    
+    {
+      "id": "571f7a701d03049f4c4b93851c869e0c14023691",
+      "title": "UNIHIKER",
+      "summary": "",
+      "content_text": "Documents Getting Started with UNIHIKER Dfrobot Sản phẩm ",
+      "content_html": "\u003ch3 id=\"documents\"\u003eDocuments\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://www.unihiker.com/wiki/get-started\"\u003eGetting Started with UNIHIKER\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://www.dfrobot.com/product-2691.html\"\u003eDfrobot\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3 id=\"sản-phẩmhttpswwwproevnunihiker-iot-python-programming-single-board-computer-with-touchscreen\"\u003e\u003ca href=\"https://www.proe.vn/unihiker-iot-python-programming-single-board-computer-with-touchscreen\"\u003eSản phẩm\u003c/a\u003e\u003c/h3\u003e\n\u003cp\u003e\u003cimg\n  src=\"https://cdn.mos.cms.futurecdn.net/KRLwXFfy86ybfwUdzxmaFm-1200-80.jpg\"\n  alt=\"SP\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n",
+      "url": "http://localhost:1313/posts/iot/hardware/unihiker/",
+      "date_published": "1046-01-09T434:11:00+07:00",
+      "date_modified": "1046-01-09T434:11:00+07:00",
+      "author": {
+        "name": "Calvin Tran",
+        "url": "http://localhost:1313/"
+      }
+    }
+    
   ]
 }

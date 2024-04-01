@@ -13,5 +13,119 @@
     <atom:link href="http://localhost:1313//atom.xml" rel="self" type="application/atom+xml"/>
     
     
+    <item>
+      <title>Raspberry OpenAuto</title>
+      <link>http://localhost:1313/posts/iot/software/raspberry-openauto/</link>
+      <description>&lt;h3 id=&#34;openauto&#34;&gt;OpenAuto&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://bluewavestudio.io/#features&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;9https://bluewavestudio.io/community/showthread.php?tid=2774&#34;&gt;Source&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Theo như mình hiểu thì &lt;strong&gt;OpenAuto&lt;/strong&gt;, nó như một tool cho việc giao tiếp giữa người dùng và xe hơi, thông qua sử dụng Raspberry.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Hình như &lt;strong&gt;CrankShaft&lt;/strong&gt; cũng từ open source của &lt;strong&gt;OpenAuto&lt;/strong&gt; mà ra.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/f1xpl/openauto/wiki&#34;&gt;Tham khảo&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;video-tham-khao&#34;&gt;Video tham khảo&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=RgbHXTHUnQw&#34;&gt;https://www.youtube.com/watch?v=RgbHXTHUnQw&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=ko-udLtaPk8&#34;&gt;https://www.youtube.com/watch?v=ko-udLtaPk8&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <author>Calvin Tran</author>
+      <guid>http://localhost:1313/posts/iot/software/raspberry-openauto/</guid>
+      <pubDate>Mon, 01 Apr 2024 17:57:07 +0700</pubDate>
+    </item>
+    
+    <item>
+      <title>Pi400 Keyboard</title>
+      <link>http://localhost:1313/posts/iot/software/pi400-keyboard/</link>
+      <description>&lt;h3 id=&#34;sử-dụng-raspberry-pi400-như-một-bàn-phím-thông-thường&#34;&gt;Sử dụng Raspberry Pi400 như một bàn phím thông thường.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cnx-software.com/2021/10/14/using-raspberry-pi-400-keyboard-pc-as-a-usb-keyboard-for-your-pc/&#34;&gt;https://www.cnx-software.com/2021/10/14/using-raspberry-pi-400-keyboard-pc-as-a-usb-keyboard-for-your-pc/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.tomshardware.com/news/raspberry-pi-400-usb-hid-keyboard&#34;&gt;https://www.tomshardware.com/news/raspberry-pi-400-usb-hid-keyboard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Gadgetoid/pi400kb/tree/main&#34;&gt;https://github.com/Gadgetoid/pi400kb/tree/main&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://www.cytron.io/image/landing/RPI%20400/photo_2020-10-31_11-28-37.jpg&#34;
+  alt=&#34;Pi400&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>Calvin Tran</author>
+      <guid>http://localhost:1313/posts/iot/software/pi400-keyboard/</guid>
+      <pubDate>Mon, 01 Apr 2024 17:53:24 +0700</pubDate>
+    </item>
+    
+    <item>
+      <title>PiKVM</title>
+      <link>http://localhost:1313/posts/iot/software/pikvm/</link>
+      <description>&lt;h3 id=&#34;pikvmhttpsgithubcompikvmpikvm&#34;&gt;&lt;a href=&#34;https://github.com/pikvm/pikvm&#34;&gt;PiKVM&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Theo tài liệu thì &lt;strong&gt;KVM (Keyboard-Video-Mouse)&lt;/strong&gt;, tức là &lt;strong&gt;PiKVM&lt;/strong&gt; là sử dụng raspberry để điều khiển máy tính từ xa thông qua IP.&lt;/li&gt;
+&lt;li&gt;Tức là giả sử mình có 1 PC, nếu mình muốn sử dụng PC này thì cần:
+&lt;ul&gt;
+&lt;li&gt;Màn hình để xuất hình ảnh.&lt;/li&gt;
+&lt;li&gt;Chuột và bàn phím để điều khiển.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Với &lt;strong&gt;PiKVM&lt;/strong&gt; nó sẽ ảo hóa hết tất cả màn hình, chuột, và bàn phím thông qua &lt;strong&gt;WebUI&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PiKVM&lt;/strong&gt; lợi điểm ở chỗ là không cần phải xuống trực tiếp Server (hoặc PC) để fix sự cố, mà có thể làm điều đó từ xa.&lt;/li&gt;
+&lt;li&gt;Thông thường nếu chỉ dùng Anydesk, TeamViewer,&amp;hellip; thì đây chỉ là những ứng dụng sau khi PC đã khởi động hoàn tất.&lt;/li&gt;
+&lt;li&gt;Vậy lúc cần vào bios của PC để fix lỗi thì sao? Thì đây chính là lợi điểm của &lt;strong&gt;PiKVM&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;tham-khảo-video&#34;&gt;Tham khảo video&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=2HqbQdZUEmY&#34;&gt;https://www.youtube.com/watch?v=2HqbQdZUEmY&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=PppcpSVYh0E&#34;&gt;https://www.youtube.com/watch?v=PppcpSVYh0E&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=KrpHCsK7veA&#34;&gt;https://www.youtube.com/watch?v=KrpHCsK7veA&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;documents&#34;&gt;Documents&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.pikvm.org/&#34;&gt;https://docs.pikvm.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pikvm.org/&#34;&gt;https://pikvm.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.geekworm.com/PiKVM&#34;&gt;https://wiki.geekworm.com/PiKVM&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;note&#34;&gt;Note&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;PiKVM&lt;/strong&gt; có sẵn OS. Tùy thuộc vào loại Raspberry sử dụng mà có sẵn image.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.waveshare.com/wiki/HDMI_to_CSI_Adapter&#34;&gt;Cần thêm module covert từ HDMI - CSI&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <author>Calvin Tran</author>
+      <guid>http://localhost:1313/posts/iot/software/pikvm/</guid>
+      <pubDate>Mon, 01 Apr 2024 17:49:12 +0700</pubDate>
+    </item>
+    
+    <item>
+      <title>UNIHIKER</title>
+      <link>http://localhost:1313/posts/iot/hardware/unihiker/</link>
+      <description>&lt;h3 id=&#34;documents&#34;&gt;Documents&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.unihiker.com/wiki/get-started&#34;&gt;Getting Started with UNIHIKER&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dfrobot.com/product-2691.html&#34;&gt;Dfrobot&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;sản-phẩmhttpswwwproevnunihiker-iot-python-programming-single-board-computer-with-touchscreen&#34;&gt;&lt;a href=&#34;https://www.proe.vn/unihiker-iot-python-programming-single-board-computer-with-touchscreen&#34;&gt;Sản phẩm&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://cdn.mos.cms.futurecdn.net/KRLwXFfy86ybfwUdzxmaFm-1200-80.jpg&#34;
+  alt=&#34;SP&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>Calvin Tran</author>
+      <guid>http://localhost:1313/posts/iot/hardware/unihiker/</guid>
+      <pubDate>Mon, 01 Apr 2024 17:34:03 +0700</pubDate>
+    </item>
+    
   </channel>
 </rss>
