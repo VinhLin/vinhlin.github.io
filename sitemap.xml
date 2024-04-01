@@ -2,12 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://vinhlin.github.io/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2024-04-01T18:14:13+07:00</lastmod>
   </url><url>
-    <loc>https://vinhlin.github.io/pages/</loc>
+    <loc>http://localhost:1313/posts/iot/software/rust-lang/</loc>
+    <lastmod>2024-04-01T18:14:13+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/iot/software/raspberry-openauto/</loc>
+    <lastmod>2024-04-01T17:57:07+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/iot/software/pi400-keyboard/</loc>
+    <lastmod>2024-04-01T17:53:24+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/iot/software/pikvm/</loc>
+    <lastmod>2024-04-01T17:49:12+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/iot/hardware/unihiker/</loc>
+    <lastmod>2024-04-01T17:34:03+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2024-03-31T15:21:41+07:00</lastmod>
   </url><url>
-    <loc>https://vinhlin.github.io/tags/</loc>
+    <loc>http://localhost:1313/pages/</loc>
+    <lastmod>2024-03-31T15:21:41+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-03-31T15:21:33+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>
