@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on VinhLin</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://vinhlin.github.io/tags/</link>
     <description>Recent content in Tags on VinhLin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/tags/atom.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://vinhlin.github.io/tags/atom.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
