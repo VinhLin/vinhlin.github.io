@@ -2,7 +2,7 @@
   <channel>
     
     <title>VinhLin</title>
-    <description>A minimal hugo theme focus on content</description>
+    <description>Technology Blog</description>
     <link>http://localhost:1313/</link>
     
     <language>en</language>
@@ -12,6 +12,73 @@
     <docs>http://cyber.harvard.edu/rss/rss.html</docs>
     <atom:link href="http://localhost:1313//atom.xml" rel="self" type="application/atom+xml"/>
     
+    
+    <item>
+      <title>Rust Lang</title>
+      <link>http://localhost:1313/posts/iot/software/rust-lang/</link>
+      <description>&lt;h2 id=&#34;rust-lang&#34;&gt;Rust-lang&lt;/h2&gt;
+&lt;h3 id=&#34;hạn-chế&#34;&gt;Hạn chế&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://users.rust-lang.org/t/why-is-there-so-much-mismanagement-in-the-rust-foundation-and-core-team/94822&#34;&gt;Năm 2023 xảy ra nhiều dramma của Rust Found&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Rust là ngôn ngữ &lt;strong&gt;khó học, code khó&lt;/strong&gt;.
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=EYCBm0xAWow&amp;amp;list=LL&amp;amp;index=3&#34;&gt;5 things I wish I knew before learning Rust&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=fknamfNtKk0&#34;&gt;Why do developers hate Rust?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Cộng đồng &lt;strong&gt;DEV&lt;/strong&gt; chưa quá đông như Golang. &lt;a href=&#34;https://spectrum.ieee.org/the-top-programming-languages-2023&#34;&gt;Top Programming Languages 2023&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;lợi-ích&#34;&gt;Lợi ích&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Rust là ngôn ngữ &lt;strong&gt;low level&lt;/strong&gt;, được sử dụng cho nhiều mục đích khác nhau:
+&lt;ul&gt;
+&lt;li&gt;Dùng để code nhúng.&lt;/li&gt;
+&lt;li&gt;Dùng để code phía Server.&lt;/li&gt;
+&lt;li&gt;Có thể dùng để code OS - như &lt;a href=&#34;https://rust-for-linux.com/&#34;&gt;Rust for Linux&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Rust chú trọng vào sự an toàn - &lt;strong&gt;memory safety&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Cộng đồng Rust vẫn đang phát triển. &lt;a href=&#34;https://pypl.github.io/PYPL.html&#34;&gt;Dựa trên báo cáo thì số lượt tìm kiếm hướng dẫn lập trình Rust đã tăng hơn Golang&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;rust-roadmaphttpsroadmapshrust&#34;&gt;&lt;a href=&#34;https://roadmap.sh/rust&#34;&gt;Rust Roadmap&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;tài-liệu-về-rust&#34;&gt;Tài liệu về Rust&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.jetbrains.com/help/rust/getting-started.html&#34;&gt;Rust IDE - RustRover&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.rust-embedded.org/book/&#34;&gt;The Embedded Rust Book&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://std-dev-guide.rust-lang.org/&#34;&gt;Standard library developers Guide&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.rust-lang.org/&#34;&gt;Blog Rust&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://doc.rust-lang.org/rust-by-example/index.html&#34;&gt;Rust By Example&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://rust-tieng-viet.github.io/getting-started/first-project.html&#34;&gt;Rust Tiếng Việt&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=rAl-9HwD858&amp;amp;list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa&amp;amp;index=3&#34;&gt;Youtube - Crust of Rust&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/@letsgetrusty&#34;&gt;Youtube - Let&amp;rsquo;s Get Rusty&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.google.com/document/d/1kQidzAlbqapu-WZTuw4Djik0uTqMZYyiMXTM9F21Dz4/edit?lid=75778#heading=h.gjdgxs&#34;&gt;Rust Cheatsheet&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://os.phil-opp.com/&#34;&gt;Writing an OS in Rust&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>http://localhost:1313/posts/iot/software/rust-lang/</guid>
+      <pubDate>Mon, 01 Apr 2024 18:14:13 +0700</pubDate>
+    </item>
     
     <item>
       <title>Raspberry OpenAuto</title>
@@ -34,7 +101,7 @@
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=ko-udLtaPk8&#34;&gt;https://www.youtube.com/watch?v=ko-udLtaPk8&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <author>Calvin Tran</author>
+      <author>VinhLD</author>
       <guid>http://localhost:1313/posts/iot/software/raspberry-openauto/</guid>
       <pubDate>Mon, 01 Apr 2024 17:57:07 +0700</pubDate>
     </item>
@@ -58,7 +125,7 @@
 
 &lt;/p&gt;
 </description>
-      <author>Calvin Tran</author>
+      <author>VinhLD</author>
       <guid>http://localhost:1313/posts/iot/software/pi400-keyboard/</guid>
       <pubDate>Mon, 01 Apr 2024 17:53:24 +0700</pubDate>
     </item>
@@ -98,7 +165,7 @@
 &lt;li&gt;&lt;a href=&#34;https://www.waveshare.com/wiki/HDMI_to_CSI_Adapter&#34;&gt;Cần thêm module covert từ HDMI - CSI&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <author>Calvin Tran</author>
+      <author>VinhLD</author>
       <guid>http://localhost:1313/posts/iot/software/pikvm/</guid>
       <pubDate>Mon, 01 Apr 2024 17:49:12 +0700</pubDate>
     </item>
@@ -122,7 +189,7 @@
 
 &lt;/p&gt;
 </description>
-      <author>Calvin Tran</author>
+      <author>VinhLD</author>
       <guid>http://localhost:1313/posts/iot/hardware/unihiker/</guid>
       <pubDate>Mon, 01 Apr 2024 17:34:03 +0700</pubDate>
     </item>

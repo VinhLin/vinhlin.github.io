@@ -3,17 +3,32 @@
   "title": "VinhLin",
   "home_page_url": "http://localhost:1313/",
   "feed_url": "http://localhost:1313/feed.json",
-  "description": "A minimal hugo theme focus on content",
+  "description": "Technology Blog",
   "favicon": "http://localhost:1313//assets/favicon.ico",
   "expired": false,
   "author": {
-    "name": "Calvin Tran",
+    "name": "VinhLD",
     "url": "http://localhost:1313/"
   },
   "items": [
     
     
 
+    
+    {
+      "id": "1d6e1d9d82c5e034cbee811a39d8ea0cdf4dfb8b",
+      "title": "Rust Lang",
+      "summary": "",
+      "content_text": "Rust-lang Hạn chế Năm 2023 xảy ra nhiều dramma của Rust Found Rust là ngôn ngữ khó học, code khó. 5 things I wish I knew before learning Rust Why do developers hate Rust? Cộng đồng DEV chưa quá đông như Golang. Top Programming Languages 2023 Lợi ích Rust là ngôn ngữ low level, được sử dụng cho nhiều mục đích khác nhau: Dùng để code nhúng. Dùng để code phía Server. Có thể dùng để code OS - như Rust for Linux Rust chú trọng vào sự an toàn - memory safety. Cộng đồng Rust vẫn đang phát triển. Dựa trên báo cáo thì số lượt tìm kiếm hướng dẫn lập trình Rust đã tăng hơn Golang Rust Roadmap Tài liệu về Rust Rust IDE - RustRover\nThe Embedded Rust Book\nStandard library developers Guide\nBlog Rust\nRust By Example\nRust Tiếng Việt\nYoutube - Crust of Rust\nYoutube - Let\u0026rsquo;s Get Rusty\nRust Cheatsheet\nWriting an OS in Rust\n",
+      "content_html": "\u003ch2 id=\"rust-lang\"\u003eRust-lang\u003c/h2\u003e\n\u003ch3 id=\"hạn-chế\"\u003eHạn chế\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://users.rust-lang.org/t/why-is-there-so-much-mismanagement-in-the-rust-foundation-and-core-team/94822\"\u003eNăm 2023 xảy ra nhiều dramma của Rust Found\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003eRust là ngôn ngữ \u003cstrong\u003ekhó học, code khó\u003c/strong\u003e.\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://www.youtube.com/watch?v=EYCBm0xAWow\u0026amp;list=LL\u0026amp;index=3\"\u003e5 things I wish I knew before learning Rust\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://www.youtube.com/watch?v=fknamfNtKk0\"\u003eWhy do developers hate Rust?\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eCộng đồng \u003cstrong\u003eDEV\u003c/strong\u003e chưa quá đông như Golang. \u003ca href=\"https://spectrum.ieee.org/the-top-programming-languages-2023\"\u003eTop Programming Languages 2023\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3 id=\"lợi-ích\"\u003eLợi ích\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eRust là ngôn ngữ \u003cstrong\u003elow level\u003c/strong\u003e, được sử dụng cho nhiều mục đích khác nhau:\n\u003cul\u003e\n\u003cli\u003eDùng để code nhúng.\u003c/li\u003e\n\u003cli\u003eDùng để code phía Server.\u003c/li\u003e\n\u003cli\u003eCó thể dùng để code OS - như \u003ca href=\"https://rust-for-linux.com/\"\u003eRust for Linux\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eRust chú trọng vào sự an toàn - \u003cstrong\u003ememory safety\u003c/strong\u003e.\u003c/li\u003e\n\u003cli\u003eCộng đồng Rust vẫn đang phát triển. \u003ca href=\"https://pypl.github.io/PYPL.html\"\u003eDựa trên báo cáo thì số lượt tìm kiếm hướng dẫn lập trình Rust đã tăng hơn Golang\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3 id=\"rust-roadmaphttpsroadmapshrust\"\u003e\u003ca href=\"https://roadmap.sh/rust\"\u003eRust Roadmap\u003c/a\u003e\u003c/h3\u003e\n\u003ch3 id=\"tài-liệu-về-rust\"\u003eTài liệu về Rust\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://www.jetbrains.com/help/rust/getting-started.html\"\u003eRust IDE - RustRover\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://docs.rust-embedded.org/book/\"\u003eThe Embedded Rust Book\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://std-dev-guide.rust-lang.org/\"\u003eStandard library developers Guide\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://blog.rust-lang.org/\"\u003eBlog Rust\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://doc.rust-lang.org/rust-by-example/index.html\"\u003eRust By Example\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://rust-tieng-viet.github.io/getting-started/first-project.html\"\u003eRust Tiếng Việt\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://www.youtube.com/watch?v=rAl-9HwD858\u0026amp;list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa\u0026amp;index=3\"\u003eYoutube - Crust of Rust\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://www.youtube.com/@letsgetrusty\"\u003eYoutube - Let\u0026rsquo;s Get Rusty\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://docs.google.com/document/d/1kQidzAlbqapu-WZTuw4Djik0uTqMZYyiMXTM9F21Dz4/edit?lid=75778#heading=h.gjdgxs\"\u003eRust Cheatsheet\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://os.phil-opp.com/\"\u003eWriting an OS in Rust\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n",
+      "url": "http://localhost:1313/posts/iot/software/rust-lang/",
+      "date_published": "1046-01-09T414:11:00+07:00",
+      "date_modified": "1046-01-09T414:11:00+07:00",
+      "author": {
+        "name": "VinhLD",
+        "url": "http://localhost:1313/"
+      }
+    },
     
     {
       "id": "4cce4220308fd2f1f01e3e19db45c5f96e482829",
@@ -25,7 +40,7 @@
       "date_published": "1046-01-09T457:11:00+07:00",
       "date_modified": "1046-01-09T457:11:00+07:00",
       "author": {
-        "name": "Calvin Tran",
+        "name": "VinhLD",
         "url": "http://localhost:1313/"
       }
     },
@@ -40,7 +55,7 @@
       "date_published": "1046-01-09T453:11:00+07:00",
       "date_modified": "1046-01-09T453:11:00+07:00",
       "author": {
-        "name": "Calvin Tran",
+        "name": "VinhLD",
         "url": "http://localhost:1313/"
       }
     },
@@ -55,7 +70,7 @@
       "date_published": "1046-01-09T449:11:00+07:00",
       "date_modified": "1046-01-09T449:11:00+07:00",
       "author": {
-        "name": "Calvin Tran",
+        "name": "VinhLD",
         "url": "http://localhost:1313/"
       }
     },
@@ -70,7 +85,7 @@
       "date_published": "1046-01-09T434:11:00+07:00",
       "date_modified": "1046-01-09T434:11:00+07:00",
       "author": {
-        "name": "Calvin Tran",
+        "name": "VinhLD",
         "url": "http://localhost:1313/"
       }
     }
