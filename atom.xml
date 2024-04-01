@@ -3,19 +3,19 @@
     
     <title>VinhLin</title>
     <description>Technology Blog</description>
-    <link>http://localhost:1313/</link>
+    <link>https://vinhlin.github.io/</link>
     
     <language>en</language>
     <copyright>Copyright 2024, Calvin Tran</copyright>
     <lastBuildDate>Sun, 31 Mar 2024 15:21:33 +0700</lastBuildDate>
     <generator>Hugo - gohugo.io</generator>
     <docs>http://cyber.harvard.edu/rss/rss.html</docs>
-    <atom:link href="http://localhost:1313//atom.xml" rel="self" type="application/atom+xml"/>
+    <atom:link href="https://vinhlin.github.io//atom.xml" rel="self" type="application/atom+xml"/>
     
     
     <item>
       <title>Rust Lang</title>
-      <link>http://localhost:1313/posts/iot/software/rust-lang/</link>
+      <link>https://vinhlin.github.io/posts/iot/software/rust-lang/</link>
       <description>&lt;h2 id=&#34;rust-lang&#34;&gt;Rust-lang&lt;/h2&gt;
 &lt;h3 id=&#34;hạn-chế&#34;&gt;Hạn chế&lt;/h3&gt;
 &lt;ul&gt;
@@ -76,13 +76,13 @@
 &lt;/ul&gt;
 </description>
       <author>VinhLD</author>
-      <guid>http://localhost:1313/posts/iot/software/rust-lang/</guid>
+      <guid>https://vinhlin.github.io/posts/iot/software/rust-lang/</guid>
       <pubDate>Mon, 01 Apr 2024 18:14:13 +0700</pubDate>
     </item>
     
     <item>
       <title>Raspberry OpenAuto</title>
-      <link>http://localhost:1313/posts/iot/software/raspberry-openauto/</link>
+      <link>https://vinhlin.github.io/posts/iot/software/raspberry-openauto/</link>
       <description>&lt;h3 id=&#34;openauto&#34;&gt;OpenAuto&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://bluewavestudio.io/#features&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;9https://bluewavestudio.io/community/showthread.php?tid=2774&#34;&gt;Source&lt;/a&gt;&lt;/p&gt;
@@ -102,13 +102,13 @@
 &lt;/ul&gt;
 </description>
       <author>VinhLD</author>
-      <guid>http://localhost:1313/posts/iot/software/raspberry-openauto/</guid>
+      <guid>https://vinhlin.github.io/posts/iot/software/raspberry-openauto/</guid>
       <pubDate>Mon, 01 Apr 2024 17:57:07 +0700</pubDate>
     </item>
     
     <item>
       <title>Pi400 Keyboard</title>
-      <link>http://localhost:1313/posts/iot/software/pi400-keyboard/</link>
+      <link>https://vinhlin.github.io/posts/iot/software/pi400-keyboard/</link>
       <description>&lt;h3 id=&#34;sử-dụng-raspberry-pi400-như-một-bàn-phím-thông-thường&#34;&gt;Sử dụng Raspberry Pi400 như một bàn phím thông thường.&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.cnx-software.com/2021/10/14/using-raspberry-pi-400-keyboard-pc-as-a-usb-keyboard-for-your-pc/&#34;&gt;https://www.cnx-software.com/2021/10/14/using-raspberry-pi-400-keyboard-pc-as-a-usb-keyboard-for-your-pc/&lt;/a&gt;&lt;/li&gt;
@@ -126,13 +126,13 @@
 &lt;/p&gt;
 </description>
       <author>VinhLD</author>
-      <guid>http://localhost:1313/posts/iot/software/pi400-keyboard/</guid>
+      <guid>https://vinhlin.github.io/posts/iot/software/pi400-keyboard/</guid>
       <pubDate>Mon, 01 Apr 2024 17:53:24 +0700</pubDate>
     </item>
     
     <item>
       <title>PiKVM</title>
-      <link>http://localhost:1313/posts/iot/software/pikvm/</link>
+      <link>https://vinhlin.github.io/posts/iot/software/pikvm/</link>
       <description>&lt;h3 id=&#34;pikvmhttpsgithubcompikvmpikvm&#34;&gt;&lt;a href=&#34;https://github.com/pikvm/pikvm&#34;&gt;PiKVM&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Theo tài liệu thì &lt;strong&gt;KVM (Keyboard-Video-Mouse)&lt;/strong&gt;, tức là &lt;strong&gt;PiKVM&lt;/strong&gt; là sử dụng raspberry để điều khiển máy tính từ xa thông qua IP.&lt;/li&gt;
@@ -166,13 +166,13 @@
 &lt;/ul&gt;
 </description>
       <author>VinhLD</author>
-      <guid>http://localhost:1313/posts/iot/software/pikvm/</guid>
+      <guid>https://vinhlin.github.io/posts/iot/software/pikvm/</guid>
       <pubDate>Mon, 01 Apr 2024 17:49:12 +0700</pubDate>
     </item>
     
     <item>
       <title>UNIHIKER</title>
-      <link>http://localhost:1313/posts/iot/hardware/unihiker/</link>
+      <link>https://vinhlin.github.io/posts/iot/hardware/unihiker/</link>
       <description>&lt;h3 id=&#34;documents&#34;&gt;Documents&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.unihiker.com/wiki/get-started&#34;&gt;Getting Started with UNIHIKER&lt;/a&gt;&lt;/li&gt;
@@ -190,7 +190,7 @@
 &lt;/p&gt;
 </description>
       <author>VinhLD</author>
-      <guid>http://localhost:1313/posts/iot/hardware/unihiker/</guid>
+      <guid>https://vinhlin.github.io/posts/iot/hardware/unihiker/</guid>
       <pubDate>Mon, 01 Apr 2024 17:34:03 +0700</pubDate>
     </item>
     
