@@ -16,6 +16,21 @@
 
     
     {
+      "id": "34c808d0a63f277e04fb23a5f76cc83d0a3e024b",
+      "title": "News",
+      "summary": "",
+      "content_text": " Đây là danh sách các kênh mà mình cập nhật tin tức. Cũng như bổ sung kiến thức. Danh sách các kênh tài liệu và Youtube để cập nhật kiến thức. Các trang ngôn ngữ tiếng Việt mà mình cập nhật thông tin về giới bảo mật, bao gồm: NCSC VN Whitehat Còn trang của nước ngoài thì gồm (trong đó có telegram): Cyber Security News Telegram: Cyber Threat Intelligence Kênh youtube: Mình đang theo dõi hầu hết các kênh được liệt kê trong hình dưới. Các kênh này không chỉ giúp mình cập nhật về các lỗi CVE mới, mà còn giúp mình cập nhật kiến thức về Network, System. ",
+      "content_html": "\u003cul\u003e\n\u003cli\u003eĐây là danh sách các kênh mà mình cập nhật tin tức.\u003c/li\u003e\n\u003cli\u003eCũng như bổ sung kiến thức.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2 id=\"danh-sách-các-kênh-tài-liệu-và-youtube-để-cập-nhật-kiến-thức\"\u003eDanh sách các kênh tài liệu và Youtube để cập nhật kiến thức.\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eCác trang ngôn ngữ tiếng Việt mà mình cập nhật thông tin về giới bảo mật, bao gồm:\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3 id=\"ncsc-vnhttpstinnhiemmangvnnoi-bat\"\u003e\u003ca href=\"https://tinnhiemmang.vn/noi-bat\"\u003eNCSC VN\u003c/a\u003e\u003c/h3\u003e\n\u003ch3 id=\"whitehathttpswhitehatvn\"\u003e\u003ca href=\"https://whitehat.vn/\"\u003eWhitehat\u003c/a\u003e\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eCòn trang của nước ngoài thì gồm (trong đó có telegram):\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3 id=\"cyber-security-newshttpscybersecuritynewscom\"\u003e\u003ca href=\"https://cybersecuritynews.com/\"\u003eCyber Security News\u003c/a\u003e\u003c/h3\u003e\n\u003ch3 id=\"telegram-cyber-threat-intelligencehttpstmectinow\"\u003e\u003ca href=\"https://t.me/ctinow\"\u003eTelegram: Cyber Threat Intelligence\u003c/a\u003e\u003c/h3\u003e\n\u003ch3 id=\"kênh-youtube\"\u003eKênh youtube:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eMình đang theo dõi hầu hết các kênh được liệt kê trong hình dưới.\u003c/li\u003e\n\u003cli\u003eCác kênh này không chỉ giúp mình cập nhật về các lỗi CVE mới, mà còn giúp mình cập nhật kiến thức về Network, System.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/CyberSecurity/Top_Youtube_Channel_Hacking.jpg\"\n  alt=\"Youtube\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n",
+      "url": "https://vinhlin.github.io/posts/cybersecurity/news/",
+      "date_published": "10046-10-09T427:1010:00+07:00",
+      "date_modified": "10046-10-09T427:1010:00+07:00",
+      "author": {
+        "name": "VinhLD",
+        "url": "https://vinhlin.github.io/"
+      }
+    },
+    
+    {
       "id": "1d6e1d9d82c5e034cbee811a39d8ea0cdf4dfb8b",
       "title": "Rust Lang",
       "summary": "",

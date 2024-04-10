@@ -14,6 +14,44 @@
     
     
     <item>
+      <title>News</title>
+      <link>https://vinhlin.github.io/posts/cybersecurity/news/</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;Đây là danh sách các kênh mà mình cập nhật tin tức.&lt;/li&gt;
+&lt;li&gt;Cũng như bổ sung kiến thức.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;danh-sách-các-kênh-tài-liệu-và-youtube-để-cập-nhật-kiến-thức&#34;&gt;Danh sách các kênh tài liệu và Youtube để cập nhật kiến thức.&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Các trang ngôn ngữ tiếng Việt mà mình cập nhật thông tin về giới bảo mật, bao gồm:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ncsc-vnhttpstinnhiemmangvnnoi-bat&#34;&gt;&lt;a href=&#34;https://tinnhiemmang.vn/noi-bat&#34;&gt;NCSC VN&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;whitehathttpswhitehatvn&#34;&gt;&lt;a href=&#34;https://whitehat.vn/&#34;&gt;Whitehat&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Còn trang của nước ngoài thì gồm (trong đó có telegram):&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;cyber-security-newshttpscybersecuritynewscom&#34;&gt;&lt;a href=&#34;https://cybersecuritynews.com/&#34;&gt;Cyber Security News&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;telegram-cyber-threat-intelligencehttpstmectinow&#34;&gt;&lt;a href=&#34;https://t.me/ctinow&#34;&gt;Telegram: Cyber Threat Intelligence&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;kênh-youtube&#34;&gt;Kênh youtube:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Mình đang theo dõi hầu hết các kênh được liệt kê trong hình dưới.&lt;/li&gt;
+&lt;li&gt;Các kênh này không chỉ giúp mình cập nhật về các lỗi CVE mới, mà còn giúp mình cập nhật kiến thức về Network, System.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Top_Youtube_Channel_Hacking.jpg&#34;
+  alt=&#34;Youtube&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/cybersecurity/news/</guid>
+      <pubDate>Wed, 10 Apr 2024 19:27:53 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Rust Lang</title>
       <link>https://vinhlin.github.io/posts/iot/software/rust-lang/</link>
       <description>&lt;h2 id=&#34;rust-lang&#34;&gt;Rust-lang&lt;/h2&gt;
