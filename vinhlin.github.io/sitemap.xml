@@ -2,10 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://vinhlin.github.io/posts/cybersecurity/news/</loc>
-    <lastmod>2024-04-10T19:27:53+07:00</lastmod>
+    <loc>https://vinhlin.github.io/posts/iot/hardware/esd/</loc>
+    <lastmod>2024-05-25T15:59:27+07:00</lastmod>
   </url><url>
     <loc>https://vinhlin.github.io/posts/</loc>
+    <lastmod>2024-05-25T15:59:27+07:00</lastmod>
+  </url><url>
+    <loc>https://vinhlin.github.io/posts/cybersecurity/technical/dflab_vncert/</loc>
+    <lastmod>2024-05-25T15:56:30+07:00</lastmod>
+  </url><url>
+    <loc>https://vinhlin.github.io/posts/cybersecurity/technical/firewall_checklist/</loc>
+    <lastmod>2024-05-25T15:48:35+07:00</lastmod>
+  </url><url>
+    <loc>https://vinhlin.github.io/posts/cybersecurity/technical/nis2/</loc>
+    <lastmod>2024-05-25T15:43:13+07:00</lastmod>
+  </url><url>
+    <loc>https://vinhlin.github.io/posts/cybersecurity/tools/</loc>
+    <lastmod>2024-05-25T15:36:05+07:00</lastmod>
+  </url><url>
+    <loc>https://vinhlin.github.io/posts/cybersecurity/news/</loc>
     <lastmod>2024-04-10T19:27:53+07:00</lastmod>
   </url><url>
     <loc>https://vinhlin.github.io/posts/iot/software/rust-lang/</loc>

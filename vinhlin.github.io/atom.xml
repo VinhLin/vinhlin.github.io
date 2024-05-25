@@ -14,6 +14,195 @@
     
     
     <item>
+      <title>ESD</title>
+      <link>https://vinhlin.github.io/posts/iot/hardware/esd/</link>
+      <description>&lt;h2 id=&#34;esd-electrostatic-sensitive-devices---sự-phóng-tĩnh-điện&#34;&gt;ESD (Electrostatic Sensitive Devices) - Sự phóng tĩnh điện&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Là dòng điện chạy đột ngột và tức thời giữa hai vật nhiễm điện do tiếp xúc, đoản mạch hoặc đánh thủng điện môi.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Đây là một &lt;a href=&#34;https://www.youtube.com/watch?v=MzxBBXpgwrE&#34;&gt;video&lt;/a&gt; nói về cách &lt;strong&gt;chống tĩnh điện&lt;/strong&gt;, dựa trên các linh kiện:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;TVS - Transient Voltage Suppressor
+MOV - Metal Oxide Varistor
+GDT - Gas Discharge Tube
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;tvs-diode&#34;&gt;TVS Diode&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=oKACLpBYhxU&#34;&gt;Một video giải thích cách hoạt động của TVS Diode&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Trong thiết kế bộ nguồn, TVS còn dùng để dập xung ổn định điện áp.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Một ví dụ về linh kiện TVS, &lt;a href=&#34;https://www.mouser.vn/ProductDetail/Semtech/SMF05C.TCT?qs=rBWM4%252BvDhIcdGOAFdL4XAA%3D%3D&amp;amp;_gl=1*109bc2w*_ga*ODE4NDU2NjY3LjE3MTM3NzI5OTI.*_ga_15W4STQT4T*MTcxMzc3Mjk5Mi4xLjAuMTcxMzc3Mjk5My41OS4wLjA.&#34;&gt;Semtech SMF05C.TCT&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;mov&#34;&gt;MOV&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Linh kiện &lt;a href=&#34;https://www.mouser.vn/ProductDetail/Bourns/MOV-10D470KKTR?qs=ST9lo4GX8V0v1uLdRAW6Kg%3D%3D&amp;amp;_gl=1*17bo42l*_ga*MTY3MzQ3NTE2Ni4xNzEzNzcyOTg0*_ga_15W4STQT4T*MTcxMzc3Mjk4My4xLjEuMTcxMzc3Mjk5MC41My4wLjA.&#34;&gt;Bourns MOV-10D470KKTR&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;gdt&#34;&gt;GDT&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Linh kiện &lt;a href=&#34;https://www.mouser.vn/ProductDetail/Bourns/GDT25-47-S1-RP?qs=2MMvu9PpTS3BszAgeO7ppQ%3D%3D&#34;&gt;Bourns GDT25-47-S1-RP&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/ESD_Electronics.png&#34;
+  alt=&#34;ESD&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/iot/hardware/esd/</guid>
+      <pubDate>Sat, 25 May 2024 15:59:27 +0700</pubDate>
+    </item>
+    
+    <item>
+      <title>DFLab_VNCERT</title>
+      <link>https://vinhlin.github.io/posts/cybersecurity/technical/dflab_vncert/</link>
+      <description>&lt;h2 id=&#34;bài-viết---công-cụ-điều-tra-nhật-ký-sự-kiện-của-digital-forensics-lab---cục-an-toàn-thông-tin-vncertcchttpsdfirlabvndocstoolslog&#34;&gt;&lt;a href=&#34;https://df.irlab.vn/docs/tools/log/&#34;&gt;Bài viết - Công cụ điều tra nhật ký sự kiện (của Digital Forensics Lab - Cục An toàn thông tin (VNCERT/CC))&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Bài viết cung cấp thông tin những công cụ hữu ích và miễn phí giúp thu thập và phân tích &lt;strong&gt;log&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Trong đó, mình thấy có những công cụ khá hay ho, có thể nghiên cứu sâu hơn và có thể tận dụng cho môi trường lab của bản thân:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;hayabusahttpsgithubcomyamato-securityhayabusa&#34;&gt;&lt;a href=&#34;https://github.com/Yamato-Security/hayabusa&#34;&gt;Hayabusa&lt;/a&gt;&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Hayabusa là một công cụ xử lý nhanh &lt;strong&gt;Windows Event Log&lt;/strong&gt;, tạo timeline và tìm kiếm mối đe dọa do Yamato Security ở Nhật Bản phát triển. Nó được viết bằng Rust và hỗ trợ xử lý đa luồng. Hayabusa có thể chạy trên các hệ thống đang hoạt động để phân tích trực tiếp, bằng cách thu thập Event Logs từ một hoặc nhiều hệ thống để phân tích ngoại tuyến hoặc bằng cách chạy công cụ Hayabusa với Velociraptor để tìm kiếm mối đe dọa và ứng phó sự cố trên quy mô lớn. Báo cáo là một timeline trên CSV để dễ dàng phân tích trong Excel, Timeline Explorer, Elastic Stack, Timesketch, v.v&amp;hellip;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;goaccesshttpsgithubcomallinurlgoaccess&#34;&gt;&lt;a href=&#34;https://github.com/allinurl/goaccess&#34;&gt;GoAccess&lt;/a&gt;&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;GoAccess là trình phân tích nhật ký web, có thể quan sát theo thời gian thực và trình xem tương tác mã nguồn mở chạy trong terminal trong các hệ thống.. Cung cấp số liệu thống kê HTTP nhanh chóng và có giá trị cho các quản trị viên hệ thống yêu cầu báo cáo máy chủ trực quan một cách nhanh chóng.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://goaccess.io/get-started&#34;&gt;Get Started GoAccess&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=PbKpdHeuG2A&#34;&gt;How to Install GoAccess Web Log Analyzer on Ubuntu 20.04 - 22.04&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/cybersecurity/technical/dflab_vncert/</guid>
+      <pubDate>Sat, 25 May 2024 15:56:30 +0700</pubDate>
+    </item>
+    
+    <item>
+      <title>Firewall_CheckList</title>
+      <link>https://vinhlin.github.io/posts/cybersecurity/technical/firewall_checklist/</link>
+      <description>&lt;h3 id=&#34;có-thể-coi-firewall-checklist-là-phương-pháp-để-mình-pentest-network&#34;&gt;Có thể coi &lt;code&gt;Firewall Checklist&lt;/code&gt; là phương pháp để mình Pentest Network&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Dùng các công cụ để test hạ tầng Network:
+&lt;ul&gt;
+&lt;li&gt;Nmap&lt;/li&gt;
+&lt;li&gt;Ettercap&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.kali.org/tools/firewalk/&#34;&gt;Firewalk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Wireshark&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Check version của Firewall + CVE, tìm các cách khắc phục.&lt;/li&gt;
+&lt;li&gt;Dựa vào file &lt;strong&gt;Firewall_Checklist&lt;/strong&gt; để áp dụng cách đặt rule.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;documents-firewall_checklistdocsfirewallchecklistpdf&#34;&gt;&lt;a href=&#34;https://vinhlin.github.io/docs/FirewallChecklist.pdf&#34;&gt;Documents Firewall_Checklist&lt;/a&gt;&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Firewall_Cheatsheet.jpg&#34;
+  alt=&#34;Firewall Checklist&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/cybersecurity/technical/firewall_checklist/</guid>
+      <pubDate>Sat, 25 May 2024 15:48:35 +0700</pubDate>
+    </item>
+    
+    <item>
+      <title>NIS2</title>
+      <link>https://vinhlin.github.io/posts/cybersecurity/technical/nis2/</link>
+      <description>&lt;h2 id=&#34;bài-viết-tuân-thủ-nis2-cho-các-mạng-công-nghiệphttpswhitehatvnthreadstuan-thu-nis2-cho-cac-mang-cong-nghiep-ban-da-san-sang-chua17872&#34;&gt;&lt;a href=&#34;https://whitehat.vn/threads/tuan-thu-nis2-cho-cac-mang-cong-nghiep-ban-da-san-sang-chua.17872/&#34;&gt;Bài viết: Tuân thủ NIS2 cho các mạng công nghiệp&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;nis2-compliance-for-industries-white-paperhttpswwwciscocomcenusproductscollateralsecurityindustrial-securitynetwork-info-security-wppdf&#34;&gt;&lt;a href=&#34;https://www.cisco.com/c/en/us/products/collateral/security/industrial-security/network-info-security-wp.pdf&#34;&gt;NIS2 Compliance for Industries White Paper&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;tổng-hợp-các-thông-tin-cần-biết-trong-bài-viết&#34;&gt;Tổng hợp các thông tin cần biết trong bài viết:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Các phần tử kết nối mạng OT cần được chứng nhận an toàn&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Các tiêu chuẩn ISA/IEC 62443 Phần 4-1 và Phần 4-2 ghi rõ một tài sản OT an toàn là gì.&lt;/li&gt;
+&lt;li&gt;Vì vậy khi bạn mua các thiết bị, hãy yêu cầu nhà cung cấp chứng minh sản phẩm của họ tuân thủ theo tiêu chuẩn trên.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Đánh giá và xếp loại ưu tiên các rủi ro mạng OT&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Nhiều tổ chức vẫn chưa có một danh sách chi tiết về những gì đang được kết nối với mạng công nghiệp của họ.&lt;/li&gt;
+&lt;li&gt;NIS2 yêu cầu bạn có khả năng &amp;ldquo;nhìn xuyên thấu&amp;rdquo; vào hệ thống OT, từ đó áp dụng các quy tắc thực tiễn tốt nhất để đảm bảo an ninh.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Triển khai Zero-trust&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hầu hết các mạng công nghiệp đã phát triển thành các mạng lớn và phẳng ở layer 2.&lt;/li&gt;
+&lt;li&gt;Lưu lượng độc hại có thể dễ dàng lan truyền và chiếm quyền kiểm soát toàn bộ hoạt động của bạn.&lt;/li&gt;
+&lt;li&gt;ISA/IEC 62443 Phần 3-3 yêu cầu phân đoạn mạng thành các vùng có phạm vi nhỏ. Trong mỗi vùng, các tài sản chỉ có thể giao tiếp với những thiết bị cần thiết, để có thể chạy theo quy trình công nghiệp sẵn có.&lt;/li&gt;
+&lt;li&gt;Đây chính là cách tiếp cận tối thiểu (Least Privillige) của an ninh mạng.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Triển khai Zero-trust remote access&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Thay vì sử dụng các kết nối từ xa truyền thống tới mạng IT (VPN, remote desktop&amp;hellip;)&lt;/li&gt;
+&lt;li&gt;Hãy sử dụng ZTNA ( Zero-Trust Network Access) với cơ chế phân quyền truy cập theo người dùng, theo thời gian, theo thiết bị, xác thực đa yếu tố, và cơ chế theo dõi hoạt động của kết nối đó trong suốt phiên truy cập.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Phát hiện và báo cáo sự cố&lt;/strong&gt;: NIS2 cũng yêu cầu có các công cụ để nhanh chóng phát hiện các sự cố và có thể thực hiện hành động phản ứng tức thời với các vi phạm an ninh.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/IoT_Security.jpg&#34;
+  alt=&#34;IoT Security&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/cybersecurity/technical/nis2/</guid>
+      <pubDate>Sat, 25 May 2024 15:43:13 +0700</pubDate>
+    </item>
+    
+    <item>
+      <title>Tools</title>
+      <link>https://vinhlin.github.io/posts/cybersecurity/tools/</link>
+      <description>&lt;h3 id=&#34;tool-git-dumperhttpsgithubcomarthaudgit-dumper&#34;&gt;&lt;a href=&#34;https://github.com/arthaud/git-dumper&#34;&gt;Tool: Git-Dumper&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Trong quá trình &lt;strong&gt;recon&lt;/strong&gt; một trang web, mà mình thấy có đường dẫn &lt;code&gt;.git&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Thì có thể dùng tool &lt;strong&gt;git-dumper&lt;/strong&gt; này để lấy thông tin.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;tool-web-checkhttpsweb-checkxyz&#34;&gt;&lt;a href=&#34;https://web-check.xyz/&#34;&gt;Tool Web Check&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/lissy93/web-check&#34;&gt;https://github.com/lissy93/web-check&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://web-check.xyz/about#api-documentation&#34;&gt;https://web-check.xyz/about#api-documentation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/cybersecurity/tools/</guid>
+      <pubDate>Sat, 25 May 2024 15:36:05 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>News</title>
       <link>https://vinhlin.github.io/posts/cybersecurity/news/</link>
       <description>&lt;ul&gt;
