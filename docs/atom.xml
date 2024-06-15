@@ -14,6 +14,133 @@
     
     
     <item>
+      <title>ReadTeam</title>
+      <link>https://vinhlin.github.io/posts/cybersecurity/readteam/</link>
+      <description>&lt;h3 id=&#34;5-free-red-teaming-resources-to-get-you-startedhttpswwwhelpnetsecuritycom20240416free-red-teaming-resources&#34;&gt;&lt;a href=&#34;https://www.helpnetsecurity.com/2024/04/16/free-red-teaming-resources/&#34;&gt;5 free red teaming resources to get you started&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dmcxblue.gitbook.io/red-team-notes-2-0&#34;&gt;Red Team Notes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://assets.publishing.service.gov.uk/media/61702155e90e07197867eb93/20210625-Red_Teaming_Handbook.pdf&#34;&gt;Red Teaming Handbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/A-poc/RedTeam-Tools&#34;&gt;Red Team Tools&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/infosecn1nja/Red-Teaming-Toolkit&#34;&gt;Red Teaming Toolkit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/cybersecurity/readteam/</guid>
+      <pubDate>Sat, 15 Jun 2024 11:05:38 +0700</pubDate>
+    </item>
+    
+    <item>
+      <title>TheHive</title>
+      <link>https://vinhlin.github.io/posts/cybersecurity/technical/thehive/</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;Theo mình nghiên cứu và hiểu thì SOC sẽ gồm các quá trình:
+&lt;ul&gt;
+&lt;li&gt;Phát hiện&lt;/li&gt;
+&lt;li&gt;Báo cáo&lt;/li&gt;
+&lt;li&gt;Xử lý&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Công cụ &lt;strong&gt;TheHive&lt;/strong&gt; là nằm trong giai đoạn 2.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ví-dụ-dễ-hiểu-như-sau&#34;&gt;Ví dụ dễ hiểu như sau:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Khi nhận cảnh báo về một sự kiện nào đó, nhân viên A sẽ làm check và xử lý cơ bản tác vụ này.&lt;/li&gt;
+&lt;li&gt;Nếu không xử lý được, hoặc mức độ phức tạp cao thì tạo &lt;strong&gt;Ticket&lt;/strong&gt; mô tả và cung cấp đầy đủ thông tin.
+(Giai đoạn này là bước sử dụng &lt;strong&gt;TheHive&lt;/strong&gt;).&lt;/li&gt;
+&lt;li&gt;Người có trách nhiệm, hoặc chuyên môn cao sẽ nhận ticket này và tiếp tục xử lý.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;thehive&#34;&gt;TheHive&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;TheHive cũng có chức năng như &lt;strong&gt;JIRA&lt;/strong&gt;, tuy nhiên TheHive là &lt;strong&gt;open-source&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Documents:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;- https://thehive-project.org/
+- http://docs.thehive-project.org/cortex/
+- https://github.com/thehive-project/Cortex/
+- https://blog.thehive-project.org/
+- https://docs.thehive-project.org/
+- https://github.com/TheHive-Project/Cortex
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;tham-khảo-thehive-với-graylog&#34;&gt;Tham khảo TheHive với Graylog&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;- https://blog.reconinfosec.com/integrating-graylog-with-thehive
+- https://github.com/ReconInfoSec/graylog2thehive
+&lt;/code&gt;&lt;/pre&gt;</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/cybersecurity/technical/thehive/</guid>
+      <pubDate>Sat, 15 Jun 2024 11:04:17 +0700</pubDate>
+    </item>
+    
+    <item>
+      <title>OSINT</title>
+      <link>https://vinhlin.github.io/posts/cybersecurity/technical/osint/</link>
+      <description>&lt;h3 id=&#34;osint---open-source-intelligencehttpsanonyvietcomosint-la-gi-osint-duoc-su-dung-nhu-the-nao-de-truy-vet-qua-internet&#34;&gt;&lt;a href=&#34;https://anonyviet.com/osint-la-gi-osint-duoc-su-dung-nhu-the-nao-de-truy-vet-qua-internet/&#34;&gt;OSINT - Open Source Intelligence&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Bước đầu tiên&lt;/strong&gt; trong một cuộc tấn công có chủ đích – hoặc kiểm tra thâm nhập của Red Team – là &lt;strong&gt;thu thập các thông tin&lt;/strong&gt; giá trị về mục tiêu.&lt;/li&gt;
+&lt;li&gt;Thu thập thông tin thì có 2 dạng là:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Passive Reconnaissance - Thu thập thông tin thụ động
+Active Reconnaissance - Thu thập thông tin chủ động
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Trong đó việc &lt;strong&gt;thu thập thông tin thụ động&lt;/strong&gt; thường được gọi là &lt;strong&gt;OSINT&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Bất kỳ thông tin công khai nào được tìm thấy đều là OSINT cho dù đó là sách hoặc báo cáo, bài viết trên báo chí hay tuyên bố trong thông cáo báo chí.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;others-documents&#34;&gt;Others Documents&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.hackers-arise.com/osint&#34;&gt;https://www.hackers-arise.com/osint&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://anonyviet.com/cac-tool-osint-truy-vet-toi-pham-tren-internet/&#34;&gt;Top 10 công cụ OSINT tốt nhất 2020&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;một-số-công-cụ-theo-osint-frameworkhttpsosintframeworkcom-mà-mình-biết&#34;&gt;Một số công cụ theo &lt;a href=&#34;https://osintframework.com/&#34;&gt;OSINT Framework&lt;/a&gt; mà mình biết:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.virustotal.com/gui/home/upload&#34;&gt;VirusTotal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.shodan.io/&#34;&gt;Shodan&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://archive.org/web/&#34;&gt;Wayback Machine&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://any.run/&#34;&gt;ANY.RUN&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/cybersecurity/technical/osint/</guid>
+      <pubDate>Sat, 15 Jun 2024 11:02:08 +0700</pubDate>
+    </item>
+    
+    <item>
+      <title>Tools</title>
+      <link>https://vinhlin.github.io/posts/cybersecurity/tools/</link>
+      <description>&lt;h3 id=&#34;tool-git-dumperhttpsgithubcomarthaudgit-dumper&#34;&gt;&lt;a href=&#34;https://github.com/arthaud/git-dumper&#34;&gt;Tool: Git-Dumper&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Trong quá trình &lt;strong&gt;recon&lt;/strong&gt; một trang web, mà mình thấy có đường dẫn &lt;code&gt;.git&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Thì có thể dùng tool &lt;strong&gt;git-dumper&lt;/strong&gt; này để lấy thông tin.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;tool-web-checkhttpsweb-checkxyz&#34;&gt;&lt;a href=&#34;https://web-check.xyz/&#34;&gt;Tool Web Check&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Đây là một công cụ có thể sử dụng online, hoặc build ở local.&lt;/li&gt;
+&lt;li&gt;Công cụ này giúp mình recon những thông số cơ bản của một trang web.&lt;/li&gt;
+&lt;li&gt;Tài liệu:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;1. https://github.com/lissy93/web-check
+2. https://web-check.xyz/about#api-documentation
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;caidohttpscaidoio&#34;&gt;&lt;a href=&#34;https://caido.io/&#34;&gt;Caido&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Công cụ này có chức năng tương tự như &lt;strong&gt;Burp-Suite&lt;/strong&gt;, nhưng mà là ở &lt;strong&gt;giao diện Web&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=5Di0VVK9JiQ&amp;amp;list=WL&amp;amp;index=2&#34;&gt;Tham khảo Youtube: How to Hack Web Apps with Caido&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tài liệu:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.caido.io/&#34;&gt;Docs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/caido&#34;&gt;Github Project&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;cuckoo-sandbox&#34;&gt;Cuckoo Sandbox&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://cuckoosandbox.org/download
+https://cuckoo.sh/docs/
+https://cuckoo.sh/docs/installation/host/requirements.html
+https://cuckoosandbox.org/blog/207-interim-release
+&lt;/code&gt;&lt;/pre&gt;</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/cybersecurity/tools/</guid>
+      <pubDate>Thu, 30 May 2024 15:36:05 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>ESD</title>
       <link>https://vinhlin.github.io/posts/iot/hardware/esd/</link>
       <description>&lt;h2 id=&#34;esd-electrostatic-sensitive-devices---sự-phóng-tĩnh-điện&#34;&gt;ESD (Electrostatic Sensitive Devices) - Sự phóng tĩnh điện&lt;/h2&gt;
@@ -182,24 +309,6 @@ GDT - Gas Discharge Tube
       <author>VinhLD</author>
       <guid>https://vinhlin.github.io/posts/cybersecurity/technical/nis2/</guid>
       <pubDate>Sat, 25 May 2024 15:43:13 +0700</pubDate>
-    </item>
-    
-    <item>
-      <title>Tools</title>
-      <link>https://vinhlin.github.io/posts/cybersecurity/tools/</link>
-      <description>&lt;h3 id=&#34;tool-git-dumperhttpsgithubcomarthaudgit-dumper&#34;&gt;&lt;a href=&#34;https://github.com/arthaud/git-dumper&#34;&gt;Tool: Git-Dumper&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Trong quá trình &lt;strong&gt;recon&lt;/strong&gt; một trang web, mà mình thấy có đường dẫn &lt;code&gt;.git&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Thì có thể dùng tool &lt;strong&gt;git-dumper&lt;/strong&gt; này để lấy thông tin.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;tool-web-checkhttpsweb-checkxyz&#34;&gt;&lt;a href=&#34;https://web-check.xyz/&#34;&gt;Tool Web Check&lt;/a&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/lissy93/web-check&#34;&gt;https://github.com/lissy93/web-check&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://web-check.xyz/about#api-documentation&#34;&gt;https://web-check.xyz/about#api-documentation&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-      <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/cybersecurity/tools/</guid>
-      <pubDate>Sat, 25 May 2024 15:36:05 +0700</pubDate>
     </item>
     
     <item>

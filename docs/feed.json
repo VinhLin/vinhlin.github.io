@@ -16,6 +16,66 @@
 
     
     {
+      "id": "ae7c631b1ca5f38d98813231cabe49243612ed36",
+      "title": "ReadTeam",
+      "summary": "",
+      "content_text": "5 free red teaming resources to get you started Red Team Notes Red Teaming Handbook Red Team Tools Red Teaming Toolkit ",
+      "content_html": "\u003ch3 id=\"5-free-red-teaming-resources-to-get-you-startedhttpswwwhelpnetsecuritycom20240416free-red-teaming-resources\"\u003e\u003ca href=\"https://www.helpnetsecurity.com/2024/04/16/free-red-teaming-resources/\"\u003e5 free red teaming resources to get you started\u003c/a\u003e\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://dmcxblue.gitbook.io/red-team-notes-2-0\"\u003eRed Team Notes\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://assets.publishing.service.gov.uk/media/61702155e90e07197867eb93/20210625-Red_Teaming_Handbook.pdf\"\u003eRed Teaming Handbook\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/A-poc/RedTeam-Tools\"\u003eRed Team Tools\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/infosecn1nja/Red-Teaming-Toolkit\"\u003eRed Teaming Toolkit\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n",
+      "url": "https://vinhlin.github.io/posts/cybersecurity/readteam/",
+      "date_published": "15066-15-09T65:1515:00+07:00",
+      "date_modified": "15066-15-09T65:1515:00+07:00",
+      "author": {
+        "name": "VinhLD",
+        "url": "https://vinhlin.github.io/"
+      }
+    },
+    
+    {
+      "id": "4f09e909e9a87e6f4fa1e981ddc482695a0ed92a",
+      "title": "TheHive",
+      "summary": "",
+      "content_text": " Theo mình nghiên cứu và hiểu thì SOC sẽ gồm các quá trình: Phát hiện Báo cáo Xử lý Công cụ TheHive là nằm trong giai đoạn 2. Ví dụ dễ hiểu như sau: Khi nhận cảnh báo về một sự kiện nào đó, nhân viên A sẽ làm check và xử lý cơ bản tác vụ này. Nếu không xử lý được, hoặc mức độ phức tạp cao thì tạo Ticket mô tả và cung cấp đầy đủ thông tin. (Giai đoạn này là bước sử dụng TheHive). Người có trách nhiệm, hoặc chuyên môn cao sẽ nhận ticket này và tiếp tục xử lý. TheHive TheHive cũng có chức năng như JIRA, tuy nhiên TheHive là open-source. Documents: - https://thehive-project.org/ - http://docs.thehive-project.org/cortex/ - https://github.com/thehive-project/Cortex/ - https://blog.thehive-project.org/ - https://docs.thehive-project.org/ - https://github.com/TheHive-Project/Cortex Tham khảo TheHive với Graylog - https://blog.reconinfosec.com/integrating-graylog-with-thehive - https://github.com/ReconInfoSec/graylog2thehive ",
+      "content_html": "\u003cul\u003e\n\u003cli\u003eTheo mình nghiên cứu và hiểu thì SOC sẽ gồm các quá trình:\n\u003cul\u003e\n\u003cli\u003ePhát hiện\u003c/li\u003e\n\u003cli\u003eBáo cáo\u003c/li\u003e\n\u003cli\u003eXử lý\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eCông cụ \u003cstrong\u003eTheHive\u003c/strong\u003e là nằm trong giai đoạn 2.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3 id=\"ví-dụ-dễ-hiểu-như-sau\"\u003eVí dụ dễ hiểu như sau:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eKhi nhận cảnh báo về một sự kiện nào đó, nhân viên A sẽ làm check và xử lý cơ bản tác vụ này.\u003c/li\u003e\n\u003cli\u003eNếu không xử lý được, hoặc mức độ phức tạp cao thì tạo \u003cstrong\u003eTicket\u003c/strong\u003e mô tả và cung cấp đầy đủ thông tin.\n(Giai đoạn này là bước sử dụng \u003cstrong\u003eTheHive\u003c/strong\u003e).\u003c/li\u003e\n\u003cli\u003eNgười có trách nhiệm, hoặc chuyên môn cao sẽ nhận ticket này và tiếp tục xử lý.\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr\u003e\n\u003ch2 id=\"thehive\"\u003eTheHive\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eTheHive cũng có chức năng như \u003cstrong\u003eJIRA\u003c/strong\u003e, tuy nhiên TheHive là \u003cstrong\u003eopen-source\u003c/strong\u003e.\u003c/li\u003e\n\u003cli\u003eDocuments:\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003e- https://thehive-project.org/\n- http://docs.thehive-project.org/cortex/\n- https://github.com/thehive-project/Cortex/\n- https://blog.thehive-project.org/\n- https://docs.thehive-project.org/\n- https://github.com/TheHive-Project/Cortex\n\u003c/code\u003e\u003c/pre\u003e\u003ch3 id=\"tham-khảo-thehive-với-graylog\"\u003eTham khảo TheHive với Graylog\u003c/h3\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003e- https://blog.reconinfosec.com/integrating-graylog-with-thehive\n- https://github.com/ReconInfoSec/graylog2thehive\n\u003c/code\u003e\u003c/pre\u003e",
+      "url": "https://vinhlin.github.io/posts/cybersecurity/technical/thehive/",
+      "date_published": "15066-15-09T64:1515:00+07:00",
+      "date_modified": "15066-15-09T64:1515:00+07:00",
+      "author": {
+        "name": "VinhLD",
+        "url": "https://vinhlin.github.io/"
+      }
+    },
+    
+    {
+      "id": "d301d9e6e4aeff77c37f37bb07966a98039f0832",
+      "title": "OSINT",
+      "summary": "",
+      "content_text": "OSINT - Open Source Intelligence Bước đầu tiên trong một cuộc tấn công có chủ đích – hoặc kiểm tra thâm nhập của Red Team – là thu thập các thông tin giá trị về mục tiêu. Thu thập thông tin thì có 2 dạng là: Passive Reconnaissance - Thu thập thông tin thụ động Active Reconnaissance - Thu thập thông tin chủ động Trong đó việc thu thập thông tin thụ động thường được gọi là OSINT. Bất kỳ thông tin công khai nào được tìm thấy đều là OSINT cho dù đó là sách hoặc báo cáo, bài viết trên báo chí hay tuyên bố trong thông cáo báo chí. Others Documents https://www.hackers-arise.com/osint Top 10 công cụ OSINT tốt nhất 2020 Một số công cụ theo OSINT Framework mà mình biết: VirusTotal Shodan Wayback Machine ANY.RUN ",
+      "content_html": "\u003ch3 id=\"osint---open-source-intelligencehttpsanonyvietcomosint-la-gi-osint-duoc-su-dung-nhu-the-nao-de-truy-vet-qua-internet\"\u003e\u003ca href=\"https://anonyviet.com/osint-la-gi-osint-duoc-su-dung-nhu-the-nao-de-truy-vet-qua-internet/\"\u003eOSINT - Open Source Intelligence\u003c/a\u003e\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eBước đầu tiên\u003c/strong\u003e trong một cuộc tấn công có chủ đích – hoặc kiểm tra thâm nhập của Red Team – là \u003cstrong\u003ethu thập các thông tin\u003c/strong\u003e giá trị về mục tiêu.\u003c/li\u003e\n\u003cli\u003eThu thập thông tin thì có 2 dạng là:\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003ePassive Reconnaissance - Thu thập thông tin thụ động\nActive Reconnaissance - Thu thập thông tin chủ động\n\u003c/code\u003e\u003c/pre\u003e\u003cul\u003e\n\u003cli\u003eTrong đó việc \u003cstrong\u003ethu thập thông tin thụ động\u003c/strong\u003e thường được gọi là \u003cstrong\u003eOSINT\u003c/strong\u003e.\u003c/li\u003e\n\u003cli\u003eBất kỳ thông tin công khai nào được tìm thấy đều là OSINT cho dù đó là sách hoặc báo cáo, bài viết trên báo chí hay tuyên bố trong thông cáo báo chí.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3 id=\"others-documents\"\u003eOthers Documents\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://www.hackers-arise.com/osint\"\u003ehttps://www.hackers-arise.com/osint\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://anonyviet.com/cac-tool-osint-truy-vet-toi-pham-tren-internet/\"\u003eTop 10 công cụ OSINT tốt nhất 2020\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3 id=\"một-số-công-cụ-theo-osint-frameworkhttpsosintframeworkcom-mà-mình-biết\"\u003eMột số công cụ theo \u003ca href=\"https://osintframework.com/\"\u003eOSINT Framework\u003c/a\u003e mà mình biết:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://www.virustotal.com/gui/home/upload\"\u003eVirusTotal\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://www.shodan.io/\"\u003eShodan\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://archive.org/web/\"\u003eWayback Machine\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://any.run/\"\u003eANY.RUN\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n",
+      "url": "https://vinhlin.github.io/posts/cybersecurity/technical/osint/",
+      "date_published": "15066-15-09T62:1515:00+07:00",
+      "date_modified": "15066-15-09T62:1515:00+07:00",
+      "author": {
+        "name": "VinhLD",
+        "url": "https://vinhlin.github.io/"
+      }
+    },
+    
+    {
+      "id": "4fa8cc860c52b268dc6a3adcde7305e9415db5bb",
+      "title": "Tools",
+      "summary": "",
+      "content_text": "Tool: Git-Dumper Trong quá trình recon một trang web, mà mình thấy có đường dẫn .git Thì có thể dùng tool git-dumper này để lấy thông tin. Tool Web Check Đây là một công cụ có thể sử dụng online, hoặc build ở local. Công cụ này giúp mình recon những thông số cơ bản của một trang web. Tài liệu: 1. https://github.com/lissy93/web-check 2. https://web-check.xyz/about#api-documentation Caido Công cụ này có chức năng tương tự như Burp-Suite, nhưng mà là ở giao diện Web. Tham khảo Youtube: How to Hack Web Apps with Caido Tài liệu: Docs Github Project Cuckoo Sandbox https://cuckoosandbox.org/download https://cuckoo.sh/docs/ https://cuckoo.sh/docs/installation/host/requirements.html https://cuckoosandbox.org/blog/207-interim-release ",
+      "content_html": "\u003ch3 id=\"tool-git-dumperhttpsgithubcomarthaudgit-dumper\"\u003e\u003ca href=\"https://github.com/arthaud/git-dumper\"\u003eTool: Git-Dumper\u003c/a\u003e\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eTrong quá trình \u003cstrong\u003erecon\u003c/strong\u003e một trang web, mà mình thấy có đường dẫn \u003ccode\u003e.git\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003eThì có thể dùng tool \u003cstrong\u003egit-dumper\u003c/strong\u003e này để lấy thông tin.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3 id=\"tool-web-checkhttpsweb-checkxyz\"\u003e\u003ca href=\"https://web-check.xyz/\"\u003eTool Web Check\u003c/a\u003e\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eĐây là một công cụ có thể sử dụng online, hoặc build ở local.\u003c/li\u003e\n\u003cli\u003eCông cụ này giúp mình recon những thông số cơ bản của một trang web.\u003c/li\u003e\n\u003cli\u003eTài liệu:\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003e1. https://github.com/lissy93/web-check\n2. https://web-check.xyz/about#api-documentation\n\u003c/code\u003e\u003c/pre\u003e\u003ch3 id=\"caidohttpscaidoio\"\u003e\u003ca href=\"https://caido.io/\"\u003eCaido\u003c/a\u003e\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eCông cụ này có chức năng tương tự như \u003cstrong\u003eBurp-Suite\u003c/strong\u003e, nhưng mà là ở \u003cstrong\u003egiao diện Web\u003c/strong\u003e.\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://www.youtube.com/watch?v=5Di0VVK9JiQ\u0026amp;list=WL\u0026amp;index=2\"\u003eTham khảo Youtube: How to Hack Web Apps with Caido\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003eTài liệu:\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://docs.caido.io/\"\u003eDocs\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/caido\"\u003eGithub Project\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3 id=\"cuckoo-sandbox\"\u003eCuckoo Sandbox\u003c/h3\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003ehttps://cuckoosandbox.org/download\nhttps://cuckoo.sh/docs/\nhttps://cuckoo.sh/docs/installation/host/requirements.html\nhttps://cuckoosandbox.org/blog/207-interim-release\n\u003c/code\u003e\u003c/pre\u003e",
+      "url": "https://vinhlin.github.io/posts/cybersecurity/tools/",
+      "date_published": "30056-30-09T536:3030:00+07:00",
+      "date_modified": "30056-30-09T536:3030:00+07:00",
+      "author": {
+        "name": "VinhLD",
+        "url": "https://vinhlin.github.io/"
+      }
+    },
+    
+    {
       "id": "c63929f0d793b4d6bd0bdcf6149015836543e3ec",
       "title": "ESD",
       "summary": "",
@@ -69,21 +129,6 @@
       "url": "https://vinhlin.github.io/posts/cybersecurity/technical/nis2/",
       "date_published": "25056-25-09T543:2525:00+07:00",
       "date_modified": "25056-25-09T543:2525:00+07:00",
-      "author": {
-        "name": "VinhLD",
-        "url": "https://vinhlin.github.io/"
-      }
-    },
-    
-    {
-      "id": "4fa8cc860c52b268dc6a3adcde7305e9415db5bb",
-      "title": "Tools",
-      "summary": "",
-      "content_text": "Tool: Git-Dumper Trong quá trình recon một trang web, mà mình thấy có đường dẫn .git\nThì có thể dùng tool git-dumper này để lấy thông tin.\nTool Web Check https://github.com/lissy93/web-check https://web-check.xyz/about#api-documentation ",
-      "content_html": "\u003ch3 id=\"tool-git-dumperhttpsgithubcomarthaudgit-dumper\"\u003e\u003ca href=\"https://github.com/arthaud/git-dumper\"\u003eTool: Git-Dumper\u003c/a\u003e\u003c/h3\u003e\n\u003cp\u003eTrong quá trình \u003cstrong\u003erecon\u003c/strong\u003e một trang web, mà mình thấy có đường dẫn \u003ccode\u003e.git\u003c/code\u003e\u003c/p\u003e\n\u003cp\u003eThì có thể dùng tool \u003cstrong\u003egit-dumper\u003c/strong\u003e này để lấy thông tin.\u003c/p\u003e\n\u003chr\u003e\n\u003ch3 id=\"tool-web-checkhttpsweb-checkxyz\"\u003e\u003ca href=\"https://web-check.xyz/\"\u003eTool Web Check\u003c/a\u003e\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/lissy93/web-check\"\u003ehttps://github.com/lissy93/web-check\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://web-check.xyz/about#api-documentation\"\u003ehttps://web-check.xyz/about#api-documentation\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n",
-      "url": "https://vinhlin.github.io/posts/cybersecurity/tools/",
-      "date_published": "25056-25-09T536:2525:00+07:00",
-      "date_modified": "25056-25-09T536:2525:00+07:00",
       "author": {
         "name": "VinhLD",
         "url": "https://vinhlin.github.io/"
