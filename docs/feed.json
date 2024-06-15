@@ -1,0 +1,229 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "VinhLin",
+  "home_page_url": "https://vinhlin.github.io/",
+  "feed_url": "https://vinhlin.github.io/feed.json",
+  "description": "Technology Blog",
+  "favicon": "https://vinhlin.github.io//assets/favicon.ico",
+  "expired": false,
+  "author": {
+    "name": "VinhLD",
+    "url": "https://vinhlin.github.io/"
+  },
+  "items": [
+    
+    
+
+    
+    {
+      "id": "ae7c631b1ca5f38d98813231cabe49243612ed36",
+      "title": "ReadTeam",
+      "summary": "",
+      "content_text": "5 free red teaming resources to get you started Red Team Notes Red Teaming Handbook Red Team Tools Red Teaming Toolkit ",
+      "content_html": "\u003ch3 id=\"5-free-red-teaming-resources-to-get-you-startedhttpswwwhelpnetsecuritycom20240416free-red-teaming-resources\"\u003e\u003ca href=\"https://www.helpnetsecurity.com/2024/04/16/free-red-teaming-resources/\"\u003e5 free red teaming resources to get you started\u003c/a\u003e\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://dmcxblue.gitbook.io/red-team-notes-2-0\"\u003eRed Team Notes\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://assets.publishing.service.gov.uk/media/61702155e90e07197867eb93/20210625-Red_Teaming_Handbook.pdf\"\u003eRed Teaming Handbook\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/A-poc/RedTeam-Tools\"\u003eRed Team Tools\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/infosecn1nja/Red-Teaming-Toolkit\"\u003eRed Teaming Toolkit\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n",
+      "url": "https://vinhlin.github.io/posts/cybersecurity/readteam/",
+      "date_published": "15066-15-09T65:1515:00+07:00",
+      "date_modified": "15066-15-09T65:1515:00+07:00",
+      "author": {
+        "name": "VinhLD",
+        "url": "https://vinhlin.github.io/"
+      }
+    },
+    
+    {
+      "id": "4f09e909e9a87e6f4fa1e981ddc482695a0ed92a",
+      "title": "TheHive",
+      "summary": "",
+      "content_text": " Theo mình nghiên cứu và hiểu thì SOC sẽ gồm các quá trình: Phát hiện Báo cáo Xử lý Công cụ TheHive là nằm trong giai đoạn 2. Ví dụ dễ hiểu như sau: Khi nhận cảnh báo về một sự kiện nào đó, nhân viên A sẽ làm check và xử lý cơ bản tác vụ này. Nếu không xử lý được, hoặc mức độ phức tạp cao thì tạo Ticket mô tả và cung cấp đầy đủ thông tin. (Giai đoạn này là bước sử dụng TheHive). Người có trách nhiệm, hoặc chuyên môn cao sẽ nhận ticket này và tiếp tục xử lý. TheHive TheHive cũng có chức năng như JIRA, tuy nhiên TheHive là open-source. Documents: - https://thehive-project.org/ - http://docs.thehive-project.org/cortex/ - https://github.com/thehive-project/Cortex/ - https://blog.thehive-project.org/ - https://docs.thehive-project.org/ - https://github.com/TheHive-Project/Cortex Tham khảo TheHive với Graylog - https://blog.reconinfosec.com/integrating-graylog-with-thehive - https://github.com/ReconInfoSec/graylog2thehive ",
+      "content_html": "\u003cul\u003e\n\u003cli\u003eTheo mình nghiên cứu và hiểu thì SOC sẽ gồm các quá trình:\n\u003cul\u003e\n\u003cli\u003ePhát hiện\u003c/li\u003e\n\u003cli\u003eBáo cáo\u003c/li\u003e\n\u003cli\u003eXử lý\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eCông cụ \u003cstrong\u003eTheHive\u003c/strong\u003e là nằm trong giai đoạn 2.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3 id=\"ví-dụ-dễ-hiểu-như-sau\"\u003eVí dụ dễ hiểu như sau:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eKhi nhận cảnh báo về một sự kiện nào đó, nhân viên A sẽ làm check và xử lý cơ bản tác vụ này.\u003c/li\u003e\n\u003cli\u003eNếu không xử lý được, hoặc mức độ phức tạp cao thì tạo \u003cstrong\u003eTicket\u003c/strong\u003e mô tả và cung cấp đầy đủ thông tin.\n(Giai đoạn này là bước sử dụng \u003cstrong\u003eTheHive\u003c/strong\u003e).\u003c/li\u003e\n\u003cli\u003eNgười có trách nhiệm, hoặc chuyên môn cao sẽ nhận ticket này và tiếp tục xử lý.\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr\u003e\n\u003ch2 id=\"thehive\"\u003eTheHive\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eTheHive cũng có chức năng như \u003cstrong\u003eJIRA\u003c/strong\u003e, tuy nhiên TheHive là \u003cstrong\u003eopen-source\u003c/strong\u003e.\u003c/li\u003e\n\u003cli\u003eDocuments:\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003e- https://thehive-project.org/\n- http://docs.thehive-project.org/cortex/\n- https://github.com/thehive-project/Cortex/\n- https://blog.thehive-project.org/\n- https://docs.thehive-project.org/\n- https://github.com/TheHive-Project/Cortex\n\u003c/code\u003e\u003c/pre\u003e\u003ch3 id=\"tham-khảo-thehive-với-graylog\"\u003eTham khảo TheHive với Graylog\u003c/h3\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003e- https://blog.reconinfosec.com/integrating-graylog-with-thehive\n- https://github.com/ReconInfoSec/graylog2thehive\n\u003c/code\u003e\u003c/pre\u003e",
+      "url": "https://vinhlin.github.io/posts/cybersecurity/technical/thehive/",
+      "date_published": "15066-15-09T64:1515:00+07:00",
+      "date_modified": "15066-15-09T64:1515:00+07:00",
+      "author": {
+        "name": "VinhLD",
+        "url": "https://vinhlin.github.io/"
+      }
+    },
+    
+    {
+      "id": "d301d9e6e4aeff77c37f37bb07966a98039f0832",
+      "title": "OSINT",
+      "summary": "",
+      "content_text": "OSINT - Open Source Intelligence Bước đầu tiên trong một cuộc tấn công có chủ đích – hoặc kiểm tra thâm nhập của Red Team – là thu thập các thông tin giá trị về mục tiêu. Thu thập thông tin thì có 2 dạng là: Passive Reconnaissance - Thu thập thông tin thụ động Active Reconnaissance - Thu thập thông tin chủ động Trong đó việc thu thập thông tin thụ động thường được gọi là OSINT. Bất kỳ thông tin công khai nào được tìm thấy đều là OSINT cho dù đó là sách hoặc báo cáo, bài viết trên báo chí hay tuyên bố trong thông cáo báo chí. Others Documents https://www.hackers-arise.com/osint Top 10 công cụ OSINT tốt nhất 2020 Một số công cụ theo OSINT Framework mà mình biết: VirusTotal Shodan Wayback Machine ANY.RUN ",
+      "content_html": "\u003ch3 id=\"osint---open-source-intelligencehttpsanonyvietcomosint-la-gi-osint-duoc-su-dung-nhu-the-nao-de-truy-vet-qua-internet\"\u003e\u003ca href=\"https://anonyviet.com/osint-la-gi-osint-duoc-su-dung-nhu-the-nao-de-truy-vet-qua-internet/\"\u003eOSINT - Open Source Intelligence\u003c/a\u003e\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eBước đầu tiên\u003c/strong\u003e trong một cuộc tấn công có chủ đích – hoặc kiểm tra thâm nhập của Red Team – là \u003cstrong\u003ethu thập các thông tin\u003c/strong\u003e giá trị về mục tiêu.\u003c/li\u003e\n\u003cli\u003eThu thập thông tin thì có 2 dạng là:\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003ePassive Reconnaissance - Thu thập thông tin thụ động\nActive Reconnaissance - Thu thập thông tin chủ động\n\u003c/code\u003e\u003c/pre\u003e\u003cul\u003e\n\u003cli\u003eTrong đó việc \u003cstrong\u003ethu thập thông tin thụ động\u003c/strong\u003e thường được gọi là \u003cstrong\u003eOSINT\u003c/strong\u003e.\u003c/li\u003e\n\u003cli\u003eBất kỳ thông tin công khai nào được tìm thấy đều là OSINT cho dù đó là sách hoặc báo cáo, bài viết trên báo chí hay tuyên bố trong thông cáo báo chí.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3 id=\"others-documents\"\u003eOthers Documents\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://www.hackers-arise.com/osint\"\u003ehttps://www.hackers-arise.com/osint\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://anonyviet.com/cac-tool-osint-truy-vet-toi-pham-tren-internet/\"\u003eTop 10 công cụ OSINT tốt nhất 2020\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3 id=\"một-số-công-cụ-theo-osint-frameworkhttpsosintframeworkcom-mà-mình-biết\"\u003eMột số công cụ theo \u003ca href=\"https://osintframework.com/\"\u003eOSINT Framework\u003c/a\u003e mà mình biết:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://www.virustotal.com/gui/home/upload\"\u003eVirusTotal\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://www.shodan.io/\"\u003eShodan\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://archive.org/web/\"\u003eWayback Machine\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://any.run/\"\u003eANY.RUN\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n",
+      "url": "https://vinhlin.github.io/posts/cybersecurity/technical/osint/",
+      "date_published": "15066-15-09T62:1515:00+07:00",
+      "date_modified": "15066-15-09T62:1515:00+07:00",
+      "author": {
+        "name": "VinhLD",
+        "url": "https://vinhlin.github.io/"
+      }
+    },
+    
+    {
+      "id": "4fa8cc860c52b268dc6a3adcde7305e9415db5bb",
+      "title": "Tools",
+      "summary": "",
+      "content_text": "Tool: Git-Dumper Trong quá trình recon một trang web, mà mình thấy có đường dẫn .git Thì có thể dùng tool git-dumper này để lấy thông tin. Tool Web Check Đây là một công cụ có thể sử dụng online, hoặc build ở local. Công cụ này giúp mình recon những thông số cơ bản của một trang web. Tài liệu: 1. https://github.com/lissy93/web-check 2. https://web-check.xyz/about#api-documentation Caido Công cụ này có chức năng tương tự như Burp-Suite, nhưng mà là ở giao diện Web. Tham khảo Youtube: How to Hack Web Apps with Caido Tài liệu: Docs Github Project Cuckoo Sandbox https://cuckoosandbox.org/download https://cuckoo.sh/docs/ https://cuckoo.sh/docs/installation/host/requirements.html https://cuckoosandbox.org/blog/207-interim-release ",
+      "content_html": "\u003ch3 id=\"tool-git-dumperhttpsgithubcomarthaudgit-dumper\"\u003e\u003ca href=\"https://github.com/arthaud/git-dumper\"\u003eTool: Git-Dumper\u003c/a\u003e\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eTrong quá trình \u003cstrong\u003erecon\u003c/strong\u003e một trang web, mà mình thấy có đường dẫn \u003ccode\u003e.git\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003eThì có thể dùng tool \u003cstrong\u003egit-dumper\u003c/strong\u003e này để lấy thông tin.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3 id=\"tool-web-checkhttpsweb-checkxyz\"\u003e\u003ca href=\"https://web-check.xyz/\"\u003eTool Web Check\u003c/a\u003e\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eĐây là một công cụ có thể sử dụng online, hoặc build ở local.\u003c/li\u003e\n\u003cli\u003eCông cụ này giúp mình recon những thông số cơ bản của một trang web.\u003c/li\u003e\n\u003cli\u003eTài liệu:\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003e1. https://github.com/lissy93/web-check\n2. https://web-check.xyz/about#api-documentation\n\u003c/code\u003e\u003c/pre\u003e\u003ch3 id=\"caidohttpscaidoio\"\u003e\u003ca href=\"https://caido.io/\"\u003eCaido\u003c/a\u003e\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eCông cụ này có chức năng tương tự như \u003cstrong\u003eBurp-Suite\u003c/strong\u003e, nhưng mà là ở \u003cstrong\u003egiao diện Web\u003c/strong\u003e.\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://www.youtube.com/watch?v=5Di0VVK9JiQ\u0026amp;list=WL\u0026amp;index=2\"\u003eTham khảo Youtube: How to Hack Web Apps with Caido\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003eTài liệu:\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://docs.caido.io/\"\u003eDocs\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/caido\"\u003eGithub Project\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3 id=\"cuckoo-sandbox\"\u003eCuckoo Sandbox\u003c/h3\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003ehttps://cuckoosandbox.org/download\nhttps://cuckoo.sh/docs/\nhttps://cuckoo.sh/docs/installation/host/requirements.html\nhttps://cuckoosandbox.org/blog/207-interim-release\n\u003c/code\u003e\u003c/pre\u003e",
+      "url": "https://vinhlin.github.io/posts/cybersecurity/tools/",
+      "date_published": "30056-30-09T536:3030:00+07:00",
+      "date_modified": "30056-30-09T536:3030:00+07:00",
+      "author": {
+        "name": "VinhLD",
+        "url": "https://vinhlin.github.io/"
+      }
+    },
+    
+    {
+      "id": "c63929f0d793b4d6bd0bdcf6149015836543e3ec",
+      "title": "ESD",
+      "summary": "",
+      "content_text": "ESD (Electrostatic Sensitive Devices) - Sự phóng tĩnh điện Là dòng điện chạy đột ngột và tức thời giữa hai vật nhiễm điện do tiếp xúc, đoản mạch hoặc đánh thủng điện môi.\nĐây là một video nói về cách chống tĩnh điện, dựa trên các linh kiện:\nTVS - Transient Voltage Suppressor MOV - Metal Oxide Varistor GDT - Gas Discharge Tube TVS Diode Một video giải thích cách hoạt động của TVS Diode\nTrong thiết kế bộ nguồn, TVS còn dùng để dập xung ổn định điện áp.\nMột ví dụ về linh kiện TVS, Semtech SMF05C.TCT\nMOV Linh kiện Bourns MOV-10D470KKTR GDT Linh kiện Bourns GDT25-47-S1-RP ",
+      "content_html": "\u003ch2 id=\"esd-electrostatic-sensitive-devices---sự-phóng-tĩnh-điện\"\u003eESD (Electrostatic Sensitive Devices) - Sự phóng tĩnh điện\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eLà dòng điện chạy đột ngột và tức thời giữa hai vật nhiễm điện do tiếp xúc, đoản mạch hoặc đánh thủng điện môi.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eĐây là một \u003ca href=\"https://www.youtube.com/watch?v=MzxBBXpgwrE\"\u003evideo\u003c/a\u003e nói về cách \u003cstrong\u003echống tĩnh điện\u003c/strong\u003e, dựa trên các linh kiện:\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003eTVS - Transient Voltage Suppressor\nMOV - Metal Oxide Varistor\nGDT - Gas Discharge Tube\n\u003c/code\u003e\u003c/pre\u003e\u003ch3 id=\"tvs-diode\"\u003eTVS Diode\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://www.youtube.com/watch?v=oKACLpBYhxU\"\u003eMột video giải thích cách hoạt động của TVS Diode\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eTrong thiết kế bộ nguồn, TVS còn dùng để dập xung ổn định điện áp.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eMột ví dụ về linh kiện TVS, \u003ca href=\"https://www.mouser.vn/ProductDetail/Semtech/SMF05C.TCT?qs=rBWM4%252BvDhIcdGOAFdL4XAA%3D%3D\u0026amp;_gl=1*109bc2w*_ga*ODE4NDU2NjY3LjE3MTM3NzI5OTI.*_ga_15W4STQT4T*MTcxMzc3Mjk5Mi4xLjAuMTcxMzc3Mjk5My41OS4wLjA.\"\u003eSemtech SMF05C.TCT\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3 id=\"mov\"\u003eMOV\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eLinh kiện \u003ca href=\"https://www.mouser.vn/ProductDetail/Bourns/MOV-10D470KKTR?qs=ST9lo4GX8V0v1uLdRAW6Kg%3D%3D\u0026amp;_gl=1*17bo42l*_ga*MTY3MzQ3NTE2Ni4xNzEzNzcyOTg0*_ga_15W4STQT4T*MTcxMzc3Mjk4My4xLjEuMTcxMzc3Mjk5MC41My4wLjA.\"\u003eBourns MOV-10D470KKTR\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3 id=\"gdt\"\u003eGDT\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eLinh kiện \u003ca href=\"https://www.mouser.vn/ProductDetail/Bourns/GDT25-47-S1-RP?qs=2MMvu9PpTS3BszAgeO7ppQ%3D%3D\"\u003eBourns GDT25-47-S1-RP\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/IoT/ESD_Electronics.png\"\n  alt=\"ESD\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n",
+      "url": "https://vinhlin.github.io/posts/iot/hardware/esd/",
+      "date_published": "25056-25-09T559:2525:00+07:00",
+      "date_modified": "25056-25-09T559:2525:00+07:00",
+      "author": {
+        "name": "VinhLD",
+        "url": "https://vinhlin.github.io/"
+      }
+    },
+    
+    {
+      "id": "fd7800093460ca577e6a1fdff2b8aa97568c6540",
+      "title": "DFLab_VNCERT",
+      "summary": "",
+      "content_text": "Bài viết - Công cụ điều tra nhật ký sự kiện (của Digital Forensics Lab - Cục An toàn thông tin (VNCERT/CC)) Bài viết cung cấp thông tin những công cụ hữu ích và miễn phí giúp thu thập và phân tích log. Trong đó, mình thấy có những công cụ khá hay ho, có thể nghiên cứu sâu hơn và có thể tận dụng cho môi trường lab của bản thân: Hayabusa Hayabusa là một công cụ xử lý nhanh Windows Event Log, tạo timeline và tìm kiếm mối đe dọa do Yamato Security ở Nhật Bản phát triển. Nó được viết bằng Rust và hỗ trợ xử lý đa luồng. Hayabusa có thể chạy trên các hệ thống đang hoạt động để phân tích trực tiếp, bằng cách thu thập Event Logs từ một hoặc nhiều hệ thống để phân tích ngoại tuyến hoặc bằng cách chạy công cụ Hayabusa với Velociraptor để tìm kiếm mối đe dọa và ứng phó sự cố trên quy mô lớn. Báo cáo là một timeline trên CSV để dễ dàng phân tích trong Excel, Timeline Explorer, Elastic Stack, Timesketch, v.v\u0026hellip;\nGoAccess GoAccess là trình phân tích nhật ký web, có thể quan sát theo thời gian thực và trình xem tương tác mã nguồn mở chạy trong terminal trong các hệ thống.. Cung cấp số liệu thống kê HTTP nhanh chóng và có giá trị cho các quản trị viên hệ thống yêu cầu báo cáo máy chủ trực quan một cách nhanh chóng.\nGet Started GoAccess\nHow to Install GoAccess Web Log Analyzer on Ubuntu 20.04 - 22.04\n",
+      "content_html": "\u003ch2 id=\"bài-viết---công-cụ-điều-tra-nhật-ký-sự-kiện-của-digital-forensics-lab---cục-an-toàn-thông-tin-vncertcchttpsdfirlabvndocstoolslog\"\u003e\u003ca href=\"https://df.irlab.vn/docs/tools/log/\"\u003eBài viết - Công cụ điều tra nhật ký sự kiện (của Digital Forensics Lab - Cục An toàn thông tin (VNCERT/CC))\u003c/a\u003e\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eBài viết cung cấp thông tin những công cụ hữu ích và miễn phí giúp thu thập và phân tích \u003cstrong\u003elog\u003c/strong\u003e.\u003c/li\u003e\n\u003cli\u003eTrong đó, mình thấy có những công cụ khá hay ho, có thể nghiên cứu sâu hơn và có thể tận dụng cho môi trường lab của bản thân:\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3 id=\"hayabusahttpsgithubcomyamato-securityhayabusa\"\u003e\u003ca href=\"https://github.com/Yamato-Security/hayabusa\"\u003eHayabusa\u003c/a\u003e\u003c/h3\u003e\n\u003cblockquote\u003e\n\u003cp\u003eHayabusa là một công cụ xử lý nhanh \u003cstrong\u003eWindows Event Log\u003c/strong\u003e, tạo timeline và tìm kiếm mối đe dọa do Yamato Security ở Nhật Bản phát triển. Nó được viết bằng Rust và hỗ trợ xử lý đa luồng. Hayabusa có thể chạy trên các hệ thống đang hoạt động để phân tích trực tiếp, bằng cách thu thập Event Logs từ một hoặc nhiều hệ thống để phân tích ngoại tuyến hoặc bằng cách chạy công cụ Hayabusa với Velociraptor để tìm kiếm mối đe dọa và ứng phó sự cố trên quy mô lớn. Báo cáo là một timeline trên CSV để dễ dàng phân tích trong Excel, Timeline Explorer, Elastic Stack, Timesketch, v.v\u0026hellip;\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch3 id=\"goaccesshttpsgithubcomallinurlgoaccess\"\u003e\u003ca href=\"https://github.com/allinurl/goaccess\"\u003eGoAccess\u003c/a\u003e\u003c/h3\u003e\n\u003cblockquote\u003e\n\u003cp\u003eGoAccess là trình phân tích nhật ký web, có thể quan sát theo thời gian thực và trình xem tương tác mã nguồn mở chạy trong terminal trong các hệ thống.. Cung cấp số liệu thống kê HTTP nhanh chóng và có giá trị cho các quản trị viên hệ thống yêu cầu báo cáo máy chủ trực quan một cách nhanh chóng.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://goaccess.io/get-started\"\u003eGet Started GoAccess\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://www.youtube.com/watch?v=PbKpdHeuG2A\"\u003eHow to Install GoAccess Web Log Analyzer on Ubuntu 20.04 - 22.04\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n",
+      "url": "https://vinhlin.github.io/posts/cybersecurity/technical/dflab_vncert/",
+      "date_published": "25056-25-09T556:2525:00+07:00",
+      "date_modified": "25056-25-09T556:2525:00+07:00",
+      "author": {
+        "name": "VinhLD",
+        "url": "https://vinhlin.github.io/"
+      }
+    },
+    
+    {
+      "id": "8ab10c1348d533258955d2c165104e8fc6b6fb36",
+      "title": "Firewall_CheckList",
+      "summary": "",
+      "content_text": "Có thể coi Firewall Checklist là phương pháp để mình Pentest Network Dùng các công cụ để test hạ tầng Network: Nmap Ettercap Firewalk Wireshark Check version của Firewall + CVE, tìm các cách khắc phục. Dựa vào file Firewall_Checklist để áp dụng cách đặt rule. Documents Firewall_Checklist ",
+      "content_html": "\u003ch3 id=\"có-thể-coi-firewall-checklist-là-phương-pháp-để-mình-pentest-network\"\u003eCó thể coi \u003ccode\u003eFirewall Checklist\u003c/code\u003e là phương pháp để mình Pentest Network\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eDùng các công cụ để test hạ tầng Network:\n\u003cul\u003e\n\u003cli\u003eNmap\u003c/li\u003e\n\u003cli\u003eEttercap\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://www.kali.org/tools/firewalk/\"\u003eFirewalk\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003eWireshark\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eCheck version của Firewall + CVE, tìm các cách khắc phục.\u003c/li\u003e\n\u003cli\u003eDựa vào file \u003cstrong\u003eFirewall_Checklist\u003c/strong\u003e để áp dụng cách đặt rule.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3 id=\"documents-firewall_checklistdocsfirewallchecklistpdf\"\u003e\u003ca href=\"/docs/FirewallChecklist.pdf\"\u003eDocuments Firewall_Checklist\u003c/a\u003e\u003c/h3\u003e\n\u003chr\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/CyberSecurity/Firewall_Cheatsheet.jpg\"\n  alt=\"Firewall Checklist\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n",
+      "url": "https://vinhlin.github.io/posts/cybersecurity/technical/firewall_checklist/",
+      "date_published": "25056-25-09T548:2525:00+07:00",
+      "date_modified": "25056-25-09T548:2525:00+07:00",
+      "author": {
+        "name": "VinhLD",
+        "url": "https://vinhlin.github.io/"
+      }
+    },
+    
+    {
+      "id": "a8e9a70dc4d226a2d6960103dadfbaf851de55b7",
+      "title": "NIS2",
+      "summary": "",
+      "content_text": "Bài viết: Tuân thủ NIS2 cho các mạng công nghiệp NIS2 Compliance for Industries White Paper Tổng hợp các thông tin cần biết trong bài viết: Các phần tử kết nối mạng OT cần được chứng nhận an toàn:\nCác tiêu chuẩn ISA/IEC 62443 Phần 4-1 và Phần 4-2 ghi rõ một tài sản OT an toàn là gì. Vì vậy khi bạn mua các thiết bị, hãy yêu cầu nhà cung cấp chứng minh sản phẩm của họ tuân thủ theo tiêu chuẩn trên. Đánh giá và xếp loại ưu tiên các rủi ro mạng OT:\nNhiều tổ chức vẫn chưa có một danh sách chi tiết về những gì đang được kết nối với mạng công nghiệp của họ. NIS2 yêu cầu bạn có khả năng \u0026ldquo;nhìn xuyên thấu\u0026rdquo; vào hệ thống OT, từ đó áp dụng các quy tắc thực tiễn tốt nhất để đảm bảo an ninh. Triển khai Zero-trust:\nHầu hết các mạng công nghiệp đã phát triển thành các mạng lớn và phẳng ở layer 2. Lưu lượng độc hại có thể dễ dàng lan truyền và chiếm quyền kiểm soát toàn bộ hoạt động của bạn. ISA/IEC 62443 Phần 3-3 yêu cầu phân đoạn mạng thành các vùng có phạm vi nhỏ. Trong mỗi vùng, các tài sản chỉ có thể giao tiếp với những thiết bị cần thiết, để có thể chạy theo quy trình công nghiệp sẵn có. Đây chính là cách tiếp cận tối thiểu (Least Privillige) của an ninh mạng. Triển khai Zero-trust remote access:\nThay vì sử dụng các kết nối từ xa truyền thống tới mạng IT (VPN, remote desktop\u0026hellip;) Hãy sử dụng ZTNA ( Zero-Trust Network Access) với cơ chế phân quyền truy cập theo người dùng, theo thời gian, theo thiết bị, xác thực đa yếu tố, và cơ chế theo dõi hoạt động của kết nối đó trong suốt phiên truy cập. Phát hiện và báo cáo sự cố: NIS2 cũng yêu cầu có các công cụ để nhanh chóng phát hiện các sự cố và có thể thực hiện hành động phản ứng tức thời với các vi phạm an ninh.\n",
+      "content_html": "\u003ch2 id=\"bài-viết-tuân-thủ-nis2-cho-các-mạng-công-nghiệphttpswhitehatvnthreadstuan-thu-nis2-cho-cac-mang-cong-nghiep-ban-da-san-sang-chua17872\"\u003e\u003ca href=\"https://whitehat.vn/threads/tuan-thu-nis2-cho-cac-mang-cong-nghiep-ban-da-san-sang-chua.17872/\"\u003eBài viết: Tuân thủ NIS2 cho các mạng công nghiệp\u003c/a\u003e\u003c/h2\u003e\n\u003ch3 id=\"nis2-compliance-for-industries-white-paperhttpswwwciscocomcenusproductscollateralsecurityindustrial-securitynetwork-info-security-wppdf\"\u003e\u003ca href=\"https://www.cisco.com/c/en/us/products/collateral/security/industrial-security/network-info-security-wp.pdf\"\u003eNIS2 Compliance for Industries White Paper\u003c/a\u003e\u003c/h3\u003e\n\u003ch3 id=\"tổng-hợp-các-thông-tin-cần-biết-trong-bài-viết\"\u003eTổng hợp các thông tin cần biết trong bài viết:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003eCác phần tử kết nối mạng OT cần được chứng nhận an toàn\u003c/strong\u003e:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eCác tiêu chuẩn ISA/IEC 62443 Phần 4-1 và Phần 4-2 ghi rõ một tài sản OT an toàn là gì.\u003c/li\u003e\n\u003cli\u003eVì vậy khi bạn mua các thiết bị, hãy yêu cầu nhà cung cấp chứng minh sản phẩm của họ tuân thủ theo tiêu chuẩn trên.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003eĐánh giá và xếp loại ưu tiên các rủi ro mạng OT\u003c/strong\u003e:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eNhiều tổ chức vẫn chưa có một danh sách chi tiết về những gì đang được kết nối với mạng công nghiệp của họ.\u003c/li\u003e\n\u003cli\u003eNIS2 yêu cầu bạn có khả năng \u0026ldquo;nhìn xuyên thấu\u0026rdquo; vào hệ thống OT, từ đó áp dụng các quy tắc thực tiễn tốt nhất để đảm bảo an ninh.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003eTriển khai Zero-trust\u003c/strong\u003e:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eHầu hết các mạng công nghiệp đã phát triển thành các mạng lớn và phẳng ở layer 2.\u003c/li\u003e\n\u003cli\u003eLưu lượng độc hại có thể dễ dàng lan truyền và chiếm quyền kiểm soát toàn bộ hoạt động của bạn.\u003c/li\u003e\n\u003cli\u003eISA/IEC 62443 Phần 3-3 yêu cầu phân đoạn mạng thành các vùng có phạm vi nhỏ. Trong mỗi vùng, các tài sản chỉ có thể giao tiếp với những thiết bị cần thiết, để có thể chạy theo quy trình công nghiệp sẵn có.\u003c/li\u003e\n\u003cli\u003eĐây chính là cách tiếp cận tối thiểu (Least Privillige) của an ninh mạng.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003eTriển khai Zero-trust remote access\u003c/strong\u003e:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eThay vì sử dụng các kết nối từ xa truyền thống tới mạng IT (VPN, remote desktop\u0026hellip;)\u003c/li\u003e\n\u003cli\u003eHãy sử dụng ZTNA ( Zero-Trust Network Access) với cơ chế phân quyền truy cập theo người dùng, theo thời gian, theo thiết bị, xác thực đa yếu tố, và cơ chế theo dõi hoạt động của kết nối đó trong suốt phiên truy cập.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003ePhát hiện và báo cáo sự cố\u003c/strong\u003e: NIS2 cũng yêu cầu có các công cụ để nhanh chóng phát hiện các sự cố và có thể thực hiện hành động phản ứng tức thời với các vi phạm an ninh.\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/IoT/IoT_Security.jpg\"\n  alt=\"IoT Security\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n",
+      "url": "https://vinhlin.github.io/posts/cybersecurity/technical/nis2/",
+      "date_published": "25056-25-09T543:2525:00+07:00",
+      "date_modified": "25056-25-09T543:2525:00+07:00",
+      "author": {
+        "name": "VinhLD",
+        "url": "https://vinhlin.github.io/"
+      }
+    },
+    
+    {
+      "id": "34c808d0a63f277e04fb23a5f76cc83d0a3e024b",
+      "title": "News",
+      "summary": "",
+      "content_text": " Đây là danh sách các kênh mà mình cập nhật tin tức. Cũng như bổ sung kiến thức. Danh sách các kênh tài liệu và Youtube để cập nhật kiến thức. Các trang ngôn ngữ tiếng Việt mà mình cập nhật thông tin về giới bảo mật, bao gồm: NCSC VN Whitehat Còn trang của nước ngoài thì gồm (trong đó có telegram): Cyber Security News Telegram: Cyber Threat Intelligence Kênh youtube: Mình đang theo dõi hầu hết các kênh được liệt kê trong hình dưới. Các kênh này không chỉ giúp mình cập nhật về các lỗi CVE mới, mà còn giúp mình cập nhật kiến thức về Network, System. ",
+      "content_html": "\u003cul\u003e\n\u003cli\u003eĐây là danh sách các kênh mà mình cập nhật tin tức.\u003c/li\u003e\n\u003cli\u003eCũng như bổ sung kiến thức.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2 id=\"danh-sách-các-kênh-tài-liệu-và-youtube-để-cập-nhật-kiến-thức\"\u003eDanh sách các kênh tài liệu và Youtube để cập nhật kiến thức.\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eCác trang ngôn ngữ tiếng Việt mà mình cập nhật thông tin về giới bảo mật, bao gồm:\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3 id=\"ncsc-vnhttpstinnhiemmangvnnoi-bat\"\u003e\u003ca href=\"https://tinnhiemmang.vn/noi-bat\"\u003eNCSC VN\u003c/a\u003e\u003c/h3\u003e\n\u003ch3 id=\"whitehathttpswhitehatvn\"\u003e\u003ca href=\"https://whitehat.vn/\"\u003eWhitehat\u003c/a\u003e\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eCòn trang của nước ngoài thì gồm (trong đó có telegram):\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3 id=\"cyber-security-newshttpscybersecuritynewscom\"\u003e\u003ca href=\"https://cybersecuritynews.com/\"\u003eCyber Security News\u003c/a\u003e\u003c/h3\u003e\n\u003ch3 id=\"telegram-cyber-threat-intelligencehttpstmectinow\"\u003e\u003ca href=\"https://t.me/ctinow\"\u003eTelegram: Cyber Threat Intelligence\u003c/a\u003e\u003c/h3\u003e\n\u003ch3 id=\"kênh-youtube\"\u003eKênh youtube:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eMình đang theo dõi hầu hết các kênh được liệt kê trong hình dưới.\u003c/li\u003e\n\u003cli\u003eCác kênh này không chỉ giúp mình cập nhật về các lỗi CVE mới, mà còn giúp mình cập nhật kiến thức về Network, System.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/CyberSecurity/Top_Youtube_Channel_Hacking.jpg\"\n  alt=\"Youtube\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n",
+      "url": "https://vinhlin.github.io/posts/cybersecurity/news/",
+      "date_published": "10046-10-09T427:1010:00+07:00",
+      "date_modified": "10046-10-09T427:1010:00+07:00",
+      "author": {
+        "name": "VinhLD",
+        "url": "https://vinhlin.github.io/"
+      }
+    },
+    
+    {
+      "id": "1d6e1d9d82c5e034cbee811a39d8ea0cdf4dfb8b",
+      "title": "Rust Lang",
+      "summary": "",
+      "content_text": "Rust-lang Hạn chế Năm 2023 xảy ra nhiều dramma của Rust Found Rust là ngôn ngữ khó học, code khó. 5 things I wish I knew before learning Rust Why do developers hate Rust? Cộng đồng DEV chưa quá đông như Golang. Top Programming Languages 2023 Lợi ích Rust là ngôn ngữ low level, được sử dụng cho nhiều mục đích khác nhau: Dùng để code nhúng. Dùng để code phía Server. Có thể dùng để code OS - như Rust for Linux Rust chú trọng vào sự an toàn - memory safety. Cộng đồng Rust vẫn đang phát triển. Dựa trên báo cáo thì số lượt tìm kiếm hướng dẫn lập trình Rust đã tăng hơn Golang Rust Roadmap Tài liệu về Rust Rust IDE - RustRover\nThe Embedded Rust Book\nStandard library developers Guide\nBlog Rust\nRust By Example\nRust Tiếng Việt\nYoutube - Crust of Rust\nYoutube - Let\u0026rsquo;s Get Rusty\nRust Cheatsheet\nWriting an OS in Rust\n",
+      "content_html": "\u003ch2 id=\"rust-lang\"\u003eRust-lang\u003c/h2\u003e\n\u003ch3 id=\"hạn-chế\"\u003eHạn chế\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://users.rust-lang.org/t/why-is-there-so-much-mismanagement-in-the-rust-foundation-and-core-team/94822\"\u003eNăm 2023 xảy ra nhiều dramma của Rust Found\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003eRust là ngôn ngữ \u003cstrong\u003ekhó học, code khó\u003c/strong\u003e.\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://www.youtube.com/watch?v=EYCBm0xAWow\u0026amp;list=LL\u0026amp;index=3\"\u003e5 things I wish I knew before learning Rust\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://www.youtube.com/watch?v=fknamfNtKk0\"\u003eWhy do developers hate Rust?\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eCộng đồng \u003cstrong\u003eDEV\u003c/strong\u003e chưa quá đông như Golang. \u003ca href=\"https://spectrum.ieee.org/the-top-programming-languages-2023\"\u003eTop Programming Languages 2023\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3 id=\"lợi-ích\"\u003eLợi ích\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eRust là ngôn ngữ \u003cstrong\u003elow level\u003c/strong\u003e, được sử dụng cho nhiều mục đích khác nhau:\n\u003cul\u003e\n\u003cli\u003eDùng để code nhúng.\u003c/li\u003e\n\u003cli\u003eDùng để code phía Server.\u003c/li\u003e\n\u003cli\u003eCó thể dùng để code OS - như \u003ca href=\"https://rust-for-linux.com/\"\u003eRust for Linux\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eRust chú trọng vào sự an toàn - \u003cstrong\u003ememory safety\u003c/strong\u003e.\u003c/li\u003e\n\u003cli\u003eCộng đồng Rust vẫn đang phát triển. \u003ca href=\"https://pypl.github.io/PYPL.html\"\u003eDựa trên báo cáo thì số lượt tìm kiếm hướng dẫn lập trình Rust đã tăng hơn Golang\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3 id=\"rust-roadmaphttpsroadmapshrust\"\u003e\u003ca href=\"https://roadmap.sh/rust\"\u003eRust Roadmap\u003c/a\u003e\u003c/h3\u003e\n\u003ch3 id=\"tài-liệu-về-rust\"\u003eTài liệu về Rust\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://www.jetbrains.com/help/rust/getting-started.html\"\u003eRust IDE - RustRover\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://docs.rust-embedded.org/book/\"\u003eThe Embedded Rust Book\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://std-dev-guide.rust-lang.org/\"\u003eStandard library developers Guide\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://blog.rust-lang.org/\"\u003eBlog Rust\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://doc.rust-lang.org/rust-by-example/index.html\"\u003eRust By Example\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://rust-tieng-viet.github.io/getting-started/first-project.html\"\u003eRust Tiếng Việt\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://www.youtube.com/watch?v=rAl-9HwD858\u0026amp;list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa\u0026amp;index=3\"\u003eYoutube - Crust of Rust\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://www.youtube.com/@letsgetrusty\"\u003eYoutube - Let\u0026rsquo;s Get Rusty\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://docs.google.com/document/d/1kQidzAlbqapu-WZTuw4Djik0uTqMZYyiMXTM9F21Dz4/edit?lid=75778#heading=h.gjdgxs\"\u003eRust Cheatsheet\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://os.phil-opp.com/\"\u003eWriting an OS in Rust\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n",
+      "url": "https://vinhlin.github.io/posts/iot/software/rust-lang/",
+      "date_published": "1046-01-09T414:11:00+07:00",
+      "date_modified": "1046-01-09T414:11:00+07:00",
+      "author": {
+        "name": "VinhLD",
+        "url": "https://vinhlin.github.io/"
+      }
+    },
+    
+    {
+      "id": "4cce4220308fd2f1f01e3e19db45c5f96e482829",
+      "title": "Raspberry OpenAuto",
+      "summary": "",
+      "content_text": "OpenAuto Link\nSource\nTheo như mình hiểu thì OpenAuto, nó như một tool cho việc giao tiếp giữa người dùng và xe hơi, thông qua sử dụng Raspberry.\nHình như CrankShaft cũng từ open source của OpenAuto mà ra.\nTham khảo\nVideo tham khảo https://www.youtube.com/watch?v=RgbHXTHUnQw https://www.youtube.com/watch?v=ko-udLtaPk8 ",
+      "content_html": "\u003ch3 id=\"openauto\"\u003eOpenAuto\u003c/h3\u003e\n\u003cp\u003e\u003ca href=\"https://bluewavestudio.io/#features\"\u003eLink\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"9https://bluewavestudio.io/community/showthread.php?tid=2774\"\u003eSource\u003c/a\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eTheo như mình hiểu thì \u003cstrong\u003eOpenAuto\u003c/strong\u003e, nó như một tool cho việc giao tiếp giữa người dùng và xe hơi, thông qua sử dụng Raspberry.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eHình như \u003cstrong\u003eCrankShaft\u003c/strong\u003e cũng từ open source của \u003cstrong\u003eOpenAuto\u003c/strong\u003e mà ra.\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/f1xpl/openauto/wiki\"\u003eTham khảo\u003c/a\u003e\u003c/p\u003e\n\u003ch3 id=\"video-tham-khao\"\u003eVideo tham khảo\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://www.youtube.com/watch?v=RgbHXTHUnQw\"\u003ehttps://www.youtube.com/watch?v=RgbHXTHUnQw\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://www.youtube.com/watch?v=ko-udLtaPk8\"\u003ehttps://www.youtube.com/watch?v=ko-udLtaPk8\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n",
+      "url": "https://vinhlin.github.io/posts/iot/software/raspberry-openauto/",
+      "date_published": "1046-01-09T457:11:00+07:00",
+      "date_modified": "1046-01-09T457:11:00+07:00",
+      "author": {
+        "name": "VinhLD",
+        "url": "https://vinhlin.github.io/"
+      }
+    },
+    
+    {
+      "id": "0bf57abd5b47956c7b4a48e0064a549fbeba3877",
+      "title": "Pi400 Keyboard",
+      "summary": "",
+      "content_text": "Sử dụng Raspberry Pi400 như một bàn phím thông thường. https://www.cnx-software.com/2021/10/14/using-raspberry-pi-400-keyboard-pc-as-a-usb-keyboard-for-your-pc/ https://www.tomshardware.com/news/raspberry-pi-400-usb-hid-keyboard https://github.com/Gadgetoid/pi400kb/tree/main ",
+      "content_html": "\u003ch3 id=\"sử-dụng-raspberry-pi400-như-một-bàn-phím-thông-thường\"\u003eSử dụng Raspberry Pi400 như một bàn phím thông thường.\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://www.cnx-software.com/2021/10/14/using-raspberry-pi-400-keyboard-pc-as-a-usb-keyboard-for-your-pc/\"\u003ehttps://www.cnx-software.com/2021/10/14/using-raspberry-pi-400-keyboard-pc-as-a-usb-keyboard-for-your-pc/\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://www.tomshardware.com/news/raspberry-pi-400-usb-hid-keyboard\"\u003ehttps://www.tomshardware.com/news/raspberry-pi-400-usb-hid-keyboard\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/Gadgetoid/pi400kb/tree/main\"\u003ehttps://github.com/Gadgetoid/pi400kb/tree/main\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cimg\n  src=\"https://www.cytron.io/image/landing/RPI%20400/photo_2020-10-31_11-28-37.jpg\"\n  alt=\"Pi400\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n",
+      "url": "https://vinhlin.github.io/posts/iot/software/pi400-keyboard/",
+      "date_published": "1046-01-09T453:11:00+07:00",
+      "date_modified": "1046-01-09T453:11:00+07:00",
+      "author": {
+        "name": "VinhLD",
+        "url": "https://vinhlin.github.io/"
+      }
+    },
+    
+    {
+      "id": "1467c592c4f59f946735e658ee5827f9a222c791",
+      "title": "PiKVM",
+      "summary": "",
+      "content_text": "PiKVM Theo tài liệu thì KVM (Keyboard-Video-Mouse), tức là PiKVM là sử dụng raspberry để điều khiển máy tính từ xa thông qua IP. Tức là giả sử mình có 1 PC, nếu mình muốn sử dụng PC này thì cần: Màn hình để xuất hình ảnh. Chuột và bàn phím để điều khiển. Với PiKVM nó sẽ ảo hóa hết tất cả màn hình, chuột, và bàn phím thông qua WebUI. PiKVM lợi điểm ở chỗ là không cần phải xuống trực tiếp Server (hoặc PC) để fix sự cố, mà có thể làm điều đó từ xa. Thông thường nếu chỉ dùng Anydesk, TeamViewer,\u0026hellip; thì đây chỉ là những ứng dụng sau khi PC đã khởi động hoàn tất. Vậy lúc cần vào bios của PC để fix lỗi thì sao? Thì đây chính là lợi điểm của PiKVM. Tham khảo video https://www.youtube.com/watch?v=2HqbQdZUEmY https://www.youtube.com/watch?v=PppcpSVYh0E https://www.youtube.com/watch?v=KrpHCsK7veA Documents https://docs.pikvm.org/ https://pikvm.org/ https://wiki.geekworm.com/PiKVM Note PiKVM có sẵn OS. Tùy thuộc vào loại Raspberry sử dụng mà có sẵn image. Cần thêm module covert từ HDMI - CSI ",
+      "content_html": "\u003ch3 id=\"pikvmhttpsgithubcompikvmpikvm\"\u003e\u003ca href=\"https://github.com/pikvm/pikvm\"\u003ePiKVM\u003c/a\u003e\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eTheo tài liệu thì \u003cstrong\u003eKVM (Keyboard-Video-Mouse)\u003c/strong\u003e, tức là \u003cstrong\u003ePiKVM\u003c/strong\u003e là sử dụng raspberry để điều khiển máy tính từ xa thông qua IP.\u003c/li\u003e\n\u003cli\u003eTức là giả sử mình có 1 PC, nếu mình muốn sử dụng PC này thì cần:\n\u003cul\u003e\n\u003cli\u003eMàn hình để xuất hình ảnh.\u003c/li\u003e\n\u003cli\u003eChuột và bàn phím để điều khiển.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eVới \u003cstrong\u003ePiKVM\u003c/strong\u003e nó sẽ ảo hóa hết tất cả màn hình, chuột, và bàn phím thông qua \u003cstrong\u003eWebUI\u003c/strong\u003e.\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003ePiKVM\u003c/strong\u003e lợi điểm ở chỗ là không cần phải xuống trực tiếp Server (hoặc PC) để fix sự cố, mà có thể làm điều đó từ xa.\u003c/li\u003e\n\u003cli\u003eThông thường nếu chỉ dùng Anydesk, TeamViewer,\u0026hellip; thì đây chỉ là những ứng dụng sau khi PC đã khởi động hoàn tất.\u003c/li\u003e\n\u003cli\u003eVậy lúc cần vào bios của PC để fix lỗi thì sao? Thì đây chính là lợi điểm của \u003cstrong\u003ePiKVM\u003c/strong\u003e.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3 id=\"tham-khảo-video\"\u003eTham khảo video\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://www.youtube.com/watch?v=2HqbQdZUEmY\"\u003ehttps://www.youtube.com/watch?v=2HqbQdZUEmY\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://www.youtube.com/watch?v=PppcpSVYh0E\"\u003ehttps://www.youtube.com/watch?v=PppcpSVYh0E\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://www.youtube.com/watch?v=KrpHCsK7veA\"\u003ehttps://www.youtube.com/watch?v=KrpHCsK7veA\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2 id=\"documents\"\u003eDocuments\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://docs.pikvm.org/\"\u003ehttps://docs.pikvm.org/\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://pikvm.org/\"\u003ehttps://pikvm.org/\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://wiki.geekworm.com/PiKVM\"\u003ehttps://wiki.geekworm.com/PiKVM\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3 id=\"note\"\u003eNote\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003ePiKVM\u003c/strong\u003e có sẵn OS. Tùy thuộc vào loại Raspberry sử dụng mà có sẵn image.\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://www.waveshare.com/wiki/HDMI_to_CSI_Adapter\"\u003eCần thêm module covert từ HDMI - CSI\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n",
+      "url": "https://vinhlin.github.io/posts/iot/software/pikvm/",
+      "date_published": "1046-01-09T449:11:00+07:00",
+      "date_modified": "1046-01-09T449:11:00+07:00",
+      "author": {
+        "name": "VinhLD",
+        "url": "https://vinhlin.github.io/"
+      }
+    },
+    
+    {
+      "id": "571f7a701d03049f4c4b93851c869e0c14023691",
+      "title": "UNIHIKER",
+      "summary": "",
+      "content_text": "Documents Getting Started with UNIHIKER Dfrobot Sản phẩm ",
+      "content_html": "\u003ch3 id=\"documents\"\u003eDocuments\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://www.unihiker.com/wiki/get-started\"\u003eGetting Started with UNIHIKER\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://www.dfrobot.com/product-2691.html\"\u003eDfrobot\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3 id=\"sản-phẩmhttpswwwproevnunihiker-iot-python-programming-single-board-computer-with-touchscreen\"\u003e\u003ca href=\"https://www.proe.vn/unihiker-iot-python-programming-single-board-computer-with-touchscreen\"\u003eSản phẩm\u003c/a\u003e\u003c/h3\u003e\n\u003cp\u003e\u003cimg\n  src=\"https://cdn.mos.cms.futurecdn.net/KRLwXFfy86ybfwUdzxmaFm-1200-80.jpg\"\n  alt=\"SP\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n",
+      "url": "https://vinhlin.github.io/posts/iot/hardware/unihiker/",
+      "date_published": "1046-01-09T434:11:00+07:00",
+      "date_modified": "1046-01-09T434:11:00+07:00",
+      "author": {
+        "name": "VinhLD",
+        "url": "https://vinhlin.github.io/"
+      }
+    }
+    
+  ]
+}
