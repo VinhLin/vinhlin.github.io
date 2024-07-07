@@ -1,15 +1,61 @@
-## Hi there! 👋
+### Mở Powershell
+```
+cd D:\vinhlin.github.io
+```
+- Tạo một bài viết:
+```
+hugo new posts/<Đường_dẫn>/<Tên_bài_viết>.md
+```
+- Dùng lệnh sau để test nội dung (và sau đó truy cập `http://localhost:1313`):
+```
+hugo server -D
+```
+- Build ra folder `docs` (nhớ xóa đi thư mục `docs` cũ):
+```
+hugo --config hugo.toml -D
+```
 
-Xin chào, Mình là VinhLin. Mình có thói quen hay ghi chú những điều hay ho về Công nghệ và Điện tử.
+-------------------------------------------------------------------------------
+## Nội dung các bài post sẽ chia như sau:
 
-Vô tình biết được có thể tạo được Blog bằng **Hugo + Github Page**, thế là trang web này ra đời.
+### Others
+```
+hugo new posts/Others/Goc_nhin_ve_Ngoai_ngu.md
+```
 
-Ngoài việc ghi chú lại kiến thức thì blog này cũng sẽ là nơi để mình ghi ra những **TODO List cho bài thân**.
+### IoT:
+- Hardware
+```
+hugo new posts/IoT/Hardware/UNIHIKER.md
+hugo new posts/IoT/Hardware/ESD.md
+```
+- Software
+```
+hugo new posts/IoT/Software/PiKVM.md
+hugo new posts/IoT/Software/Pi400-Keyboard.md
+hugo new posts/IoT/Software/Raspberry-OpenAuto.md
+hugo new posts/IoT/Software/Rust-lang.md
+```
 
-*(Hello, I'm VinhLin. I have a habit of taking notes on interesting things about Technology and Electronics.
-By chance, I discovered that I could create a Blog using **Hugo + Github Page**, so this website was born.
-In addition to taking notes on knowledge, this blog will also serve as a place for me to jot down **TODO Lists for myself**.)*
+### CyberSecurity:
+```
+hugo new posts/CyberSecurity/News.md
+hugo new posts/CyberSecurity/Tools.md
+hugo new posts/CyberSecurity/ReadTeam.md
+```
+- Technical
+```
+hugo new posts/CyberSecurity/Technical/NIS2.md
+hugo new posts/CyberSecurity/Technical/Firewall_CheckList.md
+hugo new posts/CyberSecurity/Technical/DFLab_VNCERT.md
+hugo new posts/CyberSecurity/Technical/OSINT.md
+hugo new posts/CyberSecurity/Technical/TheHive.md
+```
 
-### Others Information:
-- 📺 Blog: https://vinhlin.github.io/
-- ❤️ Github: https://github.com/VinhLin
+
+
+
+
+
+
+
