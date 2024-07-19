@@ -19,9 +19,9 @@ Ngoài việc ghi chú lại kiến thức thì blog này cũng sẽ là nơi đ
 
 ### HOMELAB Server
 - Bản thân là một người thích tìm hiểu cái mới.
-- Nên ngoài chuyên môn về điện tử, mình có học và tìm hiểu thêm về Network, System và Security.
+- Nên ngoài chuyên môn về điện tử, mình có học và tìm hiểu thêm về **Network**, **System** và **Security**.
 - Đó là lý do mình tự build cho bản thân một server nho nhỏ, nơi mình sẽ áp dụng những kiến thức mới.
-- Áp dụng Server này cho nhà của mình: Từ Wifi, CCTV, Web Server, VPN, cho đến SIEM, Jump-Server, Honeypot,...
+- Áp dụng Server này cho nhà của mình: Từ `Mesh WiFi`, `CCTV`, `Web Server` cho đến `VPN`, `SIEM`, `Jump-Server`, `Honeypot`,...
 
 ### Rust Tracking
 - Do yêu cầu công việc, nên hiện mình đang tìm hiểu và học **ngôn ngữ lập trình Rust**.
@@ -36,15 +36,5 @@ Ngoài việc ghi chú lại kiến thức thì blog này cũng sẽ là nơi đ
 - 📫 [Upwork Profile](https://www.upwork.com/freelancers/~017704277080c06f28?mp_source=share)
 
 ![IoT](https://media.springernature.com/lw685/springer-static/image/chp%3A10.1007%2F978-981-15-6353-9_46/MediaObjects/488228_1_En_46_Fig1_HTML.png)
-
-
-
-
-
-
-
-
-
-
 
 

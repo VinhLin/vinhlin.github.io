@@ -1,6 +1,6 @@
 +++
 title = 'About'
-date = 2024-07-06T15:21:41+07:00
+date = 2024-07-12T15:21:41+07:00
 draft = true
 +++
 
@@ -22,10 +22,12 @@ Tuy nhiên với mong muốn học hỏi, trau dồi thì mình vẫn không ng�
 - Mục tiêu là trở thành **Chuyên gia theo chiều ngang**.
 
 ### 🌱 TODO List:
-- Tìm hiểu sâu hơn về **Wazuh (SIEM)**: Wazuh + MISP, Wazuh + Alert,...
+- Tìm hiểu sâu hơn về **Wazuh (SIEM)**: FIM, SCA, MISP,... 
 - Build và làm lại các bài lab về Web-Pentest bên CyberJutsu.
+- Backup data và VMWare Image cho hệ thống.
 - Build một **NAS-Server** dựa trên **Raspberry CM4**.
 - Xây dựng quy trình **pipline CI/CD** cho trang Blog này.
+- Dựng và xây dựng pipline cho một **FTP Server**. Mục tiêu là để **OTA** cho thiết bị Tracking.
 - Tìm hiểu thêm về **IoT Firmware Reverse**.
 
 ### 🔭 Mục tiêu sự nghiệp: Chuyên gia về lĩnh vực **IoT Security**.

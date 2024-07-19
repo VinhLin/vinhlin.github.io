@@ -14,6 +14,54 @@
     
     
     <item>
+      <title>Suy_nghi_ve_Hardware_Hacking</title>
+      <link>https://vinhlin.github.io/posts/others/suy_nghi_ve_hardware_hacking/</link>
+      <description>&lt;p&gt;Sau khi mình đã đọc hết cuốn &lt;a href=&#34;https://tiki.vn/khoa-hoc-kham-pha-vung-toi-lich-su-bi-an-cua-chien-tranh-mang-p251393388.html&#34;&gt;Vùng tối&lt;/a&gt;. Những &lt;strong&gt;hacker đời đầu&lt;/strong&gt; chính là các &lt;strong&gt;nhà vật lý&lt;/strong&gt;, những người &lt;strong&gt;kỹ sư, kỹ thuật điện tử&lt;/strong&gt;.
+&lt;img
+  src=&#34;https://salt.tikicdn.com/cache/540x540/ts/product/46/60/43/e4ff35baeeaf8bb049e0c864e6132c6b.jpg&#34;
+  alt=&#34;Vùng tối - Book&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Khi thế giới vẫn còn &lt;strong&gt;điện tử tương tự&lt;/strong&gt;, các điệp viên đã dùng các kỹ thuật để &lt;strong&gt;chặn, bắt tín hiệu&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Để rồi khi thế giới chuyển sang &lt;strong&gt;điện tử số&lt;/strong&gt;, sự ra đời của &lt;strong&gt;internet&lt;/strong&gt;. Các kỹ thuật Hacking dần dần chuyển thành software, web hacking,&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Dạo gần đây, sự trỗi dậy của IoT, các vấn đề về Hardware đã dần quay trở lại.&lt;/p&gt;
+&lt;p&gt;Cũng như trong &lt;a href=&#34;https://www.youtube.com/watch?v=7MIoFxwawc0&amp;amp;list=WL&amp;amp;index=4&amp;amp;t=1s&#34;&gt;Show Ryan: What Does a Former Black Hat Hacker Carry Everyday?&lt;/a&gt; có giới thiệu, chỉ với các thiết bị nhỏ như vậy, đã có thể &lt;strong&gt;thu thập, chặn bắt tín hiệu RF và giả mạo tín hiệu&lt;/strong&gt;. Mình nhớ kỹ thuật này gọi là &lt;strong&gt;Relay Atack&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Là một người yêu thích điện tử và hacking, mình thấy những thiết bị này thật sự &lt;strong&gt;quá hay và ghê gớm&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Người làm ra những thiết bị này đúng là &lt;strong&gt;tay chơi về phần cứng&lt;/strong&gt;, không những hiểu về tín hiệu RF, mà còn giỏi về phần cứng và cả về Firmware.&lt;/p&gt;
+&lt;p&gt;Là hacker thì đi hack người khác thì có vẻ vui đấy. Nhưng là người làm về sản phẩm phần cứng, mình mà bị hack thì đó lại là câu chuyện khác.&lt;/p&gt;
+&lt;p&gt;Mình cần rèn luyện kỹ năng, và ghi nhớ &lt;strong&gt;Hack to learn and not Learn to Hack&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;một-bài-viết-khác-về-hardware-hacking---tấn-công-hidhttpswhitehatvnthreadstan-cong-hid-la-gi-minh-da-de-dang-che-tao-usb-theo-doi-danh-cap-du-lieu-nhu-the-nao18012&#34;&gt;&lt;a href=&#34;https://whitehat.vn/threads/tan-cong-hid-la-gi-minh-da-de-dang-che-tao-usb-theo-doi-danh-cap-du-lieu-nhu-the-nao.18012/&#34;&gt;Một bài viết khác về Hardware hacking - Tấn công HID&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;tổng-hợp-các-tài-liệu-về-iot-hacking&#34;&gt;Tổng hợp các tài liệu về IoT Hacking:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/feed/update/urn:li:activity:7219979516855664640/&#34;&gt;https://www.linkedin.com/feed/update/urn:li:activity:7219979516855664640/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://v33ru.github.io/IoTSecurity101/&#34;&gt;https://v33ru.github.io/IoTSecurity101/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/nebgnahz/awesome-iot-hacks&#34;&gt;https://github.com/nebgnahz/awesome-iot-hacks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/CyberSecurityUP/Awesome-Hardware-and-IoT-Hacking#readme&#34;&gt;https://github.com/CyberSecurityUP/Awesome-Hardware-and-IoT-Hacking#readme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.iotpentestingguide.com/&#34;&gt;https://www.iotpentestingguide.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://p.ost2.fyi/courses&#34;&gt;https://p.ost2.fyi/courses&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;IoT Hacking hay Hardware Hacking có vẻ chính là con đường giao thoa, thỏa mãn cả 2 yếu tố Điện tử/IoT và Cyber-Security.&lt;/p&gt;
+&lt;p&gt;Có lẻ vậy.&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Hardware_Hacking.jpg&#34;
+  alt=&#34;Hardware Hacking Tools&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/others/suy_nghi_ve_hardware_hacking/</guid>
+      <pubDate>Wed, 10 Jul 2024 20:34:27 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Goc_nhin_ve_Ngoai_ngu</title>
       <link>https://vinhlin.github.io/posts/others/goc_nhin_ve_ngoai_ngu/</link>
       <description>&lt;h2 id=&#34;một-góc-nhìn-cá-nhân-về-ngoại-ngữ&#34;&gt;Một &lt;strong&gt;góc nhìn cá nhân&lt;/strong&gt; về Ngoại ngữ&lt;/h2&gt;
