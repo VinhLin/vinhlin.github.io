@@ -14,6 +14,69 @@
     
     
     <item>
+      <title>Tails_OS</title>
+      <link>https://vinhlin.github.io/posts/cybersecurity/technical/tails_os/</link>
+      <description>&lt;h3 id=&#34;ẩn-danh---anonymous&#34;&gt;Ẩn danh - Anonymous&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Mình có đọc hết cuốn &lt;a href=&#34;https://tiki.vn/nghe-thuat-an-minh-p8845822.html&#34;&gt;Nghệ Thuật Ẩn Mình&lt;/a&gt;, là một người đang dấn thân vào mảng Security thì cuốn này cũng hay.
+&lt;img
+  src=&#34;https://salt.tikicdn.com/cache/750x750/ts/product/47/4b/45/6386ab1926fd23aad2b93d8f83429769.jpg.webp&#34;
+  alt=&#34;Nghệ Thuật Ẩn Mình&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Tựu chung thì mình nắm được vài keywork khi muốn truy cập ẩn danh trên Internet.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dùng sóng di động (nói chung là &lt;strong&gt;dùng sim4G&lt;/strong&gt;)&lt;/li&gt;
+&lt;li&gt;Sử dụng VPN, Proxy.&lt;/li&gt;
+&lt;li&gt;Sử dụng &lt;a href=&#34;https://www.torproject.org/download/&#34;&gt;Tor Browser&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Hôm nay khi xem video trên Youtube, thì mình biết đến &lt;a href=&#34;https://tails.net/&#34;&gt;Tails&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=U2-JPqrALsA&amp;amp;list=WL&amp;amp;index=2&#34;&gt;How To Access the DARK WEB in 2024 (3 Levels)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=gO9fTnMxwYw&#34;&gt;Tails Linux USB with Persistence (Be invisible online in 7 minutes)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;tails-os&#34;&gt;Tails OS&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tails&lt;/strong&gt; tương tự như việc mình chạy một &lt;strong&gt;hệ điều hành&lt;/strong&gt; song song vậy (và ở đây là trên USB).&lt;/li&gt;
+&lt;li&gt;Bản thân OS này đã tích hợp sẵn các công cụ ẩn danh khác như &lt;strong&gt;Tor Browser&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Như mình được biết thì với OS thông thường như Windows, những thao tác của chúng ta sẽ được lưu trữ lại trên máy như lúc duyệt web, cài phần mềm,&amp;hellip;&lt;/li&gt;
+&lt;li&gt;Ngay cả khi mình tắt máy, thì những thông tin đó vẫn được &lt;strong&gt;lưu trữ trên RAM&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Và đây là lúc &lt;strong&gt;Tails&lt;/strong&gt; phát huy ưu điểm nổi bật chính là &lt;strong&gt;không lưu trữ bất kỳ thứ gì sau khi tắt máy&lt;/strong&gt;. Tức là những thao tác trên máy, thông tin hoặc vô tình &lt;strong&gt;bị dính malware&lt;/strong&gt; đều sẽ biến mất hết khi mình rút USB.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;HAY THẬT&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;suy-nghĩ-về-ẩn-danh&#34;&gt;Suy nghĩ về Ẩn danh&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Nói &lt;strong&gt;ẩn danh&lt;/strong&gt; cho vui vậy thôi, chứ nhà nước mà muốn &lt;strong&gt;mò&lt;/strong&gt; ra thì mò cái một. Đơn giản là vì &lt;strong&gt;nhà mạng&lt;/strong&gt; nằm dưới quyền kiểm soát của chính phủ, tìm ra mình chỉ là &lt;strong&gt;vấn đề thời gian&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Do đó nếu muốn &lt;strong&gt;ẩn danh thật sự&lt;/strong&gt; thì tốt nhất đừng làm gì liên quan đến &lt;strong&gt;Chính phủ&lt;/strong&gt;. =]]&lt;/li&gt;
+&lt;li&gt;Mình thì không có nhu cầu vào &lt;strong&gt;Dark Web&lt;/strong&gt;, những thông tin search trên google thôi đã quá rộng lớn đối với mình rồi. Tuy nhiên &lt;strong&gt;Tails OS&lt;/strong&gt; vẫn là một biện pháp hay ho khi mình &lt;strong&gt;muốn làm gì đó mà không muốn người khác biết&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Google_vs_DuckDuckGo.jpg&#34;
+  alt=&#34;Search&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/cybersecurity/technical/tails_os/</guid>
+      <pubDate>Sun, 21 Jul 2024 17:34:15 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Suy_nghi_ve_Hardware_Hacking</title>
       <link>https://vinhlin.github.io/posts/others/suy_nghi_ve_hardware_hacking/</link>
       <description>&lt;p&gt;Sau khi mình đã đọc hết cuốn &lt;a href=&#34;https://tiki.vn/khoa-hoc-kham-pha-vung-toi-lich-su-bi-an-cua-chien-tranh-mang-p251393388.html&#34;&gt;Vùng tối&lt;/a&gt;. Những &lt;strong&gt;hacker đời đầu&lt;/strong&gt; chính là các &lt;strong&gt;nhà vật lý&lt;/strong&gt;, những người &lt;strong&gt;kỹ sư, kỹ thuật điện tử&lt;/strong&gt;.

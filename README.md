@@ -51,6 +51,7 @@ hugo new posts/CyberSecurity/Technical/Firewall_CheckList.md
 hugo new posts/CyberSecurity/Technical/DFLab_VNCERT.md
 hugo new posts/CyberSecurity/Technical/OSINT.md
 hugo new posts/CyberSecurity/Technical/TheHive.md
+hugo new posts/CyberSecurity/Technical/Tails_OS.md
 ```
 
 

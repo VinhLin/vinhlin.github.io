@@ -21,14 +21,16 @@ Ngoài việc ghi chú lại kiến thức thì blog này cũng sẽ là nơi đ
 - Bản thân là một người thích tìm hiểu cái mới.
 - Nên ngoài chuyên môn về điện tử, mình có học và tìm hiểu thêm về **Network**, **System** và **Security**.
 - Đó là lý do mình tự build cho bản thân một server nho nhỏ, nơi mình sẽ áp dụng những kiến thức mới.
-- Áp dụng Server này cho nhà của mình: Từ `Mesh WiFi`, `CCTV`, `Web Server` cho đến `VPN`, `SIEM`, `Jump-Server`, `Honeypot`,...
+- Áp dụng Server này cho nhà của mình: Từ **Mesh WiFi**, **CCTV**, **Web Server** cho đến **VPN**, **SIEM**, **Jump-Server**, **Honeypot**,...
 
 ### Rust Tracking
-- Do yêu cầu công việc, nên hiện mình đang tìm hiểu và học **ngôn ngữ lập trình Rust**.
-- Bản thân đang làm trong lĩnh vực **nhúng (Embedded)**, cụ thể là **thiết bị Giám sát hành trình**.
-- Nên mình đang dùng Rust để code, tên dự án hiện tại là [Rust_Tracking](https://github.com/VinhLin/Rust_Tracking)
-- Kết hợp với việc mình đã dựng một [IoT Platform - ThingsBoard](https://www.vinhld-homelab.io.vn/login), gửi data GPS lên đây.
-- Sẽ rất thú vị đây. =]]
+- Do yêu cầu công việc, nên hiện mình đang tìm hiểu và học [ngôn ngữ lập trình Rust](https://blog.vinhld-homelab.io.vn/posts/iot/software/rust-lang/)
+- Bản thân đang làm trong lĩnh vực **nhúng (Embedded)** (cụ thể là về *thiết bị Giám sát hành trình*), cộng thêm việc mình cũng có tìm hiểu về **Security**.
+- Nên mình thấy quyết định học Rust là một điều đúng đắn (*không chỉ là do yêu cầu công việc*).
+- Do đó để trau dồi thêm khả năng code bằng Rust, mình có tự setup một dự án cho bản thân, tên dự án hiện tại là `Rust_Tracking`.
+- Dùng Rust để viết Firmware cho thiết bị GPS, sau đó gửi dữ liệu lên [IoT Platform - ThingsBoard](https://www.vinhld-homelab.io.vn/login). IoT Platform này mình cũng tự build dựa trên hạ tầng hiện tại.
+
+Sẽ rất thú vị đây. =]]
 
 ### Others Information:
 - 📺 Blog: https://vinhlin.github.io/

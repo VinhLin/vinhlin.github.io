@@ -2,14 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://vinhlin.github.io/posts/</loc>
+    <lastmod>2024-07-21T17:34:15+07:00</lastmod>
+  </url><url>
+    <loc>https://vinhlin.github.io/posts/cybersecurity/technical/tails_os/</loc>
+    <lastmod>2024-07-21T17:34:15+07:00</lastmod>
+  </url><url>
     <loc>https://vinhlin.github.io/about/</loc>
     <lastmod>2024-07-12T15:21:41+07:00</lastmod>
   </url><url>
     <loc>https://vinhlin.github.io/pages/</loc>
     <lastmod>2024-07-12T15:21:41+07:00</lastmod>
-  </url><url>
-    <loc>https://vinhlin.github.io/posts/</loc>
-    <lastmod>2024-07-10T20:34:27+07:00</lastmod>
   </url><url>
     <loc>https://vinhlin.github.io/posts/others/suy_nghi_ve_hardware_hacking/</loc>
     <lastmod>2024-07-10T20:34:27+07:00</lastmod>
