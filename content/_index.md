@@ -8,8 +8,9 @@ draft = true
 
 <img class="avatar" src="../image.jfif" alt="avatar">
 
-Xin chào, mình là VinhLin. 
-Mình có thói quen hay ghi chú những điều hay ho về Công nghệ và Điện tử.
+Xin chào, mình tên là Lin Đức Vinh, gọi tắt là VinhLin (hoặc VinhLD (nếu muốn)). =]] 
+
+Mình có thói quen hay ghi chú những điều hay ho về **IoT/Điện tử** (*nói riêng*) và **Công nghệ** (*nói chung*).
 
 Vô tình biết được có thể tạo được Blog bằng **Hugo + Github Page**, thế là trang web này ra đời.
 
@@ -30,9 +31,9 @@ Ngoài việc ghi chú lại kiến thức thì blog này cũng sẽ là nơi đ
 - Do đó để trau dồi thêm khả năng code bằng Rust, mình có tự setup một dự án cho bản thân, tên dự án hiện tại là `Rust_Tracking`.
 - Dùng Rust để viết Firmware cho thiết bị GPS, sau đó gửi dữ liệu lên [IoT Platform - ThingsBoard](https://www.vinhld-homelab.io.vn/login). IoT Platform này mình cũng tự build dựa trên hạ tầng hiện tại.
 
-Sẽ rất thú vị đây. =]]
+### Library Rust-CR95
 
-### Others Information:
+## Others Information:
 - 📺 Blog: https://vinhlin.github.io/
 - ❤️ Github: https://github.com/VinhLin
 - 📫 [Upwork Profile](https://www.upwork.com/freelancers/~017704277080c06f28?mp_source=share)

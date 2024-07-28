@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Liste - https://vinhlin.github.io/">
+    <title>Research_CR95 | VinhLin</title>
+    <meta name="description" content="Technology Blog">
+    <meta property="og:title" content="Research_CR95" />
+<meta property="og:description" content="Giới thiệu: CR95 là dòng chip dùng để đọc RFID và NFC. Các thiết bị Giám sát hành trình theo QCVN31 đều phải có bộ RFID, để đọc thẻ tài xế. Công ty đang dùng một bộ RFID với dòng chip cũ, nên sếp yêu cầu thiết kế và nghiên cứu dùng loại IC CR95 (vì loại này rất phổ biến, và hầu hết các thiết bị tracking có RFID đều dùng loại này)." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://vinhlin.github.io/posts/iot/hardware/research_cr95/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-07-28T13:12:25+07:00" />
+<meta property="article:modified_time" content="2024-07-28T13:12:25+07:00" />
+
+    <meta itemprop="name" content="Research_CR95">
+<meta itemprop="description" content="Giới thiệu: CR95 là dòng chip dùng để đọc RFID và NFC. Các thiết bị Giám sát hành trình theo QCVN31 đều phải có bộ RFID, để đọc thẻ tài xế. Công ty đang dùng một bộ RFID với dòng chip cũ, nên sếp yêu cầu thiết kế và nghiên cứu dùng loại IC CR95 (vì loại này rất phổ biến, và hầu hết các thiết bị tracking có RFID đều dùng loại này)."><meta itemprop="datePublished" content="2024-07-28T13:12:25+07:00" />
+<meta itemprop="dateModified" content="2024-07-28T13:12:25+07:00" />
+<meta itemprop="wordCount" content="667">
+<meta itemprop="keywords" content="" />
+    
+    <link rel="canonical" href="https://vinhlin.github.io/posts/iot/hardware/research_cr95/">
+    <link rel="icon" href="https://vinhlin.github.io//assets/favicon.ico">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
+    <link rel="alternate" type="application/atom+xml" title="VinhLin" href="https://vinhlin.github.io//atom.xml" />
+    <link rel="alternate" type="application/json" title="VinhLin" href="https://vinhlin.github.io//feed.json" />
+    <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=">
+    
+    
+    <style>*,:after,:before{box-sizing:border-box;padding:0}body{font:1rem/1.5 '-apple-system',BlinkMacSystemFont,avenir next,avenir,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding:2rem;background:#f5f5f5;color:#000}.skip-link{position:absolute;top:-40px;left:0;background:#eee;z-index:100}.skip-link:focus{top:0}h1,h2,h3,h4,h5,strong,b{font-size:inherit;font-weight:600}header{line-height:2;padding-bottom:1.5rem}.link{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-decoration:none}.time{font-variant-numeric:tabular-nums;white-space:nowrap}blockquote{border-left:5px solid #eee;padding-left:1rem;margin:0}a,a:visited{color:inherit}a:hover,a.heading-link{text-decoration:none}pre{padding:.5rem;overflow:auto;overflow-x:scroll;overflow-wrap:normal}code,pre{font-family:San Francisco Mono,Monaco,consolas,lucida console,dejavu sans mono,bitstream vera sans mono,monospace;font-size:normal;font-size:small;background:#eee}code{margin:.1rem;border:none}ul{list-style-type:square}ul,ol{padding-left:1.2rem}.list{line-height:2;list-style-type:none;padding-left:0}.list li{padding-bottom:.1rem}.meta{color:#777}.content{max-width:70ch;margin:0 auto}header{line-height:2;display:flex;justify-content:space-between;padding-bottom:1rem}header a{text-decoration:none}header ul{list-style-type:none;padding:0}header li,header a{display:inline}h2.post{padding-top:.5rem}header ul a:first-child{padding-left:1rem}.nav{height:1px;background:#000;content:'';max-width:10%}.list li{display:flex;align-items:baseline}.list li time{flex:initial}.hr-list{margin-top:0;margin-bottom:0;margin-right:.5rem;margin-left:.5rem;height:1px;border:0;border-bottom:1px dotted #ccc;flex:1 0 1rem}.m,hr{border:0;margin:3rem 0}img{max-width:100%;height:auto}.post-date{margin:5% 0}.index-date{color:#9a9a9a}.animate-blink{animation:opacity 1s infinite;opacity:1}@keyframes opacity{0%{opacity:1}50%{opacity:.5}100%{opacity:0}}.tags{display:flex;justify-content:space-between}.tags ul{padding:0;margin:0}.tags li{display:inline}.avatar{height:120px;width:120px;position:relative;margin:-10px 0 0 15px;float:right;border-radius:50%}table{width:100%;border-collapse:collapse}th,td{border:1px solid #ddd;text-align:left;padding:8px}th{background-color:#f2f2f2} </style>
+  
+    
+  
+  
+  <script type="application/ld+json">
+  {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "articleSection": "posts",
+      "name": "Research_CR95",
+      "headline": "Research_CR95",
+      "alternativeHeadline": "",
+      "description": "Giới thiệu: CR95 là dòng chip dùng để đọc RFID và NFC. Các thiết bị Giám sát hành trình theo QCVN31 đều phải có bộ RFID, để đọc thẻ tài xế. Công ty đang dùng một bộ RFID với dòng chip cũ, nên sếp yêu cầu thiết kế và nghiên cứu dùng loại IC CR95 (vì loại này rất phổ biến, và hầu hết các thiết bị tracking có RFID đều dùng loại này).",
+      "inLanguage": "en-us",
+      "isFamilyFriendly": "true",
+      "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https:\/\/vinhlin.github.io\/posts\/iot\/hardware\/research_cr95\/"
+      },
+      "author" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "creator" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "accountablePerson" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "copyrightHolder" : "VinhLin",
+      "copyrightYear" : "2024",
+      "dateCreated": "2024-07-28T13:12:25.00Z",
+      "datePublished": "2024-07-28T13:12:25.00Z",
+      "dateModified": "2024-07-28T13:12:25.00Z",
+      "publisher":{
+          "@type":"Organization",
+          "name": "VinhLin",
+          "url": "https://vinhlin.github.io/",
+          "logo": {
+              "@type": "ImageObject",
+              "url": "https:\/\/vinhlin.github.io\/assets\/favicon.ico",
+              "width":"32",
+              "height":"32"
+          }
+      },
+      "image": "https://vinhlin.github.io/assets/favicon.ico",
+      "url" : "https:\/\/vinhlin.github.io\/posts\/iot\/hardware\/research_cr95\/",
+      "wordCount" : "667",
+      "genre" : [ ],
+      "keywords" : [ ]
+  }
+  </script>
+  
+  
+  </head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main</a>
+  <main id="main">
+  <div class="content">
+    <header>
+<p style="padding: 0;margin: 0;">
+  <a href="/">
+    <b>VinhLin</b>
+    <span class="text-stone-500 animate-blink">▮</span>
+  </a>
+</p>
+<ul style="padding: 0;margin: 0;">
+  
+  
+  <li class="">
+    <a href="/posts/"><span>Post</span></a>
+    
+  <li class="">
+    <a href="/about/"><span>About</span></a>
+    
+  </li>
+</ul>
+</header>
+<hr class="hr-list" style="padding: 0;margin: 0;">
+    <section>
+      <h2 class="post">Research_CR95</h2>
+      <h3 id="giới-thiệu">Giới thiệu:</h3>
+<ul>
+<li><strong>CR95</strong> là dòng chip dùng để đọc <strong>RFID</strong> và <strong>NFC</strong>.</li>
+<li>Các thiết bị Giám sát hành trình theo <strong>QCVN31</strong> đều phải có bộ RFID, để đọc thẻ tài xế.</li>
+<li>Công ty đang dùng một bộ RFID với dòng chip cũ, nên sếp yêu cầu thiết kế và nghiên cứu dùng loại <strong>IC CR95</strong> (vì loại này rất phổ biến, và hầu hết các thiết bị tracking có RFID đều dùng loại này).</li>
+</ul>
+<h3 id="yêu-cầu">Yêu cầu:</h3>
+<ul>
+<li>Nghiên cứu dùng STM32F103 + CR95, kết nối thông qua UART.</li>
+<li>Dùng ngôn ngữ lập trình Rust để viết Firmware.</li>
+</ul>
+<h2 id="research">Research</h2>
+<ul>
+<li>Sau khi tìm hiểu các library dùng cho CR95, thì mình thấy rằng hầu hết đều dùng chuẩn kết nối là <strong>SPI</strong>.</li>
+<li>Mình cần xem lại <a href="https://www.st.com/resource/en/datasheet/cr95hf.pdf">datasheet của CR95</a>.</li>
+<li>Về phần cứng thì mình không cần phải lo (vì đã có một anh (anh Sơn) trong cty lo về hardware), nhiệm vụ của mình là cần tìm hiều cách đọc bản tin, giao tiếp và viết firmware.</li>
+</ul>
+<h3 id="may-mắn-thay">May mắn thay</h3>
+<ul>
+<li>Lúc trước có một anh khác trong cty (anh này cũng tên Vinh và hiện tại thì đã off) đã làm được và kết nối thành công với CR95 bằng UART.</li>
+<li><strong>Source code</strong> anh này được viết <strong>bằng C</strong>, mình đọc source code, kết hợp với việc đọc lại datasheet và test command trên một <a href="http://www.tme.vn/product.aspx?id=2095#page=pro_info">board phần cứng CR95 khác</a>
+<img
+  src="http://www.tme.vn/upload/products/CR95HF-BRD.jpg"
+  alt="CR95HF-BRD"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</li>
+<li>Sau khi thử và test thì mình tìm được gần như tất cả các command giao tiếp, đó là:</li>
+</ul>
+<pre tabindex="0"><code>Echo: 0x55
+Info: 0x0100
+Set Protocol: 0x02020109
+SendRecv: 0x0403022000
+</code></pre><ul>
+<li>Tới đây thì mình <strong>bó tay</strong>, không hiều làm sao mà có thể đọc được <strong>thông tin ID, tên tài xế, giấy phép lái xe</strong> của thẻ RFID</li>
+<li>Và mình vướng, mình đã dùng khá nhiều cách như: đọc bản tin giao tiếp qua lại, giả lập bản tin hex,&hellip;</li>
+<li>Nhưng kết quả đều không rõ ràng và không còn ý tưởng nào để làm tiếp.</li>
+</ul>
+<h3 id="đọc-tín-hiệu-xung">Đọc tín hiệu xung</h3>
+<ul>
+<li>Khi gần như bế tắc thì anh Sơn đã gợi ý là <strong>đọc tín hiệu xung</strong>.</li>
+<li>Và mình nhớ ra là mình có công cụ để làm điều đó, đó là dùng <a href="https://hshop.vn/products/mach-usb-saleae-8ch-24mhz-logic-analyzer">board logic analyzer</a>
+<img
+  src="https://product.hstatic.net/1000069225/product/c583f4e0-da4c-4abe-9e29-16844f44de69_1_201_a_9a3822254fa44d8e9e2fb043ec157eaf_1024x1024.jpg"
+  alt="logic analyzer"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</li>
+<li>Board này tức nhiên là không bằng cách máy Oscilloscope, nhưng bù lại <a href="https://www.saleae.com/pages/downloads">phần mềm hỗ trợ</a> cho board này lại cực xịn (đánh giá cá nhân).</li>
+<li>Từ <strong>hình 1</strong> và <strong>hình 2</strong> là mình biết rằng những lệnh command ban đầu của mình đã đúng.
+<img
+  src="/image/IoT/Research_CR95/Hinh_1.png"
+  alt="CR95-Hinh_1"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+
+<img
+  src="/image/IoT/Research_CR95/Hinh_2.png"
+  alt="CR95-Hinh_2"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</li>
+<li>Tiếp đến là bước quan trọng, đó là việc đọc thông tin thẻ tài xế:
+<img
+  src="/image/IoT/Research_CR95/Hinh_3.png"
+  alt="CR95-Hinh_3"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</li>
+<li>Cuối cùng mình cũng đã biết nguyên nhân mình bị thiếu. Đó là mỗi lần gửi <strong>SendRecv</strong> thì nó chỉ đọc được số lượng <strong>byte</strong> nhất định, nên để đọc được hết thông tin thì mình cần gửi:</li>
+</ul>
+<pre tabindex="0"><code>0x0403022000
+0x0403022001
+0x0403022002
+0x0403022003
+0x0403022004
+.
+.
+.
+.
+.
+.
+</code></pre><ul>
+<li>Cứ thế gửi cho đến khi đọc hết thông tin.</li>
+</ul>
+<h3 id="nhiệm-vụ-tiếp-theo">Nhiệm vụ tiếp theo</h3>
+<ul>
+<li>Bây giờ đã rõ hết cấu trúc bản tin.</li>
+<li>Nhiệm vụ tiếp theo là mình cần viết lại một library bằng Rust giao tiếp với CR95 với những command đã biết.</li>
+<li>Parse data để lấy những dữ liệu cần thiết, và gửi format lại thành một cấu trúc bản tin hoàn chỉnh.</li>
+</ul>
+<h2 id="suy-nghĩ">Suy nghĩ:</h2>
+<ul>
+<li>Lúc trước mình có xem một video về các công cụ hardware hacking dành cho việc <strong>Firmware Reverse</strong>, thì <strong>Logic Analyzer</strong> là một trong các công cụ đó.</li>
+<li>Mình thấy một <strong>Hardware Engineer</strong> công việc cũng giống như một <strong>IoT Hacker</strong>, cũng dựa trên các công cụ và hiểu biết để nghiên cứu hành vi, hiểu rõ cơ chế.</li>
+<li>Chỉ có nghiên cứu sản phẩm thôi mà cũng thấy mệt mệt rồi, đọc tài liệu, phân tích mã hex, đọc xung,&hellip;</li>
+<li>Mình có thể mường tưởng ra cách Trung Quốc họ copy:
+<ul>
+<li>Mua sản phẩm</li>
+<li>Kiểm tra loại chip (soi bằng kính hiển vi, hoặc đoán dựa trên tính năng)</li>
+<li>Dịch ngược bằng cách: bắt tín hiệu xung, dump firmware.</li>
+</ul>
+</li>
+<li>Đến bây giờ mình mới có thể hiểu. =]]</li>
+</ul>
+
+      
+      <div class="post-date">
+        <span class="g time">July 28, 2024 </span> &#8729;
+         
+      </div>
+      
+    </section>
+    
+    
+    
+  </div>
+</main>
+</body>
+</html>

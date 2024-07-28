@@ -14,6 +14,135 @@
     
     
     <item>
+      <title>Research_CR95</title>
+      <link>https://vinhlin.github.io/posts/iot/hardware/research_cr95/</link>
+      <description>&lt;h3 id=&#34;giới-thiệu&#34;&gt;Giới thiệu:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;CR95&lt;/strong&gt; là dòng chip dùng để đọc &lt;strong&gt;RFID&lt;/strong&gt; và &lt;strong&gt;NFC&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Các thiết bị Giám sát hành trình theo &lt;strong&gt;QCVN31&lt;/strong&gt; đều phải có bộ RFID, để đọc thẻ tài xế.&lt;/li&gt;
+&lt;li&gt;Công ty đang dùng một bộ RFID với dòng chip cũ, nên sếp yêu cầu thiết kế và nghiên cứu dùng loại &lt;strong&gt;IC CR95&lt;/strong&gt; (vì loại này rất phổ biến, và hầu hết các thiết bị tracking có RFID đều dùng loại này).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;yêu-cầu&#34;&gt;Yêu cầu:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Nghiên cứu dùng STM32F103 + CR95, kết nối thông qua UART.&lt;/li&gt;
+&lt;li&gt;Dùng ngôn ngữ lập trình Rust để viết Firmware.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;research&#34;&gt;Research&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Sau khi tìm hiểu các library dùng cho CR95, thì mình thấy rằng hầu hết đều dùng chuẩn kết nối là &lt;strong&gt;SPI&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Mình cần xem lại &lt;a href=&#34;https://www.st.com/resource/en/datasheet/cr95hf.pdf&#34;&gt;datasheet của CR95&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Về phần cứng thì mình không cần phải lo (vì đã có một anh (anh Sơn) trong cty lo về hardware), nhiệm vụ của mình là cần tìm hiều cách đọc bản tin, giao tiếp và viết firmware.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;may-mắn-thay&#34;&gt;May mắn thay&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Lúc trước có một anh khác trong cty (anh này cũng tên Vinh và hiện tại thì đã off) đã làm được và kết nối thành công với CR95 bằng UART.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Source code&lt;/strong&gt; anh này được viết &lt;strong&gt;bằng C&lt;/strong&gt;, mình đọc source code, kết hợp với việc đọc lại datasheet và test command trên một &lt;a href=&#34;http://www.tme.vn/product.aspx?id=2095#page=pro_info&#34;&gt;board phần cứng CR95 khác&lt;/a&gt;
+&lt;img
+  src=&#34;http://www.tme.vn/upload/products/CR95HF-BRD.jpg&#34;
+  alt=&#34;CR95HF-BRD&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/li&gt;
+&lt;li&gt;Sau khi thử và test thì mình tìm được gần như tất cả các command giao tiếp, đó là:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Echo: 0x55
+Info: 0x0100
+Set Protocol: 0x02020109
+SendRecv: 0x0403022000
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Tới đây thì mình &lt;strong&gt;bó tay&lt;/strong&gt;, không hiều làm sao mà có thể đọc được &lt;strong&gt;thông tin ID, tên tài xế, giấy phép lái xe&lt;/strong&gt; của thẻ RFID&lt;/li&gt;
+&lt;li&gt;Và mình vướng, mình đã dùng khá nhiều cách như: đọc bản tin giao tiếp qua lại, giả lập bản tin hex,&amp;hellip;&lt;/li&gt;
+&lt;li&gt;Nhưng kết quả đều không rõ ràng và không còn ý tưởng nào để làm tiếp.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;đọc-tín-hiệu-xung&#34;&gt;Đọc tín hiệu xung&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Khi gần như bế tắc thì anh Sơn đã gợi ý là &lt;strong&gt;đọc tín hiệu xung&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Và mình nhớ ra là mình có công cụ để làm điều đó, đó là dùng &lt;a href=&#34;https://hshop.vn/products/mach-usb-saleae-8ch-24mhz-logic-analyzer&#34;&gt;board logic analyzer&lt;/a&gt;
+&lt;img
+  src=&#34;https://product.hstatic.net/1000069225/product/c583f4e0-da4c-4abe-9e29-16844f44de69_1_201_a_9a3822254fa44d8e9e2fb043ec157eaf_1024x1024.jpg&#34;
+  alt=&#34;logic analyzer&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/li&gt;
+&lt;li&gt;Board này tức nhiên là không bằng cách máy Oscilloscope, nhưng bù lại &lt;a href=&#34;https://www.saleae.com/pages/downloads&#34;&gt;phần mềm hỗ trợ&lt;/a&gt; cho board này lại cực xịn (đánh giá cá nhân).&lt;/li&gt;
+&lt;li&gt;Từ &lt;strong&gt;hình 1&lt;/strong&gt; và &lt;strong&gt;hình 2&lt;/strong&gt; là mình biết rằng những lệnh command ban đầu của mình đã đúng.
+&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Research_CR95/Hinh_1.png&#34;
+  alt=&#34;CR95-Hinh_1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+
+&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Research_CR95/Hinh_2.png&#34;
+  alt=&#34;CR95-Hinh_2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/li&gt;
+&lt;li&gt;Tiếp đến là bước quan trọng, đó là việc đọc thông tin thẻ tài xế:
+&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Research_CR95/Hinh_3.png&#34;
+  alt=&#34;CR95-Hinh_3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/li&gt;
+&lt;li&gt;Cuối cùng mình cũng đã biết nguyên nhân mình bị thiếu. Đó là mỗi lần gửi &lt;strong&gt;SendRecv&lt;/strong&gt; thì nó chỉ đọc được số lượng &lt;strong&gt;byte&lt;/strong&gt; nhất định, nên để đọc được hết thông tin thì mình cần gửi:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;0x0403022000
+0x0403022001
+0x0403022002
+0x0403022003
+0x0403022004
+.
+.
+.
+.
+.
+.
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Cứ thế gửi cho đến khi đọc hết thông tin.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;nhiệm-vụ-tiếp-theo&#34;&gt;Nhiệm vụ tiếp theo&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Bây giờ đã rõ hết cấu trúc bản tin.&lt;/li&gt;
+&lt;li&gt;Nhiệm vụ tiếp theo là mình cần viết lại một library bằng Rust giao tiếp với CR95 với những command đã biết.&lt;/li&gt;
+&lt;li&gt;Parse data để lấy những dữ liệu cần thiết, và gửi format lại thành một cấu trúc bản tin hoàn chỉnh.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;suy-nghĩ&#34;&gt;Suy nghĩ:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Lúc trước mình có xem một video về các công cụ hardware hacking dành cho việc &lt;strong&gt;Firmware Reverse&lt;/strong&gt;, thì &lt;strong&gt;Logic Analyzer&lt;/strong&gt; là một trong các công cụ đó.&lt;/li&gt;
+&lt;li&gt;Mình thấy một &lt;strong&gt;Hardware Engineer&lt;/strong&gt; công việc cũng giống như một &lt;strong&gt;IoT Hacker&lt;/strong&gt;, cũng dựa trên các công cụ và hiểu biết để nghiên cứu hành vi, hiểu rõ cơ chế.&lt;/li&gt;
+&lt;li&gt;Chỉ có nghiên cứu sản phẩm thôi mà cũng thấy mệt mệt rồi, đọc tài liệu, phân tích mã hex, đọc xung,&amp;hellip;&lt;/li&gt;
+&lt;li&gt;Mình có thể mường tưởng ra cách Trung Quốc họ copy:
+&lt;ul&gt;
+&lt;li&gt;Mua sản phẩm&lt;/li&gt;
+&lt;li&gt;Kiểm tra loại chip (soi bằng kính hiển vi, hoặc đoán dựa trên tính năng)&lt;/li&gt;
+&lt;li&gt;Dịch ngược bằng cách: bắt tín hiệu xung, dump firmware.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Đến bây giờ mình mới có thể hiểu. =]]&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/iot/hardware/research_cr95/</guid>
+      <pubDate>Sun, 28 Jul 2024 13:12:25 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Tails_OS</title>
       <link>https://vinhlin.github.io/posts/cybersecurity/technical/tails_os/</link>
       <description>&lt;h3 id=&#34;ẩn-danh---anonymous&#34;&gt;Ẩn danh - Anonymous&lt;/h3&gt;

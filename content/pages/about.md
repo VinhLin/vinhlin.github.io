@@ -34,7 +34,7 @@ Tuy nhiên với mong muốn học hỏi, trau dồi thì mình vẫn không ng�
 - Về Security thì mình sẽ focus vào:
 	- **Web Pentest**: Vì các ứng dụng nhúng luôn giao tiếp với Server qua API, hoặc bản thân thiết bị đó đã có một ứng dụng web (localhost).
 	- **IoT Firmware Reverse**
-- Dựa vào kiến thức hiện tại và những mục tiêu trong tương lai, mình có tự xây dựng **Roadmap** cho bản thân.
+- Dựa vào kiến thức hiện tại và những mục tiêu trong tương lai, mình có tự xây dựng [Roadmap cho bản thân](/image/Career_RoadmapHard-Skills.png).
 
-![Career RoadmapHard-Skills](/image/Career_RoadmapHard-Skills.png)
+![IoT](/image/iot.jpg)
 

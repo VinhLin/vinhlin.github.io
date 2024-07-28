@@ -29,6 +29,7 @@ hugo new posts/Others/Suy_nghi_ve_Hardware_Hacking.md
 ```
 hugo new posts/IoT/Hardware/UNIHIKER.md
 hugo new posts/IoT/Hardware/ESD.md
+hugo new posts/IoT/Hardware/Research_CR95.md
 ```
 - Software
 ```
