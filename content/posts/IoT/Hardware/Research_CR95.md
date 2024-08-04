@@ -22,7 +22,9 @@ draft = true
 ### May mắn thay
 - Lúc trước có một anh khác trong cty (anh này cũng tên Vinh và hiện tại thì đã off) đã làm được và kết nối thành công với CR95 bằng UART.
 - **Source code** anh này được viết **bằng C**, mình đọc source code, kết hợp với việc đọc lại datasheet và test command trên một [board phần cứng CR95 khác](http://www.tme.vn/product.aspx?id=2095#page=pro_info) 
-![CR95HF-BRD](http://www.tme.vn/upload/products/CR95HF-BRD.jpg)
+
+![CR95HF-BRD](/image/IoT/Research_CR95/CR95HF-BRD.jpg)
+
 - Sau khi thử và test thì mình tìm được gần như tất cả các command giao tiếp, đó là:
 ```
 Echo: 0x55
@@ -40,10 +42,15 @@ SendRecv: 0x0403022000
 ![logic analyzer](https://product.hstatic.net/1000069225/product/c583f4e0-da4c-4abe-9e29-16844f44de69_1_201_a_9a3822254fa44d8e9e2fb043ec157eaf_1024x1024.jpg)
 - Board này tức nhiên là không bằng cách máy Oscilloscope, nhưng bù lại [phần mềm hỗ trợ](https://www.saleae.com/pages/downloads) cho board này lại cực xịn (đánh giá cá nhân).
 - Từ **hình 1** và **hình 2** là mình biết rằng những lệnh command ban đầu của mình đã đúng.
+
 ![CR95-Hinh_1](/image/IoT/Research_CR95/Hinh_1.png)
+
 ![CR95-Hinh_2](/image/IoT/Research_CR95/Hinh_2.png)
+
 - Tiếp đến là bước quan trọng, đó là việc đọc thông tin thẻ tài xế:
+
 ![CR95-Hinh_3](/image/IoT/Research_CR95/Hinh_3.png)
+
 - Cuối cùng mình cũng đã biết nguyên nhân mình bị thiếu. Đó là mỗi lần gửi **SendRecv** thì nó chỉ đọc được số lượng **byte** nhất định, nên để đọc được hết thông tin thì mình cần gửi:
 ```
 0x0403022000

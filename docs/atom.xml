@@ -14,6 +14,157 @@
     
     
     <item>
+      <title>IoT_Security_JD</title>
+      <link>https://vinhlin.github.io/posts/others/iot_security_jd/</link>
+      <description>&lt;p&gt;Bữa lang thang trên diễn đàn &lt;strong&gt;CISSP trên facebook&lt;/strong&gt;, mình thấy một &lt;strong&gt;JD về Security cho IoT&lt;/strong&gt;. Mình thấy JD này đầy đủ và cụ thể:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;VNPT Cyber Immunity tìm kiếm ứng viên đam mê làm Security cho các thiết bị UAV, drone, IoT, satellite,...
+Nếu trái tim bạn rực cháy với niềm đam mê nghiên cứu bảo mật, hãy để VCI tiếp lửa cho bạn. Bạn sẽ là mảnh ghép VCI, nếu bạn:
+Có kỹ năng dịch ngược phần mềm (Reverse Engineering) và tìm kiếm lỗ hổng từ file thực thi đó
+Thông thạo kỹ năng dịch ngược phần cứng, bóc tách chip nhớ của mạch IoT, đọc sửa chip nhớ, mod firmware
+Thông thạo kỹ năng khai thác lỗ hổng phần mềm, tối thiểu nắm vững các kỹ thuật khai thác cơ bản như: BoF, ROP, bypass DEP, command injection, v.v....
+Có kỹ năng Source code review + Pentest blackbox các các thiết bị IoT
+Đam mê với lĩnh vực bảo mật thiết bị IoT và luôn tìm kiếm sự đổi mới
+Bạn sẽ là vai chính trong các dự án lớn nhỏ của chúng mình và đảm nhận trách nhiệm:
+Kiểm định, đánh giá an toàn bảo mật với các thiết bị IoT, router, wifi, mesh, v.v... trước khi hòa mạng vào hệ thống mạng băng rộng VNPT
+Nghiên cứu, đánh giá ATTT các thiết bị, sản phẩm kết nối không dây, điều khiển không dây (Vệ tinh, UAV, DRONE, …)
+Nghiên cứu, đánh giá ATTT các hạ tầng truyền dẫn, các giao thức truyền thông radio IoT, giao thức tầng ứng dụng MQTT, CoAPP, Socket, …
+Nghiên cứu phát triển các giải pháp đảm bảo ATTT (Giải pháp VNPT IoT Guard,…) cho các thiết bị IoT, Mobile
+VCI sẽ là người bạn đồng hành cùng bạn trên chặng đường chinh phục bảo mật IoT:
+Gia nhập VCI, bạn sẽ đóng vai chính cho các dự án
+Làm việc trong môi trường chuyên nghiệp, trẻ trung, hiện đại với nhiều cơ hội phát triển nghề nghiệp, nơi mọi ý tưởng đều được hoan nghênh
+Chế độ đãi ngộ hấp dẫn và review lương theo năng lực
+Chúng mình bắt đầu làm việc từ 8h và tan làm lúc 17h từ thứ 2 đến thứ 6, và dùng cuối tuần để tận hưởng thời gian riêng cho bản thân
+Nếu bạn cảm thấy “match” với tần số của chúng mình, hãy gửi hồ sơ (CV) để ứng tuyển ngay nhé!
+Hồ sơ ứng viên xin gửi về địa chỉ email: security@vnpt.vn
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;reverse&#34;&gt;Reverse&lt;/h2&gt;
+&lt;p&gt;Đây là kỹ năng mà mình cần rèn luyện và trau dồi.&lt;/p&gt;
+&lt;h3 id=&#34;dịch-ngược-phần-cứng&#34;&gt;Dịch ngược Phần cứng&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Việc &lt;strong&gt;bóc tách chip nhớ&lt;/strong&gt; thì sẽ có 2 mục tiêu chính:
+&lt;ul&gt;
+&lt;li&gt;Thứ 1: Đọc các dữ liệu được lưu trữ không Flash&lt;/li&gt;
+&lt;li&gt;Thứ 2: Dump Firmware&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Mình liên tưởng đến các thiết bị Tracking, các dữ liệu khi chưa gửi kịp lên Server thì sẽ được lưu trữ lại.&lt;/li&gt;
+&lt;li&gt;Việc đọc chip nhớ có thể giúp mình lấy được data backup của thiết bị, từ trạng thái ON/OFF cho đến location (lat, long) của thiết bị.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;khai-thác-lỗ-hổng&#34;&gt;Khai thác lỗ hổng&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Khi đã có firmware thì mình có thể dùng tool để dịch ngược mã nguồn.&lt;/li&gt;
+&lt;li&gt;Trong JD có các thuật ngữ mà mình không hiểu, ngoại trừ &lt;strong&gt;command injection&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Cái này phức tạp vãi chưởng luôn.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;pentest-blackbox&#34;&gt;Pentest blackbox&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Các thiết bị IoT thường sẽ có giao diện web, nên mình nghĩ nếu pentest thì thường sẽ là &lt;strong&gt;Pentest Web&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Hoặc có thể là lấy thông tin từ &lt;strong&gt;Debug UART&lt;/strong&gt;, tìm kiếm IP Gateway Server, FTP Server,&amp;hellip; =&amp;gt; Pentest Web.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;kiểm-định-đánh-giá-an-toàn-bảo-mật&#34;&gt;Kiểm định, đánh giá an toàn bảo mật&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Các giao thức truyền thông IoT thì mình biết, nhưng mà để &lt;strong&gt;đánh giá ATTT&lt;/strong&gt; thì mình chưa rõ.&lt;/li&gt;
+&lt;li&gt;Không lẻ lấy theo tiêu chuẩn &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/nis2/&#34;&gt;NIS2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;Nhìn chung thì nếu dựa trên JD này thì thật sự mình thiếu khá nhiều.&lt;/p&gt;
+&lt;p&gt;Biết thì mình có biết đấy, nhưng để làm được thì chưa. Nguyên nhân có thể là &lt;strong&gt;điều kiện thực hành&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Mình khá chắc rằng một người làm trong mảng IoT (hay Embedded) nhiều năm cũng chưa chắc đã đáp ứng đc hết yêu cầu trên.&lt;/p&gt;
+&lt;p&gt;Vì trong IoT còn có những mảng nhỏ khác như:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Design (vẽ Schematic, PCB)
+Code nhúng Firmware cho MCU
+Code nhúng cho Linux
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Cũng may là mình biết một chút về Security (và đang trên con đường định hướng về IoT Security) nên JD này là cái mà mình cần tham khảo. =]]&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://media.springernature.com/lw685/springer-static/image/chp%3A10.1007%2F978-981-15-6353-9_46/MediaObjects/488228_1_En_46_Fig1_HTML.png&#34;
+  alt=&#34;IoT&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/others/iot_security_jd/</guid>
+      <pubDate>Sun, 04 Aug 2024 11:04:52 +0700</pubDate>
+    </item>
+    
+    <item>
+      <title>Docklight</title>
+      <link>https://vinhlin.github.io/posts/iot/software/docklight/</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;Bữa đang nghiên cứu code Rust cho CR95, thì phần cứng nó cứ chập chờn.&lt;/li&gt;
+&lt;li&gt;Gửi lệnh cho thiết bị thì lúc có phản hồi, lúc không. Có thể cắm dây nó lỏng hay gì đó thì không biết.&lt;/li&gt;
+&lt;li&gt;Sang tuần mới có board mạch hoàn chỉnh.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Lúc này mình mới nhớ ra là có một công cụ mà lúc trước mình có dùng để &lt;strong&gt;giả lập data Serial&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Công cụ này được một người anh giới thiệu sử dụng, lúc mà còn làm ở Vietmap, nghiên cứu cho dự án &lt;strong&gt;Công lạnh&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;tool-giả-lập-data-cho-serial&#34;&gt;Tool giả lập data cho Serial&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Mục tiêu là mình không cần quá phụ thược vào phần cứng module CR95HF nữa. Mà chỉ cần tập trung code.&lt;/li&gt;
+&lt;li&gt;Những thông tin, data, command id,&amp;hellip; tất cả mình đã có hết.&lt;/li&gt;
+&lt;li&gt;Lúc này mình sẽ dùng &lt;strong&gt;Docklight&lt;/strong&gt; để &lt;strong&gt;giả lập data&lt;/strong&gt; (tương tự như cách CR95 phản hồi command từ MCU).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;docklight&#34;&gt;Docklight&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Đây là công cụ có bản quyền, phải trả phí.&lt;/li&gt;
+&lt;li&gt;Tuy nhiên để dùng &lt;strong&gt;free&lt;/strong&gt; thì mình cần tải phiên bản &lt;strong&gt;Docklight 2.2&lt;/strong&gt; trở xuống.&lt;/li&gt;
+&lt;li&gt;Download: &lt;a href=&#34;https://docklight.de/downloads/&#34;&gt;https://docklight.de/downloads/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Download Docklight V2.2.8 for Windows 10, Windows 8, Windows 7, Windows Vista (4.7 MB, Release 11/2016)
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Và đây là &lt;strong&gt;Key number&lt;/strong&gt; để kích hoạt:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;KEY NUMBER
+010111323344556
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img
+  src=&#34;https://docklight.de/wp-content/uploads/2018/09/app3_docklight_screenshot_simulator_based_on_log_data.png&#34;
+  alt=&#34;docklight&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/iot/software/docklight/</guid>
+      <pubDate>Sat, 03 Aug 2024 13:24:20 +0700</pubDate>
+    </item>
+    
+    <item>
+      <title>ParamSpider</title>
+      <link>https://vinhlin.github.io/posts/cybersecurity/technical/paramspider/</link>
+      <description>&lt;p&gt;Bữa có coi video trên Youtube có tựa đề: &lt;a href=&#34;https://www.youtube.com/watch?v=JHRzVEvpHSM&amp;amp;list=WL&amp;amp;index=2&#34;&gt;5 Hacking Tools I Can&amp;rsquo;t Live Without&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Trong đó có đề cập đến các công cụ dành cho việc Pentest Web:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;1. DevTools
+2. BURP Suite
+3. Containers
+4. FFUF
+5. ParamSpider
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Mấy công cụ đầu thì mình cũng có biết qua, có công cụ cuối cùng là cần note lại.&lt;/p&gt;
+&lt;h3 id=&#34;github-paramspiderhttpsgithubcomdevanshbathamparamspider&#34;&gt;&lt;a href=&#34;https://github.com/devanshbatham/ParamSpider&#34;&gt;Github ParamSpider&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Dựa vào thông tin trên github công cụ giống như &lt;a href=&#34;https://web.archive.org/&#34;&gt;Wayback Machine&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tuy nhiên nó giúp mình lọc bớt những thông tin thừa thải, chỉ như vậy thôi cũng đã giúp pentester tiết kiệm kha khá thời gian.&lt;/li&gt;
+&lt;li&gt;Công cụ này cũng ổn áp &amp;ldquo;phết&amp;rdquo;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://raw.githubusercontent.com/devanshbatham/ParamSpider/master/static/paramspider.png&#34;
+  alt=&#34;paramspider&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/cybersecurity/technical/paramspider/</guid>
+      <pubDate>Sat, 03 Aug 2024 12:24:25 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Research_CR95</title>
       <link>https://vinhlin.github.io/posts/iot/hardware/research_cr95/</link>
       <description>&lt;h3 id=&#34;giới-thiệu&#34;&gt;Giới thiệu:&lt;/h3&gt;
@@ -36,16 +187,18 @@
 &lt;h3 id=&#34;may-mắn-thay&#34;&gt;May mắn thay&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Lúc trước có một anh khác trong cty (anh này cũng tên Vinh và hiện tại thì đã off) đã làm được và kết nối thành công với CR95 bằng UART.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Source code&lt;/strong&gt; anh này được viết &lt;strong&gt;bằng C&lt;/strong&gt;, mình đọc source code, kết hợp với việc đọc lại datasheet và test command trên một &lt;a href=&#34;http://www.tme.vn/product.aspx?id=2095#page=pro_info&#34;&gt;board phần cứng CR95 khác&lt;/a&gt;
-&lt;img
-  src=&#34;http://www.tme.vn/upload/products/CR95HF-BRD.jpg&#34;
+&lt;li&gt;&lt;strong&gt;Source code&lt;/strong&gt; anh này được viết &lt;strong&gt;bằng C&lt;/strong&gt;, mình đọc source code, kết hợp với việc đọc lại datasheet và test command trên một &lt;a href=&#34;http://www.tme.vn/product.aspx?id=2095#page=pro_info&#34;&gt;board phần cứng CR95 khác&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Research_CR95/CR95HF-BRD.jpg&#34;
   alt=&#34;CR95HF-BRD&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
   class=&#34;full-width&#34;
 /&gt;
 
-&lt;/li&gt;
+&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;Sau khi thử và test thì mình tìm được gần như tất cả các command giao tiếp, đó là:&lt;/li&gt;
 &lt;/ul&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Echo: 0x55
@@ -71,8 +224,9 @@ SendRecv: 0x0403022000
 
 &lt;/li&gt;
 &lt;li&gt;Board này tức nhiên là không bằng cách máy Oscilloscope, nhưng bù lại &lt;a href=&#34;https://www.saleae.com/pages/downloads&#34;&gt;phần mềm hỗ trợ&lt;/a&gt; cho board này lại cực xịn (đánh giá cá nhân).&lt;/li&gt;
-&lt;li&gt;Từ &lt;strong&gt;hình 1&lt;/strong&gt; và &lt;strong&gt;hình 2&lt;/strong&gt; là mình biết rằng những lệnh command ban đầu của mình đã đúng.
-&lt;img
+&lt;li&gt;Từ &lt;strong&gt;hình 1&lt;/strong&gt; và &lt;strong&gt;hình 2&lt;/strong&gt; là mình biết rằng những lệnh command ban đầu của mình đã đúng.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/IoT/Research_CR95/Hinh_1.png&#34;
   alt=&#34;CR95-Hinh_1&#34;
   loading=&#34;lazy&#34;
@@ -80,8 +234,8 @@ SendRecv: 0x0403022000
   class=&#34;full-width&#34;
 /&gt;
 
-
-&lt;img
+&lt;/p&gt;
+&lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/IoT/Research_CR95/Hinh_2.png&#34;
   alt=&#34;CR95-Hinh_2&#34;
   loading=&#34;lazy&#34;
@@ -89,9 +243,11 @@ SendRecv: 0x0403022000
   class=&#34;full-width&#34;
 /&gt;
 
-&lt;/li&gt;
-&lt;li&gt;Tiếp đến là bước quan trọng, đó là việc đọc thông tin thẻ tài xế:
-&lt;img
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tiếp đến là bước quan trọng, đó là việc đọc thông tin thẻ tài xế:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/IoT/Research_CR95/Hinh_3.png&#34;
   alt=&#34;CR95-Hinh_3&#34;
   loading=&#34;lazy&#34;
@@ -99,7 +255,8 @@ SendRecv: 0x0403022000
   class=&#34;full-width&#34;
 /&gt;
 
-&lt;/li&gt;
+&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;Cuối cùng mình cũng đã biết nguyên nhân mình bị thiếu. Đó là mỗi lần gửi &lt;strong&gt;SendRecv&lt;/strong&gt; thì nó chỉ đọc được số lượng &lt;strong&gt;byte&lt;/strong&gt; nhất định, nên để đọc được hết thông tin thì mình cần gửi:&lt;/li&gt;
 &lt;/ul&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;0x0403022000

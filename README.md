@@ -22,6 +22,7 @@ hugo --config hugo.toml -D
 ```
 hugo new posts/Others/Goc_nhin_ve_Ngoai_ngu.md
 hugo new posts/Others/Suy_nghi_ve_Hardware_Hacking.md
+hugo new posts/Others/IoT_Security_JD.md
 ```
 
 ### IoT:
@@ -37,6 +38,7 @@ hugo new posts/IoT/Software/PiKVM.md
 hugo new posts/IoT/Software/Pi400-Keyboard.md
 hugo new posts/IoT/Software/Raspberry-OpenAuto.md
 hugo new posts/IoT/Software/Rust-lang.md
+hugo new posts/IoT/Software/Docklight.md
 ```
 
 ### CyberSecurity:
@@ -53,6 +55,7 @@ hugo new posts/CyberSecurity/Technical/DFLab_VNCERT.md
 hugo new posts/CyberSecurity/Technical/OSINT.md
 hugo new posts/CyberSecurity/Technical/TheHive.md
 hugo new posts/CyberSecurity/Technical/Tails_OS.md
+hugo new posts/CyberSecurity/Technical/ParamSpider.md
 ```
 
 

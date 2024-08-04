@@ -31,13 +31,14 @@ Ngoài việc ghi chú lại kiến thức thì blog này cũng sẽ là nơi đ
 - Do đó để trau dồi thêm khả năng code bằng Rust, mình có tự setup một dự án cho bản thân, tên dự án hiện tại là `Rust_Tracking`.
 - Dùng Rust để viết Firmware cho thiết bị GPS, sau đó gửi dữ liệu lên [IoT Platform - ThingsBoard](https://www.vinhld-homelab.io.vn/login). IoT Platform này mình cũng tự build dựa trên hạ tầng hiện tại.
 
-### Library Rust-CR95
+**My Dashboard HOMELAB Server**
+
+![Dashboard_HL](/image/Dashboard_HOMELAB.png)
 
 ## Others Information:
 - 📺 Blog: https://vinhlin.github.io/
 - ❤️ Github: https://github.com/VinhLin
 - 📫 [Upwork Profile](https://www.upwork.com/freelancers/~017704277080c06f28?mp_source=share)
 
-![IoT](https://media.springernature.com/lw685/springer-static/image/chp%3A10.1007%2F978-981-15-6353-9_46/MediaObjects/488228_1_En_46_Fig1_HTML.png)
 
 

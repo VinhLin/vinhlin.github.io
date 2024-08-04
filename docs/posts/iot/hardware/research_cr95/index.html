@@ -134,16 +134,18 @@
 <h3 id="may-mắn-thay">May mắn thay</h3>
 <ul>
 <li>Lúc trước có một anh khác trong cty (anh này cũng tên Vinh và hiện tại thì đã off) đã làm được và kết nối thành công với CR95 bằng UART.</li>
-<li><strong>Source code</strong> anh này được viết <strong>bằng C</strong>, mình đọc source code, kết hợp với việc đọc lại datasheet và test command trên một <a href="http://www.tme.vn/product.aspx?id=2095#page=pro_info">board phần cứng CR95 khác</a>
-<img
-  src="http://www.tme.vn/upload/products/CR95HF-BRD.jpg"
+<li><strong>Source code</strong> anh này được viết <strong>bằng C</strong>, mình đọc source code, kết hợp với việc đọc lại datasheet và test command trên một <a href="http://www.tme.vn/product.aspx?id=2095#page=pro_info">board phần cứng CR95 khác</a></li>
+</ul>
+<p><img
+  src="/image/IoT/Research_CR95/CR95HF-BRD.jpg"
   alt="CR95HF-BRD"
   loading="lazy"
   decoding="async"
   class="full-width"
 />
 
-</li>
+</p>
+<ul>
 <li>Sau khi thử và test thì mình tìm được gần như tất cả các command giao tiếp, đó là:</li>
 </ul>
 <pre tabindex="0"><code>Echo: 0x55
@@ -169,8 +171,9 @@ SendRecv: 0x0403022000
 
 </li>
 <li>Board này tức nhiên là không bằng cách máy Oscilloscope, nhưng bù lại <a href="https://www.saleae.com/pages/downloads">phần mềm hỗ trợ</a> cho board này lại cực xịn (đánh giá cá nhân).</li>
-<li>Từ <strong>hình 1</strong> và <strong>hình 2</strong> là mình biết rằng những lệnh command ban đầu của mình đã đúng.
-<img
+<li>Từ <strong>hình 1</strong> và <strong>hình 2</strong> là mình biết rằng những lệnh command ban đầu của mình đã đúng.</li>
+</ul>
+<p><img
   src="/image/IoT/Research_CR95/Hinh_1.png"
   alt="CR95-Hinh_1"
   loading="lazy"
@@ -178,8 +181,8 @@ SendRecv: 0x0403022000
   class="full-width"
 />
 
-
-<img
+</p>
+<p><img
   src="/image/IoT/Research_CR95/Hinh_2.png"
   alt="CR95-Hinh_2"
   loading="lazy"
@@ -187,9 +190,11 @@ SendRecv: 0x0403022000
   class="full-width"
 />
 
-</li>
-<li>Tiếp đến là bước quan trọng, đó là việc đọc thông tin thẻ tài xế:
-<img
+</p>
+<ul>
+<li>Tiếp đến là bước quan trọng, đó là việc đọc thông tin thẻ tài xế:</li>
+</ul>
+<p><img
   src="/image/IoT/Research_CR95/Hinh_3.png"
   alt="CR95-Hinh_3"
   loading="lazy"
@@ -197,7 +202,8 @@ SendRecv: 0x0403022000
   class="full-width"
 />
 
-</li>
+</p>
+<ul>
 <li>Cuối cùng mình cũng đã biết nguyên nhân mình bị thiếu. Đó là mỗi lần gửi <strong>SendRecv</strong> thì nó chỉ đọc được số lượng <strong>byte</strong> nhất định, nên để đọc được hết thông tin thì mình cần gửi:</li>
 </ul>
 <pre tabindex="0"><code>0x0403022000
