@@ -12,7 +12,7 @@ Xin chào, mình tên là Lin Đức Vinh, gọi tắt là VinhLin (hoặc VinhL
 
 Mình có thói quen hay ghi chú những điều hay ho về **IoT/Điện tử** (*nói riêng*) và **Công nghệ** (*nói chung*).
 
-Vô tình biết được có thể tạo được Blog bằng **Hugo + Github Page**, thế là trang web này ra đời.
+Vô tình biết được có thể tạo một trang Blog (*free*) bằng **Github Page**, kết hợp với [framework Hugo](https://gohugo.io/) để tạo **web tĩnh**. Và thế là trang web này ra đời.
 
 Ngoài việc ghi chú lại kiến thức thì blog này cũng sẽ là nơi để mình ghi ra những suy nghĩ và danh sách những việc cần làm cho bài thân.
 

@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Liste - https://vinhlin.github.io/">
+    <title>UART_Embassy | VinhLin</title>
+    <meta name="description" content="Technology Blog">
+    <meta property="og:title" content="UART_Embassy" />
+<meta property="og:description" content="Giới thiệu về Embassy Trong quá trình tìm hiểu về lập trình nhúng bằng Rust, thì mình vô tình biết đến framework này. Embassy một framework lập trình theo kiểu bất đồng bộ (async), dễ tiếp cận hơn việc setup một RTOS cho MCU. Async Embassy Dựa trên một file tài liệu mà mình tình cờ có được async-embedded thì Async là một cách tiếp cận về việc Xử lý đồng thời (Concurrency)." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://vinhlin.github.io/posts/iot/software/uart_embassy/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-08-07T13:23:30+07:00" />
+<meta property="article:modified_time" content="2024-08-07T13:23:30+07:00" />
+
+    <meta itemprop="name" content="UART_Embassy">
+<meta itemprop="description" content="Giới thiệu về Embassy Trong quá trình tìm hiểu về lập trình nhúng bằng Rust, thì mình vô tình biết đến framework này. Embassy một framework lập trình theo kiểu bất đồng bộ (async), dễ tiếp cận hơn việc setup một RTOS cho MCU. Async Embassy Dựa trên một file tài liệu mà mình tình cờ có được async-embedded thì Async là một cách tiếp cận về việc Xử lý đồng thời (Concurrency)."><meta itemprop="datePublished" content="2024-08-07T13:23:30+07:00" />
+<meta itemprop="dateModified" content="2024-08-07T13:23:30+07:00" />
+<meta itemprop="wordCount" content="604">
+<meta itemprop="keywords" content="" />
+    
+    <link rel="canonical" href="https://vinhlin.github.io/posts/iot/software/uart_embassy/">
+    <link rel="icon" href="https://vinhlin.github.io//assets/favicon.ico">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
+    <link rel="alternate" type="application/atom+xml" title="VinhLin" href="https://vinhlin.github.io//atom.xml" />
+    <link rel="alternate" type="application/json" title="VinhLin" href="https://vinhlin.github.io//feed.json" />
+    <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=">
+    
+    
+    <style>*,:after,:before{box-sizing:border-box;padding:0}body{font:1rem/1.5 '-apple-system',BlinkMacSystemFont,avenir next,avenir,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding:2rem;background:#f5f5f5;color:#000}.skip-link{position:absolute;top:-40px;left:0;background:#eee;z-index:100}.skip-link:focus{top:0}h1,h2,h3,h4,h5,strong,b{font-size:inherit;font-weight:600}header{line-height:2;padding-bottom:1.5rem}.link{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-decoration:none}.time{font-variant-numeric:tabular-nums;white-space:nowrap}blockquote{border-left:5px solid #eee;padding-left:1rem;margin:0}a,a:visited{color:inherit}a:hover,a.heading-link{text-decoration:none}pre{padding:.5rem;overflow:auto;overflow-x:scroll;overflow-wrap:normal}code,pre{font-family:San Francisco Mono,Monaco,consolas,lucida console,dejavu sans mono,bitstream vera sans mono,monospace;font-size:normal;font-size:small;background:#eee}code{margin:.1rem;border:none}ul{list-style-type:square}ul,ol{padding-left:1.2rem}.list{line-height:2;list-style-type:none;padding-left:0}.list li{padding-bottom:.1rem}.meta{color:#777}.content{max-width:70ch;margin:0 auto}header{line-height:2;display:flex;justify-content:space-between;padding-bottom:1rem}header a{text-decoration:none}header ul{list-style-type:none;padding:0}header li,header a{display:inline}h2.post{padding-top:.5rem}header ul a:first-child{padding-left:1rem}.nav{height:1px;background:#000;content:'';max-width:10%}.list li{display:flex;align-items:baseline}.list li time{flex:initial}.hr-list{margin-top:0;margin-bottom:0;margin-right:.5rem;margin-left:.5rem;height:1px;border:0;border-bottom:1px dotted #ccc;flex:1 0 1rem}.m,hr{border:0;margin:3rem 0}img{max-width:100%;height:auto}.post-date{margin:5% 0}.index-date{color:#9a9a9a}.animate-blink{animation:opacity 1s infinite;opacity:1}@keyframes opacity{0%{opacity:1}50%{opacity:.5}100%{opacity:0}}.tags{display:flex;justify-content:space-between}.tags ul{padding:0;margin:0}.tags li{display:inline}.avatar{height:120px;width:120px;position:relative;margin:-10px 0 0 15px;float:right;border-radius:50%}table{width:100%;border-collapse:collapse}th,td{border:1px solid #ddd;text-align:left;padding:8px}th{background-color:#f2f2f2} </style>
+  
+    
+  
+  
+  <script type="application/ld+json">
+  {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "articleSection": "posts",
+      "name": "UART_Embassy",
+      "headline": "UART_Embassy",
+      "alternativeHeadline": "",
+      "description": "Giới thiệu về Embassy Trong quá trình tìm hiểu về lập trình nhúng bằng Rust, thì mình vô tình biết đến framework này. Embassy một framework lập trình theo kiểu bất đồng bộ (async), dễ tiếp cận hơn việc setup một RTOS cho MCU. Async Embassy Dựa trên một file tài liệu mà mình tình cờ có được async-embedded thì Async là một cách tiếp cận về việc Xử lý đồng thời (Concurrency).",
+      "inLanguage": "en-us",
+      "isFamilyFriendly": "true",
+      "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https:\/\/vinhlin.github.io\/posts\/iot\/software\/uart_embassy\/"
+      },
+      "author" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "creator" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "accountablePerson" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "copyrightHolder" : "VinhLin",
+      "copyrightYear" : "2024",
+      "dateCreated": "2024-08-07T13:23:30.00Z",
+      "datePublished": "2024-08-07T13:23:30.00Z",
+      "dateModified": "2024-08-07T13:23:30.00Z",
+      "publisher":{
+          "@type":"Organization",
+          "name": "VinhLin",
+          "url": "https://vinhlin.github.io/",
+          "logo": {
+              "@type": "ImageObject",
+              "url": "https:\/\/vinhlin.github.io\/assets\/favicon.ico",
+              "width":"32",
+              "height":"32"
+          }
+      },
+      "image": "https://vinhlin.github.io/assets/favicon.ico",
+      "url" : "https:\/\/vinhlin.github.io\/posts\/iot\/software\/uart_embassy\/",
+      "wordCount" : "604",
+      "genre" : [ ],
+      "keywords" : [ ]
+  }
+  </script>
+  
+  
+  </head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main</a>
+  <main id="main">
+  <div class="content">
+    <header>
+<p style="padding: 0;margin: 0;">
+  <a href="/">
+    <b>VinhLin</b>
+    <span class="text-stone-500 animate-blink">▮</span>
+  </a>
+</p>
+<ul style="padding: 0;margin: 0;">
+  
+  
+  <li class="">
+    <a href="/posts/"><span>Post</span></a>
+    
+  <li class="">
+    <a href="/about/"><span>About</span></a>
+    
+  </li>
+</ul>
+</header>
+<hr class="hr-list" style="padding: 0;margin: 0;">
+    <section>
+      <h2 class="post">UART_Embassy</h2>
+      <h2 id="giới-thiệu-về-embassyhttpsembassydev">Giới thiệu về <a href="https://embassy.dev/">Embassy</a></h2>
+<ul>
+<li>Trong quá trình tìm hiểu về lập trình nhúng bằng Rust, thì mình vô tình biết đến framework này.</li>
+<li><strong>Embassy</strong> một framework lập trình theo kiểu <strong>bất đồng bộ (async)</strong>, dễ tiếp cận hơn việc setup một <strong>RTOS</strong> cho MCU.</li>
+</ul>
+<p><img
+  src="/image/IoT/Embassy/Concurrency_Parallelism.jpg"
+  alt="Concurrency_Parallelism"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<h3 id="async-embassy">Async Embassy</h3>
+<ul>
+<li>Dựa trên một file tài liệu mà mình tình cờ có được <a href="/docs/embassy/B4-async-embedded.pdf">async-embedded</a> thì <strong>Async</strong> là một cách tiếp cận về việc <strong>Xử lý đồng thời (Concurrency)</strong>.</li>
+<li>Hơn nữa dựa trên <a href="https://github.com/embassy-rs/embassy">Github Embassy</a> thì framework này hỗ trợ kha khá dòng chip:
+<ul>
+<li>Dòng nRF: <a href="https://docs.embassy.dev/embassy-nrf/git/nrf51/index.html">embassy_nrf</a></li>
+<li>Dòng STM32: <a href="https://docs.embassy.dev/embassy-stm32/git/stm32f730i8/index.html">embassy-stm32</a></li>
+<li>Dòng RP2040: <a href="https://docs.embassy.dev/embassy-rp/git/rp2040/index.html">embassy_rp</a></li>
+<li>Dòng ESP32: <a href="https://github.com/esp-rs">esp-rs</a></li>
+</ul>
+</li>
+<li>Nhìn chung đây là framework tuyệt vời để bắt đầu code nhúng với Rust.</li>
+</ul>
+<hr>
+<h1 id="uart">UART</h1>
+<p>Trong quá trình sử dụng framework embassy, mình thường hay dùng UART nên mình sẽ note lại một số thứ cần lưu ý về UART.</p>
+<h2 id="read">Read</h2>
+<ul>
+<li>Trong STM32 phần <strong>Read UART</strong> có khá nhiều function, và đây là 3 func mà mình sẽ thường dùng.
+<ul>
+<li>blocking_read</li>
+<li>read</li>
+<li>read_until_idle</li>
+</ul>
+</li>
+</ul>
+<h3 id="func-blocking_read">Func <code>blocking_read</code></h3>
+<ul>
+<li>Function này sẽ mình đọc đầy đủ dữ liệu.</li>
+<li>Ban đầu mình có test thử giữa <code>blocking_read</code> với <code>read</code>, thì mình <strong>đọc</strong> được dữ liệu với <code>blocking_read</code>, còn với <code>read</code> thì không.</li>
+</ul>
+<h3 id="func-read">Func <code>read</code></h3>
+<ul>
+<li>Mình sẽ thường dùng function <strong>read</strong> này kết hợp với <strong>timeout</strong>.</li>
+<li>Tức là mình sẽ cho một khoảng thời gian để đọc data từ uart, nếu không thấy data trong khoảng thời gian nhất định thì sẽ thoát ra.</li>
+<li>Nhờ cách này mà mình tránh được việc bị <strong>treo</strong> chương trình.</li>
+<li>Đây là một đoạn code mẫu:</li>
+</ul>
+<pre tabindex="0"><code>// health_check_cr95hf
+// True: CR95HF OK
+// Flase: CR95HF not reponse -&gt; Maybe lost connect with CR95HF
+async fn health_check_cr95hf(
+    rfid_uart: &amp;mut Uart&lt;&#39;static, USART2, DMA1_CH7, DMA1_CH6&gt;,
+    debug_uart: &amp;mut Uart&lt;&#39;static, USART1, DMA1_CH4, DMA1_CH5&gt;,
+) -&gt; bool {
+    let echo_command_code: &amp;[u8];
+    echo_command_code = cr95hf::cr95hf_echo_command();
+    dbg_print(debug_uart, &#34;Health Check CR95HF&#34;).await;
+
+    // Buffer data reponse from CR95HF
+    let mut response_code = [0u8; 1];
+    let _size_data: usize = 1;
+
+    for _i in 1..3 {
+        // Send command
+        rfid_uart.blocking_write(&amp;echo_command_code).unwrap();
+
+        // Read reponse from CR95HF
+        match with_timeout(
+            Duration::from_millis(30),
+            rfid_uart.read(&amp;mut response_code),
+        )
+        .await
+        {
+            // match rfid_uart.blocking_read(&amp;mut response_code) {
+            Ok(_size_data) =&gt; {
+                // let _ = debug_uart.blocking_write(&amp;response_code);
+                // Data reponse from CR95 OK
+                if response_code == echo_command_code {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+            Err(_e) =&gt; {
+                dbg_print(debug_uart, &#34;Read UART Error - Func health_check_cr95hf&#34;).await;
+                // delay 10ms
+                Timer::after(Duration::from_millis(10)).await;
+                continue;
+            }
+        }
+    }
+
+    return false;
+}
+</code></pre><h3 id="func-read_until_idle">Func <code>read_until_idle</code></h3>
+<ul>
+<li>Để hiểu hơn về <strong>IDLE UART</strong>, mình đã tham khảo tài liệu:</li>
+</ul>
+<pre tabindex="0"><code>https://tapit.vn/huong-dan-su-dung-chuc-nang-uart-idle-dma/#google_vignette
+https://controllerstech.com/stm32-uart-5-receive-data-using-idle-line/
+</code></pre><ul>
+<li>Tức là với func này, nó sẽ chia ra thành từng <strong>block</strong> để đọc dữ liệu.</li>
+<li>Dưới đây là đoạn code với chức năng là: gửi command sau đó đọc <strong>4 bytes</strong> dữ liệu, tuy nhiên chỉ lấy <strong>2 bytes</strong> đầu để xử lý dữ liệu</li>
+</ul>
+<pre tabindex="0"><code>// no_tag_cr95hf: Check no_tag
+// Return true: if not detectd tag card
+async fn no_tag_cr95hf(
+    rfid_uart: &amp;mut Uart&lt;&#39;static, USART2, DMA1_CH7, DMA1_CH6&gt;,
+    debug_uart: &amp;mut Uart&lt;&#39;static, USART1, DMA1_CH4, DMA1_CH5&gt;,
+) -&gt; bool {
+    // First: Setup Protocol ISO15693
+    setup_protocol_iso15693(rfid_uart).await;
+
+    // Second: Read data and check errors code
+    // Define the initial byte array
+    let sendrecv_command = [0x04, 0x03, 0x02, 0x20, 0x00];
+
+    for _i in 1..3 {
+        // Send command
+        rfid_uart.blocking_write(&amp;sendrecv_command).unwrap();
+
+        // Buffer data reponse from CR95HF
+        let mut response_data = [0u8; 4];
+        let _size_data: usize = 2;
+
+        // Read reponse from CR95HF
+        match rfid_uart.read_until_idle(&amp;mut response_data).await {
+            Ok(_size_data) =&gt; {
+                // let is_no_tag = cr95hf::errors_tag_code(&amp;response_data.clone());
+                let is_no_tag = cr95hf::errors_tag_code(&amp;response_data);
+                // let _ = debug_uart.blocking_write(&amp;response_data);
+                // let _ = debug_uart.blocking_write(is_no_tag.to_string().as_bytes());
+                if is_no_tag == true {
+                    dbg_print(debug_uart, &#34;NO TAG CARD&#34;).await;
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+            Err(_e) =&gt; {
+                // delay 10ms
+                Timer::after(Duration::from_millis(10)).await;
+            }
+        }
+    }
+
+    return false;
+}
+</code></pre>
+      
+      <div class="post-date">
+        <span class="g time">August 7, 2024 </span> &#8729;
+         
+      </div>
+      
+    </section>
+    
+    
+    
+  </div>
+</main>
+</body>
+</html>

@@ -14,6 +14,168 @@
     
     
     <item>
+      <title>UART_Embassy</title>
+      <link>https://vinhlin.github.io/posts/iot/software/uart_embassy/</link>
+      <description>&lt;h2 id=&#34;giới-thiệu-về-embassyhttpsembassydev&#34;&gt;Giới thiệu về &lt;a href=&#34;https://embassy.dev/&#34;&gt;Embassy&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Trong quá trình tìm hiểu về lập trình nhúng bằng Rust, thì mình vô tình biết đến framework này.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embassy&lt;/strong&gt; một framework lập trình theo kiểu &lt;strong&gt;bất đồng bộ (async)&lt;/strong&gt;, dễ tiếp cận hơn việc setup một &lt;strong&gt;RTOS&lt;/strong&gt; cho MCU.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Embassy/Concurrency_Parallelism.jpg&#34;
+  alt=&#34;Concurrency_Parallelism&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;async-embassy&#34;&gt;Async Embassy&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Dựa trên một file tài liệu mà mình tình cờ có được &lt;a href=&#34;https://vinhlin.github.io/docs/embassy/B4-async-embedded.pdf&#34;&gt;async-embedded&lt;/a&gt; thì &lt;strong&gt;Async&lt;/strong&gt; là một cách tiếp cận về việc &lt;strong&gt;Xử lý đồng thời (Concurrency)&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Hơn nữa dựa trên &lt;a href=&#34;https://github.com/embassy-rs/embassy&#34;&gt;Github Embassy&lt;/a&gt; thì framework này hỗ trợ kha khá dòng chip:
+&lt;ul&gt;
+&lt;li&gt;Dòng nRF: &lt;a href=&#34;https://docs.embassy.dev/embassy-nrf/git/nrf51/index.html&#34;&gt;embassy_nrf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Dòng STM32: &lt;a href=&#34;https://docs.embassy.dev/embassy-stm32/git/stm32f730i8/index.html&#34;&gt;embassy-stm32&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Dòng RP2040: &lt;a href=&#34;https://docs.embassy.dev/embassy-rp/git/rp2040/index.html&#34;&gt;embassy_rp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Dòng ESP32: &lt;a href=&#34;https://github.com/esp-rs&#34;&gt;esp-rs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Nhìn chung đây là framework tuyệt vời để bắt đầu code nhúng với Rust.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;uart&#34;&gt;UART&lt;/h1&gt;
+&lt;p&gt;Trong quá trình sử dụng framework embassy, mình thường hay dùng UART nên mình sẽ note lại một số thứ cần lưu ý về UART.&lt;/p&gt;
+&lt;h2 id=&#34;read&#34;&gt;Read&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Trong STM32 phần &lt;strong&gt;Read UART&lt;/strong&gt; có khá nhiều function, và đây là 3 func mà mình sẽ thường dùng.
+&lt;ul&gt;
+&lt;li&gt;blocking_read&lt;/li&gt;
+&lt;li&gt;read&lt;/li&gt;
+&lt;li&gt;read_until_idle&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;func-blocking_read&#34;&gt;Func &lt;code&gt;blocking_read&lt;/code&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Function này sẽ mình đọc đầy đủ dữ liệu.&lt;/li&gt;
+&lt;li&gt;Ban đầu mình có test thử giữa &lt;code&gt;blocking_read&lt;/code&gt; với &lt;code&gt;read&lt;/code&gt;, thì mình &lt;strong&gt;đọc&lt;/strong&gt; được dữ liệu với &lt;code&gt;blocking_read&lt;/code&gt;, còn với &lt;code&gt;read&lt;/code&gt; thì không.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;func-read&#34;&gt;Func &lt;code&gt;read&lt;/code&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Mình sẽ thường dùng function &lt;strong&gt;read&lt;/strong&gt; này kết hợp với &lt;strong&gt;timeout&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Tức là mình sẽ cho một khoảng thời gian để đọc data từ uart, nếu không thấy data trong khoảng thời gian nhất định thì sẽ thoát ra.&lt;/li&gt;
+&lt;li&gt;Nhờ cách này mà mình tránh được việc bị &lt;strong&gt;treo&lt;/strong&gt; chương trình.&lt;/li&gt;
+&lt;li&gt;Đây là một đoạn code mẫu:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;// health_check_cr95hf
+// True: CR95HF OK
+// Flase: CR95HF not reponse -&amp;gt; Maybe lost connect with CR95HF
+async fn health_check_cr95hf(
+    rfid_uart: &amp;amp;mut Uart&amp;lt;&amp;#39;static, USART2, DMA1_CH7, DMA1_CH6&amp;gt;,
+    debug_uart: &amp;amp;mut Uart&amp;lt;&amp;#39;static, USART1, DMA1_CH4, DMA1_CH5&amp;gt;,
+) -&amp;gt; bool {
+    let echo_command_code: &amp;amp;[u8];
+    echo_command_code = cr95hf::cr95hf_echo_command();
+    dbg_print(debug_uart, &amp;#34;Health Check CR95HF&amp;#34;).await;
+
+    // Buffer data reponse from CR95HF
+    let mut response_code = [0u8; 1];
+    let _size_data: usize = 1;
+
+    for _i in 1..3 {
+        // Send command
+        rfid_uart.blocking_write(&amp;amp;echo_command_code).unwrap();
+
+        // Read reponse from CR95HF
+        match with_timeout(
+            Duration::from_millis(30),
+            rfid_uart.read(&amp;amp;mut response_code),
+        )
+        .await
+        {
+            // match rfid_uart.blocking_read(&amp;amp;mut response_code) {
+            Ok(_size_data) =&amp;gt; {
+                // let _ = debug_uart.blocking_write(&amp;amp;response_code);
+                // Data reponse from CR95 OK
+                if response_code == echo_command_code {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+            Err(_e) =&amp;gt; {
+                dbg_print(debug_uart, &amp;#34;Read UART Error - Func health_check_cr95hf&amp;#34;).await;
+                // delay 10ms
+                Timer::after(Duration::from_millis(10)).await;
+                continue;
+            }
+        }
+    }
+
+    return false;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;func-read_until_idle&#34;&gt;Func &lt;code&gt;read_until_idle&lt;/code&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Để hiểu hơn về &lt;strong&gt;IDLE UART&lt;/strong&gt;, mình đã tham khảo tài liệu:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://tapit.vn/huong-dan-su-dung-chuc-nang-uart-idle-dma/#google_vignette
+https://controllerstech.com/stm32-uart-5-receive-data-using-idle-line/
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Tức là với func này, nó sẽ chia ra thành từng &lt;strong&gt;block&lt;/strong&gt; để đọc dữ liệu.&lt;/li&gt;
+&lt;li&gt;Dưới đây là đoạn code với chức năng là: gửi command sau đó đọc &lt;strong&gt;4 bytes&lt;/strong&gt; dữ liệu, tuy nhiên chỉ lấy &lt;strong&gt;2 bytes&lt;/strong&gt; đầu để xử lý dữ liệu&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;// no_tag_cr95hf: Check no_tag
+// Return true: if not detectd tag card
+async fn no_tag_cr95hf(
+    rfid_uart: &amp;amp;mut Uart&amp;lt;&amp;#39;static, USART2, DMA1_CH7, DMA1_CH6&amp;gt;,
+    debug_uart: &amp;amp;mut Uart&amp;lt;&amp;#39;static, USART1, DMA1_CH4, DMA1_CH5&amp;gt;,
+) -&amp;gt; bool {
+    // First: Setup Protocol ISO15693
+    setup_protocol_iso15693(rfid_uart).await;
+
+    // Second: Read data and check errors code
+    // Define the initial byte array
+    let sendrecv_command = [0x04, 0x03, 0x02, 0x20, 0x00];
+
+    for _i in 1..3 {
+        // Send command
+        rfid_uart.blocking_write(&amp;amp;sendrecv_command).unwrap();
+
+        // Buffer data reponse from CR95HF
+        let mut response_data = [0u8; 4];
+        let _size_data: usize = 2;
+
+        // Read reponse from CR95HF
+        match rfid_uart.read_until_idle(&amp;amp;mut response_data).await {
+            Ok(_size_data) =&amp;gt; {
+                // let is_no_tag = cr95hf::errors_tag_code(&amp;amp;response_data.clone());
+                let is_no_tag = cr95hf::errors_tag_code(&amp;amp;response_data);
+                // let _ = debug_uart.blocking_write(&amp;amp;response_data);
+                // let _ = debug_uart.blocking_write(is_no_tag.to_string().as_bytes());
+                if is_no_tag == true {
+                    dbg_print(debug_uart, &amp;#34;NO TAG CARD&amp;#34;).await;
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+            Err(_e) =&amp;gt; {
+                // delay 10ms
+                Timer::after(Duration::from_millis(10)).await;
+            }
+        }
+    }
+
+    return false;
+}
+&lt;/code&gt;&lt;/pre&gt;</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/iot/software/uart_embassy/</guid>
+      <pubDate>Wed, 07 Aug 2024 13:23:30 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>IoT_Security_JD</title>
       <link>https://vinhlin.github.io/posts/others/iot_security_jd/</link>
       <description>&lt;p&gt;Bữa lang thang trên diễn đàn &lt;strong&gt;CISSP trên facebook&lt;/strong&gt;, mình thấy một &lt;strong&gt;JD về Security cho IoT&lt;/strong&gt;. Mình thấy JD này đầy đủ và cụ thể:&lt;/p&gt;
@@ -365,8 +527,8 @@ SendRecv: 0x0403022000
     <item>
       <title>Suy_nghi_ve_Hardware_Hacking</title>
       <link>https://vinhlin.github.io/posts/others/suy_nghi_ve_hardware_hacking/</link>
-      <description>&lt;p&gt;Sau khi mình đã đọc hết cuốn &lt;a href=&#34;https://tiki.vn/khoa-hoc-kham-pha-vung-toi-lich-su-bi-an-cua-chien-tranh-mang-p251393388.html&#34;&gt;Vùng tối&lt;/a&gt;. Những &lt;strong&gt;hacker đời đầu&lt;/strong&gt; chính là các &lt;strong&gt;nhà vật lý&lt;/strong&gt;, những người &lt;strong&gt;kỹ sư, kỹ thuật điện tử&lt;/strong&gt;.
-&lt;img
+      <description>&lt;p&gt;Sau khi mình đã đọc hết cuốn &lt;a href=&#34;https://tiki.vn/khoa-hoc-kham-pha-vung-toi-lich-su-bi-an-cua-chien-tranh-mang-p251393388.html&#34;&gt;Vùng tối&lt;/a&gt;. Những &lt;strong&gt;hacker đời đầu&lt;/strong&gt; chính là các &lt;strong&gt;nhà vật lý&lt;/strong&gt;, những người &lt;strong&gt;kỹ sư, kỹ thuật điện tử&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img
   src=&#34;https://salt.tikicdn.com/cache/540x540/ts/product/46/60/43/e4ff35baeeaf8bb049e0c864e6132c6b.jpg&#34;
   alt=&#34;Vùng tối - Book&#34;
   loading=&#34;lazy&#34;
@@ -404,6 +566,10 @@ SendRecv: 0x0403022000
 /&gt;
 
 &lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;tổng-hợp-các-ý-hay-trong-cuốn-vùng-tối&#34;&gt;Tổng hợp các ý hay trong cuốn &lt;strong&gt;Vùng tối&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Nền tảng của Tác chiến Thông tin:&lt;/strong&gt; Bất kỳ hành động nào để làm nghẽn, khai thác, thao túng, hoặc phá hủy thông tin của kẻ thù và hoạt động của nó. Với mục tiêu cuối cùng là làm suy giảm ý chí hoặc khả năng chiến đấu của quân địch.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CNE (Computer Network Exploitation) - Khai thác Mạng máy tính:&lt;/strong&gt; Sử dụng máy tính để khai thác lỗ hổng trong các hệ thống mạng của kẻ thù - xâm nhập vào các mạng đó, nhằm thu thập thêm thông tin tình báo.&lt;/p&gt;
 </description>
       <author>VinhLD</author>
       <guid>https://vinhlin.github.io/posts/others/suy_nghi_ve_hardware_hacking/</guid>

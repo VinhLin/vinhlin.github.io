@@ -5,6 +5,7 @@ draft = true
 +++
 
 Sau khi mình đã đọc hết cuốn [Vùng tối](https://tiki.vn/khoa-hoc-kham-pha-vung-toi-lich-su-bi-an-cua-chien-tranh-mang-p251393388.html). Những **hacker đời đầu** chính là các **nhà vật lý**, những người **kỹ sư, kỹ thuật điện tử**.
+
 ![Vùng tối - Book](https://salt.tikicdn.com/cache/540x540/ts/product/46/60/43/e4ff35baeeaf8bb049e0c864e6132c6b.jpg)
 
 Khi thế giới vẫn còn **điện tử tương tự**, các điệp viên đã dùng các kỹ thuật để **chặn, bắt tín hiệu**.
@@ -38,6 +39,19 @@ IoT Hacking hay Hardware Hacking có vẻ chính là con đường giao thoa, th
 Có lẻ vậy.
 
 ![Hardware Hacking Tools](/image/IoT/Hardware_Hacking.jpg)
+
+---------------------------------------------------------------------
+### Tổng hợp các ý hay trong cuốn **Vùng tối**
+
+**Nền tảng của Tác chiến Thông tin:** Bất kỳ hành động nào để làm nghẽn, khai thác, thao túng, hoặc phá hủy thông tin của kẻ thù và hoạt động của nó. Với mục tiêu cuối cùng là làm suy giảm ý chí hoặc khả năng chiến đấu của quân địch.
+
+**CNE (Computer Network Exploitation) - Khai thác Mạng máy tính:** Sử dụng máy tính để khai thác lỗ hổng trong các hệ thống mạng của kẻ thù - xâm nhập vào các mạng đó, nhằm thu thập thêm thông tin tình báo.
+
+
+
+
+
+
 
 
 

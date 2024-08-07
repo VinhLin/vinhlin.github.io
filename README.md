@@ -39,6 +39,7 @@ hugo new posts/IoT/Software/Pi400-Keyboard.md
 hugo new posts/IoT/Software/Raspberry-OpenAuto.md
 hugo new posts/IoT/Software/Rust-lang.md
 hugo new posts/IoT/Software/Docklight.md
+hugo new posts/IoT/Software/UART_Embassy.md
 ```
 
 ### CyberSecurity:
