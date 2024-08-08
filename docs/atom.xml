@@ -14,6 +14,85 @@
     
     
     <item>
+      <title>Results_Rust</title>
+      <link>https://vinhlin.github.io/posts/iot/software/rust-lang/results_rust/</link>
+      <description>&lt;p&gt;Một trong các ưu điểm của ngôn ngữ bậc cao là việc &lt;strong&gt;Handle Error&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Và trong Rust thì chính là cách sử dụng &lt;strong&gt;Result&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Rust-lang/Result/Hinh_1.png&#34;
+  alt=&#34;Hinh_1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Mình có đọc kha khá tài liệu và sample code về việc này, và video youtube này có vẻ là OK nhất.&lt;/p&gt;
+&lt;h3 id=&#34;video-youtube-a-simpler-way-to-see-resultshttpswwwyoutubecomwatchvs5s2ed5t-dc&#34;&gt;Video Youtube: &lt;a href=&#34;https://www.youtube.com/watch?v=s5S2Ed5T-dc&#34;&gt;A Simpler Way to See Results&lt;/a&gt;&lt;/h3&gt;
+&lt;h2 id=&#34;result-vs-optionhttpsdhghomongithubioeasy_rustchapter_31html&#34;&gt;&lt;a href=&#34;https://dhghomon.github.io/easy_rust/Chapter_31.html&#34;&gt;Result vs Option&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Rust-lang/Result/Hinh_2.png&#34;
+  alt=&#34;Hinh_2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Nói cách dễ hiểu thì:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Option&lt;/strong&gt; dùng khi mình chỉ muốn biểu đạt &lt;strong&gt;có giá trị&lt;/strong&gt; hoặc &lt;strong&gt;không có giá trị&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Result&lt;/strong&gt; dùng khi mình muốn biểu đạt là có &lt;strong&gt;giá trị đúng&lt;/strong&gt; và biết được &lt;strong&gt;thông tin lỗi&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Rust-lang/Result/Hinh_3.png&#34;
+  alt=&#34;Hinh_3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;ví-dụ-về-việc-trả-về-một-giá-trị-và-handle-error&#34;&gt;Ví dụ về việc trả về &lt;strong&gt;một giá trị&lt;/strong&gt; và handle-error&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Rust-lang/Result/Hinh_4.png&#34;
+  alt=&#34;Hinh_4&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;ví-dụ-về-việc-trả-về-hai-giá-trị-và-handle-error&#34;&gt;Ví dụ về việc trả về &lt;strong&gt;hai giá trị&lt;/strong&gt; và handle-error&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Nếu trả về 2 giá trị thì sẽ phức tạp, cụ thể là về cách biểu đạt bằng code.&lt;/li&gt;
+&lt;li&gt;Tuy nhiên nếu dùng thêm &lt;a href=&#34;https://dhghomon.github.io/easy_rust/Chapter_33.html&#34;&gt;operator&lt;/a&gt; thì cách biểu đạt sẽ đơn giản hơn.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Rust-lang/Result/Hinh_5.png&#34;
+  alt=&#34;Hinh_5&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Rust-lang/Result/Hinh_6.png&#34;
+  alt=&#34;Hinh_6&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/iot/software/rust-lang/results_rust/</guid>
+      <pubDate>Thu, 08 Aug 2024 18:07:12 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>UART_Embassy</title>
       <link>https://vinhlin.github.io/posts/iot/software/uart_embassy/</link>
       <description>&lt;h2 id=&#34;giới-thiệu-về-embassyhttpsembassydev&#34;&gt;Giới thiệu về &lt;a href=&#34;https://embassy.dev/&#34;&gt;Embassy&lt;/a&gt;&lt;/h2&gt;
@@ -271,7 +350,7 @@ Code nhúng cho Linux
 &lt;ul&gt;
 &lt;li&gt;Đây là công cụ có bản quyền, phải trả phí.&lt;/li&gt;
 &lt;li&gt;Tuy nhiên để dùng &lt;strong&gt;free&lt;/strong&gt; thì mình cần tải phiên bản &lt;strong&gt;Docklight 2.2&lt;/strong&gt; trở xuống.&lt;/li&gt;
-&lt;li&gt;Download: &lt;a href=&#34;https://docklight.de/downloads/&#34;&gt;https://docklight.de/downloads/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Download &lt;a href=&#34;https://docklight.de/downloads/&#34;&gt;Docklight 2.2&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Download Docklight V2.2.8 for Windows 10, Windows 8, Windows 7, Windows Vista (4.7 MB, Release 11/2016)
 &lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;

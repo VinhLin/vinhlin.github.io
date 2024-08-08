@@ -5,22 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Liste - https://vinhlin.github.io/">
-    <title>Docklight | VinhLin</title>
+    <title>Results_Rust | VinhLin</title>
     <meta name="description" content="Technology Blog">
-    <meta property="og:title" content="Docklight" />
-<meta property="og:description" content="Bữa đang nghiên cứu code Rust cho CR95, thì phần cứng nó cứ chập chờn. Gửi lệnh cho thiết bị thì lúc có phản hồi, lúc không. Có thể cắm dây nó lỏng hay gì đó thì không biết. Sang tuần mới có board mạch hoàn chỉnh. Lúc này mình mới nhớ ra là có một công cụ mà lúc trước mình có dùng để giả lập data Serial." />
+    <meta property="og:title" content="Results_Rust" />
+<meta property="og:description" content="Một trong các ưu điểm của ngôn ngữ bậc cao là việc Handle Error.
+Và trong Rust thì chính là cách sử dụng Result.
+Mình có đọc kha khá tài liệu và sample code về việc này, và video youtube này có vẻ là OK nhất.
+Video Youtube: A Simpler Way to See Results Result vs Option Nói cách dễ hiểu thì:
+Option dùng khi mình chỉ muốn biểu đạt có giá trị hoặc không có giá trị." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://vinhlin.github.io/posts/iot/software/docklight/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-08-03T13:24:20+07:00" />
-<meta property="article:modified_time" content="2024-08-03T13:24:20+07:00" />
+<meta property="og:url" content="https://vinhlin.github.io/posts/iot/software/rust-lang/results_rust/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-08-08T18:07:12+07:00" />
+<meta property="article:modified_time" content="2024-08-08T18:07:12+07:00" />
 
-    <meta itemprop="name" content="Docklight">
-<meta itemprop="description" content="Bữa đang nghiên cứu code Rust cho CR95, thì phần cứng nó cứ chập chờn. Gửi lệnh cho thiết bị thì lúc có phản hồi, lúc không. Có thể cắm dây nó lỏng hay gì đó thì không biết. Sang tuần mới có board mạch hoàn chỉnh. Lúc này mình mới nhớ ra là có một công cụ mà lúc trước mình có dùng để giả lập data Serial."><meta itemprop="datePublished" content="2024-08-03T13:24:20+07:00" />
-<meta itemprop="dateModified" content="2024-08-03T13:24:20+07:00" />
-<meta itemprop="wordCount" content="208">
+    <meta itemprop="name" content="Results_Rust">
+<meta itemprop="description" content="Một trong các ưu điểm của ngôn ngữ bậc cao là việc Handle Error.
+Và trong Rust thì chính là cách sử dụng Result.
+Mình có đọc kha khá tài liệu và sample code về việc này, và video youtube này có vẻ là OK nhất.
+Video Youtube: A Simpler Way to See Results Result vs Option Nói cách dễ hiểu thì:
+Option dùng khi mình chỉ muốn biểu đạt có giá trị hoặc không có giá trị."><meta itemprop="datePublished" content="2024-08-08T18:07:12+07:00" />
+<meta itemprop="dateModified" content="2024-08-08T18:07:12+07:00" />
+<meta itemprop="wordCount" content="151">
 <meta itemprop="keywords" content="" />
     
-    <link rel="canonical" href="https://vinhlin.github.io/posts/iot/software/docklight/">
+    <link rel="canonical" href="https://vinhlin.github.io/posts/iot/software/rust-lang/results_rust/">
     <link rel="icon" href="https://vinhlin.github.io//assets/favicon.ico">
     <link rel="dns-prefetch" href="https://www.google-analytics.com">
     <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
@@ -39,15 +47,15 @@
       "@context": "http://schema.org",
       "@type": "BlogPosting",
       "articleSection": "posts",
-      "name": "Docklight",
-      "headline": "Docklight",
+      "name": "Results_Rust",
+      "headline": "Results_Rust",
       "alternativeHeadline": "",
-      "description": "Bữa đang nghiên cứu code Rust cho CR95, thì phần cứng nó cứ chập chờn. Gửi lệnh cho thiết bị thì lúc có phản hồi, lúc không. Có thể cắm dây nó lỏng hay gì đó thì không biết. Sang tuần mới có board mạch hoàn chỉnh. Lúc này mình mới nhớ ra là có một công cụ mà lúc trước mình có dùng để giả lập data Serial.",
+      "description": "Một trong các ưu điểm của ngôn ngữ bậc cao là việc Handle Error.\nVà trong Rust thì chính là cách sử dụng Result.\nMình có đọc kha khá tài liệu và sample code về việc này, và video youtube này có vẻ là OK nhất.\nVideo Youtube: A Simpler Way to See Results Result vs Option Nói cách dễ hiểu thì:\nOption dùng khi mình chỉ muốn biểu đạt có giá trị hoặc không có giá trị.",
       "inLanguage": "en-us",
       "isFamilyFriendly": "true",
       "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https:\/\/vinhlin.github.io\/posts\/iot\/software\/docklight\/"
+          "@id": "https:\/\/vinhlin.github.io\/posts\/iot\/software\/rust-lang\/results_rust\/"
       },
       "author" : {
           "@type": "Person",
@@ -63,9 +71,9 @@
       },
       "copyrightHolder" : "VinhLin",
       "copyrightYear" : "2024",
-      "dateCreated": "2024-08-03T13:24:20.00Z",
-      "datePublished": "2024-08-03T13:24:20.00Z",
-      "dateModified": "2024-08-03T13:24:20.00Z",
+      "dateCreated": "2024-08-08T18:07:12.00Z",
+      "datePublished": "2024-08-08T18:07:12.00Z",
+      "dateModified": "2024-08-08T18:07:12.00Z",
       "publisher":{
           "@type":"Organization",
           "name": "VinhLin",
@@ -78,8 +86,8 @@
           }
       },
       "image": "https://vinhlin.github.io/assets/favicon.ico",
-      "url" : "https:\/\/vinhlin.github.io\/posts\/iot\/software\/docklight\/",
-      "wordCount" : "208",
+      "url" : "https:\/\/vinhlin.github.io\/posts\/iot\/software\/rust-lang\/results_rust\/",
+      "wordCount" : "151",
       "genre" : [ ],
       "keywords" : [ ]
   }
@@ -113,35 +121,71 @@
 </header>
 <hr class="hr-list" style="padding: 0;margin: 0;">
     <section>
-      <h2 class="post">Docklight</h2>
-      <ul>
-<li>Bữa đang nghiên cứu code Rust cho CR95, thì phần cứng nó cứ chập chờn.</li>
-<li>Gửi lệnh cho thiết bị thì lúc có phản hồi, lúc không. Có thể cắm dây nó lỏng hay gì đó thì không biết.</li>
-<li>Sang tuần mới có board mạch hoàn chỉnh.</li>
-</ul>
-<p>Lúc này mình mới nhớ ra là có một công cụ mà lúc trước mình có dùng để <strong>giả lập data Serial</strong>.</p>
-<p>Công cụ này được một người anh giới thiệu sử dụng, lúc mà còn làm ở Vietmap, nghiên cứu cho dự án <strong>Công lạnh</strong>.</p>
-<h3 id="tool-giả-lập-data-cho-serial">Tool giả lập data cho Serial</h3>
+      <h2 class="post">Results_Rust</h2>
+      <p>Một trong các ưu điểm của ngôn ngữ bậc cao là việc <strong>Handle Error</strong>.</p>
+<p>Và trong Rust thì chính là cách sử dụng <strong>Result</strong>.</p>
+<p><img
+  src="/image/IoT/Rust-lang/Result/Hinh_1.png"
+  alt="Hinh_1"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p>Mình có đọc kha khá tài liệu và sample code về việc này, và video youtube này có vẻ là OK nhất.</p>
+<h3 id="video-youtube-a-simpler-way-to-see-resultshttpswwwyoutubecomwatchvs5s2ed5t-dc">Video Youtube: <a href="https://www.youtube.com/watch?v=s5S2Ed5T-dc">A Simpler Way to See Results</a></h3>
+<h2 id="result-vs-optionhttpsdhghomongithubioeasy_rustchapter_31html"><a href="https://dhghomon.github.io/easy_rust/Chapter_31.html">Result vs Option</a></h2>
+<p><img
+  src="/image/IoT/Rust-lang/Result/Hinh_2.png"
+  alt="Hinh_2"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p>Nói cách dễ hiểu thì:</p>
 <ul>
-<li>Mục tiêu là mình không cần quá phụ thược vào phần cứng module CR95HF nữa. Mà chỉ cần tập trung code.</li>
-<li>Những thông tin, data, command id,&hellip; tất cả mình đã có hết.</li>
-<li>Lúc này mình sẽ dùng <strong>Docklight</strong> để <strong>giả lập data</strong> (tương tự như cách CR95 phản hồi command từ MCU).</li>
+<li><strong>Option</strong> dùng khi mình chỉ muốn biểu đạt <strong>có giá trị</strong> hoặc <strong>không có giá trị</strong>.</li>
+<li><strong>Result</strong> dùng khi mình muốn biểu đạt là có <strong>giá trị đúng</strong> và biết được <strong>thông tin lỗi</strong>.</li>
 </ul>
-<h3 id="docklight">Docklight</h3>
+<p><img
+  src="/image/IoT/Rust-lang/Result/Hinh_3.png"
+  alt="Hinh_3"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<h3 id="ví-dụ-về-việc-trả-về-một-giá-trị-và-handle-error">Ví dụ về việc trả về <strong>một giá trị</strong> và handle-error</h3>
+<p><img
+  src="/image/IoT/Rust-lang/Result/Hinh_4.png"
+  alt="Hinh_4"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<h3 id="ví-dụ-về-việc-trả-về-hai-giá-trị-và-handle-error">Ví dụ về việc trả về <strong>hai giá trị</strong> và handle-error</h3>
 <ul>
-<li>Đây là công cụ có bản quyền, phải trả phí.</li>
-<li>Tuy nhiên để dùng <strong>free</strong> thì mình cần tải phiên bản <strong>Docklight 2.2</strong> trở xuống.</li>
-<li>Download <a href="https://docklight.de/downloads/">Docklight 2.2</a></li>
+<li>Nếu trả về 2 giá trị thì sẽ phức tạp, cụ thể là về cách biểu đạt bằng code.</li>
+<li>Tuy nhiên nếu dùng thêm <a href="https://dhghomon.github.io/easy_rust/Chapter_33.html">operator</a> thì cách biểu đạt sẽ đơn giản hơn.</li>
 </ul>
-<pre tabindex="0"><code>Download Docklight V2.2.8 for Windows 10, Windows 8, Windows 7, Windows Vista (4.7 MB, Release 11/2016)
-</code></pre><ul>
-<li>Và đây là <strong>Key number</strong> để kích hoạt:</li>
-</ul>
-<pre tabindex="0"><code>KEY NUMBER
-010111323344556
-</code></pre><p><img
-  src="https://docklight.de/wp-content/uploads/2018/09/app3_docklight_screenshot_simulator_based_on_log_data.png"
-  alt="docklight"
+<p><img
+  src="/image/IoT/Rust-lang/Result/Hinh_5.png"
+  alt="Hinh_5"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p><img
+  src="/image/IoT/Rust-lang/Result/Hinh_6.png"
+  alt="Hinh_6"
   loading="lazy"
   decoding="async"
   class="full-width"
@@ -151,7 +195,7 @@
 
       
       <div class="post-date">
-        <span class="g time">August 3, 2024 </span> &#8729;
+        <span class="g time">August 8, 2024 </span> &#8729;
          
       </div>
       

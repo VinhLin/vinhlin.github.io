@@ -40,6 +40,7 @@ hugo new posts/IoT/Software/Raspberry-OpenAuto.md
 hugo new posts/IoT/Software/Rust-lang.md
 hugo new posts/IoT/Software/Docklight.md
 hugo new posts/IoT/Software/UART_Embassy.md
+hugo new posts/IoT/Software/Rust-lang/Results_Rust.md
 ```
 
 ### CyberSecurity:
