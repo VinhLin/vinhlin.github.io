@@ -14,6 +14,224 @@
     
     
     <item>
+      <title>Shared_Access_Embassy</title>
+      <link>https://vinhlin.github.io/posts/iot/software/shared_access_embassy/</link>
+      <description>&lt;p&gt;Như bài viết về &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/iot/software/lifetime_embassy/&#34;&gt;Lifetime_Embassy&lt;/a&gt; mình bị vướng chỗ ownership UART.&lt;/p&gt;
+&lt;p&gt;Sau khi thăm hỏi &lt;strong&gt;ChatGPT&lt;/strong&gt; và đọc lại các tài liệu cũng như xem sample code thì biết rằng:
+&lt;strong&gt;Rust ngăn cắm việc dùm một biến cho multi task, vì lo sợ rằng các task này chạy đồng thời &amp;ndash;&amp;gt; Gây lỗi cho chương trình&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Để giải quyết vấn đề này thì cần share quyền truy cập (&lt;strong&gt;Managing Shared Access&lt;/strong&gt;).&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Cách tiếp cận này đảm bảo rằng mỗi tác vụ đều có quyền truy cập an toàn vào UART, mà không gây ra xung đột &lt;strong&gt;quyền sở hữu&lt;/strong&gt; (&lt;em&gt;ownership&lt;/em&gt;) hoặc &lt;strong&gt;mượn&lt;/strong&gt; (&lt;em&gt;borrow&lt;/em&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Và để làm được điều này mình sẽ cần dùng đến &lt;strong&gt;Mutex&lt;/strong&gt;, &lt;strong&gt;RefCell&lt;/strong&gt; hoặc &lt;strong&gt;Arc&lt;/strong&gt;. &lt;code&gt;Arc&amp;lt;Mutex&amp;lt;Uart&amp;gt;&amp;gt;&lt;/code&gt;
+Tham khảo sample code về việc sử dụng Arc. &lt;a href=&#34;https://rust-classes.com/chapter_6_3&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;vấn-đề-tiếp-theo&#34;&gt;vấn đề tiếp theo&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Xui một cái nữa là &lt;strong&gt;Arc&lt;/strong&gt; không được khuyến nghị sử dụng trong &lt;strong&gt;embedded&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;và trong các example code có trong &lt;strong&gt;framwork embassy&lt;/strong&gt;, mình cũng không thấy ví dụ nào về dùng &lt;strong&gt;Arc&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Tiếp tục hỏi chatGPT về cách &lt;strong&gt;Shared Access trong framwork embassy&lt;/strong&gt;, cuối cùng cũng đã có kết quả.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;code-sample&#34;&gt;Code sample&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Đây là code sample từ chatGPT, tất nhiên là cũng cần chỉnh sửa lại một chút để có thể chạy được.&lt;/li&gt;
+&lt;li&gt;Đoạn code này dùng: &lt;strong&gt;Mutex&lt;/strong&gt;, &lt;strong&gt;NoopRawMutex&lt;/strong&gt; và &lt;strong&gt;RefCell&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;use embassy_executor::Spawner;
+use embassy_stm32::usart::Uart;
+use embassy_stm32::peripherals::{USART1, USART2, DMA1_CH4, DMA1_CH5, DMA1_CH6, DMA1_CH7, PA1};
+use embassy_stm32::gpio::{Output, Level, Speed};
+use embassy_time::{Timer, Duration};
+use embassy_sync::blocking_mutex::raw::NoopRawMutex;
+use embassy_sync::mutex::Mutex;
+use core::cell::RefCell;
+use core::future::Future;
+use core::sync::atomic::{AtomicBool, Ordering};
+
+#[embassy_executor::task]
+pub async fn test_command(
+    uart: &amp;amp;&amp;#39;static Mutex&amp;lt;NoopRawMutex, RefCell&amp;lt;Uart&amp;lt;&amp;#39;static, USART1, DMA1_CH4, DMA1_CH5&amp;gt;&amp;gt;&amp;gt;,
+    message: &amp;amp;&amp;#39;static str,
+) {
+    let mut count = 0;
+    loop {
+        count += 1;
+
+        {
+            let uart = uart.lock().await;
+            let mut uart = uart.borrow_mut();
+            uart.write(message.as_bytes()).await.unwrap();
+            uart.write(b&amp;#34;\r\n&amp;#34;).await.unwrap();
+        }
+
+        if count == 10 {
+            break;
+        }
+
+        Timer::after(Duration::from_millis(1000)).await;
+    }
+}
+
+#[embassy_executor::task]
+pub async fn main_task_rfid(
+    rfid_uart: &amp;amp;&amp;#39;static mut Uart&amp;lt;&amp;#39;static, USART2, DMA1_CH7, DMA1_CH6&amp;gt;,
+    debug_uart: &amp;amp;&amp;#39;static Mutex&amp;lt;NoopRawMutex, RefCell&amp;lt;Uart&amp;lt;&amp;#39;static, USART1, DMA1_CH4, DMA1_CH5&amp;gt;&amp;gt;&amp;gt;,
+    mut power_pin_cr95hf: Output&amp;lt;&amp;#39;static, PA1&amp;gt;,
+) {
+    dbg_print(debug_uart, &amp;#34;Inside RFID Task&amp;#34;).await;
+}
+
+async fn dbg_print(
+    uart: &amp;amp;&amp;#39;static Mutex&amp;lt;NoopRawMutex, RefCell&amp;lt;Uart&amp;lt;&amp;#39;static, USART1, DMA1_CH4, DMA1_CH5&amp;gt;&amp;gt;&amp;gt;,
+    message: &amp;amp;str,
+) {
+    let uart = uart.lock().await;
+    let mut uart = uart.borrow_mut();
+    uart.write(message.as_bytes()).await.unwrap();
+    uart.write(b&amp;#34;\r\n&amp;#34;).await.unwrap();
+}
+
+#[embassy_executor::main]
+async fn main(spawner: Spawner) {
+    let p = embassy_stm32::Peripherals::take().unwrap();
+
+    let usart_rfid = Uart::new(
+        p.USART2,
+        p.PA3,
+        p.PA2,
+        IrqsUART2,
+        p.DMA1_CH7,
+        p.DMA1_CH6,
+        config_rfid,
+    )
+    .unwrap();
+
+    let usart_debug = Uart::new(
+        p.USART1,
+        p.PA10,
+        p.PA9,
+        IrqsUART1,
+        p.DMA1_CH4,
+        p.DMA1_CH5,
+        config_debug,
+    )
+    .unwrap();
+
+    // Convert usart_rfid and usart_debug to &amp;#39;static lifetimes
+    let usart_rfid_static = Box::leak(Box::new(usart_rfid));
+    let usart_debug_static = Box::leak(Box::new(Mutex::new(RefCell::new(usart_debug))));
+
+
+    // Create the ctr_rfid object
+    let ctr_rfid = Output::new(p.PA1, Level::High, Speed::Low);
+    let ctr_rfid_static = Box::leak(Box::new(ctr_rfid));
+
+    // Async task for test command
+    spawner
+        .spawn(test_command(usart_debug_static, &amp;#34;Test&amp;#34;))
+        .unwrap();
+
+    // Async task for RFID
+    spawner
+        .spawn(main_task_rfid(
+            usart_rfid_static,
+            usart_debug_static,
+            ctr_rfid_static,
+        ))
+        .unwrap();
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;đã-khắc-phục-và-chạy-code-được-thành-công&#34;&gt;&lt;strong&gt;Đã khắc phục và chạy code được thành công&lt;/strong&gt;.&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Embassy/Result_Shared_Access_UART.png&#34;
+  alt=&#34;Result_Shared_Access_UART&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/iot/software/shared_access_embassy/</guid>
+      <pubDate>Sat, 10 Aug 2024 11:18:41 +0700</pubDate>
+    </item>
+    
+    <item>
+      <title>Lifetime_Embassy</title>
+      <link>https://vinhlin.github.io/posts/iot/software/lifetime_embassy/</link>
+      <description>&lt;p&gt;Trong quá trình code Rust cho RFID, khi sử dụng đến phần &lt;strong&gt;UART&lt;/strong&gt; và dùng đến &lt;code&gt;#[embassy_executor::task]&lt;/code&gt; thì bị báo lỗi về &lt;strong&gt;Lifetime&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Lỗi lifetime về uart. Hiều nôm na thì rust đang báo là &lt;strong&gt;thời gian sống&lt;/strong&gt; (thời gian tồn tại, hay &lt;strong&gt;vòng đời&lt;/strong&gt;) của &lt;strong&gt;UART&lt;/strong&gt; quá ngắn để thực hiện các tiến trình trong task.&lt;/p&gt;
+&lt;p&gt;Xem thêm video &lt;a href=&#34;https://www.youtube.com/watch?v=juIINGuZyBc&#34;&gt;Rust Lifetimes Finally Explained!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Để khắc phục lỗi về Lifetime thì mình sẽ cần thêm các thành phần như: &lt;code&gt;&#39;static&lt;/code&gt;, &lt;code&gt;&#39;a&lt;/code&gt;, &lt;code&gt;&#39;b&lt;/code&gt;,&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Và để khắc phục triệt để mình phải sử dụng thêm &lt;a href=&#34;https://doc.rust-lang.org/rust-by-example/std/box.html&#34;&gt;Box&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;giới-thiệu-sơ-về-box&#34;&gt;Giới thiệu sơ về Box&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;All values in Rust are stack allocated by default. Values can be &lt;em&gt;boxed&lt;/em&gt; (allocated on the heap) by creating a Box&lt;T&gt;.
+A &lt;strong&gt;box is a smart pointer&lt;/strong&gt; to a &lt;strong&gt;heap allocated value of type T&lt;/strong&gt;.
+When a box goes out of scope, its destructor is called, the inner object is destroyed, and the memory on the heap is freed.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Embassy/Box_Rust.png&#34;
+  alt=&#34;Box&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Để chuyển giá trị của Box thành một con trỏ với lifetime là &lt;code&gt;&#39;static&lt;/code&gt;. Mình sẽ dùng đến cấu trúc &lt;code&gt;Box::leak&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;code-mô-tả&#34;&gt;Code mô tả:&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#[embassy_executor::task]
+pub async fn main_task_rfid(
+    rfid_uart: &amp;amp;&amp;#39;static mut Uart&amp;lt;&amp;#39;static, USART2, DMA1_CH7, DMA1_CH6&amp;gt;,
+    debug_uart: &amp;amp;&amp;#39;static mut Uart&amp;lt;&amp;#39;static, USART1, DMA1_CH4, DMA1_CH5&amp;gt;,
+    power_pin_cr95hf: &amp;amp;&amp;#39;static mut Output&amp;lt;&amp;#39;_, PA1&amp;gt;,
+) {
+    // Use debug_uart here
+    dbg_print(debug_uart, &amp;#34;Inside RFID Task&amp;#34;).await;
+}
+
+
+#[embassy_executor::main]
+async fn main(spawner: Spawner) {
+    let p = embassy_stm32::Peripherals::take().unwrap();
+
+    let mut usart_debug = Uart::new(
+        p.USART1,
+        p.PA10,
+        p.PA9,
+        IrqsUART1,
+        p.DMA1_CH4,
+        p.DMA1_CH5,
+        config_debug,
+    ).unwrap();
+
+    dbg_print(&amp;amp;mut usart_debug, &amp;#34;RFID CR95&amp;#34;).await;
+
+    //------------------ RFID Task ---------------------
+    let ctr_rfid = Output::new(p.PA1, Level::High, Speed::Low);
+
+    // Convert references to &amp;#39;static by leaking the values
+    let usart_rfid_static = Box::leak(Box::new(usart_rfid));
+    let usart_debug_static = Box::leak(Box::new(usart_debug));
+    let ctr_rfid_static = Box::leak(Box::new(ctr_rfid));
+
+    // Async task RFID
+    spawner
+        .spawn(task_rfid::main_task_rfid(
+            usart_rfid_static,
+            usart_debug_static,
+            ctr_rfid_static,
+        ))
+        .unwrap();
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Khi đã sử dụng &lt;code&gt;usart_debug&lt;/code&gt; cho &lt;strong&gt;Box::leak&lt;/strong&gt; (và được dùng cho &lt;strong&gt;task RFID&lt;/strong&gt;) thì mình không còn dùng được &lt;code&gt;usart_debug&lt;/code&gt; sau nữa.&lt;/p&gt;
+&lt;p&gt;Vì lúc này bị dính đến &lt;strong&gt;ownership&lt;/strong&gt;.&lt;/p&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/iot/software/lifetime_embassy/</guid>
+      <pubDate>Fri, 09 Aug 2024 18:08:32 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Results_Rust</title>
       <link>https://vinhlin.github.io/posts/iot/software/rust-lang/results_rust/</link>
       <description>&lt;p&gt;Một trong các ưu điểm của ngôn ngữ bậc cao là việc &lt;strong&gt;Handle Error&lt;/strong&gt;.&lt;/p&gt;

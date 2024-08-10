@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Liste - https://vinhlin.github.io/">
+    <title>Shared_Access_Embassy | VinhLin</title>
+    <meta name="description" content="Technology Blog">
+    <meta property="og:title" content="Shared_Access_Embassy" />
+<meta property="og:description" content="Như bài viết về Lifetime_Embassy mình bị vướng chỗ ownership UART.
+Sau khi thăm hỏi ChatGPT và đọc lại các tài liệu cũng như xem sample code thì biết rằng: Rust ngăn cắm việc dùm một biến cho multi task, vì lo sợ rằng các task này chạy đồng thời &ndash;&gt; Gây lỗi cho chương trình.
+Để giải quyết vấn đề này thì cần share quyền truy cập (Managing Shared Access)." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://vinhlin.github.io/posts/iot/software/shared_access_embassy/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-08-10T11:18:41+07:00" />
+<meta property="article:modified_time" content="2024-08-10T11:18:41+07:00" />
+
+    <meta itemprop="name" content="Shared_Access_Embassy">
+<meta itemprop="description" content="Như bài viết về Lifetime_Embassy mình bị vướng chỗ ownership UART.
+Sau khi thăm hỏi ChatGPT và đọc lại các tài liệu cũng như xem sample code thì biết rằng: Rust ngăn cắm việc dùm một biến cho multi task, vì lo sợ rằng các task này chạy đồng thời &ndash;&gt; Gây lỗi cho chương trình.
+Để giải quyết vấn đề này thì cần share quyền truy cập (Managing Shared Access)."><meta itemprop="datePublished" content="2024-08-10T11:18:41+07:00" />
+<meta itemprop="dateModified" content="2024-08-10T11:18:41+07:00" />
+<meta itemprop="wordCount" content="450">
+<meta itemprop="keywords" content="" />
+    
+    <link rel="canonical" href="https://vinhlin.github.io/posts/iot/software/shared_access_embassy/">
+    <link rel="icon" href="https://vinhlin.github.io//assets/favicon.ico">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
+    <link rel="alternate" type="application/atom+xml" title="VinhLin" href="https://vinhlin.github.io//atom.xml" />
+    <link rel="alternate" type="application/json" title="VinhLin" href="https://vinhlin.github.io//feed.json" />
+    <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=">
+    
+    
+    <style>*,:after,:before{box-sizing:border-box;padding:0}body{font:1rem/1.5 '-apple-system',BlinkMacSystemFont,avenir next,avenir,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding:2rem;background:#f5f5f5;color:#000}.skip-link{position:absolute;top:-40px;left:0;background:#eee;z-index:100}.skip-link:focus{top:0}h1,h2,h3,h4,h5,strong,b{font-size:inherit;font-weight:600}header{line-height:2;padding-bottom:1.5rem}.link{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-decoration:none}.time{font-variant-numeric:tabular-nums;white-space:nowrap}blockquote{border-left:5px solid #eee;padding-left:1rem;margin:0}a,a:visited{color:inherit}a:hover,a.heading-link{text-decoration:none}pre{padding:.5rem;overflow:auto;overflow-x:scroll;overflow-wrap:normal}code,pre{font-family:San Francisco Mono,Monaco,consolas,lucida console,dejavu sans mono,bitstream vera sans mono,monospace;font-size:normal;font-size:small;background:#eee}code{margin:.1rem;border:none}ul{list-style-type:square}ul,ol{padding-left:1.2rem}.list{line-height:2;list-style-type:none;padding-left:0}.list li{padding-bottom:.1rem}.meta{color:#777}.content{max-width:70ch;margin:0 auto}header{line-height:2;display:flex;justify-content:space-between;padding-bottom:1rem}header a{text-decoration:none}header ul{list-style-type:none;padding:0}header li,header a{display:inline}h2.post{padding-top:.5rem}header ul a:first-child{padding-left:1rem}.nav{height:1px;background:#000;content:'';max-width:10%}.list li{display:flex;align-items:baseline}.list li time{flex:initial}.hr-list{margin-top:0;margin-bottom:0;margin-right:.5rem;margin-left:.5rem;height:1px;border:0;border-bottom:1px dotted #ccc;flex:1 0 1rem}.m,hr{border:0;margin:3rem 0}img{max-width:100%;height:auto}.post-date{margin:5% 0}.index-date{color:#9a9a9a}.animate-blink{animation:opacity 1s infinite;opacity:1}@keyframes opacity{0%{opacity:1}50%{opacity:.5}100%{opacity:0}}.tags{display:flex;justify-content:space-between}.tags ul{padding:0;margin:0}.tags li{display:inline}.avatar{height:120px;width:120px;position:relative;margin:-10px 0 0 15px;float:right;border-radius:50%}table{width:100%;border-collapse:collapse}th,td{border:1px solid #ddd;text-align:left;padding:8px}th{background-color:#f2f2f2} </style>
+  
+    
+  
+  
+  <script type="application/ld+json">
+  {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "articleSection": "posts",
+      "name": "Shared_Access_Embassy",
+      "headline": "Shared_Access_Embassy",
+      "alternativeHeadline": "",
+      "description": "Như bài viết về Lifetime_Embassy mình bị vướng chỗ ownership UART.\nSau khi thăm hỏi ChatGPT và đọc lại các tài liệu cũng như xem sample code thì biết rằng: Rust ngăn cắm việc dùm một biến cho multi task, vì lo sợ rằng các task này chạy đồng thời \u0026ndash;\u0026gt; Gây lỗi cho chương trình.\nĐể giải quyết vấn đề này thì cần share quyền truy cập (Managing Shared Access).",
+      "inLanguage": "en-us",
+      "isFamilyFriendly": "true",
+      "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https:\/\/vinhlin.github.io\/posts\/iot\/software\/shared_access_embassy\/"
+      },
+      "author" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "creator" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "accountablePerson" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "copyrightHolder" : "VinhLin",
+      "copyrightYear" : "2024",
+      "dateCreated": "2024-08-10T11:18:41.00Z",
+      "datePublished": "2024-08-10T11:18:41.00Z",
+      "dateModified": "2024-08-10T11:18:41.00Z",
+      "publisher":{
+          "@type":"Organization",
+          "name": "VinhLin",
+          "url": "https://vinhlin.github.io/",
+          "logo": {
+              "@type": "ImageObject",
+              "url": "https:\/\/vinhlin.github.io\/assets\/favicon.ico",
+              "width":"32",
+              "height":"32"
+          }
+      },
+      "image": "https://vinhlin.github.io/assets/favicon.ico",
+      "url" : "https:\/\/vinhlin.github.io\/posts\/iot\/software\/shared_access_embassy\/",
+      "wordCount" : "450",
+      "genre" : [ ],
+      "keywords" : [ ]
+  }
+  </script>
+  
+  
+  </head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main</a>
+  <main id="main">
+  <div class="content">
+    <header>
+<p style="padding: 0;margin: 0;">
+  <a href="/">
+    <b>VinhLin</b>
+    <span class="text-stone-500 animate-blink">▮</span>
+  </a>
+</p>
+<ul style="padding: 0;margin: 0;">
+  
+  
+  <li class="">
+    <a href="/posts/"><span>Post</span></a>
+    
+  <li class="">
+    <a href="/about/"><span>About</span></a>
+    
+  </li>
+</ul>
+</header>
+<hr class="hr-list" style="padding: 0;margin: 0;">
+    <section>
+      <h2 class="post">Shared_Access_Embassy</h2>
+      <p>Như bài viết về <a href="https://blog.vinhld-homelab.io.vn/posts/iot/software/lifetime_embassy/">Lifetime_Embassy</a> mình bị vướng chỗ ownership UART.</p>
+<p>Sau khi thăm hỏi <strong>ChatGPT</strong> và đọc lại các tài liệu cũng như xem sample code thì biết rằng:
+<strong>Rust ngăn cắm việc dùm một biến cho multi task, vì lo sợ rằng các task này chạy đồng thời &ndash;&gt; Gây lỗi cho chương trình</strong>.</p>
+<p>Để giải quyết vấn đề này thì cần share quyền truy cập (<strong>Managing Shared Access</strong>).</p>
+<blockquote>
+<p>Cách tiếp cận này đảm bảo rằng mỗi tác vụ đều có quyền truy cập an toàn vào UART, mà không gây ra xung đột <strong>quyền sở hữu</strong> (<em>ownership</em>) hoặc <strong>mượn</strong> (<em>borrow</em>)</p>
+</blockquote>
+<p>Và để làm được điều này mình sẽ cần dùng đến <strong>Mutex</strong>, <strong>RefCell</strong> hoặc <strong>Arc</strong>. <code>Arc&lt;Mutex&lt;Uart&gt;&gt;</code>
+Tham khảo sample code về việc sử dụng Arc. <a href="https://rust-classes.com/chapter_6_3">Link</a></p>
+<h3 id="vấn-đề-tiếp-theo">vấn đề tiếp theo</h3>
+<ul>
+<li>Xui một cái nữa là <strong>Arc</strong> không được khuyến nghị sử dụng trong <strong>embedded</strong>.</li>
+<li>và trong các example code có trong <strong>framwork embassy</strong>, mình cũng không thấy ví dụ nào về dùng <strong>Arc</strong>.</li>
+<li>Tiếp tục hỏi chatGPT về cách <strong>Shared Access trong framwork embassy</strong>, cuối cùng cũng đã có kết quả.</li>
+</ul>
+<h3 id="code-sample">Code sample</h3>
+<ul>
+<li>Đây là code sample từ chatGPT, tất nhiên là cũng cần chỉnh sửa lại một chút để có thể chạy được.</li>
+<li>Đoạn code này dùng: <strong>Mutex</strong>, <strong>NoopRawMutex</strong> và <strong>RefCell</strong>.</li>
+</ul>
+<pre tabindex="0"><code>use embassy_executor::Spawner;
+use embassy_stm32::usart::Uart;
+use embassy_stm32::peripherals::{USART1, USART2, DMA1_CH4, DMA1_CH5, DMA1_CH6, DMA1_CH7, PA1};
+use embassy_stm32::gpio::{Output, Level, Speed};
+use embassy_time::{Timer, Duration};
+use embassy_sync::blocking_mutex::raw::NoopRawMutex;
+use embassy_sync::mutex::Mutex;
+use core::cell::RefCell;
+use core::future::Future;
+use core::sync::atomic::{AtomicBool, Ordering};
+
+#[embassy_executor::task]
+pub async fn test_command(
+    uart: &amp;&#39;static Mutex&lt;NoopRawMutex, RefCell&lt;Uart&lt;&#39;static, USART1, DMA1_CH4, DMA1_CH5&gt;&gt;&gt;,
+    message: &amp;&#39;static str,
+) {
+    let mut count = 0;
+    loop {
+        count += 1;
+
+        {
+            let uart = uart.lock().await;
+            let mut uart = uart.borrow_mut();
+            uart.write(message.as_bytes()).await.unwrap();
+            uart.write(b&#34;\r\n&#34;).await.unwrap();
+        }
+
+        if count == 10 {
+            break;
+        }
+
+        Timer::after(Duration::from_millis(1000)).await;
+    }
+}
+
+#[embassy_executor::task]
+pub async fn main_task_rfid(
+    rfid_uart: &amp;&#39;static mut Uart&lt;&#39;static, USART2, DMA1_CH7, DMA1_CH6&gt;,
+    debug_uart: &amp;&#39;static Mutex&lt;NoopRawMutex, RefCell&lt;Uart&lt;&#39;static, USART1, DMA1_CH4, DMA1_CH5&gt;&gt;&gt;,
+    mut power_pin_cr95hf: Output&lt;&#39;static, PA1&gt;,
+) {
+    dbg_print(debug_uart, &#34;Inside RFID Task&#34;).await;
+}
+
+async fn dbg_print(
+    uart: &amp;&#39;static Mutex&lt;NoopRawMutex, RefCell&lt;Uart&lt;&#39;static, USART1, DMA1_CH4, DMA1_CH5&gt;&gt;&gt;,
+    message: &amp;str,
+) {
+    let uart = uart.lock().await;
+    let mut uart = uart.borrow_mut();
+    uart.write(message.as_bytes()).await.unwrap();
+    uart.write(b&#34;\r\n&#34;).await.unwrap();
+}
+
+#[embassy_executor::main]
+async fn main(spawner: Spawner) {
+    let p = embassy_stm32::Peripherals::take().unwrap();
+
+    let usart_rfid = Uart::new(
+        p.USART2,
+        p.PA3,
+        p.PA2,
+        IrqsUART2,
+        p.DMA1_CH7,
+        p.DMA1_CH6,
+        config_rfid,
+    )
+    .unwrap();
+
+    let usart_debug = Uart::new(
+        p.USART1,
+        p.PA10,
+        p.PA9,
+        IrqsUART1,
+        p.DMA1_CH4,
+        p.DMA1_CH5,
+        config_debug,
+    )
+    .unwrap();
+
+    // Convert usart_rfid and usart_debug to &#39;static lifetimes
+    let usart_rfid_static = Box::leak(Box::new(usart_rfid));
+    let usart_debug_static = Box::leak(Box::new(Mutex::new(RefCell::new(usart_debug))));
+
+
+    // Create the ctr_rfid object
+    let ctr_rfid = Output::new(p.PA1, Level::High, Speed::Low);
+    let ctr_rfid_static = Box::leak(Box::new(ctr_rfid));
+
+    // Async task for test command
+    spawner
+        .spawn(test_command(usart_debug_static, &#34;Test&#34;))
+        .unwrap();
+
+    // Async task for RFID
+    spawner
+        .spawn(main_task_rfid(
+            usart_rfid_static,
+            usart_debug_static,
+            ctr_rfid_static,
+        ))
+        .unwrap();
+}
+</code></pre><h3 id="đã-khắc-phục-và-chạy-code-được-thành-công"><strong>Đã khắc phục và chạy code được thành công</strong>.</h3>
+<p><img
+  src="/image/IoT/Embassy/Result_Shared_Access_UART.png"
+  alt="Result_Shared_Access_UART"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+
+      
+      <div class="post-date">
+        <span class="g time">August 10, 2024 </span> &#8729;
+         
+      </div>
+      
+    </section>
+    
+    
+    
+  </div>
+</main>
+</body>
+</html>
