@@ -31,6 +31,7 @@ hugo new posts/Others/IoT_Security_JD.md
 hugo new posts/IoT/Hardware/UNIHIKER.md
 hugo new posts/IoT/Hardware/ESD.md
 hugo new posts/IoT/Hardware/Research_CR95.md
+hugo new posts/IoT/Hardware/Dump_Firmware_NOR_Flash.md
 ```
 - Software
 ```

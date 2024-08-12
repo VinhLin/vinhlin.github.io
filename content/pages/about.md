@@ -6,7 +6,7 @@ draft = true
 
 <h2 align="center">👋 A person loving and working in IoT & Cyber-Security</h2>
 
-## [My Resume](../CV_VinhLD_01072024.pdf)
+## [My Resume](../CV_VinhLD_12082024.pdf)
 
 Mình từng học **Vật lý** tại trường Đại học Khoa học Tự nhiên TPHCM, với chuyên ngành là **Vật lý điện tử**.
 
@@ -17,7 +17,7 @@ Cùng với sự yêu thích về Công nghệ, mình đã học và tự tìm h
 Với mong muốn học hỏi, trau dồi thì mình vẫn không ngừng mở rộng "cái giếng" của bản thân.
 
 ## 👨‍💻 Dự án cá nhân: [HOMELAB Server](https://www.vinhld-homelab.io.vn)
-Mình áp dụng những kiến thức của bản thân để tự build lên hệ thống với 2 mục đích chính:
+Mình áp dụng những kiến thức của bản thân để tự build lên hệ thống với 2 mục đích chính *(phục vụ nhu cầu cá nhân và cho gia đình)*:
 
 ### Dựng hệ thống network cho gia đình, bao gồm CCTV và WIFI.
 - Vì ở nhà, mẹ mình có cửa hàng tạp hóa nhỏ. Nên sẽ cần Camera giám sát.

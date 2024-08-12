@@ -14,6 +14,128 @@
     
     
     <item>
+      <title>Dump_Firmware_NOR_Flash</title>
+      <link>https://vinhlin.github.io/posts/iot/hardware/dump_firmware_nor_flash/</link>
+      <description>&lt;p&gt;Đây là video Youtube nói về việc &lt;strong&gt;Dump Firmware&lt;/strong&gt; thiết bị: &lt;a href=&#34;https://www.youtube.com/watch?v=nruUuDalNR0&amp;amp;list=WL&amp;amp;index=7&#34;&gt;Extracting Firmware from Embedded Devices (SPI NOR Flash) ⚡&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Một video hay, thú vị, giải thích và hướng dẫn cơ bản về &lt;strong&gt;Flash Memory&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Dump_Firmware_NOR_Flash/Hinh_1.png&#34;
+  alt=&#34;Hinh_1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Loại &lt;strong&gt;NOR Flash&lt;/strong&gt; này mình cũng có biết, và cũng thường hay thấy trong các thiết bị IoT. Thường là các thiết bị nhỏ, như &lt;strong&gt;tracking&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Còn &lt;strong&gt;NAND Flash&lt;/strong&gt; thì mình thấy trong các thiết bị như &lt;strong&gt;Camera hành trình&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Loại &lt;strong&gt;eMMC Flash&lt;/strong&gt; thì mình thấy trong &lt;strong&gt;máy tính nhúng&lt;/strong&gt; (như Pi).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;nor-flash&#34;&gt;NOR Flash&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Dump_Firmware_NOR_Flash/Hinh_2.png&#34;
+  alt=&#34;Hinh_2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Trong video thì hướng dẫn và giải thích cơ bản về &lt;strong&gt;NOR Flash&lt;/strong&gt;, cũng như cách &lt;strong&gt;dump firmware&lt;/strong&gt; từ nó.&lt;/li&gt;
+&lt;li&gt;Loại flash này dùng giao thức &lt;strong&gt;SPI&lt;/strong&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Dump_Firmware_NOR_Flash/Hinh_3.png&#34;
+  alt=&#34;Hinh_3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Làm gì thì làm, mình cũng phải luôn search và tìm datasheet của loại IC.&lt;/li&gt;
+&lt;li&gt;Nếu không có đúng loại y như vậy, thì sẽ luôn có những dòng chip tương tự.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Dump_Firmware_NOR_Flash/Hinh_4.png&#34;
+  alt=&#34;Hinh_4&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;dump-firmware&#34;&gt;Dump Firmware&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Trong video tác giả sử dụng phần cứng &lt;a href=&#34;https://hydrabus.com/hydrabus-1-0-specifications/?v=e14da64a5617&#34;&gt;HydraBus&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Dump_Firmware_NOR_Flash/HydraFW_Default_PinAssignment.jpg&#34;
+  alt=&#34;HydraBus&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Đây là &lt;strong&gt;một dự án mã nguồn mở về phần cứng&lt;/strong&gt; (hardware open-source): &lt;a href=&#34;https://github.com/hydrabus/hydrabus&#34;&gt;hydrabus project&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Tài liệu về Cách sử dụng Hydrabus: &lt;a href=&#34;https://github.com/hydrabus/hydrafw/wiki/Getting-Started-with-HydraBus&#34;&gt;Getting Started with HydraBus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Dựa vào phần cứng này, cũng như thông tin datasheet, tác giả đã có thể tiến hành dump firmware:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;flashrom -p serprog:dev=/dev/ttyACM0 -r dump_spi.bin -c &amp;#34;MX25L6406E/MX25L6408E
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Để hiểu rõ hơn thì cần xem lại video nhiều lần.&lt;/li&gt;
+&lt;li&gt;Ngoài ra có một số công cụ hỗ trợ khác được sử dụng: Script dump SPI Flash &lt;a href=&#34;https://github.com/hydrabus/hydrafw/tree/master/contrib/hydra_spiflash_nor_dump&#34;&gt;&lt;code&gt;hydra_spiflash_nor_dump&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;một-số-hình-ảnh-khác-về-cách-dùng-cũng-như-công-cụ-bổ-trợ&#34;&gt;Một số hình ảnh khác về cách dùng cũng như công cụ bổ trợ:&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Dump_Firmware_NOR_Flash/Hinh_5.png&#34;
+  alt=&#34;Hinh_5&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Dump_Firmware_NOR_Flash/Hinh_6.png&#34;
+  alt=&#34;Hinh_6&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Dump_Firmware_NOR_Flash/Hinh_7.png&#34;
+  alt=&#34;Hinh_7&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Dump_Firmware_NOR_Flash/Hinh_8.png&#34;
+  alt=&#34;Hinh_8&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/iot/hardware/dump_firmware_nor_flash/</guid>
+      <pubDate>Mon, 12 Aug 2024 16:44:23 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Shared_Access_Embassy</title>
       <link>https://vinhlin.github.io/posts/iot/software/shared_access_embassy/</link>
       <description>&lt;p&gt;Như bài viết về &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/iot/software/lifetime_embassy/&#34;&gt;Lifetime_Embassy&lt;/a&gt; mình bị vướng chỗ ownership UART.&lt;/p&gt;
