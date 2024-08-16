@@ -6,7 +6,7 @@ draft = true
 
 <h2 align="center">👋 A person loving and working in IoT & Cyber-Security</h2>
 
-## [My Resume](../CV_VinhLD_12082024.pdf)
+## [My Resume](../CV_VinhLD_14082024.pdf)
 
 Mình từng học **Vật lý** tại trường Đại học Khoa học Tự nhiên TPHCM, với chuyên ngành là **Vật lý điện tử**.
 

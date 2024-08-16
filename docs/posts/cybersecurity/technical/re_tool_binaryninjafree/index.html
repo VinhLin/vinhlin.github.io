@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Liste - https://vinhlin.github.io/">
+    <title>RE_Tool_BinaryNinjaFree | VinhLin</title>
+    <meta name="description" content="Technology Blog">
+    <meta property="og:title" content="RE_Tool_BinaryNinjaFree" />
+<meta property="og:description" content="Một bài viết về RE (Reverse Engineering)
+Công cụ IDA - The Interactive Disassembler Công cụ này có bản free và hỗ trợ cài đặt trên nhiều nền tảng. Mình tải và cài đặt bản free cho Windows. Tuy nhiên thì: Với bản free thì mình chỉ có thể dùng cho các file PE format. Là dạng các file .exe trên windows. Với bản free thì có nhiều hạn chế quá, và nhìn cũng hơi khá dùng." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://vinhlin.github.io/posts/cybersecurity/technical/re_tool_binaryninjafree/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-08-16T14:07:42+07:00" />
+<meta property="article:modified_time" content="2024-08-16T14:07:42+07:00" />
+
+    <meta itemprop="name" content="RE_Tool_BinaryNinjaFree">
+<meta itemprop="description" content="Một bài viết về RE (Reverse Engineering)
+Công cụ IDA - The Interactive Disassembler Công cụ này có bản free và hỗ trợ cài đặt trên nhiều nền tảng. Mình tải và cài đặt bản free cho Windows. Tuy nhiên thì: Với bản free thì mình chỉ có thể dùng cho các file PE format. Là dạng các file .exe trên windows. Với bản free thì có nhiều hạn chế quá, và nhìn cũng hơi khá dùng."><meta itemprop="datePublished" content="2024-08-16T14:07:42+07:00" />
+<meta itemprop="dateModified" content="2024-08-16T14:07:42+07:00" />
+<meta itemprop="wordCount" content="225">
+<meta itemprop="keywords" content="" />
+    
+    <link rel="canonical" href="https://vinhlin.github.io/posts/cybersecurity/technical/re_tool_binaryninjafree/">
+    <link rel="icon" href="https://vinhlin.github.io//assets/favicon.ico">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
+    <link rel="alternate" type="application/atom+xml" title="VinhLin" href="https://vinhlin.github.io//atom.xml" />
+    <link rel="alternate" type="application/json" title="VinhLin" href="https://vinhlin.github.io//feed.json" />
+    <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=">
+    
+    
+    <style>*,:after,:before{box-sizing:border-box;padding:0}body{font:1rem/1.5 '-apple-system',BlinkMacSystemFont,avenir next,avenir,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding:2rem;background:#f5f5f5;color:#000}.skip-link{position:absolute;top:-40px;left:0;background:#eee;z-index:100}.skip-link:focus{top:0}h1,h2,h3,h4,h5,strong,b{font-size:inherit;font-weight:600}header{line-height:2;padding-bottom:1.5rem}.link{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-decoration:none}.time{font-variant-numeric:tabular-nums;white-space:nowrap}blockquote{border-left:5px solid #eee;padding-left:1rem;margin:0}a,a:visited{color:inherit}a:hover,a.heading-link{text-decoration:none}pre{padding:.5rem;overflow:auto;overflow-x:scroll;overflow-wrap:normal}code,pre{font-family:San Francisco Mono,Monaco,consolas,lucida console,dejavu sans mono,bitstream vera sans mono,monospace;font-size:normal;font-size:small;background:#eee}code{margin:.1rem;border:none}ul{list-style-type:square}ul,ol{padding-left:1.2rem}.list{line-height:2;list-style-type:none;padding-left:0}.list li{padding-bottom:.1rem}.meta{color:#777}.content{max-width:70ch;margin:0 auto}header{line-height:2;display:flex;justify-content:space-between;padding-bottom:1rem}header a{text-decoration:none}header ul{list-style-type:none;padding:0}header li,header a{display:inline}h2.post{padding-top:.5rem}header ul a:first-child{padding-left:1rem}.nav{height:1px;background:#000;content:'';max-width:10%}.list li{display:flex;align-items:baseline}.list li time{flex:initial}.hr-list{margin-top:0;margin-bottom:0;margin-right:.5rem;margin-left:.5rem;height:1px;border:0;border-bottom:1px dotted #ccc;flex:1 0 1rem}.m,hr{border:0;margin:3rem 0}img{max-width:100%;height:auto}.post-date{margin:5% 0}.index-date{color:#9a9a9a}.animate-blink{animation:opacity 1s infinite;opacity:1}@keyframes opacity{0%{opacity:1}50%{opacity:.5}100%{opacity:0}}.tags{display:flex;justify-content:space-between}.tags ul{padding:0;margin:0}.tags li{display:inline}.avatar{height:120px;width:120px;position:relative;margin:-10px 0 0 15px;float:right;border-radius:50%}table{width:100%;border-collapse:collapse}th,td{border:1px solid #ddd;text-align:left;padding:8px}th{background-color:#f2f2f2} </style>
+  
+    
+  
+  
+  <script type="application/ld+json">
+  {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "articleSection": "posts",
+      "name": "RE_Tool_BinaryNinjaFree",
+      "headline": "RE_Tool_BinaryNinjaFree",
+      "alternativeHeadline": "",
+      "description": "Một bài viết về RE (Reverse Engineering)\nCông cụ IDA - The Interactive Disassembler Công cụ này có bản free và hỗ trợ cài đặt trên nhiều nền tảng. Mình tải và cài đặt bản free cho Windows. Tuy nhiên thì: Với bản free thì mình chỉ có thể dùng cho các file PE format. Là dạng các file .exe trên windows. Với bản free thì có nhiều hạn chế quá, và nhìn cũng hơi khá dùng.",
+      "inLanguage": "en-us",
+      "isFamilyFriendly": "true",
+      "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https:\/\/vinhlin.github.io\/posts\/cybersecurity\/technical\/re_tool_binaryninjafree\/"
+      },
+      "author" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "creator" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "accountablePerson" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "copyrightHolder" : "VinhLin",
+      "copyrightYear" : "2024",
+      "dateCreated": "2024-08-16T14:07:42.00Z",
+      "datePublished": "2024-08-16T14:07:42.00Z",
+      "dateModified": "2024-08-16T14:07:42.00Z",
+      "publisher":{
+          "@type":"Organization",
+          "name": "VinhLin",
+          "url": "https://vinhlin.github.io/",
+          "logo": {
+              "@type": "ImageObject",
+              "url": "https:\/\/vinhlin.github.io\/assets\/favicon.ico",
+              "width":"32",
+              "height":"32"
+          }
+      },
+      "image": "https://vinhlin.github.io/assets/favicon.ico",
+      "url" : "https:\/\/vinhlin.github.io\/posts\/cybersecurity\/technical\/re_tool_binaryninjafree\/",
+      "wordCount" : "225",
+      "genre" : [ ],
+      "keywords" : [ ]
+  }
+  </script>
+  
+  
+  </head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main</a>
+  <main id="main">
+  <div class="content">
+    <header>
+<p style="padding: 0;margin: 0;">
+  <a href="/">
+    <b>VinhLin</b>
+    <span class="text-stone-500 animate-blink">▮</span>
+  </a>
+</p>
+<ul style="padding: 0;margin: 0;">
+  
+  
+  <li class="">
+    <a href="/posts/"><span>Post</span></a>
+    
+  <li class="">
+    <a href="/about/"><span>About</span></a>
+    
+  </li>
+</ul>
+</header>
+<hr class="hr-list" style="padding: 0;margin: 0;">
+    <section>
+      <h2 class="post">RE_Tool_BinaryNinjaFree</h2>
+      <p>Một bài viết về <a href="https://whitehat.vn/threads/re1-gioi-thieu-ve-reverse-engineering.875/">RE (Reverse Engineering)</a></p>
+<h3 id="công-cụ-ida---the-interactive-disassemblerhttpswhitehatvnthreadsre3-huong-dan-su-dung-ida913"><a href="https://whitehat.vn/threads/re3-huong-dan-su-dung-ida.913/">Công cụ IDA - The Interactive Disassembler</a></h3>
+<ul>
+<li>Công cụ này có <a href="https://hex-rays.com/ida-free/#download">bản free</a> và hỗ trợ cài đặt trên nhiều nền tảng.</li>
+<li>Mình tải và cài đặt bản free cho Windows. Tuy nhiên thì:
+<ul>
+<li>Với bản free thì mình chỉ có thể dùng cho các file <strong>PE format</strong>.</li>
+<li>Là dạng các file <code>.exe</code> trên windows.</li>
+</ul>
+</li>
+<li>Với bản <em>free</em> thì có nhiều hạn chế quá, và nhìn cũng hơi khá dùng.</li>
+</ul>
+<h3 id="công-cụ-online---decompiler-explorerhttpsdogboltorg">Công cụ Online - <a href="https://dogbolt.org/">Decompiler Explorer</a></h3>
+<h2 id="phần-mềm-binary-ninjahttpsbinaryninja">Phần mềm <a href="https://binary.ninja/">Binary Ninja</a></h2>
+<blockquote>
+<p>Binary Ninja is an interactive decompiler, disassembler, debugger, and binary analysis platform built by reverse engineers, for reverse engineers.</p>
+</blockquote>
+<h3 id="video-youtube-tham-khảo">Video youtube tham khảo:</h3>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=FBwRTWEzGN0&amp;list=WL&amp;index=11">How to Crack Software (Reverse Engineering)</a></li>
+<li><a href="https://www.youtube.com/watch?v=tCcLhsTdFEw">Learning Binary Ninja for Reverse Engineering - Workflows, UI Patching and Scripting</a></li>
+<li><a href="https://www.youtube.com/watch?v=-RaOeooSmug">An Intro to Binary Ninja (Free) for Malware Analysis</a></li>
+<li><a href="https://www.youtube.com/watch?v=IdNFMIQ9roQ">Binary Ninja: 4.1 Feature Stream!</a></li>
+</ul>
+<h3 id="community-provided-binary-ninja-plugins-community-pluginshttpsgithubcomvector35community-plugins">Community provided Binary Ninja plugins: <a href="https://github.com/Vector35/community-plugins">community-plugins</a></h3>
+<h3 id="download-freehttpsbinaryninjafree"><a href="https://binary.ninja/free/">Download Free</a></h3>
+<ul>
+<li>Đây là một công cụ mạnh mẽ, nhưng được sử dụng <strong>free</strong>.</li>
+<li>Nếu so sánh thì phần mềm này <strong>ăn đứt IDA</strong> về tính năng của bản free:
+<ul>
+<li>Supports x86, x86_64, and ARMv7 architectures.</li>
+<li>Hỗ trợ <strong>Disassemble</strong> (phân tích), <strong>Pseudo C</strong> (dịch ngược), <strong>HLIL</strong>.</li>
+</ul>
+</li>
+<li>Mình đã tải và cài thử trên Windows, sau đó thử mở một <strong>file ELF</strong> (file code rust-tracking)</li>
+<li>Mình có thể dùng với <strong>Strings</strong>, <strong>Hex Editor</strong>,&hellip;</li>
+<li><strong>Công cụ quá mạnh mẽ</strong>.</li>
+</ul>
+<p><img
+  src="/image/CyberSecurity/Binary_Ninja_Free.png"
+  alt="Binary_Ninja_Free"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+
+      
+      <div class="post-date">
+        <span class="g time">August 16, 2024 </span> &#8729;
+         
+      </div>
+      
+    </section>
+    
+    
+    
+  </div>
+</main>
+</body>
+</html>

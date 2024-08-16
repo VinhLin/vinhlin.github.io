@@ -44,6 +44,7 @@ hugo new posts/IoT/Software/UART_Embassy.md
 hugo new posts/IoT/Software/Lifetime_Embassy.md
 hugo new posts/IoT/Software/Rust-lang/Results_Rust.md
 hugo new posts/IoT/Software/Shared_Access_Embassy.md
+hugo new posts/IoT/Software/Read_Write_UART_STM32Fx.md
 ```
 
 ### CyberSecurity:
@@ -61,11 +62,8 @@ hugo new posts/CyberSecurity/Technical/OSINT.md
 hugo new posts/CyberSecurity/Technical/TheHive.md
 hugo new posts/CyberSecurity/Technical/Tails_OS.md
 hugo new posts/CyberSecurity/Technical/ParamSpider.md
+hugo new posts/CyberSecurity/Technical/RE_Tool_BinaryNinjaFree.md
 ```
-
-
-
-
 
 
 

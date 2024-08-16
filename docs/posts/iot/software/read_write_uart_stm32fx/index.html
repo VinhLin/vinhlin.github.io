@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Liste - https://vinhlin.github.io/">
+    <title>Read_Write_UART_STM32Fx | VinhLin</title>
+    <meta name="description" content="Technology Blog">
+    <meta property="og:title" content="Read_Write_UART_STM32Fx" />
+<meta property="og:description" content="Code Test Read Write Data trên UART của chip STM32F103 #![no_std] #![no_main] #![feature(type_alias_impl_trait)] #![feature(alloc_error_handler)] //------------------------- Define Macro Alloc ------------------------------------ extern crate alloc; use alloc_cortex_m::CortexMHeap; // this is the allocator the application will use #[global_allocator] static ALLOCATOR: CortexMHeap = CortexMHeap::empty(); const HEAP_SIZE: usize = 1024; // in bytes //----------------------------------------------------------------------------------- use defmt::*; use defmt_rtt as _; use embassy_executor::Spawner; use embassy_stm32::usart::{Config, Uart}; use embassy_stm32::{bind_interrupts, peripherals, usart}; use embassy_time::{with_timeout, Duration}; use panic_halt as _; bind_interrupts!" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://vinhlin.github.io/posts/iot/software/read_write_uart_stm32fx/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-08-14T19:17:29+07:00" />
+<meta property="article:modified_time" content="2024-08-14T19:17:29+07:00" />
+
+    <meta itemprop="name" content="Read_Write_UART_STM32Fx">
+<meta itemprop="description" content="Code Test Read Write Data trên UART của chip STM32F103 #![no_std] #![no_main] #![feature(type_alias_impl_trait)] #![feature(alloc_error_handler)] //------------------------- Define Macro Alloc ------------------------------------ extern crate alloc; use alloc_cortex_m::CortexMHeap; // this is the allocator the application will use #[global_allocator] static ALLOCATOR: CortexMHeap = CortexMHeap::empty(); const HEAP_SIZE: usize = 1024; // in bytes //----------------------------------------------------------------------------------- use defmt::*; use defmt_rtt as _; use embassy_executor::Spawner; use embassy_stm32::usart::{Config, Uart}; use embassy_stm32::{bind_interrupts, peripherals, usart}; use embassy_time::{with_timeout, Duration}; use panic_halt as _; bind_interrupts!"><meta itemprop="datePublished" content="2024-08-14T19:17:29+07:00" />
+<meta itemprop="dateModified" content="2024-08-14T19:17:29+07:00" />
+<meta itemprop="wordCount" content="223">
+<meta itemprop="keywords" content="" />
+    
+    <link rel="canonical" href="https://vinhlin.github.io/posts/iot/software/read_write_uart_stm32fx/">
+    <link rel="icon" href="https://vinhlin.github.io//assets/favicon.ico">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
+    <link rel="alternate" type="application/atom+xml" title="VinhLin" href="https://vinhlin.github.io//atom.xml" />
+    <link rel="alternate" type="application/json" title="VinhLin" href="https://vinhlin.github.io//feed.json" />
+    <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=">
+    
+    
+    <style>*,:after,:before{box-sizing:border-box;padding:0}body{font:1rem/1.5 '-apple-system',BlinkMacSystemFont,avenir next,avenir,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding:2rem;background:#f5f5f5;color:#000}.skip-link{position:absolute;top:-40px;left:0;background:#eee;z-index:100}.skip-link:focus{top:0}h1,h2,h3,h4,h5,strong,b{font-size:inherit;font-weight:600}header{line-height:2;padding-bottom:1.5rem}.link{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-decoration:none}.time{font-variant-numeric:tabular-nums;white-space:nowrap}blockquote{border-left:5px solid #eee;padding-left:1rem;margin:0}a,a:visited{color:inherit}a:hover,a.heading-link{text-decoration:none}pre{padding:.5rem;overflow:auto;overflow-x:scroll;overflow-wrap:normal}code,pre{font-family:San Francisco Mono,Monaco,consolas,lucida console,dejavu sans mono,bitstream vera sans mono,monospace;font-size:normal;font-size:small;background:#eee}code{margin:.1rem;border:none}ul{list-style-type:square}ul,ol{padding-left:1.2rem}.list{line-height:2;list-style-type:none;padding-left:0}.list li{padding-bottom:.1rem}.meta{color:#777}.content{max-width:70ch;margin:0 auto}header{line-height:2;display:flex;justify-content:space-between;padding-bottom:1rem}header a{text-decoration:none}header ul{list-style-type:none;padding:0}header li,header a{display:inline}h2.post{padding-top:.5rem}header ul a:first-child{padding-left:1rem}.nav{height:1px;background:#000;content:'';max-width:10%}.list li{display:flex;align-items:baseline}.list li time{flex:initial}.hr-list{margin-top:0;margin-bottom:0;margin-right:.5rem;margin-left:.5rem;height:1px;border:0;border-bottom:1px dotted #ccc;flex:1 0 1rem}.m,hr{border:0;margin:3rem 0}img{max-width:100%;height:auto}.post-date{margin:5% 0}.index-date{color:#9a9a9a}.animate-blink{animation:opacity 1s infinite;opacity:1}@keyframes opacity{0%{opacity:1}50%{opacity:.5}100%{opacity:0}}.tags{display:flex;justify-content:space-between}.tags ul{padding:0;margin:0}.tags li{display:inline}.avatar{height:120px;width:120px;position:relative;margin:-10px 0 0 15px;float:right;border-radius:50%}table{width:100%;border-collapse:collapse}th,td{border:1px solid #ddd;text-align:left;padding:8px}th{background-color:#f2f2f2} </style>
+  
+    
+  
+  
+  <script type="application/ld+json">
+  {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "articleSection": "posts",
+      "name": "Read_Write_UART_STM32Fx",
+      "headline": "Read_Write_UART_STM32Fx",
+      "alternativeHeadline": "",
+      "description": "Code Test Read Write Data trên UART của chip STM32F103 #![no_std] #![no_main] #![feature(type_alias_impl_trait)] #![feature(alloc_error_handler)] \/\/------------------------- Define Macro Alloc ------------------------------------ extern crate alloc; use alloc_cortex_m::CortexMHeap; \/\/ this is the allocator the application will use #[global_allocator] static ALLOCATOR: CortexMHeap = CortexMHeap::empty(); const HEAP_SIZE: usize = 1024; \/\/ in bytes \/\/----------------------------------------------------------------------------------- use defmt::*; use defmt_rtt as _; use embassy_executor::Spawner; use embassy_stm32::usart::{Config, Uart}; use embassy_stm32::{bind_interrupts, peripherals, usart}; use embassy_time::{with_timeout, Duration}; use panic_halt as _; bind_interrupts!",
+      "inLanguage": "en-us",
+      "isFamilyFriendly": "true",
+      "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https:\/\/vinhlin.github.io\/posts\/iot\/software\/read_write_uart_stm32fx\/"
+      },
+      "author" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "creator" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "accountablePerson" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "copyrightHolder" : "VinhLin",
+      "copyrightYear" : "2024",
+      "dateCreated": "2024-08-14T19:17:29.00Z",
+      "datePublished": "2024-08-14T19:17:29.00Z",
+      "dateModified": "2024-08-14T19:17:29.00Z",
+      "publisher":{
+          "@type":"Organization",
+          "name": "VinhLin",
+          "url": "https://vinhlin.github.io/",
+          "logo": {
+              "@type": "ImageObject",
+              "url": "https:\/\/vinhlin.github.io\/assets\/favicon.ico",
+              "width":"32",
+              "height":"32"
+          }
+      },
+      "image": "https://vinhlin.github.io/assets/favicon.ico",
+      "url" : "https:\/\/vinhlin.github.io\/posts\/iot\/software\/read_write_uart_stm32fx\/",
+      "wordCount" : "223",
+      "genre" : [ ],
+      "keywords" : [ ]
+  }
+  </script>
+  
+  
+  </head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main</a>
+  <main id="main">
+  <div class="content">
+    <header>
+<p style="padding: 0;margin: 0;">
+  <a href="/">
+    <b>VinhLin</b>
+    <span class="text-stone-500 animate-blink">▮</span>
+  </a>
+</p>
+<ul style="padding: 0;margin: 0;">
+  
+  
+  <li class="">
+    <a href="/posts/"><span>Post</span></a>
+    
+  <li class="">
+    <a href="/about/"><span>About</span></a>
+    
+  </li>
+</ul>
+</header>
+<hr class="hr-list" style="padding: 0;margin: 0;">
+    <section>
+      <h2 class="post">Read_Write_UART_STM32Fx</h2>
+      <h2 id="code-test-read-write-data-trên-uart-của-chip-stm32f103">Code Test Read Write Data trên UART của chip STM32F103</h2>
+<pre tabindex="0"><code>#![no_std]
+#![no_main]
+#![feature(type_alias_impl_trait)]
+#![feature(alloc_error_handler)]
+//------------------------- Define Macro Alloc ------------------------------------
+extern crate alloc;
+use alloc_cortex_m::CortexMHeap;
+
+// this is the allocator the application will use
+#[global_allocator]
+static ALLOCATOR: CortexMHeap = CortexMHeap::empty();
+
+const HEAP_SIZE: usize = 1024; // in bytes
+
+//-----------------------------------------------------------------------------------
+use defmt::*;
+use defmt_rtt as _;
+use embassy_executor::Spawner;
+use embassy_stm32::usart::{Config, Uart};
+use embassy_stm32::{bind_interrupts, peripherals, usart};
+use embassy_time::{with_timeout, Duration};
+use panic_halt as _;
+
+bind_interrupts!(struct Irqs {
+    USART1 =&gt; usart::InterruptHandler&lt;peripherals::USART1&gt;;
+});
+
+#[embassy_executor::main]
+async fn main(_spawner: Spawner) {
+    // Initialize the allocator BEFORE you use it
+    unsafe { ALLOCATOR.init(cortex_m_rt::heap_start() as usize, HEAP_SIZE) }
+
+    info!(&#34;Test UART&#34;);
+    let p = embassy_stm32::init(Default::default());
+
+    let mut uart = Uart::new(
+        p.USART1,
+        p.PA10,
+        p.PA9,
+        Irqs,
+        p.DMA1_CH4,
+        p.DMA1_CH5,
+        Config::default(),
+    )
+    .unwrap();
+
+    uart.write(b&#34;Start Test UART\r\n&#34;).await.unwrap();
+    let mut response_data = [0u8; 25]; // Buffer for one byte at a time.
+
+    loop {
+        match with_timeout(Duration::from_millis(100), uart.read_until_idle(&amp;mut response_data)).await {
+            Ok(_) =&gt; {
+                println!(&#34;Data Test: {}&#34;, response_data);
+
+                if let Ok(message) = core::str::from_utf8(&amp;response_data) {
+                    println!(&#34;DATA OK: {}&#34;, message);
+                }
+
+                // clean buffer
+                response_data.fill(0);
+            }
+            Err(_e) =&gt; {
+                // debug!(&#34;Read UART Error&#34;);
+            }
+        }
+    }
+}
+
+// define what happens in an Out Of Memory (OOM) condition
+#[alloc_error_handler]
+fn alloc_error(_layout: core::alloc::Layout) -&gt; ! {
+    loop {}
+}
+</code></pre><h3 id="note">Note</h3>
+<ul>
+<li>Đoạn code này dùng <code>timeout</code> với <code>read_until_idle</code>.</li>
+<li>Với <code>read_until_idle</code> là để tự detect các ký tự xuống dòng như <code>\r\n</code>.</li>
+<li>Kết quả test thành công:</li>
+</ul>
+<p><img
+  src="/image/IoT/Embassy/UART_Read_Write_Result.png"
+  alt="Read_Write"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+
+      
+      <div class="post-date">
+        <span class="g time">August 14, 2024 </span> &#8729;
+         
+      </div>
+      
+    </section>
+    
+    
+    
+  </div>
+</main>
+</body>
+</html>
