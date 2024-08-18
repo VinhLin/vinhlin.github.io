@@ -8,7 +8,7 @@ draft = true
 
 <img class="avatar" src="../image.jfif" alt="avatar">
 
-Xin chào, mình tên là Lin Đức Vinh, gọi tắt là VinhLin (hoặc VinhLD (nếu muốn)). =]] 
+Xin chào, mình tên là Lin Đức Vinh *(gọi tắt là VinhLin)*. =]] 
 
 Mình có thói quen hay ghi chú những điều hay ho về **IoT/Điện tử** (*nói riêng*) và **Công nghệ** (*nói chung*).
 

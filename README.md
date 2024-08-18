@@ -63,6 +63,7 @@ hugo new posts/CyberSecurity/Technical/TheHive.md
 hugo new posts/CyberSecurity/Technical/Tails_OS.md
 hugo new posts/CyberSecurity/Technical/ParamSpider.md
 hugo new posts/CyberSecurity/Technical/RE_Tool_BinaryNinjaFree.md
+hugo new posts/CyberSecurity/Technical/Protect_Camera.md
 ```
 
 

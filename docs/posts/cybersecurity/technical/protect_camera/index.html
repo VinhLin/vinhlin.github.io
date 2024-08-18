@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Liste - https://vinhlin.github.io/">
+    <title>Protect_Camera | VinhLin</title>
+    <meta name="description" content="Technology Blog">
+    <meta property="og:title" content="Protect_Camera" />
+<meta property="og:description" content="Lướt lát trên Internet, vô tình lụm được các bức ảnh (được cắt ra trên một seminar nào đó) nói về các cách bảo vệ Camera.
+Sau khi đọc xong thì mình thấy các nội dung trong đây không chỉ dành riêng cho camera, mà có thể áp dụng tư duy và kỹ thuật này cả vào red-team và blue-team.
+Kỹ thuật cho Red-Team Phishing Attacks Đây là kỹ thuật rất phổ biến và hay được dùng." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://vinhlin.github.io/posts/cybersecurity/technical/protect_camera/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-08-18T11:07:18+07:00" />
+<meta property="article:modified_time" content="2024-08-18T11:07:18+07:00" />
+
+    <meta itemprop="name" content="Protect_Camera">
+<meta itemprop="description" content="Lướt lát trên Internet, vô tình lụm được các bức ảnh (được cắt ra trên một seminar nào đó) nói về các cách bảo vệ Camera.
+Sau khi đọc xong thì mình thấy các nội dung trong đây không chỉ dành riêng cho camera, mà có thể áp dụng tư duy và kỹ thuật này cả vào red-team và blue-team.
+Kỹ thuật cho Red-Team Phishing Attacks Đây là kỹ thuật rất phổ biến và hay được dùng."><meta itemprop="datePublished" content="2024-08-18T11:07:18+07:00" />
+<meta itemprop="dateModified" content="2024-08-18T11:07:18+07:00" />
+<meta itemprop="wordCount" content="603">
+<meta itemprop="keywords" content="" />
+    
+    <link rel="canonical" href="https://vinhlin.github.io/posts/cybersecurity/technical/protect_camera/">
+    <link rel="icon" href="https://vinhlin.github.io//assets/favicon.ico">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
+    <link rel="alternate" type="application/atom+xml" title="VinhLin" href="https://vinhlin.github.io//atom.xml" />
+    <link rel="alternate" type="application/json" title="VinhLin" href="https://vinhlin.github.io//feed.json" />
+    <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=">
+    
+    
+    <style>*,:after,:before{box-sizing:border-box;padding:0}body{font:1rem/1.5 '-apple-system',BlinkMacSystemFont,avenir next,avenir,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding:2rem;background:#f5f5f5;color:#000}.skip-link{position:absolute;top:-40px;left:0;background:#eee;z-index:100}.skip-link:focus{top:0}h1,h2,h3,h4,h5,strong,b{font-size:inherit;font-weight:600}header{line-height:2;padding-bottom:1.5rem}.link{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-decoration:none}.time{font-variant-numeric:tabular-nums;white-space:nowrap}blockquote{border-left:5px solid #eee;padding-left:1rem;margin:0}a,a:visited{color:inherit}a:hover,a.heading-link{text-decoration:none}pre{padding:.5rem;overflow:auto;overflow-x:scroll;overflow-wrap:normal}code,pre{font-family:San Francisco Mono,Monaco,consolas,lucida console,dejavu sans mono,bitstream vera sans mono,monospace;font-size:normal;font-size:small;background:#eee}code{margin:.1rem;border:none}ul{list-style-type:square}ul,ol{padding-left:1.2rem}.list{line-height:2;list-style-type:none;padding-left:0}.list li{padding-bottom:.1rem}.meta{color:#777}.content{max-width:70ch;margin:0 auto}header{line-height:2;display:flex;justify-content:space-between;padding-bottom:1rem}header a{text-decoration:none}header ul{list-style-type:none;padding:0}header li,header a{display:inline}h2.post{padding-top:.5rem}header ul a:first-child{padding-left:1rem}.nav{height:1px;background:#000;content:'';max-width:10%}.list li{display:flex;align-items:baseline}.list li time{flex:initial}.hr-list{margin-top:0;margin-bottom:0;margin-right:.5rem;margin-left:.5rem;height:1px;border:0;border-bottom:1px dotted #ccc;flex:1 0 1rem}.m,hr{border:0;margin:3rem 0}img{max-width:100%;height:auto}.post-date{margin:5% 0}.index-date{color:#9a9a9a}.animate-blink{animation:opacity 1s infinite;opacity:1}@keyframes opacity{0%{opacity:1}50%{opacity:.5}100%{opacity:0}}.tags{display:flex;justify-content:space-between}.tags ul{padding:0;margin:0}.tags li{display:inline}.avatar{height:120px;width:120px;position:relative;margin:-10px 0 0 15px;float:right;border-radius:50%}table{width:100%;border-collapse:collapse}th,td{border:1px solid #ddd;text-align:left;padding:8px}th{background-color:#f2f2f2} </style>
+  
+    
+  
+  
+  <script type="application/ld+json">
+  {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "articleSection": "posts",
+      "name": "Protect_Camera",
+      "headline": "Protect_Camera",
+      "alternativeHeadline": "",
+      "description": "Lướt lát trên Internet, vô tình lụm được các bức ảnh (được cắt ra trên một seminar nào đó) nói về các cách bảo vệ Camera.\nSau khi đọc xong thì mình thấy các nội dung trong đây không chỉ dành riêng cho camera, mà có thể áp dụng tư duy và kỹ thuật này cả vào red-team và blue-team.\nKỹ thuật cho Red-Team Phishing Attacks Đây là kỹ thuật rất phổ biến và hay được dùng.",
+      "inLanguage": "en-us",
+      "isFamilyFriendly": "true",
+      "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https:\/\/vinhlin.github.io\/posts\/cybersecurity\/technical\/protect_camera\/"
+      },
+      "author" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "creator" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "accountablePerson" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "copyrightHolder" : "VinhLin",
+      "copyrightYear" : "2024",
+      "dateCreated": "2024-08-18T11:07:18.00Z",
+      "datePublished": "2024-08-18T11:07:18.00Z",
+      "dateModified": "2024-08-18T11:07:18.00Z",
+      "publisher":{
+          "@type":"Organization",
+          "name": "VinhLin",
+          "url": "https://vinhlin.github.io/",
+          "logo": {
+              "@type": "ImageObject",
+              "url": "https:\/\/vinhlin.github.io\/assets\/favicon.ico",
+              "width":"32",
+              "height":"32"
+          }
+      },
+      "image": "https://vinhlin.github.io/assets/favicon.ico",
+      "url" : "https:\/\/vinhlin.github.io\/posts\/cybersecurity\/technical\/protect_camera\/",
+      "wordCount" : "603",
+      "genre" : [ ],
+      "keywords" : [ ]
+  }
+  </script>
+  
+  
+  </head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main</a>
+  <main id="main">
+  <div class="content">
+    <header>
+<p style="padding: 0;margin: 0;">
+  <a href="/">
+    <b>VinhLin</b>
+    <span class="text-stone-500 animate-blink">▮</span>
+  </a>
+</p>
+<ul style="padding: 0;margin: 0;">
+  
+  
+  <li class="">
+    <a href="/posts/"><span>Post</span></a>
+    
+  <li class="">
+    <a href="/about/"><span>About</span></a>
+    
+  </li>
+</ul>
+</header>
+<hr class="hr-list" style="padding: 0;margin: 0;">
+    <section>
+      <h2 class="post">Protect_Camera</h2>
+      <p>Lướt lát trên Internet, vô tình <strong>lụm</strong> được các bức ảnh <em>(được cắt ra trên một seminar nào đó)</em> nói về các cách bảo vệ Camera.</p>
+<p>Sau khi đọc xong thì mình thấy các nội dung trong đây <strong>không chỉ dành riêng cho camera</strong>, mà có thể áp dụng <strong>tư duy và kỹ thuật</strong> này cả vào red-team và blue-team.</p>
+<p><img
+  src="/image/CyberSecurity/Protect_Camera/1.jpg"
+  alt="Hinh_1"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<h2 id="kỹ-thuật-cho-red-team">Kỹ thuật cho Red-Team</h2>
+<h3 id="phishing-attacks">Phishing Attacks</h3>
+<p><img
+  src="/image/CyberSecurity/Protect_Camera/2.jpg"
+  alt="Hinh_2"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<ul>
+<li>Đây là kỹ thuật rất phổ biến và hay được dùng.</li>
+<li>Đính kèm một đường link đọc hại trong email, gửi cho nạn nhân và khi nạn nhân nhấp vô, thì sẽ được chuyển hướng đến các trang web <strong>fake</strong>.</li>
+<li>Để rồi lấy cấp thông tin nếu như nạn nhân login vào trang fake này.</li>
+</ul>
+<h3 id="sử-dụng-phần-mềm-độc-hại">Sử dụng phần mềm độc hại</h3>
+<p><img
+  src="/image/CyberSecurity/Protect_Camera/3.jpg"
+  alt="Hinh_3"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<ul>
+<li>Hacker tạo ra các con <strong>malware</strong>, sau đó <strong>nhúng</strong> nó vào các file như file ảnh, pdf,&hellip;</li>
+<li>Khi nạn nhân nhấp vào thì sẽ có các <strong>tiến trình chạy ẩn</strong> bên trong máy.</li>
+<li>Ví dụ như tạo ra <strong>backdoor</strong> kết nối về <strong>máy chủ C2</strong> của hacker.</li>
+</ul>
+<p><img
+  src="/image/CyberSecurity/Protect_Camera/4.jpg"
+  alt="Hinh_4"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<blockquote>
+<p>Câu hỏi là làm sao <strong>dẫn dụ nạn nhân nhấp tải hoặc cài đặt phần mềm</strong> <br>
+Để làm được điều này thì một trong những kỹ thuật cần dùng là <mark>Phishing Attacks</mark>.</p>
+</blockquote>
+<h3 id="khai-thác-lỗ-hổng-phần-mềm">Khai thác lỗ hổng phần mềm</h3>
+<p><img
+  src="/image/CyberSecurity/Protect_Camera/5.jpg"
+  alt="Hinh_5"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<ul>
+<li><strong>Phần mềm</strong> ở đây mang nghĩa cũng hơi rộng. Có thể là <code>web</code>, <code>moblie</code> hoặc một ứng dụng <code>desktop</code>.</li>
+<li>Chỉ cần phần mềm đó có <strong>lỗ hổng</strong> và mình khai thác (ví dụ như <mark>Reverse Shell</mark> hoặc <strong>RAT</strong>) được thì cũng làm được khá nhiều trò.</li>
+</ul>
+<h3 id="fake-wifi">Fake WIFI</h3>
+<p><img
+  src="/image/CyberSecurity/Protect_Camera/6.jpg"
+  alt="Hinh_6"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<ul>
+<li>Cách này cũng phổ biến, và thường hay thấy trong các bộ phim về hacker.</li>
+<li>Hacker sẽ fake một <strong>free wifi</strong>, khi nạn nhân kết nối vào, hacker sẽ biết được nạn nhân đang làm gì trên Internet.</li>
+<li>Hoặc chuyển hướng link, cài đặt phần mềm bất hợp pháp,&hellip;</li>
+</ul>
+<h2 id="tư-duy-blue-team">Tư duy Blue-Team</h2>
+<p><img
+  src="/image/CyberSecurity/Protect_Camera/7.jpg"
+  alt="Hinh_7"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<h3 id="sử-dụng-password-mạnh-mẽ">Sử dụng Password mạnh mẽ</h3>
+<ul>
+<li>Ít nhất <strong>8 ký tự</strong>, có cả số lẫn chữ.</li>
+<li>Trong có phải bao gồm ít nhất phải có một <strong>ký tự đặc biệt</strong>, và một ký tự <strong>chữ in hoa</strong>.</li>
+</ul>
+<h3 id="sử-dụng-2fa">Sử dụng 2FA</h3>
+<ul>
+<li>Xác thực <strong>OTP</strong> (One Time Password).</li>
+<li>Có thể dùng app <strong>GG Authen</strong> để xác thực 2 bước.</li>
+</ul>
+<h3 id="phân-quyền">Phân quyền</h3>
+<ul>
+<li><strong>Cận thận với những app cài đặt với quyền Admin</strong>.</li>
+<li>Phân quyền lại cho <strong>user</strong>, được phép và không được phép làm điều gì.</li>
+<li>Kiểm tra lại phân quyền ứng dụng, nếu chẳng may ứng dụng đó có lỗ hổng và bị hack, thì hacker cũng <strong>không thể leo thang đặc quyền</strong> được.</li>
+</ul>
+<h3 id="bảo-vệ-vật-lý">Bảo vệ vật lý</h3>
+<ul>
+<li>Hiểu nôm na là sử dụng <strong>công cụ vật lý để xác thực</strong>. Cũng là xác thực nhưng thay vì dùng phần mềm, thì sẽ dùng phần cứng.</li>
+<li>Ví dụ như sản phẩm <a href="https://vincss.net/vi/product/khoa-xac-thuc-manh-vincss-fido2-touch-1-ket-noi-usb-type-a-ho-tro-xac-thuc-an-toan-khong-mat-khau-chuan-uaf-u2f-fido2-hang-chinh-hang/">FIDO2® Touch 1</a> của công ty <strong>VinCSS</strong></li>
+</ul>
+<h3 id="công-cụ-khác">Công cụ khác</h3>
+<p><img
+  src="/image/CyberSecurity/Protect_Camera/10.jpg"
+  alt="Hinh_10"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<ul>
+<li>Hãy luôn cập nhật software, để đảm bảo an toàn cho ứng dụng.</li>
+<li>Sử dụng <strong>Firewall</strong> <em>(cả phần cứng và phần mềm)</em> để bảo vệ hạ tầng và ứng dụng của bạn.</li>
+<li>Sử dụng <strong>VPN</strong> để bảo vệ thông tin của bạn.</li>
+<li>Sử dụng các công cụ <strong>diệt virus</strong> để bảo vệ máy tính của bạn.</li>
+<li>Và đừng bao giờ truy cập những đường link lạ, cũng như cài đặt những phần mềm crack <em>(vì mình sẽ không biết bên trong phần mềm này đang chạy những gì đâu)</em>.</li>
+</ul>
+<h3 id="human---con-người">Human - Con người</h3>
+<ul>
+<li>Dù công cụ có bảo vệ có mạnh mẽ đến đâu, thì vẫn luôn tồn tại một lỗ hổng, đó là <strong>con người</strong></li>
+<li>Lỗ hổng này nằm trong <strong>tư duy</strong>, <strong>nhận thức</strong> về An toàn và Bảo mật thông tin.</li>
+</ul>
+<p><img
+  src="/image/CyberSecurity/Protect_Camera/8.jpg"
+  alt="Hinh_8"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+
+      
+      <div class="post-date">
+        <span class="g time">August 18, 2024 </span> &#8729;
+         
+      </div>
+      
+    </section>
+    
+    
+    
+  </div>
+</main>
+</body>
+</html>

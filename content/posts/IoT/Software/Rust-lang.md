@@ -1,11 +1,17 @@
 +++
 title = 'Rust Lang'
-date = 2024-04-01T18:14:13+07:00
+date = 2024-08-17T18:14:13+07:00
 draft = true
 +++
 
-## Rust-lang
+![Rust_Embedded](/image/IoT/Rust_Embedded.png)
 
+Ngày		|		Mô tả					|
+----------------|-------------------------------------------------------|
+1/4/2024	| Khởi tạo bài viết					|
+17/8/2024	| Cập nhật bài viết, thêm thông tin về Rust-lang	|
+
+-------------------------------------------------------------------------
 ### Hạn chế
 - [Năm 2023 xảy ra nhiều dramma của Rust Found](https://users.rust-lang.org/t/why-is-there-so-much-mismanagement-in-the-rust-foundation-and-core-team/94822)
 - Rust là ngôn ngữ **khó học, code khó**.
@@ -43,5 +49,78 @@ draft = true
 - [Rust Cheatsheet](https://docs.google.com/document/d/1kQidzAlbqapu-WZTuw4Djik0uTqMZYyiMXTM9F21Dz4/edit?lid=75778#heading=h.gjdgxs)
 
 - [Writing an OS in Rust](https://os.phil-opp.com/)
+
+---------------------------------------------------------------------------------------
+# Cập nhật 17/8/2024
+
+### Youtube: [Where is Rust being used?](https://www.youtube.com/watch?v=42FhQWQ6SVA)
+
+## Tổng hợp [Rust is for Robotics](https://robotics.rs/)
+- Project [ros2_rust](https://github.com/ros2-rust/ros2_rust)
+- Project [CleanIt](https://github.com/Sollimann/CleanIt)
+
+### Doc: [Offline-first Smart Energy Monitor with Rust, ESP32, and Thingsboard](https://moslehian.com/posts/2022/3-ofmon/)
+- [nostd-wifi-lamp](https://github.com/Nereuxofficial/nostd-wifi-lamp)
+- [esp32c3-no-std-async-mqtt-demo](https://github.com/JurajSadel/esp32c3-no-std-async-mqtt-demo)
+
+### Framework cho MQTT cho Rust: [rumqtt](https://github.com/bytebeamio/rumqtt)
+- [rust-mqtt](https://github.com/obabec/rust-mqtt)
+
+### Framework NATS for Rust: [nats.rs](https://github.com/nats-io/nats.rs)
+- Có thể sử dụng NATS cho ThingsBoard.
+- Sample code từ ChatGPT:
+```
+use nats::asynk::Connection;
+use serde::{Deserialize, Serialize};
+use serde_json::json;
+use tokio::time::{sleep, Duration};
+
+#[derive(Debug, Serialize, Deserialize)]
+struct TelemetryData {
+    device_id: String,
+    temperature: f64,
+    humidity: f64,
+    timestamp: u64,
+}
+
+#[tokio::main]
+async fn main() -> std::io::Result<()> {
+    // Connect to the NATS server
+    let nc: Connection = nats::asynk::connect("demo.nats.io").await?;
+
+    // Subscribe to a subject where ThingsBoard publishes telemetry data
+    let subscription = nc.subscribe("thingsboard.telemetry").await?;
+
+    // Process incoming messages
+    while let Some(msg) = subscription.next().await {
+        // Parse the telemetry data (assumed to be JSON)
+        let telemetry: TelemetryData = serde_json::from_slice(&msg.data).expect("Failed to parse telemetry data");
+
+        println!("Received telemetry from device {}: Temperature = {}, Humidity = {}, Timestamp = {}",
+                 telemetry.device_id, telemetry.temperature, telemetry.humidity, telemetry.timestamp);
+
+        // Optionally, publish an acknowledgment or command back to ThingsBoard or another subject
+        let response_subject = format!("thingsboard.ack.{}", telemetry.device_id);
+        let ack_message = json!({
+            "device_id": telemetry.device_id,
+            "status": "acknowledged",
+            "timestamp": telemetry.timestamp
+        });
+
+        nc.publish(&response_subject, ack_message.to_string().as_bytes()).await?;
+    }
+
+    Ok(())
+}
+```
+
+
+
+
+
+
+
+
+
 
 
