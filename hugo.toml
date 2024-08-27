@@ -19,7 +19,6 @@ publishdir = "docs"
     githubRepo = 'canhtran/maverick'
     theme = 'github-light'
 
-
 [menu]
   [[menu.main]]
     identifier = "about"
@@ -31,6 +30,11 @@ publishdir = "docs"
     name = "Post"
     url = "/posts/"
     weight = -200
+  [[menu.main]]
+    identifier = "changelog"
+    name = "CHANGELOG"
+    url = "/changelog/"
+    weight = -290
 
 [markup]
   [markup.goldmark.renderer]

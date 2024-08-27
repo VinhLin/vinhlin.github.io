@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Liste - https://vinhlin.github.io/">
+    <title>CHANGELOG | VinhLin</title>
+    <meta name="description" content="Technology Blog">
+    <meta property="og:title" content="CHANGELOG" />
+<meta property="og:description" content="Embedded - IoT HARDWARE STT Tiêu đề Mô tả 1 UNIHIKER Ghi chú về sản phẩm phần cứng UNIHIKER dành cho IoT 2 ESD Ghi chú về Sự phóng tĩnh điện 3 Research_CR95 Tìm hiểu và nghiên cứu về dòng chip CR95 4 Dump_Firmware_NOR_Flash Ghi chú cách thức dump firmware của NOR Flash 5 Radxa_X4 Ghi chú về một sản phẩm SBC, kết hợp kiến trúc x86 vs ARM 6 Kien_truc_may_tinh Ghi chú về Kiến trúc máy tính SOFTWARE STT Tiêu đề Mô tả 1 PiKVM Một OS biến Raspberry thành KVM (Keyboard-Video-Mouse) 2 Pi400-Keyboard Một phần mềm giúp biến Pi400 thành bàn phím 3 Raspberry-OpenAuto Ghi chú về phần mềm OpenAuto 4 Docklight Một phần mềm giả lập Serial - RS232 Rust-lang Tổng hợp ghi chú về ngôn ngữ lập trình Rust STT Tiêu đề Mô tả 1 Rust-lang Tổng hợp ghi chú về ngôn ngữ Rust 2 Results_Rust Ghi chú về handle error trong Rust Embassy Tổng hợp các ghi chú về Framework Embassy STT Tiêu đề Mô tả 1 UART_Embassy Giới thiệu về Embassy và ghi chú về cách khởi tạo UART trên framework này." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://vinhlin.github.io/changelog/" /><meta property="article:section" content="pages" />
+<meta property="article:published_time" content="2024-08-26T15:21:41+07:00" />
+<meta property="article:modified_time" content="2024-08-26T15:21:41+07:00" />
+
+    <meta itemprop="name" content="CHANGELOG">
+<meta itemprop="description" content="Embedded - IoT HARDWARE STT Tiêu đề Mô tả 1 UNIHIKER Ghi chú về sản phẩm phần cứng UNIHIKER dành cho IoT 2 ESD Ghi chú về Sự phóng tĩnh điện 3 Research_CR95 Tìm hiểu và nghiên cứu về dòng chip CR95 4 Dump_Firmware_NOR_Flash Ghi chú cách thức dump firmware của NOR Flash 5 Radxa_X4 Ghi chú về một sản phẩm SBC, kết hợp kiến trúc x86 vs ARM 6 Kien_truc_may_tinh Ghi chú về Kiến trúc máy tính SOFTWARE STT Tiêu đề Mô tả 1 PiKVM Một OS biến Raspberry thành KVM (Keyboard-Video-Mouse) 2 Pi400-Keyboard Một phần mềm giúp biến Pi400 thành bàn phím 3 Raspberry-OpenAuto Ghi chú về phần mềm OpenAuto 4 Docklight Một phần mềm giả lập Serial - RS232 Rust-lang Tổng hợp ghi chú về ngôn ngữ lập trình Rust STT Tiêu đề Mô tả 1 Rust-lang Tổng hợp ghi chú về ngôn ngữ Rust 2 Results_Rust Ghi chú về handle error trong Rust Embassy Tổng hợp các ghi chú về Framework Embassy STT Tiêu đề Mô tả 1 UART_Embassy Giới thiệu về Embassy và ghi chú về cách khởi tạo UART trên framework này."><meta itemprop="datePublished" content="2024-08-26T15:21:41+07:00" />
+<meta itemprop="dateModified" content="2024-08-26T15:21:41+07:00" />
+<meta itemprop="wordCount" content="455">
+<meta itemprop="keywords" content="" />
+    
+    <link rel="canonical" href="https://vinhlin.github.io/changelog/">
+    <link rel="icon" href="https://vinhlin.github.io//assets/favicon.ico">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
+    <link rel="alternate" type="application/atom+xml" title="VinhLin" href="https://vinhlin.github.io//atom.xml" />
+    <link rel="alternate" type="application/json" title="VinhLin" href="https://vinhlin.github.io//feed.json" />
+    <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=">
+    
+    
+    <style>*,:after,:before{box-sizing:border-box;padding:0}body{font:1rem/1.5 '-apple-system',BlinkMacSystemFont,avenir next,avenir,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding:2rem;background:#f5f5f5;color:#000}.skip-link{position:absolute;top:-40px;left:0;background:#eee;z-index:100}.skip-link:focus{top:0}h1,h2,h3,h4,h5,strong,b{font-size:inherit;font-weight:600}header{line-height:2;padding-bottom:1.5rem}.link{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-decoration:none}.time{font-variant-numeric:tabular-nums;white-space:nowrap}blockquote{border-left:5px solid #eee;padding-left:1rem;margin:0}a,a:visited{color:inherit}a:hover,a.heading-link{text-decoration:none}pre{padding:.5rem;overflow:auto;overflow-x:scroll;overflow-wrap:normal}code,pre{font-family:San Francisco Mono,Monaco,consolas,lucida console,dejavu sans mono,bitstream vera sans mono,monospace;font-size:normal;font-size:small;background:#eee}code{margin:.1rem;border:none}ul{list-style-type:square}ul,ol{padding-left:1.2rem}.list{line-height:2;list-style-type:none;padding-left:0}.list li{padding-bottom:.1rem}.meta{color:#777}.content{max-width:70ch;margin:0 auto}header{line-height:2;display:flex;justify-content:space-between;padding-bottom:1rem}header a{text-decoration:none}header ul{list-style-type:none;padding:0}header li,header a{display:inline}h2.post{padding-top:.5rem}header ul a:first-child{padding-left:1rem}.nav{height:1px;background:#000;content:'';max-width:10%}.list li{display:flex;align-items:baseline}.list li time{flex:initial}.hr-list{margin-top:0;margin-bottom:0;margin-right:.5rem;margin-left:.5rem;height:1px;border:0;border-bottom:1px dotted #ccc;flex:1 0 1rem}.m,hr{border:0;margin:3rem 0}img{max-width:100%;height:auto}.post-date{margin:5% 0}.index-date{color:#9a9a9a}.animate-blink{animation:opacity 1s infinite;opacity:1}@keyframes opacity{0%{opacity:1}50%{opacity:.5}100%{opacity:0}}.tags{display:flex;justify-content:space-between}.tags ul{padding:0;margin:0}.tags li{display:inline}.avatar{height:120px;width:120px;position:relative;margin:-10px 0 0 15px;float:right;border-radius:50%}table{width:100%;border-collapse:collapse}th,td{border:1px solid #ddd;text-align:left;padding:8px}th{background-color:#f2f2f2} </style>
+  
+    
+  
+  
+  <script type="application/ld+json">
+  {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "articleSection": "pages",
+      "name": "CHANGELOG",
+      "headline": "CHANGELOG",
+      "alternativeHeadline": "",
+      "description": "Embedded - IoT HARDWARE STT Tiêu đề Mô tả 1 UNIHIKER Ghi chú về sản phẩm phần cứng UNIHIKER dành cho IoT 2 ESD Ghi chú về Sự phóng tĩnh điện 3 Research_CR95 Tìm hiểu và nghiên cứu về dòng chip CR95 4 Dump_Firmware_NOR_Flash Ghi chú cách thức dump firmware của NOR Flash 5 Radxa_X4 Ghi chú về một sản phẩm SBC, kết hợp kiến trúc x86 vs ARM 6 Kien_truc_may_tinh Ghi chú về Kiến trúc máy tính SOFTWARE STT Tiêu đề Mô tả 1 PiKVM Một OS biến Raspberry thành KVM (Keyboard-Video-Mouse) 2 Pi400-Keyboard Một phần mềm giúp biến Pi400 thành bàn phím 3 Raspberry-OpenAuto Ghi chú về phần mềm OpenAuto 4 Docklight Một phần mềm giả lập Serial - RS232 Rust-lang Tổng hợp ghi chú về ngôn ngữ lập trình Rust STT Tiêu đề Mô tả 1 Rust-lang Tổng hợp ghi chú về ngôn ngữ Rust 2 Results_Rust Ghi chú về handle error trong Rust Embassy Tổng hợp các ghi chú về Framework Embassy STT Tiêu đề Mô tả 1 UART_Embassy Giới thiệu về Embassy và ghi chú về cách khởi tạo UART trên framework này.",
+      "inLanguage": "en-us",
+      "isFamilyFriendly": "true",
+      "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https:\/\/vinhlin.github.io\/changelog\/"
+      },
+      "author" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "creator" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "accountablePerson" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "copyrightHolder" : "VinhLin",
+      "copyrightYear" : "2024",
+      "dateCreated": "2024-08-26T15:21:41.00Z",
+      "datePublished": "2024-08-26T15:21:41.00Z",
+      "dateModified": "2024-08-26T15:21:41.00Z",
+      "publisher":{
+          "@type":"Organization",
+          "name": "VinhLin",
+          "url": "https://vinhlin.github.io/",
+          "logo": {
+              "@type": "ImageObject",
+              "url": "https:\/\/vinhlin.github.io\/assets\/favicon.ico",
+              "width":"32",
+              "height":"32"
+          }
+      },
+      "image": "https://vinhlin.github.io/assets/favicon.ico",
+      "url" : "https:\/\/vinhlin.github.io\/changelog\/",
+      "wordCount" : "455",
+      "genre" : [ ],
+      "keywords" : [ ]
+  }
+  </script>
+  
+  
+  </head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main</a>
+  <main id="main">
+  <div class="content">
+    <header>
+<p style="padding: 0;margin: 0;">
+  <a href="/">
+    <b>VinhLin</b>
+    <span class="text-stone-500 animate-blink">▮</span>
+  </a>
+</p>
+<ul style="padding: 0;margin: 0;">
+  
+  
+  <li class="">
+    <a href="/changelog/"><span>CHANGELOG</span></a>
+    
+  <li class="">
+    <a href="/posts/"><span>Post</span></a>
+    
+  <li class="">
+    <a href="/about/"><span>About</span></a>
+    
+  </li>
+</ul>
+</header>
+<hr class="hr-list" style="padding: 0;margin: 0;">
+    <section>
+      <h2 class="post">CHANGELOG</h2>
+      <h1 id="embedded---iot">Embedded - IoT</h1>
+<h2 id="markhardwaremark"><mark>HARDWARE</mark></h2>
+<table>
+<thead>
+<tr>
+<th>STT</th>
+<th>Tiêu đề</th>
+<th>Mô tả</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><a href="https://blog.vinhld-homelab.io.vn/posts/iot/hardware/unihiker/">UNIHIKER</a></td>
+<td>Ghi chú về sản phẩm phần cứng <strong>UNIHIKER</strong> dành cho IoT</td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="https://blog.vinhld-homelab.io.vn/posts/iot/hardware/esd/">ESD</a></td>
+<td>Ghi chú về <strong>Sự phóng tĩnh điện</strong></td>
+</tr>
+<tr>
+<td>3</td>
+<td><a href="https://blog.vinhld-homelab.io.vn/posts/iot/hardware/research_cr95/">Research_CR95</a></td>
+<td>Tìm hiểu và nghiên cứu về dòng chip <strong>CR95</strong></td>
+</tr>
+<tr>
+<td>4</td>
+<td><a href="https://blog.vinhld-homelab.io.vn/posts/iot/hardware/dump_firmware_nor_flash/">Dump_Firmware_NOR_Flash</a></td>
+<td>Ghi chú cách thức <strong>dump firmware</strong> của <strong>NOR Flash</strong></td>
+</tr>
+<tr>
+<td>5</td>
+<td><a href="https://blog.vinhld-homelab.io.vn/posts/iot/hardware/Radxa_X4/">Radxa_X4</a></td>
+<td>Ghi chú về một sản phẩm SBC, kết hợp kiến trúc <code>x86</code> vs <code>ARM</code></td>
+</tr>
+<tr>
+<td>6</td>
+<td><a href="https://blog.vinhld-homelab.io.vn/posts/iot/hardware/Kien_truc_may_tinh/">Kien_truc_may_tinh</a></td>
+<td>Ghi chú về <strong>Kiến trúc máy tính</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="marksoftwaremark"><mark>SOFTWARE</mark></h2>
+<table>
+<thead>
+<tr>
+<th>STT</th>
+<th>Tiêu đề</th>
+<th>Mô tả</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><a href="https://blog.vinhld-homelab.io.vn/posts/iot/software/pikvm/">PiKVM</a></td>
+<td>Một OS biến Raspberry thành <strong>KVM</strong> (Keyboard-Video-Mouse)</td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="https://blog.vinhld-homelab.io.vn/posts/iot/software/pi400-keyboard/">Pi400-Keyboard</a></td>
+<td>Một phần mềm giúp biến <strong>Pi400</strong> thành bàn phím</td>
+</tr>
+<tr>
+<td>3</td>
+<td><a href="https://blog.vinhld-homelab.io.vn/posts/iot/software/raspberry-openauto/">Raspberry-OpenAuto</a></td>
+<td>Ghi chú về phần mềm <strong>OpenAuto</strong></td>
+</tr>
+<tr>
+<td>4</td>
+<td><a href="https://blog.vinhld-homelab.io.vn/posts/iot/software/docklight/">Docklight</a></td>
+<td>Một phần mềm giả lập Serial - RS232</td>
+</tr>
+</tbody>
+</table>
+<h3 id="rust-lang">Rust-lang</h3>
+<blockquote>
+<p>Tổng hợp ghi chú về ngôn ngữ lập trình <strong>Rust</strong> <br></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>STT</th>
+<th>Tiêu đề</th>
+<th>Mô tả</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><a href="https://blog.vinhld-homelab.io.vn/posts/iot/software/rust-lang/">Rust-lang</a></td>
+<td>Tổng hợp ghi chú về ngôn ngữ Rust</td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="https://blog.vinhld-homelab.io.vn/posts/iot/software/rust-lang/results_rust/">Results_Rust</a></td>
+<td>Ghi chú về <em>handle error</em> trong Rust</td>
+</tr>
+</tbody>
+</table>
+<h3 id="embassy">Embassy</h3>
+<blockquote>
+<p>Tổng hợp các ghi chú về <strong>Framework Embassy</strong> <br></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>STT</th>
+<th>Tiêu đề</th>
+<th>Mô tả</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><a href="https://blog.vinhld-homelab.io.vn/posts/iot/software/uart_embassy/">UART_Embassy</a></td>
+<td>Giới thiệu về <strong>Embassy</strong> và ghi chú về cách khởi tạo <strong>UART</strong> trên framework này.</td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="https://blog.vinhld-homelab.io.vn/posts/iot/software/lifetime_embassy/">Lifetime_Embassy</a></td>
+<td>Ghi chú và giải quyết <strong>lifetime</strong> trên nhúng dùng embassy framework</td>
+</tr>
+<tr>
+<td>3</td>
+<td><a href="https://blog.vinhld-homelab.io.vn/posts/iot/software/shared_access_embassy/">Shared_Access_Embassy</a></td>
+<td>Giải quyết vấn đề tranh quyền</td>
+</tr>
+<tr>
+<td>4</td>
+<td><a href="https://blog.vinhld-homelab.io.vn/posts/iot/software/read_write_uart_stm32fx/">Read_Write_UART_STM32Fx</a></td>
+<td>Một sample code về việc <strong>Read Write</strong> UART</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h1 id="cybersecurity">CyberSecurity</h1>
+<table>
+<thead>
+<tr>
+<th>STT</th>
+<th>Tiêu đề</th>
+<th>Mô tả</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><a href="https://blog.vinhld-homelab.io.vn/posts/cybersecurity/news/">News</a></td>
+<td>Tổng hợp các trang blog, youtube channel về chủ đề Cyber-Security</td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="https://blog.vinhld-homelab.io.vn/posts/cybersecurity/tools/">Tools</a></td>
+<td>Tổng hợp các công cụ khác về Hacking</td>
+</tr>
+<tr>
+<td>3</td>
+<td><a href="https://blog.vinhld-homelab.io.vn/posts/cybersecurity/readteam/">RedTeam</a></td>
+<td>Ghi chú về tài liệu cho Red-Team</td>
+</tr>
+</tbody>
+</table>
+<h2 id="marktechnicalmark"><mark>Technical</mark></h2>
+<blockquote>
+<p>Tổng hợp các ghi chú về <strong>Công cụ</strong>, <strong>Kỹ thuật</strong> cũng như <strong>Tư duy</strong> về cả Blue-Team và Red-Team <br></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>STT</th>
+<th>Tiêu đề</th>
+<th>Mô tả</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><a href="https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/nis2/">NIS2</a></td>
+<td>Ghi chú về chuẩn bảo mật cho <strong>OT</strong></td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/firewall_checklist/">Firewall_CheckList</a></td>
+<td>Ghi chú và tài liệu về <strong>Firewall Checklist</strong></td>
+</tr>
+<tr>
+<td>3</td>
+<td><a href="https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/dflab_vncert/">DFLab_VNCERT</a></td>
+<td><strong>DFLab_VNCERT</strong> một nền tảng tài liệu trực tuyến của Việt Nam về An toàn thông tin</td>
+</tr>
+<tr>
+<td>4</td>
+<td><a href="https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/osint/">OSINT</a></td>
+<td>Ghi chú về <strong>OSINT</strong> (Thu thập thụ động)</td>
+</tr>
+<tr>
+<td>5</td>
+<td><a href="https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/thehive/">TheHive</a></td>
+<td>Một công cụ dùng trong <strong>IR</strong> (Incident Response)</td>
+</tr>
+<tr>
+<td>6</td>
+<td><a href="https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/tails_os/">Tails_OS</a></td>
+<td>Một OS dành cho việc ẩn danh trên Internet</td>
+</tr>
+<tr>
+<td>7</td>
+<td><a href="https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/paramspider/">ParamSpider</a></td>
+<td>Một công cụ <strong>recon</strong> có chức năng như <strong>Wayback Machine</strong></td>
+</tr>
+<tr>
+<td>8</td>
+<td><a href="https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/re_tool_binaryninjafree/">RE_Tool_BinaryNinjaFree</a></td>
+<td>Giới thiệu và ghi chú về tool cho <strong>RE</strong></td>
+</tr>
+<tr>
+<td>9</td>
+<td><a href="https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/protect_camera/">Protect_Camera</a></td>
+<td>Ghi chú về việc bảo mật hệ thống</td>
+</tr>
+<tr>
+<td>10</td>
+<td><a href="https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/nfc_pwa/">NFC_PWA</a></td>
+<td>Ghi chú kỹ thuật đánh cắp dữ liệu <strong>NFC</strong> bằng ứng dụng <strong>PWA</strong></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h1 id="others">Others</h1>
+<blockquote>
+<p>Những bài viết về <strong>góc nhìn</strong>, <strong>nhận định cá nhân</strong> <br></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>STT</th>
+<th>Tiêu đề</th>
+<th>Mô tả</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><a href="https://blog.vinhld-homelab.io.vn/posts/others/goc_nhin_ve_ngoai_ngu/">Goc_nhin_ve_Ngoai_ngu</a></td>
+<td>Góc nhìn và cảm nghĩ bản thân về vấn đề Ngoại ngữ (nói chung), và tiếng Anh (nói riêng)</td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="https://blog.vinhld-homelab.io.vn/posts/others/suy_nghi_ve_hardware_hacking/">Suy_nghi_ve_Hardware_Hacking</a></td>
+<td>Suy nghĩ về <strong>Hardware Hacking</strong>.</td>
+</tr>
+<tr>
+<td>3</td>
+<td><a href="https://blog.vinhld-homelab.io.vn/posts/others/iot_security_jd/">IoT_Security_JD</a></td>
+<td>Mô tả công việc của một job về <strong>IoT Security</strong></td>
+</tr>
+</tbody>
+</table>
+
+      
+    </section>
+    
+  </div>
+</main>
+</body>
+</html>

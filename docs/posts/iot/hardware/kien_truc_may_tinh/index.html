@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Liste - https://vinhlin.github.io/">
+    <title>Kien_truc_may_tinh | VinhLin</title>
+    <meta name="description" content="Technology Blog">
+    <meta property="og:title" content="Kien_truc_may_tinh" />
+<meta property="og:description" content="Kiển trúc Máy tính Kiến trúc máy tính - Von-Neumann Được chia làm 3 phần chính: CPU Memory IO Cả 3 thành phần này đều giao tiếp với nhau thông qua bus (gọi là data bus) kiến trúc Harvard: Sử dụng rộng rãi trong các bộ vi điều khiển và DSP (Digital Signal Processing) Sự khác biệt giữa kiến trúc Harvard vs Von-Neumann đó chính là sự bố trí giữa CPU - Memory." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://vinhlin.github.io/posts/iot/hardware/kien_truc_may_tinh/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-08-27T14:11:44+07:00" />
+<meta property="article:modified_time" content="2024-08-27T14:11:44+07:00" />
+
+    <meta itemprop="name" content="Kien_truc_may_tinh">
+<meta itemprop="description" content="Kiển trúc Máy tính Kiến trúc máy tính - Von-Neumann Được chia làm 3 phần chính: CPU Memory IO Cả 3 thành phần này đều giao tiếp với nhau thông qua bus (gọi là data bus) kiến trúc Harvard: Sử dụng rộng rãi trong các bộ vi điều khiển và DSP (Digital Signal Processing) Sự khác biệt giữa kiến trúc Harvard vs Von-Neumann đó chính là sự bố trí giữa CPU - Memory."><meta itemprop="datePublished" content="2024-08-27T14:11:44+07:00" />
+<meta itemprop="dateModified" content="2024-08-27T14:11:44+07:00" />
+<meta itemprop="wordCount" content="181">
+<meta itemprop="keywords" content="" />
+    
+    <link rel="canonical" href="https://vinhlin.github.io/posts/iot/hardware/kien_truc_may_tinh/">
+    <link rel="icon" href="https://vinhlin.github.io//assets/favicon.ico">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
+    <link rel="alternate" type="application/atom+xml" title="VinhLin" href="https://vinhlin.github.io//atom.xml" />
+    <link rel="alternate" type="application/json" title="VinhLin" href="https://vinhlin.github.io//feed.json" />
+    <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=">
+    
+    
+    <style>*,:after,:before{box-sizing:border-box;padding:0}body{font:1rem/1.5 '-apple-system',BlinkMacSystemFont,avenir next,avenir,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding:2rem;background:#f5f5f5;color:#000}.skip-link{position:absolute;top:-40px;left:0;background:#eee;z-index:100}.skip-link:focus{top:0}h1,h2,h3,h4,h5,strong,b{font-size:inherit;font-weight:600}header{line-height:2;padding-bottom:1.5rem}.link{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-decoration:none}.time{font-variant-numeric:tabular-nums;white-space:nowrap}blockquote{border-left:5px solid #eee;padding-left:1rem;margin:0}a,a:visited{color:inherit}a:hover,a.heading-link{text-decoration:none}pre{padding:.5rem;overflow:auto;overflow-x:scroll;overflow-wrap:normal}code,pre{font-family:San Francisco Mono,Monaco,consolas,lucida console,dejavu sans mono,bitstream vera sans mono,monospace;font-size:normal;font-size:small;background:#eee}code{margin:.1rem;border:none}ul{list-style-type:square}ul,ol{padding-left:1.2rem}.list{line-height:2;list-style-type:none;padding-left:0}.list li{padding-bottom:.1rem}.meta{color:#777}.content{max-width:70ch;margin:0 auto}header{line-height:2;display:flex;justify-content:space-between;padding-bottom:1rem}header a{text-decoration:none}header ul{list-style-type:none;padding:0}header li,header a{display:inline}h2.post{padding-top:.5rem}header ul a:first-child{padding-left:1rem}.nav{height:1px;background:#000;content:'';max-width:10%}.list li{display:flex;align-items:baseline}.list li time{flex:initial}.hr-list{margin-top:0;margin-bottom:0;margin-right:.5rem;margin-left:.5rem;height:1px;border:0;border-bottom:1px dotted #ccc;flex:1 0 1rem}.m,hr{border:0;margin:3rem 0}img{max-width:100%;height:auto}.post-date{margin:5% 0}.index-date{color:#9a9a9a}.animate-blink{animation:opacity 1s infinite;opacity:1}@keyframes opacity{0%{opacity:1}50%{opacity:.5}100%{opacity:0}}.tags{display:flex;justify-content:space-between}.tags ul{padding:0;margin:0}.tags li{display:inline}.avatar{height:120px;width:120px;position:relative;margin:-10px 0 0 15px;float:right;border-radius:50%}table{width:100%;border-collapse:collapse}th,td{border:1px solid #ddd;text-align:left;padding:8px}th{background-color:#f2f2f2} </style>
+  
+    
+  
+  
+  <script type="application/ld+json">
+  {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "articleSection": "posts",
+      "name": "Kien_truc_may_tinh",
+      "headline": "Kien_truc_may_tinh",
+      "alternativeHeadline": "",
+      "description": "Kiển trúc Máy tính Kiến trúc máy tính - Von-Neumann Được chia làm 3 phần chính: CPU Memory IO Cả 3 thành phần này đều giao tiếp với nhau thông qua bus (gọi là data bus) kiến trúc Harvard: Sử dụng rộng rãi trong các bộ vi điều khiển và DSP (Digital Signal Processing) Sự khác biệt giữa kiến trúc Harvard vs Von-Neumann đó chính là sự bố trí giữa CPU - Memory.",
+      "inLanguage": "en-us",
+      "isFamilyFriendly": "true",
+      "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https:\/\/vinhlin.github.io\/posts\/iot\/hardware\/kien_truc_may_tinh\/"
+      },
+      "author" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "creator" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "accountablePerson" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "copyrightHolder" : "VinhLin",
+      "copyrightYear" : "2024",
+      "dateCreated": "2024-08-27T14:11:44.00Z",
+      "datePublished": "2024-08-27T14:11:44.00Z",
+      "dateModified": "2024-08-27T14:11:44.00Z",
+      "publisher":{
+          "@type":"Organization",
+          "name": "VinhLin",
+          "url": "https://vinhlin.github.io/",
+          "logo": {
+              "@type": "ImageObject",
+              "url": "https:\/\/vinhlin.github.io\/assets\/favicon.ico",
+              "width":"32",
+              "height":"32"
+          }
+      },
+      "image": "https://vinhlin.github.io/assets/favicon.ico",
+      "url" : "https:\/\/vinhlin.github.io\/posts\/iot\/hardware\/kien_truc_may_tinh\/",
+      "wordCount" : "181",
+      "genre" : [ ],
+      "keywords" : [ ]
+  }
+  </script>
+  
+  
+  </head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main</a>
+  <main id="main">
+  <div class="content">
+    <header>
+<p style="padding: 0;margin: 0;">
+  <a href="/">
+    <b>VinhLin</b>
+    <span class="text-stone-500 animate-blink">▮</span>
+  </a>
+</p>
+<ul style="padding: 0;margin: 0;">
+  
+  
+  <li class="">
+    <a href="/changelog/"><span>CHANGELOG</span></a>
+    
+  <li class="">
+    <a href="/posts/"><span>Post</span></a>
+    
+  <li class="">
+    <a href="/about/"><span>About</span></a>
+    
+  </li>
+</ul>
+</header>
+<hr class="hr-list" style="padding: 0;margin: 0;">
+    <section>
+      <h2 class="post">Kien_truc_may_tinh</h2>
+      <h2 id="kiển-trúc-máy-tính">Kiển trúc Máy tính</h2>
+<h3 id="kiến-trúc-máy-tính---von-neumannhttpswwwdigikeycomenmakerblogs2024von-neumann-architecture"><a href="https://www.digikey.com/en/maker/blogs/2024/von-neumann-architecture">Kiến trúc máy tính - Von-Neumann</a></h3>
+<ul>
+<li>Được chia làm 3 phần chính:
+<ul>
+<li>CPU</li>
+<li>Memory</li>
+<li>IO</li>
+</ul>
+</li>
+<li>Cả 3 thành phần này đều giao tiếp với nhau thông qua <strong>bus</strong> (gọi là <code>data bus</code>)</li>
+</ul>
+<h3 id="kiến-trúc-harvard-sử-dụng-rộng-rãi-trong-các-bộ-vi-điều-khiển-và-dsp-digital-signal-processing">kiến trúc Harvard: Sử dụng rộng rãi trong các bộ vi điều khiển và DSP (Digital Signal Processing)</h3>
+<p>Sự khác biệt giữa kiến trúc <strong>Harvard</strong> vs <strong>Von-Neumann</strong> đó chính là sự bố trí giữa <strong>CPU - Memory</strong>.</p>
+<h2 id="kiến-trúc-chiphttpsinc42comglossarychip-architecture"><a href="https://inc42.com/glossary/chip-architecture/">Kiến trúc chip</a></h2>
+<h3 id="x86-architecture">x86 Architecture</h3>
+<ul>
+<li>Thường thấy trong các sản phẩm máy tính desktop hoặc laptop.</li>
+<li>Phổ biến là dòng chip của <strong>Intel</strong>.</li>
+</ul>
+<h3 id="risc-architectures">RISC Architectures</h3>
+<ul>
+<li>MIPS Architecture: <a href="https://www.cit.ctu.edu.vn/~dtnghi/cod/ch3.pdf">KIẾN TRÚC BỘ LỆNH</a></li>
+<li>ARM Architecture:
+<ul>
+<li><a href="https://www.csie.ntu.edu.tw/~cyy/courses/assembly/12fall/lectures/handouts/lec08_ARMarch.pdf">Tài liệu ARMarch</a></li>
+<li><a href="https://www.candtsolution.com/news_events-detail/what-is-the-difference-between-arm-and-x86/">Một bài viết so sánh giữa ARM vs x86</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="data-bushttpswwwdigikeycomenmakertutorials2023what-is-serial-communication-and-how-does-it-compare-to-paralleltextwhats20the20difference20between20serialdata20that20can20be20transferred"><a href="https://www.digikey.com/en/maker/tutorials/2023/what-is-serial-communication-and-how-does-it-compare-to-parallel#:~:text=What's%20the%20Difference%20Between%20Serial,data%20that%20can%20be%20transferred">Data Bus</a></h2>
+<p>Có 2 kiểu truyền dữ liệu là:</p>
+<pre tabindex="0"><code>Nối tiếp (Serial)
+Song song (Parallel)
+</code></pre><p><img
+  src="/image/IoT/Communicate.jpg"
+  alt="Communicate"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<h3 id="song-song">Song song</h3>
+<ul>
+<li>Dùng cho display (truyền hình ảnh), PCI, printer,&hellip;</li>
+</ul>
+<h3 id="nối-tiếp">Nối tiếp:</h3>
+<ul>
+<li>Dùng trong Ethernet, Wifi, BLE, eSATA, SPI, I2C, CAN, USB, RS232, RS485, JTAG,&hellip;</li>
+<li>Giao tiếp nối tiếp thì chia làm 2 loại là:
+<ul>
+<li>Giao tiếp bất đồng bộ: UART, RS232, RS485</li>
+<li>Giao tiếp đồng bộ: SPI</li>
+</ul>
+</li>
+</ul>
+
+      
+      <div class="post-date">
+        <span class="g time">August 27, 2024 </span> &#8729;
+         
+      </div>
+      
+    </section>
+    
+    
+    
+  </div>
+</main>
+</body>
+</html>

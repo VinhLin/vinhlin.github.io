@@ -49,6 +49,18 @@ https://cuckoosandbox.org/blog/207-interim-release
 #### [Script thực hiện việc auto-backup](https://github.com/ChristianLempa/scripts/tree/main/db-container-backup)
 - [Tham khảo khác](https://www.youtube.com/watch?v=wvsi3QilNQ8)
 
+### Nettacker: Automated Penetration Testing Framework - Open-Source Vulnerability Scanner - Vulnerability Management
+- Github Project: [Nettacker](https://github.com/OWASP/Nettacker)
+- Documents: https://owasp.org/www-project-nettacker/
+- **Note**: Nhìn chung mình thấy tool này khá giống với tool **reNgine**, hoặc một số công cụ auto-scan khác.
+
+### [AESCrypt](https://www.aescrypt.com/): Công cụ mã hóa file
+- Đây là một phần mềm **mã nguồn mở**, hỗ trợ mã hóa file.
+- Video giới thiệu về công cụ này: [AESCrypt - Mã hoá file](https://www.youtube.com/watch?v=zA4dDlslDXo)
+- [Một bài viết khác](https://services.udel.edu/TDClient/32/Portal/KB/ArticleDet?ID=366)
+
+
+
 
 
 

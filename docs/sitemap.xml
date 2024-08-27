@@ -2,8 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://vinhlin.github.io/posts/cybersecurity/technical/nfc_pwa/</loc>
+    <lastmod>2024-08-27T14:47:38+07:00</lastmod>
+  </url><url>
     <loc>https://vinhlin.github.io/posts/</loc>
-    <lastmod>2024-08-18T11:07:18+07:00</lastmod>
+    <lastmod>2024-08-27T14:47:38+07:00</lastmod>
+  </url><url>
+    <loc>https://vinhlin.github.io/posts/iot/hardware/kien_truc_may_tinh/</loc>
+    <lastmod>2024-08-27T14:11:44+07:00</lastmod>
+  </url><url>
+    <loc>https://vinhlin.github.io/posts/iot/hardware/radxa_x4/</loc>
+    <lastmod>2024-08-27T13:39:47+07:00</lastmod>
+  </url><url>
+    <loc>https://vinhlin.github.io/posts/cybersecurity/news/</loc>
+    <lastmod>2024-08-26T19:27:53+07:00</lastmod>
+  </url><url>
+    <loc>https://vinhlin.github.io/changelog/</loc>
+    <lastmod>2024-08-26T15:21:41+07:00</lastmod>
+  </url><url>
+    <loc>https://vinhlin.github.io/pages/</loc>
+    <lastmod>2024-08-26T15:21:41+07:00</lastmod>
   </url><url>
     <loc>https://vinhlin.github.io/posts/cybersecurity/technical/protect_camera/</loc>
     <lastmod>2024-08-18T11:07:18+07:00</lastmod>
@@ -50,9 +68,6 @@
     <loc>https://vinhlin.github.io/about/</loc>
     <lastmod>2024-07-12T15:21:41+07:00</lastmod>
   </url><url>
-    <loc>https://vinhlin.github.io/pages/</loc>
-    <lastmod>2024-07-12T15:21:41+07:00</lastmod>
-  </url><url>
     <loc>https://vinhlin.github.io/posts/others/suy_nghi_ve_hardware_hacking/</loc>
     <lastmod>2024-07-10T20:34:27+07:00</lastmod>
   </url><url>
@@ -65,7 +80,7 @@
     <loc>https://vinhlin.github.io/</loc>
     <lastmod>2024-07-06T15:21:33+07:00</lastmod>
   </url><url>
-    <loc>https://vinhlin.github.io/posts/cybersecurity/readteam/</loc>
+    <loc>https://vinhlin.github.io/posts/cybersecurity/redteam/</loc>
     <lastmod>2024-06-15T11:05:38+07:00</lastmod>
   </url><url>
     <loc>https://vinhlin.github.io/posts/cybersecurity/technical/thehive/</loc>
@@ -85,9 +100,6 @@
   </url><url>
     <loc>https://vinhlin.github.io/posts/cybersecurity/technical/nis2/</loc>
     <lastmod>2024-05-25T15:43:13+07:00</lastmod>
-  </url><url>
-    <loc>https://vinhlin.github.io/posts/cybersecurity/news/</loc>
-    <lastmod>2024-04-10T19:27:53+07:00</lastmod>
   </url><url>
     <loc>https://vinhlin.github.io/posts/iot/software/raspberry-openauto/</loc>
     <lastmod>2024-04-01T17:57:07+07:00</lastmod>

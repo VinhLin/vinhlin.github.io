@@ -32,6 +32,8 @@ hugo new posts/IoT/Hardware/UNIHIKER.md
 hugo new posts/IoT/Hardware/ESD.md
 hugo new posts/IoT/Hardware/Research_CR95.md
 hugo new posts/IoT/Hardware/Dump_Firmware_NOR_Flash.md
+hugo new posts/IoT/Hardware/Radxa_X4.md
+hugo new posts/IoT/Hardware/Kien_truc_may_tinh.md
 ```
 - Software
 ```
@@ -51,7 +53,7 @@ hugo new posts/IoT/Software/Read_Write_UART_STM32Fx.md
 ```
 hugo new posts/CyberSecurity/News.md
 hugo new posts/CyberSecurity/Tools.md
-hugo new posts/CyberSecurity/ReadTeam.md
+hugo new posts/CyberSecurity/RedTeam.md
 ```
 - Technical
 ```
@@ -64,6 +66,7 @@ hugo new posts/CyberSecurity/Technical/Tails_OS.md
 hugo new posts/CyberSecurity/Technical/ParamSpider.md
 hugo new posts/CyberSecurity/Technical/RE_Tool_BinaryNinjaFree.md
 hugo new posts/CyberSecurity/Technical/Protect_Camera.md
+hugo new posts/CyberSecurity/Technical/NFC_PWA.md
 ```
 
 

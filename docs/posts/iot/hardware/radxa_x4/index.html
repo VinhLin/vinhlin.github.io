@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Liste - https://vinhlin.github.io/">
+    <title>Radxa_X4 | VinhLin</title>
+    <meta name="description" content="Technology Blog">
+    <meta property="og:title" content="Radxa_X4" />
+<meta property="og:description" content="Thông tin: https://www.youtube.com/watch?v=F2atAHDOaIA https://www.jeffgeerling.com/blog/2024/radxa-x4-sbc-unites-intel-n100-and-raspberry-pi-rp2040 https://github.com/geerlingguy/sbc-reviews/issues/48 https://radxa.com/products/x/x4/ Giải thích theo cách hiểu cá nhân: Cụm từ x86 with a side of Arm trong trường hợp của Radxa X4 SBC (Single Board Computer) mô tả việc tích hợp cả hai kiến trúc x86 và ARM trên cùng một bo mạch, nhưng mỗi kiến trúc phục vụ cho các mục đích khác nhau.
+Điều này có thể gây nhầm lẫn, nhưng đây là một ví dụ về việc sử dụng các thế mạnh của cả hai kiến trúc trong cùng một sản phẩm." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://vinhlin.github.io/posts/iot/hardware/radxa_x4/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-08-27T13:39:47+07:00" />
+<meta property="article:modified_time" content="2024-08-27T13:39:47+07:00" />
+
+    <meta itemprop="name" content="Radxa_X4">
+<meta itemprop="description" content="Thông tin: https://www.youtube.com/watch?v=F2atAHDOaIA https://www.jeffgeerling.com/blog/2024/radxa-x4-sbc-unites-intel-n100-and-raspberry-pi-rp2040 https://github.com/geerlingguy/sbc-reviews/issues/48 https://radxa.com/products/x/x4/ Giải thích theo cách hiểu cá nhân: Cụm từ x86 with a side of Arm trong trường hợp của Radxa X4 SBC (Single Board Computer) mô tả việc tích hợp cả hai kiến trúc x86 và ARM trên cùng một bo mạch, nhưng mỗi kiến trúc phục vụ cho các mục đích khác nhau.
+Điều này có thể gây nhầm lẫn, nhưng đây là một ví dụ về việc sử dụng các thế mạnh của cả hai kiến trúc trong cùng một sản phẩm."><meta itemprop="datePublished" content="2024-08-27T13:39:47+07:00" />
+<meta itemprop="dateModified" content="2024-08-27T13:39:47+07:00" />
+<meta itemprop="wordCount" content="625">
+<meta itemprop="keywords" content="" />
+    
+    <link rel="canonical" href="https://vinhlin.github.io/posts/iot/hardware/radxa_x4/">
+    <link rel="icon" href="https://vinhlin.github.io//assets/favicon.ico">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
+    <link rel="alternate" type="application/atom+xml" title="VinhLin" href="https://vinhlin.github.io//atom.xml" />
+    <link rel="alternate" type="application/json" title="VinhLin" href="https://vinhlin.github.io//feed.json" />
+    <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=">
+    
+    
+    <style>*,:after,:before{box-sizing:border-box;padding:0}body{font:1rem/1.5 '-apple-system',BlinkMacSystemFont,avenir next,avenir,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding:2rem;background:#f5f5f5;color:#000}.skip-link{position:absolute;top:-40px;left:0;background:#eee;z-index:100}.skip-link:focus{top:0}h1,h2,h3,h4,h5,strong,b{font-size:inherit;font-weight:600}header{line-height:2;padding-bottom:1.5rem}.link{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-decoration:none}.time{font-variant-numeric:tabular-nums;white-space:nowrap}blockquote{border-left:5px solid #eee;padding-left:1rem;margin:0}a,a:visited{color:inherit}a:hover,a.heading-link{text-decoration:none}pre{padding:.5rem;overflow:auto;overflow-x:scroll;overflow-wrap:normal}code,pre{font-family:San Francisco Mono,Monaco,consolas,lucida console,dejavu sans mono,bitstream vera sans mono,monospace;font-size:normal;font-size:small;background:#eee}code{margin:.1rem;border:none}ul{list-style-type:square}ul,ol{padding-left:1.2rem}.list{line-height:2;list-style-type:none;padding-left:0}.list li{padding-bottom:.1rem}.meta{color:#777}.content{max-width:70ch;margin:0 auto}header{line-height:2;display:flex;justify-content:space-between;padding-bottom:1rem}header a{text-decoration:none}header ul{list-style-type:none;padding:0}header li,header a{display:inline}h2.post{padding-top:.5rem}header ul a:first-child{padding-left:1rem}.nav{height:1px;background:#000;content:'';max-width:10%}.list li{display:flex;align-items:baseline}.list li time{flex:initial}.hr-list{margin-top:0;margin-bottom:0;margin-right:.5rem;margin-left:.5rem;height:1px;border:0;border-bottom:1px dotted #ccc;flex:1 0 1rem}.m,hr{border:0;margin:3rem 0}img{max-width:100%;height:auto}.post-date{margin:5% 0}.index-date{color:#9a9a9a}.animate-blink{animation:opacity 1s infinite;opacity:1}@keyframes opacity{0%{opacity:1}50%{opacity:.5}100%{opacity:0}}.tags{display:flex;justify-content:space-between}.tags ul{padding:0;margin:0}.tags li{display:inline}.avatar{height:120px;width:120px;position:relative;margin:-10px 0 0 15px;float:right;border-radius:50%}table{width:100%;border-collapse:collapse}th,td{border:1px solid #ddd;text-align:left;padding:8px}th{background-color:#f2f2f2} </style>
+  
+    
+  
+  
+  <script type="application/ld+json">
+  {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "articleSection": "posts",
+      "name": "Radxa_X4",
+      "headline": "Radxa_X4",
+      "alternativeHeadline": "",
+      "description": "Thông tin: https:\/\/www.youtube.com\/watch?v=F2atAHDOaIA https:\/\/www.jeffgeerling.com\/blog\/2024\/radxa-x4-sbc-unites-intel-n100-and-raspberry-pi-rp2040 https:\/\/github.com\/geerlingguy\/sbc-reviews\/issues\/48 https:\/\/radxa.com\/products\/x\/x4\/ Giải thích theo cách hiểu cá nhân: Cụm từ x86 with a side of Arm trong trường hợp của Radxa X4 SBC (Single Board Computer) mô tả việc tích hợp cả hai kiến trúc x86 và ARM trên cùng một bo mạch, nhưng mỗi kiến trúc phục vụ cho các mục đích khác nhau.\nĐiều này có thể gây nhầm lẫn, nhưng đây là một ví dụ về việc sử dụng các thế mạnh của cả hai kiến trúc trong cùng một sản phẩm.",
+      "inLanguage": "en-us",
+      "isFamilyFriendly": "true",
+      "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https:\/\/vinhlin.github.io\/posts\/iot\/hardware\/radxa_x4\/"
+      },
+      "author" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "creator" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "accountablePerson" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "copyrightHolder" : "VinhLin",
+      "copyrightYear" : "2024",
+      "dateCreated": "2024-08-27T13:39:47.00Z",
+      "datePublished": "2024-08-27T13:39:47.00Z",
+      "dateModified": "2024-08-27T13:39:47.00Z",
+      "publisher":{
+          "@type":"Organization",
+          "name": "VinhLin",
+          "url": "https://vinhlin.github.io/",
+          "logo": {
+              "@type": "ImageObject",
+              "url": "https:\/\/vinhlin.github.io\/assets\/favicon.ico",
+              "width":"32",
+              "height":"32"
+          }
+      },
+      "image": "https://vinhlin.github.io/assets/favicon.ico",
+      "url" : "https:\/\/vinhlin.github.io\/posts\/iot\/hardware\/radxa_x4\/",
+      "wordCount" : "625",
+      "genre" : [ ],
+      "keywords" : [ ]
+  }
+  </script>
+  
+  
+  </head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main</a>
+  <main id="main">
+  <div class="content">
+    <header>
+<p style="padding: 0;margin: 0;">
+  <a href="/">
+    <b>VinhLin</b>
+    <span class="text-stone-500 animate-blink">▮</span>
+  </a>
+</p>
+<ul style="padding: 0;margin: 0;">
+  
+  
+  <li class="">
+    <a href="/changelog/"><span>CHANGELOG</span></a>
+    
+  <li class="">
+    <a href="/posts/"><span>Post</span></a>
+    
+  <li class="">
+    <a href="/about/"><span>About</span></a>
+    
+  </li>
+</ul>
+</header>
+<hr class="hr-list" style="padding: 0;margin: 0;">
+    <section>
+      <h2 class="post">Radxa_X4</h2>
+      <h3 id="thông-tin">Thông tin:</h3>
+<pre tabindex="0"><code>https://www.youtube.com/watch?v=F2atAHDOaIA
+https://www.jeffgeerling.com/blog/2024/radxa-x4-sbc-unites-intel-n100-and-raspberry-pi-rp2040
+https://github.com/geerlingguy/sbc-reviews/issues/48
+https://radxa.com/products/x/x4/
+</code></pre><p><img
+  src="https://radxa.com/x/x4/banner_radxa_x4.webp"
+  alt="radxa_x4"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<h1 id="giải-thích-theo-cách-hiểu-cá-nhân">Giải thích theo cách hiểu cá nhân:</h1>
+<p>Cụm từ <strong>x86 with a side of Arm</strong> trong trường hợp của <code>Radxa X4 SBC (Single Board Computer)</code> mô tả việc <strong>tích hợp cả hai kiến trúc x86 và ARM trên cùng một bo mạch</strong>, nhưng mỗi kiến trúc phục vụ cho các mục đích khác nhau.</p>
+<p>Điều này có thể gây nhầm lẫn, nhưng đây là một ví dụ về việc sử dụng các thế mạnh của cả hai kiến trúc trong cùng một sản phẩm.</p>
+<p>Giải thích cụ thể:</p>
+<h3 id="intel-n100-và-kiến-trúc-x86">Intel N100 và Kiến trúc x86:</h3>
+<ul>
+<li><strong>Intel N100</strong> đây là một bộ <strong>vi xử lý x86</strong> của Intel, thuộc dòng Alder Lake-N, sử dụng <code>kiến trúc x86-64</code>.</li>
+<li><strong>X86</strong> được sử dụng cho các tác vụ tính toán chính và phức tạp, thường là hệ điều hành chính (như Linux hoặc Windows) và các ứng dụng chạy trên đó.</li>
+<li><mark>Ứng dụng</mark>: X86 sẽ cung cấp sức mạnh xử lý chính cho hệ thống, đảm bảo khả năng tương thích với các phần mềm x86 truyền thống, đặc biệt là trong các ứng dụng đòi hỏi sức mạnh xử lý cao như các tác vụ máy tính để bàn hoặc server nhẹ.</li>
+</ul>
+<h3 id="raspberry-pi-rp2040-và-kiến-trúc-arm">Raspberry Pi RP2040 và Kiến trúc ARM:</h3>
+<ul>
+<li><strong>RP2040</strong>: Đây là một bộ <strong>vi điều khiển</strong> dựa trên <code>kiến trúc ARM Cortex-M0+</code> do Raspberry Pi Foundation phát triển.</li>
+<li>Đây là một vi điều khiển nhỏ, tiết kiệm năng lượng, được sử dụng chủ yếu cho các nhiệm vụ điều khiển và quản lý, như điều khiển thiết bị ngoại vi, quản lý nguồn, hoặc xử lý các tác vụ nhẹ nhàng trong thời gian thực.</li>
+<li><mark>Ứng dụng</mark>: ARM Cortex-M0+ trên RP2040 có thể được sử dụng để điều khiển các thiết bị ngoại vi, thực hiện các nhiệm vụ nhúng hoặc quản lý hệ thống con trong bo mạch. Điều này giúp giảm tải cho CPU x86 chính, tăng cường khả năng phản ứng thời gian thực và tiết kiệm năng lượng.</li>
+</ul>
+<h2 id="tại-sao-sử-dụng-cả-x86-và-arm-trên-cùng-một-bo-mạch">Tại sao sử dụng cả x86 và ARM trên cùng một bo mạch?</h2>
+<ul>
+<li>Sử dụng tối ưu tài nguyên:</li>
+</ul>
+<blockquote>
+<p><strong>x86</strong>: Đảm nhận các tác vụ nặng hơn, như chạy hệ điều hành và ứng dụng đòi hỏi hiệu suất cao. <br>
+<strong>ARM</strong>: Đảm nhiệm các tác vụ điều khiển, quản lý các cảm biến, hoặc xử lý các tín hiệu trong thời gian thực, điều mà ARM rất phù hợp do tính hiệu quả năng lượng và khả năng phản hồi nhanh. <br></p>
+</blockquote>
+<ul>
+<li>
+<p>Tăng tính linh hoạt và hiệu suất:</p>
+<ul>
+<li>Sự kết hợp này cho phép thiết bị sử dụng sức mạnh của x86 cho các tác vụ chính</li>
+<li>Đồng thời tận dụng tính tiết kiệm năng lượng và hiệu quả của ARM cho các nhiệm vụ nhẹ hơn.</li>
+<li>Điều này có thể tối ưu hóa hiệu năng tổng thể và kéo dài tuổi thọ pin trong các ứng dụng di động hoặc nhúng.</li>
+</ul>
+</li>
+<li>
+<p>Tính khả dụng và kinh tế: Kết hợp cả hai kiến trúc có thể giảm chi phí phát triển bằng cách sử dụng các vi điều khiển ARM đã có sẵn và mạnh mẽ như RP2040 cho các nhiệm vụ mà không cần phải phát triển thêm phần cứng phức tạp cho những chức năng đơn giản.</p>
+</li>
+</ul>
+<h2 id="kết-luận">Kết luận:</h2>
+<ul>
+<li>Radxa X4 SBC mô tả việc <strong>kết hợp cả hai kiến trúc trong một thiết bị</strong></li>
+<li>Sử dụng x86 để xử lý các tác vụ nặng nề, trong khi ARM được dùng cho các nhiệm vụ quản lý, điều khiển hoặc xử lý tín hiệu trong thời gian thực.</li>
+<li>Đây là một chiến lược thông minh để tận dụng thế mạnh của cả hai kiến trúc, tối ưu hóa hiệu suất và hiệu quả năng lượng cho hệ thống.</li>
+</ul>
+
+      
+      <div class="post-date">
+        <span class="g time">August 27, 2024 </span> &#8729;
+         
+      </div>
+      
+    </section>
+    
+    
+    
+  </div>
+</main>
+</body>
+</html>

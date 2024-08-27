@@ -14,6 +14,272 @@
     
     
     <item>
+      <title>NFC_PWA</title>
+      <link>https://vinhlin.github.io/posts/cybersecurity/technical/nfc_pwa/</link>
+      <description>&lt;h3 id=&#34;một-số-bài-viết-về-việc-sử-dụng-web-pwa-để-đánh-cắp-thông-tin&#34;&gt;Một số bài viết về việc sử dụng Web PWA để đánh cắp thông tin:&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://tinnhiemmang.vn/tin-tac-danh-cap-thong-tin-ngan-hang-tu-nguoi-dung-ios-android-thong-qua-ung-dung-pwa
+https://www.bleepingcomputer.com/news/security/new-ngate-android-malware-uses-nfc-chip-to-steal-credit-card-data/
+https://www.darkreading.com/mobile-security/nfc-traffic-stealer-targets-android-users-and-their-banking-info
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;github-project-nfcgatehttpsgithubcomnfcgatenfcgate&#34;&gt;Github project: &lt;a href=&#34;https://github.com/nfcgate/nfcgate&#34;&gt;nfcgate&lt;/a&gt;&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://github.com/nfcgate/nfcgate/tree/v2/doc
+https://github.com/nfcgate/nfcgate/blob/v2/doc/Compatibility.md
+https://github.com/nfcgate/nfcgate/tree/v2/doc/mode
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;h2 id=&#34;ghi-chú-theo-cách-hiểu-của-bản-thân&#34;&gt;Ghi chú theo cách hiểu của bản thân&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Lúc trước mình có tìm hiểu qua về &lt;strong&gt;Web PWA&lt;/strong&gt; (lúc đó có nghiên cứu về &lt;em&gt;bluetooth&lt;/em&gt; trên di động).&lt;/li&gt;
+&lt;li&gt;Với các ứng dụng web &lt;code&gt;PWA&lt;/code&gt; thì mình không cần cài đặt thủ công như các app di động, nhưng vẫn có thể dùng đầy đủ tất cả tính năng như app di động.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/NFC_PWA/entire-process.webp&#34;
+  alt=&#34;entire-process&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Đầu tiên đầu tiên là dẫn dụ &lt;em&gt;(có thể qua phishing)&lt;/em&gt; cài đặt một ứng dụng (có chứa malware) bằng đường link &lt;strong&gt;Web PWA&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Dùng PWA theo mình hiểu hiện tại thì mục tiêu là tránh sự phiền phức như khi cài đặt ứng dụng Native.&lt;/li&gt;
+&lt;li&gt;Lúc này hacker dùng &lt;strong&gt;nfcgate&lt;/strong&gt; để capture lại các traffic nếu như victime sử dụng NFC để thực hiện giao dịch.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/NFC_PWA/nfc-replay.webp&#34;
+  alt=&#34;nfc-replay&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Khi đã có đc traffic thì bắt đầu giả mạo credit-card của nạn nhân.&lt;/li&gt;
+&lt;li&gt;Như trong &lt;a href=&#34;https://youtu.be/q69--5rdlmI&#34;&gt;Video Youtube&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/cybersecurity/technical/nfc_pwa/</guid>
+      <pubDate>Tue, 27 Aug 2024 14:47:38 +0700</pubDate>
+    </item>
+    
+    <item>
+      <title>Kien_truc_may_tinh</title>
+      <link>https://vinhlin.github.io/posts/iot/hardware/kien_truc_may_tinh/</link>
+      <description>&lt;h2 id=&#34;kiển-trúc-máy-tính&#34;&gt;Kiển trúc Máy tính&lt;/h2&gt;
+&lt;h3 id=&#34;kiến-trúc-máy-tính---von-neumannhttpswwwdigikeycomenmakerblogs2024von-neumann-architecture&#34;&gt;&lt;a href=&#34;https://www.digikey.com/en/maker/blogs/2024/von-neumann-architecture&#34;&gt;Kiến trúc máy tính - Von-Neumann&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Được chia làm 3 phần chính:
+&lt;ul&gt;
+&lt;li&gt;CPU&lt;/li&gt;
+&lt;li&gt;Memory&lt;/li&gt;
+&lt;li&gt;IO&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Cả 3 thành phần này đều giao tiếp với nhau thông qua &lt;strong&gt;bus&lt;/strong&gt; (gọi là &lt;code&gt;data bus&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;kiến-trúc-harvard-sử-dụng-rộng-rãi-trong-các-bộ-vi-điều-khiển-và-dsp-digital-signal-processing&#34;&gt;kiến trúc Harvard: Sử dụng rộng rãi trong các bộ vi điều khiển và DSP (Digital Signal Processing)&lt;/h3&gt;
+&lt;p&gt;Sự khác biệt giữa kiến trúc &lt;strong&gt;Harvard&lt;/strong&gt; vs &lt;strong&gt;Von-Neumann&lt;/strong&gt; đó chính là sự bố trí giữa &lt;strong&gt;CPU - Memory&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;kiến-trúc-chiphttpsinc42comglossarychip-architecture&#34;&gt;&lt;a href=&#34;https://inc42.com/glossary/chip-architecture/&#34;&gt;Kiến trúc chip&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;x86-architecture&#34;&gt;x86 Architecture&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Thường thấy trong các sản phẩm máy tính desktop hoặc laptop.&lt;/li&gt;
+&lt;li&gt;Phổ biến là dòng chip của &lt;strong&gt;Intel&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;risc-architectures&#34;&gt;RISC Architectures&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;MIPS Architecture: &lt;a href=&#34;https://www.cit.ctu.edu.vn/~dtnghi/cod/ch3.pdf&#34;&gt;KIẾN TRÚC BỘ LỆNH&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ARM Architecture:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.csie.ntu.edu.tw/~cyy/courses/assembly/12fall/lectures/handouts/lec08_ARMarch.pdf&#34;&gt;Tài liệu ARMarch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.candtsolution.com/news_events-detail/what-is-the-difference-between-arm-and-x86/&#34;&gt;Một bài viết so sánh giữa ARM vs x86&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-bushttpswwwdigikeycomenmakertutorials2023what-is-serial-communication-and-how-does-it-compare-to-paralleltextwhats20the20difference20between20serialdata20that20can20be20transferred&#34;&gt;&lt;a href=&#34;https://www.digikey.com/en/maker/tutorials/2023/what-is-serial-communication-and-how-does-it-compare-to-parallel#:~:text=What&#39;s%20the%20Difference%20Between%20Serial,data%20that%20can%20be%20transferred&#34;&gt;Data Bus&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Có 2 kiểu truyền dữ liệu là:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Nối tiếp (Serial)
+Song song (Parallel)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Communicate.jpg&#34;
+  alt=&#34;Communicate&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;song-song&#34;&gt;Song song&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Dùng cho display (truyền hình ảnh), PCI, printer,&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;nối-tiếp&#34;&gt;Nối tiếp:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Dùng trong Ethernet, Wifi, BLE, eSATA, SPI, I2C, CAN, USB, RS232, RS485, JTAG,&amp;hellip;&lt;/li&gt;
+&lt;li&gt;Giao tiếp nối tiếp thì chia làm 2 loại là:
+&lt;ul&gt;
+&lt;li&gt;Giao tiếp bất đồng bộ: UART, RS232, RS485&lt;/li&gt;
+&lt;li&gt;Giao tiếp đồng bộ: SPI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/iot/hardware/kien_truc_may_tinh/</guid>
+      <pubDate>Tue, 27 Aug 2024 14:11:44 +0700</pubDate>
+    </item>
+    
+    <item>
+      <title>Radxa_X4</title>
+      <link>https://vinhlin.github.io/posts/iot/hardware/radxa_x4/</link>
+      <description>&lt;h3 id=&#34;thông-tin&#34;&gt;Thông tin:&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://www.youtube.com/watch?v=F2atAHDOaIA
+https://www.jeffgeerling.com/blog/2024/radxa-x4-sbc-unites-intel-n100-and-raspberry-pi-rp2040
+https://github.com/geerlingguy/sbc-reviews/issues/48
+https://radxa.com/products/x/x4/
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img
+  src=&#34;https://radxa.com/x/x4/banner_radxa_x4.webp&#34;
+  alt=&#34;radxa_x4&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h1 id=&#34;giải-thích-theo-cách-hiểu-cá-nhân&#34;&gt;Giải thích theo cách hiểu cá nhân:&lt;/h1&gt;
+&lt;p&gt;Cụm từ &lt;strong&gt;x86 with a side of Arm&lt;/strong&gt; trong trường hợp của &lt;code&gt;Radxa X4 SBC (Single Board Computer)&lt;/code&gt; mô tả việc &lt;strong&gt;tích hợp cả hai kiến trúc x86 và ARM trên cùng một bo mạch&lt;/strong&gt;, nhưng mỗi kiến trúc phục vụ cho các mục đích khác nhau.&lt;/p&gt;
+&lt;p&gt;Điều này có thể gây nhầm lẫn, nhưng đây là một ví dụ về việc sử dụng các thế mạnh của cả hai kiến trúc trong cùng một sản phẩm.&lt;/p&gt;
+&lt;p&gt;Giải thích cụ thể:&lt;/p&gt;
+&lt;h3 id=&#34;intel-n100-và-kiến-trúc-x86&#34;&gt;Intel N100 và Kiến trúc x86:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Intel N100&lt;/strong&gt; đây là một bộ &lt;strong&gt;vi xử lý x86&lt;/strong&gt; của Intel, thuộc dòng Alder Lake-N, sử dụng &lt;code&gt;kiến trúc x86-64&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;X86&lt;/strong&gt; được sử dụng cho các tác vụ tính toán chính và phức tạp, thường là hệ điều hành chính (như Linux hoặc Windows) và các ứng dụng chạy trên đó.&lt;/li&gt;
+&lt;li&gt;&lt;mark&gt;Ứng dụng&lt;/mark&gt;: X86 sẽ cung cấp sức mạnh xử lý chính cho hệ thống, đảm bảo khả năng tương thích với các phần mềm x86 truyền thống, đặc biệt là trong các ứng dụng đòi hỏi sức mạnh xử lý cao như các tác vụ máy tính để bàn hoặc server nhẹ.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;raspberry-pi-rp2040-và-kiến-trúc-arm&#34;&gt;Raspberry Pi RP2040 và Kiến trúc ARM:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;RP2040&lt;/strong&gt;: Đây là một bộ &lt;strong&gt;vi điều khiển&lt;/strong&gt; dựa trên &lt;code&gt;kiến trúc ARM Cortex-M0+&lt;/code&gt; do Raspberry Pi Foundation phát triển.&lt;/li&gt;
+&lt;li&gt;Đây là một vi điều khiển nhỏ, tiết kiệm năng lượng, được sử dụng chủ yếu cho các nhiệm vụ điều khiển và quản lý, như điều khiển thiết bị ngoại vi, quản lý nguồn, hoặc xử lý các tác vụ nhẹ nhàng trong thời gian thực.&lt;/li&gt;
+&lt;li&gt;&lt;mark&gt;Ứng dụng&lt;/mark&gt;: ARM Cortex-M0+ trên RP2040 có thể được sử dụng để điều khiển các thiết bị ngoại vi, thực hiện các nhiệm vụ nhúng hoặc quản lý hệ thống con trong bo mạch. Điều này giúp giảm tải cho CPU x86 chính, tăng cường khả năng phản ứng thời gian thực và tiết kiệm năng lượng.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;tại-sao-sử-dụng-cả-x86-và-arm-trên-cùng-một-bo-mạch&#34;&gt;Tại sao sử dụng cả x86 và ARM trên cùng một bo mạch?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Sử dụng tối ưu tài nguyên:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;x86&lt;/strong&gt;: Đảm nhận các tác vụ nặng hơn, như chạy hệ điều hành và ứng dụng đòi hỏi hiệu suất cao. &lt;br&gt;
+&lt;strong&gt;ARM&lt;/strong&gt;: Đảm nhiệm các tác vụ điều khiển, quản lý các cảm biến, hoặc xử lý các tín hiệu trong thời gian thực, điều mà ARM rất phù hợp do tính hiệu quả năng lượng và khả năng phản hồi nhanh. &lt;br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Tăng tính linh hoạt và hiệu suất:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sự kết hợp này cho phép thiết bị sử dụng sức mạnh của x86 cho các tác vụ chính&lt;/li&gt;
+&lt;li&gt;Đồng thời tận dụng tính tiết kiệm năng lượng và hiệu quả của ARM cho các nhiệm vụ nhẹ hơn.&lt;/li&gt;
+&lt;li&gt;Điều này có thể tối ưu hóa hiệu năng tổng thể và kéo dài tuổi thọ pin trong các ứng dụng di động hoặc nhúng.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Tính khả dụng và kinh tế: Kết hợp cả hai kiến trúc có thể giảm chi phí phát triển bằng cách sử dụng các vi điều khiển ARM đã có sẵn và mạnh mẽ như RP2040 cho các nhiệm vụ mà không cần phải phát triển thêm phần cứng phức tạp cho những chức năng đơn giản.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;kết-luận&#34;&gt;Kết luận:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Radxa X4 SBC mô tả việc &lt;strong&gt;kết hợp cả hai kiến trúc trong một thiết bị&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Sử dụng x86 để xử lý các tác vụ nặng nề, trong khi ARM được dùng cho các nhiệm vụ quản lý, điều khiển hoặc xử lý tín hiệu trong thời gian thực.&lt;/li&gt;
+&lt;li&gt;Đây là một chiến lược thông minh để tận dụng thế mạnh của cả hai kiến trúc, tối ưu hóa hiệu suất và hiệu quả năng lượng cho hệ thống.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/iot/hardware/radxa_x4/</guid>
+      <pubDate>Tue, 27 Aug 2024 13:39:47 +0700</pubDate>
+    </item>
+    
+    <item>
+      <title>News</title>
+      <link>https://vinhlin.github.io/posts/cybersecurity/news/</link>
+      <description>&lt;h3 id=&#34;changelog&#34;&gt;Changelog&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Ngày&lt;/th&gt;
+&lt;th&gt;Mô tả&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;10/4/2024&lt;/td&gt;
+&lt;td&gt;Khởi tạo bài viết&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;26/8/2024&lt;/td&gt;
+&lt;td&gt;Cập nhật một số trang blog và youtube về chủ đề Hardware Hacking&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;Đây là danh sách các kênh mà mình cập nhật tin tức.&lt;/li&gt;
+&lt;li&gt;Cũng như bổ sung kiến thức.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;danh-sách-các-kênh-tài-liệu-và-youtube-để-cập-nhật-kiến-thức&#34;&gt;Danh sách các kênh tài liệu và Youtube để cập nhật kiến thức.&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Các trang ngôn ngữ tiếng Việt mà mình cập nhật thông tin về giới bảo mật, bao gồm:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ncsc-vnhttpstinnhiemmangvnnoi-bat&#34;&gt;&lt;a href=&#34;https://tinnhiemmang.vn/noi-bat&#34;&gt;NCSC VN&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;whitehathttpswhitehatvn&#34;&gt;&lt;a href=&#34;https://whitehat.vn/&#34;&gt;Whitehat&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Còn trang của nước ngoài thì gồm (trong đó có telegram):&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;cyber-security-newshttpscybersecuritynewscom&#34;&gt;&lt;a href=&#34;https://cybersecuritynews.com/&#34;&gt;Cyber Security News&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;telegram-cyber-threat-intelligencehttpstmectinow&#34;&gt;&lt;a href=&#34;https://t.me/ctinow&#34;&gt;Telegram: Cyber Threat Intelligence&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;kênh-youtube&#34;&gt;Kênh youtube:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Mình đang theo dõi hầu hết các kênh được liệt kê trong hình dưới.&lt;/li&gt;
+&lt;li&gt;Các kênh này không chỉ giúp mình cập nhật về các lỗi CVE mới, mà còn giúp mình cập nhật kiến thức về Network, System.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Top_Youtube_Channel_Hacking.jpg&#34;
+  alt=&#34;Youtube&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;ngày-2682024&#34;&gt;Ngày 26/8/2024&lt;/h2&gt;
+&lt;p&gt;Một số trang blog và kênh Youtube về Hardware Hacking&lt;/p&gt;
+&lt;h3 id=&#34;ncc-grouphttpsresearchnccgroupcomcategoryhardware-embedded-systems&#34;&gt;&lt;a href=&#34;https://research.nccgroup.com/category/hardware-embedded-systems/&#34;&gt;NCC Group&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;matt-brown-iot-pentester--hardware-security-researcher&#34;&gt;Matt Brown: IoT Pentester &amp;amp; Hardware Security Researcher&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://brownfinesecurity.com/blog/&#34;&gt;Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Youtube Channel: &lt;a href=&#34;https://www.youtube.com/@mattbrwn&#34;&gt;Matt Brown&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;hextreeiohttpsapphextreeio-một-nền-tảng-học-tập-về-hacking&#34;&gt;&lt;a href=&#34;https://app.hextree.io/&#34;&gt;hextree.io&lt;/a&gt;: Một nền tảng học tập về hacking.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Youtube Channel: &lt;a href=&#34;https://www.youtube.com/@LiveOverflow&#34;&gt;LiveOverflow&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;iot-pentesting-guidehttpswwwiotpentestingguidecom&#34;&gt;&lt;a href=&#34;https://www.iotpentestingguide.com/&#34;&gt;IoT Pentesting Guide&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;iotsecurity101httpsv33rugithubioiotsecurity101&#34;&gt;&lt;a href=&#34;https://v33ru.github.io/IoTSecurity101/&#34;&gt;IoTSecurity101&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;gamehackinggghttpsgamehackinggg&#34;&gt;&lt;a href=&#34;https://gamehacking.gg/&#34;&gt;GameHacking.GG&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Trò chơi để luyện tập về &lt;strong&gt;reverse&lt;/strong&gt; và hacking game.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jhllc/Unity-Game&#34;&gt;Github Hướng dẫn&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;synacktivhttpswwwsynacktivcomenour-publications&#34;&gt;&lt;a href=&#34;https://www.synacktiv.com/en/our-publications&#34;&gt;synacktiv&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.synacktiv.com/en/publications&#34;&gt;Publications&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.synacktiv.com/en/advisories&#34;&gt;Advisories&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.synacktiv.com/en/ressources&#34;&gt;Resources&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/cybersecurity/news/</guid>
+      <pubDate>Mon, 26 Aug 2024 19:27:53 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Protect_Camera</title>
       <link>https://vinhlin.github.io/posts/cybersecurity/technical/protect_camera/</link>
       <description>&lt;p&gt;Lướt lát trên Internet, vô tình &lt;strong&gt;lụm&lt;/strong&gt; được các bức ảnh &lt;em&gt;(được cắt ra trên một seminar nào đó)&lt;/em&gt; nói về các cách bảo vệ Camera.&lt;/p&gt;
@@ -1568,6 +1834,18 @@ https://cuckoosandbox.org/blog/207-interim-release
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=wvsi3QilNQ8&#34;&gt;Tham khảo khác&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3 id=&#34;nettacker-automated-penetration-testing-framework---open-source-vulnerability-scanner---vulnerability-management&#34;&gt;Nettacker: Automated Penetration Testing Framework - Open-Source Vulnerability Scanner - Vulnerability Management&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Github Project: &lt;a href=&#34;https://github.com/OWASP/Nettacker&#34;&gt;Nettacker&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Documents: &lt;a href=&#34;https://owasp.org/www-project-nettacker/&#34;&gt;https://owasp.org/www-project-nettacker/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Note&lt;/strong&gt;: Nhìn chung mình thấy tool này khá giống với tool &lt;strong&gt;reNgine&lt;/strong&gt;, hoặc một số công cụ auto-scan khác.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;aescrypthttpswwwaescryptcom-công-cụ-mã-hóa-file&#34;&gt;&lt;a href=&#34;https://www.aescrypt.com/&#34;&gt;AESCrypt&lt;/a&gt;: Công cụ mã hóa file&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Đây là một phần mềm &lt;strong&gt;mã nguồn mở&lt;/strong&gt;, hỗ trợ mã hóa file.&lt;/li&gt;
+&lt;li&gt;Video giới thiệu về công cụ này: &lt;a href=&#34;https://www.youtube.com/watch?v=zA4dDlslDXo&#34;&gt;AESCrypt - Mã hoá file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://services.udel.edu/TDClient/32/Portal/KB/ArticleDet?ID=366&#34;&gt;Một bài viết khác&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
       <author>VinhLD</author>
       <guid>https://vinhlin.github.io/posts/cybersecurity/tools/</guid>
@@ -1575,8 +1853,8 @@ https://cuckoosandbox.org/blog/207-interim-release
     </item>
     
     <item>
-      <title>ReadTeam</title>
-      <link>https://vinhlin.github.io/posts/cybersecurity/readteam/</link>
+      <title>RedTeam</title>
+      <link>https://vinhlin.github.io/posts/cybersecurity/redteam/</link>
       <description>&lt;h3 id=&#34;5-free-red-teaming-resources-to-get-you-startedhttpswwwhelpnetsecuritycom20240416free-red-teaming-resources&#34;&gt;&lt;a href=&#34;https://www.helpnetsecurity.com/2024/04/16/free-red-teaming-resources/&#34;&gt;5 free red teaming resources to get you started&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://dmcxblue.gitbook.io/red-team-notes-2-0&#34;&gt;Red Team Notes&lt;/a&gt;&lt;/li&gt;
@@ -1586,7 +1864,7 @@ https://cuckoosandbox.org/blog/207-interim-release
 &lt;/ul&gt;
 </description>
       <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/cybersecurity/readteam/</guid>
+      <guid>https://vinhlin.github.io/posts/cybersecurity/redteam/</guid>
       <pubDate>Sat, 15 Jun 2024 11:05:38 +0700</pubDate>
     </item>
     
@@ -1832,44 +2110,6 @@ GDT - Gas Discharge Tube
       <author>VinhLD</author>
       <guid>https://vinhlin.github.io/posts/cybersecurity/technical/nis2/</guid>
       <pubDate>Sat, 25 May 2024 15:43:13 +0700</pubDate>
-    </item>
-    
-    <item>
-      <title>News</title>
-      <link>https://vinhlin.github.io/posts/cybersecurity/news/</link>
-      <description>&lt;ul&gt;
-&lt;li&gt;Đây là danh sách các kênh mà mình cập nhật tin tức.&lt;/li&gt;
-&lt;li&gt;Cũng như bổ sung kiến thức.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;danh-sách-các-kênh-tài-liệu-và-youtube-để-cập-nhật-kiến-thức&#34;&gt;Danh sách các kênh tài liệu và Youtube để cập nhật kiến thức.&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Các trang ngôn ngữ tiếng Việt mà mình cập nhật thông tin về giới bảo mật, bao gồm:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;ncsc-vnhttpstinnhiemmangvnnoi-bat&#34;&gt;&lt;a href=&#34;https://tinnhiemmang.vn/noi-bat&#34;&gt;NCSC VN&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id=&#34;whitehathttpswhitehatvn&#34;&gt;&lt;a href=&#34;https://whitehat.vn/&#34;&gt;Whitehat&lt;/a&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Còn trang của nước ngoài thì gồm (trong đó có telegram):&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;cyber-security-newshttpscybersecuritynewscom&#34;&gt;&lt;a href=&#34;https://cybersecuritynews.com/&#34;&gt;Cyber Security News&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id=&#34;telegram-cyber-threat-intelligencehttpstmectinow&#34;&gt;&lt;a href=&#34;https://t.me/ctinow&#34;&gt;Telegram: Cyber Threat Intelligence&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id=&#34;kênh-youtube&#34;&gt;Kênh youtube:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Mình đang theo dõi hầu hết các kênh được liệt kê trong hình dưới.&lt;/li&gt;
-&lt;li&gt;Các kênh này không chỉ giúp mình cập nhật về các lỗi CVE mới, mà còn giúp mình cập nhật kiến thức về Network, System.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Top_Youtube_Channel_Hacking.jpg&#34;
-  alt=&#34;Youtube&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-</description>
-      <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/cybersecurity/news/</guid>
-      <pubDate>Wed, 10 Apr 2024 19:27:53 +0700</pubDate>
     </item>
     
     <item>
