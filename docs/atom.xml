@@ -14,6 +14,72 @@
     
     
     <item>
+      <title>Box_RFID</title>
+      <link>https://vinhlin.github.io/posts/iot/hardware/box_rfid/</link>
+      <description>&lt;p&gt;Sau quá trình &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/iot/hardware/research_cr95/&#34;&gt;Research_CR95&lt;/a&gt; và vất vả code FW cho bộ hộp đọc thẻ này.&lt;/p&gt;
+&lt;p&gt;Cuối cùng cũng đã hoàn thành.&lt;/p&gt;
+&lt;h1 id=&#34;thông-tin-về-bộ-đọc-thẻ-rfid&#34;&gt;Thông tin về bộ đọc thẻ RFID.&lt;/h1&gt;
+&lt;h2 id=&#34;yêu-cầu-thông-tin-về-thẻ-tài-xế&#34;&gt;Yêu cầu thông tin về thẻ tài xế&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GPLX&lt;/strong&gt;: 12 ký tự số.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tên tài xế&lt;/strong&gt;: Sử dụng ký tự chữ (Viết hoa).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ID&lt;/strong&gt;: 10 ký tự số&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;hộp-đọc-thẻ-rfid&#34;&gt;Hộp đọc thẻ RFID&lt;/h2&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Research_CR95/RFID_Box.jpg&#34;
+  alt=&#34;RFID&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Nếu đọc thẻ thành công, thì đèn led &lt;strong&gt;DN&lt;/strong&gt; sẽ chớp sáng &lt;strong&gt;1 lần&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lần tag thẻ tiếp theo&lt;/strong&gt; cần phải cách &lt;strong&gt;lần tag thẻ trước đó&lt;/strong&gt;, ít nhất là &lt;strong&gt;3s&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;feature-tính-năng&#34;&gt;Feature (Tính năng)&lt;/h2&gt;
+&lt;h3 id=&#34;debug&#34;&gt;Debug:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Show debug, send command: &lt;code&gt;IT_TRACE1&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Turn off debug, send command: &lt;code&gt;IT_TRACE0&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;request-version&#34;&gt;Request Version:&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Send&lt;/th&gt;
+&lt;th&gt;Response&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;$DVSRFID,VER&lt;/td&gt;
+&lt;td&gt;$DVSRFID,VER,1.2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;đọc-thẻ&#34;&gt;Đọc thẻ&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Khi đặt thẻ vào bộ đọc, nếu đọc thành công, thiết bị sẽ gửi ra thông tin:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$DVSRFID,READ,123456789012,NGUYENVANA,1234567890
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Trong đó:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;123456789012&lt;/strong&gt;: là thông tin về GPLX &lt;br&gt;
+&lt;strong&gt;NGUYENVANA&lt;/strong&gt;: là tên tài xế (NGUYEN VAN A) &lt;br&gt;
+&lt;strong&gt;1234567890&lt;/strong&gt;: là thông tin ID Card &lt;br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Nếu thẻ bị lỗi thông tin, thì thiết bị sẽ trả ra:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$DVSRFID,READ,,,
+&lt;/code&gt;&lt;/pre&gt;</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/iot/hardware/box_rfid/</guid>
+      <pubDate>Thu, 29 Aug 2024 18:38:50 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>NFC_PWA</title>
       <link>https://vinhlin.github.io/posts/cybersecurity/technical/nfc_pwa/</link>
       <description>&lt;h3 id=&#34;một-số-bài-viết-về-việc-sử-dụng-web-pwa-để-đánh-cắp-thông-tin&#34;&gt;Một số bài viết về việc sử dụng Web PWA để đánh cắp thông tin:&lt;/h3&gt;

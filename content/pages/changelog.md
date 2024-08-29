@@ -4,6 +4,7 @@ date = 2024-08-26T15:21:41+07:00
 draft = true
 +++
 
+---------------------------------------------------------------------------------------
 # Embedded - IoT
 
 ## <mark>HARDWARE</mark>
@@ -16,13 +17,15 @@ STT |		Tiêu đề			|		Mô tả				|
 4   | [Dump_Firmware_NOR_Flash][Dump_NOR] | Ghi chú cách thức **dump firmware** của **NOR Flash** |
 5   | [Radxa_X4][Radxa_X4]		| Ghi chú về một sản phẩm SBC, kết hợp kiến trúc `x86` vs `ARM` |
 6   | [Kien_truc_may_tinh][May_tinh]	| Ghi chú về **Kiến trúc máy tính**		|
+7   | [Box_RFID][Box_RFID]		| Thành quả research và viết fireware cho bộ đọc RFID |
 
 [UNIHIKER]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/unihiker/
 [ESD]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/esd/
 [Research_CR95]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/research_cr95/
 [Dump_NOR]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/dump_firmware_nor_flash/
-[Radxa_X4]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/Radxa_X4/
-[May_tinh]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/Kien_truc_may_tinh/
+[Radxa_X4]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/radxa_x4/
+[May_tinh]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/kien_truc_may_tinh/
+[Box_RFID]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/box_rfid/
 
 ## <mark>SOFTWARE</mark>
 
