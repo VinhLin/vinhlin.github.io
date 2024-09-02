@@ -23,6 +23,7 @@ hugo --config hugo.toml -D
 hugo new posts/Others/Goc_nhin_ve_Ngoai_ngu.md
 hugo new posts/Others/Suy_nghi_ve_Hardware_Hacking.md
 hugo new posts/Others/IoT_Security_JD.md
+hugo new posts/Others/Hoi_thao_2024.md
 ```
 
 ### IoT:

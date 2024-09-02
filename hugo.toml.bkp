@@ -3,7 +3,8 @@ languageCode = 'en-us'
 title = 'VinhLin'
 paginate = 3
 theme = 'maverick'
-publishdir = "vinhlin.github.io"
+# publishdir = "vinhlin.github.io"
+publishdir = "docs"
 
 [permalinks]
   pages = "/:slug"
@@ -14,10 +15,9 @@ publishdir = "vinhlin.github.io"
   author = 'VinhLD'
 
   [params.comments]
-    enabled = true
+    enabled = false
     githubRepo = 'canhtran/maverick'
     theme = 'github-light'
-
 
 [menu]
   [[menu.main]]
@@ -30,6 +30,11 @@ publishdir = "vinhlin.github.io"
     name = "Post"
     url = "/posts/"
     weight = -200
+  [[menu.main]]
+    identifier = "changelog"
+    name = "CHANGELOG"
+    url = "/changelog/"
+    weight = -290
 
 [markup]
   [markup.goldmark.renderer]

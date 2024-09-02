@@ -2,10 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://vinhlin.github.io/posts/iot/hardware/box_rfid/</loc>
-    <lastmod>2024-08-29T18:38:50+07:00</lastmod>
+    <loc>https://vinhlin.github.io/posts/others/hoi_thao_2024/</loc>
+    <lastmod>2024-09-02T16:29:20+07:00</lastmod>
   </url><url>
     <loc>https://vinhlin.github.io/posts/</loc>
+    <lastmod>2024-09-02T16:29:20+07:00</lastmod>
+  </url><url>
+    <loc>https://vinhlin.github.io/posts/iot/hardware/box_rfid/</loc>
     <lastmod>2024-08-29T18:38:50+07:00</lastmod>
   </url><url>
     <loc>https://vinhlin.github.io/posts/cybersecurity/technical/nfc_pwa/</loc>

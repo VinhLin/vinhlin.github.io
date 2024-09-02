@@ -116,11 +116,12 @@ STT |		Tiêu đề			|		Mô tả				|
 1   |[Goc_nhin_ve_Ngoai_ngu][Ngoai_ngu]	| Góc nhìn và cảm nghĩ bản thân về vấn đề Ngoại ngữ (nói chung), và tiếng Anh (nói riêng) | 
 2   |[Suy_nghi_ve_Hardware_Hacking][Hardware_Hacking]| Suy nghĩ về **Hardware Hacking**. |
 3   |[IoT_Security_JD][JD]		| Mô tả công việc của một job về **IoT Security** |
+4   |[Hoi_thao_2024][Hoi_thao_2024]	| Ghi chú một vài điều thú vị trong video record lại về **Hội thảo CNTT 2024** |
 
 [Ngoai_ngu]: https://blog.vinhld-homelab.io.vn/posts/others/goc_nhin_ve_ngoai_ngu/
 [Hardware_Hacking]: https://blog.vinhld-homelab.io.vn/posts/others/suy_nghi_ve_hardware_hacking/
 [JD]: https://blog.vinhld-homelab.io.vn/posts/others/iot_security_jd/
-
+[Hoi_thao_2024]: https://blog.vinhld-homelab.io.vn/posts/others/hoi_thao_2024/
 
 
 

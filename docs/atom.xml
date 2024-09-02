@@ -14,6 +14,138 @@
     
     
     <item>
+      <title>Hoi_thao_2024</title>
+      <link>https://vinhlin.github.io/posts/others/hoi_thao_2024/</link>
+      <description>&lt;h2 id=&#34;link-video-hội-thảo-và-triển-lãm-an-toàn-thông-tin-phía-nam-2024httpswwwfacebookcomvnisahcmvideos1461942441187294&#34;&gt;Link Video: &lt;a href=&#34;https://www.facebook.com/VNISA.HCM/videos/1461942441187294&#34;&gt;Hội thảo và Triển lãm An toàn Thông tin phía Nam 2024&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Sau khi xem và nghe xong thì mình có nhiều thông tin hữu ích như sau&lt;/p&gt;
+&lt;h3 id=&#34;thiết-bị-phần-cứng---khóa-xác-thực&#34;&gt;Thiết bị phần cứng - Khóa xác thực&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Với loại sản phẩm này thì bên VinCSS cũng có.&lt;/li&gt;
+&lt;li&gt;Và ngoài ra, hiện tại &lt;strong&gt;HPT&lt;/strong&gt; cũng đang bán sản phẩm chính hãng &lt;a href=&#34;https://hpttechstore.com/collections/khoa-bao-mat-yubikey&#34;&gt;Khóa bảo mật Yubikey&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Mình đã mua 1 cái, sau khi xem clip của anh Duy Luân, &lt;a href=&#34;https://www.youtube.com/watch?v=wmC7ZDJfHa0&#34;&gt;link.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;phishing&#34;&gt;Phishing&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Hoi_thao_2024/4_layer.png&#34;
+  alt=&#34;4_layer&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Trong video thì có nói về 1 trong các kiểu tấn công phổ biến hiện nay, để từ đó trình bày cách phòng thủ cho phù hợp.&lt;/li&gt;
+&lt;li&gt;Và thường thì quá trình tấn công của hacker hiện tại là &lt;strong&gt;phishing&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Gửi email&lt;/strong&gt; có mã độc &amp;mdash;&amp;gt; &lt;strong&gt;Cài malware&lt;/strong&gt; vào máy nạn nhân trong tổ chức.&lt;/li&gt;
+&lt;li&gt;Âm thầm &lt;em&gt;mò mẫm&lt;/em&gt; trong &lt;strong&gt;hệ thống Network&lt;/strong&gt; của tổ chức, và tìm cơ hội để &lt;strong&gt;tấn công vào Server&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;backdoor&#34;&gt;Backdoor&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Hoi_thao_2024/3_cach_backdoor.png&#34;
+  alt=&#34;backdoor&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hacker thường cài cắm backdoor thường bằng 1 trong 3 cách.&lt;/li&gt;
+&lt;li&gt;Thứ 1: Tạo &lt;strong&gt;Webshell&lt;/strong&gt;, nguy cơ này đến từ việc sử dụng mã nguồn không hợp lệ.&lt;/li&gt;
+&lt;li&gt;Thứ 2: &lt;strong&gt;Tạo account dễ nhầm lẫn&lt;/strong&gt;. Giả sử hacker đã xâm nhập vào máy nạn nhân, vậy tránh bị phát hiện thì hacker sẽ tạo ra các account với tên &lt;strong&gt;bình thường&lt;/strong&gt; để tránh bị phát hiện.&lt;/li&gt;
+&lt;li&gt;Thứ 3: Dùng &lt;strong&gt;DLL&lt;/strong&gt; (&lt;em&gt;cái này thì mình cũng chưa rõ lắm&lt;/em&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;backup&#34;&gt;Backup&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Hoi_thao_2024/Backup_zip_code.png&#34;
+  alt=&#34;backup&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Giờ mình mới biết có thuật ngữ mới backup &lt;code&gt;32110&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Có &lt;strong&gt;ít nhất&lt;/strong&gt; là 3 bản dữ liệu &lt;em&gt;(kể cả bản đang vận hành)&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Vị trí đặt các bản sao phải ở &lt;strong&gt;2 địa điểm&lt;/strong&gt; khác nhau.&lt;/li&gt;
+&lt;li&gt;Có ít nhất &lt;strong&gt;1 bản copy đặt ở local&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Có ít nhất &lt;strong&gt;1 bản offline&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Tất cả các bản backup phải đều &lt;strong&gt;không bị lỗi&lt;/strong&gt; và có thể sử dụng được.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt;: Một lưu ý quan trọng là tất cả data backup phải được mã hóa.&lt;/p&gt;
+&lt;h3 id=&#34;các-hình-ảnh-được-capture-từ-bài-trình-bày-của-nhóm-chống-lừa-đảo&#34;&gt;Các hình ảnh được capture từ bài trình bày của nhóm &lt;strong&gt;Chống lừa đảo&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Hoi_thao_2024/Hinh_1.png&#34;
+  alt=&#34;Hình_1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Hoi_thao_2024/Hinh_2.png&#34;
+  alt=&#34;Hình_2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Hoi_thao_2024/Hinh_3.png&#34;
+  alt=&#34;Hình_3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Hoi_thao_2024/Hinh_4.png&#34;
+  alt=&#34;Hình_4&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Hoi_thao_2024/Hinh_5.png&#34;
+  alt=&#34;Hình_5&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Hoi_thao_2024/Hinh_6.png&#34;
+  alt=&#34;Hình_6&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Hoi_thao_2024/Hinh_7.png&#34;
+  alt=&#34;Hình_7&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/others/hoi_thao_2024/</guid>
+      <pubDate>Mon, 02 Sep 2024 16:29:20 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Box_RFID</title>
       <link>https://vinhlin.github.io/posts/iot/hardware/box_rfid/</link>
       <description>&lt;p&gt;Sau quá trình &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/iot/hardware/research_cr95/&#34;&gt;Research_CR95&lt;/a&gt; và vất vả code FW cho bộ hộp đọc thẻ này.&lt;/p&gt;
