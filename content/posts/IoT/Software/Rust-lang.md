@@ -1,6 +1,6 @@
 +++
 title = 'Rust Lang'
-date = 2024-08-17T18:14:13+07:00
+date = 2024-09-13T15:14:13+07:00
 draft = true
 +++
 
@@ -10,6 +10,7 @@ Ngày		|		Mô tả					|
 ----------------|-------------------------------------------------------|
 1/4/2024	| Khởi tạo bài viết					|
 17/8/2024	| Cập nhật bài viết, thêm thông tin về Rust-lang	|
+13/9/2024	| Update thêm documents về Rust				|
 
 -------------------------------------------------------------------------
 ### Hạn chế
@@ -113,6 +114,24 @@ async fn main() -> std::io::Result<()> {
     Ok(())
 }
 ```
+
+---------------------------------------------------------------------------------------
+# Cập nhật 13/9/2024
+
+## Bài viết: [35 Rust Learning Resources Every Beginner Should Know in 2022](https://blog.theembeddedrustacean.com/35-rust-learning-resources-every-beginner-should-know-in-2022)
+- Trong bài viết này tổng hợp rất nhiều documents cho beginner để bắt đầu với Rust.
+- Ở đây mình thấy có những trang rất hay, ví dụ:
+
+### [Tour of Rust](https://tourofrust.com/)
+Trang này có tiếng Việt và có thêm phần để run code.
+
+### [A half-hour to learn Rust](https://fasterthanli.me/articles/a-half-hour-to-learn-rust)
+
+### [A Gentle Introduction To Rust](https://stevedonovan.github.io/rust-gentle-intro/readme.html)
+
+### [Easy Rust](https://dhghomon.github.io/easy_rust/Chapter_1.html)
+
+
 
 
 

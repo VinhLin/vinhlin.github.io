@@ -2,10 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://vinhlin.github.io/posts/others/hoi_thao_2024/</loc>
-    <lastmod>2024-09-02T16:29:20+07:00</lastmod>
-  </url><url>
     <loc>https://vinhlin.github.io/posts/</loc>
+    <lastmod>2024-09-13T15:14:13+07:00</lastmod>
+  </url><url>
+    <loc>https://vinhlin.github.io/posts/iot/software/rust-lang/</loc>
+    <lastmod>2024-09-13T15:14:13+07:00</lastmod>
+  </url><url>
+    <loc>https://vinhlin.github.io/posts/others/hoi_thao_2024/</loc>
     <lastmod>2024-09-02T16:29:20+07:00</lastmod>
   </url><url>
     <loc>https://vinhlin.github.io/posts/iot/hardware/box_rfid/</loc>
@@ -31,9 +34,6 @@
   </url><url>
     <loc>https://vinhlin.github.io/posts/cybersecurity/technical/protect_camera/</loc>
     <lastmod>2024-08-18T11:07:18+07:00</lastmod>
-  </url><url>
-    <loc>https://vinhlin.github.io/posts/iot/software/rust-lang/</loc>
-    <lastmod>2024-08-17T18:14:13+07:00</lastmod>
   </url><url>
     <loc>https://vinhlin.github.io/posts/cybersecurity/technical/re_tool_binaryninjafree/</loc>
     <lastmod>2024-08-16T14:07:42+07:00</lastmod>

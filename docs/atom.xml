@@ -14,6 +14,180 @@
     
     
     <item>
+      <title>Rust Lang</title>
+      <link>https://vinhlin.github.io/posts/iot/software/rust-lang/</link>
+      <description>&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Rust_Embedded.png&#34;
+  alt=&#34;Rust_Embedded&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Ngày&lt;/th&gt;
+&lt;th&gt;Mô tả&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1/4/2024&lt;/td&gt;
+&lt;td&gt;Khởi tạo bài viết&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;17/8/2024&lt;/td&gt;
+&lt;td&gt;Cập nhật bài viết, thêm thông tin về Rust-lang&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;13/9/2024&lt;/td&gt;
+&lt;td&gt;Update thêm documents về Rust&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;hạn-chế&#34;&gt;Hạn chế&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://users.rust-lang.org/t/why-is-there-so-much-mismanagement-in-the-rust-foundation-and-core-team/94822&#34;&gt;Năm 2023 xảy ra nhiều dramma của Rust Found&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Rust là ngôn ngữ &lt;strong&gt;khó học, code khó&lt;/strong&gt;.
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=EYCBm0xAWow&amp;amp;list=LL&amp;amp;index=3&#34;&gt;5 things I wish I knew before learning Rust&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=fknamfNtKk0&#34;&gt;Why do developers hate Rust?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Cộng đồng &lt;strong&gt;DEV&lt;/strong&gt; chưa quá đông như Golang. &lt;a href=&#34;https://spectrum.ieee.org/the-top-programming-languages-2023&#34;&gt;Top Programming Languages 2023&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;lợi-ích&#34;&gt;Lợi ích&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Rust là ngôn ngữ &lt;strong&gt;low level&lt;/strong&gt;, được sử dụng cho nhiều mục đích khác nhau:
+&lt;ul&gt;
+&lt;li&gt;Dùng để code nhúng.&lt;/li&gt;
+&lt;li&gt;Dùng để code phía Server.&lt;/li&gt;
+&lt;li&gt;Có thể dùng để code OS - như &lt;a href=&#34;https://rust-for-linux.com/&#34;&gt;Rust for Linux&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Rust chú trọng vào sự an toàn - &lt;strong&gt;memory safety&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Cộng đồng Rust vẫn đang phát triển. &lt;a href=&#34;https://pypl.github.io/PYPL.html&#34;&gt;Dựa trên báo cáo thì số lượt tìm kiếm hướng dẫn lập trình Rust đã tăng hơn Golang&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;rust-roadmaphttpsroadmapshrust&#34;&gt;&lt;a href=&#34;https://roadmap.sh/rust&#34;&gt;Rust Roadmap&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;tài-liệu-về-rust&#34;&gt;Tài liệu về Rust&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.jetbrains.com/help/rust/getting-started.html&#34;&gt;Rust IDE - RustRover&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.rust-embedded.org/book/&#34;&gt;The Embedded Rust Book&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://std-dev-guide.rust-lang.org/&#34;&gt;Standard library developers Guide&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.rust-lang.org/&#34;&gt;Blog Rust&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://doc.rust-lang.org/rust-by-example/index.html&#34;&gt;Rust By Example&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://rust-tieng-viet.github.io/getting-started/first-project.html&#34;&gt;Rust Tiếng Việt&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=rAl-9HwD858&amp;amp;list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa&amp;amp;index=3&#34;&gt;Youtube - Crust of Rust&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/@letsgetrusty&#34;&gt;Youtube - Let&amp;rsquo;s Get Rusty&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.google.com/document/d/1kQidzAlbqapu-WZTuw4Djik0uTqMZYyiMXTM9F21Dz4/edit?lid=75778#heading=h.gjdgxs&#34;&gt;Rust Cheatsheet&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://os.phil-opp.com/&#34;&gt;Writing an OS in Rust&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;cập-nhật-1782024&#34;&gt;Cập nhật 17/8/2024&lt;/h1&gt;
+&lt;h3 id=&#34;youtube-where-is-rust-being-usedhttpswwwyoutubecomwatchv42fhqwq6sva&#34;&gt;Youtube: &lt;a href=&#34;https://www.youtube.com/watch?v=42FhQWQ6SVA&#34;&gt;Where is Rust being used?&lt;/a&gt;&lt;/h3&gt;
+&lt;h2 id=&#34;tổng-hợp-rust-is-for-roboticshttpsroboticsrs&#34;&gt;Tổng hợp &lt;a href=&#34;https://robotics.rs/&#34;&gt;Rust is for Robotics&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Project &lt;a href=&#34;https://github.com/ros2-rust/ros2_rust&#34;&gt;ros2_rust&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Project &lt;a href=&#34;https://github.com/Sollimann/CleanIt&#34;&gt;CleanIt&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;doc-offline-first-smart-energy-monitor-with-rust-esp32-and-thingsboardhttpsmoslehiancomposts20223-ofmon&#34;&gt;Doc: &lt;a href=&#34;https://moslehian.com/posts/2022/3-ofmon/&#34;&gt;Offline-first Smart Energy Monitor with Rust, ESP32, and Thingsboard&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Nereuxofficial/nostd-wifi-lamp&#34;&gt;nostd-wifi-lamp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/JurajSadel/esp32c3-no-std-async-mqtt-demo&#34;&gt;esp32c3-no-std-async-mqtt-demo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;framework-cho-mqtt-cho-rust-rumqtthttpsgithubcombytebeamiorumqtt&#34;&gt;Framework cho MQTT cho Rust: &lt;a href=&#34;https://github.com/bytebeamio/rumqtt&#34;&gt;rumqtt&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/obabec/rust-mqtt&#34;&gt;rust-mqtt&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;framework-nats-for-rust-natsrshttpsgithubcomnats-ionatsrs&#34;&gt;Framework NATS for Rust: &lt;a href=&#34;https://github.com/nats-io/nats.rs&#34;&gt;nats.rs&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Có thể sử dụng NATS cho ThingsBoard.&lt;/li&gt;
+&lt;li&gt;Sample code từ ChatGPT:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;use nats::asynk::Connection;
+use serde::{Deserialize, Serialize};
+use serde_json::json;
+use tokio::time::{sleep, Duration};
+
+#[derive(Debug, Serialize, Deserialize)]
+struct TelemetryData {
+    device_id: String,
+    temperature: f64,
+    humidity: f64,
+    timestamp: u64,
+}
+
+#[tokio::main]
+async fn main() -&amp;gt; std::io::Result&amp;lt;()&amp;gt; {
+    // Connect to the NATS server
+    let nc: Connection = nats::asynk::connect(&amp;#34;demo.nats.io&amp;#34;).await?;
+
+    // Subscribe to a subject where ThingsBoard publishes telemetry data
+    let subscription = nc.subscribe(&amp;#34;thingsboard.telemetry&amp;#34;).await?;
+
+    // Process incoming messages
+    while let Some(msg) = subscription.next().await {
+        // Parse the telemetry data (assumed to be JSON)
+        let telemetry: TelemetryData = serde_json::from_slice(&amp;amp;msg.data).expect(&amp;#34;Failed to parse telemetry data&amp;#34;);
+
+        println!(&amp;#34;Received telemetry from device {}: Temperature = {}, Humidity = {}, Timestamp = {}&amp;#34;,
+                 telemetry.device_id, telemetry.temperature, telemetry.humidity, telemetry.timestamp);
+
+        // Optionally, publish an acknowledgment or command back to ThingsBoard or another subject
+        let response_subject = format!(&amp;#34;thingsboard.ack.{}&amp;#34;, telemetry.device_id);
+        let ack_message = json!({
+            &amp;#34;device_id&amp;#34;: telemetry.device_id,
+            &amp;#34;status&amp;#34;: &amp;#34;acknowledged&amp;#34;,
+            &amp;#34;timestamp&amp;#34;: telemetry.timestamp
+        });
+
+        nc.publish(&amp;amp;response_subject, ack_message.to_string().as_bytes()).await?;
+    }
+
+    Ok(())
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;h1 id=&#34;cập-nhật-1392024&#34;&gt;Cập nhật 13/9/2024&lt;/h1&gt;
+&lt;h2 id=&#34;bài-viết-35-rust-learning-resources-every-beginner-should-know-in-2022httpsblogtheembeddedrustaceancom35-rust-learning-resources-every-beginner-should-know-in-2022&#34;&gt;Bài viết: &lt;a href=&#34;https://blog.theembeddedrustacean.com/35-rust-learning-resources-every-beginner-should-know-in-2022&#34;&gt;35 Rust Learning Resources Every Beginner Should Know in 2022&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Trong bài viết này tổng hợp rất nhiều documents cho beginner để bắt đầu với Rust.&lt;/li&gt;
+&lt;li&gt;Ở đây mình thấy có những trang rất hay, ví dụ:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;tour-of-rusthttpstourofrustcom&#34;&gt;&lt;a href=&#34;https://tourofrust.com/&#34;&gt;Tour of Rust&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Trang này có tiếng Việt và có thêm phần để run code.&lt;/p&gt;
+&lt;h3 id=&#34;a-half-hour-to-learn-rusthttpsfasterthanlimearticlesa-half-hour-to-learn-rust&#34;&gt;&lt;a href=&#34;https://fasterthanli.me/articles/a-half-hour-to-learn-rust&#34;&gt;A half-hour to learn Rust&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;a-gentle-introduction-to-rusthttpsstevedonovangithubiorust-gentle-introreadmehtml&#34;&gt;&lt;a href=&#34;https://stevedonovan.github.io/rust-gentle-intro/readme.html&#34;&gt;A Gentle Introduction To Rust&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;easy-rusthttpsdhghomongithubioeasy_rustchapter_1html&#34;&gt;&lt;a href=&#34;https://dhghomon.github.io/easy_rust/Chapter_1.html&#34;&gt;Easy Rust&lt;/a&gt;&lt;/h3&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/iot/software/rust-lang/</guid>
+      <pubDate>Fri, 13 Sep 2024 15:14:13 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Hoi_thao_2024</title>
       <link>https://vinhlin.github.io/posts/others/hoi_thao_2024/</link>
       <description>&lt;h2 id=&#34;link-video-hội-thảo-và-triển-lãm-an-toàn-thông-tin-phía-nam-2024httpswwwfacebookcomvnisahcmvideos1461942441187294&#34;&gt;Link Video: &lt;a href=&#34;https://www.facebook.com/VNISA.HCM/videos/1461942441187294&#34;&gt;Hội thảo và Triển lãm An toàn Thông tin phía Nam 2024&lt;/a&gt;&lt;/h2&gt;
@@ -630,164 +804,6 @@ https://radxa.com/products/x/x4/
       <author>VinhLD</author>
       <guid>https://vinhlin.github.io/posts/cybersecurity/technical/protect_camera/</guid>
       <pubDate>Sun, 18 Aug 2024 11:07:18 +0700</pubDate>
-    </item>
-    
-    <item>
-      <title>Rust Lang</title>
-      <link>https://vinhlin.github.io/posts/iot/software/rust-lang/</link>
-      <description>&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Rust_Embedded.png&#34;
-  alt=&#34;Rust_Embedded&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Ngày&lt;/th&gt;
-&lt;th&gt;Mô tả&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;1/4/2024&lt;/td&gt;
-&lt;td&gt;Khởi tạo bài viết&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;17/8/2024&lt;/td&gt;
-&lt;td&gt;Cập nhật bài viết, thêm thông tin về Rust-lang&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;hạn-chế&#34;&gt;Hạn chế&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://users.rust-lang.org/t/why-is-there-so-much-mismanagement-in-the-rust-foundation-and-core-team/94822&#34;&gt;Năm 2023 xảy ra nhiều dramma của Rust Found&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Rust là ngôn ngữ &lt;strong&gt;khó học, code khó&lt;/strong&gt;.
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=EYCBm0xAWow&amp;amp;list=LL&amp;amp;index=3&#34;&gt;5 things I wish I knew before learning Rust&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=fknamfNtKk0&#34;&gt;Why do developers hate Rust?&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Cộng đồng &lt;strong&gt;DEV&lt;/strong&gt; chưa quá đông như Golang. &lt;a href=&#34;https://spectrum.ieee.org/the-top-programming-languages-2023&#34;&gt;Top Programming Languages 2023&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;lợi-ích&#34;&gt;Lợi ích&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Rust là ngôn ngữ &lt;strong&gt;low level&lt;/strong&gt;, được sử dụng cho nhiều mục đích khác nhau:
-&lt;ul&gt;
-&lt;li&gt;Dùng để code nhúng.&lt;/li&gt;
-&lt;li&gt;Dùng để code phía Server.&lt;/li&gt;
-&lt;li&gt;Có thể dùng để code OS - như &lt;a href=&#34;https://rust-for-linux.com/&#34;&gt;Rust for Linux&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Rust chú trọng vào sự an toàn - &lt;strong&gt;memory safety&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Cộng đồng Rust vẫn đang phát triển. &lt;a href=&#34;https://pypl.github.io/PYPL.html&#34;&gt;Dựa trên báo cáo thì số lượt tìm kiếm hướng dẫn lập trình Rust đã tăng hơn Golang&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;rust-roadmaphttpsroadmapshrust&#34;&gt;&lt;a href=&#34;https://roadmap.sh/rust&#34;&gt;Rust Roadmap&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id=&#34;tài-liệu-về-rust&#34;&gt;Tài liệu về Rust&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.jetbrains.com/help/rust/getting-started.html&#34;&gt;Rust IDE - RustRover&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://docs.rust-embedded.org/book/&#34;&gt;The Embedded Rust Book&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://std-dev-guide.rust-lang.org/&#34;&gt;Standard library developers Guide&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://blog.rust-lang.org/&#34;&gt;Blog Rust&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://doc.rust-lang.org/rust-by-example/index.html&#34;&gt;Rust By Example&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://rust-tieng-viet.github.io/getting-started/first-project.html&#34;&gt;Rust Tiếng Việt&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=rAl-9HwD858&amp;amp;list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa&amp;amp;index=3&#34;&gt;Youtube - Crust of Rust&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/@letsgetrusty&#34;&gt;Youtube - Let&amp;rsquo;s Get Rusty&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://docs.google.com/document/d/1kQidzAlbqapu-WZTuw4Djik0uTqMZYyiMXTM9F21Dz4/edit?lid=75778#heading=h.gjdgxs&#34;&gt;Rust Cheatsheet&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://os.phil-opp.com/&#34;&gt;Writing an OS in Rust&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h1 id=&#34;cập-nhật-1782024&#34;&gt;Cập nhật 17/8/2024&lt;/h1&gt;
-&lt;h3 id=&#34;youtube-where-is-rust-being-usedhttpswwwyoutubecomwatchv42fhqwq6sva&#34;&gt;Youtube: &lt;a href=&#34;https://www.youtube.com/watch?v=42FhQWQ6SVA&#34;&gt;Where is Rust being used?&lt;/a&gt;&lt;/h3&gt;
-&lt;h2 id=&#34;tổng-hợp-rust-is-for-roboticshttpsroboticsrs&#34;&gt;Tổng hợp &lt;a href=&#34;https://robotics.rs/&#34;&gt;Rust is for Robotics&lt;/a&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Project &lt;a href=&#34;https://github.com/ros2-rust/ros2_rust&#34;&gt;ros2_rust&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Project &lt;a href=&#34;https://github.com/Sollimann/CleanIt&#34;&gt;CleanIt&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;doc-offline-first-smart-energy-monitor-with-rust-esp32-and-thingsboardhttpsmoslehiancomposts20223-ofmon&#34;&gt;Doc: &lt;a href=&#34;https://moslehian.com/posts/2022/3-ofmon/&#34;&gt;Offline-first Smart Energy Monitor with Rust, ESP32, and Thingsboard&lt;/a&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/Nereuxofficial/nostd-wifi-lamp&#34;&gt;nostd-wifi-lamp&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/JurajSadel/esp32c3-no-std-async-mqtt-demo&#34;&gt;esp32c3-no-std-async-mqtt-demo&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;framework-cho-mqtt-cho-rust-rumqtthttpsgithubcombytebeamiorumqtt&#34;&gt;Framework cho MQTT cho Rust: &lt;a href=&#34;https://github.com/bytebeamio/rumqtt&#34;&gt;rumqtt&lt;/a&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/obabec/rust-mqtt&#34;&gt;rust-mqtt&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;framework-nats-for-rust-natsrshttpsgithubcomnats-ionatsrs&#34;&gt;Framework NATS for Rust: &lt;a href=&#34;https://github.com/nats-io/nats.rs&#34;&gt;nats.rs&lt;/a&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Có thể sử dụng NATS cho ThingsBoard.&lt;/li&gt;
-&lt;li&gt;Sample code từ ChatGPT:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;use nats::asynk::Connection;
-use serde::{Deserialize, Serialize};
-use serde_json::json;
-use tokio::time::{sleep, Duration};
-
-#[derive(Debug, Serialize, Deserialize)]
-struct TelemetryData {
-    device_id: String,
-    temperature: f64,
-    humidity: f64,
-    timestamp: u64,
-}
-
-#[tokio::main]
-async fn main() -&amp;gt; std::io::Result&amp;lt;()&amp;gt; {
-    // Connect to the NATS server
-    let nc: Connection = nats::asynk::connect(&amp;#34;demo.nats.io&amp;#34;).await?;
-
-    // Subscribe to a subject where ThingsBoard publishes telemetry data
-    let subscription = nc.subscribe(&amp;#34;thingsboard.telemetry&amp;#34;).await?;
-
-    // Process incoming messages
-    while let Some(msg) = subscription.next().await {
-        // Parse the telemetry data (assumed to be JSON)
-        let telemetry: TelemetryData = serde_json::from_slice(&amp;amp;msg.data).expect(&amp;#34;Failed to parse telemetry data&amp;#34;);
-
-        println!(&amp;#34;Received telemetry from device {}: Temperature = {}, Humidity = {}, Timestamp = {}&amp;#34;,
-                 telemetry.device_id, telemetry.temperature, telemetry.humidity, telemetry.timestamp);
-
-        // Optionally, publish an acknowledgment or command back to ThingsBoard or another subject
-        let response_subject = format!(&amp;#34;thingsboard.ack.{}&amp;#34;, telemetry.device_id);
-        let ack_message = json!({
-            &amp;#34;device_id&amp;#34;: telemetry.device_id,
-            &amp;#34;status&amp;#34;: &amp;#34;acknowledged&amp;#34;,
-            &amp;#34;timestamp&amp;#34;: telemetry.timestamp
-        });
-
-        nc.publish(&amp;amp;response_subject, ack_message.to_string().as_bytes()).await?;
-    }
-
-    Ok(())
-}
-&lt;/code&gt;&lt;/pre&gt;</description>
-      <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/iot/software/rust-lang/</guid>
-      <pubDate>Sat, 17 Aug 2024 18:14:13 +0700</pubDate>
     </item>
     
     <item>
