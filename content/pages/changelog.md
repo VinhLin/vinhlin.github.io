@@ -18,6 +18,7 @@ STT |		Tiêu đề			|		Mô tả				|
 5   | [Radxa_X4][Radxa_X4]		| Ghi chú về một sản phẩm SBC, kết hợp kiến trúc `x86` vs `ARM` |
 6   | [Kien_truc_may_tinh][May_tinh]	| Ghi chú về **Kiến trúc máy tính**		|
 7   | [Box_RFID][Box_RFID]		| Thành quả research và viết fireware cho bộ đọc RFID |
+8   | [CAN_OBDII][CAN_OBDII]		| Ghi chú và tìm hiểu khái niệm về **CAN Bus** và chuẩn **OBD** |
 
 [UNIHIKER]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/unihiker/
 [ESD]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/esd/
@@ -26,6 +27,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [Radxa_X4]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/radxa_x4/
 [May_tinh]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/kien_truc_may_tinh/
 [Box_RFID]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/box_rfid/
+[CAN_OBDII]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/can_obdii/
 
 ## <mark>SOFTWARE</mark>
 
