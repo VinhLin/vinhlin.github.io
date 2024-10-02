@@ -5,27 +5,29 @@ draft = true
 +++
 
 Bữa lang thang trên diễn đàn **CISSP trên facebook**, mình thấy một **JD về Security cho IoT**. Mình thấy JD này đầy đủ và cụ thể:
-```
-VNPT Cyber Immunity tìm kiếm ứng viên đam mê làm Security cho các thiết bị UAV, drone, IoT, satellite,...
-Nếu trái tim bạn rực cháy với niềm đam mê nghiên cứu bảo mật, hãy để VCI tiếp lửa cho bạn. Bạn sẽ là mảnh ghép VCI, nếu bạn:
-Có kỹ năng dịch ngược phần mềm (Reverse Engineering) và tìm kiếm lỗ hổng từ file thực thi đó
-Thông thạo kỹ năng dịch ngược phần cứng, bóc tách chip nhớ của mạch IoT, đọc sửa chip nhớ, mod firmware
-Thông thạo kỹ năng khai thác lỗ hổng phần mềm, tối thiểu nắm vững các kỹ thuật khai thác cơ bản như: BoF, ROP, bypass DEP, command injection, v.v....
-Có kỹ năng Source code review + Pentest blackbox các các thiết bị IoT
-Đam mê với lĩnh vực bảo mật thiết bị IoT và luôn tìm kiếm sự đổi mới
-Bạn sẽ là vai chính trong các dự án lớn nhỏ của chúng mình và đảm nhận trách nhiệm:
-Kiểm định, đánh giá an toàn bảo mật với các thiết bị IoT, router, wifi, mesh, v.v... trước khi hòa mạng vào hệ thống mạng băng rộng VNPT
-Nghiên cứu, đánh giá ATTT các thiết bị, sản phẩm kết nối không dây, điều khiển không dây (Vệ tinh, UAV, DRONE, …)
-Nghiên cứu, đánh giá ATTT các hạ tầng truyền dẫn, các giao thức truyền thông radio IoT, giao thức tầng ứng dụng MQTT, CoAPP, Socket, …
-Nghiên cứu phát triển các giải pháp đảm bảo ATTT (Giải pháp VNPT IoT Guard,…) cho các thiết bị IoT, Mobile
-VCI sẽ là người bạn đồng hành cùng bạn trên chặng đường chinh phục bảo mật IoT:
-Gia nhập VCI, bạn sẽ đóng vai chính cho các dự án
-Làm việc trong môi trường chuyên nghiệp, trẻ trung, hiện đại với nhiều cơ hội phát triển nghề nghiệp, nơi mọi ý tưởng đều được hoan nghênh
-Chế độ đãi ngộ hấp dẫn và review lương theo năng lực
-Chúng mình bắt đầu làm việc từ 8h và tan làm lúc 17h từ thứ 2 đến thứ 6, và dùng cuối tuần để tận hưởng thời gian riêng cho bản thân
-Nếu bạn cảm thấy “match” với tần số của chúng mình, hãy gửi hồ sơ (CV) để ứng tuyển ngay nhé!
-Hồ sơ ứng viên xin gửi về địa chỉ email: security@vnpt.vn
-```
+
+> VNPT Cyber Immunity tìm kiếm ứng viên đam mê làm Security cho các thiết bị **UAV, drone, IoT, satellite,...** </br>
+> Nếu trái tim bạn rực cháy với niềm đam mê nghiên cứu bảo mật, hãy để VCI tiếp lửa cho bạn. Bạn sẽ là mảnh ghép VCI, nếu bạn: </br>
+> - Có kỹ năng **dịch ngược phần mềm (Reverse Engineering)** và tìm kiếm lỗ hổng từ file thực thi đó. </br>
+> - Thông thạo kỹ năng dịch ngược phần cứng, bóc tách chip nhớ của mạch IoT, đọc sửa chip nhớ, mod firmware. </br>
+> - Thông thạo kỹ năng **khai thác lỗ hổng phần mềm**, tối thiểu nắm vững các kỹ thuật khai thác cơ bản như: BoF, ROP, bypass DEP, command injection, v.v.... </br>
+> - Có kỹ năng **Source code review + Pentest blackbox** các các thiết bị IoT </br>
+> - Đam mê với lĩnh vực bảo mật thiết bị IoT và luôn tìm kiếm sự đổi mới </br>
+>
+> Bạn sẽ là vai chính trong các dự án lớn nhỏ của chúng mình và đảm nhận trách nhiệm: </br>
+> - Kiểm định, đánh giá an toàn bảo mật với các thiết bị IoT, router, wifi, mesh, v.v... trước khi hòa mạng vào hệ thống mạng băng rộng VNPT </br>
+> - Nghiên cứu, đánh giá ATTT các thiết bị, sản phẩm kết nối không dây, điều khiển không dây (Vệ tinh, UAV, DRONE, …) </br>
+> - Nghiên cứu, đánh giá ATTT các hạ tầng truyền dẫn, các giao thức truyền thông radio IoT, giao thức tầng ứng dụng MQTT, CoAPP, Socket, … </br>
+> - Nghiên cứu phát triển các giải pháp đảm bảo ATTT (Giải pháp VNPT IoT Guard,…) cho các thiết bị IoT, Mobile </br>
+>
+> VCI sẽ là người bạn đồng hành cùng bạn trên chặng đường chinh phục bảo mật IoT: </br>
+> - Gia nhập VCI, bạn sẽ đóng vai chính cho các dự án </br>
+> - Làm việc trong môi trường chuyên nghiệp, trẻ trung, hiện đại với nhiều cơ hội phát triển nghề nghiệp, nơi mọi ý tưởng đều được hoan nghênh </br>
+> - Chế độ đãi ngộ hấp dẫn và review lương theo năng lực </br>
+>
+> Chúng mình bắt đầu làm việc từ 8h và tan làm lúc 17h từ thứ 2 đến thứ 6, và dùng cuối tuần để tận hưởng thời gian riêng cho bản thân </br>
+> Nếu bạn cảm thấy “match” với tần số của chúng mình, hãy gửi hồ sơ (CV) để ứng tuyển ngay nhé! </br>
+> Hồ sơ ứng viên xin gửi về địa chỉ email: security@vnpt.vn </br>
 
 ## Reverse
 Đây là kỹ năng mà mình cần rèn luyện và trau dồi.

@@ -1653,26 +1653,34 @@ async fn no_tag_cr95hf(
       <title>IoT_Security_JD</title>
       <link>https://vinhlin.github.io/posts/others/iot_security_jd/</link>
       <description>&lt;p&gt;Bữa lang thang trên diễn đàn &lt;strong&gt;CISSP trên facebook&lt;/strong&gt;, mình thấy một &lt;strong&gt;JD về Security cho IoT&lt;/strong&gt;. Mình thấy JD này đầy đủ và cụ thể:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;VNPT Cyber Immunity tìm kiếm ứng viên đam mê làm Security cho các thiết bị UAV, drone, IoT, satellite,...
-Nếu trái tim bạn rực cháy với niềm đam mê nghiên cứu bảo mật, hãy để VCI tiếp lửa cho bạn. Bạn sẽ là mảnh ghép VCI, nếu bạn:
-Có kỹ năng dịch ngược phần mềm (Reverse Engineering) và tìm kiếm lỗ hổng từ file thực thi đó
-Thông thạo kỹ năng dịch ngược phần cứng, bóc tách chip nhớ của mạch IoT, đọc sửa chip nhớ, mod firmware
-Thông thạo kỹ năng khai thác lỗ hổng phần mềm, tối thiểu nắm vững các kỹ thuật khai thác cơ bản như: BoF, ROP, bypass DEP, command injection, v.v....
-Có kỹ năng Source code review + Pentest blackbox các các thiết bị IoT
-Đam mê với lĩnh vực bảo mật thiết bị IoT và luôn tìm kiếm sự đổi mới
-Bạn sẽ là vai chính trong các dự án lớn nhỏ của chúng mình và đảm nhận trách nhiệm:
-Kiểm định, đánh giá an toàn bảo mật với các thiết bị IoT, router, wifi, mesh, v.v... trước khi hòa mạng vào hệ thống mạng băng rộng VNPT
-Nghiên cứu, đánh giá ATTT các thiết bị, sản phẩm kết nối không dây, điều khiển không dây (Vệ tinh, UAV, DRONE, …)
-Nghiên cứu, đánh giá ATTT các hạ tầng truyền dẫn, các giao thức truyền thông radio IoT, giao thức tầng ứng dụng MQTT, CoAPP, Socket, …
-Nghiên cứu phát triển các giải pháp đảm bảo ATTT (Giải pháp VNPT IoT Guard,…) cho các thiết bị IoT, Mobile
-VCI sẽ là người bạn đồng hành cùng bạn trên chặng đường chinh phục bảo mật IoT:
-Gia nhập VCI, bạn sẽ đóng vai chính cho các dự án
-Làm việc trong môi trường chuyên nghiệp, trẻ trung, hiện đại với nhiều cơ hội phát triển nghề nghiệp, nơi mọi ý tưởng đều được hoan nghênh
-Chế độ đãi ngộ hấp dẫn và review lương theo năng lực
-Chúng mình bắt đầu làm việc từ 8h và tan làm lúc 17h từ thứ 2 đến thứ 6, và dùng cuối tuần để tận hưởng thời gian riêng cho bản thân
-Nếu bạn cảm thấy “match” với tần số của chúng mình, hãy gửi hồ sơ (CV) để ứng tuyển ngay nhé!
-Hồ sơ ứng viên xin gửi về địa chỉ email: security@vnpt.vn
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;reverse&#34;&gt;Reverse&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;VNPT Cyber Immunity tìm kiếm ứng viên đam mê làm Security cho các thiết bị &lt;strong&gt;UAV, drone, IoT, satellite,&amp;hellip;&lt;/strong&gt; &lt;/br&gt;
+Nếu trái tim bạn rực cháy với niềm đam mê nghiên cứu bảo mật, hãy để VCI tiếp lửa cho bạn. Bạn sẽ là mảnh ghép VCI, nếu bạn: &lt;/br&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Có kỹ năng &lt;strong&gt;dịch ngược phần mềm (Reverse Engineering)&lt;/strong&gt; và tìm kiếm lỗ hổng từ file thực thi đó. &lt;/br&gt;&lt;/li&gt;
+&lt;li&gt;Thông thạo kỹ năng dịch ngược phần cứng, bóc tách chip nhớ của mạch IoT, đọc sửa chip nhớ, mod firmware. &lt;/br&gt;&lt;/li&gt;
+&lt;li&gt;Thông thạo kỹ năng &lt;strong&gt;khai thác lỗ hổng phần mềm&lt;/strong&gt;, tối thiểu nắm vững các kỹ thuật khai thác cơ bản như: BoF, ROP, bypass DEP, command injection, v.v&amp;hellip;. &lt;/br&gt;&lt;/li&gt;
+&lt;li&gt;Có kỹ năng &lt;strong&gt;Source code review + Pentest blackbox&lt;/strong&gt; các các thiết bị IoT &lt;/br&gt;&lt;/li&gt;
+&lt;li&gt;Đam mê với lĩnh vực bảo mật thiết bị IoT và luôn tìm kiếm sự đổi mới &lt;/br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Bạn sẽ là vai chính trong các dự án lớn nhỏ của chúng mình và đảm nhận trách nhiệm: &lt;/br&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Kiểm định, đánh giá an toàn bảo mật với các thiết bị IoT, router, wifi, mesh, v.v&amp;hellip; trước khi hòa mạng vào hệ thống mạng băng rộng VNPT &lt;/br&gt;&lt;/li&gt;
+&lt;li&gt;Nghiên cứu, đánh giá ATTT các thiết bị, sản phẩm kết nối không dây, điều khiển không dây (Vệ tinh, UAV, DRONE, …) &lt;/br&gt;&lt;/li&gt;
+&lt;li&gt;Nghiên cứu, đánh giá ATTT các hạ tầng truyền dẫn, các giao thức truyền thông radio IoT, giao thức tầng ứng dụng MQTT, CoAPP, Socket, … &lt;/br&gt;&lt;/li&gt;
+&lt;li&gt;Nghiên cứu phát triển các giải pháp đảm bảo ATTT (Giải pháp VNPT IoT Guard,…) cho các thiết bị IoT, Mobile &lt;/br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;VCI sẽ là người bạn đồng hành cùng bạn trên chặng đường chinh phục bảo mật IoT: &lt;/br&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Gia nhập VCI, bạn sẽ đóng vai chính cho các dự án &lt;/br&gt;&lt;/li&gt;
+&lt;li&gt;Làm việc trong môi trường chuyên nghiệp, trẻ trung, hiện đại với nhiều cơ hội phát triển nghề nghiệp, nơi mọi ý tưởng đều được hoan nghênh &lt;/br&gt;&lt;/li&gt;
+&lt;li&gt;Chế độ đãi ngộ hấp dẫn và review lương theo năng lực &lt;/br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Chúng mình bắt đầu làm việc từ 8h và tan làm lúc 17h từ thứ 2 đến thứ 6, và dùng cuối tuần để tận hưởng thời gian riêng cho bản thân &lt;/br&gt;
+Nếu bạn cảm thấy “match” với tần số của chúng mình, hãy gửi hồ sơ (CV) để ứng tuyển ngay nhé! &lt;/br&gt;
+Hồ sơ ứng viên xin gửi về địa chỉ email: &lt;a href=&#34;mailto:security@vnpt.vn&#34;&gt;security@vnpt.vn&lt;/a&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;reverse&#34;&gt;Reverse&lt;/h2&gt;
 &lt;p&gt;Đây là kỹ năng mà mình cần rèn luyện và trau dồi.&lt;/p&gt;
 &lt;h3 id=&#34;dịch-ngược-phần-cứng&#34;&gt;Dịch ngược Phần cứng&lt;/h3&gt;
 &lt;ul&gt;

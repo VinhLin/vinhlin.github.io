@@ -18,7 +18,7 @@ Ngoài việc ghi chú lại kiến thức thì blog này cũng sẽ là nơi đ
 
 # 🌱 Projects
 
-## HOMELAB Server
+## <mark>HOMELAB Server</mark>
 - Bản thân là một người thích tìm hiểu cái mới.
 - Nên ngoài chuyên môn về điện tử, mình có học và tìm hiểu thêm về **Network**, **System** và **Security**.
 - Đó là lý do mình tự build cho bản thân một server nho nhỏ, nơi mình sẽ áp dụng những kiến thức mới.
@@ -28,22 +28,22 @@ Ngoài việc ghi chú lại kiến thức thì blog này cũng sẽ là nơi đ
 
 ![Dashboard_HL](/image/Dashboard_HOMELAB.png)
 
-## Rust Embedded Projects
+## <mark>Rust Embedded Projects</mark>
 - Do yêu cầu công việc, nên hiện mình đang tìm hiểu và học [ngôn ngữ lập trình Rust](https://blog.vinhld-homelab.io.vn/posts/iot/software/rust-lang/)
 - Bản thân đang làm trong lĩnh vực **nhúng (Embedded)** (cụ thể là về *thiết bị Giám sát hành trình*), cộng thêm việc mình cũng có tìm hiểu về **Security**.
-- Nên mình thấy quyết định học Rust là một điều đúng đắn (*không chỉ là do yêu cầu công việc*).
+- Nên mình thấy quyết định học Rust là một điều đúng đắn *(không chỉ là do yêu cầu công việc)*.
 
-### Project: Rust Tracking (Doing)
+### Project: Rust Tracking
 - Để trau dồi thêm khả năng code bằng Rust, mình có tự setup một dự án cho bản thân, tên dự án hiện tại là `Rust_Tracking`.
 - Dùng Rust để viết Firmware cho thiết bị GPS, sau đó gửi dữ liệu lên [IoT Platform - ThingsBoard](https://www.vinhld-homelab.io.vn/login). IoT Platform này mình cũng tự build dựa trên hạ tầng hiện tại.
 
 ### Project: Rust-RFID
 - Đây là dự án mở rộng cho thiết bị GSHT, tức là làm một bộ RFID riêng, đọc thông tin thẻ tài xế và gửi sang thiết bị tracking.
 - Sản phẩm hiện tại đã hoàn thiện cả về phần cứng và firmware, đây là dự án nho nhỏ để bắt đầu dần làm quen với rust.
-- [Thông tin tham khảo](https://blog.vinhld-homelab.io.vn/posts/iot/hardware/box_rfid/)
+- Thông tin tham khảo [tại đây](https://blog.vinhld-homelab.io.vn/posts/iot/hardware/box_rfid/).
 
 ### Project: CAN_OBDII
-- Đây là dự án tiếp theo sau khi đã hoàn thành dự án **Rust-RFID**. Mục tiêu vẫn là sử dụng Rust để code firmware.
+- Đây là dự án tiếp theo sau khi đã hoàn thành dự án *Rust-RFID*. Mục tiêu vẫn là sử dụng Rust để code firmware.
 - Hiện tại chỉ mới khởi động, và tìm hiểu về CAN với OBDII.
 
 ## Others Information:
