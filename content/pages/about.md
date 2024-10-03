@@ -8,43 +8,23 @@ draft = true
 
 ## [My Resume](../CV_VinhLD_14082024.pdf)
 
-Mình từng học **Vật lý** tại trường Đại học Khoa học Tự nhiên TPHCM, với chuyên ngành là **Vật lý điện tử**.
+Xin chào,
 
-Hiện tại đang làm việc trong lĩnh vực **Điện tử/IoT**, cụ thể là thiết bị hộp đen (GSHT).
+Đầu tiên xin giới thiệu, mình tên là **Lin Đức Vinh**. 
 
-Cùng với sự yêu thích về Công nghệ, mình đã học và tự tìm hiểu thêm về **Cyber-Security** (cả về Blue Team và Red Team).
+Học chuyên nghành **Vật lý điện tử** tại trường ĐHKHTN, và hiện mình đang làm trong lĩnh vực **IoT**.
 
-Với mong muốn học hỏi, trau dồi thì mình vẫn không ngừng mở rộng "cái giếng" của bản thân.
+Cùng với sự yêu thích về Công nghệ, và nhu cầu của thời đại, mình dần dần tham gia và trau dồi bản thân về lĩnh vực **Cyber-Security**.
 
-## 👨‍💻 Dự án cá nhân: [HOMELAB Server](https://www.vinhld-homelab.io.vn)
-Mình áp dụng những kiến thức của bản thân để tự build lên hệ thống với 2 mục đích chính *(phục vụ nhu cầu cá nhân và cho gia đình)*:
+Cyber-Security là một lĩnh vực rất rộng, do đó với góc nhìn của mình, nếu không làm trong lĩnh vực Ngân hàng - Tài chính (hoặc liên quan đến Chính phủ) thì khó mà tập trung chỉ làm về **An ninh mạng**.
 
-### Dựng hệ thống network cho gia đình, bao gồm CCTV và WIFI.
-- Vì ở nhà, mẹ mình có cửa hàng tạp hóa nhỏ. Nên sẽ cần Camera giám sát.
-- Nếu ở nhà có người biết về cái này, thì mẹ mình sẽ đỡ mất chi phí bảo trì.
-- Mình làm trong lĩnh vực IoT nên biết, hầu hết các thiết bị camera trên thị trường thì đều xuất xứ từ Trung Quốc, sẽ gửi dữ liệu về bên TQ và mình thì lại không muốn điều này.
-- Mình giám sát ở local, chặn các thông tin gửi đi không cần thiết từ camera. Còn nếu muốn giám sát từ xa thì đã có **VPN**.
-- Ngoài ra mình có dùng **Aruba-AP** để phát wifi trong khu vực cửa hàng.
+Security như một yếu tố cộng thêm (nhưng **cấp bách**) để bổ trợ cho vai trò chính nào đó, ví dụ như: Network Security, System Security, DevSecOps,...
 
-### Trau dồi, học tập, nâng cao kiến thức về IoT, Security và DevOps.
-- Dự án là nơi mình **tự học**, trau dồi, và cải thiện thêm về kiến thức chuyên môn.
-- Core thì vẫn là **IoT/Điện tử**, nhưng mình vẫn phát triển những kỹ năng **vệ tinh** như Security và DevOps.
-- Mục tiêu là trở thành **Chuyên gia theo chiều ngang**.
+Do đó với *năng lực cốt lỗi* về ***Điện tử/IoT***, mình định hình bản thân phát triển trở thành một <mark>chuyên gia theo chiều ngang</mark>. Dựa vào kiến thức của bản thân, mình đã xây dựng cho bản thân roadmap `Embedded System Security`
 
-## 🌱 TODO List:
-- Tìm hiểu sâu hơn về **Wazuh (SIEM)**: FIM, SCA, MISP,... 
-- Build và làm lại các bài lab về Web-Pentest bên CyberJutsu.
-- Backup data và VMWare Image cho hệ thống.
-- Build một **NAS-Server** dựa trên **Raspberry CM4**.
-- Xây dựng quy trình **pipline CI/CD** cho trang Blog này.
-- Dựng và xây dựng pipline cho một **FTP Server**. Mục tiêu là để **OTA** cho thiết bị Tracking.
-- Tìm hiểu thêm về **IoT Firmware Reverse**.
+Cùng với các kỹ năng vệ tinh khác như: System, Security, Network, DevOps. Mình vẫn sẽ tiếp tục củng cố, trau dồi để **làm đầy** roadmap này.
 
-## 🔭 Mục tiêu sự nghiệp: Chuyên gia về lĩnh vực **IoT Security**.
-- Về Security thì mình sẽ focus vào:
-	- **Web Pentest**: Vì các ứng dụng nhúng luôn giao tiếp với Server qua API, hoặc bản thân thiết bị đó đã có một ứng dụng web (localhost).
-	- **IoT Firmware Reverse**
-- Dựa vào kiến thức hiện tại và những mục tiêu trong tương lai, mình có tự xây dựng [Roadmap cho bản thân](/image/Career_RoadmapHard-Skills.png).
+### EMBEDDED SYSTEM SECURITY
 
-![IoT](/image/iot.jpg)
+![Embedded_Security](/image/EMBEDDED_SYSTEM_SECURITY.png)
 

@@ -4,10 +4,9 @@ date = 2024-08-26T15:21:41+07:00
 draft = true
 +++
 
----------------------------------------------------------------------------------------
-# Embedded - IoT
+# <mark>Embedded - IoT</mark>
 
-## <mark>HARDWARE</mark>
+## ***HARDWARE***
 
 STT |		Tiêu đề			|		Mô tả				|
 ----|-----------------------------------|-----------------------------------------------|
@@ -29,7 +28,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [Box_RFID]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/box_rfid/
 [CAN_OBDII]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/can_obdii/
 
-## <mark>SOFTWARE</mark>
+## ***SOFTWARE***
 
 STT |		Tiêu đề			|		Mô tả				|
 ----|-----------------------------------|-----------------------------------------------|
@@ -70,7 +69,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [RW_UART]: https://blog.vinhld-homelab.io.vn/posts/iot/software/read_write_uart_stm32fx/
 
 -----------------------------------------------------------------------------------------
-# CyberSecurity
+# <mark>CyberSecurity</mark>
 
 STT |		Tiêu đề			|		Mô tả				|
 ----|-----------------------------------|-----------------------------------------------|
@@ -82,7 +81,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [Tools]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/tools/
 [RedTeam]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/readteam/
 
-## <mark>Technical</mark>
+## ***Technical***
 > Tổng hợp các ghi chú về **Công cụ**, **Kỹ thuật** cũng như **Tư duy** về cả Blue-Team và Red-Team <br>
 
 STT |		Tiêu đề			|		Mô tả				|
@@ -110,7 +109,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [NFC_PWA]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/nfc_pwa/
 
 -----------------------------------------------------------------------------------------
-# Others
+# <mark>Others</mark>
 > Những bài viết về **góc nhìn**, **nhận định cá nhân** <br>
 
 STT |		Tiêu đề			|		Mô tả				|
