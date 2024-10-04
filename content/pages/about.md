@@ -24,6 +24,22 @@ Do đó với *năng lực cốt lỗi* về ***Điện tử/IoT***, mình đị
 
 Cùng với các kỹ năng vệ tinh khác như: System, Security, Network, DevOps. Mình vẫn sẽ tiếp tục củng cố, trau dồi để **làm đầy** roadmap này.
 
+> Hello,
+>
+> First, let me introduce myself. My name is **Lin Đức Vinh**.
+>
+> I majored in **Electronic Physics** at the University of Science, and I am currently working in the **IoT** field.
+>
+> With a passion for technology and the demands of the era, I gradually became involved in and developed myself in the field of **Cybersecurity**.
+>
+> Cybersecurity is a vast field. From my perspective, unless you're working in the Banking & Finance sector (or Government-related areas), it’s difficult to focus solely on **Cybersecurity**.
+>
+> Security often serves as an additional (but **urgent**) factor that supports another primary role, such as Network Security, System Security, DevSecOps, etc.
+> 
+> Therefore, with *my core expertise* in **Electronics/IoT**, I envision myself developing into a <mark>horizontally expert</mark>. Based on my knowledge, I have built a roadmap for myself in `Embedded System Security`.
+>
+> Alongside other peripheral skills such as System, Security, Network, and DevOps, I will continue to strengthen and hone these skills to complete this roadmap.
+
 ### EMBEDDED SYSTEM SECURITY
 
 ![Embedded_Security](/image/EMBEDDED_SYSTEM_SECURITY.png)
