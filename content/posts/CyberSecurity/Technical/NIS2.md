@@ -30,13 +30,7 @@ draft = true
 
 - **Phát hiện và báo cáo sự cố**: NIS2 cũng yêu cầu có các công cụ để nhanh chóng phát hiện các sự cố và có thể thực hiện hành động phản ứng tức thời với các vi phạm an ninh.
 
--------------------------------------------------------------------------------------
-![IoT Security](/image/IoT/IoT_Security.jpg)
-
-
-
-
-
+![OT](/image/IoT/OT.jfif)
 
 
 

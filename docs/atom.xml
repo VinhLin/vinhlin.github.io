@@ -14,6 +14,145 @@
     
     
     <item>
+      <title>Car_Hacking</title>
+      <link>https://vinhlin.github.io/posts/iot/hardware/car_hacking/</link>
+      <description>&lt;h1 id=&#34;book-the-car-hacker-handbookhttpsdocsalexomarcombibliotecathecarhackershandbookpdf&#34;&gt;Book: &lt;a href=&#34;https://docs.alexomar.com/biblioteca/thecarhackershandbook.pdf&#34;&gt;The Car Hacker Handbook&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Car_Hacking/Car_Hacking.jpg&#34;
+  alt=&#34;Car Hacking&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Trong quá trình tìm hiểu về &lt;code&gt;CAN - OBDII&lt;/code&gt; vô tình &lt;strong&gt;lụm&lt;/strong&gt; được tài liệu về &lt;strong&gt;Car Hacking&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Có những thông tin, kiến thức mà thông thường tìm hiểu về CAN-Bus sẽ không thấy. Từ những &lt;strong&gt;key-work&lt;/strong&gt; này lại tiếp tục research thêm, và có thêm được những thông tin thú vị khác.&lt;/p&gt;
+&lt;h2 id=&#34;can-bus-packet&#34;&gt;CAN Bus Packet&lt;/h2&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Car_Hacking/Hinh_1.png&#34;
+  alt=&#34;Hinh_1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Điểm đặc trưng của CAN bus là các gói tin được phát quảng bá &lt;strong&gt;(broadcast)&lt;/strong&gt; đến tất cả các thiết bị (controllers) trên cùng mạng, giống như cách UDP hoạt động trên mạng Ethernet.&lt;/p&gt;
+&lt;p&gt;Một số vấn đề chính liên quan đến cơ chế này:&lt;/p&gt;
+&lt;h3 id=&#34;phát-quảng-bá-trên-can-bus&#34;&gt;Phát quảng bá trên CAN bus&lt;/h3&gt;
+&lt;p&gt;Trong mạng CAN bus, các gói tin (packets) được gửi ra sẽ không chỉ định đích cụ thể cho một thiết bị nào mà thay vào đó, tất cả các node (thiết bị) trên bus sẽ nhận được gói tin đó. Điều này có nghĩa là:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Mọi thiết bị trên cùng một mạng CAN đều nhìn thấy mọi gói tin&lt;/strong&gt;. &lt;/br&gt;
+Các thiết bị sẽ tự quyết định liệu có xử lý gói tin hay bỏ qua nó, dựa trên ID của gói tin. Gói tin chứa một trường ID (identifier) để các thiết bị nhận diện loại dữ liệu và quyết định liệu nó có phải xử lý thông tin hay không. &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;không-có-thông-tin-về-nguồn-gốc-của-gói-tin&#34;&gt;Không có thông tin về nguồn gốc của gói tin&lt;/h3&gt;
+&lt;p&gt;Các gói tin trên CAN bus không chứa thông tin về nguồn gốc (tức là không có địa chỉ của thiết bị gửi), mà chỉ có ID của thông điệp. Điều này tạo ra một số vấn đề:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Không có cách để biết được thiết bị nào đã gửi gói tin&lt;/strong&gt;, điều này có thể gây ra khó khăn trong việc giám sát và bảo mật. &lt;/br&gt;
+&lt;strong&gt;Giả lập thiết bị khác&lt;/strong&gt;: Bất kỳ thiết bị nào trên mạng CAN đều có thể gửi gói tin với ID bất kỳ. Điều này có nghĩa là nếu một thiết bị hoặc một kẻ tấn công muốn giả lập một thiết bị khác, họ có thể dễ dàng gửi các gói tin với ID của thiết bị cần giả lập, khiến các thiết bị khác nghĩ rằng dữ liệu đến từ thiết bị chính thức. &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;tấn-công-trên-can-bus&#34;&gt;Tấn công trên CAN bus&lt;/h3&gt;
+&lt;p&gt;Do tính chất mở và phát quảng bá của CAN bus, nó dễ trở thành mục tiêu cho các cuộc tấn công:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Tấn công giả lập (Spoofing)&lt;/strong&gt;: Như đã nêu, kẻ tấn công có thể gửi các gói tin giả mạo từ một thiết bị khác mà các node khác không thể phân biệt được, vì CAN không có cách để xác minh nguồn gốc của gói tin. &lt;/br&gt;
+&lt;strong&gt;Tấn công phát ngập (Flooding)&lt;/strong&gt;: Kẻ tấn công có thể phát liên tục các gói tin với độ ưu tiên cao, làm tắc nghẽn mạng, ngăn các thiết bị khác truyền thông tin. &lt;/br&gt;
+&lt;strong&gt;Tấn công từ chối dịch vụ (DoS)&lt;/strong&gt;: Bằng cách phát đi các gói tin không hợp lệ hoặc giả mạo, kẻ tấn công có thể làm gián đoạn hoạt động của hệ thống CAN. &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;bảo-mật-hạn-chế-trên-can-bus&#34;&gt;Bảo mật hạn chế trên CAN bus&lt;/h3&gt;
+&lt;p&gt;Do CAN bus ban đầu được thiết kế cho các hệ thống nhúng không kết nối với bên ngoài (như ô tô, máy móc công nghiệp), bảo mật không được ưu tiên trong thiết kế của giao thức:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Không có cơ chế xác thực&lt;/strong&gt;: CAN bus không có cơ chế tích hợp để xác thực nguồn gốc của các gói tin. &lt;/br&gt;
+&lt;strong&gt;Không có mã hóa&lt;/strong&gt;: Dữ liệu truyền trên CAN bus không được mã hóa, vì vậy bất kỳ thiết bị nào trên mạng cũng có thể đọc được toàn bộ nội dung của các gói tin. &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;giải-pháp-bảo-mật&#34;&gt;Giải pháp bảo mật&lt;/h3&gt;
+&lt;p&gt;Vì các vấn đề bảo mật vốn có của CAN bus, các giải pháp bảo mật cần được thiết kế thêm ở cấp độ ứng dụng hoặc hệ thống, bao gồm:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Xác thực gói tin&lt;/strong&gt;: Sử dụng các giải pháp xác thực ở mức ứng dụng để kiểm tra xem gói tin có được gửi từ nguồn tin cậy không. &lt;/br&gt;
+&lt;strong&gt;Mã hóa dữ liệu&lt;/strong&gt;: Mặc dù CAN bus không hỗ trợ mã hóa dữ liệu nội tại, các giải pháp mã hóa có thể được thêm vào ở lớp ứng dụng để bảo vệ dữ liệu nhạy cảm. &lt;/br&gt;
+&lt;strong&gt;Giám sát mạng CAN&lt;/strong&gt;: Các hệ thống giám sát (IDS/IPS) có thể được sử dụng để phát hiện các hành vi bất thường trên mạng, như tấn công phát ngập hoặc giả lập thiết bị. &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;tools&#34;&gt;Tools&lt;/h2&gt;
+&lt;h3 id=&#34;socketcan&#34;&gt;SocketCAN&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;SocketCAN là một framework trong Linux giúp quản lý và giao tiếp với CAN bus thông qua giao diện lập trình socket, giống như cách xử lý các giao tiếp mạng khác như Ethernet. Nó giúp lập trình viên dễ dàng sử dụng CAN bus mà không cần phải tìm hiểu các giao thức phức tạp hoặc các driver riêng biệt.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Car_Hacking/Hinh_2.png&#34;
+  alt=&#34;Hinh_2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Install &lt;a href=&#34;https://github.com/linux-can/can-utils&#34;&gt;can-utils&lt;/a&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo apt-get install can-utils
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Nhìn chung đây là một công cụ phần mềm dành cho CAN-Bus &lt;em&gt;(giống như công cụ minicom dành cho cổng Serial)&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Do đó mình sẽ cần một &lt;a href=&#34;https://www.amazon.com/dp/B07P9JGXXB?ref=ppx_yo2ov_dt_b_product_details&amp;amp;th=1&#34;&gt;thiết bị phần cứng&lt;/a&gt; để giao tiếp CAN-Bus, giống như trong video &lt;a href=&#34;https://www.youtube.com/watch?v=GA-KNEuAR9w&#34;&gt;MCP2515 CAN Bus Module Tutorial with Arduino and Linux&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;wireshark&#34;&gt;Wireshark&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Đây là công cụ quá phổ biến cho việc bắt gói tin.&lt;/li&gt;
+&lt;li&gt;Do đó mình có thể dùng &lt;em&gt;wireshark&lt;/em&gt; để bắt gói tin của CAN.&lt;/li&gt;
+&lt;li&gt;Để bắt được gói tin CAN, thì mình cần dùng kết hợp giữa &lt;strong&gt;SocketCAN&lt;/strong&gt; với &lt;strong&gt;Wireshark&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Đôi khi wireshark không thể lắng nghe thiết bị &lt;code&gt;slcanX&lt;/code&gt;, do đó mình sẽ cần dùng các command có trong bộ công cụ &lt;strong&gt;can-utils&lt;/strong&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;candump
+cansniffer
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;kayakhttpsdschanoehgithubiokayak-is-an-application-for-can-bus-diagnosis-and-monitoring&#34;&gt;&lt;a href=&#34;https://dschanoeh.github.io/Kayak/&#34;&gt;Kayak&lt;/a&gt; is an application for CAN bus diagnosis and monitoring.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/dschanoeh/Kayak&#34;&gt;Github Project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dschanoeh.github.io/Kayak/tutorial.html&#34;&gt;Kayak- tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Features:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;- view raw CAN data on a bus
+- view CAN frames interpreted as signals and messages
+- XML-based bus definitions
+- connect to to multiple CAN busses on different machines at once
+- multiple users can connect to the same CAN bus using a single CAN controller
+- no platform dependend code
+- core library without dependencies for use in other applications that need to handle CAN frames
+- rich client application (Netbeans RCP)
+- easily write your own plugins using the Netbeans plugin system
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;ecusim-obd-simulator&#34;&gt;ECUsim OBD simulator&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.obdsol.com/solutions/development-tools/obd-simulators/ecusim-2000/&#34;&gt;ECUsim 2000&lt;/a&gt;: Simulators can generate faults and MIL lights, and they include fault knobs for changing common vehicle parameters, such as speed.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://www.scantool.net/static/images/products/ecusim_2000/ecusim_2000_diagram_web.png&#34;
+  alt=&#34;ECUsim 2000&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Document: &lt;a href=&#34;https://www.scantool.net/scantool/downloads/101/ecusim_2000-ug.pdf&#34;&gt;ECUsim 2000 User Guide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Document: &lt;a href=&#34;https://www.scantool.net/static/documentation/ecusim/ecusim-pm.pdf&#34;&gt;ECUsim Programming Manual&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;other-documents&#34;&gt;Other Documents&lt;/h2&gt;
+&lt;h3 id=&#34;obd-can-bus-equipped-vehicleshttpwwwauterrawebcomaboutcanhtml&#34;&gt;&lt;a href=&#34;http://www.auterraweb.com/aboutcan.html&#34;&gt;OBD CAN Bus Equipped Vehicles&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;ecu-pin-out-diagramshttpswwwinnovatemotorsportscomecu-pin-out-diagrams&#34;&gt;&lt;a href=&#34;https://www.innovatemotorsports.com/ecu-pin-out-diagrams/&#34;&gt;ECU PIN-OUT DIAGRAMS&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;chipwhispererhttpswwwnewaecomchipwhisperer&#34;&gt;&lt;a href=&#34;https://www.newae.com/chipwhisperer&#34;&gt;ChipWhisperer&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://chipwhisperer.readthedocs.io/en/latest/getting-started.html&#34;&gt;getting-started&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rtfm.newae.com/&#34;&gt;Documentation Home&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.newae.com/education&#34;&gt;Education &amp;amp; Training&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/iot/hardware/car_hacking/</guid>
+      <pubDate>Sat, 05 Oct 2024 13:55:01 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>CAN_OBDII</title>
       <link>https://vinhlin.github.io/posts/iot/hardware/can_obdii/</link>
       <description>&lt;h2 id=&#34;can-bus-serial-communication---how-it-workshttpswwwyoutubecomwatchvjzsczrt9tto&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=JZSCzRT9TTo&#34;&gt;CAN Bus: Serial Communication - How It Works?&lt;/a&gt;&lt;/h2&gt;
@@ -2502,10 +2641,9 @@ GDT - Gas Discharge Tube
 &lt;p&gt;&lt;strong&gt;Phát hiện và báo cáo sự cố&lt;/strong&gt;: NIS2 cũng yêu cầu có các công cụ để nhanh chóng phát hiện các sự cố và có thể thực hiện hành động phản ứng tức thời với các vi phạm an ninh.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;hr&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/IoT_Security.jpg&#34;
-  alt=&#34;IoT Security&#34;
+  src=&#34;https://vinhlin.github.io/image/IoT/OT.jfif&#34;
+  alt=&#34;OT&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
   class=&#34;full-width&#34;

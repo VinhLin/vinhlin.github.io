@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Liste - https://vinhlin.github.io/">
+    <title>Car_Hacking | VinhLin</title>
+    <meta name="description" content="Technology Blog">
+    <meta property="og:title" content="Car_Hacking" />
+<meta property="og:description" content="Book: The Car Hacker Handbook Trong quá trình tìm hiểu về CAN - OBDII vô tình lụm được tài liệu về Car Hacking.
+Có những thông tin, kiến thức mà thông thường tìm hiểu về CAN-Bus sẽ không thấy. Từ những key-work này lại tiếp tục research thêm, và có thêm được những thông tin thú vị khác.
+CAN Bus Packet Điểm đặc trưng của CAN bus là các gói tin được phát quảng bá (broadcast) đến tất cả các thiết bị (controllers) trên cùng mạng, giống như cách UDP hoạt động trên mạng Ethernet." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://vinhlin.github.io/posts/iot/hardware/car_hacking/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-10-05T13:55:01+07:00" />
+<meta property="article:modified_time" content="2024-10-05T13:55:01+07:00" />
+
+    <meta itemprop="name" content="Car_Hacking">
+<meta itemprop="description" content="Book: The Car Hacker Handbook Trong quá trình tìm hiểu về CAN - OBDII vô tình lụm được tài liệu về Car Hacking.
+Có những thông tin, kiến thức mà thông thường tìm hiểu về CAN-Bus sẽ không thấy. Từ những key-work này lại tiếp tục research thêm, và có thêm được những thông tin thú vị khác.
+CAN Bus Packet Điểm đặc trưng của CAN bus là các gói tin được phát quảng bá (broadcast) đến tất cả các thiết bị (controllers) trên cùng mạng, giống như cách UDP hoạt động trên mạng Ethernet."><meta itemprop="datePublished" content="2024-10-05T13:55:01+07:00" />
+<meta itemprop="dateModified" content="2024-10-05T13:55:01+07:00" />
+<meta itemprop="wordCount" content="1094">
+<meta itemprop="keywords" content="" />
+    
+    <link rel="canonical" href="https://vinhlin.github.io/posts/iot/hardware/car_hacking/">
+    <link rel="icon" href="https://vinhlin.github.io//assets/favicon.ico">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
+    <link rel="alternate" type="application/atom+xml" title="VinhLin" href="https://vinhlin.github.io//atom.xml" />
+    <link rel="alternate" type="application/json" title="VinhLin" href="https://vinhlin.github.io//feed.json" />
+    <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=">
+    
+    
+    <style>*,:after,:before{box-sizing:border-box;padding:0}body{font:1rem/1.5 '-apple-system',BlinkMacSystemFont,avenir next,avenir,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding:2rem;background:#f5f5f5;color:#000}.skip-link{position:absolute;top:-40px;left:0;background:#eee;z-index:100}.skip-link:focus{top:0}h1,h2,h3,h4,h5,strong,b{font-size:inherit;font-weight:600}header{line-height:2;padding-bottom:1.5rem}.link{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-decoration:none}.time{font-variant-numeric:tabular-nums;white-space:nowrap}blockquote{border-left:5px solid #eee;padding-left:1rem;margin:0}a,a:visited{color:inherit}a:hover,a.heading-link{text-decoration:none}pre{padding:.5rem;overflow:auto;overflow-x:scroll;overflow-wrap:normal}code,pre{font-family:San Francisco Mono,Monaco,consolas,lucida console,dejavu sans mono,bitstream vera sans mono,monospace;font-size:normal;font-size:small;background:#eee}code{margin:.1rem;border:none}ul{list-style-type:square}ul,ol{padding-left:1.2rem}.list{line-height:2;list-style-type:none;padding-left:0}.list li{padding-bottom:.1rem}.meta{color:#777}.content{max-width:70ch;margin:0 auto}header{line-height:2;display:flex;justify-content:space-between;padding-bottom:1rem}header a{text-decoration:none}header ul{list-style-type:none;padding:0}header li,header a{display:inline}h2.post{padding-top:.5rem}header ul a:first-child{padding-left:1rem}.nav{height:1px;background:#000;content:'';max-width:10%}.list li{display:flex;align-items:baseline}.list li time{flex:initial}.hr-list{margin-top:0;margin-bottom:0;margin-right:.5rem;margin-left:.5rem;height:1px;border:0;border-bottom:1px dotted #ccc;flex:1 0 1rem}.m,hr{border:0;margin:3rem 0}img{max-width:100%;height:auto}.post-date{margin:5% 0}.index-date{color:#9a9a9a}.animate-blink{animation:opacity 1s infinite;opacity:1}@keyframes opacity{0%{opacity:1}50%{opacity:.5}100%{opacity:0}}.tags{display:flex;justify-content:space-between}.tags ul{padding:0;margin:0}.tags li{display:inline}.avatar{height:120px;width:120px;position:relative;margin:-10px 0 0 15px;float:right;border-radius:50%}table{width:100%;border-collapse:collapse}th,td{border:1px solid #ddd;text-align:left;padding:8px}th{background-color:#f2f2f2} </style>
+  
+    
+  
+  
+  <script type="application/ld+json">
+  {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "articleSection": "posts",
+      "name": "Car_Hacking",
+      "headline": "Car_Hacking",
+      "alternativeHeadline": "",
+      "description": "Book: The Car Hacker Handbook Trong quá trình tìm hiểu về CAN - OBDII vô tình lụm được tài liệu về Car Hacking.\nCó những thông tin, kiến thức mà thông thường tìm hiểu về CAN-Bus sẽ không thấy. Từ những key-work này lại tiếp tục research thêm, và có thêm được những thông tin thú vị khác.\nCAN Bus Packet Điểm đặc trưng của CAN bus là các gói tin được phát quảng bá (broadcast) đến tất cả các thiết bị (controllers) trên cùng mạng, giống như cách UDP hoạt động trên mạng Ethernet.",
+      "inLanguage": "en-us",
+      "isFamilyFriendly": "true",
+      "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https:\/\/vinhlin.github.io\/posts\/iot\/hardware\/car_hacking\/"
+      },
+      "author" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "creator" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "accountablePerson" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "copyrightHolder" : "VinhLin",
+      "copyrightYear" : "2024",
+      "dateCreated": "2024-10-05T13:55:01.00Z",
+      "datePublished": "2024-10-05T13:55:01.00Z",
+      "dateModified": "2024-10-05T13:55:01.00Z",
+      "publisher":{
+          "@type":"Organization",
+          "name": "VinhLin",
+          "url": "https://vinhlin.github.io/",
+          "logo": {
+              "@type": "ImageObject",
+              "url": "https:\/\/vinhlin.github.io\/assets\/favicon.ico",
+              "width":"32",
+              "height":"32"
+          }
+      },
+      "image": "https://vinhlin.github.io/assets/favicon.ico",
+      "url" : "https:\/\/vinhlin.github.io\/posts\/iot\/hardware\/car_hacking\/",
+      "wordCount" : "1094",
+      "genre" : [ ],
+      "keywords" : [ ]
+  }
+  </script>
+  
+  
+  </head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main</a>
+  <main id="main">
+  <div class="content">
+    <header>
+<p style="padding: 0;margin: 0;">
+  <a href="/">
+    <b>VinhLin</b>
+    <span class="text-stone-500 animate-blink">▮</span>
+  </a>
+</p>
+<ul style="padding: 0;margin: 0;">
+  
+  
+  <li class="">
+    <a href="/changelog/"><span>CHANGELOG</span></a>
+    
+  <li class="">
+    <a href="/posts/"><span>Post</span></a>
+    
+  <li class="">
+    <a href="/about/"><span>About</span></a>
+    
+  </li>
+</ul>
+</header>
+<hr class="hr-list" style="padding: 0;margin: 0;">
+    <section>
+      <h2 class="post">Car_Hacking</h2>
+      <h1 id="book-the-car-hacker-handbookhttpsdocsalexomarcombibliotecathecarhackershandbookpdf">Book: <a href="https://docs.alexomar.com/biblioteca/thecarhackershandbook.pdf">The Car Hacker Handbook</a></h1>
+<p><img
+  src="/image/IoT/Car_Hacking/Car_Hacking.jpg"
+  alt="Car Hacking"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p>Trong quá trình tìm hiểu về <code>CAN - OBDII</code> vô tình <strong>lụm</strong> được tài liệu về <strong>Car Hacking</strong>.</p>
+<p>Có những thông tin, kiến thức mà thông thường tìm hiểu về CAN-Bus sẽ không thấy. Từ những <strong>key-work</strong> này lại tiếp tục research thêm, và có thêm được những thông tin thú vị khác.</p>
+<h2 id="can-bus-packet">CAN Bus Packet</h2>
+<p><img
+  src="/image/IoT/Car_Hacking/Hinh_1.png"
+  alt="Hinh_1"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p>Điểm đặc trưng của CAN bus là các gói tin được phát quảng bá <strong>(broadcast)</strong> đến tất cả các thiết bị (controllers) trên cùng mạng, giống như cách UDP hoạt động trên mạng Ethernet.</p>
+<p>Một số vấn đề chính liên quan đến cơ chế này:</p>
+<h3 id="phát-quảng-bá-trên-can-bus">Phát quảng bá trên CAN bus</h3>
+<p>Trong mạng CAN bus, các gói tin (packets) được gửi ra sẽ không chỉ định đích cụ thể cho một thiết bị nào mà thay vào đó, tất cả các node (thiết bị) trên bus sẽ nhận được gói tin đó. Điều này có nghĩa là:</p>
+<blockquote>
+<p><strong>Mọi thiết bị trên cùng một mạng CAN đều nhìn thấy mọi gói tin</strong>. </br>
+Các thiết bị sẽ tự quyết định liệu có xử lý gói tin hay bỏ qua nó, dựa trên ID của gói tin. Gói tin chứa một trường ID (identifier) để các thiết bị nhận diện loại dữ liệu và quyết định liệu nó có phải xử lý thông tin hay không. </br></p>
+</blockquote>
+<h3 id="không-có-thông-tin-về-nguồn-gốc-của-gói-tin">Không có thông tin về nguồn gốc của gói tin</h3>
+<p>Các gói tin trên CAN bus không chứa thông tin về nguồn gốc (tức là không có địa chỉ của thiết bị gửi), mà chỉ có ID của thông điệp. Điều này tạo ra một số vấn đề:</p>
+<blockquote>
+<p><strong>Không có cách để biết được thiết bị nào đã gửi gói tin</strong>, điều này có thể gây ra khó khăn trong việc giám sát và bảo mật. </br>
+<strong>Giả lập thiết bị khác</strong>: Bất kỳ thiết bị nào trên mạng CAN đều có thể gửi gói tin với ID bất kỳ. Điều này có nghĩa là nếu một thiết bị hoặc một kẻ tấn công muốn giả lập một thiết bị khác, họ có thể dễ dàng gửi các gói tin với ID của thiết bị cần giả lập, khiến các thiết bị khác nghĩ rằng dữ liệu đến từ thiết bị chính thức. </br></p>
+</blockquote>
+<h3 id="tấn-công-trên-can-bus">Tấn công trên CAN bus</h3>
+<p>Do tính chất mở và phát quảng bá của CAN bus, nó dễ trở thành mục tiêu cho các cuộc tấn công:</p>
+<blockquote>
+<p><strong>Tấn công giả lập (Spoofing)</strong>: Như đã nêu, kẻ tấn công có thể gửi các gói tin giả mạo từ một thiết bị khác mà các node khác không thể phân biệt được, vì CAN không có cách để xác minh nguồn gốc của gói tin. </br>
+<strong>Tấn công phát ngập (Flooding)</strong>: Kẻ tấn công có thể phát liên tục các gói tin với độ ưu tiên cao, làm tắc nghẽn mạng, ngăn các thiết bị khác truyền thông tin. </br>
+<strong>Tấn công từ chối dịch vụ (DoS)</strong>: Bằng cách phát đi các gói tin không hợp lệ hoặc giả mạo, kẻ tấn công có thể làm gián đoạn hoạt động của hệ thống CAN. </br></p>
+</blockquote>
+<h3 id="bảo-mật-hạn-chế-trên-can-bus">Bảo mật hạn chế trên CAN bus</h3>
+<p>Do CAN bus ban đầu được thiết kế cho các hệ thống nhúng không kết nối với bên ngoài (như ô tô, máy móc công nghiệp), bảo mật không được ưu tiên trong thiết kế của giao thức:</p>
+<blockquote>
+<p><strong>Không có cơ chế xác thực</strong>: CAN bus không có cơ chế tích hợp để xác thực nguồn gốc của các gói tin. </br>
+<strong>Không có mã hóa</strong>: Dữ liệu truyền trên CAN bus không được mã hóa, vì vậy bất kỳ thiết bị nào trên mạng cũng có thể đọc được toàn bộ nội dung của các gói tin. </br></p>
+</blockquote>
+<h3 id="giải-pháp-bảo-mật">Giải pháp bảo mật</h3>
+<p>Vì các vấn đề bảo mật vốn có của CAN bus, các giải pháp bảo mật cần được thiết kế thêm ở cấp độ ứng dụng hoặc hệ thống, bao gồm:</p>
+<blockquote>
+<p><strong>Xác thực gói tin</strong>: Sử dụng các giải pháp xác thực ở mức ứng dụng để kiểm tra xem gói tin có được gửi từ nguồn tin cậy không. </br>
+<strong>Mã hóa dữ liệu</strong>: Mặc dù CAN bus không hỗ trợ mã hóa dữ liệu nội tại, các giải pháp mã hóa có thể được thêm vào ở lớp ứng dụng để bảo vệ dữ liệu nhạy cảm. </br>
+<strong>Giám sát mạng CAN</strong>: Các hệ thống giám sát (IDS/IPS) có thể được sử dụng để phát hiện các hành vi bất thường trên mạng, như tấn công phát ngập hoặc giả lập thiết bị. </br></p>
+</blockquote>
+<hr>
+<h2 id="tools">Tools</h2>
+<h3 id="socketcan">SocketCAN</h3>
+<blockquote>
+<p>SocketCAN là một framework trong Linux giúp quản lý và giao tiếp với CAN bus thông qua giao diện lập trình socket, giống như cách xử lý các giao tiếp mạng khác như Ethernet. Nó giúp lập trình viên dễ dàng sử dụng CAN bus mà không cần phải tìm hiểu các giao thức phức tạp hoặc các driver riêng biệt.</p>
+</blockquote>
+<p><img
+  src="/image/IoT/Car_Hacking/Hinh_2.png"
+  alt="Hinh_2"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<ul>
+<li>Install <a href="https://github.com/linux-can/can-utils">can-utils</a>:</li>
+</ul>
+<pre tabindex="0"><code>sudo apt-get install can-utils
+</code></pre><ul>
+<li>Nhìn chung đây là một công cụ phần mềm dành cho CAN-Bus <em>(giống như công cụ minicom dành cho cổng Serial)</em>.</li>
+<li>Do đó mình sẽ cần một <a href="https://www.amazon.com/dp/B07P9JGXXB?ref=ppx_yo2ov_dt_b_product_details&amp;th=1">thiết bị phần cứng</a> để giao tiếp CAN-Bus, giống như trong video <a href="https://www.youtube.com/watch?v=GA-KNEuAR9w">MCP2515 CAN Bus Module Tutorial with Arduino and Linux</a></li>
+</ul>
+<h3 id="wireshark">Wireshark</h3>
+<ul>
+<li>Đây là công cụ quá phổ biến cho việc bắt gói tin.</li>
+<li>Do đó mình có thể dùng <em>wireshark</em> để bắt gói tin của CAN.</li>
+<li>Để bắt được gói tin CAN, thì mình cần dùng kết hợp giữa <strong>SocketCAN</strong> với <strong>Wireshark</strong>.</li>
+<li>Đôi khi wireshark không thể lắng nghe thiết bị <code>slcanX</code>, do đó mình sẽ cần dùng các command có trong bộ công cụ <strong>can-utils</strong>:</li>
+</ul>
+<pre tabindex="0"><code>candump
+cansniffer
+</code></pre><h3 id="kayakhttpsdschanoehgithubiokayak-is-an-application-for-can-bus-diagnosis-and-monitoring"><a href="https://dschanoeh.github.io/Kayak/">Kayak</a> is an application for CAN bus diagnosis and monitoring.</h3>
+<ul>
+<li><a href="https://github.com/dschanoeh/Kayak">Github Project</a></li>
+<li><a href="https://dschanoeh.github.io/Kayak/tutorial.html">Kayak- tutorial</a></li>
+<li>Features:</li>
+</ul>
+<pre tabindex="0"><code>- view raw CAN data on a bus
+- view CAN frames interpreted as signals and messages
+- XML-based bus definitions
+- connect to to multiple CAN busses on different machines at once
+- multiple users can connect to the same CAN bus using a single CAN controller
+- no platform dependend code
+- core library without dependencies for use in other applications that need to handle CAN frames
+- rich client application (Netbeans RCP)
+- easily write your own plugins using the Netbeans plugin system
+</code></pre><h3 id="ecusim-obd-simulator">ECUsim OBD simulator</h3>
+<blockquote>
+<p><a href="https://www.obdsol.com/solutions/development-tools/obd-simulators/ecusim-2000/">ECUsim 2000</a>: Simulators can generate faults and MIL lights, and they include fault knobs for changing common vehicle parameters, such as speed.</p>
+</blockquote>
+<p><img
+  src="https://www.scantool.net/static/images/products/ecusim_2000/ecusim_2000_diagram_web.png"
+  alt="ECUsim 2000"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<ul>
+<li>Document: <a href="https://www.scantool.net/scantool/downloads/101/ecusim_2000-ug.pdf">ECUsim 2000 User Guide</a></li>
+<li>Document: <a href="https://www.scantool.net/static/documentation/ecusim/ecusim-pm.pdf">ECUsim Programming Manual</a></li>
+</ul>
+<hr>
+<h2 id="other-documents">Other Documents</h2>
+<h3 id="obd-can-bus-equipped-vehicleshttpwwwauterrawebcomaboutcanhtml"><a href="http://www.auterraweb.com/aboutcan.html">OBD CAN Bus Equipped Vehicles</a></h3>
+<h3 id="ecu-pin-out-diagramshttpswwwinnovatemotorsportscomecu-pin-out-diagrams"><a href="https://www.innovatemotorsports.com/ecu-pin-out-diagrams/">ECU PIN-OUT DIAGRAMS</a></h3>
+<h3 id="chipwhispererhttpswwwnewaecomchipwhisperer"><a href="https://www.newae.com/chipwhisperer">ChipWhisperer</a></h3>
+<ul>
+<li><a href="https://chipwhisperer.readthedocs.io/en/latest/getting-started.html">getting-started</a></li>
+<li><a href="https://rtfm.newae.com/">Documentation Home</a></li>
+<li><a href="https://www.newae.com/education">Education &amp; Training</a></li>
+</ul>
+
+      
+      <div class="post-date">
+        <span class="g time">October 5, 2024 </span> &#8729;
+         
+      </div>
+      
+    </section>
+    
+    
+    
+  </div>
+</main>
+</body>
+</html>

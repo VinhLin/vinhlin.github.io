@@ -6,7 +6,9 @@ draft = true
 
 <h2 align="center">👋 A person loving and working in IoT & Cyber-Security</h2>
 
-## [My Resume](../CV_VinhLD_03102024.pdf)
+# [My Resume](../CV_VinhLD_03102024.pdf)
+
+![IoT_Security](/image/IoT/IoT_Security.jpg)
 
 Xin chào,
 
@@ -40,7 +42,7 @@ Cùng với các kỹ năng vệ tinh khác như: System, Security, Network, Dev
 >
 > Alongside other peripheral skills such as System, Security, Network, and DevOps, I will continue to strengthen and hone these skills to complete this roadmap.
 
-### EMBEDDED SYSTEM SECURITY
+### Roadmap: EMBEDDED SYSTEM SECURITY
 
-![Embedded_Security](/image/EMBEDDED_SYSTEM_SECURITY.png)
+![Roadmap](/image/EMBEDDED_SYSTEM_SECURITY.png)
 
