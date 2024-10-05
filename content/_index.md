@@ -69,5 +69,6 @@ Ngoài việc ghi chú lại kiến thức thì blog này cũng sẽ là nơi đ
 - ❤️ Github: https://github.com/VinhLin
 - 📫 [Upwork Profile](https://www.upwork.com/freelancers/~017704277080c06f28?mp_source=share)
 
+![IoT](https://media.springernature.com/lw685/springer-static/image/chp%3A10.1007%2F978-981-15-6353-9_46/MediaObjects/488228_1_En_46_Fig1_HTML.png)
 
 

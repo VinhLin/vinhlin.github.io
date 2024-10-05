@@ -14,6 +14,49 @@
     
     
     <item>
+      <title>Fault_Injection</title>
+      <link>https://vinhlin.github.io/posts/cybersecurity/technical/fault_injection/</link>
+      <description>&lt;p&gt;&lt;strong&gt;Fault Injection&lt;/strong&gt; là một kỹ thuật được sử dụng trong việc kiểm tra và đảm bảo độ tin cậy của các hệ thống phần mềm và phần cứng.&lt;/p&gt;
+&lt;p&gt;Mục đích của kỹ thuật này là cố tình tạo ra các lỗi hoặc điều kiện bất thường trong hệ thống để xem hệ thống sẽ phản ứng như thế nào, từ đó đánh giá được tính ổn định và khả năng xử lý lỗi của hệ thống.&lt;/p&gt;
+&lt;p&gt;Có thể hiểu đơn giản rằng khi bạn phát triển một hệ thống, bạn luôn mong muốn nó hoạt động một cách hoàn hảo.&lt;/p&gt;
+&lt;p&gt;Nhưng trong thực tế, có nhiều yếu tố như lỗi phần cứng, lỗi phần mềm, hoặc những sự cố bất ngờ từ môi trường ngoài có thể ảnh hưởng đến hệ thống.&lt;/p&gt;
+&lt;p&gt;Fault injection giúp mô phỏng những tình huống này bằng cách cố tình đưa ra các lỗi, ví dụ như:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Lỗi phần cứng&lt;/strong&gt;: Giả lập các vấn đề như bộ nhớ bị lỗi, đường truyền bị gián đoạn. &lt;/br&gt;
+&lt;strong&gt;Lỗi phần mềm&lt;/strong&gt;: Gây ra lỗi trong code như chia cho 0, tràn bộ đệm (buffer overflow), hoặc làm hỏng dữ liệu. &lt;/br&gt;
+&lt;strong&gt;Điều kiện thời gian&lt;/strong&gt;: Gây trễ (delay) hoặc thay đổi thời gian xử lý để kiểm tra khả năng xử lý của hệ thống trong những điều kiện bất lợi. &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Mục tiêu của Fault Injection là đảm bảo hệ thống có thể hoạt động tốt, hoặc ít nhất là không bị phá hỏng hoàn toàn, khi xảy ra các lỗi này.&lt;/p&gt;
+&lt;p&gt;Đây là một phương pháp rất hữu ích trong việc tăng cường độ tin cậy và an toàn của các hệ thống, đặc biệt là trong các ứng dụng quan trọng như hàng không, ô tô, y tế, hay các hệ thống nhúng.&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://www.techtarget.com/rms/onlineimages/whatis-fault_injection_testing.png&#34;
+  alt=&#34;Fault Injection&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h2 id=&#34;bài-viết-how-to-voltage-fault-injectionhttpswwwsynacktivcompublicationshow-to-voltage-fault-injection&#34;&gt;Bài viết &lt;a href=&#34;https://www.synacktiv.com/publications/how-to-voltage-fault-injection&#34;&gt;How to voltage fault injection&lt;/a&gt;&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Trong quá trình đánh giá bảo mật vật lý của thiết bị IoT, một trong những mục tiêu là &lt;strong&gt;tận dụng giao diện gỡ lỗi&lt;/strong&gt; của chip để có thể truy cập và nghiên cứu cách hoạt động của thiết bị. &lt;/br&gt;
+Một kịch bản lý tưởng là trích xuất toàn bộ hệ thống tệp để &lt;strong&gt;tìm cách giành quyền truy cập root vào thiết bị&lt;/strong&gt;. Sau đó là &lt;em&gt;kiểm tra những dịch vụ nào đang chạy&lt;/em&gt;, &lt;em&gt;debug&lt;/em&gt; để cuối cùng là kiểm soát mục tiêu (target). &lt;/br&gt;
+Khi bắt đầu quá trình kiểm tra, chúng ta thường gặp phải các biện pháp bảo vệ trên giao diện gỡ lỗi cấm truy cập vào đầy đủ chức năng của nó hoặc trên chuỗi khởi động cấm bất kỳ sửa đổi nào trên đó. &lt;/br&gt;
+&lt;code&gt;Glitching&lt;/code&gt; là một cách để cố gắng vượt qua loại bảo vệ này. &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;glitching&#34;&gt;Glitching&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Glitching là một kỹ thuật tấn công trong bảo mật, trong đó kẻ tấn công cố tình gây ra sự cố hoặc nhiễu trong hệ thống để tạo ra các hành vi bất thường.&lt;/li&gt;
+&lt;li&gt;Phương pháp này thường áp dụng cho các vi điều khiển hoặc thiết bị nhúng, nơi mà việc gây nhiễu tạm thời vào nguồn điện, xung nhịp, hoặc các tín hiệu khác có thể khiến hệ thống thực hiện các lệnh sai hoặc bỏ qua các bước kiểm tra an ninh.&lt;/li&gt;
+&lt;li&gt;Điều này có thể dẫn đến việc tiết lộ thông tin nhạy cảm hoặc truy cập trái phép.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/cybersecurity/technical/fault_injection/</guid>
+      <pubDate>Sat, 05 Oct 2024 20:13:46 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Car_Hacking</title>
       <link>https://vinhlin.github.io/posts/iot/hardware/car_hacking/</link>
       <description>&lt;h1 id=&#34;book-the-car-hacker-handbookhttpsdocsalexomarcombibliotecathecarhackershandbookpdf&#34;&gt;Book: &lt;a href=&#34;https://docs.alexomar.com/biblioteca/thecarhackershandbook.pdf&#34;&gt;The Car Hacker Handbook&lt;/a&gt;&lt;/h1&gt;
@@ -1867,7 +1910,16 @@ async fn no_tag_cr95hf(
     <item>
       <title>IoT_Security_JD</title>
       <link>https://vinhlin.github.io/posts/others/iot_security_jd/</link>
-      <description>&lt;p&gt;Bữa lang thang trên diễn đàn &lt;strong&gt;CISSP trên facebook&lt;/strong&gt;, mình thấy một &lt;strong&gt;JD về Security cho IoT&lt;/strong&gt;. Mình thấy JD này đầy đủ và cụ thể:&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/IoT_Security.jpg&#34;
+  alt=&#34;IoT_Security&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Bữa lang thang trên diễn đàn &lt;strong&gt;CISSP trên facebook&lt;/strong&gt;, mình thấy một &lt;strong&gt;JD về Security cho IoT&lt;/strong&gt;. Mình thấy JD này đầy đủ và cụ thể:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;VNPT Cyber Immunity tìm kiếm ứng viên đam mê làm Security cho các thiết bị &lt;strong&gt;UAV, drone, IoT, satellite,&amp;hellip;&lt;/strong&gt; &lt;/br&gt;
 Nếu trái tim bạn rực cháy với niềm đam mê nghiên cứu bảo mật, hãy để VCI tiếp lửa cho bạn. Bạn sẽ là mảnh ghép VCI, nếu bạn: &lt;/br&gt;&lt;/p&gt;
@@ -1933,15 +1985,6 @@ Hồ sơ ứng viên xin gửi về địa chỉ email: &lt;a href=&#34;mailto:s
 Code nhúng Firmware cho MCU
 Code nhúng cho Linux
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Cũng may là mình biết một chút về Security (và đang trên con đường định hướng về IoT Security) nên JD này là cái mà mình cần tham khảo. =]]&lt;/p&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://media.springernature.com/lw685/springer-static/image/chp%3A10.1007%2F978-981-15-6353-9_46/MediaObjects/488228_1_En_46_Fig1_HTML.png&#34;
-  alt=&#34;IoT&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
 </description>
       <author>VinhLD</author>
       <guid>https://vinhlin.github.io/posts/others/iot_security_jd/</guid>

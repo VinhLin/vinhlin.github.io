@@ -4,6 +4,8 @@ date = 2024-08-04T11:04:52+07:00
 draft = true
 +++
 
+![IoT_Security](/image/IoT/IoT_Security.jpg)
+
 Bữa lang thang trên diễn đàn **CISSP trên facebook**, mình thấy một **JD về Security cho IoT**. Mình thấy JD này đầy đủ và cụ thể:
 
 > VNPT Cyber Immunity tìm kiếm ứng viên đam mê làm Security cho các thiết bị **UAV, drone, IoT, satellite,...** </br>
@@ -67,8 +69,6 @@ Code nhúng cho Linux
 ```
 
 Cũng may là mình biết một chút về Security (và đang trên con đường định hướng về IoT Security) nên JD này là cái mà mình cần tham khảo. =]]
-
-![IoT](https://media.springernature.com/lw685/springer-static/image/chp%3A10.1007%2F978-981-15-6353-9_46/MediaObjects/488228_1_En_46_Fig1_HTML.png)
 
 
 

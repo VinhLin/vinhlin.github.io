@@ -8,13 +8,11 @@ draft = true
 
 # [My Resume](../CV_VinhLD_03102024.pdf)
 
-![IoT_Security](/image/IoT/IoT_Security.jpg)
-
 Xin chào,
 
 Đầu tiên xin giới thiệu, mình tên là **Lin Đức Vinh**. 
 
-Học chuyên nghành **Vật lý điện tử** tại trường ĐHKHTN, và hiện mình đang làm trong lĩnh vực **IoT**.
+Học chuyên nghành **Vật lý điện tử** tại trường ĐH Khoa Học Tự Nhiên, và hiện mình đang làm trong lĩnh vực **IoT**.
 
 Cùng với sự yêu thích về Công nghệ, và nhu cầu của thời đại, mình dần dần tham gia và trau dồi bản thân về lĩnh vực **Cyber-Security**.
 

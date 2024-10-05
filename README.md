@@ -71,6 +71,7 @@ hugo new posts/CyberSecurity/Technical/ParamSpider.md
 hugo new posts/CyberSecurity/Technical/RE_Tool_BinaryNinjaFree.md
 hugo new posts/CyberSecurity/Technical/Protect_Camera.md
 hugo new posts/CyberSecurity/Technical/NFC_PWA.md
+hugo new posts/CyberSecurity/Technical/Fault_Injection.md
 ```
 
 

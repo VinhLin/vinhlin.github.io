@@ -32,8 +32,19 @@ Mở khóa thiết bị kết hợp với trích xuất toàn bộ dữ liệu n
 Cài đặt ứng dụng tùy ý từ xa từ một thị trường không chính thức hoặc máy chủ của kẻ tấn công
 
 -----------------------------------------------------------------------------------
+## CameraIP Hacking
 
+### [Video Youtube - How Hackers Hack CCTV Cameras](https://www.youtube.com/watch?v=ksUylvdJQDQ&list=WL&index=109)
+- Theo tham khảo trong video, thì các thao tác sẽ là:
+	- Phải kết nối trong cùng một mạng LAN với victim.
+	- Dùng tool để quét toàn bộ mạng (ở đây dùng **arp-scan**).
+	- Dựa vào thông tin **name của IP**, search trên google xem thiết bị nào là camera.
+	- Dùng tool **nmap** để scan IP camera đó xem đang mở những port nào.
 
+### Khi đã có thông tin về Camera.
+- Truy cập vào trang web config của camera để đoán **username và pass**.
+- Mình có thể dùng **brute-force** để test và lấy cắp thông tin username, pass.
+- Dùng công cụ VLC để streaming video RTSP của camera.
 
 
 
