@@ -38,6 +38,7 @@ hugo new posts/IoT/Hardware/Kien_truc_may_tinh.md
 hugo new posts/IoT/Hardware/Box_RFID.md
 hugo new posts/IoT/Hardware/CAN_OBDII.md
 hugo new posts/IoT/Hardware/Car_Hacking.md
+hugo new posts/IoT/Hardware/Android_Automotive.md
 ```
 - Software
 ```

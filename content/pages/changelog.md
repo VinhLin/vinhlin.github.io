@@ -19,6 +19,7 @@ STT |		Tiêu đề			|		Mô tả				|
 7   | [Box_RFID][Box_RFID]		| Thành quả research và viết fireware cho bộ đọc RFID |
 8   | [CAN_OBDII][CAN_OBDII]		| Ghi chú và tìm hiểu khái niệm về **CAN Bus** và chuẩn **OBD** |
 9   | [Car_Hacking][Car_Hacking]	| Tìm hiểu một số thông tin về **Car hacking** thông qua sách `The_Car_Hacker_Handbook` |
+10  | [Android_Automotive][Android_Automotive] | Ghi chú về **Android Automotive**	|
 
 [UNIHIKER]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/unihiker/
 [ESD]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/esd/
@@ -29,6 +30,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [Box_RFID]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/box_rfid/
 [CAN_OBDII]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/can_obdii/
 [Car_Hacking]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/car_hacking/
+[Android_Automotive]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/android_automotive/
 
 ## ***SOFTWARE***
 

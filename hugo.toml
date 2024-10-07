@@ -32,7 +32,7 @@ publishdir = "docs"
     weight = -200
   [[menu.main]]
     identifier = "changelog"
-    name = "CHANGELOG"
+    name = "Changelog"
     url = "/changelog/"
     weight = -290
 

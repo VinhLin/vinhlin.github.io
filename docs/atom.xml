@@ -14,6 +14,61 @@
     
     
     <item>
+      <title>Android_Automotive</title>
+      <link>https://vinhlin.github.io/posts/iot/hardware/android_automotive/</link>
+      <description>&lt;p&gt;Trong lúc lướt lát trên facebook, mình vô tình bắt gặp một bài viết &lt;strong&gt;Android Automotive Boot Process A-Z&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Từ đó vô tình biết thêm được một trang chia sẻ kiến thức về mảng Automotive.&lt;/p&gt;
+&lt;p&gt;👉Website: &lt;a href=&#34;https://devlinux.vn/newest&#34;&gt;https://devlinux.vn/newest&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;trang-tổng-hợp-các-bài-viết-về-android-automotivehttpsdevlinuxvnseriesbasic-android-automotive&#34;&gt;Trang tổng hợp các bài viết về &lt;a href=&#34;https://devlinux.vn/series/basic-android-automotive&#34;&gt;Android Automotive&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;tổng-quát-về-bài-viết-android-automotive-boot-process-a-zhttpsdevlinuxvnpostandroid-boot-process-a-z&#34;&gt;Tổng quát về bài viết &lt;a href=&#34;https://devlinux.vn/post/android-boot-process-a-z&#34;&gt;Android Automotive Boot Process A-Z&lt;/a&gt;&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Tóm tắt các bước chính trong quá trình khởi động Android: &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Boot ROM&lt;/strong&gt;: Khi hệ thống bật nguồn, bộ nhớ ROM được kích hoạt đầu tiên. Đây là nơi chứa mã khởi động ban đầu giúp xác định thiết bị lưu trữ chứa phần mềm hệ điều hành.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Bootloader&lt;/strong&gt;: Sau khi Boot ROM hoàn thành, Bootloader được tải lên để bắt đầu nạp kernel của hệ điều hành vào bộ nhớ.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Read Boot Config&lt;/strong&gt;: Bootloader đọc cấu hình khởi động từ các thiết bị lưu trữ (như thẻ SD, eMMC, USB).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Chọn thiết bị khởi động (Boot Device)&lt;/strong&gt;: Dựa trên cấu hình boot, hệ thống chọn thiết bị chứa kernel của hệ điều hành.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Kernel Linux&lt;/strong&gt;: Kernel của Linux được tải và bắt đầu thực hiện các chức năng cốt lõi của hệ điều hành.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Android Init Process&lt;/strong&gt;: Quá trình khởi tạo của Android được thực hiện, bao gồm khởi chạy các dịch vụ cơ bản và phân quyền bằng SELinux.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zygote Process&lt;/strong&gt;: Zygote là một tiến trình quan trọng trong Android, khởi tạo các hệ thống máy ảo Dalvik/ART, giúp tạo ra các tiến trình ứng dụng.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;System Server&lt;/strong&gt;: Khởi động các dịch vụ hệ thống Android như quản lý pin, cảm biến, dịch vụ mạng, dịch vụ quản lý ứng dụng và các dịch vụ liên quan đến phương tiện di chuyển.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Launcher&lt;/strong&gt;: Cuối cùng, Android khởi động giao diện người dùng chính (Launcher), nơi người dùng có thể tương tác với hệ thống.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Android_Automotive_Boot_Process.jpg&#34;
+  alt=&#34;Boot_Process&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/iot/hardware/android_automotive/</guid>
+      <pubDate>Mon, 07 Oct 2024 11:06:24 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Fault_Injection</title>
       <link>https://vinhlin.github.io/posts/cybersecurity/technical/fault_injection/</link>
       <description>&lt;p&gt;&lt;strong&gt;Fault Injection&lt;/strong&gt; là một kỹ thuật được sử dụng trong việc kiểm tra và đảm bảo độ tin cậy của các hệ thống phần mềm và phần cứng.&lt;/p&gt;
