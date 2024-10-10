@@ -60,9 +60,13 @@ Ngoài việc ghi chú lại kiến thức thì blog này cũng sẽ là nơi đ
 - Build và làm lại các bài lab về Web-Pentest bên CyberJutsu.
 - Backup data và VMWare Image cho hệ thống.
 - Build một **NAS-Server** dựa trên **Raspberry CM4**.
-- Xây dựng quy trình **pipline CI/CD** cho trang Blog này.
+- Xây dựng quy trình **pipline CI/CD** cho trang Blog này *(dựng ở local)*.
 - Dựng và xây dựng pipline cho một **FTP Server**. Mục tiêu là để **OTA** cho thiết bị Tracking.
 - Tìm hiểu thêm về **IoT Firmware Reverse**.
+- Build **Honeypot (T-pot)** cho Raspberry Pi400.
+- Raspberry CM4 + module AI, có thể dùng:
+> [Coral USB Accelerator](https://pivietnam.com.vn/coral-usb-accelerator-pivietnam-com-vn.html) </br>
+> [Raspberry Pi AI Kit](https://pivietnam.com.vn/raspberry-pi-ai-kit-pivietnam-com-vn.html) </br>
 
 ## Others Information:
 - 📺 Blog: https://vinhlin.github.io/

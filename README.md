@@ -52,6 +52,7 @@ hugo new posts/IoT/Software/Lifetime_Embassy.md
 hugo new posts/IoT/Software/Rust-lang/Results_Rust.md
 hugo new posts/IoT/Software/Shared_Access_Embassy.md
 hugo new posts/IoT/Software/Read_Write_UART_STM32Fx.md
+hugo new posts/IoT/Software/Rust_for_ARM.md
 ```
 
 ### CyberSecurity:

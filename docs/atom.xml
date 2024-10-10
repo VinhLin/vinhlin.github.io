@@ -14,6 +14,142 @@
     
     
     <item>
+      <title>Rust_for_ARM</title>
+      <link>https://vinhlin.github.io/posts/iot/software/rust_for_arm/</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Hiện tại đã dùng &lt;strong&gt;Rust&lt;/strong&gt; để code &lt;strong&gt;Bất đồng bộ&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Với MCU thì dùng framework &lt;a href=&#34;https://github.com/embassy-rs/embassy&#34;&gt;embassy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Với Linux (hoặc Windows) thì dùng &lt;a href=&#34;https://github.com/tokio-rs/tokio&#34;&gt;tokio&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Với framework tokio thì mình đã có một project nhỏ &lt;em&gt;(tên là Tracking_Report)&lt;/em&gt;, mục tiêu là build app để lấy thông tin trên &lt;strong&gt;NATS Server&lt;/strong&gt; và gửi data lên &lt;strong&gt;ThingsBoard&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Theo suy nghĩ đơn giản thì mình chỉ cần build code để chạy trên kiến trúc &lt;strong&gt;ARM&lt;/strong&gt; là được. Nhưng khi dùng &lt;strong&gt;Cross Compilation&lt;/strong&gt; để build thì lại &lt;strong&gt;lỗi tè le&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Chưa rõ lý do. Tạm thời sẽ documents lại những gì làm đc và những tài liệu liên quan.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;document-lại-rust-cross-compilation-cho-arm&#34;&gt;Document lại Rust Cross Compilation cho ARM&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Mình có tìm được một project về &lt;em&gt;Cross Compilation&lt;/em&gt;, tên là &lt;a href=&#34;https://github.com/locnnil/rust_cross_compilation&#34;&gt;rust cross compilation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Mình đã làm theo và test thử cho raspberry thì chạy được, &lt;strong&gt;nhưng khi áp dụng vào Tracking_Report thì build vẫn lỗi&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;kiểm-tra-thông-tin-của-raspberry-cm4&#34;&gt;Kiểm tra thông tin của Raspberry CM4&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Kiểm tra phần cứng:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cat /sys/firmware/devicetree/base/model
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Kiểm tra kiến trúc:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;lscpu
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Rust-lang/Rust_for_ARM/Hinh_1.png&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Vậy phần cứng &lt;strong&gt;Raspberry CM4&lt;/strong&gt;, thông tin:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Model name: Cortex-A72
+Architecture: armv7l
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Theo tài liệu trên github &lt;a href=&#34;https://github.com/locnnil/rust_cross_compilation&#34;&gt;rust_cross_compilation&lt;/a&gt; thì:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# For my armv7l embedded computer
+$ rustup target add armv7-unknown-linux-gnueabi 
+
+# For my Raspberry Pi Zero W
+$ rustup target add arm-unknown-linux-gnueabihf
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Dựa trên &lt;a href=&#34;https://doc.rust-lang.org/beta/rustc/platform-support.html&#34;&gt;platform support&lt;/a&gt; có thông tin:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;target&lt;/th&gt;
+&lt;th&gt;std&lt;/th&gt;
+&lt;th&gt;Note&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;armv7-unknown-linux-gnueabi&lt;/td&gt;
+&lt;td&gt;✓&lt;/td&gt;
+&lt;td&gt;Armv7-A Linux (kernel 4.15, glibc 2.27)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;setup-trên-máy-ubuntu&#34;&gt;Setup trên máy Ubuntu&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Đầu tiên là cài rust cho linux &lt;em&gt;(ở đây là máy Ubuntu)&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Sau đó mình cần cài đặt một số công cụ:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;rustup target add armv7-unknown-linux-gnueabi
+sudo apt install gcc-arm-linux-gnueabi
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Download project:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git clone https://github.com/LOCNNIL/rust_cross_compilation.git
+cd rust_cross_compilation/
+cargo build --target armv7-unknown-linux-gnueabi
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Lưu ý về file &lt;code&gt;.cargo/config.toml&lt;/code&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# target config for Embedded Computer with armv7l arch
+[target.armv7-unknown-linux-gnueabi]
+linker = &amp;#34;arm-linux-gnueabi-gcc&amp;#34;
+rustflags = [&amp;#34;-C&amp;#34;, &amp;#34;target-feature=+crt-static&amp;#34;]
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Sau đó copy file sang Pi:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo scp target/armv7-unknown-linux-gnueabi/debug/cross-arm pi@192.168.10.100:
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;run-on-pi&#34;&gt;Run on Pi&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Quay lại Pi, và chạy lệnh:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;./cross-arm
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Đã chạy đc thành công.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Rust-lang/Rust_for_ARM/Hinh_2.png&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h2 id=&#34;tổng-hợp-một-số-tài-liệu-khác&#34;&gt;Tổng hợp một số tài liệu khác:&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://www.acmesystems.it/arm9_toolchain
+https://harmonicss.co.uk/rust/rust-on-a-raspberry-pi-part-1/
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Đây là một tutorial làm quen với việc &lt;strong&gt;viết OS cho Raspberry&lt;/strong&gt;, tên project: &lt;a href=&#34;https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials&#34;&gt;rust-raspberrypi-OS-tutorials&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ghi-chú-khác-về-armv7-unknown-linux-uclibceabihttpsdocrust-langorgrustcplatform-supportarmv7-unknown-linux-uclibceabihtml&#34;&gt;Ghi chú khác về &lt;a href=&#34;https://doc.rust-lang.org/rustc/platform-support/armv7-unknown-linux-uclibceabi.html&#34;&gt;armv7-unknown-linux-uclibceabi&lt;/a&gt;&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This target supports Armv7-A softfloat CPUs and uses the uclibc-ng standard library. This is a common configuration on many consumer routers (e.g., Netgear R7000, Asus RT-AC68U). &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Tức là khi code rust và build file với target là &lt;code&gt;armv7-unknown-linux-uclibceabi&lt;/code&gt; thì có thể sẽ chạy được trên &lt;strong&gt;OpneWRT&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/iot/software/rust_for_arm/</guid>
+      <pubDate>Thu, 10 Oct 2024 17:30:29 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Android_Automotive</title>
       <link>https://vinhlin.github.io/posts/iot/hardware/android_automotive/</link>
       <description>&lt;p&gt;Trong lúc lướt lát trên facebook, mình vô tình bắt gặp một bài viết &lt;strong&gt;Android Automotive Boot Process A-Z&lt;/strong&gt;.&lt;/p&gt;

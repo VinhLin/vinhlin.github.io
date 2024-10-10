@@ -53,9 +53,11 @@ STT |		Tiêu đề			|		Mô tả				|
 ----|-----------------------------------|-----------------------------------------------|
 1   | [Rust-lang][Rust-lang]		| Tổng hợp ghi chú về ngôn ngữ Rust		|
 2   | [Results_Rust][Results_Rust]	| Ghi chú về *handle error* trong Rust		|
+3   | [Rust_for_ARM][Rust_for_ARM]	| Document lại một số thông tin về việc **cross compiler** của Rust cho **ARM** |
 
 [Rust-lang]: https://blog.vinhld-homelab.io.vn/posts/iot/software/rust-lang/
 [Results_Rust]: https://blog.vinhld-homelab.io.vn/posts/iot/software/rust-lang/results_rust/
+[Rust_for_ARM]: https://blog.vinhld-homelab.io.vn/posts/iot/software/rust-lang/rust_for_arm/ 
 
 ### Embassy
 > Tổng hợp các ghi chú về **Framework Embassy** <br>
