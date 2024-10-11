@@ -14,6 +14,304 @@
     
     
     <item>
+      <title>OBD2_PIDs</title>
+      <link>https://vinhlin.github.io/posts/iot/hardware/obd2_pids/</link>
+      <description>&lt;p&gt;Xem thêm thông tin về &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/iot/hardware/can_obdii/&#34;&gt;CAN_OBDII&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Tổng hợp tài liệu liên quan:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.csselectronics.com/pages/can-bus-simple-intro-tutorial&#34;&gt;CAN Bus Explained - A Simple Intro&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/OBD-II_PIDs&#34;&gt;Wiki: OBDII PIDs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.csselectronics.com/pages/obd2-pid-table-on-board-diagnostics-j1979&#34;&gt;OBD2 PID Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.csselectronics.com/pages/obd-trouble-code-dtc-lookup-converter-tool&#34;&gt;OBD Diagnostic Trouble Code Converter &amp;amp; Lookup Tool&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Một tài liệu về sản phẩm tham khảo và thông tin về OBDII: &lt;a href=&#34;https://vinhlin.github.io/docs/OBD2_data_starter_pack.pdf&#34;&gt;OBD2 - Intro &amp;amp; Data Logger Guide&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;dtc-diagnostic-trouble-codes&#34;&gt;DTC (Diagnostic Trouble Codes)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;DTC là &lt;strong&gt;các mã lỗi&lt;/strong&gt; mà hệ thống chẩn đoán OBD-II tạo ra khi phát hiện vấn đề về hoạt động của xe.&lt;/li&gt;
+&lt;li&gt;Chúng giúp xác định nguyên nhân của các sự cố liên quan đến hệ thống động cơ, khí thải, và các thành phần khác.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;pid-parameter-ids&#34;&gt;PID (Parameter IDs)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;PID là &lt;strong&gt;các mã định danh tham số&lt;/strong&gt; được sử dụng để yêu cầu và nhận dữ liệu từ các cảm biến và hệ thống khác nhau trên xe.&lt;/li&gt;
+&lt;li&gt;Dữ liệu này giúp theo dõi tình trạng hoạt động của xe, chẳng hạn như tốc độ xe, tốc độ động cơ, nhiệt độ chất làm mát, v.v.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;dtc-vs-pids&#34;&gt;DTC vs PIDs&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;DTC để chẩn đoán lỗi. PID để giám sát dữ liệu&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Ví dụ mình có dòng chip &lt;strong&gt;STN1110&lt;/strong&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Nếu cần lấy thông tin về xe thì mình dùng mã lệnh PID để gửi cho ECU, và nhận phản hồi từ ECU. &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Còn DTC (mã lỗi) thì xe sẽ &lt;strong&gt;tự động tạo ra mã lỗi&lt;/strong&gt; này khi phát hiện vấn đề. Ví dụ, nếu xe của bạn gặp sự cố liên quan đến xi-lanh, ECU sẽ tạo ra mã lỗi P0301 và lưu trữ nó. khi bạn kết nối công cụ quét OBD-II (như STN1110) với cổng OBD-II của xe, &lt;strong&gt;công cụ này sẽ tự động đọc và hiển thị mã DTC mà ECU đã lưu trữ&lt;/strong&gt;. &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;giới-thiệu-về-stn1110httpswwwobdsolcomsolutionschipsstn1110formmg0av3&#34;&gt;Giới thiệu về &lt;a href=&#34;https://www.obdsol.com/solutions/chips/stn1110/?form=MG0AV3&#34;&gt;STN1110&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;IC STN1110 là một OBD-II to UART interpreter IC (thiết bị trình dịch OBD-II sang UART)&lt;/li&gt;
+&lt;li&gt;Thay vào đó, nó được sử dụng để chuyển đổi các thông điệp OBD-II thành các thông điệp UART, cho phép kết nối với các thiết bị khác như máy tính hoặc microcontroller thông qua giao tiếp UART.&lt;/li&gt;
+&lt;li&gt;Nó hoạt động như một trung gian giúp truy xuất dữ liệu từ hệ thống OBD-II của xe, bao gồm các mã lỗi DTC, thông số hiệu suất, và nhiều thông tin khác.&lt;/li&gt;
+&lt;li&gt;Để tạo ra một thiết bị tương tự như STN1110, bạn sẽ cần những thành phần cơ bản sau: &lt;code&gt;MCU&lt;/code&gt;, &lt;code&gt;CAN Controller&lt;/code&gt;, &lt;code&gt;CAN Transceiver&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;tham-khảo-telematics-dashboards---visualize-can-datahttpswwwcsselectronicscompagestelematics-dashboard-open-source&#34;&gt;Tham khảo &lt;a href=&#34;https://www.csselectronics.com/pages/telematics-dashboard-open-source&#34;&gt;Telematics Dashboards - Visualize CAN Data&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/OBD2_PIDs/Sample_OBDII_Dashboard.webp&#34;
+  alt=&#34;Sample_OBDII_Dashboard&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dashboard này nhìn đẹp, rất hay ho, thật sự đáng nghiên cứu và học hỏi.&lt;/li&gt;
+&lt;li&gt;Vừa kết hợp được những &lt;strong&gt;thông tin cơ bản lấy từ OBD2&lt;/strong&gt;, vừa kết hợp với &lt;strong&gt;thông tin GPS của thiết bị tracking&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;tổng-hợp-các-lệnh-pids-thường-dùng&#34;&gt;Tổng hợp các lệnh PIDs thường dùng.&lt;/h2&gt;
+&lt;h3 id=&#34;nhiệt-độ-làm-mát-engine-coolant-temperature---tmp&#34;&gt;Nhiệt độ làm mát (Engine Coolant Temperature - TMP)&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/OBD2_PIDs/TMP.png&#34;
+  alt=&#34;TMP&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;tốc-độ-động-cơ-engine-speed---rpm&#34;&gt;Tốc độ động cơ (Engine speed - RPM)&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/OBD2_PIDs/RPM.png&#34;
+  alt=&#34;RPM&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;tốc-độ-phương-tiện-vehicle-speed---spd&#34;&gt;Tốc độ phương tiện (Vehicle speed - SPD)&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/OBD2_PIDs/SPD.png&#34;
+  alt=&#34;SPD&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;mass-air-flow-sensor-maf&#34;&gt;Mass air flow sensor (MAF)&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/OBD2_PIDs/MAF.png&#34;
+  alt=&#34;MAF&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;calculated-engine-load&#34;&gt;Calculated engine load&lt;/h3&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/iot/hardware/obd2_pids/</guid>
+      <pubDate>Fri, 11 Oct 2024 17:23:55 +0700</pubDate>
+    </item>
+    
+    <item>
+      <title>CAN_OBDII</title>
+      <link>https://vinhlin.github.io/posts/iot/hardware/can_obdii/</link>
+      <description>&lt;h2 id=&#34;can-bus-serial-communication---how-it-workshttpswwwyoutubecomwatchvjzsczrt9tto&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=JZSCzRT9TTo&#34;&gt;CAN Bus: Serial Communication - How It Works?&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/CAN_OBDII/CAN_1.png&#34;
+  alt=&#34;CAN_1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Controller Area Network (CAN hoặc CAN Bus)&lt;/strong&gt; một giao thức truyền thông nối tiếp bất đồng bộ.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/CAN_OBDII/CAN_2.png&#34;
+  alt=&#34;CAN_2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Bus CAN chỉ có 2 dây giúp kết nối các module điều khiển với nhau dễ dàng hơn khi so sánh với cách làm truyền thống.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/CAN_OBDII/CAN_3.png&#34;
+  alt=&#34;CAN_3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Do trên ô tô tín hiệu bị nhiễu rất nhiều (sử dụng nhiều mô-tơ), nên &lt;strong&gt;CAN Protocol&lt;/strong&gt; đã được phát triển để &lt;strong&gt;chống nhiễu&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Ban đầu CAN được thiết kế dành cho ngành công nghiệp ô tô, tuy nhiên hiện nay CAN cũng đã trở thành một tiêu chuẩn phổ biến trong tự động hóa công nghiệp và các ngành khác.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;bit-rate-tốc-độ-truyền-dữ-liệu-và-transmission-distances-khoảng-cách-truyền-dữ-liệu&#34;&gt;Bit Rate (Tốc độ truyền dữ liệu) và Transmission Distances (Khoảng cách truyền dữ liệu)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;CAN bus sử dụng các tốc độ truyền dữ liệu khác nhau, thường được tính bằng kilobit trên giây (kbps).&lt;/li&gt;
+&lt;li&gt;Hình dưới là công thức:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/CAN_OBDII/CAN_4.png&#34;
+  alt=&#34;CAN_4&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tốc độ truyền dữ liệu càng cao thì lượng dữ liệu có thể truyền trong một khoảng thời gian càng lớn, nhưng lại có sự đánh đổi với &lt;strong&gt;khoảng cách truyền&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Dưới đây là bảng biểu thị mối quan hệ giữa tốc độ truyền dữ liệu và khoảng cách truyền tối đa cho CAN bus:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/CAN_OBDII/CAN_5.png&#34;
+  alt=&#34;CAN_5&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ngoài tốc độ truyền và khoảng cách, một số yếu tố khác cũng có thể ảnh hưởng đến hiệu suất truyền dẫn trên CAN bus:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Chất lượng dây cáp&lt;/strong&gt;: Dây cáp có trở kháng phù hợp sẽ giúp tín hiệu truyền ổn định hơn.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nhiễu điện từ&lt;/strong&gt;: Môi trường có nhiều nhiễu điện từ (EMI) có thể làm giảm chất lượng tín hiệu.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Số lượng thiết bị trên bus&lt;/strong&gt;: Mỗi thiết bị trên CAN bus sẽ tạo ra tải (load) và có thể ảnh hưởng đến hiệu suất tổng thể.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;can-bus-version&#34;&gt;CAN Bus Version&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/CAN_OBDII/CAN_Bus_Version.png&#34;
+  alt=&#34;CAN_Bus_Version&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;can-transceiver&#34;&gt;CAN Transceiver&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;CAN transceiver không thực hiện bất kỳ xử lý logic nào liên quan đến giao thức CAN mà chỉ làm nhiệm vụ chuyển đổi tín hiệu. &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Một ví dụ phổ biến về CAN transceiver là &lt;a href=&#34;https://ww1.microchip.com/downloads/en/devicedoc/20001667g.pdf&#34;&gt;MCP2551&lt;/a&gt; của Microchip, được sử dụng rất nhiều trong các ứng dụng CAN bus.&lt;/li&gt;
+&lt;li&gt;Ngoài ra cũng có một số loại &lt;strong&gt;CAN Transceiver&lt;/strong&gt; khác như:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nxp.com/docs/en/data-sheet/TJA1050.pdf&#34;&gt;TJA1050&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ti.com/lit/ds/symlink/sn65hvd230.pdf?ts=1727771231223&amp;amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FSN65HVD230%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dasc-null-null-GPN_EN-cpc-pf-google-soas%2526utm_content%253DSN65HVD230%2526ds_k%253DSN65HVD230+Datasheet%2526DCM%253Dyes%2526gad_source%253D1%2526gclid%253DCj0KCQjwu-63BhC9ARIsAMMTLXR7R_weCPL_OVEche7n0ns9PKmoIPJQEKCm7Smr_0-Ta597tHP5OdEaAt8jEALw_wcB%2526gclsrc%253Daw.ds&#34;&gt;SN65HVD230&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;can-bus-controllers&#34;&gt;CAN Bus Controllers&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;CAN bus Controller&lt;/strong&gt; là một vi mạch tích hợp (IC) chứa tất cả các logic và khả năng xử lý dữ liệu để gửi và nhận các thông điệp CAN bus.&lt;/li&gt;
+&lt;li&gt;Tuy nhiên, nó không có các chân đầu ra trực tiếp &lt;code&gt;CAN_H&lt;/code&gt; và &lt;code&gt;CAN_L&lt;/code&gt; (là các đường tín hiệu vật lý của CAN bus), mà thay vào đó chỉ có các chân TX và RX ở mức logic.&lt;/li&gt;
+&lt;li&gt;Điều này có nghĩa là nó cần phải được kết nối với một CAN transceiver (bộ chuyển đổi CAN) để chuyển đổi tín hiệu logic thành tín hiệu vật lý trên CAN bus.&lt;/li&gt;
+&lt;li&gt;Bởi vì CAN Controller chỉ hoạt động ở mức logic (0 và 1), cần có một CAN transceiver để chuyển đổi tín hiệu logic đó thành tín hiệu differential &lt;em&gt;(tín hiệu vi sai)&lt;/em&gt; trên &lt;code&gt;CAN_H&lt;/code&gt; và &lt;code&gt;CAN_L&lt;/code&gt; (đây là hai dây tín hiệu của CAN bus).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/CAN_OBDII/CAN_6.png&#34;
+  alt=&#34;CAN_6&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;CAN Bus Microcontroller Peripherals&lt;/strong&gt;: Nhiều vi điều khiển (MCU) hiện đại có tích hợp CAN controller như một phần peripheral bên trong.
+Ví dụ, các dòng vi điều khiển như &lt;strong&gt;STM32&lt;/strong&gt; hoặc &lt;strong&gt;ESP32&lt;/strong&gt; có thể chứa sẵn CAN controller trên chip. Điều này giúp giảm thiểu sự phức tạp trong thiết kế phần cứng vì không cần thêm một IC CAN controller bên ngoài.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;mối-quan-hệ-giữa-can-controller-và-transceiver&#34;&gt;Mối quan hệ giữa CAN Controller và Transceiver:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Như vậy, để giao tiếp hoàn chỉnh trên CAN bus, cả CAN controller và CAN transceiver đều cần thiết:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;CAN controller&lt;/strong&gt;: Thực hiện các chức năng logic, quản lý giao thức CAN, và truyền/nhận dữ liệu qua các tín hiệu TX/RX ở mức logic.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CAN transceiver&lt;/strong&gt;: Chuyển đổi các tín hiệu logic từ CAN controller thành tín hiệu vi sai và ngược lại để tương tác với mạng CAN vật lý (&lt;code&gt;CAN_H&lt;/code&gt; và &lt;code&gt;CAN_L&lt;/code&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Một thiết kế CAN bus điển hình sẽ bao gồm:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Vi điều khiển (MCU)&lt;/strong&gt;: Gửi/nhận dữ liệu và điều khiển hệ thống. &lt;/br&gt;
+&lt;strong&gt;CAN Controller&lt;/strong&gt;: Xử lý thông điệp CAN, giao tiếp với MCU qua các giao thức như SPI. &lt;/br&gt;
+&lt;strong&gt;CAN Transceiver&lt;/strong&gt;: Chuyển đổi tín hiệu giữa CAN Controller và CAN bus. &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;tài-liệu-tham-khảo&#34;&gt;Tài liệu tham khảo:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.alexomar.com/biblioteca/thecarhackershandbook.pdf&#34;&gt;Tài liệu Car Hacking&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tài liệu khác:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://www.ti.com/lit/an/sloa101b/sloa101b.pdf?ts=1727681723175&amp;amp;ref_url=https%253A%252F%252Fwww.google.com.sg%252F
+https://mesidas.com/can-canbus/
+https://community.nxp.com/t5/NXP-Tech-Blog/101-Controller-Area-Network-CAN-standard/ba-p/1217054
+https://www.typhoon-hil.com/documentation/typhoon-hil-software-manual/References/can_bus_protocol.html
+https://blog.mbedded.ninja/electronics/communication-protocols/can-protocol/
+https://www.csselectronics.com/pages/can-bus-simple-intro-tutorial
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;obd&#34;&gt;OBD&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Các bài viết liên quan:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://www.otosaigon.com/threads/huong-dan-chan-doan-loi-bang-may-quet-obd2-cho-nguoi-nghiep-du.9075318/
+https://autoitech.vn/obd-ii-ma-loi-tren-o-to-phan-1/
+https://vinfastauto.com/vn_vi/he-thong-obd-tren-o-to-va-nhung-dieu-can-biet
+https://www.thegioididong.com/hoi-dap/cong-obd-2-la-gi-cac-tien-ich-tu-cong-obd-2-tren-xe-o-to-1292647
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;OBD (On – Board Diagnostics)&lt;/strong&gt;, hay còn gọi là hệ thống chẩn đoán lỗi OBD, được trang bị trên ô tô để theo dõi và điều chỉnh một số hoạt động của phương tiện. Hệ thống này thu thập thông tin từ mạng lưới các cảm biến gắn cố định quanh xe, phát hiện lỗi hư hỏng và cảnh báo tới người lái nhằm kịp thời đưa ra phương án xử lý.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/CAN_OBDII/H%e1%bb%87_th%e1%bb%91ng_OBD.jpg&#34;
+  alt=&#34;OBD&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cổng kết nối OBDII:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/CAN_OBDII/OBDII_Pinout.jpg&#34;
+  alt=&#34;OBD_pinout&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;note&#34;&gt;Note&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Theo mình hiểu thì OBD là một chuẩn (gồm cổng kết nối, protocol) để các hãng xe làm theo quy chuẩn này.&lt;/li&gt;
+&lt;li&gt;Mình liên tưởng điều này với bộ thiết bị GSHT, ví dụ với mỗi nhà phát hành một thiết bị GSHT thì sẽ có một bộ protocol của họ.&lt;/li&gt;
+&lt;li&gt;Tuy nhiên các thiết bị GSHT này đều phải tuân theo &lt;strong&gt;QCVN31&lt;/strong&gt; (bao gồm công kết nối, protocol của bản tin). Khi tuân theo chuẩn chung này thì nhà nước, chính quyền có thể đọc thông tin từ thiết bị GSHT khi có vấn đề xảy ra.&lt;/li&gt;
+&lt;li&gt;Nếu hiểu như vậy thì sẽ phân biệt và dễ hiểu hơn giữa &lt;strong&gt;CAN vs OBD&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;tài-liệu-về-mã-lỗi-trên-obdii&#34;&gt;Tài liệu về mã lỗi trên OBDII&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://www.obd-codes.com/
+https://www.obd-codes.com/faq/obd2-codes-explained.php
+https://en.wikipedia.org/wiki/OBD-II_PIDs
+&lt;/code&gt;&lt;/pre&gt;</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/iot/hardware/can_obdii/</guid>
+      <pubDate>Fri, 11 Oct 2024 15:56:03 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>DMA</title>
       <link>https://vinhlin.github.io/posts/iot/hardware/dma/</link>
       <description>&lt;p&gt;Trong quá trình tìm hiểu lại về &lt;strong&gt;DMA&lt;/strong&gt;, mình lại vô trình biết thêm một trang web chia sẻ kiến thức về &lt;strong&gt;Điện tử, Lập trình,&amp;hellip;&lt;/strong&gt;&lt;/p&gt;
@@ -479,190 +777,6 @@ cansniffer
       <author>VinhLD</author>
       <guid>https://vinhlin.github.io/posts/iot/hardware/car_hacking/</guid>
       <pubDate>Sat, 05 Oct 2024 13:55:01 +0700</pubDate>
-    </item>
-    
-    <item>
-      <title>CAN_OBDII</title>
-      <link>https://vinhlin.github.io/posts/iot/hardware/can_obdii/</link>
-      <description>&lt;h2 id=&#34;can-bus-serial-communication---how-it-workshttpswwwyoutubecomwatchvjzsczrt9tto&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=JZSCzRT9TTo&#34;&gt;CAN Bus: Serial Communication - How It Works?&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/CAN_OBDII/CAN_1.png&#34;
-  alt=&#34;CAN_1&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Controller Area Network (CAN hoặc CAN Bus)&lt;/strong&gt; một giao thức truyền thông nối tiếp bất đồng bộ.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/CAN_OBDII/CAN_2.png&#34;
-  alt=&#34;CAN_2&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Bus CAN chỉ có 2 dây giúp kết nối các module điều khiển với nhau dễ dàng hơn khi so sánh với cách làm truyền thống.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/CAN_OBDII/CAN_3.png&#34;
-  alt=&#34;CAN_3&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Do trên ô tô tín hiệu bị nhiễu rất nhiều (sử dụng nhiều mô-tơ), nên &lt;strong&gt;CAN Protocol&lt;/strong&gt; đã được phát triển để &lt;strong&gt;chống nhiễu&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Ban đầu CAN được thiết kế dành cho ngành công nghiệp ô tô, tuy nhiên hiện nay CAN cũng đã trở thành một tiêu chuẩn phổ biến trong tự động hóa công nghiệp và các ngành khác.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;bit-rate-tốc-độ-truyền-dữ-liệu-và-transmission-distances-khoảng-cách-truyền-dữ-liệu&#34;&gt;Bit Rate (Tốc độ truyền dữ liệu) và Transmission Distances (Khoảng cách truyền dữ liệu)&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;CAN bus sử dụng các tốc độ truyền dữ liệu khác nhau, thường được tính bằng kilobit trên giây (kbps).&lt;/li&gt;
-&lt;li&gt;Hình dưới là công thức:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/CAN_OBDII/CAN_4.png&#34;
-  alt=&#34;CAN_4&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Tốc độ truyền dữ liệu càng cao thì lượng dữ liệu có thể truyền trong một khoảng thời gian càng lớn, nhưng lại có sự đánh đổi với &lt;strong&gt;khoảng cách truyền&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Dưới đây là bảng biểu thị mối quan hệ giữa tốc độ truyền dữ liệu và khoảng cách truyền tối đa cho CAN bus:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/CAN_OBDII/CAN_5.png&#34;
-  alt=&#34;CAN_5&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Ngoài tốc độ truyền và khoảng cách, một số yếu tố khác cũng có thể ảnh hưởng đến hiệu suất truyền dẫn trên CAN bus:
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Chất lượng dây cáp&lt;/strong&gt;: Dây cáp có trở kháng phù hợp sẽ giúp tín hiệu truyền ổn định hơn.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Nhiễu điện từ&lt;/strong&gt;: Môi trường có nhiều nhiễu điện từ (EMI) có thể làm giảm chất lượng tín hiệu.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Số lượng thiết bị trên bus&lt;/strong&gt;: Mỗi thiết bị trên CAN bus sẽ tạo ra tải (load) và có thể ảnh hưởng đến hiệu suất tổng thể.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;can-transceiver&#34;&gt;CAN Transceiver&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;CAN transceiver không thực hiện bất kỳ xử lý logic nào liên quan đến giao thức CAN mà chỉ làm nhiệm vụ chuyển đổi tín hiệu. &lt;/br&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;Một ví dụ phổ biến về CAN transceiver là &lt;a href=&#34;https://ww1.microchip.com/downloads/en/devicedoc/20001667g.pdf&#34;&gt;MCP2551&lt;/a&gt; của Microchip, được sử dụng rất nhiều trong các ứng dụng CAN bus.&lt;/li&gt;
-&lt;li&gt;Ngoài ra cũng có một số loại &lt;strong&gt;CAN Transceiver&lt;/strong&gt; khác như:
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.nxp.com/docs/en/data-sheet/TJA1050.pdf&#34;&gt;TJA1050&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.ti.com/lit/ds/symlink/sn65hvd230.pdf?ts=1727771231223&amp;amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FSN65HVD230%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dasc-null-null-GPN_EN-cpc-pf-google-soas%2526utm_content%253DSN65HVD230%2526ds_k%253DSN65HVD230+Datasheet%2526DCM%253Dyes%2526gad_source%253D1%2526gclid%253DCj0KCQjwu-63BhC9ARIsAMMTLXR7R_weCPL_OVEche7n0ns9PKmoIPJQEKCm7Smr_0-Ta597tHP5OdEaAt8jEALw_wcB%2526gclsrc%253Daw.ds&#34;&gt;SN65HVD230&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;can-bus-controllers&#34;&gt;CAN Bus Controllers&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;CAN bus Controller&lt;/strong&gt; là một vi mạch tích hợp (IC) chứa tất cả các logic và khả năng xử lý dữ liệu để gửi và nhận các thông điệp CAN bus.&lt;/li&gt;
-&lt;li&gt;Tuy nhiên, nó không có các chân đầu ra trực tiếp &lt;code&gt;CAN_H&lt;/code&gt; và &lt;code&gt;CAN_L&lt;/code&gt; (là các đường tín hiệu vật lý của CAN bus), mà thay vào đó chỉ có các chân TX và RX ở mức logic.&lt;/li&gt;
-&lt;li&gt;Điều này có nghĩa là nó cần phải được kết nối với một CAN transceiver (bộ chuyển đổi CAN) để chuyển đổi tín hiệu logic thành tín hiệu vật lý trên CAN bus.&lt;/li&gt;
-&lt;li&gt;Bởi vì CAN Controller chỉ hoạt động ở mức logic (0 và 1), cần có một CAN transceiver để chuyển đổi tín hiệu logic đó thành tín hiệu differential &lt;em&gt;(tín hiệu vi sai)&lt;/em&gt; trên &lt;code&gt;CAN_H&lt;/code&gt; và &lt;code&gt;CAN_L&lt;/code&gt; (đây là hai dây tín hiệu của CAN bus).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/CAN_OBDII/CAN_6.png&#34;
-  alt=&#34;CAN_6&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;CAN Bus Microcontroller Peripherals&lt;/strong&gt;: Nhiều vi điều khiển (MCU) hiện đại có tích hợp CAN controller như một phần peripheral bên trong.
-Ví dụ, các dòng vi điều khiển như &lt;strong&gt;STM32&lt;/strong&gt; hoặc &lt;strong&gt;ESP32&lt;/strong&gt; có thể chứa sẵn CAN controller trên chip. Điều này giúp giảm thiểu sự phức tạp trong thiết kế phần cứng vì không cần thêm một IC CAN controller bên ngoài.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;mối-quan-hệ-giữa-can-controller-và-transceiver&#34;&gt;Mối quan hệ giữa CAN Controller và Transceiver:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Như vậy, để giao tiếp hoàn chỉnh trên CAN bus, cả CAN controller và CAN transceiver đều cần thiết:
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;CAN controller&lt;/strong&gt;: Thực hiện các chức năng logic, quản lý giao thức CAN, và truyền/nhận dữ liệu qua các tín hiệu TX/RX ở mức logic.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;CAN transceiver&lt;/strong&gt;: Chuyển đổi các tín hiệu logic từ CAN controller thành tín hiệu vi sai và ngược lại để tương tác với mạng CAN vật lý (&lt;code&gt;CAN_H&lt;/code&gt; và &lt;code&gt;CAN_L&lt;/code&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Một thiết kế CAN bus điển hình sẽ bao gồm:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Vi điều khiển (MCU)&lt;/strong&gt;: Gửi/nhận dữ liệu và điều khiển hệ thống. &lt;/br&gt;
-&lt;strong&gt;CAN Controller&lt;/strong&gt;: Xử lý thông điệp CAN, giao tiếp với MCU qua các giao thức như SPI. &lt;/br&gt;
-&lt;strong&gt;CAN Transceiver&lt;/strong&gt;: Chuyển đổi tín hiệu giữa CAN Controller và CAN bus. &lt;/br&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&#34;tài-liệu-tham-khảo&#34;&gt;Tài liệu tham khảo:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.alexomar.com/biblioteca/thecarhackershandbook.pdf&#34;&gt;Tài liệu Car Hacking&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Tài liệu khác:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://www.ti.com/lit/an/sloa101b/sloa101b.pdf?ts=1727681723175&amp;amp;ref_url=https%253A%252F%252Fwww.google.com.sg%252F
-https://mesidas.com/can-canbus/
-https://community.nxp.com/t5/NXP-Tech-Blog/101-Controller-Area-Network-CAN-standard/ba-p/1217054
-https://www.typhoon-hil.com/documentation/typhoon-hil-software-manual/References/can_bus_protocol.html
-https://blog.mbedded.ninja/electronics/communication-protocols/can-protocol/
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;obd&#34;&gt;OBD&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Các bài viết liên quan:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://www.otosaigon.com/threads/huong-dan-chan-doan-loi-bang-may-quet-obd2-cho-nguoi-nghiep-du.9075318/
-https://autoitech.vn/obd-ii-ma-loi-tren-o-to-phan-1/
-https://vinfastauto.com/vn_vi/he-thong-obd-tren-o-to-va-nhung-dieu-can-biet
-https://www.thegioididong.com/hoi-dap/cong-obd-2-la-gi-cac-tien-ich-tu-cong-obd-2-tren-xe-o-to-1292647
-&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;OBD (On – Board Diagnostics)&lt;/strong&gt;, hay còn gọi là hệ thống chẩn đoán lỗi OBD, được trang bị trên ô tô để theo dõi và điều chỉnh một số hoạt động của phương tiện. Hệ thống này thu thập thông tin từ mạng lưới các cảm biến gắn cố định quanh xe, phát hiện lỗi hư hỏng và cảnh báo tới người lái nhằm kịp thời đưa ra phương án xử lý.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/CAN_OBDII/H%e1%bb%87_th%e1%bb%91ng_OBD.jpg&#34;
-  alt=&#34;OBD&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Cổng kết nối OBDII:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/CAN_OBDII/OBDII_Pinout.jpg&#34;
-  alt=&#34;OBD_pinout&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;h3 id=&#34;note&#34;&gt;Note&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Theo mình hiểu thì OBD là một chuẩn (gồm cổng kết nối, protocol) để các hãng xe làm theo quy chuẩn này.&lt;/li&gt;
-&lt;li&gt;Mình liên tưởng điều này với bộ thiết bị GSHT, ví dụ với mỗi nhà phát hành một thiết bị GSHT thì sẽ có một bộ protocol của họ.&lt;/li&gt;
-&lt;li&gt;Tuy nhiên các thiết bị GSHT này đều phải tuân theo &lt;strong&gt;QCVN31&lt;/strong&gt; (bao gồm công kết nối, protocol của bản tin). Khi tuân theo chuẩn chung này thì nhà nước, chính quyền có thể đọc thông tin từ thiết bị GSHT khi có vấn đề xảy ra.&lt;/li&gt;
-&lt;li&gt;Nếu hiểu như vậy thì sẽ phân biệt và dễ hiểu hơn giữa &lt;strong&gt;CAN vs OBD&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;tài-liệu-về-mã-lỗi-trên-obdii&#34;&gt;Tài liệu về mã lỗi trên OBDII&lt;/h3&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://www.obd-codes.com/
-https://www.obd-codes.com/faq/obd2-codes-explained.php
-https://en.wikipedia.org/wiki/OBD-II_PIDs
-&lt;/code&gt;&lt;/pre&gt;</description>
-      <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/iot/hardware/can_obdii/</guid>
-      <pubDate>Tue, 01 Oct 2024 15:56:03 +0700</pubDate>
     </item>
     
     <item>

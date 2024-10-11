@@ -40,6 +40,7 @@ hugo new posts/IoT/Hardware/CAN_OBDII.md
 hugo new posts/IoT/Hardware/Car_Hacking.md
 hugo new posts/IoT/Hardware/Android_Automotive.md
 hugo new posts/IoT/Hardware/DMA.md
+hugo new posts/IoT/Hardware/OBD2_PIDs.md
 ```
 - Software
 ```

@@ -21,6 +21,7 @@ STT |		Tiêu đề			|		Mô tả				|
 9   | [Car_Hacking][Car_Hacking]	| Tìm hiểu một số thông tin về **Car hacking** thông qua sách `The_Car_Hacker_Handbook` |
 10  | [Android_Automotive][Android_Automotive] | Ghi chú về **Android Automotive**	|
 11  | [DMA][DMA]			| Tổng hợp ghi chú về **DMA - Direct Memory Access** |
+12  | [OBD2_PIDs][OBD2_PIDs]		| Ghi chú về các mã lệnh **PIDs** của OBDII.	|
 
 [UNIHIKER]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/unihiker/
 [ESD]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/esd/
@@ -33,6 +34,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [Car_Hacking]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/car_hacking/
 [Android_Automotive]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/android_automotive/
 [DMA]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/dma/
+[OBD2_PIDs]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/obd2_pids/
 
 ## ***SOFTWARE***
 

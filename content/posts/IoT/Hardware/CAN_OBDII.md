@@ -1,6 +1,6 @@
 +++
 title = 'CAN_OBDII'
-date = 2024-10-01T15:56:03+07:00
+date = 2024-10-11T15:56:03+07:00
 draft = true
 +++
 
@@ -34,6 +34,10 @@ draft = true
 	- **Chất lượng dây cáp**: Dây cáp có trở kháng phù hợp sẽ giúp tín hiệu truyền ổn định hơn.
 	- **Nhiễu điện từ**: Môi trường có nhiều nhiễu điện từ (EMI) có thể làm giảm chất lượng tín hiệu.
 	- **Số lượng thiết bị trên bus**: Mỗi thiết bị trên CAN bus sẽ tạo ra tải (load) và có thể ảnh hưởng đến hiệu suất tổng thể.
+
+### CAN Bus Version
+
+![CAN_Bus_Version](/image/IoT/CAN_OBDII/CAN_Bus_Version.png)
 
 ### CAN Transceiver
 > CAN transceiver không thực hiện bất kỳ xử lý logic nào liên quan đến giao thức CAN mà chỉ làm nhiệm vụ chuyển đổi tín hiệu. </br>
@@ -72,6 +76,7 @@ https://mesidas.com/can-canbus/
 https://community.nxp.com/t5/NXP-Tech-Blog/101-Controller-Area-Network-CAN-standard/ba-p/1217054
 https://www.typhoon-hil.com/documentation/typhoon-hil-software-manual/References/can_bus_protocol.html
 https://blog.mbedded.ninja/electronics/communication-protocols/can-protocol/
+https://www.csselectronics.com/pages/can-bus-simple-intro-tutorial
 ```
 
 ## OBD
