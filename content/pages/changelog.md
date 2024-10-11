@@ -20,6 +20,7 @@ STT |		Tiêu đề			|		Mô tả				|
 8   | [CAN_OBDII][CAN_OBDII]		| Ghi chú và tìm hiểu khái niệm về **CAN Bus** và chuẩn **OBD** |
 9   | [Car_Hacking][Car_Hacking]	| Tìm hiểu một số thông tin về **Car hacking** thông qua sách `The_Car_Hacker_Handbook` |
 10  | [Android_Automotive][Android_Automotive] | Ghi chú về **Android Automotive**	|
+11  | [DMA][DMA]			| Tổng hợp ghi chú về **DMA - Direct Memory Access** |
 
 [UNIHIKER]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/unihiker/
 [ESD]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/esd/
@@ -31,6 +32,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [CAN_OBDII]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/can_obdii/
 [Car_Hacking]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/car_hacking/
 [Android_Automotive]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/android_automotive/
+[DMA]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/dma/
 
 ## ***SOFTWARE***
 
@@ -57,7 +59,7 @@ STT |		Tiêu đề			|		Mô tả				|
 
 [Rust-lang]: https://blog.vinhld-homelab.io.vn/posts/iot/software/rust-lang/
 [Results_Rust]: https://blog.vinhld-homelab.io.vn/posts/iot/software/rust-lang/results_rust/
-[Rust_for_ARM]: https://blog.vinhld-homelab.io.vn/posts/iot/software/rust-lang/rust_for_arm/ 
+[Rust_for_ARM]: https://blog.vinhld-homelab.io.vn/posts/iot/software/rust_for_arm/ 
 
 ### Embassy
 > Tổng hợp các ghi chú về **Framework Embassy** <br>
