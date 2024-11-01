@@ -4,6 +4,12 @@ date = 2024-10-10T17:30:29+07:00
 draft = true
 +++
 
+Ngày		|		Mô tả				|
+----------------|-----------------------------------------------|
+10/10/2024	| Khởi tạo bài viết, ghi chú về Rust for ARM	|
+12/10/2024	| Ghi chú thêm một số tài liệu về OpenWRT	|
+
+------------------------------------------------------------------------------------
 - Hiện tại đã dùng **Rust** để code **Bất đồng bộ**.
 	- Với MCU thì dùng framework [embassy](https://github.com/embassy-rs/embassy)
 	- Với Linux (hoặc Windows) thì dùng [tokio](https://github.com/tokio-rs/tokio)
@@ -92,6 +98,22 @@ https://harmonicss.co.uk/rust/rust-on-a-raspberry-pi-part-1/
 > This target supports Armv7-A softfloat CPUs and uses the uclibc-ng standard library. This is a common configuration on many consumer routers (e.g., Netgear R7000, Asus RT-AC68U). </br>
 
 - Tức là khi code rust và build file với target là `armv7-unknown-linux-uclibceabi` thì có thể sẽ chạy được trên **OpneWRT**.
+
+-----------------------------------------------------------------------------------------
+## Cập nhật 12/10/2024
+
+Ghi chú tổng hợp một số tài liệu về [OpenWRT](https://openwrt.org/about) cho Rust
+
+- [Building Rust code for my OpenWrt Wi-Fi router](https://blog.dend.ro/building-rust-for-routers/)
+- Đây là một ghi chú khác về [cross compiling Rust programs](https://github.com/japaric/rust-cross)
+
+
+
+
+
+
+
+
 
 
 

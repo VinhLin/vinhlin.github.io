@@ -15,6 +15,24 @@ hugo server -D
 hugo --config hugo.toml -D
 ```
 
+### Tổng hợp các icon:
+```
+🌱
+👉
+💬
+👨‍💻
+🔭
+📺
+❤️
+📫
+✔️
+```
+- Tham khảo:
+```
+https://gist.github.com/rxaviers/7360908#file-gistfile1-md
+https://markdown-all-in-one.github.io/docs/contributing/emoji.html#precedence
+```
+
 -------------------------------------------------------------------------------
 ## Nội dung các bài post sẽ chia như sau:
 

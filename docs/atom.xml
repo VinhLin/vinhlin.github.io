@@ -409,7 +409,26 @@ https://www.laptrinhdientu.com/2022/04/DMA1.html
     <item>
       <title>Rust_for_ARM</title>
       <link>https://vinhlin.github.io/posts/iot/software/rust_for_arm/</link>
-      <description>&lt;ul&gt;
+      <description>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Ngày&lt;/th&gt;
+&lt;th&gt;Mô tả&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;10/10/2024&lt;/td&gt;
+&lt;td&gt;Khởi tạo bài viết, ghi chú về Rust for ARM&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;12/10/2024&lt;/td&gt;
+&lt;td&gt;Ghi chú thêm một số tài liệu về OpenWRT&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Hiện tại đã dùng &lt;strong&gt;Rust&lt;/strong&gt; để code &lt;strong&gt;Bất đồng bộ&lt;/strong&gt;.&lt;/p&gt;
 &lt;ul&gt;
@@ -535,6 +554,13 @@ https://harmonicss.co.uk/rust/rust-on-a-raspberry-pi-part-1/
 &lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;Tức là khi code rust và build file với target là &lt;code&gt;armv7-unknown-linux-uclibceabi&lt;/code&gt; thì có thể sẽ chạy được trên &lt;strong&gt;OpneWRT&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;cập-nhật-12102024&#34;&gt;Cập nhật 12/10/2024&lt;/h2&gt;
+&lt;p&gt;Ghi chú tổng hợp một số tài liệu về &lt;a href=&#34;https://openwrt.org/about&#34;&gt;OpenWRT&lt;/a&gt; cho Rust&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.dend.ro/building-rust-for-routers/&#34;&gt;Building Rust code for my OpenWrt Wi-Fi router&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Đây là một ghi chú khác về &lt;a href=&#34;https://github.com/japaric/rust-cross&#34;&gt;cross compiling Rust programs&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
       <author>VinhLD</author>
