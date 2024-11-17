@@ -122,7 +122,7 @@ STT |		Tiêu đề			|		Mô tả				|
 
 -----------------------------------------------------------------------------------------
 # <mark>Others</mark>
-> Những bài viết về **góc nhìn**, **nhận định cá nhân** <br>
+> Những bài viết về **góc nhìn**, **nhận định cá nhân** </br>
 
 STT |		Tiêu đề			|		Mô tả				|
 ----|-----------------------------------|-----------------------------------------------|
@@ -135,6 +135,18 @@ STT |		Tiêu đề			|		Mô tả				|
 [Hardware_Hacking]: https://blog.vinhld-homelab.io.vn/posts/others/suy_nghi_ve_hardware_hacking/
 [JD]: https://blog.vinhld-homelab.io.vn/posts/others/iot_security_jd/
 [Hoi_thao_2024]: https://blog.vinhld-homelab.io.vn/posts/others/hoi_thao_2024/
+
+-----------------------------------------------------------------------------------------
+# <mark>System-DevOps</mark>
+> Tổng hợp các ghi chú về **System and DevOps** </br>
+
+STT |		Tiêu đề			|		Mô tả				|
+----|-----------------------------------|-----------------------------------------------|
+1   | [Permission_Linux][Permission_Linux] | Ghi chú về **Permission trong linux**	|
+2   | [Huly][Huly]			| Một **platform open-source** quản lý dự án	|
+
+[Permission_Linux]: https://blog.vinhld-homelab.io.vn/posts/system-devops/permission_linux/
+[Huly]: https://blog.vinhld-homelab.io.vn/posts/system-devops/huly/
 
 
 

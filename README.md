@@ -33,6 +33,16 @@ https://gist.github.com/rxaviers/7360908#file-gistfile1-md
 https://markdown-all-in-one.github.io/docs/contributing/emoji.html#precedence
 ```
 
+### Delete post:
+- Tham khảo:
+```
+https://discourse.gohugo.io/t/how-to-delete-a-post-the-correct-way/8296/5
+https://discourse.gohugo.io/t/how-to-delete-my-post/19739
+```
+> *Normally if you delete the .md file the post will disappear*.
+
+- Tức là nếu muốn xóa một bài **post**, thì mình chỉ đơn giản là xóa đi file `.md`
+
 -------------------------------------------------------------------------------
 ## Nội dung các bài post sẽ chia như sau:
 
@@ -73,6 +83,7 @@ hugo new posts/IoT/Software/Rust-lang/Results_Rust.md
 hugo new posts/IoT/Software/Shared_Access_Embassy.md
 hugo new posts/IoT/Software/Read_Write_UART_STM32Fx.md
 hugo new posts/IoT/Software/Rust_for_ARM.md
+hugo new posts/IoT/Software/Permission_Linux.md
 ```
 
 ### CyberSecurity:
@@ -96,6 +107,8 @@ hugo new posts/CyberSecurity/Technical/NFC_PWA.md
 hugo new posts/CyberSecurity/Technical/Fault_Injection.md
 ```
 
-
-
-
+### System-DevOps
+```
+hugo new posts/System-DevOps/Permission_Linux.md
+hugo new posts/System-DevOps/Huly.md
+```

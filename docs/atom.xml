@@ -14,6 +14,201 @@
     
     
     <item>
+      <title>Huly</title>
+      <link>https://vinhlin.github.io/posts/system-devops/huly/</link>
+      <description>&lt;p&gt;Một platform open-source quản lý dự án.&lt;/p&gt;
+&lt;p&gt;Có các tính năng như:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Jira&lt;/li&gt;
+&lt;li&gt;Meeting, chat&lt;/li&gt;
+&lt;li&gt;Và documents như Notion&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Nếu như không muốn bỏ quá nhiều chi phí cho các nền tảng trả phí, thì có thể tham khảo để tự host &lt;strong&gt;Huly&lt;/strong&gt; này để xài.&lt;/p&gt;
+&lt;h3 id=&#34;tài-liệu&#34;&gt;Tài liệu:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.huly.io/getting-started/introduction-huly/&#34;&gt;https://docs.huly.io/getting-started/introduction-huly/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://huly.io/&#34;&gt;https://huly.io/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hcengineering/platform&#34;&gt;https://github.com/hcengineering/platform&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/system-devops/huly/</guid>
+      <pubDate>Sun, 17 Nov 2024 11:45:33 +0700</pubDate>
+    </item>
+    
+    <item>
+      <title>Permission_Linux</title>
+      <link>https://vinhlin.github.io/posts/system-devops/permission_linux/</link>
+      <description>&lt;p&gt;Ghi chú về &lt;strong&gt;Permission trong linux&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;video-devops-for-freshers--bài-7-quyền-truy-cập-trong-linux--devops-cho-người-mới-bắt-đầuhttpswwwyoutubecomwatchvu5oufnvomt4listplsvroivfnp1ku8fouecc-hbjbqnaggwl2index8&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=U5Oufnvomt4&amp;amp;list=PLsvroIvFNP1KU8foUeCC-hbJbqnAggWL2&amp;amp;index=8&#34;&gt;Video: DevOps for Freshers | Bài 7: Quyền truy cập trong Linux | DevOps cho người mới bắt đầu&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/Permission_Linux/Permission.png&#34;
+  alt=&#34;Permission&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;phân-quyền---permission&#34;&gt;Phân quyền - Permission&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Theo như trong video thì phân quyền sẽ có:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Chủ sở hữu (u) - Nhóm sở hữu (g) - Nhóm khác (o)
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Muốn thay đổi quyền sở hữu (của tất cả tập tin có trong thư mục) thì dùng lệnh:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo chown -R &amp;lt;chu_so_huu&amp;gt;:&amp;lt;nhom_so_huu&amp;gt; &amp;lt;folder_name&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Mỗi nhóm sẽ đều có các quyền tác động khác nhau.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;quyền-tác-động&#34;&gt;Quyền tác động:&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;read (4) - write (2) - execute (1)
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Câu lệnh để thay đổi đổi một quyền tác động của 1 file, ví dụ:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo chmod 750 &amp;lt;file_name&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Với &lt;strong&gt;750&lt;/strong&gt; cho &lt;code&gt;&amp;lt;file_name&amp;gt;&lt;/code&gt;, tức là file này:
+&lt;ul&gt;
+&lt;li&gt;Có quyền &lt;strong&gt;r,w,e&lt;/strong&gt; &amp;ndash;&amp;gt; Chủ sở hữu file&lt;/li&gt;
+&lt;li&gt;Có quyền &lt;strong&gt;r,e&lt;/strong&gt; &amp;ndash;&amp;gt; Nhóm sở hữu file&lt;/li&gt;
+&lt;li&gt;Không có quyền thao tác trên file này đối với nhóm khác&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/Permission_Linux/Linux_File_Cheatsheet.jfif&#34;
+  alt=&#34;Cheatsheet&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/system-devops/permission_linux/</guid>
+      <pubDate>Sun, 17 Nov 2024 11:39:36 +0700</pubDate>
+    </item>
+    
+    <item>
+      <title>Kien_truc_may_tinh</title>
+      <link>https://vinhlin.github.io/posts/iot/hardware/kien_truc_may_tinh/</link>
+      <description>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Ngày&lt;/th&gt;
+&lt;th&gt;Mô tả&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;27/8/2024&lt;/td&gt;
+&lt;td&gt;Khởi tạo bài viết&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;17/11/2024&lt;/td&gt;
+&lt;td&gt;Update thêm từ video &lt;strong&gt;ARM vs x86: khác biệt ra sao? Mạnh hơn? Pin tốt hơn?&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;kiển-trúc-máy-tính&#34;&gt;Kiển trúc Máy tính&lt;/h2&gt;
+&lt;h3 id=&#34;kiến-trúc-máy-tính---von-neumannhttpswwwdigikeycomenmakerblogs2024von-neumann-architecture&#34;&gt;&lt;a href=&#34;https://www.digikey.com/en/maker/blogs/2024/von-neumann-architecture&#34;&gt;Kiến trúc máy tính - Von-Neumann&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Được chia làm 3 phần chính:
+&lt;ul&gt;
+&lt;li&gt;CPU&lt;/li&gt;
+&lt;li&gt;Memory&lt;/li&gt;
+&lt;li&gt;IO&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Cả 3 thành phần này đều giao tiếp với nhau thông qua &lt;strong&gt;bus&lt;/strong&gt; (gọi là &lt;code&gt;data bus&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;kiến-trúc-harvard-sử-dụng-rộng-rãi-trong-các-bộ-vi-điều-khiển-và-dsp-digital-signal-processing&#34;&gt;kiến trúc Harvard: Sử dụng rộng rãi trong các bộ vi điều khiển và DSP (Digital Signal Processing)&lt;/h3&gt;
+&lt;p&gt;Sự khác biệt giữa kiến trúc &lt;strong&gt;Harvard&lt;/strong&gt; vs &lt;strong&gt;Von-Neumann&lt;/strong&gt; đó chính là sự bố trí giữa &lt;strong&gt;CPU - Memory&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;kiến-trúc-chiphttpsinc42comglossarychip-architecture&#34;&gt;&lt;a href=&#34;https://inc42.com/glossary/chip-architecture/&#34;&gt;Kiến trúc chip&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;x86-architecture&#34;&gt;x86 Architecture&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Thường thấy trong các sản phẩm máy tính desktop hoặc laptop.&lt;/li&gt;
+&lt;li&gt;Phổ biến là dòng chip của &lt;strong&gt;Intel&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;risc-architectures&#34;&gt;RISC Architectures&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;MIPS Architecture: &lt;a href=&#34;https://www.cit.ctu.edu.vn/~dtnghi/cod/ch3.pdf&#34;&gt;KIẾN TRÚC BỘ LỆNH&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ARM Architecture:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.csie.ntu.edu.tw/~cyy/courses/assembly/12fall/lectures/handouts/lec08_ARMarch.pdf&#34;&gt;Tài liệu ARMarch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.candtsolution.com/news_events-detail/what-is-the-difference-between-arm-and-x86/&#34;&gt;Một bài viết so sánh giữa ARM vs x86&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-bushttpswwwdigikeycomenmakertutorials2023what-is-serial-communication-and-how-does-it-compare-to-paralleltextwhats20the20difference20between20serialdata20that20can20be20transferred&#34;&gt;&lt;a href=&#34;https://www.digikey.com/en/maker/tutorials/2023/what-is-serial-communication-and-how-does-it-compare-to-parallel#:~:text=What&#39;s%20the%20Difference%20Between%20Serial,data%20that%20can%20be%20transferred&#34;&gt;Data Bus&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Có 2 kiểu truyền dữ liệu là:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Nối tiếp (Serial)
+Song song (Parallel)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Kien_truc_may_tinh/Communicate.jpg&#34;
+  alt=&#34;Communicate&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;song-song&#34;&gt;Song song&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Dùng cho display (truyền hình ảnh), PCI, printer,&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;nối-tiếp&#34;&gt;Nối tiếp:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Dùng trong Ethernet, Wifi, BLE, eSATA, SPI, I2C, CAN, USB, RS232, RS485, JTAG,&amp;hellip;&lt;/li&gt;
+&lt;li&gt;Giao tiếp nối tiếp thì chia làm 2 loại là:
+&lt;ul&gt;
+&lt;li&gt;Giao tiếp bất đồng bộ: UART, RS232, RS485&lt;/li&gt;
+&lt;li&gt;Giao tiếp đồng bộ: SPI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;cập-nhật-17112024&#34;&gt;Cập nhật 17/11/2024&lt;/h2&gt;
+&lt;p&gt;Youtube: &lt;a href=&#34;https://www.youtube.com/watch?v=9zurhPRRXRM&#34;&gt;ARM vs x86: khác biệt ra sao? Mạnh hơn? Pin tốt hơn?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Việc &lt;strong&gt;ARM&lt;/strong&gt; được dùng trên di động thì không có gì mới lạ, nhưng việc &lt;strong&gt;ARM sử dụng trên PC&lt;/strong&gt; &lt;em&gt;(theo như trong video của anh Luân)&lt;/em&gt; thì cái này mình mới biết.&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Kien_truc_may_tinh/Hinh_1.png&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Chip ARM được sinh ra để khắc phục nhược điểm của x86&lt;/em&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Kien_truc_may_tinh/Hinh_2.png&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Trong video anh Luân nói về việc tương thích phần mềm giữa &lt;strong&gt;x86&lt;/strong&gt; với &lt;strong&gt;ARM&lt;/strong&gt;. Và mình cũng đã gặp phải một case như vậy.&lt;/li&gt;
+&lt;li&gt;Ban đầu mình có viết một app nho nhỏ bằng ngôn ngữ &lt;strong&gt;Rust-lang&lt;/strong&gt;, chạy trên &lt;strong&gt;Linux (Ubuntu) kiến trúc x86 AMD64&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;App chạy bình thường, sau đó sử dụng &lt;strong&gt;rust cross-compile&lt;/strong&gt; để convert file chạy trên raspberry. Convert xong thì chạy ko đc.&lt;/li&gt;
+&lt;li&gt;Mình nghi là các library đang dùng không support cho &lt;strong&gt;arm&lt;/strong&gt;. =]]&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/iot/hardware/kien_truc_may_tinh/</guid>
+      <pubDate>Sun, 17 Nov 2024 10:11:44 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>OBD2_PIDs</title>
       <link>https://vinhlin.github.io/posts/iot/hardware/obd2_pids/</link>
       <description>&lt;p&gt;Xem thêm thông tin về &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/iot/hardware/can_obdii/&#34;&gt;CAN_OBDII&lt;/a&gt;&lt;/p&gt;
@@ -1225,72 +1420,6 @@ https://github.com/nfcgate/nfcgate/tree/v2/doc/mode
       <author>VinhLD</author>
       <guid>https://vinhlin.github.io/posts/cybersecurity/technical/nfc_pwa/</guid>
       <pubDate>Tue, 27 Aug 2024 14:47:38 +0700</pubDate>
-    </item>
-    
-    <item>
-      <title>Kien_truc_may_tinh</title>
-      <link>https://vinhlin.github.io/posts/iot/hardware/kien_truc_may_tinh/</link>
-      <description>&lt;h2 id=&#34;kiển-trúc-máy-tính&#34;&gt;Kiển trúc Máy tính&lt;/h2&gt;
-&lt;h3 id=&#34;kiến-trúc-máy-tính---von-neumannhttpswwwdigikeycomenmakerblogs2024von-neumann-architecture&#34;&gt;&lt;a href=&#34;https://www.digikey.com/en/maker/blogs/2024/von-neumann-architecture&#34;&gt;Kiến trúc máy tính - Von-Neumann&lt;/a&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Được chia làm 3 phần chính:
-&lt;ul&gt;
-&lt;li&gt;CPU&lt;/li&gt;
-&lt;li&gt;Memory&lt;/li&gt;
-&lt;li&gt;IO&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Cả 3 thành phần này đều giao tiếp với nhau thông qua &lt;strong&gt;bus&lt;/strong&gt; (gọi là &lt;code&gt;data bus&lt;/code&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;kiến-trúc-harvard-sử-dụng-rộng-rãi-trong-các-bộ-vi-điều-khiển-và-dsp-digital-signal-processing&#34;&gt;kiến trúc Harvard: Sử dụng rộng rãi trong các bộ vi điều khiển và DSP (Digital Signal Processing)&lt;/h3&gt;
-&lt;p&gt;Sự khác biệt giữa kiến trúc &lt;strong&gt;Harvard&lt;/strong&gt; vs &lt;strong&gt;Von-Neumann&lt;/strong&gt; đó chính là sự bố trí giữa &lt;strong&gt;CPU - Memory&lt;/strong&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;kiến-trúc-chiphttpsinc42comglossarychip-architecture&#34;&gt;&lt;a href=&#34;https://inc42.com/glossary/chip-architecture/&#34;&gt;Kiến trúc chip&lt;/a&gt;&lt;/h2&gt;
-&lt;h3 id=&#34;x86-architecture&#34;&gt;x86 Architecture&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Thường thấy trong các sản phẩm máy tính desktop hoặc laptop.&lt;/li&gt;
-&lt;li&gt;Phổ biến là dòng chip của &lt;strong&gt;Intel&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;risc-architectures&#34;&gt;RISC Architectures&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;MIPS Architecture: &lt;a href=&#34;https://www.cit.ctu.edu.vn/~dtnghi/cod/ch3.pdf&#34;&gt;KIẾN TRÚC BỘ LỆNH&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;ARM Architecture:
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.csie.ntu.edu.tw/~cyy/courses/assembly/12fall/lectures/handouts/lec08_ARMarch.pdf&#34;&gt;Tài liệu ARMarch&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.candtsolution.com/news_events-detail/what-is-the-difference-between-arm-and-x86/&#34;&gt;Một bài viết so sánh giữa ARM vs x86&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;data-bushttpswwwdigikeycomenmakertutorials2023what-is-serial-communication-and-how-does-it-compare-to-paralleltextwhats20the20difference20between20serialdata20that20can20be20transferred&#34;&gt;&lt;a href=&#34;https://www.digikey.com/en/maker/tutorials/2023/what-is-serial-communication-and-how-does-it-compare-to-parallel#:~:text=What&#39;s%20the%20Difference%20Between%20Serial,data%20that%20can%20be%20transferred&#34;&gt;Data Bus&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Có 2 kiểu truyền dữ liệu là:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Nối tiếp (Serial)
-Song song (Parallel)
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Communicate.jpg&#34;
-  alt=&#34;Communicate&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;h3 id=&#34;song-song&#34;&gt;Song song&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Dùng cho display (truyền hình ảnh), PCI, printer,&amp;hellip;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;nối-tiếp&#34;&gt;Nối tiếp:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Dùng trong Ethernet, Wifi, BLE, eSATA, SPI, I2C, CAN, USB, RS232, RS485, JTAG,&amp;hellip;&lt;/li&gt;
-&lt;li&gt;Giao tiếp nối tiếp thì chia làm 2 loại là:
-&lt;ul&gt;
-&lt;li&gt;Giao tiếp bất đồng bộ: UART, RS232, RS485&lt;/li&gt;
-&lt;li&gt;Giao tiếp đồng bộ: SPI&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-      <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/iot/hardware/kien_truc_may_tinh/</guid>
-      <pubDate>Tue, 27 Aug 2024 14:11:44 +0700</pubDate>
     </item>
     
     <item>
