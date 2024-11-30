@@ -3,19 +3,19 @@
     
     <title>VinhLin</title>
     <description>Technology Blog</description>
-    <link>https://vinhlin.github.io/</link>
+    <link>http://localhost:1313/</link>
     
     <language>en</language>
     <copyright>Copyright 2024, Calvin Tran</copyright>
     <lastBuildDate>Sat, 06 Jul 2024 15:21:33 +0700</lastBuildDate>
     <generator>Hugo - gohugo.io</generator>
     <docs>http://cyber.harvard.edu/rss/rss.html</docs>
-    <atom:link href="https://vinhlin.github.io//atom.xml" rel="self" type="application/atom+xml"/>
+    <atom:link href="http://localhost:1313//atom.xml" rel="self" type="application/atom+xml"/>
     
     
     <item>
       <title>Huly</title>
-      <link>https://vinhlin.github.io/posts/system-devops/huly/</link>
+      <link>http://localhost:1313/posts/system-devops/huly/</link>
       <description>&lt;p&gt;Một platform open-source quản lý dự án.&lt;/p&gt;
 &lt;p&gt;Có các tính năng như:&lt;/p&gt;
 &lt;ul&gt;
@@ -32,17 +32,17 @@
 &lt;/ul&gt;
 </description>
       <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/system-devops/huly/</guid>
+      <guid>http://localhost:1313/posts/system-devops/huly/</guid>
       <pubDate>Sun, 17 Nov 2024 11:45:33 +0700</pubDate>
     </item>
     
     <item>
       <title>Permission_Linux</title>
-      <link>https://vinhlin.github.io/posts/system-devops/permission_linux/</link>
+      <link>http://localhost:1313/posts/system-devops/permission_linux/</link>
       <description>&lt;p&gt;Ghi chú về &lt;strong&gt;Permission trong linux&lt;/strong&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;video-devops-for-freshers--bài-7-quyền-truy-cập-trong-linux--devops-cho-người-mới-bắt-đầuhttpswwwyoutubecomwatchvu5oufnvomt4listplsvroivfnp1ku8fouecc-hbjbqnaggwl2index8&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=U5Oufnvomt4&amp;amp;list=PLsvroIvFNP1KU8foUeCC-hbJbqnAggWL2&amp;amp;index=8&#34;&gt;Video: DevOps for Freshers | Bài 7: Quyền truy cập trong Linux | DevOps cho người mới bắt đầu&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/System-DevOps/Permission_Linux/Permission.png&#34;
+  src=&#34;http://localhost:1313/image/System-DevOps/Permission_Linux/Permission.png&#34;
   alt=&#34;Permission&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -78,7 +78,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/System-DevOps/Permission_Linux/Linux_File_Cheatsheet.jfif&#34;
+  src=&#34;http://localhost:1313/image/System-DevOps/Permission_Linux/Linux_File_Cheatsheet.jfif&#34;
   alt=&#34;Cheatsheet&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -88,13 +88,13 @@
 &lt;/p&gt;
 </description>
       <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/system-devops/permission_linux/</guid>
+      <guid>http://localhost:1313/posts/system-devops/permission_linux/</guid>
       <pubDate>Sun, 17 Nov 2024 11:39:36 +0700</pubDate>
     </item>
     
     <item>
       <title>Kien_truc_may_tinh</title>
-      <link>https://vinhlin.github.io/posts/iot/hardware/kien_truc_may_tinh/</link>
+      <link>http://localhost:1313/posts/iot/hardware/kien_truc_may_tinh/</link>
       <description>&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -149,7 +149,7 @@
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Nối tiếp (Serial)
 Song song (Parallel)
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Kien_truc_may_tinh/Communicate.jpg&#34;
+  src=&#34;http://localhost:1313/image/IoT/Kien_truc_may_tinh/Communicate.jpg&#34;
   alt=&#34;Communicate&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -176,7 +176,7 @@ Song song (Parallel)
 &lt;p&gt;Youtube: &lt;a href=&#34;https://www.youtube.com/watch?v=9zurhPRRXRM&#34;&gt;ARM vs x86: khác biệt ra sao? Mạnh hơn? Pin tốt hơn?&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Việc &lt;strong&gt;ARM&lt;/strong&gt; được dùng trên di động thì không có gì mới lạ, nhưng việc &lt;strong&gt;ARM sử dụng trên PC&lt;/strong&gt; &lt;em&gt;(theo như trong video của anh Luân)&lt;/em&gt; thì cái này mình mới biết.&lt;/p&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Kien_truc_may_tinh/Hinh_1.png&#34;
+  src=&#34;http://localhost:1313/image/IoT/Kien_truc_may_tinh/Hinh_1.png&#34;
   alt=&#34;Hình 1&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -188,7 +188,7 @@ Song song (Parallel)
 &lt;p&gt;&lt;em&gt;Chip ARM được sinh ra để khắc phục nhược điểm của x86&lt;/em&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Kien_truc_may_tinh/Hinh_2.png&#34;
+  src=&#34;http://localhost:1313/image/IoT/Kien_truc_may_tinh/Hinh_2.png&#34;
   alt=&#34;Hình 2&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -204,13 +204,13 @@ Song song (Parallel)
 &lt;/ul&gt;
 </description>
       <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/iot/hardware/kien_truc_may_tinh/</guid>
+      <guid>http://localhost:1313/posts/iot/hardware/kien_truc_may_tinh/</guid>
       <pubDate>Sun, 17 Nov 2024 10:11:44 +0700</pubDate>
     </item>
     
     <item>
       <title>OBD2_PIDs</title>
-      <link>https://vinhlin.github.io/posts/iot/hardware/obd2_pids/</link>
+      <link>http://localhost:1313/posts/iot/hardware/obd2_pids/</link>
       <description>&lt;p&gt;Xem thêm thông tin về &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/iot/hardware/can_obdii/&#34;&gt;CAN_OBDII&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Tổng hợp tài liệu liên quan:&lt;/p&gt;
 &lt;ul&gt;
@@ -218,7 +218,7 @@ Song song (Parallel)
 &lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/OBD-II_PIDs&#34;&gt;Wiki: OBDII PIDs&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.csselectronics.com/pages/obd2-pid-table-on-board-diagnostics-j1979&#34;&gt;OBD2 PID Overview&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.csselectronics.com/pages/obd-trouble-code-dtc-lookup-converter-tool&#34;&gt;OBD Diagnostic Trouble Code Converter &amp;amp; Lookup Tool&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Một tài liệu về sản phẩm tham khảo và thông tin về OBDII: &lt;a href=&#34;https://vinhlin.github.io/docs/OBD2_data_starter_pack.pdf&#34;&gt;OBD2 - Intro &amp;amp; Data Logger Guide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Một tài liệu về sản phẩm tham khảo và thông tin về OBDII: &lt;a href=&#34;http://localhost:1313/docs/OBD2_data_starter_pack.pdf&#34;&gt;OBD2 - Intro &amp;amp; Data Logger Guide&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;dtc-diagnostic-trouble-codes&#34;&gt;DTC (Diagnostic Trouble Codes)&lt;/h3&gt;
 &lt;ul&gt;
@@ -251,7 +251,7 @@ Song song (Parallel)
 &lt;hr&gt;
 &lt;h3 id=&#34;tham-khảo-telematics-dashboards---visualize-can-datahttpswwwcsselectronicscompagestelematics-dashboard-open-source&#34;&gt;Tham khảo &lt;a href=&#34;https://www.csselectronics.com/pages/telematics-dashboard-open-source&#34;&gt;Telematics Dashboards - Visualize CAN Data&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/OBD2_PIDs/Sample_OBDII_Dashboard.webp&#34;
+  src=&#34;http://localhost:1313/image/IoT/OBD2_PIDs/Sample_OBDII_Dashboard.webp&#34;
   alt=&#34;Sample_OBDII_Dashboard&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -266,7 +266,7 @@ Song song (Parallel)
 &lt;h2 id=&#34;tổng-hợp-các-lệnh-pids-thường-dùng&#34;&gt;Tổng hợp các lệnh PIDs thường dùng.&lt;/h2&gt;
 &lt;h3 id=&#34;nhiệt-độ-làm-mát-engine-coolant-temperature---tmp&#34;&gt;Nhiệt độ làm mát (Engine Coolant Temperature - TMP)&lt;/h3&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/OBD2_PIDs/TMP.png&#34;
+  src=&#34;http://localhost:1313/image/IoT/OBD2_PIDs/TMP.png&#34;
   alt=&#34;TMP&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -276,7 +276,7 @@ Song song (Parallel)
 &lt;/p&gt;
 &lt;h3 id=&#34;tốc-độ-động-cơ-engine-speed---rpm&#34;&gt;Tốc độ động cơ (Engine speed - RPM)&lt;/h3&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/OBD2_PIDs/RPM.png&#34;
+  src=&#34;http://localhost:1313/image/IoT/OBD2_PIDs/RPM.png&#34;
   alt=&#34;RPM&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -286,7 +286,7 @@ Song song (Parallel)
 &lt;/p&gt;
 &lt;h3 id=&#34;tốc-độ-phương-tiện-vehicle-speed---spd&#34;&gt;Tốc độ phương tiện (Vehicle speed - SPD)&lt;/h3&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/OBD2_PIDs/SPD.png&#34;
+  src=&#34;http://localhost:1313/image/IoT/OBD2_PIDs/SPD.png&#34;
   alt=&#34;SPD&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -296,7 +296,7 @@ Song song (Parallel)
 &lt;/p&gt;
 &lt;h3 id=&#34;mass-air-flow-sensor-maf&#34;&gt;Mass air flow sensor (MAF)&lt;/h3&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/OBD2_PIDs/MAF.png&#34;
+  src=&#34;http://localhost:1313/image/IoT/OBD2_PIDs/MAF.png&#34;
   alt=&#34;MAF&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -307,16 +307,16 @@ Song song (Parallel)
 &lt;h3 id=&#34;calculated-engine-load&#34;&gt;Calculated engine load&lt;/h3&gt;
 </description>
       <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/iot/hardware/obd2_pids/</guid>
+      <guid>http://localhost:1313/posts/iot/hardware/obd2_pids/</guid>
       <pubDate>Fri, 11 Oct 2024 17:23:55 +0700</pubDate>
     </item>
     
     <item>
       <title>CAN_OBDII</title>
-      <link>https://vinhlin.github.io/posts/iot/hardware/can_obdii/</link>
+      <link>http://localhost:1313/posts/iot/hardware/can_obdii/</link>
       <description>&lt;h2 id=&#34;can-bus-serial-communication---how-it-workshttpswwwyoutubecomwatchvjzsczrt9tto&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=JZSCzRT9TTo&#34;&gt;CAN Bus: Serial Communication - How It Works?&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/CAN_OBDII/CAN_1.png&#34;
+  src=&#34;http://localhost:1313/image/IoT/CAN_OBDII/CAN_1.png&#34;
   alt=&#34;CAN_1&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -328,7 +328,7 @@ Song song (Parallel)
 &lt;li&gt;&lt;strong&gt;Controller Area Network (CAN hoặc CAN Bus)&lt;/strong&gt; một giao thức truyền thông nối tiếp bất đồng bộ.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/CAN_OBDII/CAN_2.png&#34;
+  src=&#34;http://localhost:1313/image/IoT/CAN_OBDII/CAN_2.png&#34;
   alt=&#34;CAN_2&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -340,7 +340,7 @@ Song song (Parallel)
 &lt;li&gt;Bus CAN chỉ có 2 dây giúp kết nối các module điều khiển với nhau dễ dàng hơn khi so sánh với cách làm truyền thống.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/CAN_OBDII/CAN_3.png&#34;
+  src=&#34;http://localhost:1313/image/IoT/CAN_OBDII/CAN_3.png&#34;
   alt=&#34;CAN_3&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -358,7 +358,7 @@ Song song (Parallel)
 &lt;li&gt;Hình dưới là công thức:&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/CAN_OBDII/CAN_4.png&#34;
+  src=&#34;http://localhost:1313/image/IoT/CAN_OBDII/CAN_4.png&#34;
   alt=&#34;CAN_4&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -371,7 +371,7 @@ Song song (Parallel)
 &lt;li&gt;Dưới đây là bảng biểu thị mối quan hệ giữa tốc độ truyền dữ liệu và khoảng cách truyền tối đa cho CAN bus:&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/CAN_OBDII/CAN_5.png&#34;
+  src=&#34;http://localhost:1313/image/IoT/CAN_OBDII/CAN_5.png&#34;
   alt=&#34;CAN_5&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -390,7 +390,7 @@ Song song (Parallel)
 &lt;/ul&gt;
 &lt;h3 id=&#34;can-bus-version&#34;&gt;CAN Bus Version&lt;/h3&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/CAN_OBDII/CAN_Bus_Version.png&#34;
+  src=&#34;http://localhost:1313/image/IoT/CAN_OBDII/CAN_Bus_Version.png&#34;
   alt=&#34;CAN_Bus_Version&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -419,7 +419,7 @@ Song song (Parallel)
 &lt;li&gt;Bởi vì CAN Controller chỉ hoạt động ở mức logic (0 và 1), cần có một CAN transceiver để chuyển đổi tín hiệu logic đó thành tín hiệu differential &lt;em&gt;(tín hiệu vi sai)&lt;/em&gt; trên &lt;code&gt;CAN_H&lt;/code&gt; và &lt;code&gt;CAN_L&lt;/code&gt; (đây là hai dây tín hiệu của CAN bus).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/CAN_OBDII/CAN_6.png&#34;
+  src=&#34;http://localhost:1313/image/IoT/CAN_OBDII/CAN_6.png&#34;
   alt=&#34;CAN_6&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -469,7 +469,7 @@ https://www.thegioididong.com/hoi-dap/cong-obd-2-la-gi-cac-tien-ich-tu-cong-obd-
 &lt;p&gt;&lt;strong&gt;OBD (On – Board Diagnostics)&lt;/strong&gt;, hay còn gọi là hệ thống chẩn đoán lỗi OBD, được trang bị trên ô tô để theo dõi và điều chỉnh một số hoạt động của phương tiện. Hệ thống này thu thập thông tin từ mạng lưới các cảm biến gắn cố định quanh xe, phát hiện lỗi hư hỏng và cảnh báo tới người lái nhằm kịp thời đưa ra phương án xử lý.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/CAN_OBDII/H%e1%bb%87_th%e1%bb%91ng_OBD.jpg&#34;
+  src=&#34;http://localhost:1313/image/IoT/CAN_OBDII/H%e1%bb%87_th%e1%bb%91ng_OBD.jpg&#34;
   alt=&#34;OBD&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -481,7 +481,7 @@ https://www.thegioididong.com/hoi-dap/cong-obd-2-la-gi-cac-tien-ich-tu-cong-obd-
 &lt;li&gt;Cổng kết nối OBDII:&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/CAN_OBDII/OBDII_Pinout.jpg&#34;
+  src=&#34;http://localhost:1313/image/IoT/CAN_OBDII/OBDII_Pinout.jpg&#34;
   alt=&#34;OBD_pinout&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -502,13 +502,13 @@ https://www.obd-codes.com/faq/obd2-codes-explained.php
 https://en.wikipedia.org/wiki/OBD-II_PIDs
 &lt;/code&gt;&lt;/pre&gt;</description>
       <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/iot/hardware/can_obdii/</guid>
+      <guid>http://localhost:1313/posts/iot/hardware/can_obdii/</guid>
       <pubDate>Fri, 11 Oct 2024 15:56:03 +0700</pubDate>
     </item>
     
     <item>
       <title>DMA</title>
-      <link>https://vinhlin.github.io/posts/iot/hardware/dma/</link>
+      <link>http://localhost:1313/posts/iot/hardware/dma/</link>
       <description>&lt;p&gt;Trong quá trình tìm hiểu lại về &lt;strong&gt;DMA&lt;/strong&gt;, mình lại vô trình biết thêm một trang web chia sẻ kiến thức về &lt;strong&gt;Điện tử, Lập trình,&amp;hellip;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;👉 Website: &lt;a href=&#34;https://www.laptrinhdientu.com/&#34;&gt;Lập trình - Điện tử&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Ngoài ra mình cũng tìm đc một bài viết khá hay, cũng liên quan một phần đến DMA.&lt;/p&gt;
@@ -524,7 +524,7 @@ https://en.wikipedia.org/wiki/OBD-II_PIDs
 &lt;li&gt;Cách mà chúng ta vẫn hay làm như vậy, trong vòng lặp &lt;strong&gt;while(1)&lt;/strong&gt;, gọi là kỹ thuật Polling - liên tục kiểm tra, liên tục thực thi.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/DMA/Hinh_1.webp&#34;
+  src=&#34;http://localhost:1313/image/IoT/DMA/Hinh_1.webp&#34;
   alt=&#34;Hinh_1&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -541,7 +541,7 @@ Hin&lt;/p&gt;
 &lt;li&gt;Thì khi bấm nút, chương trình sẽ bị gián đoạn, và CPU phải kiểm tra xem điều gì đang xảy ra&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/DMA/Hinh_2.webp&#34;
+  src=&#34;http://localhost:1313/image/IoT/DMA/Hinh_2.webp&#34;
   alt=&#34;Hinh_2&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -560,7 +560,7 @@ Hin&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;💬 Cơ chế hoạt động thông thường của Core:&lt;/p&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/DMA/Hinh_3.webp&#34;
+  src=&#34;http://localhost:1313/image/IoT/DMA/Hinh_3.webp&#34;
   alt=&#34;Hinh_3&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -582,7 +582,7 @@ Hin&lt;/p&gt;
 &lt;li&gt;DMA cho phép MCU thiết lập một luồng truyền dữ liệu (gửi hoặc nhận) và sau đó chờ cho đến khi luồng truyền hoàn tất. Khi sử dụng DMA, sau khi bắt đầu, MCU không cần can thiệp cho đến khi việc truyền dữ liệu hoàn tất, có nghĩa là MCU có thể thực hiện các tính toán khác hoặc thiết lập các I/O khác trong khi luồng truyền đang diễn ra.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/DMA/Hinh_4.webp&#34;
+  src=&#34;http://localhost:1313/image/IoT/DMA/Hinh_4.webp&#34;
   alt=&#34;Hinh_4&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -597,13 +597,13 @@ Hin&lt;/p&gt;
 https://www.laptrinhdientu.com/2022/04/DMA1.html
 &lt;/code&gt;&lt;/pre&gt;</description>
       <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/iot/hardware/dma/</guid>
+      <guid>http://localhost:1313/posts/iot/hardware/dma/</guid>
       <pubDate>Fri, 11 Oct 2024 14:21:00 +0700</pubDate>
     </item>
     
     <item>
       <title>Rust_for_ARM</title>
-      <link>https://vinhlin.github.io/posts/iot/software/rust_for_arm/</link>
+      <link>http://localhost:1313/posts/iot/software/rust_for_arm/</link>
       <description>&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -656,7 +656,7 @@ https://www.laptrinhdientu.com/2022/04/DMA1.html
 &lt;/ul&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;lscpu
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Rust-lang/Rust_for_ARM/Hinh_1.png&#34;
+  src=&#34;http://localhost:1313/image/IoT/Rust-lang/Rust_for_ARM/Hinh_1.png&#34;
   alt=&#34;Hình 1&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -729,7 +729,7 @@ rustflags = [&amp;#34;-C&amp;#34;, &amp;#34;target-feature=+crt-static&amp;#34;]
 &lt;li&gt;Đã chạy đc thành công.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Rust-lang/Rust_for_ARM/Hinh_2.png&#34;
+  src=&#34;http://localhost:1313/image/IoT/Rust-lang/Rust_for_ARM/Hinh_2.png&#34;
   alt=&#34;Hình 2&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -759,13 +759,13 @@ https://harmonicss.co.uk/rust/rust-on-a-raspberry-pi-part-1/
 &lt;/ul&gt;
 </description>
       <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/iot/software/rust_for_arm/</guid>
+      <guid>http://localhost:1313/posts/iot/software/rust_for_arm/</guid>
       <pubDate>Thu, 10 Oct 2024 17:30:29 +0700</pubDate>
     </item>
     
     <item>
       <title>Android_Automotive</title>
-      <link>https://vinhlin.github.io/posts/iot/hardware/android_automotive/</link>
+      <link>http://localhost:1313/posts/iot/hardware/android_automotive/</link>
       <description>&lt;p&gt;Trong lúc lướt lát trên facebook, mình vô tình bắt gặp một bài viết &lt;strong&gt;Android Automotive Boot Process A-Z&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Từ đó vô tình biết thêm được một trang chia sẻ kiến thức về mảng Automotive.&lt;/p&gt;
 &lt;p&gt;👉Website: &lt;a href=&#34;https://devlinux.vn/newest&#34;&gt;https://devlinux.vn/newest&lt;/a&gt;&lt;/p&gt;
@@ -804,7 +804,7 @@ https://harmonicss.co.uk/rust/rust-on-a-raspberry-pi-part-1/
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Android_Automotive_Boot_Process.jpg&#34;
+  src=&#34;http://localhost:1313/image/IoT/Android_Automotive_Boot_Process.jpg&#34;
   alt=&#34;Boot_Process&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -814,13 +814,13 @@ https://harmonicss.co.uk/rust/rust-on-a-raspberry-pi-part-1/
 &lt;/p&gt;
 </description>
       <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/iot/hardware/android_automotive/</guid>
+      <guid>http://localhost:1313/posts/iot/hardware/android_automotive/</guid>
       <pubDate>Mon, 07 Oct 2024 11:06:24 +0700</pubDate>
     </item>
     
     <item>
       <title>Fault_Injection</title>
-      <link>https://vinhlin.github.io/posts/cybersecurity/technical/fault_injection/</link>
+      <link>http://localhost:1313/posts/cybersecurity/technical/fault_injection/</link>
       <description>&lt;p&gt;&lt;strong&gt;Fault Injection&lt;/strong&gt; là một kỹ thuật được sử dụng trong việc kiểm tra và đảm bảo độ tin cậy của các hệ thống phần mềm và phần cứng.&lt;/p&gt;
 &lt;p&gt;Mục đích của kỹ thuật này là cố tình tạo ra các lỗi hoặc điều kiện bất thường trong hệ thống để xem hệ thống sẽ phản ứng như thế nào, từ đó đánh giá được tính ổn định và khả năng xử lý lỗi của hệ thống.&lt;/p&gt;
 &lt;p&gt;Có thể hiểu đơn giản rằng khi bạn phát triển một hệ thống, bạn luôn mong muốn nó hoạt động một cách hoàn hảo.&lt;/p&gt;
@@ -857,16 +857,16 @@ Khi bắt đầu quá trình kiểm tra, chúng ta thường gặp phải các b
 &lt;/ul&gt;
 </description>
       <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/cybersecurity/technical/fault_injection/</guid>
+      <guid>http://localhost:1313/posts/cybersecurity/technical/fault_injection/</guid>
       <pubDate>Sat, 05 Oct 2024 20:13:46 +0700</pubDate>
     </item>
     
     <item>
       <title>Car_Hacking</title>
-      <link>https://vinhlin.github.io/posts/iot/hardware/car_hacking/</link>
+      <link>http://localhost:1313/posts/iot/hardware/car_hacking/</link>
       <description>&lt;h1 id=&#34;book-the-car-hacker-handbookhttpsdocsalexomarcombibliotecathecarhackershandbookpdf&#34;&gt;Book: &lt;a href=&#34;https://docs.alexomar.com/biblioteca/thecarhackershandbook.pdf&#34;&gt;The Car Hacker Handbook&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Car_Hacking/Car_Hacking.jpg&#34;
+  src=&#34;http://localhost:1313/image/IoT/Car_Hacking/Car_Hacking.jpg&#34;
   alt=&#34;Car Hacking&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -878,7 +878,7 @@ Khi bắt đầu quá trình kiểm tra, chúng ta thường gặp phải các b
 &lt;p&gt;Có những thông tin, kiến thức mà thông thường tìm hiểu về CAN-Bus sẽ không thấy. Từ những &lt;strong&gt;key-work&lt;/strong&gt; này lại tiếp tục research thêm, và có thêm được những thông tin thú vị khác.&lt;/p&gt;
 &lt;h2 id=&#34;can-bus-packet&#34;&gt;CAN Bus Packet&lt;/h2&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Car_Hacking/Hinh_1.png&#34;
+  src=&#34;http://localhost:1313/image/IoT/Car_Hacking/Hinh_1.png&#34;
   alt=&#34;Hinh_1&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -927,7 +927,7 @@ Các thiết bị sẽ tự quyết định liệu có xử lý gói tin hay b�
 &lt;p&gt;SocketCAN là một framework trong Linux giúp quản lý và giao tiếp với CAN bus thông qua giao diện lập trình socket, giống như cách xử lý các giao tiếp mạng khác như Ethernet. Nó giúp lập trình viên dễ dàng sử dụng CAN bus mà không cần phải tìm hiểu các giao thức phức tạp hoặc các driver riêng biệt.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Car_Hacking/Hinh_2.png&#34;
+  src=&#34;http://localhost:1313/image/IoT/Car_Hacking/Hinh_2.png&#34;
   alt=&#34;Hinh_2&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -996,15 +996,15 @@ cansniffer
 &lt;/ul&gt;
 </description>
       <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/iot/hardware/car_hacking/</guid>
+      <guid>http://localhost:1313/posts/iot/hardware/car_hacking/</guid>
       <pubDate>Sat, 05 Oct 2024 13:55:01 +0700</pubDate>
     </item>
     
     <item>
       <title>Rust Lang</title>
-      <link>https://vinhlin.github.io/posts/iot/software/rust-lang/</link>
+      <link>http://localhost:1313/posts/iot/software/rust-lang/</link>
       <description>&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Rust_Embedded.png&#34;
+  src=&#34;http://localhost:1313/image/IoT/Rust_Embedded.png&#34;
   alt=&#34;Rust_Embedded&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -1170,13 +1170,13 @@ async fn main() -&amp;gt; std::io::Result&amp;lt;()&amp;gt; {
 &lt;h3 id=&#34;easy-rusthttpsdhghomongithubioeasy_rustchapter_1html&#34;&gt;&lt;a href=&#34;https://dhghomon.github.io/easy_rust/Chapter_1.html&#34;&gt;Easy Rust&lt;/a&gt;&lt;/h3&gt;
 </description>
       <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/iot/software/rust-lang/</guid>
+      <guid>http://localhost:1313/posts/iot/software/rust-lang/</guid>
       <pubDate>Fri, 13 Sep 2024 15:14:13 +0700</pubDate>
     </item>
     
     <item>
       <title>Hoi_thao_2024</title>
-      <link>https://vinhlin.github.io/posts/others/hoi_thao_2024/</link>
+      <link>http://localhost:1313/posts/others/hoi_thao_2024/</link>
       <description>&lt;h2 id=&#34;link-video-hội-thảo-và-triển-lãm-an-toàn-thông-tin-phía-nam-2024httpswwwfacebookcomvnisahcmvideos1461942441187294&#34;&gt;Link Video: &lt;a href=&#34;https://www.facebook.com/VNISA.HCM/videos/1461942441187294&#34;&gt;Hội thảo và Triển lãm An toàn Thông tin phía Nam 2024&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Sau khi xem và nghe xong thì mình có nhiều thông tin hữu ích như sau&lt;/p&gt;
 &lt;h3 id=&#34;thiết-bị-phần-cứng---khóa-xác-thực&#34;&gt;Thiết bị phần cứng - Khóa xác thực&lt;/h3&gt;
@@ -1187,7 +1187,7 @@ async fn main() -&amp;gt; std::io::Result&amp;lt;()&amp;gt; {
 &lt;/ul&gt;
 &lt;h3 id=&#34;phishing&#34;&gt;Phishing&lt;/h3&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Hoi_thao_2024/4_layer.png&#34;
+  src=&#34;http://localhost:1313/image/CyberSecurity/Hoi_thao_2024/4_layer.png&#34;
   alt=&#34;4_layer&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -1203,7 +1203,7 @@ async fn main() -&amp;gt; std::io::Result&amp;lt;()&amp;gt; {
 &lt;/ul&gt;
 &lt;h3 id=&#34;backdoor&#34;&gt;Backdoor&lt;/h3&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Hoi_thao_2024/3_cach_backdoor.png&#34;
+  src=&#34;http://localhost:1313/image/CyberSecurity/Hoi_thao_2024/3_cach_backdoor.png&#34;
   alt=&#34;backdoor&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -1219,7 +1219,7 @@ async fn main() -&amp;gt; std::io::Result&amp;lt;()&amp;gt; {
 &lt;/ul&gt;
 &lt;h3 id=&#34;backup&#34;&gt;Backup&lt;/h3&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Hoi_thao_2024/Backup_zip_code.png&#34;
+  src=&#34;http://localhost:1313/image/CyberSecurity/Hoi_thao_2024/Backup_zip_code.png&#34;
   alt=&#34;backup&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -1238,7 +1238,7 @@ async fn main() -&amp;gt; std::io::Result&amp;lt;()&amp;gt; {
 &lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt;: Một lưu ý quan trọng là tất cả data backup phải được mã hóa.&lt;/p&gt;
 &lt;h3 id=&#34;các-hình-ảnh-được-capture-từ-bài-trình-bày-của-nhóm-chống-lừa-đảo&#34;&gt;Các hình ảnh được capture từ bài trình bày của nhóm &lt;strong&gt;Chống lừa đảo&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Hoi_thao_2024/Hinh_1.png&#34;
+  src=&#34;http://localhost:1313/image/CyberSecurity/Hoi_thao_2024/Hinh_1.png&#34;
   alt=&#34;Hình_1&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -1247,7 +1247,7 @@ async fn main() -&amp;gt; std::io::Result&amp;lt;()&amp;gt; {
 
 &lt;/p&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Hoi_thao_2024/Hinh_2.png&#34;
+  src=&#34;http://localhost:1313/image/CyberSecurity/Hoi_thao_2024/Hinh_2.png&#34;
   alt=&#34;Hình_2&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -1256,7 +1256,7 @@ async fn main() -&amp;gt; std::io::Result&amp;lt;()&amp;gt; {
 
 &lt;/p&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Hoi_thao_2024/Hinh_3.png&#34;
+  src=&#34;http://localhost:1313/image/CyberSecurity/Hoi_thao_2024/Hinh_3.png&#34;
   alt=&#34;Hình_3&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -1265,7 +1265,7 @@ async fn main() -&amp;gt; std::io::Result&amp;lt;()&amp;gt; {
 
 &lt;/p&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Hoi_thao_2024/Hinh_4.png&#34;
+  src=&#34;http://localhost:1313/image/CyberSecurity/Hoi_thao_2024/Hinh_4.png&#34;
   alt=&#34;Hình_4&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -1274,7 +1274,7 @@ async fn main() -&amp;gt; std::io::Result&amp;lt;()&amp;gt; {
 
 &lt;/p&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Hoi_thao_2024/Hinh_5.png&#34;
+  src=&#34;http://localhost:1313/image/CyberSecurity/Hoi_thao_2024/Hinh_5.png&#34;
   alt=&#34;Hình_5&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -1283,7 +1283,7 @@ async fn main() -&amp;gt; std::io::Result&amp;lt;()&amp;gt; {
 
 &lt;/p&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Hoi_thao_2024/Hinh_6.png&#34;
+  src=&#34;http://localhost:1313/image/CyberSecurity/Hoi_thao_2024/Hinh_6.png&#34;
   alt=&#34;Hình_6&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -1292,7 +1292,7 @@ async fn main() -&amp;gt; std::io::Result&amp;lt;()&amp;gt; {
 
 &lt;/p&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Hoi_thao_2024/Hinh_7.png&#34;
+  src=&#34;http://localhost:1313/image/CyberSecurity/Hoi_thao_2024/Hinh_7.png&#34;
   alt=&#34;Hình_7&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -1302,13 +1302,13 @@ async fn main() -&amp;gt; std::io::Result&amp;lt;()&amp;gt; {
 &lt;/p&gt;
 </description>
       <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/others/hoi_thao_2024/</guid>
+      <guid>http://localhost:1313/posts/others/hoi_thao_2024/</guid>
       <pubDate>Mon, 02 Sep 2024 16:29:20 +0700</pubDate>
     </item>
     
     <item>
       <title>Box_RFID</title>
-      <link>https://vinhlin.github.io/posts/iot/hardware/box_rfid/</link>
+      <link>http://localhost:1313/posts/iot/hardware/box_rfid/</link>
       <description>&lt;p&gt;Sau quá trình &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/iot/hardware/research_cr95/&#34;&gt;Research_CR95&lt;/a&gt; và vất vả code FW cho bộ hộp đọc thẻ này.&lt;/p&gt;
 &lt;p&gt;Cuối cùng cũng đã hoàn thành.&lt;/p&gt;
 &lt;h1 id=&#34;thông-tin-về-bộ-đọc-thẻ-rfid&#34;&gt;Thông tin về bộ đọc thẻ RFID.&lt;/h1&gt;
@@ -1320,7 +1320,7 @@ async fn main() -&amp;gt; std::io::Result&amp;lt;()&amp;gt; {
 &lt;/ul&gt;
 &lt;h2 id=&#34;hộp-đọc-thẻ-rfid&#34;&gt;Hộp đọc thẻ RFID&lt;/h2&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Research_CR95/RFID_Box.jpg&#34;
+  src=&#34;http://localhost:1313/image/IoT/Research_CR95/RFID_Box.jpg&#34;
   alt=&#34;RFID&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -1368,13 +1368,13 @@ async fn main() -&amp;gt; std::io::Result&amp;lt;()&amp;gt; {
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$DVSRFID,READ,,,
 &lt;/code&gt;&lt;/pre&gt;</description>
       <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/iot/hardware/box_rfid/</guid>
+      <guid>http://localhost:1313/posts/iot/hardware/box_rfid/</guid>
       <pubDate>Thu, 29 Aug 2024 18:38:50 +0700</pubDate>
     </item>
     
     <item>
       <title>NFC_PWA</title>
-      <link>https://vinhlin.github.io/posts/cybersecurity/technical/nfc_pwa/</link>
+      <link>http://localhost:1313/posts/cybersecurity/technical/nfc_pwa/</link>
       <description>&lt;h3 id=&#34;một-số-bài-viết-về-việc-sử-dụng-web-pwa-để-đánh-cắp-thông-tin&#34;&gt;Một số bài viết về việc sử dụng Web PWA để đánh cắp thông tin:&lt;/h3&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://tinnhiemmang.vn/tin-tac-danh-cap-thong-tin-ngan-hang-tu-nguoi-dung-ios-android-thong-qua-ung-dung-pwa
 https://www.bleepingcomputer.com/news/security/new-ngate-android-malware-uses-nfc-chip-to-steal-credit-card-data/
@@ -1390,7 +1390,7 @@ https://github.com/nfcgate/nfcgate/tree/v2/doc/mode
 &lt;li&gt;Với các ứng dụng web &lt;code&gt;PWA&lt;/code&gt; thì mình không cần cài đặt thủ công như các app di động, nhưng vẫn có thể dùng đầy đủ tất cả tính năng như app di động.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/CyberSecurity/NFC_PWA/entire-process.webp&#34;
+  src=&#34;http://localhost:1313/image/CyberSecurity/NFC_PWA/entire-process.webp&#34;
   alt=&#34;entire-process&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -1404,7 +1404,7 @@ https://github.com/nfcgate/nfcgate/tree/v2/doc/mode
 &lt;li&gt;Lúc này hacker dùng &lt;strong&gt;nfcgate&lt;/strong&gt; để capture lại các traffic nếu như victime sử dụng NFC để thực hiện giao dịch.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/CyberSecurity/NFC_PWA/nfc-replay.webp&#34;
+  src=&#34;http://localhost:1313/image/CyberSecurity/NFC_PWA/nfc-replay.webp&#34;
   alt=&#34;nfc-replay&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -1418,13 +1418,13 @@ https://github.com/nfcgate/nfcgate/tree/v2/doc/mode
 &lt;/ul&gt;
 </description>
       <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/cybersecurity/technical/nfc_pwa/</guid>
+      <guid>http://localhost:1313/posts/cybersecurity/technical/nfc_pwa/</guid>
       <pubDate>Tue, 27 Aug 2024 14:47:38 +0700</pubDate>
     </item>
     
     <item>
       <title>Radxa_X4</title>
-      <link>https://vinhlin.github.io/posts/iot/hardware/radxa_x4/</link>
+      <link>http://localhost:1313/posts/iot/hardware/radxa_x4/</link>
       <description>&lt;h3 id=&#34;thông-tin&#34;&gt;Thông tin:&lt;/h3&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://www.youtube.com/watch?v=F2atAHDOaIA
 https://www.jeffgeerling.com/blog/2024/radxa-x4-sbc-unites-intel-n100-and-raspberry-pi-rp2040
@@ -1484,13 +1484,13 @@ https://radxa.com/products/x/x4/
 &lt;/ul&gt;
 </description>
       <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/iot/hardware/radxa_x4/</guid>
+      <guid>http://localhost:1313/posts/iot/hardware/radxa_x4/</guid>
       <pubDate>Tue, 27 Aug 2024 13:39:47 +0700</pubDate>
     </item>
     
     <item>
       <title>News</title>
-      <link>https://vinhlin.github.io/posts/cybersecurity/news/</link>
+      <link>http://localhost:1313/posts/cybersecurity/news/</link>
       <description>&lt;h3 id=&#34;changelog&#34;&gt;Changelog&lt;/h3&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -1532,7 +1532,7 @@ https://radxa.com/products/x/x4/
 &lt;li&gt;Các kênh này không chỉ giúp mình cập nhật về các lỗi CVE mới, mà còn giúp mình cập nhật kiến thức về Network, System.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Top_Youtube_Channel_Hacking.jpg&#34;
+  src=&#34;http://localhost:1313/image/CyberSecurity/Top_Youtube_Channel_Hacking.jpg&#34;
   alt=&#34;Youtube&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -1568,17 +1568,17 @@ https://radxa.com/products/x/x4/
 &lt;/ul&gt;
 </description>
       <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/cybersecurity/news/</guid>
+      <guid>http://localhost:1313/posts/cybersecurity/news/</guid>
       <pubDate>Mon, 26 Aug 2024 19:27:53 +0700</pubDate>
     </item>
     
     <item>
       <title>Protect_Camera</title>
-      <link>https://vinhlin.github.io/posts/cybersecurity/technical/protect_camera/</link>
+      <link>http://localhost:1313/posts/cybersecurity/technical/protect_camera/</link>
       <description>&lt;p&gt;Lướt lát trên Internet, vô tình &lt;strong&gt;lụm&lt;/strong&gt; được các bức ảnh &lt;em&gt;(được cắt ra trên một seminar nào đó)&lt;/em&gt; nói về các cách bảo vệ Camera.&lt;/p&gt;
 &lt;p&gt;Sau khi đọc xong thì mình thấy các nội dung trong đây &lt;strong&gt;không chỉ dành riêng cho camera&lt;/strong&gt;, mà có thể áp dụng &lt;strong&gt;tư duy và kỹ thuật&lt;/strong&gt; này cả vào red-team và blue-team.&lt;/p&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Protect_Camera/1.jpg&#34;
+  src=&#34;http://localhost:1313/image/CyberSecurity/Protect_Camera/1.jpg&#34;
   alt=&#34;Hinh_1&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -1589,7 +1589,7 @@ https://radxa.com/products/x/x4/
 &lt;h2 id=&#34;kỹ-thuật-cho-red-team&#34;&gt;Kỹ thuật cho Red-Team&lt;/h2&gt;
 &lt;h3 id=&#34;phishing-attacks&#34;&gt;Phishing Attacks&lt;/h3&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Protect_Camera/2.jpg&#34;
+  src=&#34;http://localhost:1313/image/CyberSecurity/Protect_Camera/2.jpg&#34;
   alt=&#34;Hinh_2&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -1604,7 +1604,7 @@ https://radxa.com/products/x/x4/
 &lt;/ul&gt;
 &lt;h3 id=&#34;sử-dụng-phần-mềm-độc-hại&#34;&gt;Sử dụng phần mềm độc hại&lt;/h3&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Protect_Camera/3.jpg&#34;
+  src=&#34;http://localhost:1313/image/CyberSecurity/Protect_Camera/3.jpg&#34;
   alt=&#34;Hinh_3&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -1618,7 +1618,7 @@ https://radxa.com/products/x/x4/
 &lt;li&gt;Ví dụ như tạo ra &lt;strong&gt;backdoor&lt;/strong&gt; kết nối về &lt;strong&gt;máy chủ C2&lt;/strong&gt; của hacker.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Protect_Camera/4.jpg&#34;
+  src=&#34;http://localhost:1313/image/CyberSecurity/Protect_Camera/4.jpg&#34;
   alt=&#34;Hinh_4&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -1632,7 +1632,7 @@ https://radxa.com/products/x/x4/
 &lt;/blockquote&gt;
 &lt;h3 id=&#34;khai-thác-lỗ-hổng-phần-mềm&#34;&gt;Khai thác lỗ hổng phần mềm&lt;/h3&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Protect_Camera/5.jpg&#34;
+  src=&#34;http://localhost:1313/image/CyberSecurity/Protect_Camera/5.jpg&#34;
   alt=&#34;Hinh_5&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -1646,7 +1646,7 @@ https://radxa.com/products/x/x4/
 &lt;/ul&gt;
 &lt;h3 id=&#34;fake-wifi&#34;&gt;Fake WIFI&lt;/h3&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Protect_Camera/6.jpg&#34;
+  src=&#34;http://localhost:1313/image/CyberSecurity/Protect_Camera/6.jpg&#34;
   alt=&#34;Hinh_6&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -1661,7 +1661,7 @@ https://radxa.com/products/x/x4/
 &lt;/ul&gt;
 &lt;h2 id=&#34;tư-duy-blue-team&#34;&gt;Tư duy Blue-Team&lt;/h2&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Protect_Camera/7.jpg&#34;
+  src=&#34;http://localhost:1313/image/CyberSecurity/Protect_Camera/7.jpg&#34;
   alt=&#34;Hinh_7&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -1692,7 +1692,7 @@ https://radxa.com/products/x/x4/
 &lt;/ul&gt;
 &lt;h3 id=&#34;công-cụ-khác&#34;&gt;Công cụ khác&lt;/h3&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Protect_Camera/10.jpg&#34;
+  src=&#34;http://localhost:1313/image/CyberSecurity/Protect_Camera/10.jpg&#34;
   alt=&#34;Hinh_10&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -1713,7 +1713,7 @@ https://radxa.com/products/x/x4/
 &lt;li&gt;Lỗ hổng này nằm trong &lt;strong&gt;tư duy&lt;/strong&gt;, &lt;strong&gt;nhận thức&lt;/strong&gt; về An toàn và Bảo mật thông tin.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Protect_Camera/8.jpg&#34;
+  src=&#34;http://localhost:1313/image/CyberSecurity/Protect_Camera/8.jpg&#34;
   alt=&#34;Hinh_8&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -1723,13 +1723,13 @@ https://radxa.com/products/x/x4/
 &lt;/p&gt;
 </description>
       <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/cybersecurity/technical/protect_camera/</guid>
+      <guid>http://localhost:1313/posts/cybersecurity/technical/protect_camera/</guid>
       <pubDate>Sun, 18 Aug 2024 11:07:18 +0700</pubDate>
     </item>
     
     <item>
       <title>RE_Tool_BinaryNinjaFree</title>
-      <link>https://vinhlin.github.io/posts/cybersecurity/technical/re_tool_binaryninjafree/</link>
+      <link>http://localhost:1313/posts/cybersecurity/technical/re_tool_binaryninjafree/</link>
       <description>&lt;p&gt;Một bài viết về &lt;a href=&#34;https://whitehat.vn/threads/re1-gioi-thieu-ve-reverse-engineering.875/&#34;&gt;RE (Reverse Engineering)&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;công-cụ-ida---the-interactive-disassemblerhttpswhitehatvnthreadsre3-huong-dan-su-dung-ida913&#34;&gt;&lt;a href=&#34;https://whitehat.vn/threads/re3-huong-dan-su-dung-ida.913/&#34;&gt;Công cụ IDA - The Interactive Disassembler&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
@@ -1769,7 +1769,7 @@ https://radxa.com/products/x/x4/
 &lt;li&gt;&lt;strong&gt;Công cụ quá mạnh mẽ&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Binary_Ninja_Free.png&#34;
+  src=&#34;http://localhost:1313/image/CyberSecurity/Binary_Ninja_Free.png&#34;
   alt=&#34;Binary_Ninja_Free&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -1779,13 +1779,13 @@ https://radxa.com/products/x/x4/
 &lt;/p&gt;
 </description>
       <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/cybersecurity/technical/re_tool_binaryninjafree/</guid>
+      <guid>http://localhost:1313/posts/cybersecurity/technical/re_tool_binaryninjafree/</guid>
       <pubDate>Fri, 16 Aug 2024 14:07:42 +0700</pubDate>
     </item>
     
     <item>
       <title>Read_Write_UART_STM32Fx</title>
-      <link>https://vinhlin.github.io/posts/iot/software/read_write_uart_stm32fx/</link>
+      <link>http://localhost:1313/posts/iot/software/read_write_uart_stm32fx/</link>
       <description>&lt;h2 id=&#34;code-test-read-write-data-trên-uart-của-chip-stm32f103&#34;&gt;Code Test Read Write Data trên UART của chip STM32F103&lt;/h2&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#![no_std]
 #![no_main]
@@ -1867,7 +1867,7 @@ fn alloc_error(_layout: core::alloc::Layout) -&amp;gt; ! {
 &lt;li&gt;Kết quả test thành công:&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Embassy/UART_Read_Write_Result.png&#34;
+  src=&#34;http://localhost:1313/image/IoT/Embassy/UART_Read_Write_Result.png&#34;
   alt=&#34;Read_Write&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -1877,17 +1877,17 @@ fn alloc_error(_layout: core::alloc::Layout) -&amp;gt; ! {
 &lt;/p&gt;
 </description>
       <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/iot/software/read_write_uart_stm32fx/</guid>
+      <guid>http://localhost:1313/posts/iot/software/read_write_uart_stm32fx/</guid>
       <pubDate>Wed, 14 Aug 2024 19:17:29 +0700</pubDate>
     </item>
     
     <item>
       <title>Dump_Firmware_NOR_Flash</title>
-      <link>https://vinhlin.github.io/posts/iot/hardware/dump_firmware_nor_flash/</link>
+      <link>http://localhost:1313/posts/iot/hardware/dump_firmware_nor_flash/</link>
       <description>&lt;p&gt;Đây là video Youtube nói về việc &lt;strong&gt;Dump Firmware&lt;/strong&gt; thiết bị: &lt;a href=&#34;https://www.youtube.com/watch?v=nruUuDalNR0&amp;amp;list=WL&amp;amp;index=7&#34;&gt;Extracting Firmware from Embedded Devices (SPI NOR Flash) ⚡&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Một video hay, thú vị, giải thích và hướng dẫn cơ bản về &lt;strong&gt;Flash Memory&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Dump_Firmware_NOR_Flash/Hinh_1.png&#34;
+  src=&#34;http://localhost:1313/image/IoT/Dump_Firmware_NOR_Flash/Hinh_1.png&#34;
   alt=&#34;Hinh_1&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -1902,7 +1902,7 @@ fn alloc_error(_layout: core::alloc::Layout) -&amp;gt; ! {
 &lt;/ul&gt;
 &lt;h3 id=&#34;nor-flash&#34;&gt;NOR Flash&lt;/h3&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Dump_Firmware_NOR_Flash/Hinh_2.png&#34;
+  src=&#34;http://localhost:1313/image/IoT/Dump_Firmware_NOR_Flash/Hinh_2.png&#34;
   alt=&#34;Hinh_2&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -1915,7 +1915,7 @@ fn alloc_error(_layout: core::alloc::Layout) -&amp;gt; ! {
 &lt;li&gt;Loại flash này dùng giao thức &lt;strong&gt;SPI&lt;/strong&gt;:&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Dump_Firmware_NOR_Flash/Hinh_3.png&#34;
+  src=&#34;http://localhost:1313/image/IoT/Dump_Firmware_NOR_Flash/Hinh_3.png&#34;
   alt=&#34;Hinh_3&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -1928,7 +1928,7 @@ fn alloc_error(_layout: core::alloc::Layout) -&amp;gt; ! {
 &lt;li&gt;Nếu không có đúng loại y như vậy, thì sẽ luôn có những dòng chip tương tự.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Dump_Firmware_NOR_Flash/Hinh_4.png&#34;
+  src=&#34;http://localhost:1313/image/IoT/Dump_Firmware_NOR_Flash/Hinh_4.png&#34;
   alt=&#34;Hinh_4&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -1941,7 +1941,7 @@ fn alloc_error(_layout: core::alloc::Layout) -&amp;gt; ! {
 &lt;li&gt;Trong video tác giả sử dụng phần cứng &lt;a href=&#34;https://hydrabus.com/hydrabus-1-0-specifications/?v=e14da64a5617&#34;&gt;HydraBus&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Dump_Firmware_NOR_Flash/HydraFW_Default_PinAssignment.jpg&#34;
+  src=&#34;http://localhost:1313/image/IoT/Dump_Firmware_NOR_Flash/HydraFW_Default_PinAssignment.jpg&#34;
   alt=&#34;HydraBus&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -1962,7 +1962,7 @@ fn alloc_error(_layout: core::alloc::Layout) -&amp;gt; ! {
 &lt;/ul&gt;
 &lt;h3 id=&#34;một-số-hình-ảnh-khác-về-cách-dùng-cũng-như-công-cụ-bổ-trợ&#34;&gt;Một số hình ảnh khác về cách dùng cũng như công cụ bổ trợ:&lt;/h3&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Dump_Firmware_NOR_Flash/Hinh_5.png&#34;
+  src=&#34;http://localhost:1313/image/IoT/Dump_Firmware_NOR_Flash/Hinh_5.png&#34;
   alt=&#34;Hinh_5&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -1971,7 +1971,7 @@ fn alloc_error(_layout: core::alloc::Layout) -&amp;gt; ! {
 
 &lt;/p&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Dump_Firmware_NOR_Flash/Hinh_6.png&#34;
+  src=&#34;http://localhost:1313/image/IoT/Dump_Firmware_NOR_Flash/Hinh_6.png&#34;
   alt=&#34;Hinh_6&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -1980,7 +1980,7 @@ fn alloc_error(_layout: core::alloc::Layout) -&amp;gt; ! {
 
 &lt;/p&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Dump_Firmware_NOR_Flash/Hinh_7.png&#34;
+  src=&#34;http://localhost:1313/image/IoT/Dump_Firmware_NOR_Flash/Hinh_7.png&#34;
   alt=&#34;Hinh_7&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -1989,7 +1989,7 @@ fn alloc_error(_layout: core::alloc::Layout) -&amp;gt; ! {
 
 &lt;/p&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Dump_Firmware_NOR_Flash/Hinh_8.png&#34;
+  src=&#34;http://localhost:1313/image/IoT/Dump_Firmware_NOR_Flash/Hinh_8.png&#34;
   alt=&#34;Hinh_8&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -1999,13 +1999,13 @@ fn alloc_error(_layout: core::alloc::Layout) -&amp;gt; ! {
 &lt;/p&gt;
 </description>
       <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/iot/hardware/dump_firmware_nor_flash/</guid>
+      <guid>http://localhost:1313/posts/iot/hardware/dump_firmware_nor_flash/</guid>
       <pubDate>Mon, 12 Aug 2024 16:44:23 +0700</pubDate>
     </item>
     
     <item>
       <title>Shared_Access_Embassy</title>
-      <link>https://vinhlin.github.io/posts/iot/software/shared_access_embassy/</link>
+      <link>http://localhost:1313/posts/iot/software/shared_access_embassy/</link>
       <description>&lt;p&gt;Như bài viết về &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/iot/software/lifetime_embassy/&#34;&gt;Lifetime_Embassy&lt;/a&gt; mình bị vướng chỗ ownership UART.&lt;/p&gt;
 &lt;p&gt;Sau khi thăm hỏi &lt;strong&gt;ChatGPT&lt;/strong&gt; và đọc lại các tài liệu cũng như xem sample code thì biết rằng:
 &lt;strong&gt;Rust ngăn cắm việc dùm một biến cho multi task, vì lo sợ rằng các task này chạy đồng thời &amp;ndash;&amp;gt; Gây lỗi cho chương trình&lt;/strong&gt;.&lt;/p&gt;
@@ -2131,7 +2131,7 @@ async fn main(spawner: Spawner) {
 }
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;đã-khắc-phục-và-chạy-code-được-thành-công&#34;&gt;&lt;strong&gt;Đã khắc phục và chạy code được thành công&lt;/strong&gt;.&lt;/h3&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Embassy/Result_Shared_Access_UART.png&#34;
+  src=&#34;http://localhost:1313/image/IoT/Embassy/Result_Shared_Access_UART.png&#34;
   alt=&#34;Result_Shared_Access_UART&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -2141,13 +2141,13 @@ async fn main(spawner: Spawner) {
 &lt;/p&gt;
 </description>
       <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/iot/software/shared_access_embassy/</guid>
+      <guid>http://localhost:1313/posts/iot/software/shared_access_embassy/</guid>
       <pubDate>Sat, 10 Aug 2024 11:18:41 +0700</pubDate>
     </item>
     
     <item>
       <title>Lifetime_Embassy</title>
-      <link>https://vinhlin.github.io/posts/iot/software/lifetime_embassy/</link>
+      <link>http://localhost:1313/posts/iot/software/lifetime_embassy/</link>
       <description>&lt;p&gt;Trong quá trình code Rust cho RFID, khi sử dụng đến phần &lt;strong&gt;UART&lt;/strong&gt; và dùng đến &lt;code&gt;#[embassy_executor::task]&lt;/code&gt; thì bị báo lỗi về &lt;strong&gt;Lifetime&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Lỗi lifetime về uart. Hiều nôm na thì rust đang báo là &lt;strong&gt;thời gian sống&lt;/strong&gt; (thời gian tồn tại, hay &lt;strong&gt;vòng đời&lt;/strong&gt;) của &lt;strong&gt;UART&lt;/strong&gt; quá ngắn để thực hiện các tiến trình trong task.&lt;/p&gt;
 &lt;p&gt;Xem thêm video &lt;a href=&#34;https://www.youtube.com/watch?v=juIINGuZyBc&#34;&gt;Rust Lifetimes Finally Explained!&lt;/a&gt;&lt;/p&gt;
@@ -2160,7 +2160,7 @@ A &lt;strong&gt;box is a smart pointer&lt;/strong&gt; to a &lt;strong&gt;heap al
 When a box goes out of scope, its destructor is called, the inner object is destroyed, and the memory on the heap is freed.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Embassy/Box_Rust.png&#34;
+  src=&#34;http://localhost:1313/image/IoT/Embassy/Box_Rust.png&#34;
   alt=&#34;Box&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -2217,17 +2217,17 @@ async fn main(spawner: Spawner) {
 &lt;p&gt;Vì lúc này bị dính đến &lt;strong&gt;ownership&lt;/strong&gt;.&lt;/p&gt;
 </description>
       <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/iot/software/lifetime_embassy/</guid>
+      <guid>http://localhost:1313/posts/iot/software/lifetime_embassy/</guid>
       <pubDate>Fri, 09 Aug 2024 18:08:32 +0700</pubDate>
     </item>
     
     <item>
       <title>Results_Rust</title>
-      <link>https://vinhlin.github.io/posts/iot/software/rust-lang/results_rust/</link>
+      <link>http://localhost:1313/posts/iot/software/rust-lang/results_rust/</link>
       <description>&lt;p&gt;Một trong các ưu điểm của ngôn ngữ bậc cao là việc &lt;strong&gt;Handle Error&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Và trong Rust thì chính là cách sử dụng &lt;strong&gt;Result&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Rust-lang/Result/Hinh_1.png&#34;
+  src=&#34;http://localhost:1313/image/IoT/Rust-lang/Result/Hinh_1.png&#34;
   alt=&#34;Hinh_1&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -2239,7 +2239,7 @@ async fn main(spawner: Spawner) {
 &lt;h3 id=&#34;video-youtube-a-simpler-way-to-see-resultshttpswwwyoutubecomwatchvs5s2ed5t-dc&#34;&gt;Video Youtube: &lt;a href=&#34;https://www.youtube.com/watch?v=s5S2Ed5T-dc&#34;&gt;A Simpler Way to See Results&lt;/a&gt;&lt;/h3&gt;
 &lt;h2 id=&#34;result-vs-optionhttpsdhghomongithubioeasy_rustchapter_31html&#34;&gt;&lt;a href=&#34;https://dhghomon.github.io/easy_rust/Chapter_31.html&#34;&gt;Result vs Option&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Rust-lang/Result/Hinh_2.png&#34;
+  src=&#34;http://localhost:1313/image/IoT/Rust-lang/Result/Hinh_2.png&#34;
   alt=&#34;Hinh_2&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -2253,7 +2253,7 @@ async fn main(spawner: Spawner) {
 &lt;li&gt;&lt;strong&gt;Result&lt;/strong&gt; dùng khi mình muốn biểu đạt là có &lt;strong&gt;giá trị đúng&lt;/strong&gt; và biết được &lt;strong&gt;thông tin lỗi&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Rust-lang/Result/Hinh_3.png&#34;
+  src=&#34;http://localhost:1313/image/IoT/Rust-lang/Result/Hinh_3.png&#34;
   alt=&#34;Hinh_3&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -2263,7 +2263,7 @@ async fn main(spawner: Spawner) {
 &lt;/p&gt;
 &lt;h3 id=&#34;ví-dụ-về-việc-trả-về-một-giá-trị-và-handle-error&#34;&gt;Ví dụ về việc trả về &lt;strong&gt;một giá trị&lt;/strong&gt; và handle-error&lt;/h3&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Rust-lang/Result/Hinh_4.png&#34;
+  src=&#34;http://localhost:1313/image/IoT/Rust-lang/Result/Hinh_4.png&#34;
   alt=&#34;Hinh_4&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -2277,7 +2277,7 @@ async fn main(spawner: Spawner) {
 &lt;li&gt;Tuy nhiên nếu dùng thêm &lt;a href=&#34;https://dhghomon.github.io/easy_rust/Chapter_33.html&#34;&gt;operator&lt;/a&gt; thì cách biểu đạt sẽ đơn giản hơn.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Rust-lang/Result/Hinh_5.png&#34;
+  src=&#34;http://localhost:1313/image/IoT/Rust-lang/Result/Hinh_5.png&#34;
   alt=&#34;Hinh_5&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -2286,7 +2286,7 @@ async fn main(spawner: Spawner) {
 
 &lt;/p&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Rust-lang/Result/Hinh_6.png&#34;
+  src=&#34;http://localhost:1313/image/IoT/Rust-lang/Result/Hinh_6.png&#34;
   alt=&#34;Hinh_6&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -2296,20 +2296,20 @@ async fn main(spawner: Spawner) {
 &lt;/p&gt;
 </description>
       <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/iot/software/rust-lang/results_rust/</guid>
+      <guid>http://localhost:1313/posts/iot/software/rust-lang/results_rust/</guid>
       <pubDate>Thu, 08 Aug 2024 18:07:12 +0700</pubDate>
     </item>
     
     <item>
       <title>UART_Embassy</title>
-      <link>https://vinhlin.github.io/posts/iot/software/uart_embassy/</link>
+      <link>http://localhost:1313/posts/iot/software/uart_embassy/</link>
       <description>&lt;h2 id=&#34;giới-thiệu-về-embassyhttpsembassydev&#34;&gt;Giới thiệu về &lt;a href=&#34;https://embassy.dev/&#34;&gt;Embassy&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Trong quá trình tìm hiểu về lập trình nhúng bằng Rust, thì mình vô tình biết đến framework này.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Embassy&lt;/strong&gt; một framework lập trình theo kiểu &lt;strong&gt;bất đồng bộ (async)&lt;/strong&gt;, dễ tiếp cận hơn việc setup một &lt;strong&gt;RTOS&lt;/strong&gt; cho MCU.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Embassy/Concurrency_Parallelism.jpg&#34;
+  src=&#34;http://localhost:1313/image/IoT/Embassy/Concurrency_Parallelism.jpg&#34;
   alt=&#34;Concurrency_Parallelism&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -2319,7 +2319,7 @@ async fn main(spawner: Spawner) {
 &lt;/p&gt;
 &lt;h3 id=&#34;async-embassy&#34;&gt;Async Embassy&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Dựa trên một file tài liệu mà mình tình cờ có được &lt;a href=&#34;https://vinhlin.github.io/docs/embassy/B4-async-embedded.pdf&#34;&gt;async-embedded&lt;/a&gt; thì &lt;strong&gt;Async&lt;/strong&gt; là một cách tiếp cận về việc &lt;strong&gt;Xử lý đồng thời (Concurrency)&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Dựa trên một file tài liệu mà mình tình cờ có được &lt;a href=&#34;http://localhost:1313/docs/embassy/B4-async-embedded.pdf&#34;&gt;async-embedded&lt;/a&gt; thì &lt;strong&gt;Async&lt;/strong&gt; là một cách tiếp cận về việc &lt;strong&gt;Xử lý đồng thời (Concurrency)&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;Hơn nữa dựa trên &lt;a href=&#34;https://github.com/embassy-rs/embassy&#34;&gt;Github Embassy&lt;/a&gt; thì framework này hỗ trợ kha khá dòng chip:
 &lt;ul&gt;
 &lt;li&gt;Dòng nRF: &lt;a href=&#34;https://docs.embassy.dev/embassy-nrf/git/nrf51/index.html&#34;&gt;embassy_nrf&lt;/a&gt;&lt;/li&gt;
@@ -2458,15 +2458,15 @@ async fn no_tag_cr95hf(
 }
 &lt;/code&gt;&lt;/pre&gt;</description>
       <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/iot/software/uart_embassy/</guid>
+      <guid>http://localhost:1313/posts/iot/software/uart_embassy/</guid>
       <pubDate>Wed, 07 Aug 2024 13:23:30 +0700</pubDate>
     </item>
     
     <item>
       <title>IoT_Security_JD</title>
-      <link>https://vinhlin.github.io/posts/others/iot_security_jd/</link>
+      <link>http://localhost:1313/posts/others/iot_security_jd/</link>
       <description>&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/IoT_Security.jpg&#34;
+  src=&#34;http://localhost:1313/image/IoT/IoT_Security.jpg&#34;
   alt=&#34;IoT_Security&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -2542,13 +2542,13 @@ Code nhúng cho Linux
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Cũng may là mình biết một chút về Security (và đang trên con đường định hướng về IoT Security) nên JD này là cái mà mình cần tham khảo. =]]&lt;/p&gt;
 </description>
       <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/others/iot_security_jd/</guid>
+      <guid>http://localhost:1313/posts/others/iot_security_jd/</guid>
       <pubDate>Sun, 04 Aug 2024 11:04:52 +0700</pubDate>
     </item>
     
     <item>
       <title>Docklight</title>
-      <link>https://vinhlin.github.io/posts/iot/software/docklight/</link>
+      <link>http://localhost:1313/posts/iot/software/docklight/</link>
       <description>&lt;ul&gt;
 &lt;li&gt;Bữa đang nghiên cứu code Rust cho CR95, thì phần cứng nó cứ chập chờn.&lt;/li&gt;
 &lt;li&gt;Gửi lệnh cho thiết bị thì lúc có phản hồi, lúc không. Có thể cắm dây nó lỏng hay gì đó thì không biết.&lt;/li&gt;
@@ -2585,13 +2585,13 @@ Code nhúng cho Linux
 &lt;/p&gt;
 </description>
       <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/iot/software/docklight/</guid>
+      <guid>http://localhost:1313/posts/iot/software/docklight/</guid>
       <pubDate>Sat, 03 Aug 2024 13:24:20 +0700</pubDate>
     </item>
     
     <item>
       <title>ParamSpider</title>
-      <link>https://vinhlin.github.io/posts/cybersecurity/technical/paramspider/</link>
+      <link>http://localhost:1313/posts/cybersecurity/technical/paramspider/</link>
       <description>&lt;p&gt;Bữa có coi video trên Youtube có tựa đề: &lt;a href=&#34;https://www.youtube.com/watch?v=JHRzVEvpHSM&amp;amp;list=WL&amp;amp;index=2&#34;&gt;5 Hacking Tools I Can&amp;rsquo;t Live Without&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Trong đó có đề cập đến các công cụ dành cho việc Pentest Web:&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;1. DevTools
@@ -2617,13 +2617,13 @@ Code nhúng cho Linux
 &lt;/p&gt;
 </description>
       <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/cybersecurity/technical/paramspider/</guid>
+      <guid>http://localhost:1313/posts/cybersecurity/technical/paramspider/</guid>
       <pubDate>Sat, 03 Aug 2024 12:24:25 +0700</pubDate>
     </item>
     
     <item>
       <title>Research_CR95</title>
-      <link>https://vinhlin.github.io/posts/iot/hardware/research_cr95/</link>
+      <link>http://localhost:1313/posts/iot/hardware/research_cr95/</link>
       <description>&lt;h3 id=&#34;giới-thiệu&#34;&gt;Giới thiệu:&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;CR95&lt;/strong&gt; là dòng chip dùng để đọc &lt;strong&gt;RFID&lt;/strong&gt; và &lt;strong&gt;NFC&lt;/strong&gt;.&lt;/li&gt;
@@ -2647,7 +2647,7 @@ Code nhúng cho Linux
 &lt;li&gt;&lt;strong&gt;Source code&lt;/strong&gt; anh này được viết &lt;strong&gt;bằng C&lt;/strong&gt;, mình đọc source code, kết hợp với việc đọc lại datasheet và test command trên một &lt;a href=&#34;http://www.tme.vn/product.aspx?id=2095#page=pro_info&#34;&gt;board phần cứng CR95 khác&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Research_CR95/CR95HF-BRD.jpg&#34;
+  src=&#34;http://localhost:1313/image/IoT/Research_CR95/CR95HF-BRD.jpg&#34;
   alt=&#34;CR95HF-BRD&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -2684,7 +2684,7 @@ SendRecv: 0x0403022000
 &lt;li&gt;Từ &lt;strong&gt;hình 1&lt;/strong&gt; và &lt;strong&gt;hình 2&lt;/strong&gt; là mình biết rằng những lệnh command ban đầu của mình đã đúng.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Research_CR95/Hinh_1.png&#34;
+  src=&#34;http://localhost:1313/image/IoT/Research_CR95/Hinh_1.png&#34;
   alt=&#34;CR95-Hinh_1&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -2693,7 +2693,7 @@ SendRecv: 0x0403022000
 
 &lt;/p&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Research_CR95/Hinh_2.png&#34;
+  src=&#34;http://localhost:1313/image/IoT/Research_CR95/Hinh_2.png&#34;
   alt=&#34;CR95-Hinh_2&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -2705,7 +2705,7 @@ SendRecv: 0x0403022000
 &lt;li&gt;Tiếp đến là bước quan trọng, đó là việc đọc thông tin thẻ tài xế:&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Research_CR95/Hinh_3.png&#34;
+  src=&#34;http://localhost:1313/image/IoT/Research_CR95/Hinh_3.png&#34;
   alt=&#34;CR95-Hinh_3&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -2752,13 +2752,13 @@ SendRecv: 0x0403022000
 &lt;/ul&gt;
 </description>
       <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/iot/hardware/research_cr95/</guid>
+      <guid>http://localhost:1313/posts/iot/hardware/research_cr95/</guid>
       <pubDate>Sun, 28 Jul 2024 13:12:25 +0700</pubDate>
     </item>
     
     <item>
       <title>Tails_OS</title>
-      <link>https://vinhlin.github.io/posts/cybersecurity/technical/tails_os/</link>
+      <link>http://localhost:1313/posts/cybersecurity/technical/tails_os/</link>
       <description>&lt;h3 id=&#34;ẩn-danh---anonymous&#34;&gt;Ẩn danh - Anonymous&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -2805,7 +2805,7 @@ SendRecv: 0x0403022000
 &lt;li&gt;Mình thì không có nhu cầu vào &lt;strong&gt;Dark Web&lt;/strong&gt;, những thông tin search trên google thôi đã quá rộng lớn đối với mình rồi. Tuy nhiên &lt;strong&gt;Tails OS&lt;/strong&gt; vẫn là một biện pháp hay ho khi mình &lt;strong&gt;muốn làm gì đó mà không muốn người khác biết&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Google_vs_DuckDuckGo.jpg&#34;
+  src=&#34;http://localhost:1313/image/CyberSecurity/Google_vs_DuckDuckGo.jpg&#34;
   alt=&#34;Search&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -2815,13 +2815,13 @@ SendRecv: 0x0403022000
 &lt;/p&gt;
 </description>
       <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/cybersecurity/technical/tails_os/</guid>
+      <guid>http://localhost:1313/posts/cybersecurity/technical/tails_os/</guid>
       <pubDate>Sun, 21 Jul 2024 17:34:15 +0700</pubDate>
     </item>
     
     <item>
       <title>Suy_nghi_ve_Hardware_Hacking</title>
-      <link>https://vinhlin.github.io/posts/others/suy_nghi_ve_hardware_hacking/</link>
+      <link>http://localhost:1313/posts/others/suy_nghi_ve_hardware_hacking/</link>
       <description>&lt;p&gt;Sau khi mình đã đọc hết cuốn &lt;a href=&#34;https://tiki.vn/khoa-hoc-kham-pha-vung-toi-lich-su-bi-an-cua-chien-tranh-mang-p251393388.html&#34;&gt;Vùng tối&lt;/a&gt;. Những &lt;strong&gt;hacker đời đầu&lt;/strong&gt; chính là các &lt;strong&gt;nhà vật lý&lt;/strong&gt;, những người &lt;strong&gt;kỹ sư, kỹ thuật điện tử&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://salt.tikicdn.com/cache/540x540/ts/product/46/60/43/e4ff35baeeaf8bb049e0c864e6132c6b.jpg&#34;
@@ -2853,7 +2853,7 @@ SendRecv: 0x0403022000
 &lt;p&gt;IoT Hacking hay Hardware Hacking có vẻ chính là con đường giao thoa, thỏa mãn cả 2 yếu tố Điện tử/IoT và Cyber-Security.&lt;/p&gt;
 &lt;p&gt;Có lẻ vậy.&lt;/p&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Hardware_Hacking.jpg&#34;
+  src=&#34;http://localhost:1313/image/IoT/Hardware_Hacking.jpg&#34;
   alt=&#34;Hardware Hacking Tools&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -2867,13 +2867,13 @@ SendRecv: 0x0403022000
 &lt;p&gt;&lt;strong&gt;CNE (Computer Network Exploitation) - Khai thác Mạng máy tính:&lt;/strong&gt; Sử dụng máy tính để khai thác lỗ hổng trong các hệ thống mạng của kẻ thù - xâm nhập vào các mạng đó, nhằm thu thập thêm thông tin tình báo.&lt;/p&gt;
 </description>
       <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/others/suy_nghi_ve_hardware_hacking/</guid>
+      <guid>http://localhost:1313/posts/others/suy_nghi_ve_hardware_hacking/</guid>
       <pubDate>Wed, 10 Jul 2024 20:34:27 +0700</pubDate>
     </item>
     
     <item>
       <title>Goc_nhin_ve_Ngoai_ngu</title>
-      <link>https://vinhlin.github.io/posts/others/goc_nhin_ve_ngoai_ngu/</link>
+      <link>http://localhost:1313/posts/others/goc_nhin_ve_ngoai_ngu/</link>
       <description>&lt;h2 id=&#34;một-góc-nhìn-cá-nhân-về-ngoại-ngữ&#34;&gt;Một &lt;strong&gt;góc nhìn cá nhân&lt;/strong&gt; về Ngoại ngữ&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Là một người thiên về Khoa học Kỹ thuật thì với mình, &lt;strong&gt;Ngoại ngữ là một công cụ&lt;/strong&gt;.&lt;/li&gt;
@@ -2918,13 +2918,13 @@ SendRecv: 0x0403022000
 &lt;p&gt;&lt;strong&gt;Người ta sao thì kệ họ, mình theo hướng Chuyên môn hóa, và Ngoại ngữ vẫn chỉ là Công cụ để mình mở rộng cái giếng của bản thân&lt;/strong&gt;.&lt;/p&gt;
 </description>
       <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/others/goc_nhin_ve_ngoai_ngu/</guid>
+      <guid>http://localhost:1313/posts/others/goc_nhin_ve_ngoai_ngu/</guid>
       <pubDate>Sun, 07 Jul 2024 15:03:26 +0700</pubDate>
     </item>
     
     <item>
       <title>Tools</title>
-      <link>https://vinhlin.github.io/posts/cybersecurity/tools/</link>
+      <link>http://localhost:1313/posts/cybersecurity/tools/</link>
       <description>&lt;h3 id=&#34;tool-git-dumperhttpsgithubcomarthaudgit-dumper&#34;&gt;&lt;a href=&#34;https://github.com/arthaud/git-dumper&#34;&gt;Tool: Git-Dumper&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Trong quá trình &lt;strong&gt;recon&lt;/strong&gt; một trang web, mà mình thấy có đường dẫn &lt;code&gt;.git&lt;/code&gt;&lt;/li&gt;
@@ -2991,13 +2991,13 @@ https://cuckoosandbox.org/blog/207-interim-release
 &lt;/ul&gt;
 </description>
       <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/cybersecurity/tools/</guid>
+      <guid>http://localhost:1313/posts/cybersecurity/tools/</guid>
       <pubDate>Sat, 06 Jul 2024 15:36:05 +0700</pubDate>
     </item>
     
     <item>
       <title>RedTeam</title>
-      <link>https://vinhlin.github.io/posts/cybersecurity/redteam/</link>
+      <link>http://localhost:1313/posts/cybersecurity/redteam/</link>
       <description>&lt;h3 id=&#34;5-free-red-teaming-resources-to-get-you-startedhttpswwwhelpnetsecuritycom20240416free-red-teaming-resources&#34;&gt;&lt;a href=&#34;https://www.helpnetsecurity.com/2024/04/16/free-red-teaming-resources/&#34;&gt;5 free red teaming resources to get you started&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://dmcxblue.gitbook.io/red-team-notes-2-0&#34;&gt;Red Team Notes&lt;/a&gt;&lt;/li&gt;
@@ -3007,13 +3007,13 @@ https://cuckoosandbox.org/blog/207-interim-release
 &lt;/ul&gt;
 </description>
       <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/cybersecurity/redteam/</guid>
+      <guid>http://localhost:1313/posts/cybersecurity/redteam/</guid>
       <pubDate>Sat, 15 Jun 2024 11:05:38 +0700</pubDate>
     </item>
     
     <item>
       <title>TheHive</title>
-      <link>https://vinhlin.github.io/posts/cybersecurity/technical/thehive/</link>
+      <link>http://localhost:1313/posts/cybersecurity/technical/thehive/</link>
       <description>&lt;ul&gt;
 &lt;li&gt;Theo mình nghiên cứu và hiểu thì SOC sẽ gồm các quá trình:
 &lt;ul&gt;
@@ -3048,13 +3048,13 @@ https://cuckoosandbox.org/blog/207-interim-release
 - https://github.com/ReconInfoSec/graylog2thehive
 &lt;/code&gt;&lt;/pre&gt;</description>
       <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/cybersecurity/technical/thehive/</guid>
+      <guid>http://localhost:1313/posts/cybersecurity/technical/thehive/</guid>
       <pubDate>Sat, 15 Jun 2024 11:04:17 +0700</pubDate>
     </item>
     
     <item>
       <title>OSINT</title>
-      <link>https://vinhlin.github.io/posts/cybersecurity/technical/osint/</link>
+      <link>http://localhost:1313/posts/cybersecurity/technical/osint/</link>
       <description>&lt;h3 id=&#34;osint---open-source-intelligencehttpsanonyvietcomosint-la-gi-osint-duoc-su-dung-nhu-the-nao-de-truy-vet-qua-internet&#34;&gt;&lt;a href=&#34;https://anonyviet.com/osint-la-gi-osint-duoc-su-dung-nhu-the-nao-de-truy-vet-qua-internet/&#34;&gt;OSINT - Open Source Intelligence&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Bước đầu tiên&lt;/strong&gt; trong một cuộc tấn công có chủ đích – hoặc kiểm tra thâm nhập của Red Team – là &lt;strong&gt;thu thập các thông tin&lt;/strong&gt; giá trị về mục tiêu.&lt;/li&gt;
@@ -3080,13 +3080,13 @@ Active Reconnaissance - Thu thập thông tin chủ động
 &lt;/ul&gt;
 </description>
       <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/cybersecurity/technical/osint/</guid>
+      <guid>http://localhost:1313/posts/cybersecurity/technical/osint/</guid>
       <pubDate>Sat, 15 Jun 2024 11:02:08 +0700</pubDate>
     </item>
     
     <item>
       <title>ESD</title>
-      <link>https://vinhlin.github.io/posts/iot/hardware/esd/</link>
+      <link>http://localhost:1313/posts/iot/hardware/esd/</link>
       <description>&lt;h2 id=&#34;esd-electrostatic-sensitive-devices---sự-phóng-tĩnh-điện&#34;&gt;ESD (Electrostatic Sensitive Devices) - Sự phóng tĩnh điện&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -3121,7 +3121,7 @@ GDT - Gas Discharge Tube
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/ESD_Electronics.png&#34;
+  src=&#34;http://localhost:1313/image/IoT/ESD_Electronics.png&#34;
   alt=&#34;ESD&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -3131,13 +3131,13 @@ GDT - Gas Discharge Tube
 &lt;/p&gt;
 </description>
       <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/iot/hardware/esd/</guid>
+      <guid>http://localhost:1313/posts/iot/hardware/esd/</guid>
       <pubDate>Sat, 25 May 2024 15:59:27 +0700</pubDate>
     </item>
     
     <item>
       <title>DFLab_VNCERT</title>
-      <link>https://vinhlin.github.io/posts/cybersecurity/technical/dflab_vncert/</link>
+      <link>http://localhost:1313/posts/cybersecurity/technical/dflab_vncert/</link>
       <description>&lt;h2 id=&#34;bài-viết---công-cụ-điều-tra-nhật-ký-sự-kiện-của-digital-forensics-lab---cục-an-toàn-thông-tin-vncertcchttpsdfirlabvndocstoolslog&#34;&gt;&lt;a href=&#34;https://df.irlab.vn/docs/tools/log/&#34;&gt;Bài viết - Công cụ điều tra nhật ký sự kiện (của Digital Forensics Lab - Cục An toàn thông tin (VNCERT/CC))&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Bài viết cung cấp thông tin những công cụ hữu ích và miễn phí giúp thu thập và phân tích &lt;strong&gt;log&lt;/strong&gt;.&lt;/li&gt;
@@ -3161,13 +3161,13 @@ GDT - Gas Discharge Tube
 &lt;/ul&gt;
 </description>
       <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/cybersecurity/technical/dflab_vncert/</guid>
+      <guid>http://localhost:1313/posts/cybersecurity/technical/dflab_vncert/</guid>
       <pubDate>Sat, 25 May 2024 15:56:30 +0700</pubDate>
     </item>
     
     <item>
       <title>Firewall_CheckList</title>
-      <link>https://vinhlin.github.io/posts/cybersecurity/technical/firewall_checklist/</link>
+      <link>http://localhost:1313/posts/cybersecurity/technical/firewall_checklist/</link>
       <description>&lt;h3 id=&#34;có-thể-coi-firewall-checklist-là-phương-pháp-để-mình-pentest-network&#34;&gt;Có thể coi &lt;code&gt;Firewall Checklist&lt;/code&gt; là phương pháp để mình Pentest Network&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Dùng các công cụ để test hạ tầng Network:
@@ -3181,10 +3181,10 @@ GDT - Gas Discharge Tube
 &lt;li&gt;Check version của Firewall + CVE, tìm các cách khắc phục.&lt;/li&gt;
 &lt;li&gt;Dựa vào file &lt;strong&gt;Firewall_Checklist&lt;/strong&gt; để áp dụng cách đặt rule.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;documents-firewall_checklistdocsfirewallchecklistpdf&#34;&gt;&lt;a href=&#34;https://vinhlin.github.io/docs/FirewallChecklist.pdf&#34;&gt;Documents Firewall_Checklist&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;documents-firewall_checklistdocsfirewallchecklistpdf&#34;&gt;&lt;a href=&#34;http://localhost:1313/docs/FirewallChecklist.pdf&#34;&gt;Documents Firewall_Checklist&lt;/a&gt;&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Firewall_Cheatsheet.jpg&#34;
+  src=&#34;http://localhost:1313/image/CyberSecurity/Firewall_Cheatsheet.jpg&#34;
   alt=&#34;Firewall Checklist&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -3194,13 +3194,13 @@ GDT - Gas Discharge Tube
 &lt;/p&gt;
 </description>
       <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/cybersecurity/technical/firewall_checklist/</guid>
+      <guid>http://localhost:1313/posts/cybersecurity/technical/firewall_checklist/</guid>
       <pubDate>Sat, 25 May 2024 15:48:35 +0700</pubDate>
     </item>
     
     <item>
       <title>NIS2</title>
-      <link>https://vinhlin.github.io/posts/cybersecurity/technical/nis2/</link>
+      <link>http://localhost:1313/posts/cybersecurity/technical/nis2/</link>
       <description>&lt;h2 id=&#34;bài-viết-tuân-thủ-nis2-cho-các-mạng-công-nghiệphttpswhitehatvnthreadstuan-thu-nis2-cho-cac-mang-cong-nghiep-ban-da-san-sang-chua17872&#34;&gt;&lt;a href=&#34;https://whitehat.vn/threads/tuan-thu-nis2-cho-cac-mang-cong-nghiep-ban-da-san-sang-chua.17872/&#34;&gt;Bài viết: Tuân thủ NIS2 cho các mạng công nghiệp&lt;/a&gt;&lt;/h2&gt;
 &lt;h3 id=&#34;nis2-compliance-for-industries-white-paperhttpswwwciscocomcenusproductscollateralsecurityindustrial-securitynetwork-info-security-wppdf&#34;&gt;&lt;a href=&#34;https://www.cisco.com/c/en/us/products/collateral/security/industrial-security/network-info-security-wp.pdf&#34;&gt;NIS2 Compliance for Industries White Paper&lt;/a&gt;&lt;/h3&gt;
 &lt;h3 id=&#34;tổng-hợp-các-thông-tin-cần-biết-trong-bài-viết&#34;&gt;Tổng hợp các thông tin cần biết trong bài viết:&lt;/h3&gt;
@@ -3240,7 +3240,7 @@ GDT - Gas Discharge Tube
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/OT.jfif&#34;
+  src=&#34;http://localhost:1313/image/IoT/OT.jfif&#34;
   alt=&#34;OT&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -3250,13 +3250,13 @@ GDT - Gas Discharge Tube
 &lt;/p&gt;
 </description>
       <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/cybersecurity/technical/nis2/</guid>
+      <guid>http://localhost:1313/posts/cybersecurity/technical/nis2/</guid>
       <pubDate>Sat, 25 May 2024 15:43:13 +0700</pubDate>
     </item>
     
     <item>
       <title>Raspberry OpenAuto</title>
-      <link>https://vinhlin.github.io/posts/iot/software/raspberry-openauto/</link>
+      <link>http://localhost:1313/posts/iot/software/raspberry-openauto/</link>
       <description>&lt;h3 id=&#34;openauto&#34;&gt;OpenAuto&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://bluewavestudio.io/#features&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;9https://bluewavestudio.io/community/showthread.php?tid=2774&#34;&gt;Source&lt;/a&gt;&lt;/p&gt;
@@ -3276,13 +3276,13 @@ GDT - Gas Discharge Tube
 &lt;/ul&gt;
 </description>
       <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/iot/software/raspberry-openauto/</guid>
+      <guid>http://localhost:1313/posts/iot/software/raspberry-openauto/</guid>
       <pubDate>Mon, 01 Apr 2024 17:57:07 +0700</pubDate>
     </item>
     
     <item>
       <title>Pi400 Keyboard</title>
-      <link>https://vinhlin.github.io/posts/iot/software/pi400-keyboard/</link>
+      <link>http://localhost:1313/posts/iot/software/pi400-keyboard/</link>
       <description>&lt;h3 id=&#34;sử-dụng-raspberry-pi400-như-một-bàn-phím-thông-thường&#34;&gt;Sử dụng Raspberry Pi400 như một bàn phím thông thường.&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.cnx-software.com/2021/10/14/using-raspberry-pi-400-keyboard-pc-as-a-usb-keyboard-for-your-pc/&#34;&gt;https://www.cnx-software.com/2021/10/14/using-raspberry-pi-400-keyboard-pc-as-a-usb-keyboard-for-your-pc/&lt;/a&gt;&lt;/li&gt;
@@ -3300,13 +3300,13 @@ GDT - Gas Discharge Tube
 &lt;/p&gt;
 </description>
       <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/iot/software/pi400-keyboard/</guid>
+      <guid>http://localhost:1313/posts/iot/software/pi400-keyboard/</guid>
       <pubDate>Mon, 01 Apr 2024 17:53:24 +0700</pubDate>
     </item>
     
     <item>
       <title>PiKVM</title>
-      <link>https://vinhlin.github.io/posts/iot/software/pikvm/</link>
+      <link>http://localhost:1313/posts/iot/software/pikvm/</link>
       <description>&lt;h3 id=&#34;pikvmhttpsgithubcompikvmpikvm&#34;&gt;&lt;a href=&#34;https://github.com/pikvm/pikvm&#34;&gt;PiKVM&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Theo tài liệu thì &lt;strong&gt;KVM (Keyboard-Video-Mouse)&lt;/strong&gt;, tức là &lt;strong&gt;PiKVM&lt;/strong&gt; là sử dụng raspberry để điều khiển máy tính từ xa thông qua IP.&lt;/li&gt;
@@ -3340,13 +3340,13 @@ GDT - Gas Discharge Tube
 &lt;/ul&gt;
 </description>
       <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/iot/software/pikvm/</guid>
+      <guid>http://localhost:1313/posts/iot/software/pikvm/</guid>
       <pubDate>Mon, 01 Apr 2024 17:49:12 +0700</pubDate>
     </item>
     
     <item>
       <title>UNIHIKER</title>
-      <link>https://vinhlin.github.io/posts/iot/hardware/unihiker/</link>
+      <link>http://localhost:1313/posts/iot/hardware/unihiker/</link>
       <description>&lt;h3 id=&#34;documents&#34;&gt;Documents&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.unihiker.com/wiki/get-started&#34;&gt;Getting Started with UNIHIKER&lt;/a&gt;&lt;/li&gt;
@@ -3364,7 +3364,7 @@ GDT - Gas Discharge Tube
 &lt;/p&gt;
 </description>
       <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/iot/hardware/unihiker/</guid>
+      <guid>http://localhost:1313/posts/iot/hardware/unihiker/</guid>
       <pubDate>Mon, 01 Apr 2024 17:34:03 +0700</pubDate>
     </item>
     

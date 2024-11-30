@@ -10,7 +10,7 @@ hugo new posts/<Đường_dẫn>/<Tên_bài_viết>.md
 ```
 hugo server -D
 ```
-- Build ra folder `docs` (nhớ xóa đi thư mục `docs` cũ):
+- Build ra folder `docs`:
 ```
 hugo --config hugo.toml -D
 ```
