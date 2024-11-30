@@ -1,16 +1,16 @@
 <!doctype html>
 <html lang="en">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Liste - http://localhost:1313/">
+    <meta name="author" content="Liste - https://vinhlin.github.io/">
     <title>Read_Write_UART_STM32Fx | VinhLin</title>
     <meta name="description" content="Technology Blog">
     <meta property="og:title" content="Read_Write_UART_STM32Fx" />
 <meta property="og:description" content="Code Test Read Write Data trên UART của chip STM32F103 #![no_std] #![no_main] #![feature(type_alias_impl_trait)] #![feature(alloc_error_handler)] //------------------------- Define Macro Alloc ------------------------------------ extern crate alloc; use alloc_cortex_m::CortexMHeap; // this is the allocator the application will use #[global_allocator] static ALLOCATOR: CortexMHeap = CortexMHeap::empty(); const HEAP_SIZE: usize = 1024; // in bytes //----------------------------------------------------------------------------------- use defmt::*; use defmt_rtt as _; use embassy_executor::Spawner; use embassy_stm32::usart::{Config, Uart}; use embassy_stm32::{bind_interrupts, peripherals, usart}; use embassy_time::{with_timeout, Duration}; use panic_halt as _; bind_interrupts!" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/posts/iot/software/read_write_uart_stm32fx/" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="https://vinhlin.github.io/posts/iot/software/read_write_uart_stm32fx/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-08-14T19:17:29+07:00" />
 <meta property="article:modified_time" content="2024-08-14T19:17:29+07:00" />
 
@@ -20,12 +20,12 @@
 <meta itemprop="wordCount" content="223">
 <meta itemprop="keywords" content="" />
     
-    <link rel="canonical" href="http://localhost:1313/posts/iot/software/read_write_uart_stm32fx/">
-    <link rel="icon" href="http://localhost:1313//assets/favicon.ico">
+    <link rel="canonical" href="https://vinhlin.github.io/posts/iot/software/read_write_uart_stm32fx/">
+    <link rel="icon" href="https://vinhlin.github.io//assets/favicon.ico">
     <link rel="dns-prefetch" href="https://www.google-analytics.com">
     <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
-    <link rel="alternate" type="application/atom+xml" title="VinhLin" href="http://localhost:1313//atom.xml" />
-    <link rel="alternate" type="application/json" title="VinhLin" href="http://localhost:1313//feed.json" />
+    <link rel="alternate" type="application/atom+xml" title="VinhLin" href="https://vinhlin.github.io//atom.xml" />
+    <link rel="alternate" type="application/json" title="VinhLin" href="https://vinhlin.github.io//feed.json" />
     <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=">
     
     
@@ -47,7 +47,7 @@
       "isFamilyFriendly": "true",
       "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "http:\/\/localhost:1313\/posts\/iot\/software\/read_write_uart_stm32fx\/"
+          "@id": "https:\/\/vinhlin.github.io\/posts\/iot\/software\/read_write_uart_stm32fx\/"
       },
       "author" : {
           "@type": "Person",
@@ -69,16 +69,16 @@
       "publisher":{
           "@type":"Organization",
           "name": "VinhLin",
-          "url": "http://localhost:1313/",
+          "url": "https://vinhlin.github.io/",
           "logo": {
               "@type": "ImageObject",
-              "url": "http:\/\/localhost:1313\/assets\/favicon.ico",
+              "url": "https:\/\/vinhlin.github.io\/assets\/favicon.ico",
               "width":"32",
               "height":"32"
           }
       },
-      "image": "http://localhost:1313/assets/favicon.ico",
-      "url" : "http:\/\/localhost:1313\/posts\/iot\/software\/read_write_uart_stm32fx\/",
+      "image": "https://vinhlin.github.io/assets/favicon.ico",
+      "url" : "https:\/\/vinhlin.github.io\/posts\/iot\/software\/read_write_uart_stm32fx\/",
       "wordCount" : "223",
       "genre" : [ ],
       "keywords" : [ ]

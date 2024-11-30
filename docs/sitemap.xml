@@ -2,153 +2,156 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/system-devops/openmediavault/</loc>
+    <loc>https://vinhlin.github.io/posts/system-devops/clamav/</loc>
+    <lastmod>2024-11-30T12:20:10+07:00</lastmod>
+  </url><url>
+    <loc>https://vinhlin.github.io/posts/</loc>
+    <lastmod>2024-11-30T12:20:10+07:00</lastmod>
+  </url><url>
+    <loc>https://vinhlin.github.io/posts/system-devops/openmediavault/</loc>
     <lastmod>2024-11-30T09:38:44+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-11-30T09:38:44+07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/system-devops/huly/</loc>
+    <loc>https://vinhlin.github.io/posts/system-devops/huly/</loc>
     <lastmod>2024-11-17T11:45:33+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/system-devops/permission_linux/</loc>
+    <loc>https://vinhlin.github.io/posts/system-devops/permission_linux/</loc>
     <lastmod>2024-11-17T11:39:36+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/iot/hardware/kien_truc_may_tinh/</loc>
+    <loc>https://vinhlin.github.io/posts/iot/hardware/kien_truc_may_tinh/</loc>
     <lastmod>2024-11-17T10:11:44+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/iot/hardware/obd2_pids/</loc>
+    <loc>https://vinhlin.github.io/posts/iot/hardware/obd2_pids/</loc>
     <lastmod>2024-10-11T17:23:55+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/iot/hardware/can_obdii/</loc>
+    <loc>https://vinhlin.github.io/posts/iot/hardware/can_obdii/</loc>
     <lastmod>2024-10-11T15:56:03+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/iot/hardware/dma/</loc>
+    <loc>https://vinhlin.github.io/posts/iot/hardware/dma/</loc>
     <lastmod>2024-10-11T14:21:00+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/iot/software/rust_for_arm/</loc>
+    <loc>https://vinhlin.github.io/posts/iot/software/rust_for_arm/</loc>
     <lastmod>2024-10-10T17:30:29+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/iot/hardware/android_automotive/</loc>
+    <loc>https://vinhlin.github.io/posts/iot/hardware/android_automotive/</loc>
     <lastmod>2024-10-07T11:06:24+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/cybersecurity/technical/fault_injection/</loc>
+    <loc>https://vinhlin.github.io/posts/cybersecurity/technical/fault_injection/</loc>
     <lastmod>2024-10-05T20:13:46+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/iot/hardware/car_hacking/</loc>
+    <loc>https://vinhlin.github.io/posts/iot/hardware/car_hacking/</loc>
     <lastmod>2024-10-05T13:55:01+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/iot/software/rust-lang/</loc>
+    <loc>https://vinhlin.github.io/posts/iot/software/rust-lang/</loc>
     <lastmod>2024-09-13T15:14:13+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/others/hoi_thao_2024/</loc>
+    <loc>https://vinhlin.github.io/posts/others/hoi_thao_2024/</loc>
     <lastmod>2024-09-02T16:29:20+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/iot/hardware/box_rfid/</loc>
+    <loc>https://vinhlin.github.io/posts/iot/hardware/box_rfid/</loc>
     <lastmod>2024-08-29T18:38:50+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/cybersecurity/technical/nfc_pwa/</loc>
+    <loc>https://vinhlin.github.io/posts/cybersecurity/technical/nfc_pwa/</loc>
     <lastmod>2024-08-27T14:47:38+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/iot/hardware/radxa_x4/</loc>
+    <loc>https://vinhlin.github.io/posts/iot/hardware/radxa_x4/</loc>
     <lastmod>2024-08-27T13:39:47+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/cybersecurity/news/</loc>
+    <loc>https://vinhlin.github.io/posts/cybersecurity/news/</loc>
     <lastmod>2024-08-26T19:27:53+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/changelog/</loc>
+    <loc>https://vinhlin.github.io/changelog/</loc>
     <lastmod>2024-08-26T15:21:41+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pages/</loc>
+    <loc>https://vinhlin.github.io/pages/</loc>
     <lastmod>2024-08-26T15:21:41+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/cybersecurity/technical/protect_camera/</loc>
+    <loc>https://vinhlin.github.io/posts/cybersecurity/technical/protect_camera/</loc>
     <lastmod>2024-08-18T11:07:18+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/cybersecurity/technical/re_tool_binaryninjafree/</loc>
+    <loc>https://vinhlin.github.io/posts/cybersecurity/technical/re_tool_binaryninjafree/</loc>
     <lastmod>2024-08-16T14:07:42+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/iot/software/read_write_uart_stm32fx/</loc>
+    <loc>https://vinhlin.github.io/posts/iot/software/read_write_uart_stm32fx/</loc>
     <lastmod>2024-08-14T19:17:29+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/iot/hardware/dump_firmware_nor_flash/</loc>
+    <loc>https://vinhlin.github.io/posts/iot/hardware/dump_firmware_nor_flash/</loc>
     <lastmod>2024-08-12T16:44:23+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/iot/software/shared_access_embassy/</loc>
+    <loc>https://vinhlin.github.io/posts/iot/software/shared_access_embassy/</loc>
     <lastmod>2024-08-10T11:18:41+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/iot/software/lifetime_embassy/</loc>
+    <loc>https://vinhlin.github.io/posts/iot/software/lifetime_embassy/</loc>
     <lastmod>2024-08-09T18:08:32+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/iot/software/rust-lang/results_rust/</loc>
+    <loc>https://vinhlin.github.io/posts/iot/software/rust-lang/results_rust/</loc>
     <lastmod>2024-08-08T18:07:12+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/iot/software/uart_embassy/</loc>
+    <loc>https://vinhlin.github.io/posts/iot/software/uart_embassy/</loc>
     <lastmod>2024-08-07T13:23:30+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/others/iot_security_jd/</loc>
+    <loc>https://vinhlin.github.io/posts/others/iot_security_jd/</loc>
     <lastmod>2024-08-04T11:04:52+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/iot/software/docklight/</loc>
+    <loc>https://vinhlin.github.io/posts/iot/software/docklight/</loc>
     <lastmod>2024-08-03T13:24:20+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/cybersecurity/technical/paramspider/</loc>
+    <loc>https://vinhlin.github.io/posts/cybersecurity/technical/paramspider/</loc>
     <lastmod>2024-08-03T12:24:25+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/iot/hardware/research_cr95/</loc>
+    <loc>https://vinhlin.github.io/posts/iot/hardware/research_cr95/</loc>
     <lastmod>2024-07-28T13:12:25+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/cybersecurity/technical/tails_os/</loc>
+    <loc>https://vinhlin.github.io/posts/cybersecurity/technical/tails_os/</loc>
     <lastmod>2024-07-21T17:34:15+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://vinhlin.github.io/about/</loc>
     <lastmod>2024-07-12T15:21:41+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/others/suy_nghi_ve_hardware_hacking/</loc>
+    <loc>https://vinhlin.github.io/posts/others/suy_nghi_ve_hardware_hacking/</loc>
     <lastmod>2024-07-10T20:34:27+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/others/goc_nhin_ve_ngoai_ngu/</loc>
+    <loc>https://vinhlin.github.io/posts/others/goc_nhin_ve_ngoai_ngu/</loc>
     <lastmod>2024-07-07T15:03:26+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/cybersecurity/tools/</loc>
+    <loc>https://vinhlin.github.io/posts/cybersecurity/tools/</loc>
     <lastmod>2024-07-06T15:36:05+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://vinhlin.github.io/</loc>
     <lastmod>2024-07-06T15:21:33+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/cybersecurity/redteam/</loc>
+    <loc>https://vinhlin.github.io/posts/cybersecurity/redteam/</loc>
     <lastmod>2024-06-15T11:05:38+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/cybersecurity/technical/thehive/</loc>
+    <loc>https://vinhlin.github.io/posts/cybersecurity/technical/thehive/</loc>
     <lastmod>2024-06-15T11:04:17+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/cybersecurity/technical/osint/</loc>
+    <loc>https://vinhlin.github.io/posts/cybersecurity/technical/osint/</loc>
     <lastmod>2024-06-15T11:02:08+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/iot/hardware/esd/</loc>
+    <loc>https://vinhlin.github.io/posts/iot/hardware/esd/</loc>
     <lastmod>2024-05-25T15:59:27+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/cybersecurity/technical/dflab_vncert/</loc>
+    <loc>https://vinhlin.github.io/posts/cybersecurity/technical/dflab_vncert/</loc>
     <lastmod>2024-05-25T15:56:30+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/cybersecurity/technical/firewall_checklist/</loc>
+    <loc>https://vinhlin.github.io/posts/cybersecurity/technical/firewall_checklist/</loc>
     <lastmod>2024-05-25T15:48:35+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/cybersecurity/technical/nis2/</loc>
+    <loc>https://vinhlin.github.io/posts/cybersecurity/technical/nis2/</loc>
     <lastmod>2024-05-25T15:43:13+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/iot/software/raspberry-openauto/</loc>
+    <loc>https://vinhlin.github.io/posts/iot/software/raspberry-openauto/</loc>
     <lastmod>2024-04-01T17:57:07+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/iot/software/pi400-keyboard/</loc>
+    <loc>https://vinhlin.github.io/posts/iot/software/pi400-keyboard/</loc>
     <lastmod>2024-04-01T17:53:24+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/iot/software/pikvm/</loc>
+    <loc>https://vinhlin.github.io/posts/iot/software/pikvm/</loc>
     <lastmod>2024-04-01T17:49:12+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/iot/hardware/unihiker/</loc>
+    <loc>https://vinhlin.github.io/posts/iot/hardware/unihiker/</loc>
     <lastmod>2024-04-01T17:34:03+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://vinhlin.github.io/tags/</loc>
   </url>
 </urlset>
