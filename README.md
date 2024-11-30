@@ -111,4 +111,5 @@ hugo new posts/CyberSecurity/Technical/Fault_Injection.md
 ```
 hugo new posts/System-DevOps/Permission_Linux.md
 hugo new posts/System-DevOps/Huly.md
+hugo new posts/System-DevOps/OpenMediaVault.md
 ```

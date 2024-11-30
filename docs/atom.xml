@@ -14,6 +14,46 @@
     
     
     <item>
+      <title>OpenMediaVault</title>
+      <link>http://localhost:1313/posts/system-devops/openmediavault/</link>
+      <description>&lt;h2 id=&#34;openmediavault-omvhttpswwwopenmediavaultorg&#34;&gt;&lt;a href=&#34;https://www.openmediavault.org/&#34;&gt;OpenMediaVault (OMV)&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Là một hệ điều hành mã nguồn mở được thiết kế đặc biệt để triển khai hệ thống lưu trữ mạng (Network Attached Storage - NAS).&lt;/li&gt;
+&lt;li&gt;Dựa trên hệ điều hành &lt;strong&gt;Debian Linux&lt;/strong&gt;, OMV cung cấp một giao diện web thân thiện để quản lý, cấu hình và vận hành các dịch vụ lưu trữ dữ liệu.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Lưu ý là hiện tại &lt;strong&gt;OMV&lt;/strong&gt; không hỗ trợ trên Ubuntu được. &lt;/br&gt;
+Ngoài ra mình cũng có thể cài OMV trên &lt;strong&gt;Raspberry&lt;/strong&gt;. &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;download-file-isohttpswwwopenmediavaultorgdownloadhtml&#34;&gt;&lt;a href=&#34;https://www.openmediavault.org/download.html&#34;&gt;Download file ISO&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;documents&#34;&gt;Documents:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://computingforgeeks.com/install-and-configure-openmediavault-nas-storage-server/#google_vignette&#34;&gt;https://computingforgeeks.com/install-and-configure-openmediavault-nas-storage-server/#google_vignette&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pakstech.com/blog/openmediavault-proxmox/&#34;&gt;https://pakstech.com/blog/openmediavault-proxmox/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Bce7VT3kJ4g&#34;&gt;https://www.youtube.com/watch?v=Bce7VT3kJ4g&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://longervision.github.io/2024/08/08/OperatingSystems/RaspberryPi/openmediavault-nas/&#34;&gt;https://longervision.github.io/2024/08/08/OperatingSystems/RaspberryPi/openmediavault-nas/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/openmediavault/openmediavault&#34;&gt;https://github.com/openmediavault/openmediavault&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.openmediavault.org/&#34;&gt;https://www.openmediavault.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://linuxconfig.org/how-to-install-openmediavault-on-raspberry-pi&#34;&gt;https://linuxconfig.org/how-to-install-openmediavault-on-raspberry-pi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.the-diy-life.com/i-built-a-4-bay-raspberry-pi-5-based-nas/&#34;&gt;https://www.the-diy-life.com/i-built-a-4-bay-raspberry-pi-5-based-nas/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;My Dashboard OMV&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;http://localhost:1313/image/System-DevOps/Dashboard_OMV.png&#34;
+  alt=&#34;OMV&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>http://localhost:1313/posts/system-devops/openmediavault/</guid>
+      <pubDate>Sat, 30 Nov 2024 09:38:44 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Huly</title>
       <link>http://localhost:1313/posts/system-devops/huly/</link>
       <description>&lt;p&gt;Một platform open-source quản lý dự án.&lt;/p&gt;

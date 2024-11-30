@@ -33,10 +33,6 @@ Ngoài việc ghi chú lại kiến thức thì blog này cũng sẽ là nơi đ
 - Core thì vẫn là **IoT/Điện tử**, nhưng mình vẫn phát triển những kỹ năng **vệ tinh** như Security và DevOps.
 - Mục tiêu là trở thành **Chuyên gia theo chiều ngang**.
 
-**My Dashboard HOMELAB Server**
-
-![Dashboard_HL](/image/Dashboard_HOMELAB.png)
-
 ## 👨‍💻 <mark>Rust Embedded Projects</mark>
 - Do yêu cầu công việc, nên hiện mình đang tìm hiểu và học [ngôn ngữ lập trình Rust](https://blog.vinhld-homelab.io.vn/posts/iot/software/rust-lang/)
 - Bản thân đang làm trong lĩnh vực **nhúng (Embedded)** (cụ thể là về *thiết bị Giám sát hành trình*), cộng thêm việc mình cũng có tìm hiểu về **Security**.
@@ -51,19 +47,13 @@ Ngoài việc ghi chú lại kiến thức thì blog này cũng sẽ là nơi đ
 - Sản phẩm hiện tại đã hoàn thiện cả về phần cứng và firmware, đây là dự án nho nhỏ để bắt đầu dần làm quen với rust.
 - Thông tin tham khảo [tại đây](https://blog.vinhld-homelab.io.vn/posts/iot/hardware/box_rfid/).
 
-### Project: CAN_OBDII
-- Đây là dự án tiếp theo sau khi đã hoàn thành dự án *Rust-RFID*. Mục tiêu vẫn là sử dụng Rust để code firmware.
-- Hiện tại chỉ mới khởi động, và tìm hiểu về CAN với OBDII.
-
 ## 🔭 TODO List:
 - Tìm hiểu sâu hơn về **Wazuh (SIEM)**: FIM, SCA, MISP,... 
 - Build và làm lại các bài lab về Web-Pentest bên CyberJutsu.
 - Backup data và VMWare Image cho hệ thống.
-- Build một **NAS-Server** dựa trên **Raspberry CM4**.
 - Xây dựng quy trình **pipline CI/CD** cho trang Blog này *(dựng ở local)*.
 - Dựng và xây dựng pipline cho một **FTP Server**. Mục tiêu là để **OTA** cho thiết bị Tracking.
 - Tìm hiểu thêm về **IoT Firmware Reverse**.
-- Build **Honeypot (T-pot)** cho Raspberry Pi400.
 - Raspberry CM4 + module AI, có thể dùng:
 > [Coral USB Accelerator](https://pivietnam.com.vn/coral-usb-accelerator-pivietnam-com-vn.html) </br>
 > [Raspberry Pi AI Kit](https://pivietnam.com.vn/raspberry-pi-ai-kit-pivietnam-com-vn.html) </br>
@@ -73,6 +63,8 @@ Ngoài việc ghi chú lại kiến thức thì blog này cũng sẽ là nơi đ
 - ❤️ Github: https://github.com/VinhLin
 - 📫 [Upwork Profile](https://www.upwork.com/freelancers/~017704277080c06f28?mp_source=share)
 
-![IoT](https://media.springernature.com/lw685/springer-static/image/chp%3A10.1007%2F978-981-15-6353-9_46/MediaObjects/488228_1_En_46_Fig1_HTML.png)
+**My Dashboard HOMELAB Server**
+
+![Dashboard_HL](/image/Dashboard_HOMELAB.png)
 
 
