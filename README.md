@@ -91,6 +91,7 @@ hugo new posts/IoT/Software/Permission_Linux.md
 hugo new posts/CyberSecurity/News.md
 hugo new posts/CyberSecurity/Tools.md
 hugo new posts/CyberSecurity/RedTeam.md
+hugo new posts/CyberSecurity/CyberSecurity_Small_Businesses.md
 ```
 - Technical
 ```
@@ -113,4 +114,6 @@ hugo new posts/System-DevOps/Permission_Linux.md
 hugo new posts/System-DevOps/Huly.md
 hugo new posts/System-DevOps/OpenMediaVault.md
 hugo new posts/System-DevOps/ClamAV.md
+hugo new posts/System-DevOps/Tailscale.md
+hugo new posts/System-DevOps/n8n.md
 ```

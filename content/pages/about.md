@@ -16,13 +16,13 @@ Học chuyên nghành **Vật lý điện tử** tại trường ĐH Khoa Học 
 
 Cùng với sự yêu thích về Công nghệ, và nhu cầu của thời đại, mình dần dần tham gia và trau dồi bản thân về lĩnh vực **Cyber-Security**.
 
-Cyber-Security là một lĩnh vực rất rộng, do đó với góc nhìn của mình, nếu không làm trong lĩnh vực Ngân hàng - Tài chính (hoặc liên quan đến Chính phủ) thì khó mà tập trung chỉ làm về **An ninh mạng**.
+Cyber-Security là một lĩnh vực rất rộng, do đó với góc nhìn của mình, nếu không làm trong lĩnh vực *Ngân hàng - Tài chính* (hoặc liên quan đến *Chính phủ*) thì khó mà tập trung chỉ làm về **An ninh mạng**.
 
 Security như một yếu tố cộng thêm (nhưng **cấp bách**) để bổ trợ cho vai trò chính nào đó, ví dụ như: Network Security, System Security, DevSecOps,...
 
 Do đó với *năng lực cốt lỗi* về ***Điện tử/IoT***, mình định hình bản thân phát triển trở thành một <mark>chuyên gia theo chiều ngang</mark>. Dựa vào kiến thức của bản thân, mình đã xây dựng cho bản thân roadmap `Embedded System Security`
 
-Cùng với các kỹ năng vệ tinh khác như: System, Security, Network, DevOps. Mình vẫn sẽ tiếp tục củng cố, trau dồi để **làm đầy** roadmap này.
+Cùng với các kỹ năng vệ tinh khác như: System, Security, Network, DevOps. Mình vẫn sẽ tiếp tục củng cố, trau dồi để *làm đầy roadmap này của bản thân*.
 
 > Hello,
 >
@@ -47,7 +47,7 @@ Cùng với các kỹ năng vệ tinh khác như: System, Security, Network, Dev
 
 ![Mindmap](/image/Mindmap.png)
 
-### Roadmap: EMBEDDED SYSTEM SECURITY
+### Tham khảo [Embedded-Engineering-Roadmap](https://github.com/m3y54m/Embedded-Engineering-Roadmap)
 
-![Roadmap](/image/EMBEDDED_SYSTEM_SECURITY.png)
+![Roadmap](https://github.com/m3y54m/Embedded-Engineering-Roadmap/releases/latest/download/Embedded-Engineering-Roadmap.png)
 

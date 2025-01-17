@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Liste - https://vinhlin.github.io/">
+    <title>N8n | VinhLin</title>
+    <meta name="description" content="Technology Blog">
+    <meta property="og:title" content="N8n" />
+<meta property="og:description" content="Giới thiệu n8n n8n là một công cụ tự động hóa luồng công việc (workflow automation) mã nguồn mở. Nó cho phép người dùng tạo ra các luồng công việc tự động bằng cách kết nối các ứng dụng, dịch vụ và API khác nhau mà không cần viết code. n8n phù hợp để tự động hóa các quy trình kinh doanh, quản lý dữ liệu và tích hợp ứng dụng." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://vinhlin.github.io/posts/system-devops/n8n/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2025-01-17T14:59:59+07:00" />
+<meta property="article:modified_time" content="2025-01-17T14:59:59+07:00" />
+
+    <meta itemprop="name" content="N8n">
+<meta itemprop="description" content="Giới thiệu n8n n8n là một công cụ tự động hóa luồng công việc (workflow automation) mã nguồn mở. Nó cho phép người dùng tạo ra các luồng công việc tự động bằng cách kết nối các ứng dụng, dịch vụ và API khác nhau mà không cần viết code. n8n phù hợp để tự động hóa các quy trình kinh doanh, quản lý dữ liệu và tích hợp ứng dụng."><meta itemprop="datePublished" content="2025-01-17T14:59:59+07:00" />
+<meta itemprop="dateModified" content="2025-01-17T14:59:59+07:00" />
+<meta itemprop="wordCount" content="217">
+<meta itemprop="keywords" content="" />
+    
+    <link rel="canonical" href="https://vinhlin.github.io/posts/system-devops/n8n/">
+    <link rel="icon" href="https://vinhlin.github.io//assets/favicon.ico">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
+    <link rel="alternate" type="application/atom+xml" title="VinhLin" href="https://vinhlin.github.io//atom.xml" />
+    <link rel="alternate" type="application/json" title="VinhLin" href="https://vinhlin.github.io//feed.json" />
+    <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=">
+    
+    
+    <style>*,:after,:before{box-sizing:border-box;padding:0}body{font:1rem/1.5 '-apple-system',BlinkMacSystemFont,avenir next,avenir,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding:2rem;background:#f5f5f5;color:#000}.skip-link{position:absolute;top:-40px;left:0;background:#eee;z-index:100}.skip-link:focus{top:0}h1,h2,h3,h4,h5,strong,b{font-size:inherit;font-weight:600}header{line-height:2;padding-bottom:1.5rem}.link{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-decoration:none}.time{font-variant-numeric:tabular-nums;white-space:nowrap}blockquote{border-left:5px solid #eee;padding-left:1rem;margin:0}a,a:visited{color:inherit}a:hover,a.heading-link{text-decoration:none}pre{padding:.5rem;overflow:auto;overflow-x:scroll;overflow-wrap:normal}code,pre{font-family:San Francisco Mono,Monaco,consolas,lucida console,dejavu sans mono,bitstream vera sans mono,monospace;font-size:normal;font-size:small;background:#eee}code{margin:.1rem;border:none}ul{list-style-type:square}ul,ol{padding-left:1.2rem}.list{line-height:2;list-style-type:none;padding-left:0}.list li{padding-bottom:.1rem}.meta{color:#777}.content{max-width:70ch;margin:0 auto}header{line-height:2;display:flex;justify-content:space-between;padding-bottom:1rem}header a{text-decoration:none}header ul{list-style-type:none;padding:0}header li,header a{display:inline}h2.post{padding-top:.5rem}header ul a:first-child{padding-left:1rem}.nav{height:1px;background:#000;content:'';max-width:10%}.list li{display:flex;align-items:baseline}.list li time{flex:initial}.hr-list{margin-top:0;margin-bottom:0;margin-right:.5rem;margin-left:.5rem;height:1px;border:0;border-bottom:1px dotted #ccc;flex:1 0 1rem}.m,hr{border:0;margin:3rem 0}img{max-width:100%;height:auto}.post-date{margin:5% 0}.index-date{color:#9a9a9a}.animate-blink{animation:opacity 1s infinite;opacity:1}@keyframes opacity{0%{opacity:1}50%{opacity:.5}100%{opacity:0}}.tags{display:flex;justify-content:space-between}.tags ul{padding:0;margin:0}.tags li{display:inline}.avatar{height:120px;width:120px;position:relative;margin:-10px 0 0 15px;float:right;border-radius:50%}table{width:100%;border-collapse:collapse}th,td{border:1px solid #ddd;text-align:left;padding:8px}th{background-color:#f2f2f2} </style>
+  
+    
+  
+  
+  <script type="application/ld+json">
+  {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "articleSection": "posts",
+      "name": "N8n",
+      "headline": "N8n",
+      "alternativeHeadline": "",
+      "description": "Giới thiệu n8n n8n là một công cụ tự động hóa luồng công việc (workflow automation) mã nguồn mở. Nó cho phép người dùng tạo ra các luồng công việc tự động bằng cách kết nối các ứng dụng, dịch vụ và API khác nhau mà không cần viết code. n8n phù hợp để tự động hóa các quy trình kinh doanh, quản lý dữ liệu và tích hợp ứng dụng.",
+      "inLanguage": "en-us",
+      "isFamilyFriendly": "true",
+      "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https:\/\/vinhlin.github.io\/posts\/system-devops\/n8n\/"
+      },
+      "author" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "creator" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "accountablePerson" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "copyrightHolder" : "VinhLin",
+      "copyrightYear" : "2025",
+      "dateCreated": "2025-01-17T14:59:59.00Z",
+      "datePublished": "2025-01-17T14:59:59.00Z",
+      "dateModified": "2025-01-17T14:59:59.00Z",
+      "publisher":{
+          "@type":"Organization",
+          "name": "VinhLin",
+          "url": "https://vinhlin.github.io/",
+          "logo": {
+              "@type": "ImageObject",
+              "url": "https:\/\/vinhlin.github.io\/assets\/favicon.ico",
+              "width":"32",
+              "height":"32"
+          }
+      },
+      "image": "https://vinhlin.github.io/assets/favicon.ico",
+      "url" : "https:\/\/vinhlin.github.io\/posts\/system-devops\/n8n\/",
+      "wordCount" : "217",
+      "genre" : [ ],
+      "keywords" : [ ]
+  }
+  </script>
+  
+  
+  </head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main</a>
+  <main id="main">
+  <div class="content">
+    <header>
+<p style="padding: 0;margin: 0;">
+  <a href="/">
+    <b>VinhLin</b>
+    <span class="text-stone-500 animate-blink">▮</span>
+  </a>
+</p>
+<ul style="padding: 0;margin: 0;">
+  
+  
+  <li class="">
+    <a href="/changelog/"><span>Changelog</span></a>
+    
+  <li class="">
+    <a href="/posts/"><span>Post</span></a>
+    
+  <li class="">
+    <a href="/about/"><span>About</span></a>
+    
+  </li>
+</ul>
+</header>
+<hr class="hr-list" style="padding: 0;margin: 0;">
+    <section>
+      <h2 class="post">N8n</h2>
+      <h2 id="giới-thiệu-n8n">Giới thiệu n8n</h2>
+<ul>
+<li><strong>n8n</strong> là một công cụ <strong>tự động hóa luồng công việc</strong> <em>(workflow automation)</em> mã nguồn mở.</li>
+<li>Nó cho phép người dùng tạo ra các luồng công việc tự động bằng cách kết nối các ứng dụng, dịch vụ và API khác nhau mà không cần viết code.</li>
+<li><strong>n8n</strong> phù hợp để tự động hóa các quy trình kinh doanh, quản lý dữ liệu và tích hợp ứng dụng.</li>
+<li>Ví dụ về <strong>Tự động hóa phát triển phần mềm</strong>:
+<ul>
+<li><strong>Tích hợp CI/CD</strong>: Khi có commit mới trên GitHub, n8n có thể kích hoạt một quy trình CI/CD trên Jenkins hoặc GitLab.</li>
+<li><strong>Thông báo lỗi</strong>: Khi có lỗi xảy ra trong ứng dụng (được ghi nhận qua Sentry), n8n có thể gửi thông báo tới đội phát triển qua Slack.</li>
+</ul>
+</li>
+<li>Một số bài viết về <strong>n8n</strong>:</li>
+</ul>
+<pre tabindex="0"><code>https://wiki.matbao.net/top-3-cong-nghe-ai-giup-tu-dong-hoa-quy-trinh-lam-viec-hieu-qua/
+https://viblo.asia/p/gioi-thieu-n8n-nodes-chatwork-L4x5x3JblBM
+https://www.youtube.com/watch?v=oqNWwiFKAj0
+</code></pre><h3 id="tham-khảo-tài-liệu">Tham khảo tài liệu:</h3>
+<ul>
+<li><a href="https://docs.n8n.io/choose-n8n/#licenses">Free versions</a>: A free self-hosted community edition for self-hosted users</li>
+<li>Docker Installation: <a href="https://docs.n8n.io/hosting/installation/docker/">https://docs.n8n.io/hosting/installation/docker/</a></li>
+<li>Build AI functionality using n8n:</li>
+</ul>
+<pre tabindex="0"><code>https://docs.n8n.io/advanced-ai/#related-resources
+https://docs.n8n.io/hosting/starter-kits/ai-starter-kit/
+</code></pre><h3 id="install-n8n-on-server-super-fast-with-only-1-command---ai-noodleshttpswwwyoutubecomwatchvoflygnmskoq"><a href="https://www.youtube.com/watch?v=OfLYgNmsKoQ">Install n8n on server super fast with only 1 command - AI Noodles</a></h3>
+<ul>
+<li>Dựa theo video và tài liệu về n8n, thì có thể dùng <strong>n8n + AI</strong> để thực hiện các tác vụ nâng cao về automation.</li>
+<li>và trong video thì sử dụng <a href="https://localai.io/">LocalAI</a></li>
+<li>Install LocalAI:</li>
+</ul>
+<pre tabindex="0"><code>https://localai.io/basics/container/
+https://localai.io/basics/build/
+</code></pre><p>Enrich security incident tickets</p>
+<p><img
+  src="https://n8niostorageaccount.blob.core.windows.net/n8nio-strapi-blobs-prod/assets/secops_usecase_4c6aaad973.png"
+  alt="n8n - SecOps"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+
+      
+      <div class="post-date">
+        <span class="g time">January 17, 2025 </span> &#8729;
+         
+      </div>
+      
+    </section>
+    
+    
+    
+  </div>
+</main>
+</body>
+</html>

@@ -86,10 +86,12 @@ STT |		Tiêu đề			|		Mô tả				|
 1   | [News][News]			| Tổng hợp các trang blog, youtube channel về chủ đề Cyber-Security |
 2   | [Tools][Tools]			| Tổng hợp các công cụ khác về Hacking		|
 3   | [RedTeam][RedTeam]		| Ghi chú về tài liệu cho Red-Team		|
+4   | [CyberSecurity_Small_Businesses][CyberSecurity_Small_Businesses] | Tổng hợp tài liệu về An toàn thông tin cho Doanh nghiệp nhỏ |
 
 [News]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/news/
 [Tools]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/tools/
 [RedTeam]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/readteam/
+[CyberSecurity_Small_Businesses]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/cyberSecurity_small_businesses/
 
 ## ***Technical***
 > Tổng hợp các ghi chú về **Công cụ**, **Kỹ thuật** cũng như **Tư duy** về cả Blue-Team và Red-Team <br>
@@ -130,11 +132,15 @@ STT |		Tiêu đề			|		Mô tả				|
 2   | [Huly][Huly]			| Một **platform open-source** quản lý dự án	|
 3   | [OpenMediaVault][OpenMediaVault]	| Open-source for NAS Server - OpenMediaVault (OMV) |
 4   | [ClamAV][ClamAV]			| Antivirus open-source tool.			|
+5   | [Tailscale][Tailscale]		| Giới thiệu **Tailscale**, một giải pháp thay thế VPN truyền thống |
+6   | [n8n][n8n]			| Giới thiệu công cụ n8n, một công cụ **Workflow Automation** |
 
 [Permission_Linux]: https://blog.vinhld-homelab.io.vn/posts/system-devops/permission_linux/
 [Huly]: https://blog.vinhld-homelab.io.vn/posts/system-devops/huly/
 [OpenMediaVault]: https://blog.vinhld-homelab.io.vn/posts/system-devops/openmediavault/
 [ClamAV]: https://blog.vinhld-homelab.io.vn/posts/system-devops/clamav/
+[Tailscale]: https://blog.vinhld-homelab.io.vn/posts/system-devops/tailscale/
+[n8n]: https://blog.vinhld-homelab.io.vn/posts/system-devops/n8n/
 
 -----------------------------------------------------------------------------------------
 # <mark>Others</mark>
