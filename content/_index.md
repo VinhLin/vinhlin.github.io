@@ -20,7 +20,7 @@ Ngoài việc ghi chú lại kiến thức thì blog này cũng sẽ là nơi đ
 > 1. Áp dụng Server này cho nhà của mình: **Mesh WiFi**, **CCTV**, **DNS local**. </br>
 > 2. Nơi mình sẽ áp dụng những kiến thức đã học và những kiến thức mới: Từ **VPN**, **SIEM**, **Jump-Server**, **Honeypot** cho đến **Gitlab CI/CD**,... </br>
 
-## 🔭 Learning:
+## 🔭 Study/Learning:
 - Tìm hiểu sâu hơn về **Wazuh (SIEM)**: FIM, SCA, MISP,... 
 - Build và làm lại các bài lab về Web-Pentest bên CyberJutsu.
 - Backup data và VMWare Image cho hệ thống.
