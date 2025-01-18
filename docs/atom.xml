@@ -14,6 +14,53 @@
     
     
     <item>
+      <title>Desktop_App</title>
+      <link>https://vinhlin.github.io/posts/iot/software/desktop_app/</link>
+      <description>&lt;p&gt;Trong việc viết một desktop app thì có rất nhiều xu hướng, có thể dùng C#, C++ hoặc Rust.&lt;/p&gt;
+&lt;p&gt;Mình có tham khảo về việc dùng Rust để viết Desktop App. &lt;a href=&#34;https://blog.logrocket.com/build-desktop-app-qt-rust/&#34;&gt;Rust Desktop app docs&lt;/a&gt;
+Framework mình tham khảo là &lt;strong&gt;Tauri&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://tauri.app/
+https://www.twilio.com/en-us/blog/build-a-cross-platform-desktop-application-with-rust-using-tauri
+https://v1.tauri.app/v1/guides/getting-started/setup/
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Tuy nhiên có thể mình sẽ chọn C++ để viết app. Lý do:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Thứ 1: Mình không muốn quên đi cách dùng ngôn ngữ C++ &lt;em&gt;(nếu lâu quá không dùng thì sẽ dẫn đến quên)&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Thứ 2: Mình đã có khoảng thời gian gần 1 tháng tìm hiểu về một công cụ tên là &lt;strong&gt;C++ Builder&lt;/strong&gt;, mình thấy công cụ này khá hay, và đáp ứng đc lý do thứ 1. &lt;em&gt;(Ngoài ra mình cũng không muốn lãng phí 1 tháng đó. =]])&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;c-builder&#34;&gt;C++ Builder:&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://blogs.embarcadero.com/everything-you-need-to-create-windows-apps-with-c/
+https://devblogs.microsoft.com/cppblog/windows-desktop-development-with-c-in-visual-studio/
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Theo mình tìm hiểu thì công cụ &lt;strong&gt;C++ Builder&lt;/strong&gt; giúp mình có thể phát triển &lt;strong&gt;nhanh&lt;/strong&gt; một app dành cho Windows. Công cụ này hỗ trợ gần như &lt;strong&gt;tận răng&lt;/strong&gt; cho developer.&lt;/li&gt;
+&lt;li&gt;C++ Builder đại đa số các extension của nó đều &lt;strong&gt;trả phí&lt;/strong&gt;, tất nhiên vẫn có &lt;strong&gt;free&lt;/strong&gt;, tuy nhiên việc code sẽ khó khăn hơn.&lt;/li&gt;
+&lt;li&gt;Mình thấy các app dành cho Windows sẽ vẫn có một vị trí nhất định, và mình đã thấy các ứng dụng IoT cho desktop app được ứng dụng trong đời sống.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ứng-dụng-giữ-xe-thông-minh&#34;&gt;Ứng dụng giữ xe thông minh.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Một app chạy trên Windows, kết nối với thiết bị đọc RFID, Camera,&amp;hellip;&lt;/li&gt;
+&lt;li&gt;Tag thẻ để nhận diện, camera chụp ảnh,&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ứng-dụng-quản-lý-hàng-hóa&#34;&gt;Ứng dụng quản lý hàng hóa&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Thiết bị quét mã vạch kết nối với PC, khi quét app sẽ kiểm tra trong database và gửi ra thông tin.&lt;/li&gt;
+&lt;li&gt;Có thể kết hợp với loa thông báo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://i0.wp.com/blogs.embarcadero.com/wp-content/uploads/2020/08/jljleH.jpg?resize=512%2C256&amp;amp;ssl=1&#34;
+  alt=&#34;C&amp;#43;&amp;#43; Builder&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/iot/software/desktop_app/</guid>
+      <pubDate>Sat, 18 Jan 2025 12:22:45 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>CyberSecurity_Small_Businesses</title>
       <link>https://vinhlin.github.io/posts/cybersecurity/cybersecurity_small_businesses/</link>
       <description>&lt;h3 id=&#34;tổng-hợp-tài-liệu-về-an-toàn-thông-tin-cho-doanh-nghiệp-nhỏ&#34;&gt;Tổng hợp tài liệu về An toàn thông tin cho doanh nghiệp nhỏ:&lt;/h3&gt;
@@ -320,8 +367,9 @@ https://tailscale.com/use-cases/homelab
 &lt;li&gt;Hiện tại thì mình đang dùng giải pháp VPN truyền thống &lt;em&gt;(Fortigate VPN)&lt;/em&gt; và Jump-Server &lt;em&gt;(Teleport)&lt;/em&gt;.&lt;/li&gt;
 &lt;li&gt;Nên giải pháp &lt;strong&gt;Tailscale&lt;/strong&gt; mang tính chất tham khảo, cái này mình thấy cũng khá hay, biết đâu sau này lại có thể áp dụng vào đâu đó.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3 id=&#34;how-tailscale-works&#34;&gt;How Tailscale works&lt;/h3&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://www.google.com/url?sa=i&amp;amp;url=https%3A%2F%2Ftailscale.com%2Fblog%2Fhow-tailscale-works&amp;amp;psig=AOvVaw0XQcWFBuV7X7WNWiUjWycK&amp;amp;ust=1737186289394000&amp;amp;source=images&amp;amp;cd=vfe&amp;amp;opi=89978449&amp;amp;ved=2ahUKEwj8hOOuofyKAxV5S2wGHZppBDsQjRx6BAgAEBk&#34;
+  src=&#34;https://cdn.sanity.io/images/w77i7m8x/production/dbba97845c1ad1955669cc6a84c94f9d5fb78ade-1600x1080.svg?w=1920&amp;amp;q=75&amp;amp;fit=clip&amp;amp;auto=format&#34;
   alt=&#34;Tailscale&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;

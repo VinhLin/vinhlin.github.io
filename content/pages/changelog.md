@@ -44,11 +44,13 @@ STT |		Tiêu đề			|		Mô tả				|
 2   | [Pi400-Keyboard][Pi400-Keyboard]	| Một phần mềm giúp biến **Pi400** thành bàn phím |
 3   | [Raspberry-OpenAuto][OpenAuto]	| Ghi chú về phần mềm **OpenAuto**		|
 4   | [Docklight][Docklight]		| Một phần mềm giả lập Serial - RS232		|
+5   | [Desktop_App][Desktop_App]	| Giới thiệu **C++ Builder**, công cụ build ứng dụng desktop trên Windows |
 
 [PiKVM]: https://blog.vinhld-homelab.io.vn/posts/iot/software/pikvm/
 [Pi400-Keyboard]: https://blog.vinhld-homelab.io.vn/posts/iot/software/pi400-keyboard/
 [OpenAuto]: https://blog.vinhld-homelab.io.vn/posts/iot/software/raspberry-openauto/
 [Docklight]: https://blog.vinhld-homelab.io.vn/posts/iot/software/docklight/
+[Desktop_App]: https://blog.vinhld-homelab.io.vn/posts/iot/software/desktop_app/
 
 ### Rust-lang
 > Tổng hợp ghi chú về ngôn ngữ lập trình **Rust** <br>
@@ -91,7 +93,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [News]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/news/
 [Tools]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/tools/
 [RedTeam]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/readteam/
-[CyberSecurity_Small_Businesses]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/cyberSecurity_small_businesses/
+[CyberSecurity_Small_Businesses]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/cybersecurity_small_businesses/
 
 ## ***Technical***
 > Tổng hợp các ghi chú về **Công cụ**, **Kỹ thuật** cũng như **Tư duy** về cả Blue-Team và Red-Team <br>

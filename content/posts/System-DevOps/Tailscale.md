@@ -24,6 +24,7 @@ https://tailscale.com/use-cases/homelab
 - Hiện tại thì mình đang dùng giải pháp VPN truyền thống *(Fortigate VPN)* và Jump-Server *(Teleport)*.
 - Nên giải pháp **Tailscale** mang tính chất tham khảo, cái này mình thấy cũng khá hay, biết đâu sau này lại có thể áp dụng vào đâu đó.
 
-![Tailscale](https://www.google.com/url?sa=i&url=https%3A%2F%2Ftailscale.com%2Fblog%2Fhow-tailscale-works&psig=AOvVaw0XQcWFBuV7X7WNWiUjWycK&ust=1737186289394000&source=images&cd=vfe&opi=89978449&ved=2ahUKEwj8hOOuofyKAxV5S2wGHZppBDsQjRx6BAgAEBk)
+### How Tailscale works
 
+![Tailscale](https://cdn.sanity.io/images/w77i7m8x/production/dbba97845c1ad1955669cc6a84c94f9d5fb78ade-1600x1080.svg?w=1920&q=75&fit=clip&auto=format)
 

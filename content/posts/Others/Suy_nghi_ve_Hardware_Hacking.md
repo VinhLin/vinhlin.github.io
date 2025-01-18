@@ -38,22 +38,23 @@ IoT Hacking hay Hardware Hacking có vẻ chính là con đường giao thoa, th
 
 Có lẻ vậy.
 
-![Hardware Hacking Tools](/image/IoT/Hardware_Hacking.jpg)
-
----------------------------------------------------------------------
 ### Tổng hợp các ý hay trong cuốn **Vùng tối**
 
 **Nền tảng của Tác chiến Thông tin:** Bất kỳ hành động nào để làm nghẽn, khai thác, thao túng, hoặc phá hủy thông tin của kẻ thù và hoạt động của nó. Với mục tiêu cuối cùng là làm suy giảm ý chí hoặc khả năng chiến đấu của quân địch.
 
 **CNE (Computer Network Exploitation) - Khai thác Mạng máy tính:** Sử dụng máy tính để khai thác lỗ hổng trong các hệ thống mạng của kẻ thù - xâm nhập vào các mạng đó, nhằm thu thập thêm thông tin tình báo.
 
+---------------------------------------------------------------------
 
+![Hình 0](/image/CyberSecurity/Hardware_Hacking/Hinh_0.jpg)
 
+![Hình 1](/image/CyberSecurity/Hardware_Hacking/Hinh_1.jpg)
 
+![Hình 2](/image/CyberSecurity/Hardware_Hacking/Hinh_2.jpg)
 
+![Hình 3](/image/CyberSecurity/Hardware_Hacking/Hinh_3.jpg)
 
+![Hình 4](/image/CyberSecurity/Hardware_Hacking/Hinh_4.jpg)
 
-
-
-
+![Hình 5](/image/CyberSecurity/Hardware_Hacking/Hinh_5.jpg)
 

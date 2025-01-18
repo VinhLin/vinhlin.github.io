@@ -59,9 +59,9 @@ https://cuckoosandbox.org/blog/207-interim-release
 - Video giới thiệu về công cụ này: [AESCrypt - Mã hoá file](https://www.youtube.com/watch?v=zA4dDlslDXo)
 - [Một bài viết khác](https://services.udel.edu/TDClient/32/Portal/KB/ArticleDet?ID=366)
 
+### Hardware hacking tools
 
-
-
+![Hardware Hacking Tools](/image/IoT/Hardware_Hacking.jpg)
 
 
 
