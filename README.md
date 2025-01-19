@@ -116,4 +116,5 @@ hugo new posts/System-DevOps/OpenMediaVault.md
 hugo new posts/System-DevOps/ClamAV.md
 hugo new posts/System-DevOps/Tailscale.md
 hugo new posts/System-DevOps/n8n.md
+hugo new posts/System-DevOps/RAID.md
 ```

@@ -136,6 +136,7 @@ STT |		Tiêu đề			|		Mô tả				|
 4   | [ClamAV][ClamAV]			| Antivirus open-source tool.			|
 5   | [Tailscale][Tailscale]		| Giới thiệu **Tailscale**, một giải pháp thay thế VPN truyền thống |
 6   | [n8n][n8n]			| Giới thiệu công cụ n8n, một công cụ **Workflow Automation** |
+7   | [RAID][RAID]			| Giới thiệu các loại RAID phổ biến		|
 
 [Permission_Linux]: https://blog.vinhld-homelab.io.vn/posts/system-devops/permission_linux/
 [Huly]: https://blog.vinhld-homelab.io.vn/posts/system-devops/huly/
@@ -143,6 +144,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [ClamAV]: https://blog.vinhld-homelab.io.vn/posts/system-devops/clamav/
 [Tailscale]: https://blog.vinhld-homelab.io.vn/posts/system-devops/tailscale/
 [n8n]: https://blog.vinhld-homelab.io.vn/posts/system-devops/n8n/
+[RAID]: https://blog.vinhld-homelab.io.vn/posts/system-devops/raid/
 
 -----------------------------------------------------------------------------------------
 # <mark>Others</mark>
