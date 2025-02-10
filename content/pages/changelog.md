@@ -137,6 +137,7 @@ STT |		Tiêu đề			|		Mô tả				|
 5   | [Tailscale][Tailscale]		| Giới thiệu **Tailscale**, một giải pháp thay thế VPN truyền thống |
 6   | [n8n][n8n]			| Giới thiệu công cụ n8n, một công cụ **Workflow Automation** |
 7   | [RAID][RAID]			| Giới thiệu các loại RAID phổ biến		|
+8   | [Virtual_System][Virtual_System]	| Giới thiệu về 10 hệ thống ảo hóa phổ biến	|
 
 [Permission_Linux]: https://blog.vinhld-homelab.io.vn/posts/system-devops/permission_linux/
 [Huly]: https://blog.vinhld-homelab.io.vn/posts/system-devops/huly/
@@ -145,6 +146,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [Tailscale]: https://blog.vinhld-homelab.io.vn/posts/system-devops/tailscale/
 [n8n]: https://blog.vinhld-homelab.io.vn/posts/system-devops/n8n/
 [RAID]: https://blog.vinhld-homelab.io.vn/posts/system-devops/raid/
+[Virtual_System]: https://blog.vinhld-homelab.io.vn/posts/system-devops/virtual_system/
 
 -----------------------------------------------------------------------------------------
 # <mark>Others</mark>

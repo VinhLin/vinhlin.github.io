@@ -6,7 +6,7 @@ draft = true
 
 <h2 align="center">👋 A person loving and working in IoT & Cyber-Security</h2>
 
-# [My Resume](../CV_VinhLD_04122024.pdf)
+# [My Resume](../CV_VinhLD_10022025.pdf)
 
 Xin chào,
 

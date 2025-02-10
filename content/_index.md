@@ -15,10 +15,14 @@ Vô tình mình biết được có thể host một trang web (*free*) bằng *
 Ngoài việc ghi chú lại kiến thức thì blog này cũng sẽ là nơi để mình ghi ra những suy nghĩ và danh sách những việc cần làm để update kiến thức cho bài thân.
 
 ## 👨‍💻 Dự án cá nhân: <mark>HOMELAB Server</mark>
+> Đây là dự án **đang được vận hành** bởi chính mình cho **cửa hàng tạp hóa nhỏ** của gia đình. </br>
+
 - Bản thân là một người thích tìm hiểu cái mới. Nên ngoài chuyên môn về điện tử, mình có học và tìm hiểu thêm về **Network**, **System** và **Security**.
 - Mình áp dụng những kiến thức của bản thân để tự build lên hệ thống với 2 mục đích chính *(phục vụ nhu cầu cá nhân và cho gia đình)*:
-> 1. Áp dụng Server này cho nhà của mình: **Mesh WiFi**, **CCTV**, **DNS local**. </br>
-> 2. Nơi mình sẽ áp dụng những kiến thức đã học và những kiến thức mới: Từ **VPN**, **SIEM**, **Jump-Server**, **Honeypot** cho đến **Gitlab CI/CD**,... </br>
+```
+1. Áp dụng Server này cho nhà của mình: Mesh WiFi, CCTV, DNS local.
+2. Nơi mình sẽ áp dụng những kiến thức đã học và những kiến thức mới: Từ VPN, SIEM, Jump-Server, Honeypot cho đến Gitlab CI/CD,...
+```
 
 ## 🔭 Study/Learning:
 - Tìm hiểu sâu hơn về **Wazuh (SIEM)**: FIM, SCA, MISP,... 
