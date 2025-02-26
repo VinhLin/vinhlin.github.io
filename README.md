@@ -52,6 +52,8 @@ hugo new posts/Others/Goc_nhin_ve_Ngoai_ngu.md
 hugo new posts/Others/Suy_nghi_ve_Hardware_Hacking.md
 hugo new posts/Others/IoT_Security_JD.md
 hugo new posts/Others/Hoi_thao_2024.md
+hugo new posts/Others/Y_tuong_project.md
+hugo new posts/Others/Grok_AI.md
 ```
 
 ### IoT:
@@ -118,4 +120,5 @@ hugo new posts/System-DevOps/Tailscale.md
 hugo new posts/System-DevOps/n8n.md
 hugo new posts/System-DevOps/RAID.md
 hugo new posts/System-DevOps/Virtual_System.md
+hugo new posts/System-DevOps/Automation_Tools.md
 ```

@@ -138,6 +138,7 @@ STT |		Tiêu đề			|		Mô tả				|
 6   | [n8n][n8n]			| Giới thiệu công cụ n8n, một công cụ **Workflow Automation** |
 7   | [RAID][RAID]			| Giới thiệu các loại RAID phổ biến		|
 8   | [Virtual_System][Virtual_System]	| Giới thiệu về 10 hệ thống ảo hóa phổ biến	|
+9   | [Automation_Tools][Automation_Tools] | Tổng quan về các công cụ Automation	|
 
 [Permission_Linux]: https://blog.vinhld-homelab.io.vn/posts/system-devops/permission_linux/
 [Huly]: https://blog.vinhld-homelab.io.vn/posts/system-devops/huly/
@@ -147,6 +148,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [n8n]: https://blog.vinhld-homelab.io.vn/posts/system-devops/n8n/
 [RAID]: https://blog.vinhld-homelab.io.vn/posts/system-devops/raid/
 [Virtual_System]: https://blog.vinhld-homelab.io.vn/posts/system-devops/virtual_system/
+[Automation_Tools]: https://blog.vinhld-homelab.io.vn/posts/system-devops/automation_tools/
 
 -----------------------------------------------------------------------------------------
 # <mark>Others</mark>
@@ -154,16 +156,18 @@ STT |		Tiêu đề			|		Mô tả				|
 
 STT |		Tiêu đề			|		Mô tả				|
 ----|-----------------------------------|-----------------------------------------------|
-1   |[Goc_nhin_ve_Ngoai_ngu][Ngoai_ngu]	| Góc nhìn và cảm nghĩ bản thân về vấn đề Ngoại ngữ (nói chung), và tiếng Anh (nói riêng) | 
-2   |[Suy_nghi_ve_Hardware_Hacking][Hardware_Hacking]| Suy nghĩ về **Hardware Hacking**. |
-3   |[IoT_Security_JD][JD]		| Mô tả công việc của một job về **IoT Security** |
-4   |[Hoi_thao_2024][Hoi_thao_2024]	| Ghi chú một vài điều thú vị trong video record lại về **Hội thảo CNTT 2024** |
+1   | [Goc_nhin_ve_Ngoai_ngu][Ngoai_ngu]| Góc nhìn và cảm nghĩ bản thân về vấn đề Ngoại ngữ (nói chung), và tiếng Anh (nói riêng) | 
+2   | [Suy_nghi_ve_Hardware_Hacking][Hardware_Hacking]| Suy nghĩ về **Hardware Hacking**. |
+3   | [IoT_Security_JD][JD]		| Mô tả công việc của một job về **IoT Security** |
+4   | [Hoi_thao_2024][Hoi_thao_2024]	| Ghi chú một vài điều thú vị trong video record lại về **Hội thảo CNTT 2024** |
+5   | [Y_tuong_project][Y_tuong_project]| Ghi lại các ý tưởng, và dự định để làm với các dự án nhỏ |
+6   | [Grok_AI][Grok_AI]		| Cảm nghĩ và test thử **Grok 3** của **xAI**.		|
 
 [Ngoai_ngu]: https://blog.vinhld-homelab.io.vn/posts/others/goc_nhin_ve_ngoai_ngu/
 [Hardware_Hacking]: https://blog.vinhld-homelab.io.vn/posts/others/suy_nghi_ve_hardware_hacking/
 [JD]: https://blog.vinhld-homelab.io.vn/posts/others/iot_security_jd/
 [Hoi_thao_2024]: https://blog.vinhld-homelab.io.vn/posts/others/hoi_thao_2024/
-
+[Y_tuong_project]: https://blog.vinhld-homelab.io.vn/posts/others/y_tuong_project/
 
 
 

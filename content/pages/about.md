@@ -6,7 +6,7 @@ draft = true
 
 <h2 align="center">👋 A person loving and working in IoT & Cyber-Security</h2>
 
-# [My Resume](../CV_VinhLD_10022025.pdf)
+# [My Resume](../CV_VinhLD_25022025.pdf)
 
 Xin chào,
 
@@ -43,7 +43,7 @@ Cùng với các kỹ năng vệ tinh khác như: System, Security, Network, Dev
 ### Others:
 - Với mục tiêu là trở thành **chuyên gia theo chiều ngang**, nhưng điều đó không có nghĩa là *lan man*, *dàn trải*.
 - Do đó mình sẽ cần phải tập trung vào những yếu tố cốt lõi: **Hardware/IoT**, và **lập trình nhúng**.
-> Ngôn ngữ lập trình mình sẽ tập trung vào **C/C++** *(là ngôn ngữ của quá khứ với hiện tại)* và **Rust-lang** *(ngôn ngữ cho tương lai)*. </br>
+> Ngôn ngữ lập trình mình sẽ tập trung vào **C/C++** *(là ngôn ngữ chính)* và **Rust-lang** *(ngôn ngữ cho tương lai)*. </br>
 
 ![Mindmap](/image/Mindmap.png)
 

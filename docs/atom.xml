@@ -14,6 +14,240 @@
     
     
     <item>
+      <title>Automation_Tools</title>
+      <link>https://vinhlin.github.io/posts/system-devops/automation_tools/</link>
+      <description>&lt;p&gt;Video: &lt;a href=&#34;https://www.youtube.com/watch?v=PJG1-7hMHsE&amp;amp;list=WL&amp;amp;index=68&amp;amp;t=14s&#34;&gt;I automated EVERYTHING in my HomeLab // Kestra #2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/Automation_Tools/Hinh_1.png&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/Automation_Tools/Hinh_2.png&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/Automation_Tools/Hinh_3.png&#34;
+  alt=&#34;Hình 3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Mình không có nhiều kiến thức về DevOps, nên mình sẽ dùng &lt;strong&gt;Grok 3&lt;/strong&gt; để phân tích và hỏi thêm về các công cụ Automation.&lt;/p&gt;
+&lt;p&gt;Đây là câu trả lời:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Kestra&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Giới thiệu: Kestra là một công cụ điều phối workflow mã nguồn mở, được thiết kế để quản lý và tự động hóa các quy trình phức tạp. Trong video &amp;ldquo;I automated EVERYTHING in my HomeLab // Kestra #2&amp;rdquo;, tác giả sử dụng Kestra để điều phối các tác vụ như chạy script, quản lý container, và tích hợp hệ thống trong HomeLab.&lt;/li&gt;
+&lt;li&gt;Điểm mạnh:
+&lt;ul&gt;
+&lt;li&gt;Dễ định nghĩa workflow: Sử dụng YAML để mô tả luồng công việc, đơn giản và dễ đọc.&lt;/li&gt;
+&lt;li&gt;Giao diện web: Có dashboard trực quan để theo dõi tiến trình, rất hữu ích cho việc giám sát trong HomeLab.&lt;/li&gt;
+&lt;li&gt;Tích hợp linh hoạt: Hỗ trợ Docker, Kubernetes, và các công cụ khác, phù hợp với môi trường thử nghiệm.&lt;/li&gt;
+&lt;li&gt;Nhẹ và mới mẻ: Không yêu cầu tài nguyên lớn, lý tưởng cho HomeLab cá nhân.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Điểm yếu:
+&lt;ul&gt;
+&lt;li&gt;Cộng đồng nhỏ: Vì là công cụ mới, tài liệu và hỗ trợ cộng đồng chưa phong phú như Ansible hay Terraform.&lt;/li&gt;
+&lt;li&gt;Không chuyên sâu về cấu hình: Không mạnh trong việc quản lý trạng thái hệ thống như Ansible hay Terraform.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Tại sao tác giả chọn Kestra?: Video cho thấy tác giả muốn một giải pháp nhẹ, dễ tùy chỉnh workflows phức tạp (như chạy các tác vụ theo thứ tự), và có giao diện để theo dõi trực tiếp. Kestra tỏ ra phù hợp với phong cách &amp;ldquo;tự động hóa mọi thứ&amp;rdquo; trong một môi trường thử nghiệm sáng tạo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Ansible&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Giới thiệu: Ansible là công cụ tự động hóa quản lý cấu hình, được sử dụng rộng rãi để triển khai ứng dụng, cấu hình server, và quản lý hệ thống mà không cần cài agent trên máy đích (dùng SSH).&lt;/li&gt;
+&lt;li&gt;Điểm mạnh:
+&lt;ul&gt;
+&lt;li&gt;Đơn giản và phổ biến: Cú pháp YAML (playbooks) dễ học, cộng đồng lớn với nhiều tài liệu và module sẵn có.&lt;/li&gt;
+&lt;li&gt;Không cần agent: Chỉ cần SSH, phù hợp cho mọi hệ thống từ server lớn đến HomeLab nhỏ.&lt;/li&gt;
+&lt;li&gt;Tự động hóa cơ bản mạnh mẽ: Quản lý cấu hình, cài đặt phần mềm, hoặc chạy script đều rất hiệu quả.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Điểm yếu:
+&lt;ul&gt;
+&lt;li&gt;Hiệu suất: Chậm hơn khi quản lý số lượng máy lớn vì không có cơ chế xử lý song song tối ưu (trừ khi dùng thêm công cụ như Ansible Tower).&lt;/li&gt;
+&lt;li&gt;Không quản lý trạng thái hạ tầng: Không thiết kế để xây dựng hoặc duy trì cơ sở hạ tầng như Terraform.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;So với Kestra: Ansible tập trung vào tự động hóa tác vụ cụ thể (ví dụ: cài đặt Nginx trên 10 máy), trong khi Kestra thiên về điều phối luồng công việc phức tạp (ví dụ: chạy script A, sau đó kiểm tra kết quả, rồi mới chạy B).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Terraform&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Giới thiệu: Terraform là công cụ &amp;ldquo;Infrastructure as Code&amp;rdquo; (IaC), dùng để xây dựng, quản lý, và duy trì hạ tầng (VM, network, cloud resources) thông qua các file cấu hình (HCL hoặc JSON).&lt;/li&gt;
+&lt;li&gt;Điểm mạnh:
+&lt;ul&gt;
+&lt;li&gt;Quản lý hạ tầng: Tạo và duy trì trạng thái cơ sở hạ tầng (ví dụ: tạo 5 VM trên AWS rồi gắn IP cố định).&lt;/li&gt;
+&lt;li&gt;Hỗ trợ đa nền tảng: Tích hợp với hầu hết các nhà cung cấp cloud (AWS, GCP, Azure) và cả môi trường on-premise.&lt;/li&gt;
+&lt;li&gt;Tính nhất quán: Đảm bảo hạ tầng luôn đúng với cấu hình đã định nghĩa (idempotency).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Điểm yếu:
+&lt;ul&gt;
+&lt;li&gt;Không phải công cụ điều phối: Không phù hợp cho việc chạy script hoặc quản lý tác vụ hàng ngày như Kestra hay Ansible.&lt;/li&gt;
+&lt;li&gt;Độ phức tạp: Cần hiểu rõ hạ tầng và cú pháp HCL, không thân thiện với người mới bằng Ansible.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;So với Kestra: Terraform xây dựng &amp;ldquo;nền móng&amp;rdquo; ( hạ tầng), trong khi Kestra quản lý &amp;ldquo;công việc&amp;rdquo; chạy trên nền móng đó.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/Automation_Tools/Hinh_4.png&#34;
+  alt=&#34;Hình 4&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/Automation_Tools/Hinh_5.png&#34;
+  alt=&#34;Hình 5&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/system-devops/automation_tools/</guid>
+      <pubDate>Wed, 26 Feb 2025 15:49:44 +0700</pubDate>
+    </item>
+    
+    <item>
+      <title>Grok_AI</title>
+      <link>https://vinhlin.github.io/posts/others/grok_ai/</link>
+      <description>&lt;p&gt;Dạo gần đây rộ lên thông tin về một AI của &lt;strong&gt;tỷ phú Elon Musk&lt;/strong&gt;, tên là &lt;strong&gt;Grok 3&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Mình có dùng thử &lt;strong&gt;Grok 3&lt;/strong&gt; trên &lt;strong&gt;X&lt;/strong&gt;, và thấy AI này trả lời rất hay và tuyệt vời.&lt;/p&gt;
+&lt;h3 id=&#34;ví-dụ&#34;&gt;Ví dụ:&lt;/h3&gt;
+&lt;p&gt;Đây là một đoạn chat, Grok trả lời hay thật.&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/Grok_AI/Hinh_1.png&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/Grok_AI/Hinh_2.png&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/Grok_AI/Hinh_3.png&#34;
+  alt=&#34;Hình 3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;một-bài-toán-khác&#34;&gt;Một bài toán khác:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Đây là một bài toán mà mình đặt và hỏi Grok.&lt;/li&gt;
+&lt;li&gt;Chủ đề xoay quanh đại loại là: Tôi có một server dùng chip Xeon ở nhà, hiện chỉ sử dụng 5% sức mạnh CPU và đang dư khoảng 20GB RAM. Tôi nên chạy ứng dụng gì để tối ưu hóa CPU và tiết kiệm điện năng tiêu thụ.&lt;/li&gt;
+&lt;li&gt;Rồi hỏi một hồi thì mình có thông tin về &lt;strong&gt;Boinc&lt;/strong&gt; và &lt;strong&gt;Monero&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Đây là câu trả lời của grok. Mình đã copy lại thành file để tham khảo sau này. &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/grok_ai_chat/Grok-Boinc_Monero.pdf&#34;&gt;Link file PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Sau đó thấy phản hồi từ grok, mình quyết định có thể sẽ dùng &lt;strong&gt;boinc&lt;/strong&gt; đóng góp cho cộng đồng, thay vì dùng &lt;strong&gt;Monero&lt;/strong&gt; để đào coin.&lt;/li&gt;
+&lt;li&gt;Đây là một số tài liệu search được từ dự án boinc:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://github.com/BOINC/boinc
+https://boinc.berkeley.edu/download.php
+https://boinc.berkeley.edu/wiki/User_manual
+https://delta1512.github.io/BOINCOS/
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Sau đó phát hiện ra có OS tên là &lt;strong&gt;BOINCOS&lt;/strong&gt;, gửi link và hỏi lại grok về cái OS.&lt;/li&gt;
+&lt;li&gt;Và đây là câu trả lời khi so sánh Boinc với loại hình &lt;strong&gt;MMO (như mining (đào coin) và render farm)&lt;/strong&gt;. &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/grok_ai_chat/Grok_BoincOS.pdf&#34;&gt;Link pdf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;đánh-giá&#34;&gt;Đánh giá:&lt;/h3&gt;
+&lt;p&gt;Chỉ có thể nói là &lt;strong&gt;Grok 3&lt;/strong&gt; quá hay.&lt;/p&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/others/grok_ai/</guid>
+      <pubDate>Wed, 26 Feb 2025 14:42:30 +0700</pubDate>
+    </item>
+    
+    <item>
+      <title>Y_tuong_project</title>
+      <link>https://vinhlin.github.io/posts/others/y_tuong_project/</link>
+      <description>&lt;p&gt;Hiện tại thì bản thân vẫn đang tiếp tục cải thiện project &lt;strong&gt;HOMELAB&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Tuy nhiên mình sẽ làm một số project nhỏ hơn, và sẽ xoay quanh Homelab.&lt;/p&gt;
+&lt;h2 id=&#34;-ý-tưởng-bổ-sung-cho-homelab&#34;&gt;🌱 Ý tưởng bổ sung cho HomeLAB:&lt;/h2&gt;
+&lt;h3 id=&#34;-rust-tracking&#34;&gt;👉 Rust Tracking&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Mình vẫn đang tìm hiểu và học &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/iot/software/rust-lang/&#34;&gt;ngôn ngữ lập trình Rust&lt;/a&gt;. Để trau dồi thêm khả năng code bằng Rust, mình sẽ setup một dự án cho bản thân, tên dự án hiện tại là &lt;code&gt;Rust_Tracking&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Dùng Rust để viết Firmware cho thiết bị GPS, sau đó gửi dữ liệu lên &lt;a href=&#34;https://www.vinhld-homelab.io.vn/login&#34;&gt;IoT Platform - ThingsBoard&lt;/a&gt;. IoT Platform này mình cũng tự build dựa trên hạ tầng hiện tại.&lt;/li&gt;
+&lt;li&gt;Tự làm một thiết bị Tracking cho bản thân.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-quản-lý-bán-hàng&#34;&gt;👉 Quản lý bán hàng&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Mình sẽ setup một &lt;strong&gt;SQL Server&lt;/strong&gt;, sau đó viết một desktop app đơn giản chạy trên Windows &lt;em&gt;(dùng công cụ &lt;strong&gt;C++ Builder&lt;/strong&gt;)&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;App này sẽ có chức năng là cập nhật dữ liệu cho database, kiểm tra hàng hóa &lt;em&gt;(số lượng, mã QR)&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-raspberry-camera&#34;&gt;👉 Raspberry Camera&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Mục đích là ôn luyện lại về &lt;strong&gt;C++&lt;/strong&gt; cũng như đào sâu hơn về &lt;strong&gt;Nhúng Linux&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Có thể mình sẽ chia dự án này thành các phần:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Hardwar
+OS
+Firmware/Software
+Platform
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Hardware: Raspberry Zero 2W + Camera for Pi.&lt;/li&gt;
+&lt;li&gt;OS: Yocto Linux&lt;/li&gt;
+&lt;li&gt;Firmware/Sofware:
+&lt;ul&gt;
+&lt;li&gt;Web Application:
+&lt;ul&gt;
+&lt;li&gt;DHCP Server: Xem video ở local&lt;/li&gt;
+&lt;li&gt;DHCP Client: Kết nối mạng, send location data, Notifi Telegram.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Desktop Application: Config device&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Platform: Lấy thông tin location, Update OTA, Image của camera.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Ngoài ra mình sẽ code camera này theo &lt;strong&gt;ONVIF Protocol&lt;/strong&gt;, và theo &lt;a href=&#34;https://sotttt.angiang.gov.vn/sites/default/files/2025-01/qcvn%20135.2024-%20ip%20camera.pdf&#34;&gt;QCVN-135&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;-bad-usb&#34;&gt;👉 Bad USB&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Mục đích là để &lt;strong&gt;trau dồi kỹ năng coding dùng ngôn ngữ Rust, và ứng dụng vào Red-Team&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Ở đây mình dự định sẽ dùng:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Raspberry Pico + Rust-lang + Embassy Framewok
+&lt;/code&gt;&lt;/pre&gt;</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/others/y_tuong_project/</guid>
+      <pubDate>Wed, 26 Feb 2025 07:52:00 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Virtual_System</title>
       <link>https://vinhlin.github.io/posts/system-devops/virtual_system/</link>
       <description>&lt;p&gt;Lụm được bài viết &lt;a href=&#34;https://www.threads.net/@anastasis_king/post/DE-XeORssNx&#34;&gt;10 Virtualization Systems You Should Know&lt;/a&gt;&lt;/p&gt;
