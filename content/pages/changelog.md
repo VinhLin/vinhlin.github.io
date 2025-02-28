@@ -168,7 +168,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [JD]: https://blog.vinhld-homelab.io.vn/posts/others/iot_security_jd/
 [Hoi_thao_2024]: https://blog.vinhld-homelab.io.vn/posts/others/hoi_thao_2024/
 [Y_tuong_project]: https://blog.vinhld-homelab.io.vn/posts/others/y_tuong_project/
-
+[Grok_AI]: https://blog.vinhld-homelab.io.vn/posts/others/grok_ai/
 
 
 

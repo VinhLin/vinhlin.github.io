@@ -170,7 +170,7 @@
 &lt;li&gt;Đây là một bài toán mà mình đặt và hỏi Grok.&lt;/li&gt;
 &lt;li&gt;Chủ đề xoay quanh đại loại là: Tôi có một server dùng chip Xeon ở nhà, hiện chỉ sử dụng 5% sức mạnh CPU và đang dư khoảng 20GB RAM. Tôi nên chạy ứng dụng gì để tối ưu hóa CPU và tiết kiệm điện năng tiêu thụ.&lt;/li&gt;
 &lt;li&gt;Rồi hỏi một hồi thì mình có thông tin về &lt;strong&gt;Boinc&lt;/strong&gt; và &lt;strong&gt;Monero&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Đây là câu trả lời của grok. Mình đã copy lại thành file để tham khảo sau này. &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/grok_ai_chat/Grok-Boinc_Monero.pdf&#34;&gt;Link file PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Đây là câu trả lời của grok. Mình đã copy lại thành file để tham khảo sau này. &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/docs/grok_ai_chat/Grok-Boinc_Monero.pdf&#34;&gt;Link file PDF&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Sau đó thấy phản hồi từ grok, mình quyết định có thể sẽ dùng &lt;strong&gt;boinc&lt;/strong&gt; đóng góp cho cộng đồng, thay vì dùng &lt;strong&gt;Monero&lt;/strong&gt; để đào coin.&lt;/li&gt;
 &lt;li&gt;Đây là một số tài liệu search được từ dự án boinc:&lt;/li&gt;
 &lt;/ul&gt;
@@ -180,7 +180,7 @@ https://boinc.berkeley.edu/wiki/User_manual
 https://delta1512.github.io/BOINCOS/
 &lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
 &lt;li&gt;Sau đó phát hiện ra có OS tên là &lt;strong&gt;BOINCOS&lt;/strong&gt;, gửi link và hỏi lại grok về cái OS.&lt;/li&gt;
-&lt;li&gt;Và đây là câu trả lời khi so sánh Boinc với loại hình &lt;strong&gt;MMO (như mining (đào coin) và render farm)&lt;/strong&gt;. &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/grok_ai_chat/Grok_BoincOS.pdf&#34;&gt;Link pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Và đây là câu trả lời khi so sánh Boinc với loại hình &lt;strong&gt;MMO (như mining (đào coin) và render farm)&lt;/strong&gt;. &lt;a href=&#34;https://vinhlin.github.io/docs/grok_ai_chat/Grok_BoincOS.pdf&#34;&gt;Link pdf&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;đánh-giá&#34;&gt;Đánh giá:&lt;/h3&gt;
 &lt;p&gt;Chỉ có thể nói là &lt;strong&gt;Grok 3&lt;/strong&gt; quá hay.&lt;/p&gt;
