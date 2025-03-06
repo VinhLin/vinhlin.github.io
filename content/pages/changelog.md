@@ -162,6 +162,7 @@ STT |		Tiêu đề			|		Mô tả				|
 4   | [Hoi_thao_2024][Hoi_thao_2024]	| Ghi chú một vài điều thú vị trong video record lại về **Hội thảo CNTT 2024** |
 5   | [Y_tuong_project][Y_tuong_project]| Ghi lại các ý tưởng, và dự định để làm với các dự án nhỏ |
 6   | [Grok_AI][Grok_AI]		| Cảm nghĩ và test thử **Grok 3** của **xAI**.		|
+7   | [Thao_tac_An_toan][Thao_tac_An_toan] | Note lại bài viết của **WhiteHat** về các thao tác an toàn trước dịp lễ |
 
 [Ngoai_ngu]: https://blog.vinhld-homelab.io.vn/posts/others/goc_nhin_ve_ngoai_ngu/
 [Hardware_Hacking]: https://blog.vinhld-homelab.io.vn/posts/others/suy_nghi_ve_hardware_hacking/
@@ -169,6 +170,6 @@ STT |		Tiêu đề			|		Mô tả				|
 [Hoi_thao_2024]: https://blog.vinhld-homelab.io.vn/posts/others/hoi_thao_2024/
 [Y_tuong_project]: https://blog.vinhld-homelab.io.vn/posts/others/y_tuong_project/
 [Grok_AI]: https://blog.vinhld-homelab.io.vn/posts/others/grok_ai/
-
+[Thao_tac_An_toan]: https://blog.vinhld-homelab.io.vn/posts/others/thao_tac_an_toan/
 
 

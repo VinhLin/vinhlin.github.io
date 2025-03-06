@@ -54,6 +54,7 @@ hugo new posts/Others/IoT_Security_JD.md
 hugo new posts/Others/Hoi_thao_2024.md
 hugo new posts/Others/Y_tuong_project.md
 hugo new posts/Others/Grok_AI.md
+hugo new posts/Others/Thao_tac_An_toan.md
 ```
 
 ### IoT:

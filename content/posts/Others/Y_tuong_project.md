@@ -20,7 +20,7 @@ Tuy nhiên mình sẽ làm một số project nhỏ hơn, và sẽ xoay quanh Ho
 - App này sẽ có chức năng là cập nhật dữ liệu cho database, kiểm tra hàng hóa *(số lượng, mã QR)*.
 
 ### 👉 Raspberry Camera
-- Mục đích là ôn luyện lại về **C++** cũng như đào sâu hơn về **Nhúng Linux**.
+- Mục đích là ôn luyện lại về **Rust-lang + Tokio Framework** cũng như đào sâu hơn về **Nhúng Linux**.
 - Có thể mình sẽ chia dự án này thành các phần:
 ```
 Hardwar

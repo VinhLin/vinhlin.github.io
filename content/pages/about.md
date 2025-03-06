@@ -43,7 +43,7 @@ Cùng với các kỹ năng vệ tinh khác như: System, Security, Network, Dev
 ### Others:
 - Với mục tiêu là trở thành **chuyên gia theo chiều ngang**, nhưng điều đó không có nghĩa là *lan man*, *dàn trải*.
 - Do đó mình sẽ cần phải tập trung vào những yếu tố cốt lõi: **Hardware/IoT**, và **lập trình nhúng**.
-> Ngôn ngữ lập trình mình sẽ tập trung vào **C/C++** *(là ngôn ngữ chính)* và **Rust-lang** *(ngôn ngữ cho tương lai)*. </br>
+> Ngôn ngữ **Rust là trọng tâm**, lập trình **Arduino là nền tảng**. </br>
 
 ![Mindmap](/image/Mindmap.png)
 
