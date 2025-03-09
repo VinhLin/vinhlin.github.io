@@ -139,6 +139,7 @@ STT |		Tiêu đề			|		Mô tả				|
 7   | [RAID][RAID]			| Giới thiệu các loại RAID phổ biến		|
 8   | [Virtual_System][Virtual_System]	| Giới thiệu về 10 hệ thống ảo hóa phổ biến	|
 9   | [Automation_Tools][Automation_Tools] | Tổng quan về các công cụ Automation	|
+10  | [Web_Crawler][Web_Crawler]	| Giới thiệu về **Web Crawler** và công cụ **Firecrawl** |
 
 [Permission_Linux]: https://blog.vinhld-homelab.io.vn/posts/system-devops/permission_linux/
 [Huly]: https://blog.vinhld-homelab.io.vn/posts/system-devops/huly/
@@ -149,6 +150,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [RAID]: https://blog.vinhld-homelab.io.vn/posts/system-devops/raid/
 [Virtual_System]: https://blog.vinhld-homelab.io.vn/posts/system-devops/virtual_system/
 [Automation_Tools]: https://blog.vinhld-homelab.io.vn/posts/system-devops/automation_tools/
+[Web_Crawler]: https://blog.vinhld-homelab.io.vn/posts/system-devops/web_crawler/
 
 -----------------------------------------------------------------------------------------
 # <mark>Others</mark>

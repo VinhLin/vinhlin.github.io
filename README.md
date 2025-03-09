@@ -122,4 +122,5 @@ hugo new posts/System-DevOps/n8n.md
 hugo new posts/System-DevOps/RAID.md
 hugo new posts/System-DevOps/Virtual_System.md
 hugo new posts/System-DevOps/Automation_Tools.md
+hugo new posts/System-DevOps/Web_Crawler.md
 ```

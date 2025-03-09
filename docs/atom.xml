@@ -14,6 +14,187 @@
     
     
     <item>
+      <title>Web_Crawler</title>
+      <link>https://vinhlin.github.io/posts/system-devops/web_crawler/</link>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Web crawler (hay còn gọi là web spider, bot, hoặc crawler) là một chương trình hoặc phần mềm tự động được thiết kế để duyệt qua các trang web trên internet, thu thập thông tin và lập chỉ mục dữ liệu từ các trang đó. Web crawler hoạt động bằng cách truy cập một trang web, đọc nội dung, tìm các liên kết (link) trên trang, sau đó tiếp tục truy cập các liên kết đó để khám phá thêm các trang khác. &lt;/br&gt;
+Quá trình này thường được thực hiện một cách có hệ thống và liên tục.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;mục-đích-của-web-crawler&#34;&gt;Mục đích của Web Crawler&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Công cụ tìm kiếm:&lt;/strong&gt; Các crawler như Googlebot (của Google) thu thập dữ liệu từ hàng tỷ trang web để lập chỉ mục, giúp người dùng tìm kiếm thông tin dễ dàng.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Thu thập dữ liệu (Web Scraping):&lt;/strong&gt; Lấy thông tin cụ thể như giá sản phẩm, bài viết, hoặc dữ liệu nghiên cứu.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Giám sát web:&lt;/strong&gt; Kiểm tra cập nhật nội dung, phát hiện lỗi liên kết, hoặc theo dõi thay đổi trên các trang.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Phân tích dữ liệu:&lt;/strong&gt; Thu thập dữ liệu lớn (big data) để phân tích xu hướng, thị trường, hoặc hành vi người dùng.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;so-sánh-giữa-web-crawling-và-web-scrapinghttpsvietnixvncrawler-la-giso-sanh-giua-web-crawling-va-web-scraping&#34;&gt;&lt;a href=&#34;https://vietnix.vn/crawler-la-gi/#so-sanh-giua-web-crawling-va-web-scraping&#34;&gt;So sánh giữa Web Crawling và Web Scraping&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/Web_Crawler/Hinh_1.png&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/Web_Crawler/Hinh_2.png&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;công-cụ-firecrawlhttpsgithubcommendableaifirecrawl&#34;&gt;Công cụ &lt;a href=&#34;https://github.com/mendableai/firecrawl&#34;&gt;Firecrawl&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Đây là một công cụ mã nguồn mở, có thể vào cả việc &lt;strong&gt;crawl&lt;/strong&gt; và &lt;strong&gt;scraping&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Theo tài liệu thì công cụ này có thể &lt;strong&gt;selft-hosted&lt;/strong&gt; hoặc đăng ký sử dụng free API &lt;em&gt;(bị giới hạn crawl khoảng 500 trang web và một số tính năng khác)&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Tính năng nổi bật của Firecrawl:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Xử lý nội dung động:&lt;/strong&gt; Nếu website dùng JavaScript (ví dụ: SPA - Single Page Application), Firecrawl tự động render và lấy dữ liệu&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Đầu ra sạch:&lt;/strong&gt; Dữ liệu được loại bỏ quảng cáo, menu, footer&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Crawl tự động:&lt;/strong&gt; Chỉ cần đưa URL gốc, Firecrawl sẽ tự tìm và crawl tất cả subpages mà không cần sitemap.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;xác-định-nhu-cầu-khi-sử-dụng-firecrawl&#34;&gt;Xác định nhu cầu khi sử dụng Firecrawl&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Muốn crawl toàn bộ website hay chỉ scrape một vài trang ?&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Crawl:&lt;/strong&gt; Lấy toàn bộ nội dung từ một domain (ví dụ: tất cả bài viết trên một blog).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Scrape:&lt;/strong&gt; Lấy dữ liệu cụ thể từ một hoặc vài trang (ví dụ: giá sản phẩm từ trang chi tiết).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Dữ liệu đầu ra cần định dạng gì ?&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Markdown:&lt;/strong&gt; Phù hợp để dùng trực tiếp cho LLM &lt;em&gt;(cho việc huấn luyện AI)&lt;/em&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;JSON:&lt;/strong&gt; Dữ liệu có cấu trúc (structured data) như danh sách sản phẩm, bài viết, v.v.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/system-devops/web_crawler/</guid>
+      <pubDate>Sun, 09 Mar 2025 13:16:25 +0700</pubDate>
+    </item>
+    
+    <item>
+      <title>Thao_tac_An_toan</title>
+      <link>https://vinhlin.github.io/posts/others/thao_tac_an_toan/</link>
+      <description>&lt;p&gt;Bữa có thấy được một bài đăng của &lt;strong&gt;WhiteHat&lt;/strong&gt; về các &lt;strong&gt;thao tác an toàn&lt;/strong&gt; &lt;em&gt;(cả về network, system, các thiết bị điện khác và vệ sinh chỗ làm)&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Lúc trước đó down về mình quên, nay đăng lại về bài viết hay ho này. &lt;em&gt;(Lưu trữ sau này còn biết đường mà đọc lại. =]])&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/An_toan/An_to%c3%a0n_0.jpg&#34;
+  alt=&#34;Hình 0&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/An_toan/An_to%c3%a0n_1.jpg&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/An_toan/An_to%c3%a0n_2.jpg&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/An_toan/An_to%c3%a0n_3.jpg&#34;
+  alt=&#34;Hình 3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/An_toan/An_to%c3%a0n_4.jpg&#34;
+  alt=&#34;Hình 4&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/An_toan/An_to%c3%a0n_5.jpg&#34;
+  alt=&#34;Hình 5&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/An_toan/An_to%c3%a0n_6.jpg&#34;
+  alt=&#34;Hình 6&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/An_toan/An_to%c3%a0n_7.jpg&#34;
+  alt=&#34;Hình 7&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/An_toan/An_to%c3%a0n_8.jpg&#34;
+  alt=&#34;Hình 8&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/An_toan/An_to%c3%a0n_9.jpg&#34;
+  alt=&#34;Hình 9&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/An_toan/An_to%c3%a0n_10.jpg&#34;
+  alt=&#34;Hình 10&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/others/thao_tac_an_toan/</guid>
+      <pubDate>Thu, 06 Mar 2025 09:59:55 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Automation_Tools</title>
       <link>https://vinhlin.github.io/posts/system-devops/automation_tools/</link>
       <description>&lt;p&gt;Video: &lt;a href=&#34;https://www.youtube.com/watch?v=PJG1-7hMHsE&amp;amp;list=WL&amp;amp;index=68&amp;amp;t=14s&#34;&gt;I automated EVERYTHING in my HomeLab // Kestra #2&lt;/a&gt;&lt;/p&gt;
@@ -171,7 +352,6 @@
 &lt;li&gt;Chủ đề xoay quanh đại loại là: Tôi có một server dùng chip Xeon ở nhà, hiện chỉ sử dụng 5% sức mạnh CPU và đang dư khoảng 20GB RAM. Tôi nên chạy ứng dụng gì để tối ưu hóa CPU và tiết kiệm điện năng tiêu thụ.&lt;/li&gt;
 &lt;li&gt;Rồi hỏi một hồi thì mình có thông tin về &lt;strong&gt;Boinc&lt;/strong&gt; và &lt;strong&gt;Monero&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;Đây là câu trả lời của grok. Mình đã copy lại thành file để tham khảo sau này. &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/docs/grok_ai_chat/Grok-Boinc_Monero.pdf&#34;&gt;Link file PDF&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Sau đó thấy phản hồi từ grok, mình quyết định có thể sẽ dùng &lt;strong&gt;boinc&lt;/strong&gt; đóng góp cho cộng đồng, thay vì dùng &lt;strong&gt;Monero&lt;/strong&gt; để đào coin.&lt;/li&gt;
 &lt;li&gt;Đây là một số tài liệu search được từ dự án boinc:&lt;/li&gt;
 &lt;/ul&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://github.com/BOINC/boinc
@@ -183,7 +363,10 @@ https://delta1512.github.io/BOINCOS/
 &lt;li&gt;Và đây là câu trả lời khi so sánh Boinc với loại hình &lt;strong&gt;MMO (như mining (đào coin) và render farm)&lt;/strong&gt;. &lt;a href=&#34;https://vinhlin.github.io/docs/grok_ai_chat/Grok_BoincOS.pdf&#34;&gt;Link pdf&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;đánh-giá&#34;&gt;Đánh giá:&lt;/h3&gt;
-&lt;p&gt;Chỉ có thể nói là &lt;strong&gt;Grok 3&lt;/strong&gt; quá hay.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Chỉ có thể nói là &lt;strong&gt;Grok 3&lt;/strong&gt; quá hay.&lt;/li&gt;
+&lt;li&gt;Sau đó thấy phản hồi từ grok, mình nghĩ có thể áp dụng cả 2, dùng cả &lt;strong&gt;boinc&lt;/strong&gt; đóng góp cho cộng đồng, và dùng &lt;strong&gt;Monero&lt;/strong&gt; để đào coin.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
       <author>VinhLD</author>
       <guid>https://vinhlin.github.io/posts/others/grok_ai/</guid>
@@ -209,7 +392,7 @@ https://delta1512.github.io/BOINCOS/
 &lt;/ul&gt;
 &lt;h3 id=&#34;-raspberry-camera&#34;&gt;👉 Raspberry Camera&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Mục đích là ôn luyện lại về &lt;strong&gt;C++&lt;/strong&gt; cũng như đào sâu hơn về &lt;strong&gt;Nhúng Linux&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Mục đích là ôn luyện lại về &lt;strong&gt;Rust-lang + Tokio Framework&lt;/strong&gt; cũng như đào sâu hơn về &lt;strong&gt;Nhúng Linux&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;Có thể mình sẽ chia dự án này thành các phần:&lt;/li&gt;
 &lt;/ul&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Hardwar
