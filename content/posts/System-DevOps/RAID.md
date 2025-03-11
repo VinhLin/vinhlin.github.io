@@ -45,4 +45,6 @@ draft = true
 
 ![Hình 5](/image/System-DevOps/RAID/Hinh_5.png)
 
+## RAID_Overview
 
+![RAID_Overview](/image/System-DevOps/RAID/RAID_Overview.jpg)

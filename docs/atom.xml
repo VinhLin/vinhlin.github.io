@@ -14,6 +14,169 @@
     
     
     <item>
+      <title>USB_Boot</title>
+      <link>https://vinhlin.github.io/posts/others/usb_boot/</link>
+      <description>&lt;p&gt;Trong quá trình sử dụng Windows (hoặc đối với một người IT Support) thì việc xử lý lỗi về máy tính là rất cần thiết.&lt;/p&gt;
+&lt;p&gt;Về phần mềm hoặc OS thì việc tạo một USB-Boot &lt;em&gt;(hay USB cứu hộ)&lt;/em&gt; là vô cùng quan trọng.&lt;/p&gt;
+&lt;p&gt;Sẵn việc tìm hiểu lại cách tạo USB-Boot &lt;em&gt;(do cần phải sửa lỗi máy tính)&lt;/em&gt;, nên mình sẽ documents lại những gì mình đã tìm hiểu được.&lt;/p&gt;
+&lt;h3 id=&#34;download-win10-iso-file&#34;&gt;Download Win10 &lt;em&gt;(ISO File)&lt;/em&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Theo các trang thao khảo thì hiện tại Win 10 không cho tải trực tiếp file ISO trên PC, mà chỉ có thể tải trên điện thoai.&lt;/li&gt;
+&lt;li&gt;Nên mình sẽ cần thực hiện một số thủ thuật để có thể tải file ISO; &lt;a href=&#34;https://www.anphatpc.com.vn/tai-windows-10-file-iso-sach-nguyen-goc-nhanh-muot.html&#34;&gt;tham khảo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Truy cập đường dẫn đến trang chủ Windows 10, &lt;a href=&#34;https://www.microsoft.com/en-au/software-download/windows10&#34;&gt;download ISO&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/USB_Boot/Hinh_1.png&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mình thiết lập là &lt;strong&gt;Safari - iPad&lt;/strong&gt;, lúc này chọn tiếp theo hướng dẫn.&lt;/li&gt;
+&lt;li&gt;Mình đã có thể download được file ISO.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;winaio-maker-professional&#34;&gt;WinAIO Maker Professional&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Đây là phần mềm giúp mình &lt;strong&gt;gộp hoặc lựa chọn nhiều file ISO Win&lt;/strong&gt; vào một file ISO duy nhất.&lt;/li&gt;
+&lt;li&gt;Download phần mềm, &lt;a href=&#34;https://taimienphi.vn/download-winaio-maker-professional-16781/taive&#34;&gt;taimienphi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tài liệu:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://www.youtube.com/watch?v=PvS7AaxA4PY&amp;amp;list=PL7Gq3F-DZa6mb_RutcFzSVQhYvi1QAxiZ&amp;amp;index=2
+https://blogchiasekienthuc.com/thu-thuat-may-tinh/cach-tao-bo-cai-windows-aio.html
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;anhdv-boothttpsanhdvbootcom&#34;&gt;&lt;a href=&#34;https://anhdvboot.com/&#34;&gt;AnhDV Boot&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Download &lt;a href=&#34;https://anhdvboot.com/tai-ve/&#34;&gt;Anhdv Boot&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Sử dụng bản free
+Pass: anhdvboot.com
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Đây là một &lt;strong&gt;phần mềm cứu hộ máy tính&lt;/strong&gt;, được rất nhiều người tin dùng.&lt;/li&gt;
+&lt;li&gt;Khi đã giải nén xong, mình chạy file &lt;code&gt;_One_Click_USB_HDD_Anhdv_Boot.bat&lt;/code&gt; dưới quyền &lt;strong&gt;Admin&lt;/strong&gt; để thực hiện tạo USB-Boot.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/USB_Boot/Hinh_2.png&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Khi tạo xong mình sẽ có 2 phân vùng:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Phân vùng Boot (đình dạng FAT32)
+Phân vùng DATA (định dạng NTFS): Phân vùng này là để chép các file ISO (nhờ có định dạng NTFS nên mới có thể chép các file có dung lượng lớn)
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Tài liệu:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://anh-dv.com/winpe/tao-usb-boot-uefi-legacy-cuu-ho-may-tinh-chuyen
+https://www.youtube.com/watch?v=l-ZzuBV-HKg&amp;amp;list=PL7Gq3F-DZa6mb_RutcFzSVQhYvi1QAxiZ&amp;amp;index=3&amp;amp;pp=gAQBiAQB
+https://www.youtube.com/watch?v=A2zYziFCgf0&amp;amp;list=PL7Gq3F-DZa6mb_RutcFzSVQhYvi1QAxiZ&amp;amp;index=4&amp;amp;pp=gAQBiAQB
+https://www.youtube.com/watch?v=g2tDjh7v-Ok&amp;amp;list=PL7Gq3F-DZa6mb_RutcFzSVQhYvi1QAxiZ&amp;amp;index=6&amp;amp;pp=gAQBiAQB
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;qemuboottester&#34;&gt;QemuBootTester&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Sau khi tạo xong USB Boot thì mình có thể dùng phần mềm này để test USB-Boot.&lt;/li&gt;
+&lt;li&gt;Tham khảo tài liệu:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://www.phukienusb.com/2021/03/download-phan-mem-test-kha-nang-boot-tu.html
+https://quantrimang.com/cong-nghe/lam-the-nao-de-kiem-tra-usb-boot-da-duoc-tao-thanh-cong-hay-chua-133082#google_vignette
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;h2 id=&#34;tài-liệu-tham-khảo-khác&#34;&gt;Tài liệu tham khảo khác:&lt;/h2&gt;
+&lt;h3 id=&#34;phím-tắt-vào-bios-và-boot-options-của-các-hãng-máy-tínhhttpsanh-dvcomthu-thuat-hayphim-tat-vao-bios-va-boot-options-cac-hang-may-tinh&#34;&gt;&lt;a href=&#34;https://anh-dv.com/thu-thuat-hay/phim-tat-vao-bios-va-boot-options-cac-hang-may-tinh&#34;&gt;Phím tắt vào BIOS và Boot Options của các hãng máy tính&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;tổng-hợp-những-lỗi-cài-đặt-windows-lỗi-cài-win-và-cách-khắc-phụchttpsanh-dvcomos-windowsloi-cai-dat-windows-va-cach-khac-phuc&#34;&gt;&lt;a href=&#34;https://anh-dv.com/os-windows/loi-cai-dat-windows-va-cach-khac-phuc&#34;&gt;Tổng hợp những lỗi cài đặt windows (lỗi cài Win) và cách khắc phục&lt;/a&gt;&lt;/h3&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/others/usb_boot/</guid>
+      <pubDate>Tue, 11 Mar 2025 15:11:55 +0700</pubDate>
+    </item>
+    
+    <item>
+      <title>Backup_Tools</title>
+      <link>https://vinhlin.github.io/posts/system-devops/backup_tools/</link>
+      <description>&lt;p&gt;Đây sẽ là những công cụ giúp mình backup dữ liệu, có thể lưu trên NAS, Cloud,&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Các công cụ này có thể cài đặt trên máy tính cá nhân, hoặc server để backup dữ liệu.&lt;/p&gt;
+&lt;p&gt;Mình thấy giống như việc mình có một tài khoản Google-Drive &lt;em&gt;(lúc này mình có khoảng 15GB lưu trữ)&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Nếu mình không muốn cứ phải thực hiện sao lưu thủ công, thì mình có thể cài đặt phần mềm &lt;strong&gt;Google Drive for Desktop&lt;/strong&gt; để thực hiện &lt;strong&gt;backup (sao lưu) và sync (đồng bộ hóa)&lt;/strong&gt; thư mục.&lt;/p&gt;
+&lt;p&gt;Tương tự như vậy, mình có NAS (OMV) là nơi lưu trữ, bây giờ mình muốn có một tool để tự động thực hiện &lt;strong&gt;sao lưu&lt;/strong&gt; thì có thể dùng &lt;strong&gt;Kopia&lt;/strong&gt; hoặc &lt;strong&gt;Duplicati&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;(Kopia hay Duplicati là công cụ sao lưu (backup) thôi, chứ không phải đồng bộ hóa (sync). Thuật ngữ backup và sync mang ý nghĩa khác nhau)&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;kopiahttpsgithubcomkopiakopia&#34;&gt;&lt;a href=&#34;https://github.com/kopia/kopia&#34;&gt;Kopia&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Kopia là một &lt;strong&gt;công cụ sao lưu (backup tool) mã nguồn mở&lt;/strong&gt;, được thiết kế để sao lưu và khôi phục dữ liệu từ nhiều nguồn khác nhau (máy tính, máy chủ, đám mây).&lt;/li&gt;
+&lt;li&gt;Chức năng chính:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Sao lưu dữ liệu:&lt;/strong&gt; Kopia có thể sao lưu tệp từ máy tính cá nhân hoặc máy chủ lên nhiều đích đến như ổ cứng cục bộ, NAS, hoặc dịch vụ đám mây (Google Drive, Amazon S3, Backblaze, v.v.).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nén và mã hóa:&lt;/strong&gt; Dữ liệu được nén để tiết kiệm dung lượng và mã hóa để bảo mật.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tăng tốc độ:&lt;/strong&gt; Kopia nổi bật với tốc độ sao lưu nhanh nhờ cơ chế xử lý song song và chống trùng lặp dữ liệu (deduplication).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Snapshot:&lt;/strong&gt; Hỗ trợ tạo snapshot (ảnh chụp dữ liệu tại thời điểm cụ thể) để khôi phục phiên bản cũ của tệp.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Tài liệu tham khảo:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://voz.vn/t/kopia-cong-cu-backup-du-lieu-ma-nguon-mo.993353/
+https://www.youtube.com/watch?v=a6GfQy9wZfA&amp;amp;list=WL&amp;amp;index=4
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;duplicati&#34;&gt;Duplicati&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=JoA6Bezgk1c&amp;amp;list=WL&amp;amp;index=107&#34;&gt;Youtube: Backup in Linux Servers - Docker Volumes, and Databases&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Theo như video, thì ở đây sử dụng một open-source tên là &lt;a href=&#34;https://www.duplicati.com/download&#34;&gt;duplicati&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://duplicati.readthedocs.io/en/latest/01-introduction/&#34;&gt;Documents của Duplicati&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;cài-đặt-duplicati-bằng-docker&#34;&gt;Cài đặt Duplicati bằng Docker&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.linuxserver.io/images/docker-duplicati&#34;&gt;linuxserver/duplicati&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/christianlempa/videos/tree/main/duplicati-tutorial&#34;&gt;duplicati-tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;script-thực-hiện-việc-auto-backuphttpsgithubcomchristianlempascriptstreemaindb-container-backup&#34;&gt;&lt;a href=&#34;https://github.com/ChristianLempa/scripts/tree/main/db-container-backup&#34;&gt;Script thực hiện việc auto-backup&lt;/a&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=wvsi3QilNQ8&#34;&gt;Tham khảo khác&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;so-sánh-kopia-và-duplicati&#34;&gt;So sánh Kopia và Duplicati&lt;/h2&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/Backup_Tools/Hinh_1.png&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Kopia: Tập trung vào hiệu suất và chống trùng lặp dữ liệu mạnh mẽ, nhưng thiếu hỗ trợ VSS, giới hạn khả năng sao lưu tệp đang sử dụng trên Windows.&lt;/li&gt;
+&lt;li&gt;Duplicati: Hỗ trợ VSS (Volume Shadow Copy Service) trên Windows, cho phép sao lưu dữ liệu đang mở (như Outlook PST), và có danh sách đích đến đám mây rộng hơn.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/Backup_Tools/Hinh_2.png&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Chọn Kopia nếu:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Bạn cần sao lưu nhanh, hiệu suất cao với dữ liệu lớn.
+Bạn không cần sao lưu tệp đang sử dụng trên Windows (VSS).
+Bạn thoải mái với CLI hoặc cần công cụ nhẹ cho máy chủ.
+Ví dụ: Sao lưu máy chủ Linux, NAS, hoặc dữ liệu không thay đổi thường xuyên.
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Chọn Duplicati nếu:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Bạn muốn giao diện dễ dùng và không cần nhiều kiến thức kỹ thuật.
+Bạn cần sao lưu tệp đang sử dụng trên Windows (như Outlook, cơ sở dữ liệu).
+Bạn muốn tích hợp với nhiều dịch vụ đám mây phổ biến.
+Ví dụ: Sao lưu máy tính cá nhân, dữ liệu đám mây cho gia đình.
+&lt;/code&gt;&lt;/pre&gt;</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/system-devops/backup_tools/</guid>
+      <pubDate>Tue, 11 Mar 2025 15:08:23 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Web_Crawler</title>
       <link>https://vinhlin.github.io/posts/system-devops/web_crawler/</link>
       <description>&lt;blockquote&gt;
@@ -82,6 +245,79 @@ Quá trình này thường được thực hiện một cách có hệ thống v
       <author>VinhLD</author>
       <guid>https://vinhlin.github.io/posts/system-devops/web_crawler/</guid>
       <pubDate>Sun, 09 Mar 2025 13:16:25 +0700</pubDate>
+    </item>
+    
+    <item>
+      <title>Desktop_App</title>
+      <link>https://vinhlin.github.io/posts/iot/software/desktop_app/</link>
+      <description>&lt;h3 id=&#34;changelog&#34;&gt;Changelog:&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;18/1/2025: Khởi tạo bài viết về Desktop App
+9/3/2025: Cập nhật thông tin về Slint GUI toolkit
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Trong việc viết một desktop app thì có rất nhiều xu hướng, có thể dùng C#, C++ hoặc Rust.&lt;/p&gt;
+&lt;p&gt;Mình có tham khảo về việc dùng Rust để viết Desktop App. &lt;a href=&#34;https://blog.logrocket.com/build-desktop-app-qt-rust/&#34;&gt;Rust Desktop app docs&lt;/a&gt;
+Framework mình tham khảo là &lt;strong&gt;Tauri&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://tauri.app/
+https://www.twilio.com/en-us/blog/build-a-cross-platform-desktop-application-with-rust-using-tauri
+https://v1.tauri.app/v1/guides/getting-started/setup/
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Tuy nhiên có thể mình sẽ chọn C++ để viết app. Lý do:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Thứ 1: Mình không muốn quên đi cách dùng ngôn ngữ C++ &lt;em&gt;(nếu lâu quá không dùng thì sẽ dẫn đến quên)&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Thứ 2: Mình đã có khoảng thời gian gần 1 tháng tìm hiểu về một công cụ tên là &lt;strong&gt;C++ Builder&lt;/strong&gt;, mình thấy công cụ này khá hay, và đáp ứng đc lý do thứ 1. &lt;em&gt;(Ngoài ra mình cũng không muốn lãng phí 1 tháng đó. =]])&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;c-builder&#34;&gt;C++ Builder:&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://blogs.embarcadero.com/everything-you-need-to-create-windows-apps-with-c/
+https://devblogs.microsoft.com/cppblog/windows-desktop-development-with-c-in-visual-studio/
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Theo mình tìm hiểu thì công cụ &lt;strong&gt;C++ Builder&lt;/strong&gt; giúp mình có thể phát triển &lt;strong&gt;nhanh&lt;/strong&gt; một app dành cho Windows. Công cụ này hỗ trợ gần như &lt;strong&gt;tận răng&lt;/strong&gt; cho developer.&lt;/li&gt;
+&lt;li&gt;C++ Builder đại đa số các extension của nó đều &lt;strong&gt;trả phí&lt;/strong&gt;, tất nhiên vẫn có &lt;strong&gt;free&lt;/strong&gt;, tuy nhiên việc code sẽ khó khăn hơn.&lt;/li&gt;
+&lt;li&gt;Mình thấy các app dành cho Windows sẽ vẫn có một vị trí nhất định, và mình đã thấy các ứng dụng IoT cho desktop app được ứng dụng trong đời sống.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ứng-dụng-giữ-xe-thông-minh&#34;&gt;Ứng dụng giữ xe thông minh.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Một app chạy trên Windows, kết nối với thiết bị đọc RFID, Camera,&amp;hellip;&lt;/li&gt;
+&lt;li&gt;Tag thẻ để nhận diện, camera chụp ảnh,&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ứng-dụng-quản-lý-hàng-hóa&#34;&gt;Ứng dụng quản lý hàng hóa&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Thiết bị quét mã vạch kết nối với PC, khi quét app sẽ kiểm tra trong database và gửi ra thông tin.&lt;/li&gt;
+&lt;li&gt;Có thể kết hợp với loa thông báo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://i0.wp.com/blogs.embarcadero.com/wp-content/uploads/2020/08/jljleH.jpg?resize=512%2C256&amp;amp;ssl=1&#34;
+  alt=&#34;C&amp;#43;&amp;#43; Builder&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;cập-nhật-932025&#34;&gt;Cập nhật: 9/3/2025&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Slint là một bộ công cụ giao diện người dùng (GUI) khai báo, được thiết kế để xây dựng giao diện người dùng tự nhiên cho các ứng dụng trên nhiều nền tảng khác nhau, bao gồm nhúng, máy tính để bàn và web.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;các-tính-năng-chính-của-slint&#34;&gt;Các tính năng chính của Slint:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Đa ngôn ngữ lập trình:&lt;/strong&gt; Slint hỗ trợ viết logic ứng dụng bằng Rust, C++, JavaScript và Python, giúp nó linh hoạt cho các nhà phát triển sử dụng ngôn ngữ yêu thích của họ.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nhẹ và hiệu quả:&lt;/strong&gt; Slint được thiết kế để sử dụng ít tài nguyên, với thời gian chạy chỉ chiếm dưới 300KiB RAM.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Đa nền tảng:&lt;/strong&gt; Nó hỗ trợ nhiều hệ điều hành và kiến trúc bộ vi xử lý, bao gồm Linux, macOS, Windows, WebAssembly, QNX, và thậm chí cả các hệ thống không có hệ điều hành (bare-metal).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ngôn ngữ khai báo:&lt;/strong&gt; Slint sử dụng một ngôn ngữ đặc thù (Domain Specific Language - DSL) riêng, tương tự như QML hoặc XAML, để mô tả giao diện người dùng.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ứng-dụng-thực-tế&#34;&gt;Ứng dụng thực tế&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Thích hợp cho &lt;strong&gt;thiết bị nhúng&lt;/strong&gt; (ví dụ: HMI cho xe điện của SK Signet), ứng dụng nhẹ, hoặc các dự án cần hỗ trợ đa nền tảng tối ưu.&lt;/li&gt;
+&lt;li&gt;Đang được dùng trong các lĩnh vực như âm thanh (WesAudio), tự động hóa đường sắt (OTIV).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;documentshttpsdocsslintdevlatestdocsslint&#34;&gt;&lt;a href=&#34;https://docs.slint.dev/latest/docs/slint/&#34;&gt;Documents&lt;/a&gt;:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/slint-ui/slint&#34;&gt;Github Project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://slint.dev/supported-boards&#34;&gt;Supported Boards&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://slint.dev/demos&#34;&gt;Demos&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/iot/software/desktop_app/</guid>
+      <pubDate>Sun, 09 Mar 2025 12:22:45 +0700</pubDate>
     </item>
     
     <item>
@@ -609,47 +845,10 @@ Platform
 /&gt;
 
 &lt;/p&gt;
-</description>
-      <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/system-devops/raid/</guid>
-      <pubDate>Sun, 19 Jan 2025 15:46:29 +0700</pubDate>
-    </item>
-    
-    <item>
-      <title>Desktop_App</title>
-      <link>https://vinhlin.github.io/posts/iot/software/desktop_app/</link>
-      <description>&lt;p&gt;Trong việc viết một desktop app thì có rất nhiều xu hướng, có thể dùng C#, C++ hoặc Rust.&lt;/p&gt;
-&lt;p&gt;Mình có tham khảo về việc dùng Rust để viết Desktop App. &lt;a href=&#34;https://blog.logrocket.com/build-desktop-app-qt-rust/&#34;&gt;Rust Desktop app docs&lt;/a&gt;
-Framework mình tham khảo là &lt;strong&gt;Tauri&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://tauri.app/
-https://www.twilio.com/en-us/blog/build-a-cross-platform-desktop-application-with-rust-using-tauri
-https://v1.tauri.app/v1/guides/getting-started/setup/
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Tuy nhiên có thể mình sẽ chọn C++ để viết app. Lý do:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Thứ 1: Mình không muốn quên đi cách dùng ngôn ngữ C++ &lt;em&gt;(nếu lâu quá không dùng thì sẽ dẫn đến quên)&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;Thứ 2: Mình đã có khoảng thời gian gần 1 tháng tìm hiểu về một công cụ tên là &lt;strong&gt;C++ Builder&lt;/strong&gt;, mình thấy công cụ này khá hay, và đáp ứng đc lý do thứ 1. &lt;em&gt;(Ngoài ra mình cũng không muốn lãng phí 1 tháng đó. =]])&lt;/em&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;c-builder&#34;&gt;C++ Builder:&lt;/h2&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://blogs.embarcadero.com/everything-you-need-to-create-windows-apps-with-c/
-https://devblogs.microsoft.com/cppblog/windows-desktop-development-with-c-in-visual-studio/
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
-&lt;li&gt;Theo mình tìm hiểu thì công cụ &lt;strong&gt;C++ Builder&lt;/strong&gt; giúp mình có thể phát triển &lt;strong&gt;nhanh&lt;/strong&gt; một app dành cho Windows. Công cụ này hỗ trợ gần như &lt;strong&gt;tận răng&lt;/strong&gt; cho developer.&lt;/li&gt;
-&lt;li&gt;C++ Builder đại đa số các extension của nó đều &lt;strong&gt;trả phí&lt;/strong&gt;, tất nhiên vẫn có &lt;strong&gt;free&lt;/strong&gt;, tuy nhiên việc code sẽ khó khăn hơn.&lt;/li&gt;
-&lt;li&gt;Mình thấy các app dành cho Windows sẽ vẫn có một vị trí nhất định, và mình đã thấy các ứng dụng IoT cho desktop app được ứng dụng trong đời sống.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;ứng-dụng-giữ-xe-thông-minh&#34;&gt;Ứng dụng giữ xe thông minh.&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Một app chạy trên Windows, kết nối với thiết bị đọc RFID, Camera,&amp;hellip;&lt;/li&gt;
-&lt;li&gt;Tag thẻ để nhận diện, camera chụp ảnh,&amp;hellip;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;ứng-dụng-quản-lý-hàng-hóa&#34;&gt;Ứng dụng quản lý hàng hóa&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Thiết bị quét mã vạch kết nối với PC, khi quét app sẽ kiểm tra trong database và gửi ra thông tin.&lt;/li&gt;
-&lt;li&gt;Có thể kết hợp với loa thông báo.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h2 id=&#34;raid_overview&#34;&gt;RAID_Overview&lt;/h2&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://i0.wp.com/blogs.embarcadero.com/wp-content/uploads/2020/08/jljleH.jpg?resize=512%2C256&amp;amp;ssl=1&#34;
-  alt=&#34;C&amp;#43;&amp;#43; Builder&#34;
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/RAID/RAID_Overview.jpg&#34;
+  alt=&#34;RAID_Overview&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
   class=&#34;full-width&#34;
@@ -658,8 +857,8 @@ https://devblogs.microsoft.com/cppblog/windows-desktop-development-with-c-in-vis
 &lt;/p&gt;
 </description>
       <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/iot/software/desktop_app/</guid>
-      <pubDate>Sat, 18 Jan 2025 12:22:45 +0700</pubDate>
+      <guid>https://vinhlin.github.io/posts/system-devops/raid/</guid>
+      <pubDate>Sun, 19 Jan 2025 15:46:29 +0700</pubDate>
     </item>
     
     <item>
@@ -4125,21 +4324,6 @@ https://cuckoosandbox.org/blog/207-interim-release
 &lt;li&gt;&lt;a href=&#34;https://docs.bunkerweb.io/latest/?utm_campaign=self&amp;amp;utm_source=bunkerwebio#overview&#34;&gt;https://docs.bunkerweb.io/latest/?utm_campaign=self&amp;amp;utm_source=bunkerwebio#overview&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://demo.bunkerweb.io/&#34;&gt;https://demo.bunkerweb.io/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@bunkerity4183/videos&#34;&gt;https://www.youtube.com/@bunkerity4183/videos&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;duplicati&#34;&gt;Duplicati&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=JoA6Bezgk1c&amp;amp;list=WL&amp;amp;index=107&#34;&gt;Youtube: Backup in Linux Servers - Docker Volumes, and Databases&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Theo như video, thì ở đây sử dụng một open-source tên là &lt;a href=&#34;https://www.duplicati.com/download&#34;&gt;duplicati&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://duplicati.readthedocs.io/en/latest/01-introduction/&#34;&gt;Documents của Duplicati&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;cài-đặt-duplicati-bằng-docker&#34;&gt;Cài đặt Duplicati bằng Docker&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.linuxserver.io/images/docker-duplicati&#34;&gt;linuxserver/duplicati&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/christianlempa/videos/tree/main/duplicati-tutorial&#34;&gt;duplicati-tutorial&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;script-thực-hiện-việc-auto-backuphttpsgithubcomchristianlempascriptstreemaindb-container-backup&#34;&gt;&lt;a href=&#34;https://github.com/ChristianLempa/scripts/tree/main/db-container-backup&#34;&gt;Script thực hiện việc auto-backup&lt;/a&gt;&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=wvsi3QilNQ8&#34;&gt;Tham khảo khác&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;nettacker-automated-penetration-testing-framework---open-source-vulnerability-scanner---vulnerability-management&#34;&gt;Nettacker: Automated Penetration Testing Framework - Open-Source Vulnerability Scanner - Vulnerability Management&lt;/h3&gt;
 &lt;ul&gt;

@@ -39,16 +39,6 @@ https://cuckoosandbox.org/blog/207-interim-release
 - https://demo.bunkerweb.io/
 - https://www.youtube.com/@bunkerity4183/videos
 
-### Duplicati
-- [Youtube: Backup in Linux Servers - Docker Volumes, and Databases](https://www.youtube.com/watch?v=JoA6Bezgk1c&list=WL&index=107)
-- Theo như video, thì ở đây sử dụng một open-source tên là [duplicati](https://www.duplicati.com/download)
-- [Documents của Duplicati](https://duplicati.readthedocs.io/en/latest/01-introduction/)
-#### Cài đặt Duplicati bằng Docker
-- [linuxserver/duplicati](https://docs.linuxserver.io/images/docker-duplicati)
-- [duplicati-tutorial](https://github.com/christianlempa/videos/tree/main/duplicati-tutorial)
-#### [Script thực hiện việc auto-backup](https://github.com/ChristianLempa/scripts/tree/main/db-container-backup)
-- [Tham khảo khác](https://www.youtube.com/watch?v=wvsi3QilNQ8)
-
 ### Nettacker: Automated Penetration Testing Framework - Open-Source Vulnerability Scanner - Vulnerability Management
 - Github Project: [Nettacker](https://github.com/OWASP/Nettacker)
 - Documents: https://owasp.org/www-project-nettacker/

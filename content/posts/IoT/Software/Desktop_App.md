@@ -1,8 +1,14 @@
 +++
 title = 'Desktop_App'
-date = 2025-01-18T12:22:45+07:00
+date = 2025-03-09T12:22:45+07:00
 draft = true
 +++
+
+### Changelog:
+```
+18/1/2025: Khởi tạo bài viết về Desktop App
+9/3/2025: Cập nhật thông tin về Slint GUI toolkit
+```
 
 Trong việc viết một desktop app thì có rất nhiều xu hướng, có thể dùng C#, C++ hoặc Rust.
 
@@ -36,3 +42,30 @@ https://devblogs.microsoft.com/cppblog/windows-desktop-development-with-c-in-vis
 - Có thể kết hợp với loa thông báo.
 
 ![C++ Builder](https://i0.wp.com/blogs.embarcadero.com/wp-content/uploads/2020/08/jljleH.jpg?resize=512%2C256&ssl=1)
+
+-------------------------------------------------------------------------------------
+## Cập nhật: 9/3/2025
+> Slint là một bộ công cụ giao diện người dùng (GUI) khai báo, được thiết kế để xây dựng giao diện người dùng tự nhiên cho các ứng dụng trên nhiều nền tảng khác nhau, bao gồm nhúng, máy tính để bàn và web. 
+
+### Các tính năng chính của Slint:
+- **Đa ngôn ngữ lập trình:** Slint hỗ trợ viết logic ứng dụng bằng Rust, C++, JavaScript và Python, giúp nó linh hoạt cho các nhà phát triển sử dụng ngôn ngữ yêu thích của họ.
+- **Nhẹ và hiệu quả:** Slint được thiết kế để sử dụng ít tài nguyên, với thời gian chạy chỉ chiếm dưới 300KiB RAM.
+- **Đa nền tảng:** Nó hỗ trợ nhiều hệ điều hành và kiến trúc bộ vi xử lý, bao gồm Linux, macOS, Windows, WebAssembly, QNX, và thậm chí cả các hệ thống không có hệ điều hành (bare-metal).
+- **Ngôn ngữ khai báo:** Slint sử dụng một ngôn ngữ đặc thù (Domain Specific Language - DSL) riêng, tương tự như QML hoặc XAML, để mô tả giao diện người dùng.
+
+### Ứng dụng thực tế
+- Thích hợp cho **thiết bị nhúng** (ví dụ: HMI cho xe điện của SK Signet), ứng dụng nhẹ, hoặc các dự án cần hỗ trợ đa nền tảng tối ưu.
+- Đang được dùng trong các lĩnh vực như âm thanh (WesAudio), tự động hóa đường sắt (OTIV).
+
+### [Documents](https://docs.slint.dev/latest/docs/slint/):
+- [Github Project](https://github.com/slint-ui/slint)
+- [Supported Boards](https://slint.dev/supported-boards)
+- [Demos](https://slint.dev/demos)
+
+
+
+
+
+
+
+

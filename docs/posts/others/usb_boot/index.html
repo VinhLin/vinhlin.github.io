@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Liste - https://vinhlin.github.io/">
+    <title>USB_Boot | VinhLin</title>
+    <meta name="description" content="Technology Blog">
+    <meta property="og:title" content="USB_Boot" />
+<meta property="og:description" content="Trong quá trình sử dụng Windows (hoặc đối với một người IT Support) thì việc xử lý lỗi về máy tính là rất cần thiết.
+Về phần mềm hoặc OS thì việc tạo một USB-Boot (hay USB cứu hộ) là vô cùng quan trọng.
+Sẵn việc tìm hiểu lại cách tạo USB-Boot (do cần phải sửa lỗi máy tính), nên mình sẽ documents lại những gì mình đã tìm hiểu được." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://vinhlin.github.io/posts/others/usb_boot/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2025-03-11T15:11:55+07:00" />
+<meta property="article:modified_time" content="2025-03-11T15:11:55+07:00" />
+
+    <meta itemprop="name" content="USB_Boot">
+<meta itemprop="description" content="Trong quá trình sử dụng Windows (hoặc đối với một người IT Support) thì việc xử lý lỗi về máy tính là rất cần thiết.
+Về phần mềm hoặc OS thì việc tạo một USB-Boot (hay USB cứu hộ) là vô cùng quan trọng.
+Sẵn việc tìm hiểu lại cách tạo USB-Boot (do cần phải sửa lỗi máy tính), nên mình sẽ documents lại những gì mình đã tìm hiểu được."><meta itemprop="datePublished" content="2025-03-11T15:11:55+07:00" />
+<meta itemprop="dateModified" content="2025-03-11T15:11:55+07:00" />
+<meta itemprop="wordCount" content="334">
+<meta itemprop="keywords" content="" />
+    
+    <link rel="canonical" href="https://vinhlin.github.io/posts/others/usb_boot/">
+    <link rel="icon" href="https://vinhlin.github.io//assets/favicon.ico">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
+    <link rel="alternate" type="application/atom+xml" title="VinhLin" href="https://vinhlin.github.io//atom.xml" />
+    <link rel="alternate" type="application/json" title="VinhLin" href="https://vinhlin.github.io//feed.json" />
+    <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=">
+    
+    
+    <style>*,:after,:before{box-sizing:border-box;padding:0}body{font:1rem/1.5 '-apple-system',BlinkMacSystemFont,avenir next,avenir,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding:2rem;background:#f5f5f5;color:#000}.skip-link{position:absolute;top:-40px;left:0;background:#eee;z-index:100}.skip-link:focus{top:0}h1,h2,h3,h4,h5,strong,b{font-size:inherit;font-weight:600}header{line-height:2;padding-bottom:1.5rem}.link{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-decoration:none}.time{font-variant-numeric:tabular-nums;white-space:nowrap}blockquote{border-left:5px solid #eee;padding-left:1rem;margin:0}a,a:visited{color:inherit}a:hover,a.heading-link{text-decoration:none}pre{padding:.5rem;overflow:auto;overflow-x:scroll;overflow-wrap:normal}code,pre{font-family:San Francisco Mono,Monaco,consolas,lucida console,dejavu sans mono,bitstream vera sans mono,monospace;font-size:normal;font-size:small;background:#eee}code{margin:.1rem;border:none}ul{list-style-type:square}ul,ol{padding-left:1.2rem}.list{line-height:2;list-style-type:none;padding-left:0}.list li{padding-bottom:.1rem}.meta{color:#777}.content{max-width:70ch;margin:0 auto}header{line-height:2;display:flex;justify-content:space-between;padding-bottom:1rem}header a{text-decoration:none}header ul{list-style-type:none;padding:0}header li,header a{display:inline}h2.post{padding-top:.5rem}header ul a:first-child{padding-left:1rem}.nav{height:1px;background:#000;content:'';max-width:10%}.list li{display:flex;align-items:baseline}.list li time{flex:initial}.hr-list{margin-top:0;margin-bottom:0;margin-right:.5rem;margin-left:.5rem;height:1px;border:0;border-bottom:1px dotted #ccc;flex:1 0 1rem}.m,hr{border:0;margin:3rem 0}img{max-width:100%;height:auto}.post-date{margin:5% 0}.index-date{color:#9a9a9a}.animate-blink{animation:opacity 1s infinite;opacity:1}@keyframes opacity{0%{opacity:1}50%{opacity:.5}100%{opacity:0}}.tags{display:flex;justify-content:space-between}.tags ul{padding:0;margin:0}.tags li{display:inline}.avatar{height:120px;width:120px;position:relative;margin:-10px 0 0 15px;float:right;border-radius:50%}table{width:100%;border-collapse:collapse}th,td{border:1px solid #ddd;text-align:left;padding:8px}th{background-color:#f2f2f2} </style>
+  
+    
+  
+  
+  <script type="application/ld+json">
+  {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "articleSection": "posts",
+      "name": "USB_Boot",
+      "headline": "USB_Boot",
+      "alternativeHeadline": "",
+      "description": "Trong quá trình sử dụng Windows (hoặc đối với một người IT Support) thì việc xử lý lỗi về máy tính là rất cần thiết.\nVề phần mềm hoặc OS thì việc tạo một USB-Boot (hay USB cứu hộ) là vô cùng quan trọng.\nSẵn việc tìm hiểu lại cách tạo USB-Boot (do cần phải sửa lỗi máy tính), nên mình sẽ documents lại những gì mình đã tìm hiểu được.",
+      "inLanguage": "en-us",
+      "isFamilyFriendly": "true",
+      "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https:\/\/vinhlin.github.io\/posts\/others\/usb_boot\/"
+      },
+      "author" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "creator" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "accountablePerson" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "copyrightHolder" : "VinhLin",
+      "copyrightYear" : "2025",
+      "dateCreated": "2025-03-11T15:11:55.00Z",
+      "datePublished": "2025-03-11T15:11:55.00Z",
+      "dateModified": "2025-03-11T15:11:55.00Z",
+      "publisher":{
+          "@type":"Organization",
+          "name": "VinhLin",
+          "url": "https://vinhlin.github.io/",
+          "logo": {
+              "@type": "ImageObject",
+              "url": "https:\/\/vinhlin.github.io\/assets\/favicon.ico",
+              "width":"32",
+              "height":"32"
+          }
+      },
+      "image": "https://vinhlin.github.io/assets/favicon.ico",
+      "url" : "https:\/\/vinhlin.github.io\/posts\/others\/usb_boot\/",
+      "wordCount" : "334",
+      "genre" : [ ],
+      "keywords" : [ ]
+  }
+  </script>
+  
+  
+  </head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main</a>
+  <main id="main">
+  <div class="content">
+    <header>
+<p style="padding: 0;margin: 0;">
+  <a href="/">
+    <b>VinhLin</b>
+    <span class="text-stone-500 animate-blink">▮</span>
+  </a>
+</p>
+<ul style="padding: 0;margin: 0;">
+  
+  
+  <li class="">
+    <a href="/changelog/"><span>Changelog</span></a>
+    
+  <li class="">
+    <a href="/posts/"><span>Post</span></a>
+    
+  <li class="">
+    <a href="/about/"><span>About</span></a>
+    
+  </li>
+</ul>
+</header>
+<hr class="hr-list" style="padding: 0;margin: 0;">
+    <section>
+      <h2 class="post">USB_Boot</h2>
+      <p>Trong quá trình sử dụng Windows (hoặc đối với một người IT Support) thì việc xử lý lỗi về máy tính là rất cần thiết.</p>
+<p>Về phần mềm hoặc OS thì việc tạo một USB-Boot <em>(hay USB cứu hộ)</em> là vô cùng quan trọng.</p>
+<p>Sẵn việc tìm hiểu lại cách tạo USB-Boot <em>(do cần phải sửa lỗi máy tính)</em>, nên mình sẽ documents lại những gì mình đã tìm hiểu được.</p>
+<h3 id="download-win10-iso-file">Download Win10 <em>(ISO File)</em></h3>
+<ul>
+<li>Theo các trang thao khảo thì hiện tại Win 10 không cho tải trực tiếp file ISO trên PC, mà chỉ có thể tải trên điện thoai.</li>
+<li>Nên mình sẽ cần thực hiện một số thủ thuật để có thể tải file ISO; <a href="https://www.anphatpc.com.vn/tai-windows-10-file-iso-sach-nguyen-goc-nhanh-muot.html">tham khảo</a></li>
+<li>Truy cập đường dẫn đến trang chủ Windows 10, <a href="https://www.microsoft.com/en-au/software-download/windows10">download ISO</a></li>
+</ul>
+<p><img
+  src="/image/Others/USB_Boot/Hinh_1.png"
+  alt="Hình 1"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<ul>
+<li>Mình thiết lập là <strong>Safari - iPad</strong>, lúc này chọn tiếp theo hướng dẫn.</li>
+<li>Mình đã có thể download được file ISO.</li>
+</ul>
+<h3 id="winaio-maker-professional">WinAIO Maker Professional</h3>
+<ul>
+<li>Đây là phần mềm giúp mình <strong>gộp hoặc lựa chọn nhiều file ISO Win</strong> vào một file ISO duy nhất.</li>
+<li>Download phần mềm, <a href="https://taimienphi.vn/download-winaio-maker-professional-16781/taive">taimienphi</a></li>
+<li>Tài liệu:</li>
+</ul>
+<pre tabindex="0"><code>https://www.youtube.com/watch?v=PvS7AaxA4PY&amp;list=PL7Gq3F-DZa6mb_RutcFzSVQhYvi1QAxiZ&amp;index=2
+https://blogchiasekienthuc.com/thu-thuat-may-tinh/cach-tao-bo-cai-windows-aio.html
+</code></pre><h3 id="anhdv-boothttpsanhdvbootcom"><a href="https://anhdvboot.com/">AnhDV Boot</a></h3>
+<ul>
+<li>Download <a href="https://anhdvboot.com/tai-ve/">Anhdv Boot</a></li>
+</ul>
+<pre tabindex="0"><code>Sử dụng bản free
+Pass: anhdvboot.com
+</code></pre><ul>
+<li>Đây là một <strong>phần mềm cứu hộ máy tính</strong>, được rất nhiều người tin dùng.</li>
+<li>Khi đã giải nén xong, mình chạy file <code>_One_Click_USB_HDD_Anhdv_Boot.bat</code> dưới quyền <strong>Admin</strong> để thực hiện tạo USB-Boot.</li>
+</ul>
+<p><img
+  src="/image/Others/USB_Boot/Hinh_2.png"
+  alt="Hình 2"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<ul>
+<li>Khi tạo xong mình sẽ có 2 phân vùng:</li>
+</ul>
+<pre tabindex="0"><code>Phân vùng Boot (đình dạng FAT32)
+Phân vùng DATA (định dạng NTFS): Phân vùng này là để chép các file ISO (nhờ có định dạng NTFS nên mới có thể chép các file có dung lượng lớn)
+</code></pre><ul>
+<li>Tài liệu:</li>
+</ul>
+<pre tabindex="0"><code>https://anh-dv.com/winpe/tao-usb-boot-uefi-legacy-cuu-ho-may-tinh-chuyen
+https://www.youtube.com/watch?v=l-ZzuBV-HKg&amp;list=PL7Gq3F-DZa6mb_RutcFzSVQhYvi1QAxiZ&amp;index=3&amp;pp=gAQBiAQB
+https://www.youtube.com/watch?v=A2zYziFCgf0&amp;list=PL7Gq3F-DZa6mb_RutcFzSVQhYvi1QAxiZ&amp;index=4&amp;pp=gAQBiAQB
+https://www.youtube.com/watch?v=g2tDjh7v-Ok&amp;list=PL7Gq3F-DZa6mb_RutcFzSVQhYvi1QAxiZ&amp;index=6&amp;pp=gAQBiAQB
+</code></pre><h3 id="qemuboottester">QemuBootTester</h3>
+<ul>
+<li>Sau khi tạo xong USB Boot thì mình có thể dùng phần mềm này để test USB-Boot.</li>
+<li>Tham khảo tài liệu:</li>
+</ul>
+<pre tabindex="0"><code>https://www.phukienusb.com/2021/03/download-phan-mem-test-kha-nang-boot-tu.html
+https://quantrimang.com/cong-nghe/lam-the-nao-de-kiem-tra-usb-boot-da-duoc-tao-thanh-cong-hay-chua-133082#google_vignette
+</code></pre><hr>
+<h2 id="tài-liệu-tham-khảo-khác">Tài liệu tham khảo khác:</h2>
+<h3 id="phím-tắt-vào-bios-và-boot-options-của-các-hãng-máy-tínhhttpsanh-dvcomthu-thuat-hayphim-tat-vao-bios-va-boot-options-cac-hang-may-tinh"><a href="https://anh-dv.com/thu-thuat-hay/phim-tat-vao-bios-va-boot-options-cac-hang-may-tinh">Phím tắt vào BIOS và Boot Options của các hãng máy tính</a></h3>
+<h3 id="tổng-hợp-những-lỗi-cài-đặt-windows-lỗi-cài-win-và-cách-khắc-phụchttpsanh-dvcomos-windowsloi-cai-dat-windows-va-cach-khac-phuc"><a href="https://anh-dv.com/os-windows/loi-cai-dat-windows-va-cach-khac-phuc">Tổng hợp những lỗi cài đặt windows (lỗi cài Win) và cách khắc phục</a></h3>
+
+      
+      <div class="post-date">
+        <span class="g time">March 11, 2025 </span> &#8729;
+         
+      </div>
+      
+    </section>
+    
+    
+    
+  </div>
+</main>
+</body>
+</html>

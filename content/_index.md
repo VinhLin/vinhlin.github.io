@@ -12,7 +12,9 @@ Là một người có thói quen hay ghi chú những điều hay ho về **IoT
 
 Tình cờ thế nào mình biết được có thể host một trang web (*free*) bằng **Github Page**, kết hợp với [framework Hugo](https://gohugo.io/) để tạo **web tĩnh**. Và thế là trang blog này ra đời.
 
-Trang blog này như một **cuốn sổ tay cá nhân**, nơi mà mình ghi chú lại kiến thức mới mẻ, và đây cũng là nơi để mình ghi ra những suy nghĩ và danh sách những việc cần làm để update kiến thức cho bản thân.
+Trang blog này như một **cuốn sổ tay cá nhân**, nơi mà mình ghi chú lại những điều hay ho, kiến thức mới mẻ, cũng như cập nhật lại tri thức cũ.
+
+Đây cũng là nơi để mình ghi ra những suy nghĩ cá nhân và danh sách những việc cần làm để update bản thân, tránh bị tuột hậu so với thời đại.
 
 ## 👨‍💻 Dự án cá nhân: <mark>HOMELAB Server</mark>
 > Đây là dự án **đang được vận hành** bởi chính mình cho **cửa hàng tạp hóa nhỏ** của gia đình. </br>
@@ -36,7 +38,7 @@ Trang blog này như một **cuốn sổ tay cá nhân**, nơi mà mình ghi ch�
 ## 💬 Others Information:
 - 📺 Blog: https://vinhlin.github.io/
 - ❤️ Github: https://github.com/VinhLin
-- 📫 [Upwork Profile](https://www.upwork.com/freelancers/~017704277080c06f28?mp_source=share)
+- 📫 Linkedin Profile: https://www.linkedin.com/in/vinh-lin-3921a8191/
 
 ✔️ **My Dashboard HOMELAB Server**
 
