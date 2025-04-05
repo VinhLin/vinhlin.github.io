@@ -4,9 +4,11 @@ date = 2024-07-12T15:21:41+07:00
 draft = true
 +++
 
+# [My Resume](../CV_VinhLD_01042025.pdf)
+
 <h2 align="center">👋 A person loving and working in IoT & Cyber-Security</h2>
 
-# [My Resume](../CV_VinhLD_01042025.pdf)
+![Toy_Box](/image/Others/Hop_do_choi_AI/Hinh_2.png)
 
 Xin chào,
 
@@ -20,25 +22,11 @@ Cyber-Security là một lĩnh vực rất rộng, do đó với góc nhìn củ
 
 Security như một yếu tố cộng thêm (nhưng **cấp bách**) để bổ trợ cho vai trò chính nào đó, ví dụ như: Network Security, System Security, DevSecOps,...
 
-Do đó với *năng lực cốt lỗi* về ***Điện tử/IoT***, mình định hình bản thân phát triển trở thành một <mark>chuyên gia theo chiều ngang</mark>. Dựa vào kiến thức của bản thân, mình đã xây dựng cho bản thân roadmap `Embedded System Security`
+Do đó với *năng lực cốt lỗi* về ***Điện tử/IoT*** cộng thêm yêu thích về **Security**, một lĩnh vực *ngách* mà mình có thể theo đuổi đó là **IoT/Hardware Hacking**
 
-Cùng với các kỹ năng vệ tinh khác như: System, Security, Network, DevOps. Mình vẫn sẽ tiếp tục củng cố, trau dồi để *làm đầy roadmap này của bản thân*.
+Cùng với các kỹ năng vệ tinh khác như: System, Security, Network, DevOps. Mình định hình bản thân phát triển trở thành một <mark>chuyên gia theo chiều ngang</mark>.
 
-> Hello,
->
-> First, let me introduce myself. My name is **Lin Đức Vinh**.
->
-> I majored in **Electronic Physics** at the University of Science, and I am currently working in the **IoT** field.
->
-> With a passion for technology and the demands of the era, I gradually became involved in and developed myself in the field of **Cybersecurity**.
->
-> Cybersecurity is a vast field. From my perspective, unless you're working in the Banking & Finance sector (or Government-related areas), it’s difficult to focus solely on **Cybersecurity**.
->
-> Security often serves as an additional (but **urgent**) factor that supports another primary role, such as Network Security, System Security, DevSecOps, etc.
-> 
-> Therefore, with *my core expertise* in **Electronics/IoT**, I envision myself developing into a <mark>horizontally expert</mark>. Based on my knowledge, I have built a roadmap for myself in `Embedded System Security`.
->
-> Alongside other peripheral skills such as System, Security, Network, and DevOps, I will continue to strengthen and hone these skills to complete this roadmap.
+Mình vẫn sẽ tiếp tục củng cố, trau dồi để *làm đầy roadmap của bản thân*.
 
 ### Others:
 - Với mục tiêu là trở thành **chuyên gia theo chiều ngang**, nhưng điều đó không có nghĩa là *lan man*, *dàn trải*.
@@ -50,4 +38,5 @@ Cùng với các kỹ năng vệ tinh khác như: System, Security, Network, Dev
 ### Tham khảo [Embedded-Engineering-Roadmap](https://github.com/m3y54m/Embedded-Engineering-Roadmap)
 
 ![Roadmap](https://github.com/m3y54m/Embedded-Engineering-Roadmap/releases/latest/download/Embedded-Engineering-Roadmap.png)
+
 
