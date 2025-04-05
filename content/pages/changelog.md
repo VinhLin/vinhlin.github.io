@@ -168,6 +168,7 @@ STT |		Tiêu đề			|		Mô tả				|
 6   | [Grok_AI][Grok_AI]		| Cảm nghĩ và test thử **Grok 3** của **xAI**.		|
 7   | [Thao_tac_An_toan][Thao_tac_An_toan] | Note lại bài viết của **WhiteHat** về các thao tác an toàn trước dịp lễ |
 8   | [USB_Boot][USB_Boot]		| Ghi chú về cách tạo USB-Boot bằng **AnhDV-Boot**|
+9   | [Hop_do_choi_AI][Hop_do_choi_AI]	| Đu trend "Hộp đồ chơi AI"			|
 
 [Ngoai_ngu]: https://blog.vinhld-homelab.io.vn/posts/others/goc_nhin_ve_ngoai_ngu/
 [Hardware_Hacking]: https://blog.vinhld-homelab.io.vn/posts/others/suy_nghi_ve_hardware_hacking/
@@ -177,4 +178,4 @@ STT |		Tiêu đề			|		Mô tả				|
 [Grok_AI]: https://blog.vinhld-homelab.io.vn/posts/others/grok_ai/
 [Thao_tac_An_toan]: https://blog.vinhld-homelab.io.vn/posts/others/thao_tac_an_toan/
 [USB_Boot]: https://blog.vinhld-homelab.io.vn/posts/others/usb_boot/
-
+[Hop_do_choi_AI]: https://blog.vinhld-homelab.io.vn/posts/others/hop_do_choi_ai/

@@ -1,8 +1,14 @@
 +++
 title = 'Web_Crawler'
-date = 2025-03-09T13:16:25+07:00
+date = 2025-03-12T13:16:25+07:00
 draft = true
 +++
+
+### Changelog
+```
+9/3/2025: Khởi tạo bài viết Ghi chú về Web Crawler
+12/3/2025: Bổ sung một công cụ AI Crawler
+```
 
 > Web crawler (hay còn gọi là web spider, bot, hoặc crawler) là một chương trình hoặc phần mềm tự động được thiết kế để duyệt qua các trang web trên internet, thu thập thông tin và lập chỉ mục dữ liệu từ các trang đó. Web crawler hoạt động bằng cách truy cập một trang web, đọc nội dung, tìm các liên kết (link) trên trang, sau đó tiếp tục truy cập các liên kết đó để khám phá thêm các trang khác. </br>
 > Quá trình này thường được thực hiện một cách có hệ thống và liên tục.
@@ -19,7 +25,6 @@ draft = true
 
 ![Hình 2](/image/System-DevOps/Web_Crawler/Hinh_2.png)
 
---------------------------------------------------------------------------
 ## Công cụ [Firecrawl](https://github.com/mendableai/firecrawl)
 - Đây là một công cụ mã nguồn mở, có thể vào cả việc **crawl** và **scraping**.
 - Theo tài liệu thì công cụ này có thể **selft-hosted** hoặc đăng ký sử dụng free API *(bị giới hạn crawl khoảng 500 trang web và một số tính năng khác)*.
@@ -40,6 +45,20 @@ draft = true
 - **Markdown:** Phù hợp để dùng trực tiếp cho LLM *(cho việc huấn luyện AI)*.
 
 - **JSON:** Dữ liệu có cấu trúc (structured data) như danh sách sản phẩm, bài viết, v.v.
+
+---------------------------------------------------------------------------------------
+## Cập nhật: `12/3/2025`
+
+### AI Web Scraper: [Thunderbit](https://thunderbit.com/)
+- Tham khảo video: [Cào Mọi Thông Tin trên Website chỉ 2 Click bằng AI - Không code - Thunderbit](https://www.youtube.com/watch?v=qUTGm_uneLU&list=WL&index=2)
+- công cụ này mình có thể cài đặt, hoặc **add thêm extension cho Chrome**.
+- Mình xem video thì thấy công cụ này khá hay, dùng cho những người không chuyên quá nhiều về kỹ thuật.
+- Xem [pricing](https://thunderbit.com/pricing) thì bản free chỉ cho phép cào tối đa 6 trang web trong tháng.
+
+
+
+
+
 
 
 
