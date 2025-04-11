@@ -14,6 +14,43 @@
     
     
     <item>
+      <title>Gia_lap_sut_ap_ACC</title>
+      <link>https://vinhlin.github.io/posts/others/gia_lap_sut_ap_acc/</link>
+      <description>&lt;p&gt;Mình nhận được một đề bài đó là làm &amp;ldquo;Một bộ giả lập sụt áp, mất nguồn ACC&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Mô tả như sau tình trạng như sau:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Trên xe ô tô, khi mở khóa ACC &amp;mdash;&amp;gt; các thiết bị hoạt động. &lt;/br&gt;
+Khi &lt;strong&gt;đạp thắng&lt;/strong&gt; và &lt;strong&gt;nổ máy&lt;/strong&gt; &amp;mdash;&amp;gt; Nguồn bị sụt áp, các thiết bị điện trên bị tắt tạm thời, và sau đó áp tăng lên đột ngột. &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Dựa vào mô tả này, mình đã &lt;strong&gt;code&lt;/strong&gt; lại dựa trên &lt;strong&gt;ngôn ngữ Ladder&lt;/strong&gt; &lt;em&gt;(một ngôn ngữ lập trình cho &lt;strong&gt;PLC&lt;/strong&gt;)&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;%5cimage%5cOthers%5cSut_ap_ACC%5cHinh_1.jpg&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Rồi từ đây, mình mua module cần thiết và bắt đầu lắp ghép mạch trên bảng điện.&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;%5cimage%5cOthers%5cSut_ap_ACC%5cHinh_2.jpg&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Sau khi đã lắp hoàn thiện, mình cho chạy thử. Và đã chạy thành công, giống với nội dung được yêu cầu.&lt;/p&gt;
+&lt;p&gt;Nguồn video: &lt;a href=&#34;https://www.facebook.com/share/v/1BJo6tVgVR/&#34;&gt;https://www.facebook.com/share/v/1BJo6tVgVR/&lt;/a&gt;&lt;/p&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/others/gia_lap_sut_ap_acc/</guid>
+      <pubDate>Fri, 11 Apr 2025 21:09:50 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Hop_do_choi_AI</title>
       <link>https://vinhlin.github.io/posts/others/hop_do_choi_ai/</link>
       <description>&lt;h2 id=&#34;trend-hộp-đồ-chơi-ai&#34;&gt;Trend &amp;ldquo;Hộp đồ chơi AI&amp;rdquo;&lt;/h2&gt;
@@ -718,27 +755,9 @@ https://delta1512.github.io/BOINCOS/
 &lt;h3 id=&#34;-raspberry-camera&#34;&gt;👉 Raspberry Camera&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Mục đích là ôn luyện lại về &lt;strong&gt;Rust-lang + Tokio Framework&lt;/strong&gt; cũng như đào sâu hơn về &lt;strong&gt;Nhúng Linux&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Có thể mình sẽ chia dự án này thành các phần:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Hardwar
-OS
-Firmware/Software
-Platform
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
-&lt;li&gt;Hardware: Raspberry Zero 2W + Camera for Pi.&lt;/li&gt;
-&lt;li&gt;OS: Yocto Linux&lt;/li&gt;
-&lt;li&gt;Firmware/Sofware:
-&lt;ul&gt;
-&lt;li&gt;Web Application:
-&lt;ul&gt;
-&lt;li&gt;DHCP Server: Xem video ở local&lt;/li&gt;
-&lt;li&gt;DHCP Client: Kết nối mạng, send location data, Notifi Telegram.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Desktop Application: Config device&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Platform: Lấy thông tin location, Update OTA, Image của camera.&lt;/li&gt;
+&lt;li&gt;Live-stream local &lt;em&gt;(URL streaming Camera dùng HTTP hoặc RTSP)&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Platform: Lấy thông tin location, upload Image của camera.&lt;/li&gt;
+&lt;li&gt;Điều khiển thông qua chatbot Telegram.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Ngoài ra mình sẽ code camera này theo &lt;strong&gt;ONVIF Protocol&lt;/strong&gt;, và theo &lt;a href=&#34;https://sotttt.angiang.gov.vn/sites/default/files/2025-01/qcvn%20135.2024-%20ip%20camera.pdf&#34;&gt;QCVN-135&lt;/a&gt;&lt;/p&gt;

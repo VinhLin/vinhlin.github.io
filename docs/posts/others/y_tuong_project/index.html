@@ -21,7 +21,7 @@ Tuy nhiên mình sẽ làm một số project nhỏ hơn, và sẽ xoay quanh Ho
 Tuy nhiên mình sẽ làm một số project nhỏ hơn, và sẽ xoay quanh Homelab.
 🌱 Ý tưởng bổ sung cho HomeLAB: 👉 Rust Tracking Mình vẫn đang tìm hiểu và học ngôn ngữ lập trình Rust. Để trau dồi thêm khả năng code bằng Rust, mình sẽ setup một dự án cho bản thân, tên dự án hiện tại là Rust_Tracking."><meta itemprop="datePublished" content="2025-02-26T07:52:00+07:00" />
 <meta itemprop="dateModified" content="2025-02-26T07:52:00+07:00" />
-<meta itemprop="wordCount" content="293">
+<meta itemprop="wordCount" content="258">
 <meta itemprop="keywords" content="" />
     
     <link rel="canonical" href="https://vinhlin.github.io/posts/others/y_tuong_project/">
@@ -83,7 +83,7 @@ Tuy nhiên mình sẽ làm một số project nhỏ hơn, và sẽ xoay quanh Ho
       },
       "image": "https://vinhlin.github.io/assets/favicon.ico",
       "url" : "https:\/\/vinhlin.github.io\/posts\/others\/y_tuong_project\/",
-      "wordCount" : "293",
+      "wordCount" : "258",
       "genre" : [ ],
       "keywords" : [ ]
   }
@@ -138,27 +138,9 @@ Tuy nhiên mình sẽ làm một số project nhỏ hơn, và sẽ xoay quanh Ho
 <h3 id="-raspberry-camera">👉 Raspberry Camera</h3>
 <ul>
 <li>Mục đích là ôn luyện lại về <strong>Rust-lang + Tokio Framework</strong> cũng như đào sâu hơn về <strong>Nhúng Linux</strong>.</li>
-<li>Có thể mình sẽ chia dự án này thành các phần:</li>
-</ul>
-<pre tabindex="0"><code>Hardwar
-OS
-Firmware/Software
-Platform
-</code></pre><ul>
-<li>Hardware: Raspberry Zero 2W + Camera for Pi.</li>
-<li>OS: Yocto Linux</li>
-<li>Firmware/Sofware:
-<ul>
-<li>Web Application:
-<ul>
-<li>DHCP Server: Xem video ở local</li>
-<li>DHCP Client: Kết nối mạng, send location data, Notifi Telegram.</li>
-</ul>
-</li>
-<li>Desktop Application: Config device</li>
-</ul>
-</li>
-<li>Platform: Lấy thông tin location, Update OTA, Image của camera.</li>
+<li>Live-stream local <em>(URL streaming Camera dùng HTTP hoặc RTSP)</em>.</li>
+<li>Platform: Lấy thông tin location, upload Image của camera.</li>
+<li>Điều khiển thông qua chatbot Telegram.</li>
 </ul>
 <blockquote>
 <p>Ngoài ra mình sẽ code camera này theo <strong>ONVIF Protocol</strong>, và theo <a href="https://sotttt.angiang.gov.vn/sites/default/files/2025-01/qcvn%20135.2024-%20ip%20camera.pdf">QCVN-135</a></p>

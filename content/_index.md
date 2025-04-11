@@ -30,9 +30,6 @@ Trang blog này như một **cuốn sổ tay cá nhân**, nơi mà mình ghi ch�
 ## 🔭 Study/Learning:
 - Tìm hiểu sâu hơn về **Wazuh (SIEM)**: FIM, SCA, MISP,... 
 - Build và làm lại các bài lab về Web-Pentest bên CyberJutsu.
-- Backup data và VMWare Image cho hệ thống.
-- Xây dựng quy trình **pipline CI/CD** cho trang Blog này *(dựng ở local)*.
-- Dựng và xây dựng pipline cho một **FTP Server**. Mục tiêu là để **OTA** cho thiết bị Tracking.
 - Tìm hiểu thêm về **IoT Firmware Reverse**.
 
 ## 💬 Others Information:
@@ -40,7 +37,7 @@ Trang blog này như một **cuốn sổ tay cá nhân**, nơi mà mình ghi ch�
 - ❤️ Github: https://github.com/VinhLin
 - 📫 Linkedin Profile: https://www.linkedin.com/in/vinh-lin-3921a8191/
 
-✔️ **My Dashboard HOMELAB Server**
+✔️ [My Dashboard HOMELAB Server](https://dashboard.vinhld-homelab.io.vn:3080/)
 
 ![Dashboard_HL](/image/Dashboard_HOMELAB.png)
 

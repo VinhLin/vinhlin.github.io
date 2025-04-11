@@ -24,13 +24,15 @@ Security như một yếu tố cộng thêm (nhưng **cấp bách**) để bổ 
 
 Do đó với *năng lực cốt lỗi* về ***Điện tử/IoT*** cộng thêm yêu thích về **Security**, một lĩnh vực *ngách* mà mình có thể theo đuổi đó là **IoT/Hardware Hacking**
 
-Cùng với các kỹ năng vệ tinh khác như: System, Security, Network, DevOps. Mình định hình bản thân phát triển trở thành một <mark>chuyên gia theo chiều ngang</mark>.
+Cùng với các kỹ năng vệ tinh khác như: System, Security, Network, DevOps. Mình định hình bản thân phát triển trở thành một <mark>chuyên gia theo chiều ngang</mark> *(nhưng điều đó không có nghĩa là **lan man**, **dàn trải**)*.
 
 Mình vẫn sẽ tiếp tục củng cố, trau dồi để *làm đầy roadmap của bản thân*.
 
-### Others:
-- Với mục tiêu là trở thành **chuyên gia theo chiều ngang**, nhưng điều đó không có nghĩa là *lan man*, *dàn trải*.
-- Do đó mình sẽ cần phải tập trung vào những yếu tố cốt lõi: **Hardware/IoT**, và **lập trình nhúng**.
+### Về lập trình:
+- Script: **Bash-script** và **Powershell**.
+- Do yếu tố cốt lõi là về **Hardware/IoT** nên sẽ tập trung nhiều về **lập trình nhúng**.
+- Ưu tiên dùng **Rust-lang** cho lập trình **firmware MCU**, **nhúng linux (ARM)** và các **ứng dụng console trên Linux, Windows**.
+- Dùng **lập trình Aruduino** với các dự án cần **hoàn thành nhanh**, **dễ bảo trì**, và **thư viện hỗ trợ nhiều**.
 > Ngôn ngữ **Rust là trọng tâm**, lập trình **Arduino là nền tảng**. </br>
 
 ![Mindmap](/image/Mindmap.png)

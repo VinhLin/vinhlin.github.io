@@ -21,22 +21,9 @@ Tuy nhiên mình sẽ làm một số project nhỏ hơn, và sẽ xoay quanh Ho
 
 ### 👉 Raspberry Camera
 - Mục đích là ôn luyện lại về **Rust-lang + Tokio Framework** cũng như đào sâu hơn về **Nhúng Linux**.
-- Có thể mình sẽ chia dự án này thành các phần:
-```
-Hardwar
-OS
-Firmware/Software
-Platform
-```
-- Hardware: Raspberry Zero 2W + Camera for Pi.
-- OS: Yocto Linux
-- Firmware/Sofware:
-	- Web Application: 
-		- DHCP Server: Xem video ở local
-		- DHCP Client: Kết nối mạng, send location data, Notifi Telegram. 
-	- Desktop Application: Config device
-- Platform: Lấy thông tin location, Update OTA, Image của camera.
-
+- Live-stream local *(URL streaming Camera dùng HTTP hoặc RTSP)*.
+- Platform: Lấy thông tin location, upload Image của camera.
+- Điều khiển thông qua chatbot Telegram.
 > Ngoài ra mình sẽ code camera này theo **ONVIF Protocol**, và theo [QCVN-135](https://sotttt.angiang.gov.vn/sites/default/files/2025-01/qcvn%20135.2024-%20ip%20camera.pdf)
 
 ### 👉 Bad USB

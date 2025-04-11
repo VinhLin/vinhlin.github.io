@@ -57,6 +57,7 @@ hugo new posts/Others/Grok_AI.md
 hugo new posts/Others/Thao_tac_An_toan.md
 hugo new posts/Others/USB_Boot.md
 hugo new posts/Others/Hop_do_choi_AI.md
+hugo new posts/Others/Gia_lap_sut_ap_ACC.md
 ```
 
 ### IoT:
