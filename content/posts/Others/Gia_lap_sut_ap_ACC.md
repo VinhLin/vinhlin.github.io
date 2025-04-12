@@ -12,11 +12,11 @@ Mô tả như sau tình trạng như sau:
 
 Dựa vào mô tả này, mình đã **code** lại dựa trên **ngôn ngữ Ladder** *(một ngôn ngữ lập trình cho **PLC**)*.
 
-![Hình 1](\image\Others\Sut_ap_ACC\Hinh_1.jpg)
+![Hình 1](/image/Others/Sut_ap_ACC/Hinh_1.jpg)
 
 Rồi từ đây, mình mua module cần thiết và bắt đầu lắp ghép mạch trên bảng điện.
 
-![Hình 2](\image\Others\Sut_ap_ACC\Hinh_2.jpg)
+![Hình 2](/image/Others/Sut_ap_ACC/Hinh_2.jpg)
 
 Sau khi đã lắp hoàn thiện, mình cho chạy thử. Và đã chạy thành công, giống với nội dung được yêu cầu.
 

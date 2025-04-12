@@ -14,10 +14,3 @@ https://shopee.vn/Rtl-sdr-Blog-RTL-SDR-Thu-V3-RTL2832U-0.1-MHz-1.7GHz-TCXO-SMA-P
 https://www.rtl-sdr.com/techminds-testing-the-radioberry-an-hf-sdr-transceiver-raspberry-pi-hat/
 
 ---------------------------------------------------
-### CC26x2R
-https://dev.ti.com/tirex/explore/node?node=A__AOhWCvEMSJlyxXbKsikrYw__cc26xx_devtools__FUz-xrs__LATEST
-
-https://www.ti.com/product/CC2652R
-```
-Protocols	Bluetooth 5.2 Low Energy, Thread, Zigbee 3.0
-```

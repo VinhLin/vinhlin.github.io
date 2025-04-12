@@ -170,6 +170,7 @@ STT |		Tiêu đề			|		Mô tả				|
 8   | [USB_Boot][USB_Boot]		| Ghi chú về cách tạo USB-Boot bằng **AnhDV-Boot**|
 9   | [Hop_do_choi_AI][Hop_do_choi_AI]	| Đu trend "Hộp đồ chơi AI"			|
 10  | [Gia_lap_sut_ap_ACC][Gia_lap_sut_ap_ACC] | Làm bộ giả lập **sụt áp**, **mất nguồn** và **áp tăng đột ngột** trên xe ô tô |
+11  | [HeyGen_AI][HeyGen_AI]		| Giới thiệu về công cụ tạo video AI bằng **HeyGen** |
 
 [Ngoai_ngu]: https://blog.vinhld-homelab.io.vn/posts/others/goc_nhin_ve_ngoai_ngu/
 [Hardware_Hacking]: https://blog.vinhld-homelab.io.vn/posts/others/suy_nghi_ve_hardware_hacking/
@@ -181,6 +182,6 @@ STT |		Tiêu đề			|		Mô tả				|
 [USB_Boot]: https://blog.vinhld-homelab.io.vn/posts/others/usb_boot/
 [Hop_do_choi_AI]: https://blog.vinhld-homelab.io.vn/posts/others/hop_do_choi_ai/
 [Gia_lap_sut_ap_ACC]: https://blog.vinhld-homelab.io.vn/posts/others/gia_lap_sut_ap_acc/
-
+[HeyGen_AI]: https://blog.vinhld-homelab.io.vn/posts/others/heygen_ai/
 
 
