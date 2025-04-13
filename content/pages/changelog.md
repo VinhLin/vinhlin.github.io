@@ -111,6 +111,7 @@ STT |		Tiêu đề			|		Mô tả				|
 9   | [Protect_Camera][Protect_Camera]	| Ghi chú về việc bảo mật hệ thống		|
 10  | [NFC_PWA][NFC_PWA]		| Ghi chú kỹ thuật đánh cắp dữ liệu **NFC** bằng ứng dụng **PWA** |
 11  | [Fault_Injection][Fault_Injection]| Ghi chú về kỹ thuật **Fault Injection**		|
+12  | [convoC2][convoC2]		| Giới thiệu về công cụ **convoC2**		|
 
 [NIS2]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/nis2/
 [FW_CheckList]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/firewall_checklist/
@@ -123,6 +124,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [Protect_Camera]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/protect_camera/
 [NFC_PWA]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/nfc_pwa/
 [Fault_Injection]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/fault_injection/
+[convoC2]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/convoc2/
 
 -----------------------------------------------------------------------------------------
 # <mark>System-DevOps</mark>

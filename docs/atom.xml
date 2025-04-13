@@ -14,6 +14,72 @@
     
     
     <item>
+      <title>ConvoC2</title>
+      <link>https://vinhlin.github.io/posts/cybersecurity/technical/convoc2/</link>
+      <description>&lt;h3 id=&#34;video-ms-teams-is-now-a-c2-command-and-controlhttpswwwyoutubecomwatchvfqzim6vp7xmlistwlindex5t45s&#34;&gt;Video: &lt;a href=&#34;https://www.youtube.com/watch?v=FqZIm6vP7XM&amp;amp;list=WL&amp;amp;index=5&amp;amp;t=45s&#34;&gt;ms teams is now a C2 (command-and-control)&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;github-cxnturi0n--convoc2httpsgithubcomcxnturi0nconvoc2&#34;&gt;Github: &lt;a href=&#34;https://github.com/cxnturi0n/convoC2&#34;&gt;cxnturi0n / convoC2&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;một-số-tài-liệu-khác&#34;&gt;Một số tài liệu khác:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://logon-int.com/blog/convoc2/&#34;&gt;https://logon-int.com/blog/convoc2/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gbhackers.com/convoc2-a-red-teamers-tool/&#34;&gt;https://gbhackers.com/convoc2-a-red-teamers-tool/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;GitHub - C2 infrastructure over Microsoft Teams
+technijian.com - convoC2 the new red team tool leveraging Microsoft Teams
+logon-int.com - ConvoC2 A Red Teamer&amp;#39;s Tool to Exploit Microsoft Teams
+gbhackers.com - ConvoC2 A Red Teamers Tool To Execute Commands on Hacked Hosts Via Microsoft Teams
+Polymer - Unveiling Microsoft Teams vulnerabilities risks and protections
+The Daily Swig - Multiple vulnerabilities in Microsoft Teams could spoof URLs leak IP addresses
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img
+  src=&#34;https://github.com/user-attachments/assets/d126a4cb-dc62-4a18-8b89-3501a4319d6e&#34;
+  alt=&#34;convoC2-Architecture&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;ngoài-ra-mình-còn-tham-khảo-ý-kiến-của-grok-3-và-đây-là-các-thông-tin-mà-grok-cung-cấp&#34;&gt;Ngoài ra mình còn tham khảo ý kiến của Grok 3 và đây là các thông tin mà Grok cung cấp:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Hiện tại, không có thông tin chính thức nào từ Microsoft xác nhận rằng đã có bản vá cụ thể cho lỗ hổng liên quan đến ConvoC2 trong Microsoft Teams tính đến ngày 12 tháng 4 năm 2025.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;ConvoC2&lt;/strong&gt; là một công cụ khai thác mới được công bố vào cuối năm 2024, tận dụng các tin nhắn Teams để thực thi lệnh từ xa mà không kích hoạt các biện pháp bảo mật thông thường. &lt;/br&gt;
+Nó không dựa vào một lỗ hổng phần mềm truyền thống (như lỗi mã hóa) mà &lt;strong&gt;lợi dụng cách Teams xử lý tin nhắn và nhật ký&lt;/strong&gt;, khiến việc vá khó khăn hơn.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Tình hình hiện tại:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Thiếu bản vá cụ thể: Microsoft chưa công bố bản cập nhật nào nhắm trực tiếp đến ConvoC2. Điều này có thể do công cụ này khai thác các tính năng hợp pháp của Teams (như tin nhắn ẩn và webhook) thay vì một lỗi rõ ràng.&lt;/li&gt;
+&lt;li&gt;Khuyến nghị bảo mật: Microsoft và các chuyên gia bảo mật khuyến nghị:&lt;/li&gt;
+&lt;li&gt;Giám sát nhật ký Teams: Kiểm tra thường xuyên các hoạt động bất thường trong Teams, đặc biệt là các tin nhắn hoặc webhook đáng nghi.&lt;/li&gt;
+&lt;li&gt;Triển khai EDR: Sử dụng các công cụ phát hiện và phản hồi điểm cuối (Endpoint Detection and Response) để phát hiện hành vi bất thường.&lt;/li&gt;
+&lt;li&gt;Hạn chế truy cập: Đảm bảo chỉ những người dùng đáng tin cậy có quyền truy cập vào các kênh Teams và webhook.&lt;/li&gt;
+&lt;li&gt;Cộng đồng bảo mật: ConvoC2 được công khai trên GitHub để khuyến khích nghiên cứu và phòng thủ, nhưng không có dấu hiệu Microsoft đã thay đổi giao thức Teams để vô hiệu hóa phương thức tấn công này.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Dự đoán:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Microsoft có thể không phát hành một &amp;ldquo;bản vá&amp;rdquo; theo nghĩa truyền thống mà thay vào đó sẽ &lt;em&gt;cập nhật các biện pháp bảo mật trong Teams&lt;/em&gt;, như tăng cường kiểm tra tin nhắn hoặc giới hạn cách dữ liệu ẩn được xử lý. &lt;/br&gt;
+Tuy nhiên, vì &lt;strong&gt;ConvoC2 dựa vào các tính năng cốt lõi của Teams&lt;/strong&gt;, việc chặn hoàn toàn có thể làm gián đoạn chức năng thông thường, khiến việc xử lý trở nên phức tạp. &lt;/br&gt;
+Nếu bạn muốn theo dõi sát sao, hãy kiểm tra các bản cập nhật bảo mật hàng tháng của Microsoft (Patch Tuesday) hoặc liên hệ trực tiếp với đội ngũ hỗ trợ của Microsoft để hỏi về các biện pháp phòng thủ cụ thể.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Lỗ hổng trên Microsoft Teams cho Android:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ConvoC2 chủ yếu được thiết kế cho PC (Windows), không có bằng chứng rõ ràng về việc hỗ trợ Android hoặc thiết bị di động.  
+Nghiên cứu cho thấy công cụ này hoạt động trên Windows 10 và 11, nhưng không đề cập đến Android.  
+Có khả năng lý thuyết ConvoC2 hoạt động trên Android nếu Teams xử lý tin nhắn tương tự, nhưng chưa được xác nhận.
+&lt;/code&gt;&lt;/pre&gt;</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/cybersecurity/technical/convoc2/</guid>
+      <pubDate>Sun, 13 Apr 2025 13:07:25 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>HeyGen_AI</title>
       <link>https://vinhlin.github.io/posts/others/heygen_ai/</link>
       <description>&lt;p&gt;Đây là một công cụ tạo video bằng AI&lt;/p&gt;
