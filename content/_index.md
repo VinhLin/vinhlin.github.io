@@ -25,19 +25,20 @@ Trang blog này như một **cuốn sổ tay cá nhân**, nơi mà mình ghi ch�
 1. Áp dụng Server này cho nhà của mình: Mesh WiFi, CCTV, DNS local.
 2. Nơi mình sẽ áp dụng những kiến thức đã học và những kiến thức mới: Từ VPN, SIEM, Jump-Server, Honeypot cho đến Gitlab CI/CD,...
 ```
-- Một số ý tưởng project nhỏ khác, [thông tin tại đây](https://blog.vinhld-homelab.io.vn/posts/others/y_tuong_project/)
+
+🌱 Một số ý tưởng project nhỏ khác, [thông tin tại đây](https://blog.vinhld-homelab.io.vn/posts/others/y_tuong_project/)
 
 ## 🔭 Study/Learning:
-- Tìm hiểu sâu hơn về **Wazuh (SIEM)**: FIM, SCA, MISP,... 
-- Build và làm lại các bài lab về Web-Pentest bên CyberJutsu.
-- Tìm hiểu thêm về **IoT Firmware Reverse**.
+> ✔ Tìm hiểu sâu hơn về **Wazuh (SIEM)**: FIM, SCA, MISP,... </br>
+> ✔ Build và làm lại các bài lab về Web-Pentest bên CyberJutsu. </br>
+> ✔ Tìm hiểu thêm về **IoT Firmware Reverse** và **Hardware Hacking**.
 
 ## 💬 Others Information:
 - 📺 Blog: https://vinhlin.github.io/
 - ❤️ Github: https://github.com/VinhLin
 - 📫 Linkedin Profile: https://www.linkedin.com/in/vinh-lin-3921a8191/
 
-✔️ [My Dashboard HOMELAB Server](https://dashboard.vinhld-homelab.io.vn:3080/)
+👉 [My Dashboard HOMELAB Server](https://dashboard.vinhld-homelab.io.vn:3080/)
 
 ![Dashboard_HL](/image/Dashboard_HOMELAB.png)
 

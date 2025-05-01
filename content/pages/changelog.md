@@ -22,6 +22,7 @@ STT |		Tiêu đề			|		Mô tả				|
 10  | [Android_Automotive][Android_Automotive] | Ghi chú về **Android Automotive**	|
 11  | [DMA][DMA]			| Tổng hợp ghi chú về **DMA - Direct Memory Access** |
 12  | [OBD2_PIDs][OBD2_PIDs]		| Ghi chú về các mã lệnh **PIDs** của OBDII.	|
+13  | [CCTV_Dashcam][CCTV_Dashcam]	| Ghi chú so sánh về **CCTV** và **Dashcam**	|
 
 [UNIHIKER]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/unihiker/
 [ESD]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/esd/
@@ -35,6 +36,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [Android_Automotive]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/android_automotive/
 [DMA]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/dma/
 [OBD2_PIDs]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/obd2_pids/
+[CCTV_Dashcam]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/cctv_dashcam/
 
 ## ***SOFTWARE***
 
@@ -45,12 +47,14 @@ STT |		Tiêu đề			|		Mô tả				|
 3   | [Raspberry-OpenAuto][OpenAuto]	| Ghi chú về phần mềm **OpenAuto**		|
 4   | [Docklight][Docklight]		| Một phần mềm giả lập Serial - RS232		|
 5   | [Desktop_App][Desktop_App]	| Giới thiệu **C++ Builder**, công cụ build ứng dụng desktop trên Windows |
+6   | [EMQK_Broker][EMQK_Broker]	| Giới thiệu về **EMQK Broker**			|
 
 [PiKVM]: https://blog.vinhld-homelab.io.vn/posts/iot/software/pikvm/
 [Pi400-Keyboard]: https://blog.vinhld-homelab.io.vn/posts/iot/software/pi400-keyboard/
 [OpenAuto]: https://blog.vinhld-homelab.io.vn/posts/iot/software/raspberry-openauto/
 [Docklight]: https://blog.vinhld-homelab.io.vn/posts/iot/software/docklight/
 [Desktop_App]: https://blog.vinhld-homelab.io.vn/posts/iot/software/desktop_app/
+[EMQK_Broker]: https://blog.vinhld-homelab.io.vn/posts/iot/software/emqk_broker/
 
 ### Rust-lang
 > Tổng hợp ghi chú về ngôn ngữ lập trình **Rust** <br>
@@ -173,6 +177,8 @@ STT |		Tiêu đề			|		Mô tả				|
 9   | [Hop_do_choi_AI][Hop_do_choi_AI]	| Đu trend "Hộp đồ chơi AI"			|
 10  | [Gia_lap_sut_ap_ACC][Gia_lap_sut_ap_ACC] | Làm bộ giả lập **sụt áp**, **mất nguồn** và **áp tăng đột ngột** trên xe ô tô |
 11  | [HeyGen_AI][HeyGen_AI]		| Giới thiệu về công cụ tạo video AI bằng **HeyGen** |
+12  | [Bo_giam_ap][Bo_giam_ap]		| Làm bộ giảm áp				|
+13  | [Slidev][Slidev]			| Giới thiệu về công cụ **Slidev**		|
 
 [Ngoai_ngu]: https://blog.vinhld-homelab.io.vn/posts/others/goc_nhin_ve_ngoai_ngu/
 [Hardware_Hacking]: https://blog.vinhld-homelab.io.vn/posts/others/suy_nghi_ve_hardware_hacking/
@@ -185,5 +191,5 @@ STT |		Tiêu đề			|		Mô tả				|
 [Hop_do_choi_AI]: https://blog.vinhld-homelab.io.vn/posts/others/hop_do_choi_ai/
 [Gia_lap_sut_ap_ACC]: https://blog.vinhld-homelab.io.vn/posts/others/gia_lap_sut_ap_acc/
 [HeyGen_AI]: https://blog.vinhld-homelab.io.vn/posts/others/heygen_ai/
-
-
+[Bo_giam_ap]: https://blog.vinhld-homelab.io.vn/posts/others/bo_giam_ap/
+[Slidev]: https://blog.vinhld-homelab.io.vn/posts/others/slidev/

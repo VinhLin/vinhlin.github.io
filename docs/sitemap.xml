@@ -2,10 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://vinhlin.github.io/posts/cybersecurity/technical/convoc2/</loc>
-    <lastmod>2025-04-13T13:07:25+07:00</lastmod>
+    <loc>https://vinhlin.github.io/posts/iot/hardware/cctv_dashcam/</loc>
+    <lastmod>2025-05-01T14:02:18+07:00</lastmod>
   </url><url>
     <loc>https://vinhlin.github.io/posts/</loc>
+    <lastmod>2025-05-01T14:02:18+07:00</lastmod>
+  </url><url>
+    <loc>https://vinhlin.github.io/posts/iot/software/emqk_broker/</loc>
+    <lastmod>2025-05-01T13:47:25+07:00</lastmod>
+  </url><url>
+    <loc>https://vinhlin.github.io/posts/others/bo_giam_ap/</loc>
+    <lastmod>2025-05-01T13:34:47+07:00</lastmod>
+  </url><url>
+    <loc>https://vinhlin.github.io/posts/others/slidev/</loc>
+    <lastmod>2025-04-30T14:07:16+07:00</lastmod>
+  </url><url>
+    <loc>https://vinhlin.github.io/posts/cybersecurity/technical/convoc2/</loc>
     <lastmod>2025-04-13T13:07:25+07:00</lastmod>
   </url><url>
     <loc>https://vinhlin.github.io/posts/others/heygen_ai/</loc>

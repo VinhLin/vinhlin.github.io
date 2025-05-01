@@ -59,6 +59,8 @@ hugo new posts/Others/USB_Boot.md
 hugo new posts/Others/Hop_do_choi_AI.md
 hugo new posts/Others/Gia_lap_sut_ap_ACC.md
 hugo new posts/Others/HeyGen_AI.md
+hugo new posts/Others/Bo_giam_ap.md
+hugo new posts/Others/Slidev.md
 ```
 
 ### IoT:
@@ -76,6 +78,7 @@ hugo new posts/IoT/Hardware/Car_Hacking.md
 hugo new posts/IoT/Hardware/Android_Automotive.md
 hugo new posts/IoT/Hardware/DMA.md
 hugo new posts/IoT/Hardware/OBD2_PIDs.md
+hugo new posts/IoT/Hardware/CCTV_Dashcam.md
 ```
 - Software
 ```
@@ -91,6 +94,7 @@ hugo new posts/IoT/Software/Shared_Access_Embassy.md
 hugo new posts/IoT/Software/Read_Write_UART_STM32Fx.md
 hugo new posts/IoT/Software/Rust_for_ARM.md
 hugo new posts/IoT/Software/Desktop_App.md
+hugo new posts/IoT/Software/EMQK_Broker.md
 ```
 
 ### CyberSecurity:
