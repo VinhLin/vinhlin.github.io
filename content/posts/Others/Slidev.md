@@ -6,7 +6,7 @@ draft = true
 
 ## [Video: Mình trở thành “Nạn Nhân” của AI…](https://www.youtube.com/watch?v=nPE3rLcEN1A)
 
-![Tổng hợp](image/Others/Slidev/Noi_dung_Video.png)
+![Tổng hợp](/image/Others/Slidev/Noi_dung_Video.png)
 
 Sau khi mình xem xong video của anh Hoàng, mình bị ấn tượng bởi công cụ **Slidev**.
 
@@ -18,7 +18,7 @@ Mà còn phải dùng đến **HTML**. Nhưng cuối cùng cũng xong.
 
 Đã có format, thì sau này mình sẽ làm **ppt** nhanh hơn.
 
-![Hình 1](image/Others/Slidev/Hinh_1.png)
+![Hình 1](/image/Others/Slidev/Hinh_1.png)
 
 ### Tài liệu về Slidev:
 ```

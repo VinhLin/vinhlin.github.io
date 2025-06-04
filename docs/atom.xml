@@ -14,6 +14,149 @@
     
     
     <item>
+      <title>BLE_Sniffer</title>
+      <link>https://vinhlin.github.io/posts/cybersecurity/technical/ble_sniffer/</link>
+      <description>&lt;h1 id=&#34;bluetooth-sniffer&#34;&gt;Bluetooth Sniffer&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Tài liệu:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://github.com/nccgroup/Sniffle
+https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20villages/DEF%20CON%2032%20-%20Car%20Hacking%20Village%20-%20Kevin%20Mitchell%20-%20Bluetooth%20Blues%20-%20Unmasking%20CVE%202023-52709%20-%20The%20TI%20BLE5-Stack%20Attack.pdf
+https://github.com/StealthIQ/Bluestrike
+https://blog.attify.com/btlejuice-mitm-attack-smart-bulb/
+https://blog.attify.com/exploiting-iot-enabled-ble-smart-bulb-security/
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Ban đầu cứ ngỡ là chỉ có một cách để lấy thông tin gói, nhưng sau khi xem xong video &lt;a href=&#34;https://www.youtube.com/watch?v=-tH6VU6chEc&#34;&gt;I Hacked my Smart Grill - Unauthenticated Temp Readings&lt;/a&gt; thì có đến 2 cách:
+&lt;ul&gt;
+&lt;li&gt;Dùng công cụ bắt gói tin.&lt;/li&gt;
+&lt;li&gt;Dùng app Android.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;công-cụ-bắt-gói-tin&#34;&gt;Công cụ bắt gói tin&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Đây là thủ thuật kết hợp giữa phần cứng và phần mềm.&lt;/li&gt;
+&lt;li&gt;Phần cứng là sẽ dùng các công cụ BLE, để bắt gói.&lt;/li&gt;
+&lt;li&gt;Còn phần mềm thì là sẽ dùng &lt;strong&gt;Wireshark&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;nrf52840-dongle-usb-dongle-based-on-nrf52840httpswwwproevnnrf52840-dongle-usb-dongle-based-on-nrf52840&#34;&gt;&lt;a href=&#34;https://www.proe.vn/nrf52840-dongle-usb-dongle-based-on-nrf52840&#34;&gt;nRF52840 Dongle USB Dongle based on nRF52840&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;cc26x2r---launchxl-cc26x2r1-cc2652r-wireless-mcuhttpswwwproevnlaunchxl-cc26x2r1-cc2652r-wireless-mcu&#34;&gt;CC26x2R - &lt;a href=&#34;https://www.proe.vn/launchxl-cc26x2r1-cc2652r-wireless-mcu&#34;&gt;LAUNCHXL-CC26X2R1 CC2652R wireless MCU&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Tài liệu về sản phẩm:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://e2e.ti.com/support/wireless-connectivity/bluetooth-group/bluetooth/f/bluetooth-forum/843338/cc2652r-sniffle-sniffer-for-bluetooth-5
+https://docs.nordicsemi.com/bundle/ncs-2.1.2/page/zephyr/boards/arm/cc26x2r1_launchxl/doc/index.html
+https://www.ti.com/lit/ml/swpb024/swpb024.pdf?ts=1744281342974&amp;amp;ref_url=https%253A%252F%252Fwww.google.com%252F
+https://software-dl.ti.com/simplelink/esd/simplelink_cc13x2_26x2_sdk/3.10.01.11/exports/docs/zigbee/html/zigbee/packet_sniffer.html
+https://dev.ti.com/tirex/explore/node?node=A__AOhWCvEMSJlyxXbKsikrYw__cc26xx_devtools__FUz-xrs__LATEST
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ti.com/product/CC2652R&#34;&gt;https://www.ti.com/product/CC2652R&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Protocols	Bluetooth 5.2 Low Energy, Thread, Zigbee 3.0
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;app-android&#34;&gt;App Android&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Tức là nếu một sản phẩm có kết nối BLE thông qua app trên Android thì mới dùng đc cách này.&lt;/li&gt;
+&lt;li&gt;Trên Android, bật &lt;strong&gt;chế độ Nhà phát triển (Develop Mode)&lt;/strong&gt; &amp;ndash;&amp;gt; &lt;strong&gt;Enable Bluetooth stack log&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Khi này log thu được sẽ có thông tin tương tự như dùng công cụ phần cứng đề sniffer.&lt;/li&gt;
+&lt;li&gt;Mình dùng điện thoại Xoaimi Note 11, thao tác như sau:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Trong phần &lt;strong&gt;Cài đặt&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Giới thiệu điện thoại&lt;/strong&gt;, sau đó nhấn liên tục vào phần có nội dung &lt;strong&gt;Phiên bản OS&lt;/strong&gt;. &lt;/br&gt;
+Lúc này chế độ Nhà phát triển đã bật, sau đó quay lại vào &lt;strong&gt;Cài đặt bổ sung&lt;/strong&gt;, kéo xuống và chọn &lt;strong&gt;Tùy chọn nhà phát triển&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/BLE_Sniffer/Hinh_1.jpg&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Tiếp theo đến phần &lt;strong&gt;Nhật ký gói dữ liệu HCI Bluetooth&lt;/strong&gt;, bật lên.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/BLE_Sniffer/Hinh_2.jpg&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;dùng-adb-command&#34;&gt;Dùng ADB Command&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Mình dùng các câu lệnh trong video thì không được, do điện thoại Android của mình không vào được &lt;strong&gt;root&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Nên có tham khảo chatGPT và research trên google, thì có đến 2 cách để lấy thông tin về log của Bluetooth.&lt;/li&gt;
+&lt;li&gt;Cách 1 là dùng &lt;strong&gt;logcat&lt;/strong&gt; và lọc những thông tin liên quan Bluetooth.&lt;/li&gt;
+&lt;li&gt;Cách 2 là lấy toàn bộ log của Android.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;cách-1-cách-này-là-tham-khảo-từ-chatgpt&#34;&gt;Cách 1 &lt;em&gt;(cách này là tham khảo từ chatGPT)&lt;/em&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Cách này có nhược điểm là không lấy đc thông tin log của &lt;strong&gt;HCI Bluetooth&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Xài cách này ko được, nhưng mình vẫn note lại.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;adb logcat -v time &amp;gt; ble_debug_log.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Lọc với câu lệnh Linux:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;grep Bluetooth ble_debug_log.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Trên powershell:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Select-String -Path ble_debug_log.txt -Pattern &amp;#34;Bluetooth&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Ngoài ra khi mình bật Wireshark, thì thấy các kết nối của điện thoại Android của mình.&lt;/em&gt; &lt;/br&gt;
+&lt;em&gt;Theo chatGPT thì các tính năng này của Wireshark cũng dùng &lt;strong&gt;logcat&lt;/strong&gt;, nhưng có filter thôi.&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/BLE_Sniffer/Hinh_3.png&#34;
+  alt=&#34;Hình 3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h4 id=&#34;cách-2-cách-này-là-search-gg-về-cách-lấy-log-hci-bluetooth&#34;&gt;Cách 2 &lt;em&gt;(cách này là search gg về cách lấy log HCI Bluetooth)&lt;/em&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Tham khảo video: &lt;code&gt;https://www.youtube.com/watch?v=Z3HH6pOZjlA&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Dùng command:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;adb bugreport BTLogs
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/BLE_Sniffer/Hinh_4.png&#34;
+  alt=&#34;Hình 4&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sau đó giải nén, thì mình sẽ thấy &lt;strong&gt;log của HCI Bluetooth&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Nhưng để được log này thì cần mở bằng Wireshark.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/BLE_Sniffer/Hinh_5.png&#34;
+  alt=&#34;Hình 5&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Vậy là mình đã có thể lấy log kết nối Bluetooth.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/cybersecurity/technical/ble_sniffer/</guid>
+      <pubDate>Wed, 04 Jun 2025 17:04:06 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>CCTV_Dashcam</title>
       <link>https://vinhlin.github.io/posts/iot/hardware/cctv_dashcam/</link>
       <description>&lt;p&gt;Đây là cuộc trao đổi giữa mình với &lt;strong&gt;Grok 3&lt;/strong&gt;.&lt;/p&gt;
@@ -316,7 +459,7 @@ Nếu bạn có thêm thông tin về vị trí lắp đặt hoặc yêu cầu c
       <link>https://vinhlin.github.io/posts/others/slidev/</link>
       <description>&lt;h2 id=&#34;video-mình-trở-thành-nạn-nhân-của-aihttpswwwyoutubecomwatchvnpe3rlcen1a&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=nPE3rLcEN1A&#34;&gt;Video: Mình trở thành “Nạn Nhân” của AI…&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;img
-  src=&#34;image/Others/Slidev/Noi_dung_Video.png&#34;
+  src=&#34;https://vinhlin.github.io/image/Others/Slidev/Noi_dung_Video.png&#34;
   alt=&#34;Tổng hợp&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -330,7 +473,7 @@ Nếu bạn có thêm thông tin về vị trí lắp đặt hoặc yêu cầu c
 &lt;p&gt;Mà còn phải dùng đến &lt;strong&gt;HTML&lt;/strong&gt;. Nhưng cuối cùng cũng xong.&lt;/p&gt;
 &lt;p&gt;Đã có format, thì sau này mình sẽ làm &lt;strong&gt;ppt&lt;/strong&gt; nhanh hơn.&lt;/p&gt;
 &lt;p&gt;&lt;img
-  src=&#34;image/Others/Slidev/Hinh_1.png&#34;
+  src=&#34;https://vinhlin.github.io/image/Others/Slidev/Hinh_1.png&#34;
   alt=&#34;Hình 1&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;

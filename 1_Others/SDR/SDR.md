@@ -14,3 +14,14 @@ https://shopee.vn/Rtl-sdr-Blog-RTL-SDR-Thu-V3-RTL2832U-0.1-MHz-1.7GHz-TCXO-SMA-P
 https://www.rtl-sdr.com/techminds-testing-the-radioberry-an-hf-sdr-transceiver-raspberry-pi-hat/
 
 ---------------------------------------------------
+https://raspberrytips.com/ham-radio-raspberry-pi/?utm_source=newsletter&utm_medium=email&utm_campaign=ham_radio_on_raspberry_pi&utm_term=2025-05-14
+
+
+
+
+
+
+
+
+
+

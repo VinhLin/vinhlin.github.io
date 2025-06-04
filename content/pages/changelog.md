@@ -116,6 +116,7 @@ STT |		Tiêu đề			|		Mô tả				|
 10  | [NFC_PWA][NFC_PWA]		| Ghi chú kỹ thuật đánh cắp dữ liệu **NFC** bằng ứng dụng **PWA** |
 11  | [Fault_Injection][Fault_Injection]| Ghi chú về kỹ thuật **Fault Injection**		|
 12  | [convoC2][convoC2]		| Giới thiệu về công cụ **convoC2**		|
+13  | [BLE_Sniffer][BLE_Sniffer]	|
 
 [NIS2]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/nis2/
 [FW_CheckList]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/firewall_checklist/
@@ -129,6 +130,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [NFC_PWA]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/nfc_pwa/
 [Fault_Injection]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/fault_injection/
 [convoC2]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/convoc2/
+[BLE_Sniffer]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/ble_sniffer/
 
 -----------------------------------------------------------------------------------------
 # <mark>System-DevOps</mark>
