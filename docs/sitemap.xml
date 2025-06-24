@@ -2,10 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://vinhlin.github.io/posts/cybersecurity/technical/ble_sniffer/</loc>
-    <lastmod>2025-06-04T17:04:06+07:00</lastmod>
-  </url><url>
     <loc>https://vinhlin.github.io/posts/</loc>
+    <lastmod>2025-06-24T15:34:53+07:00</lastmod>
+  </url><url>
+    <loc>https://vinhlin.github.io/posts/iot/hardware/wifi_eirp/</loc>
+    <lastmod>2025-06-24T15:34:53+07:00</lastmod>
+  </url><url>
+    <loc>https://vinhlin.github.io/posts/cybersecurity/technical/ble_sniffer/</loc>
     <lastmod>2025-06-04T17:04:06+07:00</lastmod>
   </url><url>
     <loc>https://vinhlin.github.io/posts/iot/hardware/cctv_dashcam/</loc>

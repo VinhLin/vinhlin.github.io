@@ -79,6 +79,7 @@ hugo new posts/IoT/Hardware/Android_Automotive.md
 hugo new posts/IoT/Hardware/DMA.md
 hugo new posts/IoT/Hardware/OBD2_PIDs.md
 hugo new posts/IoT/Hardware/CCTV_Dashcam.md
+hugo new posts/IoT/Hardware/WiFi_EIRP.md
 ```
 - Software
 ```

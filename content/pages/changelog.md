@@ -23,6 +23,7 @@ STT |		Tiêu đề			|		Mô tả				|
 11  | [DMA][DMA]			| Tổng hợp ghi chú về **DMA - Direct Memory Access** |
 12  | [OBD2_PIDs][OBD2_PIDs]		| Ghi chú về các mã lệnh **PIDs** của OBDII.	|
 13  | [CCTV_Dashcam][CCTV_Dashcam]	| Ghi chú so sánh về **CCTV** và **Dashcam**	|
+14  | [WiFi_EIRP][WiFi_EIRP]		| Ghi chú về công suất EIRP cho WiFi		|
 
 [UNIHIKER]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/unihiker/
 [ESD]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/esd/
@@ -37,6 +38,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [DMA]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/dma/
 [OBD2_PIDs]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/obd2_pids/
 [CCTV_Dashcam]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/cctv_dashcam/
+[WiFi_EIRP]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/wifi_eirp/
 
 ## ***SOFTWARE***
 
