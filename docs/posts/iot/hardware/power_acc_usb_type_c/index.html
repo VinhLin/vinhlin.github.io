@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Liste - https://vinhlin.github.io/">
+    <title>Power_ACC_USB_Type_C | VinhLin</title>
+    <meta name="description" content="Technology Blog">
+    <meta property="og:title" content="Power_ACC_USB_Type_C" />
+<meta property="og:description" content="Trong hình là mình có một bộ nguồn ACC kết nối với camera, hỗ trợ chất năng Ghi hình đỗ xe. Tham khảo về thêm về Bộ nguồn trực tiếp ACC Mình đã thử nghiên cứu thì đánh giá như sau: Nguyên tắc hoạt động chính: Là chuyển đổi mức điện áp từ 12VDC -&gt; 5VDC.
+Sử dụng một board nhỏ của USB Type C ra chân Kiểm tra và đọc thêm tài liệu [An Engineer&rsquo;s Guide to USB Type-C](/static/docs/An Engineer&rsquo;s Guide to USB Type-C." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://vinhlin.github.io/posts/iot/hardware/power_acc_usb_type_c/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2025-06-25T16:40:20+07:00" />
+<meta property="article:modified_time" content="2025-06-25T16:40:20+07:00" />
+
+    <meta itemprop="name" content="Power_ACC_USB_Type_C">
+<meta itemprop="description" content="Trong hình là mình có một bộ nguồn ACC kết nối với camera, hỗ trợ chất năng Ghi hình đỗ xe. Tham khảo về thêm về Bộ nguồn trực tiếp ACC Mình đã thử nghiên cứu thì đánh giá như sau: Nguyên tắc hoạt động chính: Là chuyển đổi mức điện áp từ 12VDC -&gt; 5VDC.
+Sử dụng một board nhỏ của USB Type C ra chân Kiểm tra và đọc thêm tài liệu [An Engineer&rsquo;s Guide to USB Type-C](/static/docs/An Engineer&rsquo;s Guide to USB Type-C."><meta itemprop="datePublished" content="2025-06-25T16:40:20+07:00" />
+<meta itemprop="dateModified" content="2025-06-25T16:40:20+07:00" />
+<meta itemprop="wordCount" content="136">
+<meta itemprop="keywords" content="" />
+    
+    <link rel="canonical" href="https://vinhlin.github.io/posts/iot/hardware/power_acc_usb_type_c/">
+    <link rel="icon" href="https://vinhlin.github.io//assets/favicon.ico">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
+    <link rel="alternate" type="application/atom+xml" title="VinhLin" href="https://vinhlin.github.io//atom.xml" />
+    <link rel="alternate" type="application/json" title="VinhLin" href="https://vinhlin.github.io//feed.json" />
+    <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=">
+    
+    
+    <style>*,:after,:before{box-sizing:border-box;padding:0}body{font:1rem/1.5 '-apple-system',BlinkMacSystemFont,avenir next,avenir,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding:2rem;background:#f5f5f5;color:#000}.skip-link{position:absolute;top:-40px;left:0;background:#eee;z-index:100}.skip-link:focus{top:0}h1,h2,h3,h4,h5,strong,b{font-size:inherit;font-weight:600}header{line-height:2;padding-bottom:1.5rem}.link{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-decoration:none}.time{font-variant-numeric:tabular-nums;white-space:nowrap}blockquote{border-left:5px solid #eee;padding-left:1rem;margin:0}a,a:visited{color:inherit}a:hover,a.heading-link{text-decoration:none}pre{padding:.5rem;overflow:auto;overflow-x:scroll;overflow-wrap:normal}code,pre{font-family:San Francisco Mono,Monaco,consolas,lucida console,dejavu sans mono,bitstream vera sans mono,monospace;font-size:normal;font-size:small;background:#eee}code{margin:.1rem;border:none}ul{list-style-type:square}ul,ol{padding-left:1.2rem}.list{line-height:2;list-style-type:none;padding-left:0}.list li{padding-bottom:.1rem}.meta{color:#777}.content{max-width:70ch;margin:0 auto}header{line-height:2;display:flex;justify-content:space-between;padding-bottom:1rem}header a{text-decoration:none}header ul{list-style-type:none;padding:0}header li,header a{display:inline}h2.post{padding-top:.5rem}header ul a:first-child{padding-left:1rem}.nav{height:1px;background:#000;content:'';max-width:10%}.list li{display:flex;align-items:baseline}.list li time{flex:initial}.hr-list{margin-top:0;margin-bottom:0;margin-right:.5rem;margin-left:.5rem;height:1px;border:0;border-bottom:1px dotted #ccc;flex:1 0 1rem}.m,hr{border:0;margin:3rem 0}img{max-width:100%;height:auto}.post-date{margin:5% 0}.index-date{color:#9a9a9a}.animate-blink{animation:opacity 1s infinite;opacity:1}@keyframes opacity{0%{opacity:1}50%{opacity:.5}100%{opacity:0}}.tags{display:flex;justify-content:space-between}.tags ul{padding:0;margin:0}.tags li{display:inline}.avatar{height:120px;width:120px;position:relative;margin:-10px 0 0 15px;float:right;border-radius:50%}table{width:100%;border-collapse:collapse}th,td{border:1px solid #ddd;text-align:left;padding:8px}th{background-color:#f2f2f2} </style>
+  
+    
+  
+  
+  <script type="application/ld+json">
+  {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "articleSection": "posts",
+      "name": "Power_ACC_USB_Type_C",
+      "headline": "Power_ACC_USB_Type_C",
+      "alternativeHeadline": "",
+      "description": "Trong hình là mình có một bộ nguồn ACC kết nối với camera, hỗ trợ chất năng Ghi hình đỗ xe. Tham khảo về thêm về Bộ nguồn trực tiếp ACC Mình đã thử nghiên cứu thì đánh giá như sau: Nguyên tắc hoạt động chính: Là chuyển đổi mức điện áp từ 12VDC -\u0026gt; 5VDC.\nSử dụng một board nhỏ của USB Type C ra chân Kiểm tra và đọc thêm tài liệu [An Engineer\u0026rsquo;s Guide to USB Type-C](\/static\/docs\/An Engineer\u0026rsquo;s Guide to USB Type-C.",
+      "inLanguage": "en-us",
+      "isFamilyFriendly": "true",
+      "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https:\/\/vinhlin.github.io\/posts\/iot\/hardware\/power_acc_usb_type_c\/"
+      },
+      "author" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "creator" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "accountablePerson" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "copyrightHolder" : "VinhLin",
+      "copyrightYear" : "2025",
+      "dateCreated": "2025-06-25T16:40:20.00Z",
+      "datePublished": "2025-06-25T16:40:20.00Z",
+      "dateModified": "2025-06-25T16:40:20.00Z",
+      "publisher":{
+          "@type":"Organization",
+          "name": "VinhLin",
+          "url": "https://vinhlin.github.io/",
+          "logo": {
+              "@type": "ImageObject",
+              "url": "https:\/\/vinhlin.github.io\/assets\/favicon.ico",
+              "width":"32",
+              "height":"32"
+          }
+      },
+      "image": "https://vinhlin.github.io/assets/favicon.ico",
+      "url" : "https:\/\/vinhlin.github.io\/posts\/iot\/hardware\/power_acc_usb_type_c\/",
+      "wordCount" : "136",
+      "genre" : [ ],
+      "keywords" : [ ]
+  }
+  </script>
+  
+  
+  </head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main</a>
+  <main id="main">
+  <div class="content">
+    <header>
+<p style="padding: 0;margin: 0;">
+  <a href="/">
+    <b>VinhLin</b>
+    <span class="text-stone-500 animate-blink">▮</span>
+  </a>
+</p>
+<ul style="padding: 0;margin: 0;">
+  
+  
+  <li class="">
+    <a href="/changelog/"><span>Changelog</span></a>
+    
+  <li class="">
+    <a href="/posts/"><span>Post</span></a>
+    
+  <li class="">
+    <a href="/about/"><span>About</span></a>
+    
+  </li>
+</ul>
+</header>
+<hr class="hr-list" style="padding: 0;margin: 0;">
+    <section>
+      <h2 class="post">Power_ACC_USB_Type_C</h2>
+      <p><img
+  src="/image/IoT/Power_ACC_USB_Type_C/Hinh_1.jpg"
+  alt="Hình 1"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<ul>
+<li>Trong hình là mình có một bộ nguồn ACC kết nối với camera, hỗ trợ chất năng <strong>Ghi hình đỗ xe</strong>.</li>
+<li>Tham khảo về thêm về <a href="https://www.youtube.com/watch?v=RfN08YqmJwU">Bộ nguồn trực tiếp ACC</a></li>
+<li>Mình đã thử nghiên cứu thì đánh giá như sau:</li>
+</ul>
+<blockquote>
+<p><em>Nguyên tắc hoạt động chính: Là <strong>chuyển đổi mức điện áp từ 12VDC -&gt; 5VDC</strong></em>.</p>
+</blockquote>
+<h3 id="sử-dụng-một-board-nhỏ-của-usb-type-c-ra-chânhttpsshopeevnme1baa1ch-ra-chc3a2n-hc3a0n-ce1bb95ng-usb-31-type-c-sang-dip-24pin-i151012458826531551404xptdk375e62e1-f176-43d2-967a-59548adc26cf">Sử dụng một board nhỏ của <a href="https://shopee.vn/M%E1%BA%A1ch-Ra-Ch%C3%A2n-(h%C3%A0n)-C%E1%BB%95ng-USB-3.1-Type-C-Sang-DIP-24pin-i.1510124588.26531551404?xptdk=375e62e1-f176-43d2-967a-59548adc26cf">USB Type C ra chân</a></h3>
+<p><img
+  src="/image/IoT/Power_ACC_USB_Type_C/Hinh_2.webp"
+  alt="Hình 2"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<ul>
+<li>Kiểm tra và đọc thêm tài liệu [An Engineer&rsquo;s Guide to USB Type-C](/static/docs/An Engineer&rsquo;s Guide to USB Type-C.pdf) <em>(có thể dùng bản <a href="https://www.ti.com/lit/eb/slyy228/slyy228.pdf?HQS=app-ipp-pwr-denusbc-bhp-ebook-null-de">online ở đây</a>)</em></li>
+<li><strong>Thiết bị camera sẽ có chân đọc tín hiệu digital của ACC</strong> &ndash;&gt; Từ đó nhận diện đc trạng thái.</li>
+<li>Vị trí tương ứng:</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Dây</th>
+<th>USB Type C pintout</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>B+ (5VDC)</td>
+<td>A4, A9, B4, B9</td>
+</tr>
+<tr>
+<td>GND</td>
+<td>A1, A12, B1, B12</td>
+</tr>
+<tr>
+<td>ACC (5VDC)</td>
+<td>A5, B5</td>
+</tr>
+</tbody>
+</table>
+
+      
+      <div class="post-date">
+        <span class="g time">June 25, 2025 </span> &#8729;
+         
+      </div>
+      
+    </section>
+    
+    
+    
+  </div>
+</main>
+</body>
+</html>

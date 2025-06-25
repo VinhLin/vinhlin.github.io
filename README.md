@@ -80,6 +80,7 @@ hugo new posts/IoT/Hardware/DMA.md
 hugo new posts/IoT/Hardware/OBD2_PIDs.md
 hugo new posts/IoT/Hardware/CCTV_Dashcam.md
 hugo new posts/IoT/Hardware/WiFi_EIRP.md
+hugo new posts/IoT/Hardware/Power_ACC_USB_Type_C.md
 ```
 - Software
 ```

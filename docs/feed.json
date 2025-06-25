@@ -16,6 +16,21 @@
 
     
     {
+      "id": "842edb3199db1d335485244db5f65c6bbbe2543c",
+      "title": "Power_ACC_USB_Type_C",
+      "summary": "",
+      "content_text": " Trong hình là mình có một bộ nguồn ACC kết nối với camera, hỗ trợ chất năng Ghi hình đỗ xe. Tham khảo về thêm về Bộ nguồn trực tiếp ACC Mình đã thử nghiên cứu thì đánh giá như sau: Nguyên tắc hoạt động chính: Là chuyển đổi mức điện áp từ 12VDC -\u0026gt; 5VDC.\nSử dụng một board nhỏ của USB Type C ra chân Kiểm tra và đọc thêm tài liệu [An Engineer\u0026rsquo;s Guide to USB Type-C](/static/docs/An Engineer\u0026rsquo;s Guide to USB Type-C.pdf) (có thể dùng bản online ở đây) Thiết bị camera sẽ có chân đọc tín hiệu digital của ACC \u0026ndash;\u0026gt; Từ đó nhận diện đc trạng thái. Vị trí tương ứng: Dây USB Type C pintout B+ (5VDC) A4, A9, B4, B9 GND A1, A12, B1, B12 ACC (5VDC) A5, B5 ",
+      "content_html": "\u003cp\u003e\u003cimg\n  src=\"/image/IoT/Power_ACC_USB_Type_C/Hinh_1.jpg\"\n  alt=\"Hình 1\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eTrong hình là mình có một bộ nguồn ACC kết nối với camera, hỗ trợ chất năng \u003cstrong\u003eGhi hình đỗ xe\u003c/strong\u003e.\u003c/li\u003e\n\u003cli\u003eTham khảo về thêm về \u003ca href=\"https://www.youtube.com/watch?v=RfN08YqmJwU\"\u003eBộ nguồn trực tiếp ACC\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003eMình đã thử nghiên cứu thì đánh giá như sau:\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003cem\u003eNguyên tắc hoạt động chính: Là \u003cstrong\u003echuyển đổi mức điện áp từ 12VDC -\u0026gt; 5VDC\u003c/strong\u003e\u003c/em\u003e.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch3 id=\"sử-dụng-một-board-nhỏ-của-usb-type-c-ra-chânhttpsshopeevnme1baa1ch-ra-chc3a2n-hc3a0n-ce1bb95ng-usb-31-type-c-sang-dip-24pin-i151012458826531551404xptdk375e62e1-f176-43d2-967a-59548adc26cf\"\u003eSử dụng một board nhỏ của \u003ca href=\"https://shopee.vn/M%E1%BA%A1ch-Ra-Ch%C3%A2n-(h%C3%A0n)-C%E1%BB%95ng-USB-3.1-Type-C-Sang-DIP-24pin-i.1510124588.26531551404?xptdk=375e62e1-f176-43d2-967a-59548adc26cf\"\u003eUSB Type C ra chân\u003c/a\u003e\u003c/h3\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/IoT/Power_ACC_USB_Type_C/Hinh_2.webp\"\n  alt=\"Hình 2\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eKiểm tra và đọc thêm tài liệu [An Engineer\u0026rsquo;s Guide to USB Type-C](/static/docs/An Engineer\u0026rsquo;s Guide to USB Type-C.pdf) \u003cem\u003e(có thể dùng bản \u003ca href=\"https://www.ti.com/lit/eb/slyy228/slyy228.pdf?HQS=app-ipp-pwr-denusbc-bhp-ebook-null-de\"\u003eonline ở đây\u003c/a\u003e)\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eThiết bị camera sẽ có chân đọc tín hiệu digital của ACC\u003c/strong\u003e \u0026ndash;\u0026gt; Từ đó nhận diện đc trạng thái.\u003c/li\u003e\n\u003cli\u003eVị trí tương ứng:\u003c/li\u003e\n\u003c/ul\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003eDây\u003c/th\u003e\n\u003cth\u003eUSB Type C pintout\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eB+ (5VDC)\u003c/td\u003e\n\u003ctd\u003eA4, A9, B4, B9\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGND\u003c/td\u003e\n\u003ctd\u003eA1, A12, B1, B12\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eACC (5VDC)\u003c/td\u003e\n\u003ctd\u003eA5, B5\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n",
+      "url": "https://vinhlin.github.io/posts/iot/hardware/power_acc_usb_type_c/",
+      "date_published": "25066-25-09T640:2525:00+07:00",
+      "date_modified": "25066-25-09T640:2525:00+07:00",
+      "author": {
+        "name": "VinhLD",
+        "url": "https://vinhlin.github.io/"
+      }
+    },
+    
+    {
       "id": "b836b3296b3bd5206a05f9f97fbf1f56b82bd5d2",
       "title": "WiFi_EIRP",
       "summary": "",
