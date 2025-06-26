@@ -24,7 +24,7 @@ STT |		Tiêu đề			|		Mô tả				|
 12  | [OBD2_PIDs][OBD2_PIDs]		| Ghi chú về các mã lệnh **PIDs** của OBDII.	|
 13  | [CCTV_Dashcam][CCTV_Dashcam]	| Ghi chú so sánh về **CCTV** và **Dashcam**	|
 14  | [WiFi_EIRP][WiFi_EIRP]		| Ghi chú về công suất EIRP cho WiFi		|
-15  | [Power_ACC_USB_Type_C][Power_ACC_USB_Type_C] | Ghi chú về bộ nguồn ACC ra chân USB Type C |
+15  | [Power_ACC_USB_Type_C][Power_ACC_USB_Type_C] | Ghi chú về bộ nguồn trực tiếp ACC ra chân USB Type C |
 
 [UNIHIKER]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/unihiker/
 [ESD]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/esd/
@@ -97,11 +97,13 @@ STT |		Tiêu đề			|		Mô tả				|
 2   | [Tools][Tools]			| Tổng hợp các công cụ khác về Hacking		|
 3   | [RedTeam][RedTeam]		| Ghi chú về tài liệu cho Red-Team		|
 4   | [CyberSecurity_Small_Businesses][CyberSecurity_Small_Businesses] | Tổng hợp tài liệu về An toàn thông tin cho Doanh nghiệp nhỏ |
+5   | [CTF_Hardware][CTF_Hardware]	| Tổng hợp tài liệu và blog về CTF Hardware hacking |
 
 [News]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/news/
 [Tools]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/tools/
 [RedTeam]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/readteam/
 [CyberSecurity_Small_Businesses]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/cybersecurity_small_businesses/
+[CTF_Hardware]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/ctf_hardware/
 
 ## ***Technical***
 > Tổng hợp các ghi chú về **Công cụ**, **Kỹ thuật** cũng như **Tư duy** về cả Blue-Team và Red-Team <br>

@@ -14,6 +14,31 @@
     
     
     <item>
+      <title>CTF_Hardware</title>
+      <link>https://vinhlin.github.io/posts/cybersecurity/ctf_hardware/</link>
+      <description>&lt;h2 id=&#34;blog-về-ctf-hardware&#34;&gt;Blog về CTF Hardware&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/AnduinBrian/anduinbrian.github.io&#34;&gt;https://github.com/AnduinBrian/anduinbrian.github.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://anduinbrian.github.io/&#34;&gt;https://anduinbrian.github.io/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tài liệu:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://www.autosar.org/fileadmin/standards/R22-11/CP/AUTOSAR_SWS_CRCLibrary.pdf
+https://github.com/jopohl/urh
+https://github.com/RfidResearchGroup/proxmark3
+https://github.com/compujuckel/ZigbeeOtaExtractor
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;tài-liệu-khác&#34;&gt;Tài liệu khác:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://vinhlin.github.io/docs/ctf_hardware/AUTOSAR_SWS_CRCLibrary.pdf&#34;&gt;AUTOSAR_SWS_CRCLibrary&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://vinhlin.github.io/docs/ctf_hardware/Android_Application_Security_CheckList_v2.0_Release_Candidate.xlsx&#34;&gt;Android Application Security CheckList v2.0 Release Candidate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://vinhlin.github.io/docs/ctf_hardware/romhack-revving-up_the-journey-to-pwn2own-automotive-2024.pdf&#34;&gt;romhack-revving-up_the-journey-to-pwn2own-automotive-2024&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/cybersecurity/ctf_hardware/</guid>
+      <pubDate>Thu, 26 Jun 2025 16:51:47 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Power_ACC_USB_Type_C</title>
       <link>https://vinhlin.github.io/posts/iot/hardware/power_acc_usb_type_c/</link>
       <description>&lt;p&gt;&lt;img
