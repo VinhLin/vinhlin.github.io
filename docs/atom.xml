@@ -14,6 +14,108 @@
     
     
     <item>
+      <title>Cau_chi_Oto</title>
+      <link>https://vinhlin.github.io/posts/iot/hardware/cau_chi_oto/</link>
+      <description>&lt;h2 id=&#34;tham-khảo-về-cầu-chì-xehttpsotoeduvncau-chi-xe-o-to&#34;&gt;&lt;a href=&#34;https://oto.edu.vn/cau-chi-xe-o-to/&#34;&gt;Tham khảo về Cầu chì xe&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Cau_chi_Oto/Hinh_1.png&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Vậy là trên xe ô tô, mình hay đụng nhất là các loại cầu chì dạng &lt;strong&gt;lưỡi dao&lt;/strong&gt; &lt;em&gt;(Blade fuses)&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Cau_chi_Oto/Hinh_2.webp&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Đôi khi người ta gọi:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Standard - Chân to
+Mini - Chân nhỏ
+Micro - Chân cụt
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Cau_chi_Oto/Hinh_3.webp&#34;
+  alt=&#34;Hình 3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;một-số-hình-ảnh-và-kích-thước-cầu-chì&#34;&gt;Một số hình ảnh và kích thước cầu chì:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Standard - Chân to:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Cau_chi_Oto/Hinh_4.webp&#34;
+  alt=&#34;Hình 4&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mini - Chân nhỏ:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Cau_chi_Oto/Hinh_5.webp&#34;
+  alt=&#34;Hình 5&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Micro - Chân cụt:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Cau_chi_Oto/Hinh_6.webp&#34;
+  alt=&#34;Hình 6&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;chia-cầu-chì&#34;&gt;Chia cầu chì:&lt;/h3&gt;
+&lt;p&gt;Khi lắp camera mà cần dùng đến &lt;strong&gt;Hardware Kit&lt;/strong&gt; &lt;em&gt;(hay Nguồn ACC)&lt;/em&gt;, mà để không làm &lt;strong&gt;mất zin&lt;/strong&gt; xe, thì mình có thể sử dụng công cụ &lt;strong&gt;Chia cầu chì&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Cau_chi_Oto/Hinh_7.webp&#34;
+  alt=&#34;Hình 7&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;cách-lắp-cầu-chì-chuẩn-an-toàn-và-câu-chuyện-về-rủi-ro&#34;&gt;Cách lắp cầu chì chuẩn, an toàn và Câu chuyện về rủi ro&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;B+ -&amp;gt; Ghế điện (An toàn nhất là &amp;#34;ghế điện bên phụ&amp;#34;) (thường trực 12VDC)
+GND -&amp;gt; Mass sườn xe
+ACC -&amp;gt; Cầu chì USB (Khi mở máy thì sẽ là 12VDC)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Ngoài ra có một số vị trí cũng có điện thường trực hay độ rủi ro sẽ lớn hơn so với vị trí ghế điện.&lt;/p&gt;
+&lt;p&gt;Về nguyên tắc thì bất kì món nào mình lắp lên xe và khi xảy ra sự cố thì &lt;strong&gt;hãng đều có quyền từ chối bảo hành&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Cho dù có lắp camera hành trình với nguồn tẩu thuốc đi chăng nữa.&lt;/p&gt;
+&lt;p&gt;Do đó khi xảy ra xự cố ngoài ý muốn thì chỉ có &lt;strong&gt;Thương lượng và tìm cách giải quyết&lt;/strong&gt;.&lt;/p&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/iot/hardware/cau_chi_oto/</guid>
+      <pubDate>Thu, 24 Jul 2025 21:38:03 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>SSh_ARMv7</title>
       <link>https://vinhlin.github.io/posts/cybersecurity/technical/ssh_armv7/</link>
       <description>&lt;h3 id=&#34;tải-dropbear-bản-đã-biên-dịch-sẵn-cho-armhttpsmattuccasnaudropbeardropbearhtml&#34;&gt;&lt;a href=&#34;https://matt.ucc.asn.au/dropbear/dropbear.html&#34;&gt;Tải &lt;code&gt;Dropbear&lt;/code&gt; bản đã biên dịch sẵn cho ARM&lt;/a&gt;&lt;/h3&gt;

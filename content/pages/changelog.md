@@ -25,6 +25,7 @@ STT |		Tiêu đề			|		Mô tả				|
 13  | [CCTV_Dashcam][CCTV_Dashcam]	| Ghi chú so sánh về **CCTV** và **Dashcam**	|
 14  | [WiFi_EIRP][WiFi_EIRP]		| Ghi chú về công suất EIRP cho WiFi		|
 15  | [Power_ACC_USB_Type_C][Power_ACC_USB_Type_C] | Ghi chú về bộ nguồn trực tiếp ACC ra chân USB Type C |
+16  | [Cau_chi_Oto][Cau_chi_Oto]	| Ghi chú về cầu chì trên xe ô tô		|
 
 [UNIHIKER]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/unihiker/
 [ESD]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/esd/
@@ -41,6 +42,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [CCTV_Dashcam]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/cctv_dashcam/
 [WiFi_EIRP]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/wifi_eirp/
 [Power_ACC_USB_Type_C]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/power_acc_usb_type_c/
+[Cau_chi_Oto]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/cau_chi_oto/
 
 ## ***SOFTWARE***
 
