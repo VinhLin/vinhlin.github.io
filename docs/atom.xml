@@ -14,6 +14,84 @@
     
     
     <item>
+      <title>Cloud_Sim</title>
+      <link>https://vinhlin.github.io/posts/iot/hardware/cloud_sim/</link>
+      <description>&lt;p&gt;Trong quá trình test về camera có module sim, mình gặp tình trạng lạ là &lt;strong&gt;không có sim, nhưng thiết bị vẫn online bỉnh thường&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Những tính năng online đều hoạt động được, sau khi tham khảo và tìm hiểu thì có thể module sim đang dùng tính năng &lt;strong&gt;Cloud Sim&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;tham-khảo-video-httpswwwyoutubecomwatchvxu6-p9lm3h4&#34;&gt;Tham khảo video: &lt;a href=&#34;https://www.youtube.com/watch?v=xu6-P9lm3H4&#34;&gt;https://www.youtube.com/watch?v=xu6-P9lm3H4&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;tham-khảo-chatgpt&#34;&gt;Tham khảo chatGPT&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Cloud_Sim/Hinh_1.png&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Cloud_Sim/Hinh_2.png&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Cloud_Sim/Hinh_3.png&#34;
+  alt=&#34;Hình 3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Cloud_Sim/Hinh_4.png&#34;
+  alt=&#34;Hình 4&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/iot/hardware/cloud_sim/</guid>
+      <pubDate>Sat, 26 Jul 2025 14:05:59 +0700</pubDate>
+    </item>
+    
+    <item>
+      <title>Voice_Command</title>
+      <link>https://vinhlin.github.io/posts/iot/hardware/voice_command/</link>
+      <description>&lt;h2 id=&#34;sản-phẩm-phần-cứng-voice-commandhttpstechiesmscomproductgravity-offline-voice-recognition-sensor-i2c-uart-dfrobot&#34;&gt;Sản phẩm phần cứng &lt;a href=&#34;https://techiesms.com/product/gravity-offline-voice-recognition-sensor-i2c-uart-dfrobot/&#34;&gt;Voice Command&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Voice_Command/Hinh_1.webp&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;video-youtube-so-sánhhttpswwwyoutubecomwatchvacy1vwedll8&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=AcY1vWEDll8&#34;&gt;Video Youtube so sánh&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Voice_Command/Hinh_2.png&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/iot/hardware/voice_command/</guid>
+      <pubDate>Sat, 26 Jul 2025 14:00:33 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Cau_chi_Oto</title>
       <link>https://vinhlin.github.io/posts/iot/hardware/cau_chi_oto/</link>
       <description>&lt;h2 id=&#34;tham-khảo-về-cầu-chì-xehttpsotoeduvncau-chi-xe-o-to&#34;&gt;&lt;a href=&#34;https://oto.edu.vn/cau-chi-xe-o-to/&#34;&gt;Tham khảo về Cầu chì xe&lt;/a&gt;&lt;/h2&gt;
@@ -95,6 +173,16 @@ Micro - Chân cụt
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/IoT/Cau_chi_Oto/Hinh_7.webp&#34;
   alt=&#34;Hình 7&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;bộ-công-cụ-test-cầu-chì&#34;&gt;Bộ công cụ test cầu chì&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Cau_chi_Oto/Hinh_8.webp&#34;
+  alt=&#34;Hình 8&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
   class=&#34;full-width&#34;
