@@ -165,6 +165,7 @@ STT |		Tiêu đề			|		Mô tả				|
 9   | [Automation_Tools][Automation_Tools] | Tổng quan về các công cụ Automation	|
 10  | [Web_Crawler][Web_Crawler]	| Giới thiệu về **Web Crawler** và công cụ **Firecrawl** |
 11  | [Backup_Tools][Backup_Tools]	| Ghi chú về các tool backup file		|
+12  | [Fabric_AI][Fabric_AI]		| Ghi chú về **Fabric** + **OpenAI API**	|
 
 [Permission_Linux]: https://blog.vinhld-homelab.io.vn/posts/system-devops/permission_linux/
 [Huly]: https://blog.vinhld-homelab.io.vn/posts/system-devops/huly/
@@ -177,6 +178,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [Automation_Tools]: https://blog.vinhld-homelab.io.vn/posts/system-devops/automation_tools/
 [Web_Crawler]: https://blog.vinhld-homelab.io.vn/posts/system-devops/web_crawler/
 [Backup_Tools]: https://blog.vinhld-homelab.io.vn/posts/system-devops/backup_tools/
+[Fabric_AI]: https://blog.vinhld-homelab.io.vn/posts/system-devops/fabric_ai
 
 -----------------------------------------------------------------------------------------
 # <mark>Others</mark>

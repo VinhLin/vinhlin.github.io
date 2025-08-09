@@ -12,7 +12,7 @@ Việc lựa chọn thẻ nhớ phù hợp, tốc độ đọc/ghi cao là yếu
 
 | **STT** | **Tiêu chí**                 | **Thẻ\_XC**                                                         | **Thẻ\_A1**                                                               | **Thẻ\_A2**                                                               |
 | ------- | ---------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| 1       | **Hình minh họa**            | ![XC](https://upload.wikimedia.org/wikipedia/commons/3/33/Sdxc.svg) | ![A1](https://upload.wikimedia.org/wikipedia/commons/3/3a/SD_A1_mark.svg) | ![A2](https://upload.wikimedia.org/wikipedia/commons/3/3c/SD_A2_mark.svg) |
+| 1       | **Hình minh họa**            | ![XC](/image/IoT/The_nho/The_SDXC.png)			       | ![A1](/image/IoT/The_nho/The_A1.jpg)					   | ![A2](/image/IoT/The_nho/The_A2V30.png) 				       |
 | 2       | **Class hiệu năng**          | Không áp dụng (thẻ gốc cũ)                                          | A1                                                                        | A2                                                                        |
 | 3       | **UHS Speed Class**          | U1 hoặc U3 tùy loại                                                 | U1 hoặc U3 tùy loại                                                       | U3                                                                        |
 | 4       | **Video Speed Class**        | Có thể không có hoặc V10/V30                                        | V10 hoặc V30                                                              | V30                                                                       |
@@ -35,7 +35,7 @@ https://www.sdcard.org/developers/sd-standard-overview/application-performance-c
 
 ***V30 (Video Speed Class 30)**: dành cho quay video 4K, đảm bảo tốc độ ghi liên tục ≥ 30 MB/s* </br>
 
-#### CardCameraEN
+#### CardCamera
 
 ![Hình 1](/image/IoT/The_nho/CardCameraEN.png)
 

@@ -14,6 +14,43 @@
     
     
     <item>
+      <title>Fabric_AI</title>
+      <link>https://vinhlin.github.io/posts/system-devops/fabric_ai/</link>
+      <description>&lt;p&gt;Thực ra mình đang dùng &lt;strong&gt;ChatGPT plus&lt;/strong&gt;, chi phí hàng tháng là &lt;strong&gt;20$&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Mình thì thấy bản thân dùng GPT cũng không nhiều, chưa tận dụng được hết các tính năng của GPT &lt;em&gt;(như &lt;strong&gt;chế độ tác nhân&lt;/strong&gt;, &lt;strong&gt;giao tiếp qua âm thanh&lt;/strong&gt;,&amp;hellip;)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Nên mình muốn hạn chế phần chi phí này, và đang nghĩ đến dùng &lt;strong&gt;Fabric AI + OpenAI API&lt;/strong&gt;. Mục tiêu là để tạo ra một ứng dụng có WebUI có chức năng gần giống như chatGPT.&lt;/p&gt;
+&lt;h3 id=&#34;fabrichttpsgithubcomdanielmiesslerfabric&#34;&gt;&lt;a href=&#34;https://github.com/danielmiessler/Fabric&#34;&gt;Fabric&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Tài liệu tham khảo:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://danielmiessler.com/blog/fabric-origin-story
+https://www.youtube.com/watch?v=lEXd6TXPw7E
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Điểm mạnh của &lt;strong&gt;Fabric&lt;/strong&gt; chính là các prompt có sẵn, ngoài ra còn phù hợp với nhiều loại mô hình AI khác.&lt;/li&gt;
+&lt;li&gt;Mình đã cài thử Fabric, có thử tạo prompt test cho riêng mình và dùng API của OpenAI.&lt;/li&gt;
+&lt;li&gt;Kết quả cũng OK.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/Fabric_AI.png&#34;
+  alt=&#34;Kết quả test Fabric&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;note&#34;&gt;Note&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Cái này cần thời gian để kiểm chứng, kiểm chứng về sự tiện lợi/&lt;/li&gt;
+&lt;li&gt;Và trên hết là chi phí, để xem dùng API có giúp mình tiết kiệm hay không.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/system-devops/fabric_ai/</guid>
+      <pubDate>Sat, 09 Aug 2025 20:29:25 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>The_nho</title>
       <link>https://vinhlin.github.io/posts/iot/hardware/the_nho/</link>
       <description>&lt;p&gt;Thẻ nhớ là một trong những phần cứng quan trọng cho các thiết bị như Raspberry Pi, Camera hành trình,&amp;hellip;&lt;/p&gt;
@@ -34,7 +71,7 @@
 &lt;td&gt;1&lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;Hình minh họa&lt;/strong&gt;&lt;/td&gt;
 &lt;td&gt;&lt;img
-  src=&#34;https://upload.wikimedia.org/wikipedia/commons/3/33/Sdxc.svg&#34;
+  src=&#34;https://vinhlin.github.io/image/IoT/The_nho/The_SDXC.png&#34;
   alt=&#34;XC&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -43,7 +80,7 @@
 
 &lt;/td&gt;
 &lt;td&gt;&lt;img
-  src=&#34;https://upload.wikimedia.org/wikipedia/commons/3/3a/SD_A1_mark.svg&#34;
+  src=&#34;https://vinhlin.github.io/image/IoT/The_nho/The_A1.jpg&#34;
   alt=&#34;A1&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -52,7 +89,7 @@
 
 &lt;/td&gt;
 &lt;td&gt;&lt;img
-  src=&#34;https://upload.wikimedia.org/wikipedia/commons/3/3c/SD_A2_mark.svg&#34;
+  src=&#34;https://vinhlin.github.io/image/IoT/The_nho/The_A2V30.png&#34;
   alt=&#34;A2&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -124,7 +161,7 @@ https://www.sdcard.org/developers/sd-standard-overview/speed-class/
 https://www.sdcard.org/developers/sd-standard-overview/application-performance-class/
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;em&gt;&lt;strong&gt;A2 (Application Performance class 2)&lt;/strong&gt;: yêu cầu tối thiểu 4.000 IOPS read và 2.000 IOPS write dùng cho thiết bị chạy app (Android, Linux)&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;V30 (Video Speed Class 30)&lt;/strong&gt;: dành cho quay video 4K, đảm bảo tốc độ ghi liên tục ≥ 30 MB/s&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
-&lt;h4 id=&#34;cardcameraen&#34;&gt;CardCameraEN&lt;/h4&gt;
+&lt;h4 id=&#34;cardcamera&#34;&gt;CardCamera&lt;/h4&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/IoT/The_nho/CardCameraEN.png&#34;
   alt=&#34;Hình 1&#34;

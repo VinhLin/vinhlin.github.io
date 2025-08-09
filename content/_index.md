@@ -38,7 +38,7 @@ Trang blog này như một **cuốn sổ tay cá nhân**, nơi mà mình ghi ch�
 > [Rust in Detail: Writing Scalable Chat Service from Scratch](https://nbaksalyar.github.io/2015/07/10/writing-chat-in-rust.html) </br>
 > [sivakumar-sivaprakasam/rust-examples](https://github.com/sivakumar-sivaprakasam/rust-examples) </br>
 
-✔ Lear Hardware Hacking & IoT Firmware Reverse
+✔ Learn Hardware Hacking & IoT Firmware Reverse
 > [The-Art-of-Hacking/h4cker](https://github.com/The-Art-of-Hacking/h4cker) </br>
 > [tsug0d/AndroidMobilePentest101](https://github.com/tsug0d/AndroidMobilePentest101) </br>
 > [mcw0/PoC](https://github.com/mcw0/PoC) </br>
