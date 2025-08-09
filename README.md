@@ -61,6 +61,7 @@ hugo new posts/Others/Gia_lap_sut_ap_ACC.md
 hugo new posts/Others/HeyGen_AI.md
 hugo new posts/Others/Bo_giam_ap.md
 hugo new posts/Others/Slidev.md
+hugo new posts/Others/Android_Xiaomi.md
 ```
 
 ### IoT:
@@ -84,6 +85,7 @@ hugo new posts/IoT/Hardware/Power_ACC_USB_Type_C.md
 hugo new posts/IoT/Hardware/Cau_chi_Oto.md
 hugo new posts/IoT/Hardware/Voice_Command.md
 hugo new posts/IoT/Hardware/Cloud_Sim.md
+hugo new posts/IoT/Hardware/The_nho.md
 ```
 - Software
 ```

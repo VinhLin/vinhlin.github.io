@@ -28,6 +28,7 @@ STT |		Tiêu đề			|		Mô tả				|
 16  | [Cau_chi_Oto][Cau_chi_Oto]	| Ghi chú về cầu chì trên xe ô tô		|
 17  | [Voice_Command][Voice_Command]	| Ghi chú nhanh về một loại module phần cứng có tiếng năng **VOice Command** |
 18  | [Cloud_Sim][Cloud_Sim]		| Giới thiệu nhanh về khái niệm Cloud Sim	|
+19  | [The_nho][The_nho]		| Tổng hợp thông tin về thẻ nhớ			|
 
 [UNIHIKER]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/unihiker/
 [ESD]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/esd/
@@ -47,6 +48,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [Cau_chi_Oto]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/cau_chi_oto/
 [Voice_Command]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/voice_command/
 [Cloud_Sim]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/cloud_sim/
+[The_nho]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/the_nho/
 
 ## ***SOFTWARE***
 
@@ -195,6 +197,7 @@ STT |		Tiêu đề			|		Mô tả				|
 11  | [HeyGen_AI][HeyGen_AI]		| Giới thiệu về công cụ tạo video AI bằng **HeyGen** |
 12  | [Bo_giam_ap][Bo_giam_ap]		| Làm bộ giảm áp				|
 13  | [Slidev][Slidev]			| Giới thiệu về công cụ **Slidev**		|
+14  | [Android_Xiaomi][Android_Xiaomi]	| Ghi chú về các tính năng thú vị trên Android Xiaomi |
 
 [Ngoai_ngu]: https://blog.vinhld-homelab.io.vn/posts/others/goc_nhin_ve_ngoai_ngu/
 [Hardware_Hacking]: https://blog.vinhld-homelab.io.vn/posts/others/suy_nghi_ve_hardware_hacking/
@@ -209,3 +212,4 @@ STT |		Tiêu đề			|		Mô tả				|
 [HeyGen_AI]: https://blog.vinhld-homelab.io.vn/posts/others/heygen_ai/
 [Bo_giam_ap]: https://blog.vinhld-homelab.io.vn/posts/others/bo_giam_ap/
 [Slidev]: https://blog.vinhld-homelab.io.vn/posts/others/slidev/
+[Android_Xiaomi]: https://blog.vinhld-homelab.io.vn/posts/others/android_xiaomi/

@@ -14,6 +14,194 @@
     
     
     <item>
+      <title>The_nho</title>
+      <link>https://vinhlin.github.io/posts/iot/hardware/the_nho/</link>
+      <description>&lt;p&gt;Thẻ nhớ là một trong những phần cứng quan trọng cho các thiết bị như Raspberry Pi, Camera hành trình,&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Việc lựa chọn thẻ nhớ phù hợp, tốc độ đọc/ghi cao là yếu tố vô cùng quan trọng để giúp thiết bị hoạt động ổn định nhất.&lt;/p&gt;
+&lt;h3 id=&#34;bảng-so-sánh&#34;&gt;Bảng so sánh:&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;strong&gt;STT&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Tiêu chí&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Thẻ_XC&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Thẻ_A1&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Thẻ_A2&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Hình minh họa&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img
+  src=&#34;https://upload.wikimedia.org/wikipedia/commons/3/33/Sdxc.svg&#34;
+  alt=&#34;XC&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/td&gt;
+&lt;td&gt;&lt;img
+  src=&#34;https://upload.wikimedia.org/wikipedia/commons/3/3a/SD_A1_mark.svg&#34;
+  alt=&#34;A1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/td&gt;
+&lt;td&gt;&lt;img
+  src=&#34;https://upload.wikimedia.org/wikipedia/commons/3/3c/SD_A2_mark.svg&#34;
+  alt=&#34;A2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Class hiệu năng&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Không áp dụng (thẻ gốc cũ)&lt;/td&gt;
+&lt;td&gt;A1&lt;/td&gt;
+&lt;td&gt;A2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;UHS Speed Class&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;U1 hoặc U3 tùy loại&lt;/td&gt;
+&lt;td&gt;U1 hoặc U3 tùy loại&lt;/td&gt;
+&lt;td&gt;U3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Video Speed Class&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Có thể không có hoặc V10/V30&lt;/td&gt;
+&lt;td&gt;V10 hoặc V30&lt;/td&gt;
+&lt;td&gt;V30&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Tốc độ ghi tối thiểu&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;10MB/s (U1), 30MB/s (U3)&lt;/td&gt;
+&lt;td&gt;10MB/s (U1), 30MB/s (U3)&lt;/td&gt;
+&lt;td&gt;30MB/s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Tốc độ IOPS (Random RW)&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Không công bố&lt;/td&gt;
+&lt;td&gt;IOPS ≥ 1500 đọc / 500 ghi&lt;/td&gt;
+&lt;td&gt;IOPS ≥ 4000 đọc / 2000 ghi&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Tốc độ đọc lý thuyết&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;~80-100MB/s (tuỳ loại UHS)&lt;/td&gt;
+&lt;td&gt;~100MB/s&lt;/td&gt;
+&lt;td&gt;~100MB/s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Mục đích sử dụng phù hợp&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Camera hành trình phổ thông, lưu trữ&lt;/td&gt;
+&lt;td&gt;Ứng dụng Android, camera hành trình, game nhẹ&lt;/td&gt;
+&lt;td&gt;Android, camera 4K, app lớn, ghi hình chuyên sâu&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;XC (SDXC)&lt;/strong&gt;: Là chuẩn thẻ hỗ trợ dung lượng &amp;gt;32GB đến 2TB. Không có nghĩa là tốc độ cao, phụ thuộc vào UHS và Video Class.&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;A1 &amp;amp; A2&lt;/strong&gt;: Là chuẩn dành riêng cho thiết bị Android. A2 vượt trội hơn A1 về tốc độ truy xuất ngẫu nhiên (IOPS) — điều quan trọng khi chạy ứng dụng từ thẻ nhớ.&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;tài-liệu-tham-khảo&#34;&gt;Tài liệu tham khảo:&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://www.sdcard.org/developers/sd-standard-overview/capacity-sd-sdhc-sdxc-sduc/
+https://www.sdcard.org/developers/sd-standard-overview/speed-class/
+https://www.sdcard.org/developers/sd-standard-overview/application-performance-class/
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;em&gt;&lt;strong&gt;A2 (Application Performance class 2)&lt;/strong&gt;: yêu cầu tối thiểu 4.000 IOPS read và 2.000 IOPS write dùng cho thiết bị chạy app (Android, Linux)&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;V30 (Video Speed Class 30)&lt;/strong&gt;: dành cho quay video 4K, đảm bảo tốc độ ghi liên tục ≥ 30 MB/s&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;h4 id=&#34;cardcameraen&#34;&gt;CardCameraEN&lt;/h4&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/The_nho/CardCameraEN.png&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h4 id=&#34;speedclass&#34;&gt;SpeedClass&lt;/h4&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/The_nho/SpeedClass9.1EN.png&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h4 id=&#34;uhd&#34;&gt;UHD&lt;/h4&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/The_nho/UHD.png&#34;
+  alt=&#34;Hình 3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/iot/hardware/the_nho/</guid>
+      <pubDate>Fri, 08 Aug 2025 17:20:43 +0700</pubDate>
+    </item>
+    
+    <item>
+      <title>Android_Xiaomi</title>
+      <link>https://vinhlin.github.io/posts/others/android_xiaomi/</link>
+      <description>&lt;p&gt;&lt;strong&gt;Android Xiaomi&lt;/strong&gt;, người ta nói nó như là &lt;strong&gt;Apple Trung Quốc&lt;/strong&gt; vậy.&lt;/p&gt;
+&lt;p&gt;Nên có những tính năng mà điện thoại này có đi theo &lt;strong&gt;hệ sinh thái&lt;/strong&gt; của nó.&lt;/p&gt;
+&lt;p&gt;Mình sẽ tìm và note thêm những tính năng hay ho khác của &lt;em&gt;xiaomi phone&lt;/em&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;tính-năng-ghi-màn-hìnhhttpswwwmicomvnsupportfaqdetailska-504379&#34;&gt;Tính năng &lt;a href=&#34;https://www.mi.com/vn/support/faq/details/KA-504379/&#34;&gt;Ghi màn hình&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Mình dùng &lt;strong&gt;Redmi Note 11&lt;/strong&gt; vẫn hỗ trợ &lt;strong&gt;Ghi màn hình&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Không cần cài đặt app thứ 3 bên ngoài.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/Android_Xiaomi/Hinh_1.jpg&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;ứng-dụng-shareme---tham-khảo-youtubehttpswwwyoutubecomwatchv0zsyeduvet4&#34;&gt;Ứng dụng ShareMe - &lt;a href=&#34;https://www.youtube.com/watch?v=0zSYedUveT4&#34;&gt;Tham khảo youtube&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Ứng dụng này cũng có sẵn trên Xiaomi.&lt;/li&gt;
+&lt;li&gt;Ứng dụng cho phép mình kết nối và chia sẻ dữ liệu giữa PC và Mobile thông qua WiFi &lt;em&gt;(cùng mạng cục bộ)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Mình đã thử và cho thể truy cập vào kho dữ liệu của thiết bị &lt;em&gt;(share qua giao thức FTP)&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/Android_Xiaomi/Hinh_2.jpg&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/others/android_xiaomi/</guid>
+      <pubDate>Fri, 08 Aug 2025 17:05:34 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Cloud_Sim</title>
       <link>https://vinhlin.github.io/posts/iot/hardware/cloud_sim/</link>
       <description>&lt;p&gt;Trong quá trình test về camera có module sim, mình gặp tình trạng lạ là &lt;strong&gt;không có sim, nhưng thiết bị vẫn online bỉnh thường&lt;/strong&gt;.&lt;/p&gt;

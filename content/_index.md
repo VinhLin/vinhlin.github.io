@@ -29,9 +29,21 @@ Trang blog này như một **cuốn sổ tay cá nhân**, nơi mà mình ghi ch�
 🌱 Một số ý tưởng project nhỏ khác, [thông tin tại đây](https://blog.vinhld-homelab.io.vn/posts/others/y_tuong_project/)
 
 ## 🔭 Study/Learning:
-> ✔ Tìm hiểu sâu hơn về **Wazuh (SIEM)**: FIM, SCA, MISP,... </br>
-> ✔ Build và làm lại các bài lab về Web-Pentest bên CyberJutsu. </br>
-> ✔ Tìm hiểu thêm về **IoT Firmware Reverse** và **Hardware Hacking**.
+✔ Lab:
+> Tìm hiểu sâu hơn về **Wazuh (SIEM)**: FIM, SCA, MISP,... </br>
+> Build và làm lại các bài lab về Web-Pentest bên CyberJutsu. </br>
+> [VNCERT-CC/digital-forensics-lab](https://github.com/VNCERT-CC/digital-forensics-lab) </br>
+
+✔ Rust-lang
+> [Rust in Detail: Writing Scalable Chat Service from Scratch](https://nbaksalyar.github.io/2015/07/10/writing-chat-in-rust.html) </br>
+> [sivakumar-sivaprakasam/rust-examples](https://github.com/sivakumar-sivaprakasam/rust-examples) </br>
+
+✔ Lear Hardware Hacking & IoT Firmware Reverse
+> [The-Art-of-Hacking/h4cker](https://github.com/The-Art-of-Hacking/h4cker) </br>
+> [tsug0d/AndroidMobilePentest101](https://github.com/tsug0d/AndroidMobilePentest101) </br>
+> [mcw0/PoC](https://github.com/mcw0/PoC) </br>
+> [adamhlt/TL-WR841N](https://github.com/adamhlt/TL-WR841N) </br>
+> [OWASP/IoTGoat](https://github.com/OWASP/IoTGoat) </br>
 
 ## 💬 Others Information:
 - 📺 Blog: https://vinhlin.github.io/
