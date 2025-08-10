@@ -4,7 +4,7 @@ date = 2024-07-12T15:21:41+07:00
 draft = true
 +++
 
-# [My Resume](../CV_VinhLD_16072025.pdf)
+# [My Resume](../CV_VinhLD_10082025.pdf)
 
 <h2 align="center">👋 A person loving and working in IoT & Cyber-Security</h2>
 
