@@ -15,7 +15,10 @@ draft = true
 
 ![Hình 2](/image/IoT/Power_ACC_USB_Type_C/Hinh_2.webp)
 
-- Kiểm tra và đọc thêm tài liệu [An Engineer's Guide to USB Type-C](/static/docs/An Engineer's Guide to USB Type-C.pdf) *(có thể dùng bản [online ở đây](https://www.ti.com/lit/eb/slyy228/slyy228.pdf?HQS=app-ipp-pwr-denusbc-bhp-ebook-null-de))*
+- Kiểm tra và đọc thêm tài liệu [An Engineer's Guide to USB Type-C](/docs/An Engineer's Guide to USB Type-C.pdf) *(có thể dùng bản [online ở đây](https://www.ti.com/lit/eb/slyy228/slyy228.pdf?HQS=app-ipp-pwr-denusbc-bhp-ebook-null-de))*
+
+![Hình 3](/image/IoT/Power_ACC_USB_Type_C/Hinh_3.png)
+
 - **Thiết bị camera sẽ có chân đọc tín hiệu digital của ACC** --> Từ đó nhận diện đc trạng thái.
 - Vị trí tương ứng:
 
@@ -25,7 +28,7 @@ B+ (5VDC)	|	A4, A9, B4, B9		|
 GND		|	A1, A12, B1, B12	|
 ACC (5VDC)	|	A5, B5			|
 
-
+> ***Note:** `USB Type C pintout` chân **A5** và **B5** chính là **CC2***.
 
 
 

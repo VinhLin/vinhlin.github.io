@@ -28,5 +28,6 @@ https://www.youtube.com/watch?v=lEXd6TXPw7E
 ### Note
 - Cái này cần thời gian để kiểm chứng, kiểm chứng về sự tiện lợi.
 - Và trên hết là chi phí, để xem dùng API có giúp mình tiết kiệm hay không.
+- Ngoài ra, khi dùng API của OpenAI thì cần phải sử dụng model mới nhất, để có dữ liệu cập nhật mới nhất.
 
-
+![Hình 3](/image/System-DevOps/Fabric_AI/Hinh_3.png)

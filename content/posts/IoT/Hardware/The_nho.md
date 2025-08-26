@@ -47,3 +47,14 @@ https://www.sdcard.org/developers/sd-standard-overview/application-performance-c
 
 ![Hình 3](/image/IoT/The_nho/UHD.png)
 
+---------------------------------------------------------------
+### So sánh SDHC và SDXC
+
+![Hình 1](/image/IoT/The_nho/Hinh_1.png)
+
+### Phân biệt tốc độ của thẻ Micro SD
+
+![Hình 2](/image/IoT/The_nho/Hinh_2.png)
+
+
+
