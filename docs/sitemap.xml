@@ -2,10 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://vinhlin.github.io/posts/system-devops/fabric_ai/</loc>
-    <lastmod>2025-08-09T20:29:25+07:00</lastmod>
-  </url><url>
     <loc>https://vinhlin.github.io/posts/</loc>
+    <lastmod>2025-08-28T12:40:20+07:00</lastmod>
+  </url><url>
+    <loc>https://vinhlin.github.io/posts/iot/hardware/power_acc_usb_type_c/</loc>
+    <lastmod>2025-08-28T12:40:20+07:00</lastmod>
+  </url><url>
+    <loc>https://vinhlin.github.io/posts/system-devops/fabric_ai/</loc>
     <lastmod>2025-08-09T20:29:25+07:00</lastmod>
   </url><url>
     <loc>https://vinhlin.github.io/posts/iot/hardware/the_nho/</loc>
@@ -28,9 +31,6 @@
   </url><url>
     <loc>https://vinhlin.github.io/posts/cybersecurity/ctf_hardware/</loc>
     <lastmod>2025-06-26T16:51:47+07:00</lastmod>
-  </url><url>
-    <loc>https://vinhlin.github.io/posts/iot/hardware/power_acc_usb_type_c/</loc>
-    <lastmod>2025-06-25T16:40:20+07:00</lastmod>
   </url><url>
     <loc>https://vinhlin.github.io/posts/iot/hardware/wifi_eirp/</loc>
     <lastmod>2025-06-24T15:34:53+07:00</lastmod>
