@@ -16,6 +16,21 @@
 
     
     {
+      "id": "17d8dcca8b236d6708d2b543b5a83c7c9b328bc5",
+      "title": "Speedtest_ARMv7l",
+      "summary": "",
+      "content_text": "Với những dòng camera sử dụng Linux và có dùng module 4G.\nMình có thể dùng công cụ như speedtest để đo tốc độ mạng trên kiến trúc của chip ARMv7l\nTham khảo thêm từ Grok AI về các libarary cho công cụ speedtest:\nhttps://github.com/librespeed/speedtest-cli https://www.speedtest.net/apps/cli Lưu ý là phải đảm bảo thiết bị có kết nối mạng. Trước khi thực hiện các bước bên dưới.\nDownload công cụ: wget -O speedtest.tgz https://install.speedtest.net/app/cli/ookla-speedtest-1.2.0-linux-armhf.tgz tar xzvf speedtest.tgz Kiểm tra xem có work hay không: ./speedtest --version Speedtest và Khắc phục lỗi về Cert Download: wget https://curl.se/ca/cacert.pem Sau đó thực hiện các command: mkdir /etc/ssl mkdir /etc/ssl/certs touch /etc/ssl/certs/ca-certificates.crt mv cacert.pem /etc/ssl/certs/ca-certificates.crt chmod 644 /etc/ssl/certs/ca-certificates.crt export SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt Đã chạy lệnh thành công: ./speedtest ",
+      "content_html": "\u003cp\u003eVới những dòng camera sử dụng \u003cstrong\u003eLinux\u003c/strong\u003e và có dùng \u003cstrong\u003emodule 4G\u003c/strong\u003e.\u003c/p\u003e\n\u003cp\u003eMình có thể dùng công cụ như \u003cstrong\u003espeedtest\u003c/strong\u003e để đo tốc độ mạng trên kiến trúc của chip \u003cstrong\u003eARMv7l\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eTham khảo thêm từ \u003cstrong\u003eGrok AI\u003c/strong\u003e về các libarary cho công cụ speedtest:\u003c/p\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003ehttps://github.com/librespeed/speedtest-cli\nhttps://www.speedtest.net/apps/cli\n\u003c/code\u003e\u003c/pre\u003e\u003cp\u003e\u003cem\u003e\u003cstrong\u003eLưu ý là phải đảm bảo thiết bị có kết nối mạng. Trước khi thực hiện các bước bên dưới\u003c/strong\u003e\u003c/em\u003e.\u003c/p\u003e\n\u003ch3 id=\"download-công-cụ\"\u003eDownload công cụ:\u003c/h3\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003ewget -O speedtest.tgz https://install.speedtest.net/app/cli/ookla-speedtest-1.2.0-linux-armhf.tgz\ntar xzvf speedtest.tgz\n\u003c/code\u003e\u003c/pre\u003e\u003cul\u003e\n\u003cli\u003eKiểm tra xem có work hay không:\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003e./speedtest --version\n\u003c/code\u003e\u003c/pre\u003e\u003cp\u003e\u003cimg\n  src=\"/image/IoT/Speedtest_ARMv7l/Hinh_1.png\"\n  alt=\"Hình 1\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003ch3 id=\"speedtest-và-khắc-phục-lỗi-về-cert\"\u003eSpeedtest và Khắc phục lỗi về \u003ccode\u003eCert\u003c/code\u003e\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eDownload:\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003ewget https://curl.se/ca/cacert.pem\n\u003c/code\u003e\u003c/pre\u003e\u003cul\u003e\n\u003cli\u003eSau đó thực hiện các command:\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003emkdir /etc/ssl\nmkdir /etc/ssl/certs\ntouch /etc/ssl/certs/ca-certificates.crt\nmv cacert.pem /etc/ssl/certs/ca-certificates.crt\nchmod 644 /etc/ssl/certs/ca-certificates.crt\nexport SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt\n\u003c/code\u003e\u003c/pre\u003e\u003cul\u003e\n\u003cli\u003eĐã chạy lệnh thành công:\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003e./speedtest\n\u003c/code\u003e\u003c/pre\u003e\u003cp\u003e\u003cimg\n  src=\"/image/IoT/Speedtest_ARMv7l/Hinh_2.png\"\n  alt=\"Hình 2\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n",
+      "url": "https://vinhlin.github.io/posts/iot/software/speedtest_armv7l/",
+      "date_published": "29086-29-09T832:2929:00+07:00",
+      "date_modified": "29086-29-09T832:2929:00+07:00",
+      "author": {
+        "name": "VinhLD",
+        "url": "https://vinhlin.github.io/"
+      }
+    },
+    
+    {
       "id": "842edb3199db1d335485244db5f65c6bbbe2543c",
       "title": "Power_ACC_USB_Type_C",
       "summary": "",

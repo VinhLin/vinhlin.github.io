@@ -26,7 +26,7 @@ STT |		Tiêu đề			|		Mô tả				|
 14  | [WiFi_EIRP][WiFi_EIRP]		| Ghi chú về công suất EIRP cho WiFi		|
 15  | [Power_ACC_USB_Type_C][Power_ACC_USB_Type_C] | Ghi chú về bộ nguồn trực tiếp ACC ra chân USB Type C |
 16  | [Cau_chi_Oto][Cau_chi_Oto]	| Ghi chú về cầu chì trên xe ô tô		|
-17  | [Voice_Command][Voice_Command]	| Ghi chú nhanh về một loại module phần cứng có tiếng năng **VOice Command** |
+17  | [Voice_Command][Voice_Command]	| Ghi chú nhanh về một loại module phần cứng có tiếng năng **Voice Command** |
 18  | [Cloud_Sim][Cloud_Sim]		| Giới thiệu nhanh về khái niệm Cloud Sim	|
 19  | [The_nho][The_nho]		| Tổng hợp thông tin về thẻ nhớ			|
 
@@ -60,6 +60,7 @@ STT |		Tiêu đề			|		Mô tả				|
 4   | [Docklight][Docklight]		| Một phần mềm giả lập Serial - RS232		|
 5   | [Desktop_App][Desktop_App]	| Giới thiệu **C++ Builder**, công cụ build ứng dụng desktop trên Windows |
 6   | [EMQK_Broker][EMQK_Broker]	| Giới thiệu về **EMQK Broker**			|
+7   | [Speedtest_ARMv7l][Speedtest_ARMv7l] | Test công cụ đo **tốc độ mạng** trên `linux ARMv7l` |
 
 [PiKVM]: https://blog.vinhld-homelab.io.vn/posts/iot/software/pikvm/
 [Pi400-Keyboard]: https://blog.vinhld-homelab.io.vn/posts/iot/software/pi400-keyboard/
@@ -67,6 +68,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [Docklight]: https://blog.vinhld-homelab.io.vn/posts/iot/software/docklight/
 [Desktop_App]: https://blog.vinhld-homelab.io.vn/posts/iot/software/desktop_app/
 [EMQK_Broker]: https://blog.vinhld-homelab.io.vn/posts/iot/software/emqk_broker/
+[Speedtest_ARMv7l]: https://blog.vinhld-homelab.io.vn/posts/iot/software/speedtest_armv7l/
 
 ### Rust-lang
 > Tổng hợp ghi chú về ngôn ngữ lập trình **Rust** <br>

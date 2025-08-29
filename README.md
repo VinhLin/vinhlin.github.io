@@ -102,6 +102,7 @@ hugo new posts/IoT/Software/Read_Write_UART_STM32Fx.md
 hugo new posts/IoT/Software/Rust_for_ARM.md
 hugo new posts/IoT/Software/Desktop_App.md
 hugo new posts/IoT/Software/EMQK_Broker.md
+hugo new posts/IoT/Software/Speedtest_ARMv7l.md
 ```
 
 ### CyberSecurity:
