@@ -1,6 +1,6 @@
 +++
 title = 'The_nho'
-date = 2025-08-08T17:20:43+07:00
+date = 2025-09-11T17:20:43+07:00
 draft = true
 +++
 
@@ -56,5 +56,35 @@ https://www.sdcard.org/developers/sd-standard-overview/application-performance-c
 
 ![Hình 2](/image/IoT/The_nho/Hinh_2.png)
 
+## Định dạng phù hợp chung cho TF-card:
+- Thẻ nhớ TF-card *(hay còn gọi là MicroSD card)* có thể được định dạng với nhiều file system khác nhau tùy theo dung lượng và mục đích sử dụng. 
+- Định dạng phù hợp nhất thường phụ thuộc vào dung lượng thẻ và thiết bị sử dụng (như điện thoại, máy ảnh, máy chơi game).
+- Tài liệu tham khảo:
+```
+https://www.reddit.com/r/SwitchPirates/comments/10vjb39/what_microsd_format_do_i_need_exfat_or_fat32/
+https://www.linkedin.com/pulse/choosing-best-file-format-sd-card-external-hard-drive-dip-sard/
+```
 
+### FAT32
+- Đây là định dạng phổ biến và tương thích cao nhất với hầu hết các thiết bị.
+- Tuy nhiên, nó có **giới hạn file size tối đa 4GB** và **dung lượng phân vùng tối đa lý thuyết 2TB** (thực tế thường dùng cho thẻ nhỏ).
+
+![FAT32](/image/IoT/The_nho/FAT32.jpg)
+
+- FAT32 phù hợp nhất cho thẻ MicroSDHC ***(dung lượng từ 4GB đến 32GB)***.
+
+### exFAT
+- Phù hợp hơn cho thẻ dung lượng lớn, **hỗ trợ file size lớn hơn 4GB**.
+- Hỗ trợ dung lượng lớn và file size không giới hạn thực tế, lý tưởng cho lưu trữ video 4K, file lớn.
+- exFAT phù hợp nhất cho thẻ MicroSDXC ***(dung lượng từ 64GB trở lên)***.
+
+## Đối với camera
+- Đối với camera hành trình thì định dạng thẻ nhớ là **FAT32**, không phân biệt dung lượng của thẻ.
+- Ví dụ về một thẻ nhớ 64GB, dùng với **camera hành trình của Vietmap**:
+
+![Hình 3](/image/IoT/The_nho/Hinh_3.png)
+
+- Ví dụ về một thẻ nhớ 64GB, dùng với **camera hành trình của 70mai**:
+
+![Hình 4](/image/IoT/The_nho/Hinh_4.png)
 

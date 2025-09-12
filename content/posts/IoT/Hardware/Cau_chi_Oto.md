@@ -58,3 +58,14 @@ Cho dù có lắp camera hành trình với nguồn tẩu thuốc đi chăng n�
 
 Do đó khi xảy ra xự cố ngoài ý muốn thì chỉ có **Thương lượng và tìm cách giải quyết**.
 
+----------------------------------------------------------------------------------
+> *Có một số vị trí **cầu chì ban đầu tưởng là B+**. Nhưng khoảng **sau 10 phút hoặc 30 phút** thì vị trí này bị mất nguồn --> **Các vị trí này vẫn được tính là ACC***. </br> 
+> *Thành ra nên chọn đúng vị trí B+, luôn luôn có nguồn.*
+
+
+
+
+
+
+
+
