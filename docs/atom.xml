@@ -14,6 +14,220 @@
     
     
     <item>
+      <title>BlueTeam</title>
+      <link>https://vinhlin.github.io/posts/cybersecurity/blueteam/</link>
+      <description>&lt;h3 id=&#34;blue-team-tools&#34;&gt;Blue-Team Tools&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/BlueTeam/Blue_Team_Tools.jpg&#34;
+  alt=&#34;Tools&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;wireshark-filter&#34;&gt;Wireshark Filter&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/BlueTeam/Wireshark_Filter.jpg&#34;
+  alt=&#34;Wireshark_Filter&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/cybersecurity/blueteam/</guid>
+      <pubDate>Tue, 16 Sep 2025 09:53:53 +0700</pubDate>
+    </item>
+    
+    <item>
+      <title>RedTeam</title>
+      <link>https://vinhlin.github.io/posts/cybersecurity/redteam/</link>
+      <description>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Ngày&lt;/th&gt;
+&lt;th&gt;Mô tả&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;15/6/2024&lt;/td&gt;
+&lt;td&gt;Khởi tạo bài viết.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;16/9/2025&lt;/td&gt;
+&lt;td&gt;Bổ sung thêm về &lt;strong&gt;Kali Cheatsheet&lt;/strong&gt; và &lt;strong&gt;Dark Web&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;5-free-red-teaming-resources-to-get-you-startedhttpswwwhelpnetsecuritycom20240416free-red-teaming-resources&#34;&gt;&lt;a href=&#34;https://www.helpnetsecurity.com/2024/04/16/free-red-teaming-resources/&#34;&gt;5 free red teaming resources to get you started&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dmcxblue.gitbook.io/red-team-notes-2-0&#34;&gt;Red Team Notes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://assets.publishing.service.gov.uk/media/61702155e90e07197867eb93/20210625-Red_Teaming_Handbook.pdf&#34;&gt;Red Teaming Handbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/A-poc/RedTeam-Tools&#34;&gt;Red Team Tools&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/infosecn1nja/Red-Teaming-Toolkit&#34;&gt;Red Teaming Toolkit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;các-giao-thức-mạng-cơ-bản&#34;&gt;Các giao thức mạng cơ bản:&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/RedTeam/Common_Network_Protocols.jpg&#34;
+  alt=&#34;Network Protocols&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;tổng-hợp-các-công-cụ-cho-red-team&#34;&gt;Tổng hợp các công cụ cho Red-Team:&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/RedTeam/Red_Team_Tools.jpg&#34;
+  alt=&#34;Red Team Tools&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;cập-nhật-1692025&#34;&gt;Cập nhật 16/9/2025&lt;/h2&gt;
+&lt;h3 id=&#34;kali-cheatsheet&#34;&gt;Kali Cheatsheet&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/RedTeam/Kali_Cheatsheet/Hinh_1.jpg&#34;
+  alt=&#34;Hinh 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/RedTeam/Kali_Cheatsheet/Hinh_2.jpg&#34;
+  alt=&#34;Hinh 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/RedTeam/Kali_Cheatsheet/Hinh_3.jpg&#34;
+  alt=&#34;Hinh 3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/RedTeam/Kali_Cheatsheet/Hinh_4.jpg&#34;
+  alt=&#34;Hinh 4&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/RedTeam/Kali_Cheatsheet/Hinh_5.jpg&#34;
+  alt=&#34;Hinh 5&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/RedTeam/Kali_Cheatsheet/Hinh_6.jpg&#34;
+  alt=&#34;Hinh 6&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/RedTeam/Kali_Cheatsheet/Hinh_7.jpg&#34;
+  alt=&#34;Hinh 7&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/RedTeam/Kali_Cheatsheet/Hinh_8.jpg&#34;
+  alt=&#34;Hinh 8&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;dark-web&#34;&gt;Dark Web&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/RedTeam/Dark_Web/Hinh_1.jpg&#34;
+  alt=&#34;Hinh 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/RedTeam/Dark_Web/Hinh_2.jpg&#34;
+  alt=&#34;Hinh 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/RedTeam/Dark_Web/Hinh_3.jpg&#34;
+  alt=&#34;Hinh 3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/RedTeam/Dark_Web/Hinh_4.jpg&#34;
+  alt=&#34;Hinh 4&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/RedTeam/Dark_Web/Hinh_5.jpg&#34;
+  alt=&#34;Hinh 5&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/RedTeam/Dark_Web/Hinh_6.jpg&#34;
+  alt=&#34;Hinh 6&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/cybersecurity/redteam/</guid>
+      <pubDate>Tue, 16 Sep 2025 09:05:38 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>The_nho</title>
       <link>https://vinhlin.github.io/posts/iot/hardware/the_nho/</link>
       <description>&lt;p&gt;Thẻ nhớ là một trong những phần cứng quan trọng cho các thiết bị như Raspberry Pi, Camera hành trình,&amp;hellip;&lt;/p&gt;
@@ -5948,90 +6162,6 @@ SendRecv: 0x0403022000
       <author>VinhLD</author>
       <guid>https://vinhlin.github.io/posts/others/goc_nhin_ve_ngoai_ngu/</guid>
       <pubDate>Sun, 07 Jul 2024 15:03:26 +0700</pubDate>
-    </item>
-    
-    <item>
-      <title>Tools</title>
-      <link>https://vinhlin.github.io/posts/cybersecurity/tools/</link>
-      <description>&lt;h3 id=&#34;tool-git-dumperhttpsgithubcomarthaudgit-dumper&#34;&gt;&lt;a href=&#34;https://github.com/arthaud/git-dumper&#34;&gt;Tool: Git-Dumper&lt;/a&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Trong quá trình &lt;strong&gt;recon&lt;/strong&gt; một trang web, mà mình thấy có đường dẫn &lt;code&gt;.git&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Thì có thể dùng tool &lt;strong&gt;git-dumper&lt;/strong&gt; này để lấy thông tin.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;tool-web-checkhttpsweb-checkxyz&#34;&gt;&lt;a href=&#34;https://web-check.xyz/&#34;&gt;Tool Web Check&lt;/a&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Đây là một công cụ có thể sử dụng online, hoặc build ở local.&lt;/li&gt;
-&lt;li&gt;Công cụ này giúp mình recon những thông số cơ bản của một trang web.&lt;/li&gt;
-&lt;li&gt;Tài liệu:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;1. https://github.com/lissy93/web-check
-2. https://web-check.xyz/about#api-documentation
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;caidohttpscaidoio&#34;&gt;&lt;a href=&#34;https://caido.io/&#34;&gt;Caido&lt;/a&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Công cụ này có chức năng tương tự như &lt;strong&gt;Burp-Suite&lt;/strong&gt;, nhưng mà là ở &lt;strong&gt;giao diện Web&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=5Di0VVK9JiQ&amp;amp;list=WL&amp;amp;index=2&#34;&gt;Tham khảo Youtube: How to Hack Web Apps with Caido&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Tài liệu:
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.caido.io/&#34;&gt;Docs&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/caido&#34;&gt;Github Project&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;cuckoo-sandbox&#34;&gt;Cuckoo Sandbox&lt;/h3&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://cuckoosandbox.org/download
-https://cuckoo.sh/docs/
-https://cuckoo.sh/docs/installation/host/requirements.html
-https://cuckoosandbox.org/blog/207-interim-release
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;bunkerweb---waf&#34;&gt;Bunkerweb - WAF&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bunkerity/bunkerweb&#34;&gt;https://github.com/bunkerity/bunkerweb&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.bunkerweb.io/&#34;&gt;https://www.bunkerweb.io/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.bunkerweb.io/latest/?utm_campaign=self&amp;amp;utm_source=bunkerwebio#overview&#34;&gt;https://docs.bunkerweb.io/latest/?utm_campaign=self&amp;amp;utm_source=bunkerwebio#overview&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://demo.bunkerweb.io/&#34;&gt;https://demo.bunkerweb.io/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@bunkerity4183/videos&#34;&gt;https://www.youtube.com/@bunkerity4183/videos&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;nettacker-automated-penetration-testing-framework---open-source-vulnerability-scanner---vulnerability-management&#34;&gt;Nettacker: Automated Penetration Testing Framework - Open-Source Vulnerability Scanner - Vulnerability Management&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Github Project: &lt;a href=&#34;https://github.com/OWASP/Nettacker&#34;&gt;Nettacker&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Documents: &lt;a href=&#34;https://owasp.org/www-project-nettacker/&#34;&gt;https://owasp.org/www-project-nettacker/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Note&lt;/strong&gt;: Nhìn chung mình thấy tool này khá giống với tool &lt;strong&gt;reNgine&lt;/strong&gt;, hoặc một số công cụ auto-scan khác.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;aescrypthttpswwwaescryptcom-công-cụ-mã-hóa-file&#34;&gt;&lt;a href=&#34;https://www.aescrypt.com/&#34;&gt;AESCrypt&lt;/a&gt;: Công cụ mã hóa file&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Đây là một phần mềm &lt;strong&gt;mã nguồn mở&lt;/strong&gt;, hỗ trợ mã hóa file.&lt;/li&gt;
-&lt;li&gt;Video giới thiệu về công cụ này: &lt;a href=&#34;https://www.youtube.com/watch?v=zA4dDlslDXo&#34;&gt;AESCrypt - Mã hoá file&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://services.udel.edu/TDClient/32/Portal/KB/ArticleDet?ID=366&#34;&gt;Một bài viết khác&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;hardware-hacking-tools&#34;&gt;Hardware hacking tools&lt;/h3&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Hardware_Hacking.jpg&#34;
-  alt=&#34;Hardware Hacking Tools&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-</description>
-      <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/cybersecurity/tools/</guid>
-      <pubDate>Sat, 06 Jul 2024 15:36:05 +0700</pubDate>
-    </item>
-    
-    <item>
-      <title>RedTeam</title>
-      <link>https://vinhlin.github.io/posts/cybersecurity/redteam/</link>
-      <description>&lt;h3 id=&#34;5-free-red-teaming-resources-to-get-you-startedhttpswwwhelpnetsecuritycom20240416free-red-teaming-resources&#34;&gt;&lt;a href=&#34;https://www.helpnetsecurity.com/2024/04/16/free-red-teaming-resources/&#34;&gt;5 free red teaming resources to get you started&lt;/a&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://dmcxblue.gitbook.io/red-team-notes-2-0&#34;&gt;Red Team Notes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://assets.publishing.service.gov.uk/media/61702155e90e07197867eb93/20210625-Red_Teaming_Handbook.pdf&#34;&gt;Red Teaming Handbook&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/A-poc/RedTeam-Tools&#34;&gt;Red Team Tools&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/infosecn1nja/Red-Teaming-Toolkit&#34;&gt;Red Teaming Toolkit&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-      <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/cybersecurity/redteam/</guid>
-      <pubDate>Sat, 15 Jun 2024 11:05:38 +0700</pubDate>
     </item>
     
     <item>

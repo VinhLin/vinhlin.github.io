@@ -108,12 +108,14 @@ STT |		Tiêu đề			|		Mô tả				|
 3   | [RedTeam][RedTeam]		| Ghi chú về tài liệu cho Red-Team		|
 4   | [CyberSecurity_Small_Businesses][CyberSecurity_Small_Businesses] | Tổng hợp tài liệu về An toàn thông tin cho Doanh nghiệp nhỏ |
 5   | [CTF_Hardware][CTF_Hardware]	| Tổng hợp tài liệu và blog về CTF Hardware hacking |
+6   | [BlueTeam][BlueTeam]		| Ghi chú về tài liệu cho Blue-Team		|
 
 [News]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/news/
 [Tools]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/tools/
-[RedTeam]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/readteam/
+[RedTeam]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/redteam/
 [CyberSecurity_Small_Businesses]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/cybersecurity_small_businesses/
 [CTF_Hardware]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/ctf_hardware/
+[BlueTeam]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/blueteam/
 
 ## ***Technical***
 > Tổng hợp các ghi chú về **Công cụ**, **Kỹ thuật** cũng như **Tư duy** về cả Blue-Team và Red-Team <br>

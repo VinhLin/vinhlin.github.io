@@ -112,6 +112,7 @@ hugo new posts/CyberSecurity/Tools.md
 hugo new posts/CyberSecurity/RedTeam.md
 hugo new posts/CyberSecurity/CyberSecurity_Small_Businesses.md
 hugo new posts/CyberSecurity/CTF_Hardware.md
+hugo new posts/CyberSecurity/BlueTeam.md
 ```
 - Technical
 ```
