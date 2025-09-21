@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Liste - https://vinhlin.github.io/">
+    <title>Kali_for_ARM | VinhLin</title>
+    <meta name="description" content="Technology Blog">
+    <meta property="og:title" content="Kali_for_ARM" />
+<meta property="og:description" content="Kali on ARM Vô tình xem youtube, mình thấy người ta làm công cụ hacking, dựa trên Raspberry.
+https://www.youtube.com/watch?v=mPpk8jhAGa4&amp;list=WL&amp;index=3 https://www.youtube.com/watch?v=km81ph7pZz8 Thế là phát hiện ra đã có rất nhiều bản image của Kali dành cho ARM.
+Document lại để dành, sau này có time sẽ nghiên cứu từ từ.
+Dự án Raspberry Pi Zero W P4wnP1 A.L.O.A Đây là dự án dành cho Raspberry Pi Zero W, dự án này có sẵn image." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://vinhlin.github.io/posts/cybersecurity/kali_for_arm/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2025-09-21T11:23:31+07:00" />
+<meta property="article:modified_time" content="2025-09-21T11:23:31+07:00" />
+
+    <meta itemprop="name" content="Kali_for_ARM">
+<meta itemprop="description" content="Kali on ARM Vô tình xem youtube, mình thấy người ta làm công cụ hacking, dựa trên Raspberry.
+https://www.youtube.com/watch?v=mPpk8jhAGa4&amp;list=WL&amp;index=3 https://www.youtube.com/watch?v=km81ph7pZz8 Thế là phát hiện ra đã có rất nhiều bản image của Kali dành cho ARM.
+Document lại để dành, sau này có time sẽ nghiên cứu từ từ.
+Dự án Raspberry Pi Zero W P4wnP1 A.L.O.A Đây là dự án dành cho Raspberry Pi Zero W, dự án này có sẵn image."><meta itemprop="datePublished" content="2025-09-21T11:23:31+07:00" />
+<meta itemprop="dateModified" content="2025-09-21T11:23:31+07:00" />
+<meta itemprop="wordCount" content="164">
+<meta itemprop="keywords" content="" />
+    
+    <link rel="canonical" href="https://vinhlin.github.io/posts/cybersecurity/kali_for_arm/">
+    <link rel="icon" href="https://vinhlin.github.io//assets/favicon.ico">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
+    <link rel="alternate" type="application/atom+xml" title="VinhLin" href="https://vinhlin.github.io//atom.xml" />
+    <link rel="alternate" type="application/json" title="VinhLin" href="https://vinhlin.github.io//feed.json" />
+    <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=">
+    
+    
+    <style>*,:after,:before{box-sizing:border-box;padding:0}body{font:1rem/1.5 '-apple-system',BlinkMacSystemFont,avenir next,avenir,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding:2rem;background:#f5f5f5;color:#000}.skip-link{position:absolute;top:-40px;left:0;background:#eee;z-index:100}.skip-link:focus{top:0}h1,h2,h3,h4,h5,strong,b{font-size:inherit;font-weight:600}header{line-height:2;padding-bottom:1.5rem}.link{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-decoration:none}.time{font-variant-numeric:tabular-nums;white-space:nowrap}blockquote{border-left:5px solid #eee;padding-left:1rem;margin:0}a,a:visited{color:inherit}a:hover,a.heading-link{text-decoration:none}pre{padding:.5rem;overflow:auto;overflow-x:scroll;overflow-wrap:normal}code,pre{font-family:San Francisco Mono,Monaco,consolas,lucida console,dejavu sans mono,bitstream vera sans mono,monospace;font-size:normal;font-size:small;background:#eee}code{margin:.1rem;border:none}ul{list-style-type:square}ul,ol{padding-left:1.2rem}.list{line-height:2;list-style-type:none;padding-left:0}.list li{padding-bottom:.1rem}.meta{color:#777}.content{max-width:70ch;margin:0 auto}header{line-height:2;display:flex;justify-content:space-between;padding-bottom:1rem}header a{text-decoration:none}header ul{list-style-type:none;padding:0}header li,header a{display:inline}h2.post{padding-top:.5rem}header ul a:first-child{padding-left:1rem}.nav{height:1px;background:#000;content:'';max-width:10%}.list li{display:flex;align-items:baseline}.list li time{flex:initial}.hr-list{margin-top:0;margin-bottom:0;margin-right:.5rem;margin-left:.5rem;height:1px;border:0;border-bottom:1px dotted #ccc;flex:1 0 1rem}.m,hr{border:0;margin:3rem 0}img{max-width:100%;height:auto}.post-date{margin:5% 0}.index-date{color:#9a9a9a}.animate-blink{animation:opacity 1s infinite;opacity:1}@keyframes opacity{0%{opacity:1}50%{opacity:.5}100%{opacity:0}}.tags{display:flex;justify-content:space-between}.tags ul{padding:0;margin:0}.tags li{display:inline}.avatar{height:120px;width:120px;position:relative;margin:-10px 0 0 15px;float:right;border-radius:50%}table{width:100%;border-collapse:collapse}th,td{border:1px solid #ddd;text-align:left;padding:8px}th{background-color:#f2f2f2} </style>
+  
+    
+  
+  
+  <script type="application/ld+json">
+  {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "articleSection": "posts",
+      "name": "Kali_for_ARM",
+      "headline": "Kali_for_ARM",
+      "alternativeHeadline": "",
+      "description": "Kali on ARM Vô tình xem youtube, mình thấy người ta làm công cụ hacking, dựa trên Raspberry.\nhttps:\/\/www.youtube.com\/watch?v=mPpk8jhAGa4\u0026amp;list=WL\u0026amp;index=3 https:\/\/www.youtube.com\/watch?v=km81ph7pZz8 Thế là phát hiện ra đã có rất nhiều bản image của Kali dành cho ARM.\nDocument lại để dành, sau này có time sẽ nghiên cứu từ từ.\nDự án Raspberry Pi Zero W P4wnP1 A.L.O.A Đây là dự án dành cho Raspberry Pi Zero W, dự án này có sẵn image.",
+      "inLanguage": "en-us",
+      "isFamilyFriendly": "true",
+      "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https:\/\/vinhlin.github.io\/posts\/cybersecurity\/kali_for_arm\/"
+      },
+      "author" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "creator" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "accountablePerson" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "copyrightHolder" : "VinhLin",
+      "copyrightYear" : "2025",
+      "dateCreated": "2025-09-21T11:23:31.00Z",
+      "datePublished": "2025-09-21T11:23:31.00Z",
+      "dateModified": "2025-09-21T11:23:31.00Z",
+      "publisher":{
+          "@type":"Organization",
+          "name": "VinhLin",
+          "url": "https://vinhlin.github.io/",
+          "logo": {
+              "@type": "ImageObject",
+              "url": "https:\/\/vinhlin.github.io\/assets\/favicon.ico",
+              "width":"32",
+              "height":"32"
+          }
+      },
+      "image": "https://vinhlin.github.io/assets/favicon.ico",
+      "url" : "https:\/\/vinhlin.github.io\/posts\/cybersecurity\/kali_for_arm\/",
+      "wordCount" : "164",
+      "genre" : [ ],
+      "keywords" : [ ]
+  }
+  </script>
+  
+  
+  </head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main</a>
+  <main id="main">
+  <div class="content">
+    <header>
+<p style="padding: 0;margin: 0;">
+  <a href="/">
+    <b>VinhLin</b>
+    <span class="text-stone-500 animate-blink">▮</span>
+  </a>
+</p>
+<ul style="padding: 0;margin: 0;">
+  
+  
+  <li class="">
+    <a href="/changelog/"><span>Changelog</span></a>
+    
+  <li class="">
+    <a href="/posts/"><span>Post</span></a>
+    
+  <li class="">
+    <a href="/about/"><span>About</span></a>
+    
+  </li>
+</ul>
+</header>
+<hr class="hr-list" style="padding: 0;margin: 0;">
+    <section>
+      <h2 class="post">Kali_for_ARM</h2>
+      <p><a href="https://www.kali.org/docs/arm/">Kali on ARM </a></p>
+<p>Vô tình xem youtube, mình thấy người ta làm công cụ hacking, dựa trên Raspberry.</p>
+<pre tabindex="0"><code>https://www.youtube.com/watch?v=mPpk8jhAGa4&amp;list=WL&amp;index=3
+https://www.youtube.com/watch?v=km81ph7pZz8
+</code></pre><p>Thế là phát hiện ra đã có rất nhiều <strong>bản image của Kali dành cho ARM</strong>.</p>
+<p>Document lại để dành, sau này có time sẽ nghiên cứu từ từ.</p>
+<h3 id="dự-án-raspberry-pi-zero-w-p4wnp1-aloahttpswwwkaliorgdocsarmraspberry-pi-zero-w-p4wnp1-aloa">Dự án <a href="https://www.kali.org/docs/arm/raspberry-pi-zero-w-p4wnp1-aloa/">Raspberry Pi Zero W P4wnP1 A.L.O.A</a></h3>
+<ul>
+<li>Đây là dự án dành cho <strong>Raspberry Pi Zero W</strong>, dự án này có sẵn image.</li>
+<li>Image này đa dụng, nhưng mục tiêu chính là test <strong>HID Script</strong>. <a href="https://p4wnp1.readthedocs.io/en/latest/">P4wnP1 Official Wiki</a></li>
+<li>Chỉ cần download về và cài đặt là có thể dùng. Tham khảo:</li>
+</ul>
+<pre tabindex="0"><code>https://github.com/RoganDawes/P4wnP1
+https://github.com/RoganDawes/P4wnP1_aloa
+https://github.com/NightRang3r/P4wnP1-A.L.O.A.-Payloads
+https://drive.google.com/drive/folders/14XCb1sHFjzZa7OnzNZRt5AeTbEyZlZGf
+</code></pre><h3 id="dự-án-raspberry-pi-tail-zero-2-whttpswwwkaliorgdocsarmraspberry-pi-zero-2-w-pi-tail">Dự án <a href="https://www.kali.org/docs/arm/raspberry-pi-zero-2-w-pi-tail/">Raspberry Pi-Tail Zero 2 W</a></h3>
+<ul>
+<li>Dự án này phù hợp cho các tác vụ thực địa như:</li>
+</ul>
+<pre tabindex="0"><code>Giám sát và phân tích mạng Wi-Fi.
+Kiểm tra bảo mật mạng cơ bản.
+Pentesting nhanh với các công cụ như wifite, kismet.
+</code></pre><ul>
+<li>Lý tưởng khi cần một thiết bị nhỏ gọn, dễ mang theo, tích hợp với điện thoại.</li>
+</ul>
+
+      
+      <div class="post-date">
+        <span class="g time">September 21, 2025 </span> &#8729;
+         
+      </div>
+      
+    </section>
+    
+    
+    
+  </div>
+</main>
+</body>
+</html>

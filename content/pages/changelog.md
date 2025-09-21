@@ -109,6 +109,7 @@ STT |		Tiêu đề			|		Mô tả				|
 4   | [CyberSecurity_Small_Businesses][CyberSecurity_Small_Businesses] | Tổng hợp tài liệu về An toàn thông tin cho Doanh nghiệp nhỏ |
 5   | [CTF_Hardware][CTF_Hardware]	| Tổng hợp tài liệu và blog về CTF Hardware hacking |
 6   | [BlueTeam][BlueTeam]		| Ghi chú về tài liệu cho Blue-Team		|
+7   | [Kali_for_ARM][Kali_for_ARM]	| Tổng hợp các Kali-Linux cho Vi xử lý ARM	|
 
 [News]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/news/
 [Tools]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/tools/
@@ -116,6 +117,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [CyberSecurity_Small_Businesses]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/cybersecurity_small_businesses/
 [CTF_Hardware]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/ctf_hardware/
 [BlueTeam]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/blueteam/
+[Kali_for_ARM]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/kali_for_arm/
 
 ## ***Technical***
 > Tổng hợp các ghi chú về **Công cụ**, **Kỹ thuật** cũng như **Tư duy** về cả Blue-Team và Red-Team <br>
@@ -136,6 +138,7 @@ STT |		Tiêu đề			|		Mô tả				|
 12  | [convoC2][convoC2]		| Giới thiệu về công cụ **convoC2**		|
 13  | [BLE_Sniffer][BLE_Sniffer]	| Tổng hợp tài liệu và cách thức về **BLE Sniffer** |
 14  | [SSh_ARMv7][SSh_ARMv7]		| Ghi chú về cách thiết lập ssh cho camera dùng yocto linux |
+15  | [Security_Hardware_Tools][Security_Hardware_Tools] | Tổng hợp và ghi chú về các công cụ hardware cho pentester |
 
 [NIS2]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/nis2/
 [FW_CheckList]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/firewall_checklist/
@@ -151,6 +154,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [convoC2]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/convoc2/
 [BLE_Sniffer]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/ble_sniffer/
 [SSh_ARMv7]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/ssh_armv7/
+[Security_Hardware_Tools]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/security_hardware_tools/
 
 -----------------------------------------------------------------------------------------
 # <mark>System-DevOps</mark>

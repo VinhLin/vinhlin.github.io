@@ -113,6 +113,7 @@ hugo new posts/CyberSecurity/RedTeam.md
 hugo new posts/CyberSecurity/CyberSecurity_Small_Businesses.md
 hugo new posts/CyberSecurity/CTF_Hardware.md
 hugo new posts/CyberSecurity/BlueTeam.md
+hugo new posts/CyberSecurity/Kali_for_ARM.md
 ```
 - Technical
 ```
@@ -130,6 +131,7 @@ hugo new posts/CyberSecurity/Technical/Fault_Injection.md
 hugo new posts/CyberSecurity/Technical/convoC2.md
 hugo new posts/CyberSecurity/Technical/BLE_Sniffer.md
 hugo new posts/CyberSecurity/Technical/SSh_ARMv7.md
+hugo new posts/CyberSecurity/Technical/Security_Hardware_Tools.md
 ```
 
 ### System-DevOps
