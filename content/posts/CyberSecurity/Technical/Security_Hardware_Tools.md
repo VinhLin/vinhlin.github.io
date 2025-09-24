@@ -7,8 +7,8 @@ draft = true
 Về chủ đề **Hardware Tools**, mình đã có tìm hiểu và nói sơ lược trong khá nhiều bài viết liên quan.
 
 Ví dụ là:
-> *[`Suy_nghi_ve_Hardware_Hacking`](https://blog.vinhld-homelab.io.vn/posts/others/suy_nghi_ve_hardware_hacking/)* </br>
-> *[`Kali_for_ARM`](https://blog.vinhld-homelab.io.vn/posts/cybersecurity/kali_for_arm/)* </br>
+> *[Suy_nghi_ve_Hardware_Hacking](https://blog.vinhld-homelab.io.vn/posts/others/suy_nghi_ve_hardware_hacking/)* </br>
+> *[Kali_for_ARM](https://blog.vinhld-homelab.io.vn/posts/cybersecurity/kali_for_arm/)* </br>
 > *[Bluetooth Sniffer](https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/ble_sniffer/)* </br>
 
 ![Hardware Hacking Tools](/image/IoT/Hardware_Hacking.jpg)

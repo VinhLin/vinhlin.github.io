@@ -14,13 +14,204 @@
     
     
     <item>
+      <title>Cau_chi_Oto</title>
+      <link>https://vinhlin.github.io/posts/iot/hardware/cau_chi_oto/</link>
+      <description>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Ngày&lt;/th&gt;
+&lt;th&gt;Mô tả&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;24/7/2025&lt;/td&gt;
+&lt;td&gt;Khởi tạo bài viết về &lt;strong&gt;cầu chì ô tô&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;24/9/2025&lt;/td&gt;
+&lt;td&gt;Bổ sung ghi chú về loại &lt;strong&gt;dây chia cầu chì&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;tham-khảo-về-cầu-chì-xehttpsotoeduvncau-chi-xe-o-to&#34;&gt;&lt;a href=&#34;https://oto.edu.vn/cau-chi-xe-o-to/&#34;&gt;Tham khảo về Cầu chì xe&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Cau_chi_Oto/Hinh_1.png&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Vậy là trên xe ô tô, mình hay đụng nhất là các loại cầu chì dạng &lt;strong&gt;lưỡi dao&lt;/strong&gt; &lt;em&gt;(Blade fuses)&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Cau_chi_Oto/Hinh_2.webp&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Đôi khi người ta gọi:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Standard - Chân to
+Mini - Chân nhỏ
+Micro - Chân cụt
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Cau_chi_Oto/Hinh_3.webp&#34;
+  alt=&#34;Hình 3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;một-số-hình-ảnh-và-kích-thước-cầu-chì&#34;&gt;Một số hình ảnh và kích thước cầu chì:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Standard - Chân to:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Cau_chi_Oto/Hinh_4.webp&#34;
+  alt=&#34;Hình 4&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mini - Chân nhỏ:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Cau_chi_Oto/Hinh_5.webp&#34;
+  alt=&#34;Hình 5&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Micro - Chân cụt:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Cau_chi_Oto/Hinh_6.webp&#34;
+  alt=&#34;Hình 6&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;chia-cầu-chì&#34;&gt;Chia cầu chì:&lt;/h3&gt;
+&lt;p&gt;Khi lắp camera mà cần dùng đến &lt;strong&gt;Hardware Kit&lt;/strong&gt; &lt;em&gt;(hay Nguồn ACC)&lt;/em&gt;, mà để không làm &lt;strong&gt;mất zin&lt;/strong&gt; xe, thì mình có thể sử dụng công cụ &lt;strong&gt;Chia cầu chì&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Cau_chi_Oto/Hinh_7.webp&#34;
+  alt=&#34;Hình 7&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;bộ-công-cụ-test-cầu-chì&#34;&gt;Bộ công cụ test cầu chì&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Cau_chi_Oto/Hinh_8.webp&#34;
+  alt=&#34;Hình 8&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;cách-lắp-cầu-chì-chuẩn-an-toàn-và-câu-chuyện-về-rủi-ro&#34;&gt;Cách lắp cầu chì chuẩn, an toàn và Câu chuyện về rủi ro&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;B+ -&amp;gt; Ghế điện (An toàn nhất là &amp;#34;ghế điện bên phụ&amp;#34;) (thường trực 12VDC)
+GND -&amp;gt; Mass sườn xe
+ACC -&amp;gt; Cầu chì USB (Khi mở máy thì sẽ là 12VDC)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Ngoài ra có một số vị trí cũng có điện thường trực hay độ rủi ro sẽ lớn hơn so với vị trí ghế điện.&lt;/p&gt;
+&lt;p&gt;Về nguyên tắc thì bất kì món nào mình lắp lên xe và khi xảy ra sự cố thì &lt;strong&gt;hãng đều có quyền từ chối bảo hành&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Cho dù có lắp camera hành trình với nguồn tẩu thuốc đi chăng nữa.&lt;/p&gt;
+&lt;p&gt;Do đó khi xảy ra xự cố ngoài ý muốn thì chỉ có &lt;strong&gt;Thương lượng và tìm cách giải quyết&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;ngày-2492025&#34;&gt;Ngày 24/9/2025&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Có một số vị trí &lt;strong&gt;cầu chì ban đầu tưởng là B+&lt;/strong&gt;. Nhưng khoảng &lt;strong&gt;sau 10 phút hoặc 30 phút&lt;/strong&gt; thì vị trí này bị mất nguồn &amp;ndash;&amp;gt; &lt;strong&gt;Các vị trí này vẫn được tính là ACC&lt;/strong&gt;&lt;/em&gt;. &lt;/br&gt;
+&lt;em&gt;Thành ra nên chọn đúng vị trí B+, luôn luôn có nguồn.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;dây-chia-cầu-chì&#34;&gt;Dây chia cầu chì&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Cau_chi_Oto/D%c3%a2y_c%e1%ba%a7u_ch%c3%ac.jpg&#34;
+  alt=&#34;Dây chia&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Trong thực tế, kỹ thuật sẽ dùng 2 loại cầu chì là: &lt;strong&gt;cầu chì 2A và 10A&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Như hình trên, ở vị trí B sẽ dùng loại &lt;code&gt;cầu chì 2A&lt;/code&gt; &amp;ndash;&amp;gt; &lt;strong&gt;Để bảo vệ cho camera&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Ở vị trí A là dùng &lt;code&gt;cầu chì 10A&lt;/code&gt; &lt;em&gt;(hoặc loại cầu chì theo xe)&lt;/em&gt; &amp;ndash;&amp;gt; &lt;strong&gt;Để bảo vệ cho xe ô tô.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;sơ-đồ-cấu-tạo-của-dây-cầu-chì&#34;&gt;Sơ đồ cấu tạo của dây cầu chì&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&#34;https://m.blog.naver.com/callmeho/222131666270&#34;&gt;Tham khảo bài viết&lt;/a&gt;&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Cau_chi_Oto/S%c6%a1_%c4%91%e1%bb%93_d%c3%a2y.png&#34;
+  alt=&#34;Sơ đồ&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Dựa vào sơ đồ thì khi gắn đúng chiều dòng điện có thể bảo vệ sản phẩm một cách an toàn nhất.&lt;/p&gt;
+&lt;p&gt;Chiều dòng điện đi vào, xác định bằng cách rút cầu chì trên xe ra và đo tại chân hộp cầu chì:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Luôn có điện khi tắt-mở chìa khóa -&amp;gt; B+.&lt;/li&gt;
+&lt;li&gt;Có điện 12V và mất điện 12V khi tắt-mở khóa -&amp;gt; ACC.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Lắp &lt;strong&gt;đúng&lt;/strong&gt; chiều &lt;strong&gt;In/Out&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Cau_chi_Oto/L%e1%ba%afp_%c4%91%c3%bang.png&#34;
+  alt=&#34;Đúng&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Lắp &lt;strong&gt;sai&lt;/strong&gt; chiều &lt;strong&gt;In/Out&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Cau_chi_Oto/L%e1%ba%afp_sai.png&#34;
+  alt=&#34;Sai&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/iot/hardware/cau_chi_oto/</guid>
+      <pubDate>Wed, 24 Sep 2025 09:38:03 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Security_Hardware_Tools</title>
       <link>https://vinhlin.github.io/posts/cybersecurity/technical/security_hardware_tools/</link>
       <description>&lt;p&gt;Về chủ đề &lt;strong&gt;Hardware Tools&lt;/strong&gt;, mình đã có tìm hiểu và nói sơ lược trong khá nhiều bài viết liên quan.&lt;/p&gt;
 &lt;p&gt;Ví dụ là:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;&lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/others/suy_nghi_ve_hardware_hacking/&#34;&gt;&lt;code&gt;Suy_nghi_ve_Hardware_Hacking&lt;/code&gt;&lt;/a&gt;&lt;/em&gt; &lt;/br&gt;
-&lt;em&gt;&lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/cybersecurity/kali_for_arm/&#34;&gt;&lt;code&gt;Kali_for_ARM&lt;/code&gt;&lt;/a&gt;&lt;/em&gt; &lt;/br&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/others/suy_nghi_ve_hardware_hacking/&#34;&gt;Suy_nghi_ve_Hardware_Hacking&lt;/a&gt;&lt;/em&gt; &lt;/br&gt;
+&lt;em&gt;&lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/cybersecurity/kali_for_arm/&#34;&gt;Kali_for_ARM&lt;/a&gt;&lt;/em&gt; &lt;/br&gt;
 &lt;em&gt;&lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/ble_sniffer/&#34;&gt;Bluetooth Sniffer&lt;/a&gt;&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;img
@@ -1033,123 +1224,6 @@ https://www.youtube.com/watch?v=lEXd6TXPw7E
       <author>VinhLD</author>
       <guid>https://vinhlin.github.io/posts/iot/hardware/cloud_sim/</guid>
       <pubDate>Sat, 26 Jul 2025 14:05:59 +0700</pubDate>
-    </item>
-    
-    <item>
-      <title>Cau_chi_Oto</title>
-      <link>https://vinhlin.github.io/posts/iot/hardware/cau_chi_oto/</link>
-      <description>&lt;h2 id=&#34;tham-khảo-về-cầu-chì-xehttpsotoeduvncau-chi-xe-o-to&#34;&gt;&lt;a href=&#34;https://oto.edu.vn/cau-chi-xe-o-to/&#34;&gt;Tham khảo về Cầu chì xe&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Cau_chi_Oto/Hinh_1.png&#34;
-  alt=&#34;Hình 1&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Vậy là trên xe ô tô, mình hay đụng nhất là các loại cầu chì dạng &lt;strong&gt;lưỡi dao&lt;/strong&gt; &lt;em&gt;(Blade fuses)&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Cau_chi_Oto/Hinh_2.webp&#34;
-  alt=&#34;Hình 2&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Đôi khi người ta gọi:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Standard - Chân to
-Mini - Chân nhỏ
-Micro - Chân cụt
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Cau_chi_Oto/Hinh_3.webp&#34;
-  alt=&#34;Hình 3&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;h3 id=&#34;một-số-hình-ảnh-và-kích-thước-cầu-chì&#34;&gt;Một số hình ảnh và kích thước cầu chì:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Standard - Chân to:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Cau_chi_Oto/Hinh_4.webp&#34;
-  alt=&#34;Hình 4&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Mini - Chân nhỏ:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Cau_chi_Oto/Hinh_5.webp&#34;
-  alt=&#34;Hình 5&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Micro - Chân cụt:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Cau_chi_Oto/Hinh_6.webp&#34;
-  alt=&#34;Hình 6&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;h3 id=&#34;chia-cầu-chì&#34;&gt;Chia cầu chì:&lt;/h3&gt;
-&lt;p&gt;Khi lắp camera mà cần dùng đến &lt;strong&gt;Hardware Kit&lt;/strong&gt; &lt;em&gt;(hay Nguồn ACC)&lt;/em&gt;, mà để không làm &lt;strong&gt;mất zin&lt;/strong&gt; xe, thì mình có thể sử dụng công cụ &lt;strong&gt;Chia cầu chì&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Cau_chi_Oto/Hinh_7.webp&#34;
-  alt=&#34;Hình 7&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;h3 id=&#34;bộ-công-cụ-test-cầu-chì&#34;&gt;Bộ công cụ test cầu chì&lt;/h3&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Cau_chi_Oto/Hinh_8.webp&#34;
-  alt=&#34;Hình 8&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;h3 id=&#34;cách-lắp-cầu-chì-chuẩn-an-toàn-và-câu-chuyện-về-rủi-ro&#34;&gt;Cách lắp cầu chì chuẩn, an toàn và Câu chuyện về rủi ro&lt;/h3&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;B+ -&amp;gt; Ghế điện (An toàn nhất là &amp;#34;ghế điện bên phụ&amp;#34;) (thường trực 12VDC)
-GND -&amp;gt; Mass sườn xe
-ACC -&amp;gt; Cầu chì USB (Khi mở máy thì sẽ là 12VDC)
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Ngoài ra có một số vị trí cũng có điện thường trực hay độ rủi ro sẽ lớn hơn so với vị trí ghế điện.&lt;/p&gt;
-&lt;p&gt;Về nguyên tắc thì bất kì món nào mình lắp lên xe và khi xảy ra sự cố thì &lt;strong&gt;hãng đều có quyền từ chối bảo hành&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Cho dù có lắp camera hành trình với nguồn tẩu thuốc đi chăng nữa.&lt;/p&gt;
-&lt;p&gt;Do đó khi xảy ra xự cố ngoài ý muốn thì chỉ có &lt;strong&gt;Thương lượng và tìm cách giải quyết&lt;/strong&gt;.&lt;/p&gt;
-&lt;hr&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Có một số vị trí &lt;strong&gt;cầu chì ban đầu tưởng là B+&lt;/strong&gt;. Nhưng khoảng &lt;strong&gt;sau 10 phút hoặc 30 phút&lt;/strong&gt; thì vị trí này bị mất nguồn &amp;ndash;&amp;gt; &lt;strong&gt;Các vị trí này vẫn được tính là ACC&lt;/strong&gt;&lt;/em&gt;. &lt;/br&gt;
-&lt;em&gt;Thành ra nên chọn đúng vị trí B+, luôn luôn có nguồn.&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-      <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/iot/hardware/cau_chi_oto/</guid>
-      <pubDate>Thu, 24 Jul 2025 21:38:03 +0700</pubDate>
     </item>
     
     <item>
@@ -6330,7 +6404,18 @@ SendRecv: 0x0403022000
 &lt;li&gt;&lt;a href=&#34;https://github.com/caido&#34;&gt;Github Project&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/feed/update/urn:li:activity:7376427265586311168/&#34;&gt;Một bài viết về các bài lab cho công cụ &lt;strong&gt;Caido&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://labs.cai.do/&#34;&gt;Labs Caido&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Tools/Labs_Caido.png&#34;
+  alt=&#34;Labs Caido&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
 &lt;h3 id=&#34;cuckoo-sandbox&#34;&gt;Cuckoo Sandbox&lt;/h3&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://cuckoosandbox.org/download
 https://cuckoo.sh/docs/

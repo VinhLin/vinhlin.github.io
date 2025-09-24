@@ -23,6 +23,10 @@ draft = true
 - Tài liệu:
 	- [Docs](https://docs.caido.io/)
 	- [Github Project](https://github.com/caido)
+- [Một bài viết về các bài lab cho công cụ **Caido**](https://www.linkedin.com/feed/update/urn:li:activity:7376427265586311168/)
+- **[Labs Caido](https://labs.cai.do/)**
+
+![Labs Caido](/image/CyberSecurity/Tools/Labs_Caido.png)
 
 ### Cuckoo Sandbox
 ```

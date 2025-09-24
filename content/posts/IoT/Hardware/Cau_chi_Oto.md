@@ -1,9 +1,15 @@
 +++
 title = 'Cau_chi_Oto'
-date = 2025-07-24T21:38:03+07:00
+date = 2025-09-24T09:38:03+07:00
 draft = true
 +++
 
+Ngày	|		Mô tả				|
+--------|-----------------------------------------------|
+24/7/2025 | Khởi tạo bài viết về **cầu chì ô tô**	|
+24/9/2025 | Bổ sung ghi chú về loại **dây chia cầu chì**|
+
+----------------------------------------------------------
 ## [Tham khảo về Cầu chì xe](https://oto.edu.vn/cau-chi-xe-o-to/)
 
 ![Hình 1](/image/IoT/Cau_chi_Oto/Hinh_1.png)
@@ -59,13 +65,37 @@ Cho dù có lắp camera hành trình với nguồn tẩu thuốc đi chăng n�
 Do đó khi xảy ra xự cố ngoài ý muốn thì chỉ có **Thương lượng và tìm cách giải quyết**.
 
 ----------------------------------------------------------------------------------
+## Ngày 24/9/2025
+
 > *Có một số vị trí **cầu chì ban đầu tưởng là B+**. Nhưng khoảng **sau 10 phút hoặc 30 phút** thì vị trí này bị mất nguồn --> **Các vị trí này vẫn được tính là ACC***. </br> 
 > *Thành ra nên chọn đúng vị trí B+, luôn luôn có nguồn.*
 
+### Dây chia cầu chì
 
+![Dây chia](/image/IoT/Cau_chi_Oto/Dây_cầu_chì.jpg)
 
+Trong thực tế, kỹ thuật sẽ dùng 2 loại cầu chì là: **cầu chì 2A và 10A**.
+- Như hình trên, ở vị trí B sẽ dùng loại `cầu chì 2A` --> **Để bảo vệ cho camera**.
+- Ở vị trí A là dùng `cầu chì 10A` *(hoặc loại cầu chì theo xe)* --> **Để bảo vệ cho xe ô tô.**
 
+### Sơ đồ cấu tạo của dây cầu chì
+> *[Tham khảo bài viết](https://m.blog.naver.com/callmeho/222131666270)* </br>
 
+![Sơ đồ](/image/IoT/Cau_chi_Oto/Sơ_đồ_dây.png)
+
+Dựa vào sơ đồ thì khi gắn đúng chiều dòng điện có thể bảo vệ sản phẩm một cách an toàn nhất.
+
+Chiều dòng điện đi vào, xác định bằng cách rút cầu chì trên xe ra và đo tại chân hộp cầu chì:
+- Luôn có điện khi tắt-mở chìa khóa -> B+. 
+- Có điện 12V và mất điện 12V khi tắt-mở khóa -> ACC.
+
+Lắp **đúng** chiều **In/Out**:
+
+![Đúng](/image/IoT/Cau_chi_Oto/Lắp_đúng.png)
+
+Lắp **sai** chiều **In/Out**:
+
+![Sai](/image/IoT/Cau_chi_Oto/Lắp_sai.png)
 
 
 
