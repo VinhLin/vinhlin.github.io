@@ -14,6 +14,115 @@
     
     
     <item>
+      <title>Pentest_API_Tools</title>
+      <link>https://vinhlin.github.io/posts/cybersecurity/technical/pentest_api_tools/</link>
+      <description>&lt;p&gt;Lụm được một bài viết của &lt;strong&gt;Vietnix&lt;/strong&gt;, bài viết này giới thiệu các công cụ &lt;strong&gt;Pentest API&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Pentest_API_Tools/Hinh_0.jpg&#34;
+  alt=&#34;Hình 0&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Pentest_API_Tools/Hinh_1.jpg&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Pentest_API_Tools/Hinh_2.jpg&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Pentest_API_Tools/Hinh_3.jpg&#34;
+  alt=&#34;Hình 3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Pentest_API_Tools/Hinh_4.jpg&#34;
+  alt=&#34;Hình 4&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Pentest_API_Tools/Hinh_5.jpg&#34;
+  alt=&#34;Hình 5&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Pentest_API_Tools/Hinh_6.jpg&#34;
+  alt=&#34;Hình 6&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Pentest_API_Tools/Hinh_7.jpg&#34;
+  alt=&#34;Hình 7&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Pentest_API_Tools/Hinh_8.jpg&#34;
+  alt=&#34;Hình 8&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Pentest_API_Tools/Hinh_9.jpg&#34;
+  alt=&#34;Hình 9&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Pentest_API_Tools/Hinh_10.jpg&#34;
+  alt=&#34;Hình 10&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/cybersecurity/technical/pentest_api_tools/</guid>
+      <pubDate>Thu, 25 Sep 2025 14:24:39 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Cau_chi_Oto</title>
       <link>https://vinhlin.github.io/posts/iot/hardware/cau_chi_oto/</link>
       <description>&lt;table&gt;
@@ -361,6 +470,39 @@ Pentesting nhanh với các công cụ như wifite, kismet.
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/CyberSecurity/BlueTeam/Wireshark_Filter.jpg&#34;
   alt=&#34;Wireshark_Filter&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;radware-live-threat-maphttpslivethreatmapradwarecom&#34;&gt;&lt;a href=&#34;https://livethreatmap.radware.com/&#34;&gt;Radware: Live Threat Map&lt;/a&gt;&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Một công cụ online &lt;strong&gt;(real-time)&lt;/strong&gt;, để xem các thông tin về các cuộc tấn công mạng trên thế giới&lt;/em&gt;. &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/BlueTeam/Radware-Live_Threat_Map.png&#34;
+  alt=&#34;Live Threat Map&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;malware-analysis&#34;&gt;Malware Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Malware Analysis&lt;/strong&gt; là một phần của &lt;strong&gt;Blue-Team&lt;/strong&gt;. Nhưng ở mức độ phức tạp hơn rất nhiều.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Malware Analysis (phân tích mã độc)&lt;/strong&gt; có thể được xem là một nhánh hoặc một ứng dụng của &lt;strong&gt;Reverse Engineering (RE) (kỹ nghệ đảo ngược)&lt;/strong&gt;&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Ngoài ra, mình cũng có một bài viết về công cụ cho RE, tham khảo thêm &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/re_tool_binaryninjafree/&#34;&gt;RE_Tool_BinaryNinjaFree&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Đây là hình mô tả nhiệm vụ của phân tích mã đọc:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/BlueTeam/Malware_Analysis.png&#34;
+  alt=&#34;Malware Analysis&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
   class=&#34;full-width&#34;
