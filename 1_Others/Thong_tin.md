@@ -19,15 +19,9 @@ https://github.com/Bellafaire/ESP32-Smart-Watch
 https://hackaday.io/project/168227-custom-smartwatch
 ```
 
-### [chattr_Linux](https://devops.vn/posts/mot-cau-lenh-linux-cuc-ky-manh-me-ma-co-the-ban-chua-dung-bao-gio/)
-- Command 1:
-```
-chattr +i demofile.txt
-```
-- Command 2:
-```
-chattr -i demofile.txt
-```
+-----------------------------------------
+- Viết một bài viết về chủ đề "Chất lượng hình ảnh camera".
+- Dựa vào file training trước đó của Thức, và những thông tin anh Tuấn chia sẻ.
 
 ---------------------------------------------------------------------------------
 ## Tài liệu AWS - Raspberry

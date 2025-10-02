@@ -50,6 +50,10 @@ Khi lắp camera mà cần dùng đến **Hardware Kit** *(hay Nguồn ACC)*, m�
 
 ![Hình 8](/image/IoT/Cau_chi_Oto/Hinh_8.webp)
 
+Cách sử dụng *(tham khảo)*
+
+![Hình 9](/image/IoT/Cau_chi_Oto/Hinh_9.webp)
+
 ### Cách lắp cầu chì chuẩn, an toàn và Câu chuyện về rủi ro
 ```
 B+ -> Ghế điện (An toàn nhất là "ghế điện bên phụ") (thường trực 12VDC)

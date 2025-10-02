@@ -21,7 +21,7 @@ Tuy nhiên mình sẽ làm một số project nhỏ hơn, và sẽ xoay quanh Ho
 Tuy nhiên mình sẽ làm một số project nhỏ hơn, và sẽ xoay quanh Homelab.
 🌱 Ý tưởng bổ sung cho HomeLAB: 👉 Rust Tracking Mình vẫn đang tìm hiểu và học ngôn ngữ lập trình Rust. Để trau dồi thêm khả năng code bằng Rust, mình sẽ setup một dự án cho bản thân, tên dự án hiện tại là Rust_Tracking."><meta itemprop="datePublished" content="2025-02-26T07:52:00+07:00" />
 <meta itemprop="dateModified" content="2025-02-26T07:52:00+07:00" />
-<meta itemprop="wordCount" content="258">
+<meta itemprop="wordCount" content="384">
 <meta itemprop="keywords" content="" />
     
     <link rel="canonical" href="https://vinhlin.github.io/posts/others/y_tuong_project/">
@@ -83,7 +83,7 @@ Tuy nhiên mình sẽ làm một số project nhỏ hơn, và sẽ xoay quanh Ho
       },
       "image": "https://vinhlin.github.io/assets/favicon.ico",
       "url" : "https:\/\/vinhlin.github.io\/posts\/others\/y_tuong_project\/",
-      "wordCount" : "258",
+      "wordCount" : "384",
       "genre" : [ ],
       "keywords" : [ ]
   }
@@ -151,7 +151,25 @@ Tuy nhiên mình sẽ làm một số project nhỏ hơn, và sẽ xoay quanh Ho
 <li>Ở đây mình dự định sẽ dùng:</li>
 </ul>
 <pre tabindex="0"><code>Raspberry Pico + Rust-lang + Embassy Framewok
-</code></pre>
+</code></pre><hr>
+<h2 id="-ý-tưởng-cải-thiện-kỹ-năng-lập-trình-rust">🌱 Ý tưởng cải thiện kỹ năng lập trình Rust:</h2>
+<ul>
+<li>Phục vụ cho công việc.</li>
+<li>Nâng cao kỹ năng lập trình.</li>
+</ul>
+<h3 id="-rust-iot-monitor">👉 Rust-IoT-Monitor</h3>
+<ul>
+<li>Viết một <strong>console app</strong> bằng ngôn ngữ Rust.</li>
+<li>Kiểm tra thiết bị IoT đã kết nối với MQTT Broker <em>(EMQX)</em></li>
+<li>Sau đó sẽ push những thông tin này cho ThingsBoard <em>(tạo một dashboard sẵn)</em></li>
+<li>Nếu một thiết bị đã kết nối và bị disconnect thì sẽ có một notifi tới Telegram.</li>
+</ul>
+<h3 id="-rust-for-arm">👉 Rust-for-ARM</h3>
+<ul>
+<li>Các thiết bị Camera chạy <code>linux nhúng</code>, thường sẽ có một cổng UART để debug. Nhưng để lấy đc các thông tin debug này khá là phiền phức</li>
+<li>Do đó mình sẽ cần viết một công cụ để thể <strong>lấy log từ UART</strong> và <strong>lưu nó vào trong thẻ nhớ</strong>.</li>
+</ul>
+
       
       <div class="post-date">
         <span class="g time">February 26, 2025 </span> &#8729;

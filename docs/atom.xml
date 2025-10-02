@@ -14,6 +14,157 @@
     
     
     <item>
+      <title>Ghost_ESP</title>
+      <link>https://vinhlin.github.io/posts/cybersecurity/technical/ghost_esp/</link>
+      <description>&lt;h2 id=&#34;tài-liệu&#34;&gt;Tài liệu&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jaylikesbunda/Ghost_ESP/wiki&#34;&gt;Wiki &lt;strong&gt;GhostESP&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tham khảo bài blog về &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/security_hardware_tools/&#34;&gt;Security_Hardware_Tools&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tham khảo khác:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://github.com/jaylikesbunda/Ghost_ESP
+https://github.com/yaakov/Ghost_ESP_YS_fork
+https://www.youtube.com/watch?v=6RjM7aI4k4k
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Note:&lt;/strong&gt; Project GhostESP này có thể dùng kết hợp với &lt;strong&gt;Flipper Zero&lt;/strong&gt;, nó có một firmware riêng cho việc này.&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;mcu-esp32&#34;&gt;MCU ESP32:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ban đầu khi mình mới biết về dự án này thì người ta dùng &lt;strong&gt;ESP32-C3&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Nhưng khi tìm hiểu và so sánh các dòng ESP32, thì &lt;em&gt;ESP32-C3&lt;/em&gt; rất yếu.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Ghost_ESP/Compare_ESP32_1.png&#34;
+  alt=&#34;So sánh 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Kiến trúc các dòng ESP32 cũng khác:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Ghost_ESP/Compare_ESP32_2.png&#34;
+  alt=&#34;So sánh 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ngoài ra cũng search thì dự án Ghost_ESP này có thể dùng ESP32-S3.&lt;/li&gt;
+&lt;li&gt;Nên mình lựa chọn test project này trên ESP32-S3. &lt;em&gt;(&lt;a href=&#34;https://vinhlin.github.io/docs/ESP32_S3_B_Sch.pdf&#34;&gt;Tham khảo thêm về Schematic ESP32-S3&lt;/a&gt;)&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Ghost_ESP/ESP32-S3.webp&#34;
+  alt=&#34;ESP32-S3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tài liệu về loại module này:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://github.com/WeActStudio/WeActStudio.ESP32S3-AorB
+https://github.com/WeActStudio/WeActStudio.ESP32S3-AorB/tree/main/ESP32S3-B/Doc
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;ghost_esp-dùng-mcu-esp32-s3---hướng-dẫnhttpsghostespnet&#34;&gt;Ghost_ESP dùng MCU ESP32-S3 - &lt;a href=&#34;https://ghostesp.net/&#34;&gt;Hướng dẫn&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Trên ESP32 này có 2 cổng Type-C, thiết bị ghi là:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;1 cổng là USB
+1 cổng UART
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Để nạp đc Firmware, thì cần &lt;strong&gt;kết nối PC với cổng USB trên ESP32&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Sau đó vào &lt;a href=&#34;https://espressoflash.com&#34;&gt;Trang nạp Firmware&lt;/a&gt;, thực hiện theo:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Ghost_ESP/Hinh_1.png&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Ghost_ESP/Hinh_2.png&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Ghost_ESP/Hinh_3.png&#34;
+  alt=&#34;Hình 3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Ghost_ESP/Hinh_4.png&#34;
+  alt=&#34;Hình 4&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Vậy là xong, rút nguồn và cắm lại là có thể sử dụng bình thường.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;sử-dụng-command-trực-tiếp&#34;&gt;Sử dụng command trực tiếp&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Lúc này sẽ cần kết nối PC với cổng USB &lt;em&gt;&lt;strong&gt;(hoặc cổng UART)&lt;/strong&gt;&lt;/em&gt; của ESP32.&lt;/li&gt;
+&lt;li&gt;Setup baudrate là &lt;strong&gt;115200&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Ví dụ dùng command &lt;em&gt;(&lt;a href=&#34;https://github.com/Spooks4576/Ghost_ESP/wiki/Commands&#34;&gt;tham khảo thêm tại đây&lt;/a&gt;)&lt;/em&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;help
+help all
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;kết-nối-wifi&#34;&gt;Kết nối WiFi&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ESP32 sẽ phát ra một WiFi tên là &lt;strong&gt;GhostNet&lt;/strong&gt;. Password cùng tên với SSID.&lt;/li&gt;
+&lt;li&gt;Vậy thông tin kết nối wifi là:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;SSID: GhostNet
+Pass: GhostNet
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Truy cập link: &lt;code&gt;http://ghostesp.local&lt;/code&gt;, thông tin đăng nhập tương tự như trên.&lt;/li&gt;
+&lt;li&gt;Và đây là kết quả:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Ghost_ESP/Hinh_5.png&#34;
+  alt=&#34;Hình 5&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mình có thể sử dụng các tính năng và setting cho ESP32.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;đánh-giá&#34;&gt;Đánh giá&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Sau khi cài xong và test sơ lược và mình thấy công cụ &lt;strong&gt;Ghost_ESP&lt;/strong&gt; này cũng không có gì đặc biệt.&lt;/li&gt;
+&lt;li&gt;Có thể tại thời điểm hiện tại thì mình thấy vậy, nhưng chưa biết sau này sẽ có cải tiến những gì.&lt;/li&gt;
+&lt;li&gt;Hoặc mình chưa biết cách tận dụng sức mạnh công cụ này, dẫu sao thì mình cứ document lại những gì đã làm được.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/cybersecurity/technical/ghost_esp/</guid>
+      <pubDate>Tue, 30 Sep 2025 17:10:40 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Pentest_API_Tools</title>
       <link>https://vinhlin.github.io/posts/cybersecurity/technical/pentest_api_tools/</link>
       <description>&lt;p&gt;Lụm được một bài viết của &lt;strong&gt;Vietnix&lt;/strong&gt;, bài viết này giới thiệu các công cụ &lt;strong&gt;Pentest API&lt;/strong&gt;.&lt;/p&gt;
@@ -239,6 +390,16 @@ Micro - Chân cụt
 /&gt;
 
 &lt;/p&gt;
+&lt;p&gt;Cách sử dụng &lt;em&gt;(tham khảo)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Cau_chi_Oto/Hinh_9.webp&#34;
+  alt=&#34;Hình 9&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
 &lt;h3 id=&#34;cách-lắp-cầu-chì-chuẩn-an-toàn-và-câu-chuyện-về-rủi-ro&#34;&gt;Cách lắp cầu chì chuẩn, an toàn và Câu chuyện về rủi ro&lt;/h3&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;B+ -&amp;gt; Ghế điện (An toàn nhất là &amp;#34;ghế điện bên phụ&amp;#34;) (thường trực 12VDC)
 GND -&amp;gt; Mass sườn xe
@@ -356,7 +517,7 @@ Những dự án mã nguồn mở cho Hardware.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://github.com/infinition/Bjorn
 https://github.com/infinition/Bjorn/blob/main/DEVELOPMENT.md
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;ghostesp&#34;&gt;GhostESP&lt;/h3&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;ghost_esp&#34;&gt;Ghost_ESP&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://hshop.vn/kit-phat-trien-wifi-ble5-risc-v-soc-esp32-c3-super-mini-4mb&#34;&gt;Phần cứng ESP32-C3&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Tham khảo youtube:&lt;/li&gt;
@@ -371,47 +532,60 @@ https://github.com/jaylikesbunda/Ghost_ESP
 https://github.com/yaakov/Ghost_ESP_YS_fork
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;pico-ducky&#34;&gt;Pico-ducky&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Video youtube:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://www.youtube.com/watch?v=8obUvNkZdwc
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Một dự án tạo &lt;strong&gt;BadUSB&lt;/strong&gt; dùng module &lt;strong&gt;raspberry pico&lt;/strong&gt;. &lt;a href=&#34;https://www.youtube.com/watch?v=8obUvNkZdwc&#34;&gt;Tham khảo video youtube&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Documents:&lt;/li&gt;
 &lt;/ul&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://github.com/dbisu/pico-ducky
 https://circuitpython.org/board/raspberry_pi_pico/
+https://workbook.securityboat.net/Pentesting/Physical/Raspberry%20Pi/usb-rubber-ducky-using-raspberry-pi-pico/
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;esp32-bus-piratehttpsgeo-tpgithubioesp32-bus-piratewebflasher&#34;&gt;&lt;a href=&#34;https://geo-tp.github.io/ESP32-Bus-Pirate/webflasher/&#34;&gt;ESP32 Bus Pirate&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Documents: &lt;em&gt;&lt;a href=&#34;https://github.com/geo-tp/ESP32-Bus-Pirate/wiki&#34;&gt;Github &lt;code&gt;geo-tp/ESP32-Bus-Pirate&lt;/code&gt;&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Tham khảo và so sánh độ mạnh yếu của các dòng ESP32:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Tools/ESP32_Bus_Pirate/Compare_ESP32.png&#34;
-  alt=&#34;Compare ESP32&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;ul&gt;
 &lt;li&gt;Dự án này mình có thể dùng ESP32-S3, &lt;a href=&#34;https://hshop.vn/kit-phat-trien-wifi-ble-soc-esp32-s3-weact-esp32-s3-b-n16r8-espressif-devkitc-1-compatible&#34;&gt;link sản phẩm tham khảo bên hshop&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Tools/ESP32_Bus_Pirate/ESP32-S3.webp&#34;
-  alt=&#34;ESP32-S3&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;ul&gt;
 &lt;li&gt;Tài liệu về &lt;a href=&#34;https://github.com/WeActStudio/WeActStudio.ESP32S3-AorB&#34;&gt;WeActStudio/WeActStudio.ESP32S3-AorB&lt;/a&gt;:&lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;&lt;a href=&#34;https://vinhlin.github.io/image/CyberSecurity/Tools/ESP32_Bus_Pirate/ESP32_S3_B_Sch.pdf&#34;&gt;ESP32_S3_B_Sch&lt;/a&gt;&lt;/em&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&#34;https://vinhlin.github.io/docs/ESP32_Bus_Pirate/ESP32_S3_B_Sch.pdf&#34;&gt;ESP32_S3_B_Sch&lt;/a&gt;&lt;/em&gt;
 &lt;em&gt;&lt;a href=&#34;https://github.com/WeActStudio/WeActStudio.ESP32S3-AorB/tree/main/ESP32S3-B/Doc&#34;&gt;ESP32S3-B/Doc&lt;/a&gt;&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;h3 id=&#34;meowkit&#34;&gt;MeowKit&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Đây là một dự án mã nguồn mở dùng MCU &lt;strong&gt;ESP32&lt;/strong&gt;, dự án đang hướng đến xây dựng một công cụ cạnh tranh trực tiếp với &lt;strong&gt;Fliper Zero&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Tools/MeowKit/MeowKit_1.jpg&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tài liệu tham khảo:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://www.youtube.com/watch?v=_PpiFLb2m3w
+https://www.kickstarter.com/projects/1915038505/meowkit-versatile-device-for-makers
+https://github.com/happy-mingo/MeowKit
+https://espressif.github.io/esp-launchpad/
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Công cụ này sẽ có các tính năng như:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;AI Chat - Xiaozhi&lt;/em&gt; &lt;/br&gt;
+&lt;em&gt;BLE BEACON&lt;/em&gt; &lt;/br&gt;
+&lt;em&gt;WiFi Spam&lt;/em&gt; &lt;/br&gt;
+&lt;em&gt;BadUSB&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Tools/MeowKit/MeowKit_2.png&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
 </description>
       <author>VinhLD</author>
       <guid>https://vinhlin.github.io/posts/cybersecurity/technical/security_hardware_tools/</guid>
@@ -2895,7 +3069,25 @@ https://delta1512.github.io/BOINCOS/
 &lt;li&gt;Ở đây mình dự định sẽ dùng:&lt;/li&gt;
 &lt;/ul&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Raspberry Pico + Rust-lang + Embassy Framewok
-&lt;/code&gt;&lt;/pre&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;h2 id=&#34;-ý-tưởng-cải-thiện-kỹ-năng-lập-trình-rust&#34;&gt;🌱 Ý tưởng cải thiện kỹ năng lập trình Rust:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Phục vụ cho công việc.&lt;/li&gt;
+&lt;li&gt;Nâng cao kỹ năng lập trình.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-rust-iot-monitor&#34;&gt;👉 Rust-IoT-Monitor&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Viết một &lt;strong&gt;console app&lt;/strong&gt; bằng ngôn ngữ Rust.&lt;/li&gt;
+&lt;li&gt;Kiểm tra thiết bị IoT đã kết nối với MQTT Broker &lt;em&gt;(EMQX)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Sau đó sẽ push những thông tin này cho ThingsBoard &lt;em&gt;(tạo một dashboard sẵn)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Nếu một thiết bị đã kết nối và bị disconnect thì sẽ có một notifi tới Telegram.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-rust-for-arm&#34;&gt;👉 Rust-for-ARM&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Các thiết bị Camera chạy &lt;code&gt;linux nhúng&lt;/code&gt;, thường sẽ có một cổng UART để debug. Nhưng để lấy đc các thông tin debug này khá là phiền phức&lt;/li&gt;
+&lt;li&gt;Do đó mình sẽ cần viết một công cụ để thể &lt;strong&gt;lấy log từ UART&lt;/strong&gt; và &lt;strong&gt;lưu nó vào trong thẻ nhớ&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
       <author>VinhLD</author>
       <guid>https://vinhlin.github.io/posts/others/y_tuong_project/</guid>
       <pubDate>Wed, 26 Feb 2025 07:52:00 +0700</pubDate>

@@ -71,7 +71,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [Speedtest_ARMv7l]: https://blog.vinhld-homelab.io.vn/posts/iot/software/speedtest_armv7l/
 
 ### Rust-lang
-> Tổng hợp ghi chú về ngôn ngữ lập trình **Rust** <br>
+> Tổng hợp ghi chú về ngôn ngữ lập trình **Rust** </br>
 
 STT |		Tiêu đề			|		Mô tả				|
 ----|-----------------------------------|-----------------------------------------------|
@@ -84,7 +84,8 @@ STT |		Tiêu đề			|		Mô tả				|
 [Rust_for_ARM]: https://blog.vinhld-homelab.io.vn/posts/iot/software/rust_for_arm/ 
 
 ### Embassy
-> Tổng hợp các ghi chú về **Framework Embassy** <br>
+> Tổng hợp các ghi chú về **Framework Embassy** </br>
+> *Embassy một framework code nhúng **bất đồng bộ** cho Vi điều khiển.*
 
 STT |		Tiêu đề			|		Mô tả				|
 ----|-----------------------------------|-----------------------------------------------|
@@ -139,6 +140,8 @@ STT |		Tiêu đề			|		Mô tả				|
 13  | [BLE_Sniffer][BLE_Sniffer]	| Tổng hợp tài liệu và cách thức về **BLE Sniffer** |
 14  | [SSh_ARMv7][SSh_ARMv7]		| Ghi chú về cách thiết lập ssh cho camera dùng yocto linux |
 15  | [Security_Hardware_Tools][Security_Hardware_Tools] | Tổng hợp và ghi chú về các công cụ hardware cho pentester |
+16  | [Pentest_API_Tools][Pentest_API_Tools] | Ghi chú về các công cụ **Pentest API**	|
+17  | [Ghost_ESP][Ghost_ESP]		| Dự án **Ghost_ESP**, một công cụ pentest dùng **ESP32-S3** |
 
 [NIS2]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/nis2/
 [FW_CheckList]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/firewall_checklist/
@@ -155,6 +158,8 @@ STT |		Tiêu đề			|		Mô tả				|
 [BLE_Sniffer]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/ble_sniffer/
 [SSh_ARMv7]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/ssh_armv7/
 [Security_Hardware_Tools]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/security_hardware_tools/
+[Pentest_API_Tools]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/pentest_api_tools/
+[Ghost_ESP]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/ghost_esp/
 
 -----------------------------------------------------------------------------------------
 # <mark>System-DevOps</mark>

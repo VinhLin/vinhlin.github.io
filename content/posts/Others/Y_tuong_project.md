@@ -33,5 +33,26 @@ Tuy nhiên mình sẽ làm một số project nhỏ hơn, và sẽ xoay quanh Ho
 Raspberry Pico + Rust-lang + Embassy Framewok
 ```
 
+------------------------------------------------------------------------
+## 🌱 Ý tưởng cải thiện kỹ năng lập trình Rust:
+- Phục vụ cho công việc.
+- Nâng cao kỹ năng lập trình.
+
+### 👉 Rust-IoT-Monitor
+- Viết một **console app** bằng ngôn ngữ Rust.
+- Kiểm tra thiết bị IoT đã kết nối với MQTT Broker *(EMQX)*
+- Sau đó sẽ push những thông tin này cho ThingsBoard *(tạo một dashboard sẵn)*
+- Nếu một thiết bị đã kết nối và bị disconnect thì sẽ có một notifi tới Telegram.
+
+### 👉 Rust-for-ARM
+- Các thiết bị Camera chạy `linux nhúng`, thường sẽ có một cổng UART để debug. Nhưng để lấy đc các thông tin debug này khá là phiền phức
+- Do đó mình sẽ cần viết một công cụ để thể **lấy log từ UART** và **lưu nó vào trong thẻ nhớ**.
+
+
+
+
+
+
+
 
 

@@ -23,7 +23,7 @@ Ví dụ là:
 Suy_nghi_ve_Hardware_Hacking Kali_for_ARM Bluetooth Sniffer Còn với bài viết này, mình vẫn sẽ nói về hardware tools, nhưng sẽ tập trung vào các công cụ có thể tự build được. Những dự án mã nguồn mở cho Hardware.
 Bjorn_Raspberry Một công cụ được viết bằng python, giúp scan/attck network dành cho raspberry pi zero 2W."><meta itemprop="datePublished" content="2025-09-21T14:04:53+07:00" />
 <meta itemprop="dateModified" content="2025-09-21T14:04:53+07:00" />
-<meta itemprop="wordCount" content="146">
+<meta itemprop="wordCount" content="200">
 <meta itemprop="keywords" content="" />
     
     <link rel="canonical" href="https://vinhlin.github.io/posts/cybersecurity/technical/security_hardware_tools/">
@@ -85,7 +85,7 @@ Bjorn_Raspberry Một công cụ được viết bằng python, giúp scan/attck
       },
       "image": "https://vinhlin.github.io/assets/favicon.ico",
       "url" : "https:\/\/vinhlin.github.io\/posts\/cybersecurity\/technical\/security_hardware_tools\/",
-      "wordCount" : "146",
+      "wordCount" : "200",
       "genre" : [ ],
       "keywords" : [ ]
   }
@@ -163,7 +163,7 @@ Những dự án mã nguồn mở cho Hardware.</p>
 </ul>
 <pre tabindex="0"><code>https://github.com/infinition/Bjorn
 https://github.com/infinition/Bjorn/blob/main/DEVELOPMENT.md
-</code></pre><h3 id="ghostesp">GhostESP</h3>
+</code></pre><h3 id="ghost_esp">Ghost_ESP</h3>
 <ul>
 <li><a href="https://hshop.vn/kit-phat-trien-wifi-ble5-risc-v-soc-esp32-c3-super-mini-4mb">Phần cứng ESP32-C3</a></li>
 <li>Tham khảo youtube:</li>
@@ -178,47 +178,60 @@ https://github.com/jaylikesbunda/Ghost_ESP
 https://github.com/yaakov/Ghost_ESP_YS_fork
 </code></pre><h3 id="pico-ducky">Pico-ducky</h3>
 <ul>
-<li>Video youtube:</li>
-</ul>
-<pre tabindex="0"><code>https://www.youtube.com/watch?v=8obUvNkZdwc
-</code></pre><ul>
+<li>Một dự án tạo <strong>BadUSB</strong> dùng module <strong>raspberry pico</strong>. <a href="https://www.youtube.com/watch?v=8obUvNkZdwc">Tham khảo video youtube</a></li>
 <li>Documents:</li>
 </ul>
 <pre tabindex="0"><code>https://github.com/dbisu/pico-ducky
 https://circuitpython.org/board/raspberry_pi_pico/
+https://workbook.securityboat.net/Pentesting/Physical/Raspberry%20Pi/usb-rubber-ducky-using-raspberry-pi-pico/
 </code></pre><h3 id="esp32-bus-piratehttpsgeo-tpgithubioesp32-bus-piratewebflasher"><a href="https://geo-tp.github.io/ESP32-Bus-Pirate/webflasher/">ESP32 Bus Pirate</a></h3>
 <ul>
 <li>Documents: <em><a href="https://github.com/geo-tp/ESP32-Bus-Pirate/wiki">Github <code>geo-tp/ESP32-Bus-Pirate</code></a></em></li>
-<li>Tham khảo và so sánh độ mạnh yếu của các dòng ESP32:</li>
-</ul>
-<p><img
-  src="/image/CyberSecurity/Tools/ESP32_Bus_Pirate/Compare_ESP32.png"
-  alt="Compare ESP32"
-  loading="lazy"
-  decoding="async"
-  class="full-width"
-/>
-
-</p>
-<ul>
 <li>Dự án này mình có thể dùng ESP32-S3, <a href="https://hshop.vn/kit-phat-trien-wifi-ble-soc-esp32-s3-weact-esp32-s3-b-n16r8-espressif-devkitc-1-compatible">link sản phẩm tham khảo bên hshop</a></li>
-</ul>
-<p><img
-  src="/image/CyberSecurity/Tools/ESP32_Bus_Pirate/ESP32-S3.webp"
-  alt="ESP32-S3"
-  loading="lazy"
-  decoding="async"
-  class="full-width"
-/>
-
-</p>
-<ul>
 <li>Tài liệu về <a href="https://github.com/WeActStudio/WeActStudio.ESP32S3-AorB">WeActStudio/WeActStudio.ESP32S3-AorB</a>:</li>
 </ul>
 <blockquote>
-<p><em><a href="/image/CyberSecurity/Tools/ESP32_Bus_Pirate/ESP32_S3_B_Sch.pdf">ESP32_S3_B_Sch</a></em>
+<p><em><a href="/docs/ESP32_Bus_Pirate/ESP32_S3_B_Sch.pdf">ESP32_S3_B_Sch</a></em>
 <em><a href="https://github.com/WeActStudio/WeActStudio.ESP32S3-AorB/tree/main/ESP32S3-B/Doc">ESP32S3-B/Doc</a></em> </br></p>
 </blockquote>
+<h3 id="meowkit">MeowKit</h3>
+<ul>
+<li>Đây là một dự án mã nguồn mở dùng MCU <strong>ESP32</strong>, dự án đang hướng đến xây dựng một công cụ cạnh tranh trực tiếp với <strong>Fliper Zero</strong>.</li>
+</ul>
+<p><img
+  src="/image/CyberSecurity/Tools/MeowKit/MeowKit_1.jpg"
+  alt="Hình 1"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<ul>
+<li>Tài liệu tham khảo:</li>
+</ul>
+<pre tabindex="0"><code>https://www.youtube.com/watch?v=_PpiFLb2m3w
+https://www.kickstarter.com/projects/1915038505/meowkit-versatile-device-for-makers
+https://github.com/happy-mingo/MeowKit
+https://espressif.github.io/esp-launchpad/
+</code></pre><ul>
+<li>Công cụ này sẽ có các tính năng như:</li>
+</ul>
+<blockquote>
+<p><em>AI Chat - Xiaozhi</em> </br>
+<em>BLE BEACON</em> </br>
+<em>WiFi Spam</em> </br>
+<em>BadUSB</em> </br></p>
+</blockquote>
+<p><img
+  src="/image/CyberSecurity/Tools/MeowKit/MeowKit_2.png"
+  alt="Hình 2"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
 
       
       <div class="post-date">

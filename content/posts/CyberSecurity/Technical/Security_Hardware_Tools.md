@@ -31,7 +31,7 @@ https://github.com/infinition/Bjorn
 https://github.com/infinition/Bjorn/blob/main/DEVELOPMENT.md
 ```
 
-### GhostESP
+### Ghost_ESP
 - [Phần cứng ESP32-C3](https://hshop.vn/kit-phat-trien-wifi-ble5-risc-v-soc-esp32-c3-super-mini-4mb)
 - Tham khảo youtube:
 ```
@@ -46,29 +46,44 @@ https://github.com/yaakov/Ghost_ESP_YS_fork
 ```
 
 ### Pico-ducky
-- Video youtube:
-```
-https://www.youtube.com/watch?v=8obUvNkZdwc
-```
+- Một dự án tạo **BadUSB** dùng module **raspberry pico**. [Tham khảo video youtube](https://www.youtube.com/watch?v=8obUvNkZdwc)
 - Documents:
 ```
 https://github.com/dbisu/pico-ducky
 https://circuitpython.org/board/raspberry_pi_pico/
+https://workbook.securityboat.net/Pentesting/Physical/Raspberry%20Pi/usb-rubber-ducky-using-raspberry-pi-pico/
 ```
 
 ### [ESP32 Bus Pirate](https://geo-tp.github.io/ESP32-Bus-Pirate/webflasher/)
 - Documents: *[Github `geo-tp/ESP32-Bus-Pirate`](https://github.com/geo-tp/ESP32-Bus-Pirate/wiki)*
-- Tham khảo và so sánh độ mạnh yếu của các dòng ESP32:
-
-![Compare ESP32](/image/CyberSecurity/Tools/ESP32_Bus_Pirate/Compare_ESP32.png)
-
 - Dự án này mình có thể dùng ESP32-S3, [link sản phẩm tham khảo bên hshop](https://hshop.vn/kit-phat-trien-wifi-ble-soc-esp32-s3-weact-esp32-s3-b-n16r8-espressif-devkitc-1-compatible)
-
-![ESP32-S3](/image/CyberSecurity/Tools/ESP32_Bus_Pirate/ESP32-S3.webp)
-
 - Tài liệu về [WeActStudio/WeActStudio.ESP32S3-AorB](https://github.com/WeActStudio/WeActStudio.ESP32S3-AorB):
-> *[ESP32_S3_B_Sch](/image/CyberSecurity/Tools/ESP32_Bus_Pirate/ESP32_S3_B_Sch.pdf)*
+> *[ESP32_S3_B_Sch](/docs/ESP32_Bus_Pirate/ESP32_S3_B_Sch.pdf)*
 > *[ESP32S3-B/Doc](https://github.com/WeActStudio/WeActStudio.ESP32S3-AorB/tree/main/ESP32S3-B/Doc)* </br>
+
+### MeowKit
+- Đây là một dự án mã nguồn mở dùng MCU **ESP32**, dự án đang hướng đến xây dựng một công cụ cạnh tranh trực tiếp với **Fliper Zero**.
+
+![Hình 1](/image/CyberSecurity/Tools/MeowKit/MeowKit_1.jpg)
+
+- Tài liệu tham khảo:
+```
+https://www.youtube.com/watch?v=_PpiFLb2m3w
+https://www.kickstarter.com/projects/1915038505/meowkit-versatile-device-for-makers
+https://github.com/happy-mingo/MeowKit
+https://espressif.github.io/esp-launchpad/
+```
+- Công cụ này sẽ có các tính năng như:
+> *AI Chat - Xiaozhi* </br>
+> *BLE BEACON* </br>
+> *WiFi Spam* </br>
+> *BadUSB* </br>
+
+![Hình 2](/image/CyberSecurity/Tools/MeowKit/MeowKit_2.png)
+
+
+
+
 
 
 

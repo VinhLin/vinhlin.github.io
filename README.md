@@ -133,6 +133,7 @@ hugo new posts/CyberSecurity/Technical/BLE_Sniffer.md
 hugo new posts/CyberSecurity/Technical/SSh_ARMv7.md
 hugo new posts/CyberSecurity/Technical/Security_Hardware_Tools.md
 hugo new posts/CyberSecurity/Technical/Pentest_API_Tools.md
+hugo new posts/CyberSecurity/Technical/Ghost_ESP.md
 ```
 
 ### System-DevOps
