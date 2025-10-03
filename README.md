@@ -150,4 +150,5 @@ hugo new posts/System-DevOps/Automation_Tools.md
 hugo new posts/System-DevOps/Web_Crawler.md
 hugo new posts/System-DevOps/Backup_Tools.md
 hugo new posts/System-DevOps/Fabric_AI.md
+hugo new posts/System-DevOps/NAS_FTP.md
 ```

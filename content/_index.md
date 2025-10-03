@@ -6,7 +6,7 @@ draft = true
 
 ## Hi there! 👋
 
-<img class="avatar" src="../image.jfif" alt="avatar">
+<img class="avatar" src="../Image.jpg" alt="avatar">
 
 Là một người có thói quen hay ghi chú những điều hay ho về **IoT/Điện tử** (*nói riêng*) và **Công nghệ** (*nói chung*).
 

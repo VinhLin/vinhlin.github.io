@@ -16,6 +16,36 @@
 
     
     {
+      "id": "67a51094c002a26663559c288f5f20af0cb1f6c6",
+      "title": "NAS_FTP",
+      "summary": "",
+      "content_text": " Mục tiêu setup: Dễ dàng download firmware thiết bị. Một nơi để chia sẻ dữ liệu giữa máy tính và điện thoại di động.\nMình đã có sẵn NAS Server là OMV, giờ nghiên cứu cách để thiết lập FTP trên đây. Sau khi nghiên cứu thì OMV có support plugin để setup FTP Service. Tham khảo: https://forum.openmediavault.org/index.php?thread/29418-noob-guide-to-enabling-ftp-server-and-using-filezilla-client-remote-use/ https://www.youtube.com/watch?v=l7d7f-YNyQM \u0026mdash;\u0026gt; Mình đã cài thành công\nDownload file qua HTTP Ví dụ mình đã up một file FW lên FTP, với đường dẫn: /FTP-Share/Rust_for_ARM/Hello_ARM.png và mình vẫn phải đăng nhập bằng FTP, nếu muốn download. Không thể download trực tiếp bằng HTTP, vì giao thức FTP và HTTP là khác nhau wget https://www.vinhld-homelab.io.vn/FTP-Share/Rust_for_ARM/Hello_ARM.png OMV không tự động chuyển FTP sang HTTP/HTTPS, nhưng hỗ trợ FTPS (như đã giải thích trước) hoặc các giải pháp web-based. Nếu muốn download bằng HTTP thì có 2 cách: Cách 1: Cài web server (Nginx) trên OMV, ánh xạ thư mục FTP, và cấu hình HTTPS với chứng chỉ SSL. Cách 2: Sử dụng thêm plugin WebDAV (hoặc Nextcloud) trên OMV, để truy cập file qua HTTPS. ",
+      "content_html": "\u003cul\u003e\n\u003cli\u003eMục tiêu setup:\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003cem\u003eDễ dàng download firmware thiết bị\u003c/em\u003e. \u003c/br\u003e\n\u003cem\u003eMột nơi để chia sẻ dữ liệu giữa máy tính và điện thoại di động\u003c/em\u003e.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cul\u003e\n\u003cli\u003eMình đã có sẵn NAS Server là \u003cstrong\u003eOMV\u003c/strong\u003e, giờ nghiên cứu cách để thiết lập FTP trên đây.\u003c/li\u003e\n\u003cli\u003eSau khi nghiên cứu thì OMV có support plugin để setup \u003cstrong\u003eFTP Service\u003c/strong\u003e.\u003c/li\u003e\n\u003cli\u003eTham khảo:\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003ehttps://forum.openmediavault.org/index.php?thread/29418-noob-guide-to-enabling-ftp-server-and-using-filezilla-client-remote-use/\nhttps://www.youtube.com/watch?v=l7d7f-YNyQM\n\u003c/code\u003e\u003c/pre\u003e\u003cp\u003e\u0026mdash;\u0026gt; Mình đã cài thành công\u003c/p\u003e\n\u003ch3 id=\"download-file-qua-http\"\u003eDownload file qua HTTP\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eVí dụ mình đã up một file FW lên FTP, với đường dẫn: \u003ccode\u003e/FTP-Share/Rust_for_ARM/Hello_ARM.png\u003c/code\u003e và mình vẫn phải đăng nhập bằng FTP, nếu muốn download.\u003c/li\u003e\n\u003cli\u003eKhông thể \u003cstrong\u003edownload trực tiếp bằng HTTP\u003c/strong\u003e, vì giao thức FTP và HTTP là khác nhau\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003ewget https://www.vinhld-homelab.io.vn/FTP-Share/Rust_for_ARM/Hello_ARM.png\n\u003c/code\u003e\u003c/pre\u003e\u003cblockquote\u003e\n\u003cp\u003e\u003cem\u003eOMV không tự động chuyển FTP sang HTTP/HTTPS, nhưng hỗ trợ FTPS (như đã giải thích trước) hoặc các giải pháp web-based.\u003c/em\u003e \u003c/br\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cul\u003e\n\u003cli\u003eNếu muốn download bằng HTTP thì có 2 cách:\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003cem\u003eCách 1: Cài web server (Nginx) trên OMV, ánh xạ thư mục FTP, và cấu hình HTTPS với chứng chỉ SSL.\u003c/em\u003e \u003c/br\u003e\n\u003cem\u003eCách 2: Sử dụng thêm plugin WebDAV (hoặc Nextcloud) trên OMV, để truy cập file qua HTTPS.\u003c/em\u003e \u003c/br\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n",
+      "url": "https://vinhlin.github.io/posts/system-devops/nas_ftp/",
+      "date_published": "3106-03-09T1018:33:00+07:00",
+      "date_modified": "3106-03-09T1018:33:00+07:00",
+      "author": {
+        "name": "VinhLD",
+        "url": "https://vinhlin.github.io/"
+      }
+    },
+    
+    {
+      "id": "73ebb96ac34433f46b396fb3efb242d0cdb4b736",
+      "title": "CTF_Hardware",
+      "summary": "",
+      "content_text": " Date Mô tả 26/6/2025 Khởi tạo bài viết 02/10/2025 Ghi chú và tổng hợp các bài lab Blog về CTF Hardware https://github.com/AnduinBrian/anduinbrian.github.io https://anduinbrian.github.io/ Tài liệu: https://www.autosar.org/fileadmin/standards/R22-11/CP/AUTOSAR_SWS_CRCLibrary.pdf https://github.com/jopohl/urh https://github.com/RfidResearchGroup/proxmark3 https://github.com/compujuckel/ZigbeeOtaExtractor Tài liệu khác: AUTOSAR_SWS_CRCLibrary Android Application Security CheckList v2.0 Release Candidate romhack-revving-up_the-journey-to-pwn2own-automotive-2024 Tổng hợp các bài lab về Hardware Hacking: IoTGoat Danh sách các bài lab về Hardware hacking, của bên OWASP Từ Raspberry, linux, cho đến reverse. hackgnar/ble_ctf Một repo CTF để học về Bluetooth. Công cụ setup là dùng ESP32, tham khảo môi trường ",
+      "content_html": "\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003eDate\u003c/th\u003e\n\u003cth\u003eMô tả\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e26/6/2025\u003c/td\u003e\n\u003ctd\u003eKhởi tạo bài viết\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e02/10/2025\u003c/td\u003e\n\u003ctd\u003eGhi chú và tổng hợp các bài lab\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2 id=\"blog-về-ctf-hardware\"\u003eBlog về CTF Hardware\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/AnduinBrian/anduinbrian.github.io\"\u003ehttps://github.com/AnduinBrian/anduinbrian.github.io\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://anduinbrian.github.io/\"\u003ehttps://anduinbrian.github.io/\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003eTài liệu:\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003ehttps://www.autosar.org/fileadmin/standards/R22-11/CP/AUTOSAR_SWS_CRCLibrary.pdf\nhttps://github.com/jopohl/urh\nhttps://github.com/RfidResearchGroup/proxmark3\nhttps://github.com/compujuckel/ZigbeeOtaExtractor\n\u003c/code\u003e\u003c/pre\u003e\u003ch3 id=\"tài-liệu-khác\"\u003eTài liệu khác:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"/docs/ctf_hardware/AUTOSAR_SWS_CRCLibrary.pdf\"\u003eAUTOSAR_SWS_CRCLibrary\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"/docs/ctf_hardware/Android_Application_Security_CheckList_v2.0_Release_Candidate.xlsx\"\u003eAndroid Application Security CheckList v2.0 Release Candidate\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"/docs/ctf_hardware/romhack-revving-up_the-journey-to-pwn2own-automotive-2024.pdf\"\u003eromhack-revving-up_the-journey-to-pwn2own-automotive-2024\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr\u003e\n\u003ch2 id=\"tổng-hợp-các-bài-lab-về-hardware-hacking\"\u003eTổng hợp các bài lab về Hardware Hacking:\u003c/h2\u003e\n\u003ch3 id=\"iotgoathttpsgithubcomowaspiotgoat\"\u003e\u003ca href=\"https://github.com/OWASP/IoTGoat\"\u003eIoTGoat\u003c/a\u003e\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eDanh sách các bài lab về Hardware hacking, của bên \u003cstrong\u003eOWASP\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003eTừ Raspberry, linux, cho đến reverse.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3 id=\"hackgnarble_ctfhttpsgithubcomhackgnarble_ctf\"\u003e\u003ca href=\"https://github.com/hackgnar/ble_ctf\"\u003ehackgnar/ble_ctf\u003c/a\u003e\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eMột repo \u003cstrong\u003eCTF để học về Bluetooth\u003c/strong\u003e.\u003c/li\u003e\n\u003cli\u003eCông cụ setup là dùng ESP32, \u003ca href=\"https://github.com/hackgnar/ble_ctf/blob/master/docs/setup.md\"\u003etham khảo môi trường\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n",
+      "url": "https://vinhlin.github.io/posts/cybersecurity/ctf_hardware/",
+      "date_published": "2106-02-09T1051:22:00+07:00",
+      "date_modified": "2106-02-09T1051:22:00+07:00",
+      "author": {
+        "name": "VinhLD",
+        "url": "https://vinhlin.github.io/"
+      }
+    },
+    
+    {
       "id": "54209856003fb747e760e65171d8278cc099cfc4",
       "title": "Ghost_ESP",
       "summary": "",
@@ -234,21 +264,6 @@
       "url": "https://vinhlin.github.io/posts/cybersecurity/technical/ssh_armv7/",
       "date_published": "1076-01-09T758:11:00+07:00",
       "date_modified": "1076-01-09T758:11:00+07:00",
-      "author": {
-        "name": "VinhLD",
-        "url": "https://vinhlin.github.io/"
-      }
-    },
-    
-    {
-      "id": "73ebb96ac34433f46b396fb3efb242d0cdb4b736",
-      "title": "CTF_Hardware",
-      "summary": "",
-      "content_text": "Blog về CTF Hardware https://github.com/AnduinBrian/anduinbrian.github.io https://anduinbrian.github.io/ Tài liệu: https://www.autosar.org/fileadmin/standards/R22-11/CP/AUTOSAR_SWS_CRCLibrary.pdf https://github.com/jopohl/urh https://github.com/RfidResearchGroup/proxmark3 https://github.com/compujuckel/ZigbeeOtaExtractor Tài liệu khác: AUTOSAR_SWS_CRCLibrary Android Application Security CheckList v2.0 Release Candidate romhack-revving-up_the-journey-to-pwn2own-automotive-2024 ",
-      "content_html": "\u003ch2 id=\"blog-về-ctf-hardware\"\u003eBlog về CTF Hardware\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/AnduinBrian/anduinbrian.github.io\"\u003ehttps://github.com/AnduinBrian/anduinbrian.github.io\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://anduinbrian.github.io/\"\u003ehttps://anduinbrian.github.io/\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003eTài liệu:\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003ehttps://www.autosar.org/fileadmin/standards/R22-11/CP/AUTOSAR_SWS_CRCLibrary.pdf\nhttps://github.com/jopohl/urh\nhttps://github.com/RfidResearchGroup/proxmark3\nhttps://github.com/compujuckel/ZigbeeOtaExtractor\n\u003c/code\u003e\u003c/pre\u003e\u003ch3 id=\"tài-liệu-khác\"\u003eTài liệu khác:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"/docs/ctf_hardware/AUTOSAR_SWS_CRCLibrary.pdf\"\u003eAUTOSAR_SWS_CRCLibrary\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"/docs/ctf_hardware/Android_Application_Security_CheckList_v2.0_Release_Candidate.xlsx\"\u003eAndroid Application Security CheckList v2.0 Release Candidate\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"/docs/ctf_hardware/romhack-revving-up_the-journey-to-pwn2own-automotive-2024.pdf\"\u003eromhack-revving-up_the-journey-to-pwn2own-automotive-2024\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n",
-      "url": "https://vinhlin.github.io/posts/cybersecurity/ctf_hardware/",
-      "date_published": "26066-26-09T651:2626:00+07:00",
-      "date_modified": "26066-26-09T651:2626:00+07:00",
       "author": {
         "name": "VinhLD",
         "url": "https://vinhlin.github.io/"

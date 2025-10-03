@@ -14,6 +14,101 @@
     
     
     <item>
+      <title>NAS_FTP</title>
+      <link>https://vinhlin.github.io/posts/system-devops/nas_ftp/</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;Mục tiêu setup:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Dễ dàng download firmware thiết bị&lt;/em&gt;. &lt;/br&gt;
+&lt;em&gt;Một nơi để chia sẻ dữ liệu giữa máy tính và điện thoại di động&lt;/em&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Mình đã có sẵn NAS Server là &lt;strong&gt;OMV&lt;/strong&gt;, giờ nghiên cứu cách để thiết lập FTP trên đây.&lt;/li&gt;
+&lt;li&gt;Sau khi nghiên cứu thì OMV có support plugin để setup &lt;strong&gt;FTP Service&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Tham khảo:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://forum.openmediavault.org/index.php?thread/29418-noob-guide-to-enabling-ftp-server-and-using-filezilla-client-remote-use/
+https://www.youtube.com/watch?v=l7d7f-YNyQM
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&amp;mdash;&amp;gt; Mình đã cài thành công&lt;/p&gt;
+&lt;h3 id=&#34;download-file-qua-http&#34;&gt;Download file qua HTTP&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Ví dụ mình đã up một file FW lên FTP, với đường dẫn: &lt;code&gt;/FTP-Share/Rust_for_ARM/Hello_ARM.png&lt;/code&gt; và mình vẫn phải đăng nhập bằng FTP, nếu muốn download.&lt;/li&gt;
+&lt;li&gt;Không thể &lt;strong&gt;download trực tiếp bằng HTTP&lt;/strong&gt;, vì giao thức FTP và HTTP là khác nhau&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;wget https://www.vinhld-homelab.io.vn/FTP-Share/Rust_for_ARM/Hello_ARM.png
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;OMV không tự động chuyển FTP sang HTTP/HTTPS, nhưng hỗ trợ FTPS (như đã giải thích trước) hoặc các giải pháp web-based.&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Nếu muốn download bằng HTTP thì có 2 cách:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Cách 1: Cài web server (Nginx) trên OMV, ánh xạ thư mục FTP, và cấu hình HTTPS với chứng chỉ SSL.&lt;/em&gt; &lt;/br&gt;
+&lt;em&gt;Cách 2: Sử dụng thêm plugin WebDAV (hoặc Nextcloud) trên OMV, để truy cập file qua HTTPS.&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/system-devops/nas_ftp/</guid>
+      <pubDate>Fri, 03 Oct 2025 11:18:21 +0700</pubDate>
+    </item>
+    
+    <item>
+      <title>CTF_Hardware</title>
+      <link>https://vinhlin.github.io/posts/cybersecurity/ctf_hardware/</link>
+      <description>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Mô tả&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;26/6/2025&lt;/td&gt;
+&lt;td&gt;Khởi tạo bài viết&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;02/10/2025&lt;/td&gt;
+&lt;td&gt;Ghi chú và tổng hợp các bài lab&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;blog-về-ctf-hardware&#34;&gt;Blog về CTF Hardware&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/AnduinBrian/anduinbrian.github.io&#34;&gt;https://github.com/AnduinBrian/anduinbrian.github.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://anduinbrian.github.io/&#34;&gt;https://anduinbrian.github.io/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tài liệu:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://www.autosar.org/fileadmin/standards/R22-11/CP/AUTOSAR_SWS_CRCLibrary.pdf
+https://github.com/jopohl/urh
+https://github.com/RfidResearchGroup/proxmark3
+https://github.com/compujuckel/ZigbeeOtaExtractor
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;tài-liệu-khác&#34;&gt;Tài liệu khác:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://vinhlin.github.io/docs/ctf_hardware/AUTOSAR_SWS_CRCLibrary.pdf&#34;&gt;AUTOSAR_SWS_CRCLibrary&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://vinhlin.github.io/docs/ctf_hardware/Android_Application_Security_CheckList_v2.0_Release_Candidate.xlsx&#34;&gt;Android Application Security CheckList v2.0 Release Candidate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://vinhlin.github.io/docs/ctf_hardware/romhack-revving-up_the-journey-to-pwn2own-automotive-2024.pdf&#34;&gt;romhack-revving-up_the-journey-to-pwn2own-automotive-2024&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;tổng-hợp-các-bài-lab-về-hardware-hacking&#34;&gt;Tổng hợp các bài lab về Hardware Hacking:&lt;/h2&gt;
+&lt;h3 id=&#34;iotgoathttpsgithubcomowaspiotgoat&#34;&gt;&lt;a href=&#34;https://github.com/OWASP/IoTGoat&#34;&gt;IoTGoat&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Danh sách các bài lab về Hardware hacking, của bên &lt;strong&gt;OWASP&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Từ Raspberry, linux, cho đến reverse.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;hackgnarble_ctfhttpsgithubcomhackgnarble_ctf&#34;&gt;&lt;a href=&#34;https://github.com/hackgnar/ble_ctf&#34;&gt;hackgnar/ble_ctf&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Một repo &lt;strong&gt;CTF để học về Bluetooth&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Công cụ setup là dùng ESP32, &lt;a href=&#34;https://github.com/hackgnar/ble_ctf/blob/master/docs/setup.md&#34;&gt;tham khảo môi trường&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/cybersecurity/ctf_hardware/</guid>
+      <pubDate>Thu, 02 Oct 2025 12:51:47 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Ghost_ESP</title>
       <link>https://vinhlin.github.io/posts/cybersecurity/technical/ghost_esp/</link>
       <description>&lt;h2 id=&#34;tài-liệu&#34;&gt;Tài liệu&lt;/h2&gt;
@@ -1620,31 +1715,6 @@ ln -s /usr/sbin/dropbearmulti /usr/bin/scp
       <author>VinhLD</author>
       <guid>https://vinhlin.github.io/posts/cybersecurity/technical/ssh_armv7/</guid>
       <pubDate>Tue, 01 Jul 2025 11:58:39 +0700</pubDate>
-    </item>
-    
-    <item>
-      <title>CTF_Hardware</title>
-      <link>https://vinhlin.github.io/posts/cybersecurity/ctf_hardware/</link>
-      <description>&lt;h2 id=&#34;blog-về-ctf-hardware&#34;&gt;Blog về CTF Hardware&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/AnduinBrian/anduinbrian.github.io&#34;&gt;https://github.com/AnduinBrian/anduinbrian.github.io&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://anduinbrian.github.io/&#34;&gt;https://anduinbrian.github.io/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Tài liệu:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://www.autosar.org/fileadmin/standards/R22-11/CP/AUTOSAR_SWS_CRCLibrary.pdf
-https://github.com/jopohl/urh
-https://github.com/RfidResearchGroup/proxmark3
-https://github.com/compujuckel/ZigbeeOtaExtractor
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;tài-liệu-khác&#34;&gt;Tài liệu khác:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://vinhlin.github.io/docs/ctf_hardware/AUTOSAR_SWS_CRCLibrary.pdf&#34;&gt;AUTOSAR_SWS_CRCLibrary&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://vinhlin.github.io/docs/ctf_hardware/Android_Application_Security_CheckList_v2.0_Release_Candidate.xlsx&#34;&gt;Android Application Security CheckList v2.0 Release Candidate&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://vinhlin.github.io/docs/ctf_hardware/romhack-revving-up_the-journey-to-pwn2own-automotive-2024.pdf&#34;&gt;romhack-revving-up_the-journey-to-pwn2own-automotive-2024&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-      <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/cybersecurity/ctf_hardware/</guid>
-      <pubDate>Thu, 26 Jun 2025 16:51:47 +0700</pubDate>
     </item>
     
     <item>

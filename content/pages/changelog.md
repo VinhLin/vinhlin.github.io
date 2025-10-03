@@ -179,6 +179,7 @@ STT |		Tiêu đề			|		Mô tả				|
 10  | [Web_Crawler][Web_Crawler]	| Giới thiệu về **Web Crawler** và công cụ **Firecrawl** |
 11  | [Backup_Tools][Backup_Tools]	| Ghi chú về các tool backup file		|
 12  | [Fabric_AI][Fabric_AI]		| Ghi chú về **Fabric** + **OpenAI API**	|
+13  | [NAS_FTP][NAS_FTP]		| Ghi chú thêm về **FTP Service trên OMV**	|
 
 [Permission_Linux]: https://blog.vinhld-homelab.io.vn/posts/system-devops/permission_linux/
 [Huly]: https://blog.vinhld-homelab.io.vn/posts/system-devops/huly/
@@ -191,7 +192,8 @@ STT |		Tiêu đề			|		Mô tả				|
 [Automation_Tools]: https://blog.vinhld-homelab.io.vn/posts/system-devops/automation_tools/
 [Web_Crawler]: https://blog.vinhld-homelab.io.vn/posts/system-devops/web_crawler/
 [Backup_Tools]: https://blog.vinhld-homelab.io.vn/posts/system-devops/backup_tools/
-[Fabric_AI]: https://blog.vinhld-homelab.io.vn/posts/system-devops/fabric_ai
+[Fabric_AI]: https://blog.vinhld-homelab.io.vn/posts/system-devops/fabric_ai/
+[NAS_FTP]: https://blog.vinhld-homelab.io.vn/posts/system-devops/nas_ftp/
 
 -----------------------------------------------------------------------------------------
 # <mark>Others</mark>
