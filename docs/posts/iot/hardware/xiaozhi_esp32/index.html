@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Liste - https://vinhlin.github.io/">
+    <title>Xiaozhi_ESP32 | VinhLin</title>
+    <meta name="description" content="Technology Blog">
+    <meta property="og:title" content="Xiaozhi_ESP32" />
+<meta property="og:description" content="Một Chatbot AI trên module ESP32-S3
+Link mua hàng trên shoppe Sơ đồ nút nhấn:
+Tài liệu tham khảo: Github xiaozhi-esp32, và mô hình hoạt động của Xiaozhi: Tài liệu khác: https://ccnphfhqs21z.feishu.cn/wiki/Zpz4wXBtdimBrLk25WdcXzxcnNS https://ccnphfhqs21z.feishu.cn/wiki/F5krwD16viZoF0kKkvDcrZNYnhb https://github.com/78/xiaozhi-esp32/blob/main/README_en.md#an-mcp-based-chatbot Cách sử dụng cơ bản sản phẩm: Nhìn chung sản phẩm này đã được các pháp sư Trung Hoa làm sẵn cả rồi. Phần cứng cũng có, firmware cũng có sẵn, mình chỉ việc mua về và setting cho phù hợp với nhu cầu." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://vinhlin.github.io/posts/iot/hardware/xiaozhi_esp32/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2025-10-06T11:31:07+07:00" />
+<meta property="article:modified_time" content="2025-10-06T11:31:07+07:00" />
+
+    <meta itemprop="name" content="Xiaozhi_ESP32">
+<meta itemprop="description" content="Một Chatbot AI trên module ESP32-S3
+Link mua hàng trên shoppe Sơ đồ nút nhấn:
+Tài liệu tham khảo: Github xiaozhi-esp32, và mô hình hoạt động của Xiaozhi: Tài liệu khác: https://ccnphfhqs21z.feishu.cn/wiki/Zpz4wXBtdimBrLk25WdcXzxcnNS https://ccnphfhqs21z.feishu.cn/wiki/F5krwD16viZoF0kKkvDcrZNYnhb https://github.com/78/xiaozhi-esp32/blob/main/README_en.md#an-mcp-based-chatbot Cách sử dụng cơ bản sản phẩm: Nhìn chung sản phẩm này đã được các pháp sư Trung Hoa làm sẵn cả rồi. Phần cứng cũng có, firmware cũng có sẵn, mình chỉ việc mua về và setting cho phù hợp với nhu cầu."><meta itemprop="datePublished" content="2025-10-06T11:31:07+07:00" />
+<meta itemprop="dateModified" content="2025-10-06T11:31:07+07:00" />
+<meta itemprop="wordCount" content="298">
+<meta itemprop="keywords" content="" />
+    
+    <link rel="canonical" href="https://vinhlin.github.io/posts/iot/hardware/xiaozhi_esp32/">
+    <link rel="icon" href="https://vinhlin.github.io//assets/favicon.ico">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
+    <link rel="alternate" type="application/atom+xml" title="VinhLin" href="https://vinhlin.github.io//atom.xml" />
+    <link rel="alternate" type="application/json" title="VinhLin" href="https://vinhlin.github.io//feed.json" />
+    <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=">
+    
+    
+    <style>*,:after,:before{box-sizing:border-box;padding:0}body{font:1rem/1.5 '-apple-system',BlinkMacSystemFont,avenir next,avenir,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding:2rem;background:#f5f5f5;color:#000}.skip-link{position:absolute;top:-40px;left:0;background:#eee;z-index:100}.skip-link:focus{top:0}h1,h2,h3,h4,h5,strong,b{font-size:inherit;font-weight:600}header{line-height:2;padding-bottom:1.5rem}.link{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-decoration:none}.time{font-variant-numeric:tabular-nums;white-space:nowrap}blockquote{border-left:5px solid #eee;padding-left:1rem;margin:0}a,a:visited{color:inherit}a:hover,a.heading-link{text-decoration:none}pre{padding:.5rem;overflow:auto;overflow-x:scroll;overflow-wrap:normal}code,pre{font-family:San Francisco Mono,Monaco,consolas,lucida console,dejavu sans mono,bitstream vera sans mono,monospace;font-size:normal;font-size:small;background:#eee}code{margin:.1rem;border:none}ul{list-style-type:square}ul,ol{padding-left:1.2rem}.list{line-height:2;list-style-type:none;padding-left:0}.list li{padding-bottom:.1rem}.meta{color:#777}.content{max-width:70ch;margin:0 auto}header{line-height:2;display:flex;justify-content:space-between;padding-bottom:1rem}header a{text-decoration:none}header ul{list-style-type:none;padding:0}header li,header a{display:inline}h2.post{padding-top:.5rem}header ul a:first-child{padding-left:1rem}.nav{height:1px;background:#000;content:'';max-width:10%}.list li{display:flex;align-items:baseline}.list li time{flex:initial}.hr-list{margin-top:0;margin-bottom:0;margin-right:.5rem;margin-left:.5rem;height:1px;border:0;border-bottom:1px dotted #ccc;flex:1 0 1rem}.m,hr{border:0;margin:3rem 0}img{max-width:100%;height:auto}.post-date{margin:5% 0}.index-date{color:#9a9a9a}.animate-blink{animation:opacity 1s infinite;opacity:1}@keyframes opacity{0%{opacity:1}50%{opacity:.5}100%{opacity:0}}.tags{display:flex;justify-content:space-between}.tags ul{padding:0;margin:0}.tags li{display:inline}.avatar{height:120px;width:120px;position:relative;margin:-10px 0 0 15px;float:right;border-radius:50%}table{width:100%;border-collapse:collapse}th,td{border:1px solid #ddd;text-align:left;padding:8px}th{background-color:#f2f2f2} </style>
+  
+    
+  
+  
+  <script type="application/ld+json">
+  {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "articleSection": "posts",
+      "name": "Xiaozhi_ESP32",
+      "headline": "Xiaozhi_ESP32",
+      "alternativeHeadline": "",
+      "description": "Một Chatbot AI trên module ESP32-S3\nLink mua hàng trên shoppe Sơ đồ nút nhấn:\nTài liệu tham khảo: Github xiaozhi-esp32, và mô hình hoạt động của Xiaozhi: Tài liệu khác: https:\/\/ccnphfhqs21z.feishu.cn\/wiki\/Zpz4wXBtdimBrLk25WdcXzxcnNS https:\/\/ccnphfhqs21z.feishu.cn\/wiki\/F5krwD16viZoF0kKkvDcrZNYnhb https:\/\/github.com\/78\/xiaozhi-esp32\/blob\/main\/README_en.md#an-mcp-based-chatbot Cách sử dụng cơ bản sản phẩm: Nhìn chung sản phẩm này đã được các pháp sư Trung Hoa làm sẵn cả rồi. Phần cứng cũng có, firmware cũng có sẵn, mình chỉ việc mua về và setting cho phù hợp với nhu cầu.",
+      "inLanguage": "en-us",
+      "isFamilyFriendly": "true",
+      "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https:\/\/vinhlin.github.io\/posts\/iot\/hardware\/xiaozhi_esp32\/"
+      },
+      "author" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "creator" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "accountablePerson" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "copyrightHolder" : "VinhLin",
+      "copyrightYear" : "2025",
+      "dateCreated": "2025-10-06T11:31:07.00Z",
+      "datePublished": "2025-10-06T11:31:07.00Z",
+      "dateModified": "2025-10-06T11:31:07.00Z",
+      "publisher":{
+          "@type":"Organization",
+          "name": "VinhLin",
+          "url": "https://vinhlin.github.io/",
+          "logo": {
+              "@type": "ImageObject",
+              "url": "https:\/\/vinhlin.github.io\/assets\/favicon.ico",
+              "width":"32",
+              "height":"32"
+          }
+      },
+      "image": "https://vinhlin.github.io/assets/favicon.ico",
+      "url" : "https:\/\/vinhlin.github.io\/posts\/iot\/hardware\/xiaozhi_esp32\/",
+      "wordCount" : "298",
+      "genre" : [ ],
+      "keywords" : [ ]
+  }
+  </script>
+  
+  
+  </head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main</a>
+  <main id="main">
+  <div class="content">
+    <header>
+<p style="padding: 0;margin: 0;">
+  <a href="/">
+    <b>VinhLin</b>
+    <span class="text-stone-500 animate-blink">▮</span>
+  </a>
+</p>
+<ul style="padding: 0;margin: 0;">
+  
+  
+  <li class="">
+    <a href="/changelog/"><span>Changelog</span></a>
+    
+  <li class="">
+    <a href="/posts/"><span>Post</span></a>
+    
+  <li class="">
+    <a href="/about/"><span>About</span></a>
+    
+  </li>
+</ul>
+</header>
+<hr class="hr-list" style="padding: 0;margin: 0;">
+    <section>
+      <h2 class="post">Xiaozhi_ESP32</h2>
+      <p>Một <strong>Chatbot AI trên module ESP32-S3</strong></p>
+<h3 id="link-mua-hàng-trên-shoppehttpssshopeevn3qdwjj0b1l"><a href="https://s.shopee.vn/3qDwJj0B1l">Link mua hàng trên shoppe</a></h3>
+<p><img
+  src="/image/IoT/Xiaozhi_ESP32/Ph%e1%ba%a7n_c%e1%bb%a9ng_1.webp"
+  alt="Sản phẩm"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p>Sơ đồ nút nhấn:</p>
+<p><img
+  src="/image/IoT/Xiaozhi_ESP32/Ph%e1%ba%a7n_c%e1%bb%a9ng_2.webp"
+  alt="Sơ đồ nút nhấn"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<h3 id="tài-liệu-tham-khảo">Tài liệu tham khảo:</h3>
+<ul>
+<li><a href="https://github.com/78/xiaozhi-esp32">Github xiaozhi-esp32</a>, và mô hình hoạt động của <strong>Xiaozhi</strong>:</li>
+</ul>
+<p><img
+  src="/image/IoT/Xiaozhi_ESP32/M%c3%b4_h%c3%acnh.jpg"
+  alt="Mô hình"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<ul>
+<li>Tài liệu khác:</li>
+</ul>
+<pre tabindex="0"><code>https://ccnphfhqs21z.feishu.cn/wiki/Zpz4wXBtdimBrLk25WdcXzxcnNS
+https://ccnphfhqs21z.feishu.cn/wiki/F5krwD16viZoF0kKkvDcrZNYnhb
+https://github.com/78/xiaozhi-esp32/blob/main/README_en.md#an-mcp-based-chatbot
+</code></pre><h2 id="cách-sử-dụng-cơ-bản-sản-phẩm">Cách sử dụng cơ bản sản phẩm:</h2>
+<ul>
+<li>Nhìn chung sản phẩm này đã được các <strong>pháp sư Trung Hoa</strong> làm sẵn cả rồi.</li>
+<li>Phần cứng cũng có, firmware cũng có sẵn, mình chỉ việc mua về và setting cho phù hợp với nhu cầu.</li>
+<li>Khi mua về, mình cắm dây USB Type C vào, <strong>thiết bị đã có sẵn Firmware</strong>, có thể dùng ngay được luôn.</li>
+<li>Ngoài ra kiểm tra thì cổng USB này vừa cấp nguồn vừa dùng để <strong>debug</strong>. Baud-rate cho Serial là <strong>115200</strong>.</li>
+</ul>
+<h3 id="kết-nối-wifi">Kết nối WiFi</h3>
+<ul>
+<li>Thiết bị sẽ phát ra một wifi local, kết nối với wifi này.</li>
+<li>Truy cập link <code>http://192.168.4.1/</code>, sau đó kết nối với một mạng wifi sẵn có <em>(mục đích là để thiết bị có kết nối Internet)</em>.</li>
+</ul>
+<p><img
+  src="/image/IoT/Xiaozhi_ESP32/Hinh_1.png"
+  alt="Hình 1"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<ul>
+<li>Khi đã kết nối Internet thành công, mình thấy thiết bị <strong>download FW mới</strong>:</li>
+</ul>
+<p><img
+  src="/image/IoT/Xiaozhi_ESP32/Hinh_2.png"
+  alt="Hình 2"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<ul>
+<li>Sau khi đã cập nhật <strong>OTA</strong> phiên bản <code>V1.9.2</code>, thiết bị sẽ có một đoạn mã nhỏ xuất hiện trên màn hình OLED.</li>
+<li>Truy cập link <code>https://xiaozhi.me/</code>, tiến hành <strong>Add Device</strong>, nhập mã code:</li>
+</ul>
+<p><img
+  src="/image/IoT/Xiaozhi_ESP32/Hinh_3.png"
+  alt="Hình 3"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p><img
+  src="/image/IoT/Xiaozhi_ESP32/Hinh_4.png"
+  alt="Hình 4"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<ul>
+<li>Sau khi đã add thiết bị thành công, mình sẽ tiến hành <strong>Config</strong>:</li>
+</ul>
+<pre tabindex="0"><code>Đặt tên thiết bị là: Alo
+Ngôn ngữ sử dụng là: Tiếng Việt
+</code></pre><p><img
+  src="/image/IoT/Xiaozhi_ESP32/Hinh_5.png"
+  alt="Hình 5"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<ul>
+<li>Sau đó save lại, rút nguồn thiết bị và cắm lại để áp dụng config.</li>
+<li>Bây giờ nút button <em>(nhấn 1 lần)</em>, để bắt đầu trò chuyện với thiết bị.</li>
+<li>Hình dưới là log show ra của nội dung trò chuyện.</li>
+</ul>
+<p><img
+  src="/image/IoT/Xiaozhi_ESP32/Hinh_6.png"
+  alt="Hình 6"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<ul>
+<li>Còn nhiều điều thú vị khác để vọc, như setup lại promp cho AI, lịch sử trò chuyện,&hellip;</li>
+<li>Tham khảo video khác:</li>
+</ul>
+<pre tabindex="0"><code>https://www.youtube.com/watch?v=8bkfMLDgnlE
+</code></pre>
+      
+      <div class="post-date">
+        <span class="g time">October 6, 2025 </span> &#8729;
+         
+      </div>
+      
+    </section>
+    
+    
+    
+  </div>
+</main>
+</body>
+</html>

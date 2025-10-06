@@ -14,6 +14,143 @@
     
     
     <item>
+      <title>Xiaozhi_ESP32</title>
+      <link>https://vinhlin.github.io/posts/iot/hardware/xiaozhi_esp32/</link>
+      <description>&lt;p&gt;Một &lt;strong&gt;Chatbot AI trên module ESP32-S3&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;link-mua-hàng-trên-shoppehttpssshopeevn3qdwjj0b1l&#34;&gt;&lt;a href=&#34;https://s.shopee.vn/3qDwJj0B1l&#34;&gt;Link mua hàng trên shoppe&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Xiaozhi_ESP32/Ph%e1%ba%a7n_c%e1%bb%a9ng_1.webp&#34;
+  alt=&#34;Sản phẩm&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Sơ đồ nút nhấn:&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Xiaozhi_ESP32/Ph%e1%ba%a7n_c%e1%bb%a9ng_2.webp&#34;
+  alt=&#34;Sơ đồ nút nhấn&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;tài-liệu-tham-khảo&#34;&gt;Tài liệu tham khảo:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/78/xiaozhi-esp32&#34;&gt;Github xiaozhi-esp32&lt;/a&gt;, và mô hình hoạt động của &lt;strong&gt;Xiaozhi&lt;/strong&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Xiaozhi_ESP32/M%c3%b4_h%c3%acnh.jpg&#34;
+  alt=&#34;Mô hình&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tài liệu khác:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://ccnphfhqs21z.feishu.cn/wiki/Zpz4wXBtdimBrLk25WdcXzxcnNS
+https://ccnphfhqs21z.feishu.cn/wiki/F5krwD16viZoF0kKkvDcrZNYnhb
+https://github.com/78/xiaozhi-esp32/blob/main/README_en.md#an-mcp-based-chatbot
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;cách-sử-dụng-cơ-bản-sản-phẩm&#34;&gt;Cách sử dụng cơ bản sản phẩm:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Nhìn chung sản phẩm này đã được các &lt;strong&gt;pháp sư Trung Hoa&lt;/strong&gt; làm sẵn cả rồi.&lt;/li&gt;
+&lt;li&gt;Phần cứng cũng có, firmware cũng có sẵn, mình chỉ việc mua về và setting cho phù hợp với nhu cầu.&lt;/li&gt;
+&lt;li&gt;Khi mua về, mình cắm dây USB Type C vào, &lt;strong&gt;thiết bị đã có sẵn Firmware&lt;/strong&gt;, có thể dùng ngay được luôn.&lt;/li&gt;
+&lt;li&gt;Ngoài ra kiểm tra thì cổng USB này vừa cấp nguồn vừa dùng để &lt;strong&gt;debug&lt;/strong&gt;. Baud-rate cho Serial là &lt;strong&gt;115200&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;kết-nối-wifi&#34;&gt;Kết nối WiFi&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Thiết bị sẽ phát ra một wifi local, kết nối với wifi này.&lt;/li&gt;
+&lt;li&gt;Truy cập link &lt;code&gt;http://192.168.4.1/&lt;/code&gt;, sau đó kết nối với một mạng wifi sẵn có &lt;em&gt;(mục đích là để thiết bị có kết nối Internet)&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Xiaozhi_ESP32/Hinh_1.png&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Khi đã kết nối Internet thành công, mình thấy thiết bị &lt;strong&gt;download FW mới&lt;/strong&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Xiaozhi_ESP32/Hinh_2.png&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sau khi đã cập nhật &lt;strong&gt;OTA&lt;/strong&gt; phiên bản &lt;code&gt;V1.9.2&lt;/code&gt;, thiết bị sẽ có một đoạn mã nhỏ xuất hiện trên màn hình OLED.&lt;/li&gt;
+&lt;li&gt;Truy cập link &lt;code&gt;https://xiaozhi.me/&lt;/code&gt;, tiến hành &lt;strong&gt;Add Device&lt;/strong&gt;, nhập mã code:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Xiaozhi_ESP32/Hinh_3.png&#34;
+  alt=&#34;Hình 3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Xiaozhi_ESP32/Hinh_4.png&#34;
+  alt=&#34;Hình 4&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sau khi đã add thiết bị thành công, mình sẽ tiến hành &lt;strong&gt;Config&lt;/strong&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Đặt tên thiết bị là: Alo
+Ngôn ngữ sử dụng là: Tiếng Việt
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Xiaozhi_ESP32/Hinh_5.png&#34;
+  alt=&#34;Hình 5&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sau đó save lại, rút nguồn thiết bị và cắm lại để áp dụng config.&lt;/li&gt;
+&lt;li&gt;Bây giờ nút button &lt;em&gt;(nhấn 1 lần)&lt;/em&gt;, để bắt đầu trò chuyện với thiết bị.&lt;/li&gt;
+&lt;li&gt;Hình dưới là log show ra của nội dung trò chuyện.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Xiaozhi_ESP32/Hinh_6.png&#34;
+  alt=&#34;Hình 6&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Còn nhiều điều thú vị khác để vọc, như setup lại promp cho AI, lịch sử trò chuyện,&amp;hellip;&lt;/li&gt;
+&lt;li&gt;Tham khảo video khác:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://www.youtube.com/watch?v=8bkfMLDgnlE
+&lt;/code&gt;&lt;/pre&gt;</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/iot/hardware/xiaozhi_esp32/</guid>
+      <pubDate>Mon, 06 Oct 2025 11:31:07 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>NAS_FTP</title>
       <link>https://vinhlin.github.io/posts/system-devops/nas_ftp/</link>
       <description>&lt;ul&gt;

@@ -19,12 +19,22 @@ Trang blog này như một **cuốn sổ tay cá nhân**, nơi mà mình ghi ch�
 ## 👨‍💻 Dự án cá nhân: <mark>HOMELAB Server</mark>
 > Đây là dự án **đang được vận hành** bởi chính mình cho **cửa hàng tạp hóa nhỏ** của gia đình. </br>
 
-- Bản thân là một người thích tìm hiểu cái mới. Nên ngoài chuyên môn về điện tử, mình có học và tìm hiểu thêm về **Network**, **System** và **Security**.
-- Mình áp dụng những kiến thức của bản thân để tự build lên hệ thống với 2 mục đích chính *(phục vụ nhu cầu cá nhân và cho gia đình)*:
-```
-1. Áp dụng Server này cho nhà của mình: Mesh WiFi, CCTV, DNS local.
-2. Nơi mình sẽ áp dụng những kiến thức đã học và những kiến thức mới: Từ VPN, SIEM, Jump-Server, Honeypot cho đến Gitlab CI/CD,...
-```
+Bản thân là một người thích tìm hiểu cái mới. Nên ngoài chuyên môn về điện tử, mình có học và tìm hiểu thêm về **Network**, **System** và **Security**.
+
+Mình áp dụng những kiến thức của bản thân để tự build lên hệ thống với 2 mục đích chính *(phục vụ nhu cầu cá nhân và cho gia đình)*:
+
+### 1. Áp dụng Server này cho nhà của mình: 
+- Phủ wifi cho ngôi nhà bằng công nghệ **Mesh WiFi của Aruba**, phân chia *mạng nội bộ* và *mạng dành cho khách*.
+- Thiết lập camera an ninh (CCTV), giám sát 24/7.
+- Triển khai **DNS local**, chặn quảng cáo và web độc hại.
+- Triển khai chia sẻ file nội bộ **(SMB Service)**.
+
+### 2. Nơi mình sẽ áp dụng những kiến thức đã học và những kiến thức mới: 
+- Thiết lập kết nối từ xa **Fortigate VPN**, và **Jump-Server**.
+- Quản lý hạ tầng tập trung: quản lý log SIEM, quản lý network (Zabbix).
+- Triển khai chia sẻ file global **(FTP Service)**
+- Xây dựng mô hình dùng sử dụng ChatGPT API.
+- Triển khai các công cụ khác như: MQTT Broker, Honeypot, UptimeKuma, Gitlab,...
 
 🌱 Một số ý tưởng project nhỏ khác, [thông tin tại đây](https://blog.vinhld-homelab.io.vn/posts/others/y_tuong_project/)
 

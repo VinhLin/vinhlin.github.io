@@ -29,6 +29,7 @@ STT |		Tiêu đề			|		Mô tả				|
 17  | [Voice_Command][Voice_Command]	| Ghi chú nhanh về một loại module phần cứng có tiếng năng **Voice Command** |
 18  | [Cloud_Sim][Cloud_Sim]		| Giới thiệu nhanh về khái niệm Cloud Sim	|
 19  | [The_nho][The_nho]		| Tổng hợp thông tin về thẻ nhớ			|
+20  | [Xiaozhi_ESP32][Xiaozhi_ESP32]	| Test bộ **Chatbot ESP32-AI**			|
 
 [UNIHIKER]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/unihiker/
 [ESD]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/esd/
@@ -49,6 +50,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [Voice_Command]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/voice_command/
 [Cloud_Sim]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/cloud_sim/
 [The_nho]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/the_nho/
+[Xiaozhi_ESP32]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/xiaozhi_esp32/
 
 ## ***SOFTWARE***
 
