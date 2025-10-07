@@ -14,6 +14,94 @@
     
     
     <item>
+      <title>DevOps</title>
+      <link>https://vinhlin.github.io/posts/system-devops/devops/</link>
+      <description>&lt;p&gt;Mình biết đến lĩnh vực &lt;strong&gt;DevOps&lt;/strong&gt; cũng lâu rồi, nhưng nay tự nhiên lại muốn document.&lt;/p&gt;
+&lt;p&gt;Theo mình hiểu đơn giản thì &lt;strong&gt;khi làm System đủ lâu, mà muốn phát triển lên thì vai trò tiếp theo chính là DevOps&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Lúc trước mình cũng lân la đi đọc JD của vai trò DevOps, học cơ bản về DevOps.&lt;/p&gt;
+&lt;p&gt;Và khóa học free mà mình thấy hấp dẫn nhất chính là &lt;a href=&#34;https://elroydevops.tech/devops-for-fresher-kien-thuc-thuc-te/&#34;&gt;DevOps for Freshers&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;elroydevopshttpselroydevopstech&#34;&gt;&lt;a href=&#34;https://elroydevops.tech/&#34;&gt;elroydevops&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Với mình đây là trang web học về &lt;strong&gt;DevOps&lt;/strong&gt; cực kỳ chất lượng.&lt;/li&gt;
+&lt;li&gt;Không những có những khóa học cơ bản miễn phí, mà còn có những &lt;strong&gt;bài blog chia sẻ rất có tâm&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Giúp mình củng cố kiến thức về linux, monitor, và hiểu thêm về Automation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;linux&#34;&gt;Linux&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Xem thêm bài viết về &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/system-devops/permission_linux/&#34;&gt;Permission_Linux&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tìm hiểu về &lt;a href=&#34;https://devops.vn/posts/mot-cau-lenh-linux-cuc-ky-manh-me-ma-co-the-ban-chua-dung-bao-gio/&#34;&gt;chattr_Linux&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Command 1: &lt;code&gt;chattr +i demofile.txt&lt;/code&gt;&lt;/em&gt; &lt;/br&gt;
+&lt;em&gt;Command 2: &lt;code&gt;chattr -i demofile.txt&lt;/code&gt;&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/DevOps/Linux_Admin.jpg&#34;
+  alt=&#34;Linux Admin&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;cloud---aws&#34;&gt;Cloud - AWS&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://elroydevops.tech/aws/&#34;&gt;Chuyên mục DevOps&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tài liệu AWS - Raspberry:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://docs.aws.amazon.com/iot/latest/developerguide/connecting-to-existing-device.html
+https://community.aws/content/2fmIjiV6VfXnoN1ABMJHO5OYR0W/getting-started-with-pico-w-iot-core?lang=en
+https://docs.aws.amazon.com/iot/latest/developerguide/iot-moisture-raspi-setup.html
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/DevOps/AWS.jpg&#34;
+  alt=&#34;AWS&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;ảo-hóa---docker&#34;&gt;Ảo hóa - Docker&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Chạy &lt;strong&gt;Raspberry OS trên Docker&lt;/strong&gt;: &lt;a href=&#34;https://github.com/lukechilds/dockerpi&#34;&gt;DockerPi&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;docker run -it lukechilds/dockerpi
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Cài đặt công cụ &lt;a href=&#34;https://it-tools.tech/&#34;&gt;IT-Tools&lt;/a&gt; bằng Docker: &lt;a href=&#34;https://github.com/CorentinTh/it-tools&#34;&gt;Docker IT-Tools&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;docker run -d -p 8080:80 --name it-tools -it corentinth/it-tools
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;tham-khảo-khác&#34;&gt;Tham khảo khác:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=zM-6q54gu1w&amp;amp;list=PLUD8HYMnoROxPqDsDzyTagU3l6V1CbbAy&amp;amp;index=7&#34;&gt;CND&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=KhDz0uzoIXM&amp;amp;list=PLUD8HYMnoROxPqDsDzyTagU3l6V1CbbAy&amp;amp;index=3&#34;&gt;Storage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=ZqR34IwIor8&#34;&gt;Openstack&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/kestra-io/kestra&#34;&gt;kestra&lt;/a&gt;: Opensource automation tool.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://news.cloud365.vn/category/huong-dan/ansible/&#34;&gt;Ansible&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&#34;https://elroydevops.tech/cach-su-dung-ansible-infrastructure-as-code/&#34;&gt;Cách sử dụng ansible&lt;/a&gt;&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;roadmap&#34;&gt;Roadmap&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Tham khảo thêm về &lt;a href=&#34;https://roadmap.sh/devops&#34;&gt;roadmap devops&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://vinhlin.github.io/docs/devops_roadmap.pdf&#34;&gt;PDF file&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/DevOps/DevOps_Roadmap.jpg&#34;
+  alt=&#34;DevOps Roadmap&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/system-devops/devops/</guid>
+      <pubDate>Tue, 07 Oct 2025 09:01:18 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Xiaozhi_ESP32</title>
       <link>https://vinhlin.github.io/posts/iot/hardware/xiaozhi_esp32/</link>
       <description>&lt;p&gt;Một &lt;strong&gt;Chatbot AI trên module ESP32-S3&lt;/strong&gt;&lt;/p&gt;
@@ -140,7 +228,7 @@ Ngôn ngữ sử dụng là: Tiếng Việt
 
 &lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Còn nhiều điều thú vị khác để vọc, như setup lại promp cho AI, lịch sử trò chuyện,&amp;hellip;&lt;/li&gt;
+&lt;li&gt;Còn nhiều điều thú vị khác để vọc, như setup lại prompt cho AI, lịch sử trò chuyện,&amp;hellip;&lt;/li&gt;
 &lt;li&gt;Tham khảo video khác:&lt;/li&gt;
 &lt;/ul&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://www.youtube.com/watch?v=8bkfMLDgnlE

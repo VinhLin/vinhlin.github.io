@@ -63,7 +63,7 @@ Ngôn ngữ sử dụng là: Tiếng Việt
 
 ![Hình 6](/image/IoT/Xiaozhi_ESP32/Hinh_6.png)
 
-- Còn nhiều điều thú vị khác để vọc, như setup lại promp cho AI, lịch sử trò chuyện,...
+- Còn nhiều điều thú vị khác để vọc, như setup lại prompt cho AI, lịch sử trò chuyện,...
 - Tham khảo video khác:
 ```
 https://www.youtube.com/watch?v=8bkfMLDgnlE

@@ -23,18 +23,18 @@ Bản thân là một người thích tìm hiểu cái mới. Nên ngoài chuyê
 
 Mình áp dụng những kiến thức của bản thân để tự build lên hệ thống với 2 mục đích chính *(phục vụ nhu cầu cá nhân và cho gia đình)*:
 
-### 1. Áp dụng Server này cho nhà của mình: 
-- Phủ wifi cho ngôi nhà bằng công nghệ **Mesh WiFi của Aruba**, phân chia *mạng nội bộ* và *mạng dành cho khách*.
-- Thiết lập camera an ninh (CCTV), giám sát 24/7.
+### 1. Áp dụng Server này cho nhà của mình:
+- Phủ wifi cho ngôi nhà bằng công nghệ **Mesh WiFi** của **Aruba**, phân chia giữa *mạng nội bộ* và *mạng dành cho khách*.
+- Thiết lập camera an ninh *(CCTV)*, giám sát 24/7.
 - Triển khai **DNS local**, chặn quảng cáo và web độc hại.
-- Triển khai chia sẻ file nội bộ **(SMB Service)**.
+- Triển khai chia sẻ file nội bộ *(Internal Access)* - **SMB Service**.
 
-### 2. Nơi mình sẽ áp dụng những kiến thức đã học và những kiến thức mới: 
+### 2. Nơi mình sẽ áp dụng những kiến thức đã học và những kiến thức mới:
 - Thiết lập kết nối từ xa **Fortigate VPN**, và **Jump-Server**.
-- Quản lý hạ tầng tập trung: quản lý log SIEM, quản lý network (Zabbix).
-- Triển khai chia sẻ file global **(FTP Service)**
-- Xây dựng mô hình dùng sử dụng ChatGPT API.
-- Triển khai các công cụ khác như: MQTT Broker, Honeypot, UptimeKuma, Gitlab,...
+- Quản lý hạ tầng tập trung: quản lý log tập trung SIEM, quản lý network (Zabbix).
+- Triển khai chia sẻ file từ Internet *(External Access)* - **FTP Service**.
+- Xây dựng và sử dụng mô hình dùng kết hợp giữa **Faric AI** + **OpenAPI API**.
+- Triển khai và vận hành các dịch vụ cũng như các công cụ khác như: MQTT Broker, Honeypot, UptimeKuma, Gitlab,...
 
 🌱 Một số ý tưởng project nhỏ khác, [thông tin tại đây](https://blog.vinhld-homelab.io.vn/posts/others/y_tuong_project/)
 

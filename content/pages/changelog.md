@@ -182,6 +182,7 @@ STT |		Tiêu đề			|		Mô tả				|
 11  | [Backup_Tools][Backup_Tools]	| Ghi chú về các tool backup file		|
 12  | [Fabric_AI][Fabric_AI]		| Ghi chú về **Fabric** + **OpenAI API**	|
 13  | [NAS_FTP][NAS_FTP]		| Ghi chú thêm về **FTP Service trên OMV**	|
+14  | [DevOps][DevOps]			| Ghi chú và tổng hợp về **DevOps**		|
 
 [Permission_Linux]: https://blog.vinhld-homelab.io.vn/posts/system-devops/permission_linux/
 [Huly]: https://blog.vinhld-homelab.io.vn/posts/system-devops/huly/
@@ -196,6 +197,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [Backup_Tools]: https://blog.vinhld-homelab.io.vn/posts/system-devops/backup_tools/
 [Fabric_AI]: https://blog.vinhld-homelab.io.vn/posts/system-devops/fabric_ai/
 [NAS_FTP]: https://blog.vinhld-homelab.io.vn/posts/system-devops/nas_ftp/
+[DevOps]: https://blog.vinhld-homelab.io.vn/posts/system-devops/devops/
 
 -----------------------------------------------------------------------------------------
 # <mark>Others</mark>
