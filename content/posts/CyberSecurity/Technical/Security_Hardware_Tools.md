@@ -81,10 +81,19 @@ https://espressif.github.io/esp-launchpad/
 
 ![Hình 2](/image/CyberSecurity/Tools/MeowKit/MeowKit_2.png)
 
-
-
-
-
+### [pr3y/Bruce](https://github.com/pr3y/Bruce)
+- Dự án này có các tính năng cũng tương tự như Flipper Zero, [List](https://github.com/pr3y/Bruce?tab=readme-ov-file#computer-list-of-features)
+- Cài đặt Firmware online, [flasher](https://bruce.computer/flasher)
+- Bruce PCBs:
+```
+https://github.com/pr3y/Bruce/tree/main/pcbs)
+https://bruce.computer/boards
+```
+- Tham khảo thêm tài liệu:
+```
+https://github.com/pr3y/Bruce/wiki
+https://www.youtube.com/watch?v=BUwrWKDqtak&list=WL&index=4&pp=gAQBiAQB
+```
 
 
 

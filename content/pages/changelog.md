@@ -183,6 +183,7 @@ STT |		Tiêu đề			|		Mô tả				|
 12  | [Fabric_AI][Fabric_AI]		| Ghi chú về **Fabric** + **OpenAI API**	|
 13  | [NAS_FTP][NAS_FTP]		| Ghi chú thêm về **FTP Service trên OMV**	|
 14  | [DevOps][DevOps]			| Ghi chú và tổng hợp về **DevOps**		|
+15  | [MinIO][MinIO]			| Ghi chú về giải pháp *object storage* **MinIO** |
 
 [Permission_Linux]: https://blog.vinhld-homelab.io.vn/posts/system-devops/permission_linux/
 [Huly]: https://blog.vinhld-homelab.io.vn/posts/system-devops/huly/
@@ -198,6 +199,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [Fabric_AI]: https://blog.vinhld-homelab.io.vn/posts/system-devops/fabric_ai/
 [NAS_FTP]: https://blog.vinhld-homelab.io.vn/posts/system-devops/nas_ftp/
 [DevOps]: https://blog.vinhld-homelab.io.vn/posts/system-devops/devops/
+[MinIO]: https://blog.vinhld-homelab.io.vn/posts/system-devops/minio/
 
 -----------------------------------------------------------------------------------------
 # <mark>Others</mark>
