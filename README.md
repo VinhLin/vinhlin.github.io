@@ -62,6 +62,8 @@ hugo new posts/Others/HeyGen_AI.md
 hugo new posts/Others/Bo_giam_ap.md
 hugo new posts/Others/Slidev.md
 hugo new posts/Others/Android_Xiaomi.md
+hugo new posts/Others/SW_Model.md
+hugo new posts/Others/Goi_cuoc_Internet.md
 ```
 
 ### IoT:

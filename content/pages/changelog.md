@@ -221,6 +221,8 @@ STT |		Tiêu đề			|		Mô tả				|
 12  | [Bo_giam_ap][Bo_giam_ap]		| Làm bộ giảm áp				|
 13  | [Slidev][Slidev]			| Giới thiệu về công cụ **Slidev**		|
 14  | [Android_Xiaomi][Android_Xiaomi]	| Ghi chú về các tính năng thú vị trên Android Xiaomi |
+15  | [SW_Model][SW_Model]		| Ghi chú về các mô hình phát triển Software	|
+16  | [Goi_cuoc_Internet][Goi_cuoc_Internet] | Tổng hợp kiến thức và thông tin về gói cước Internet |
 
 [Ngoai_ngu]: https://blog.vinhld-homelab.io.vn/posts/others/goc_nhin_ve_ngoai_ngu/
 [Hardware_Hacking]: https://blog.vinhld-homelab.io.vn/posts/others/suy_nghi_ve_hardware_hacking/
@@ -236,3 +238,5 @@ STT |		Tiêu đề			|		Mô tả				|
 [Bo_giam_ap]: https://blog.vinhld-homelab.io.vn/posts/others/bo_giam_ap/
 [Slidev]: https://blog.vinhld-homelab.io.vn/posts/others/slidev/
 [Android_Xiaomi]: https://blog.vinhld-homelab.io.vn/posts/others/android_xiaomi/
+[SW_Model]: https://blog.vinhld-homelab.io.vn/posts/others/sw_model/
+[Goi_cuoc_Internet]: https://blog.vinhld-homelab.io.vn/posts/others/goi_cuoc_internet/
