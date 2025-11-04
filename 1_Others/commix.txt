@@ -1,0 +1,10 @@
+### commix - command injection
+
+https://www.hackercoolmagazine.com/beginners-guide-to-commix/?srsltid=AfmBOorcWCmzfjXAUZ9LBW31BLBJkQhY1jUVUHgWu1uCdmgegGjrvyFJ
+
+https://github.com/commixproject/commix
+
+https://commixproject.com/
+
+https://www.blackhat.com/docs/eu-15/materials/eu-15-Stasinopoulos-Commix-Detecting-And-Exploiting-Command-Injection-Flaws.pdf
+

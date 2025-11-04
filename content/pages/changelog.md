@@ -184,6 +184,7 @@ STT |		Tiêu đề			|		Mô tả				|
 13  | [NAS_FTP][NAS_FTP]		| Ghi chú thêm về **FTP Service trên OMV**	|
 14  | [DevOps][DevOps]			| Ghi chú và tổng hợp về **DevOps**		|
 15  | [MinIO][MinIO]			| Ghi chú về giải pháp *object storage* **MinIO** |
+16  | [SafeLine][SafeLine]		| Ghi chú về giải pháp mã nguồn mở, WAF cho hạ tầng |
 
 [Permission_Linux]: https://blog.vinhld-homelab.io.vn/posts/system-devops/permission_linux/
 [Huly]: https://blog.vinhld-homelab.io.vn/posts/system-devops/huly/
@@ -200,6 +201,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [NAS_FTP]: https://blog.vinhld-homelab.io.vn/posts/system-devops/nas_ftp/
 [DevOps]: https://blog.vinhld-homelab.io.vn/posts/system-devops/devops/
 [MinIO]: https://blog.vinhld-homelab.io.vn/posts/system-devops/minio/
+[SafeLine]: https://blog.vinhld-homelab.io.vn/posts/system-devops/safeline/
 
 -----------------------------------------------------------------------------------------
 # <mark>Others</mark>

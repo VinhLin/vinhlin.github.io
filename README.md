@@ -156,4 +156,5 @@ hugo new posts/System-DevOps/Fabric_AI.md
 hugo new posts/System-DevOps/NAS_FTP.md
 hugo new posts/System-DevOps/DevOps.md
 hugo new posts/System-DevOps/MinIO.md
+hugo new posts/System-DevOps/SafeLine.md
 ```

@@ -14,6 +14,38 @@
     
     
     <item>
+      <title>SafeLine</title>
+      <link>https://vinhlin.github.io/posts/system-devops/safeline/</link>
+      <description>&lt;h3 id=&#34;bài-viết-tham-khảohttpswwwlinkedincompulsesafeline-free-zero-trust-web-application-firewall-2026-jbk7ctrackingidxnkkirrxyjff7x8tcmemiw3d3d&#34;&gt;&lt;a href=&#34;https://www.linkedin.com/pulse/safeline-free-zero-trust-web-application-firewall-2026-jbk7c/?trackingId=XnkKirrxYjFF7X8tcmEmIw%3D%3D&#34;&gt;Bài viết tham khảo&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Từ bài viết này mình mới biết đến công cụ &lt;strong&gt;SafeLine&lt;/strong&gt;, một công cụ &lt;strong&gt;Open-source WAF&lt;/strong&gt; &lt;em&gt;(WAF Application Firewall)&lt;/em&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;tài-liệu-tham-khảo&#34;&gt;Tài liệu tham khảo:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Github SafeLine: &lt;a href=&#34;https://github.com/chaitin/SafeLine&#34;&gt;https://github.com/chaitin/SafeLine&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Trang chủ SafeLine: &lt;a href=&#34;https://safepoint.cloud/landing/safeline&#34;&gt;https://safepoint.cloud/landing/safeline&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Documents:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://docs.waf.chaitin.com/en/GetStarted/Deploy
+https://docs.waf.chaitin.com/en/tutorials/advanced
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;SafeLine&lt;/strong&gt; cũng đóng vai trò là một &lt;strong&gt;proxy-server&lt;/strong&gt;, dựa trên docs thì cài đặt cũng không quá khó.&lt;/p&gt;
+&lt;p&gt;Nhưng cái ở đây mình không hiểu là cách setup &lt;strong&gt;routing traffic&lt;/strong&gt; cho đúng mục đích thì mình vẫn chưa làm đc.&lt;/p&gt;
+&lt;p&gt;Tạm thời note lại để cập nhật kiến thức.&lt;/p&gt;
+&lt;h3 id=&#34;how-it-work&#34;&gt;How it work&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://raw.githubusercontent.com/chaitin/SafeLine/refs/heads/main/images/how-it-works.png&#34;
+  alt=&#34;How it work&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/system-devops/safeline/</guid>
+      <pubDate>Tue, 04 Nov 2025 09:59:49 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Goi_cuoc_Internet</title>
       <link>https://vinhlin.github.io/posts/others/goi_cuoc_internet/</link>
       <description>&lt;p&gt;Mình dùng nhà mạng FPT, với góc cước &lt;strong&gt;META&lt;/strong&gt; thông số là &lt;code&gt;Download/Upload: 1Gbps&lt;/code&gt;&lt;/p&gt;

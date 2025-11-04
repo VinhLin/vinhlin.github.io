@@ -54,6 +54,7 @@ Mình áp dụng những kiến thức của bản thân để tự build lên h
 > [mcw0/PoC](https://github.com/mcw0/PoC) </br>
 > [adamhlt/TL-WR841N](https://github.com/adamhlt/TL-WR841N) </br>
 > [OWASP/IoTGoat](https://github.com/OWASP/IoTGoat) </br>
+> [workshop_firmware_reverse_engineering](https://github.com/emproof-com/workshop_firmware_reverse_engineering) </br>
 
 ## 💬 Others Information:
 - 📺 Blog: https://vinhlin.github.io/

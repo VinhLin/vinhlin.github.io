@@ -16,6 +16,21 @@
 
     
     {
+      "id": "99937988debdf644c82faaaf93b23e766f300ffb",
+      "title": "SafeLine",
+      "summary": "",
+      "content_text": "Bài viết tham khảo Từ bài viết này mình mới biết đến công cụ SafeLine, một công cụ Open-source WAF (WAF Application Firewall).\nTài liệu tham khảo: Github SafeLine: https://github.com/chaitin/SafeLine Trang chủ SafeLine: https://safepoint.cloud/landing/safeline Documents: https://docs.waf.chaitin.com/en/GetStarted/Deploy https://docs.waf.chaitin.com/en/tutorials/advanced SafeLine cũng đóng vai trò là một proxy-server, dựa trên docs thì cài đặt cũng không quá khó.\nNhưng cái ở đây mình không hiểu là cách setup routing traffic cho đúng mục đích thì mình vẫn chưa làm đc.\nTạm thời note lại để cập nhật kiến thức.\nHow it work ",
+      "content_html": "\u003ch3 id=\"bài-viết-tham-khảohttpswwwlinkedincompulsesafeline-free-zero-trust-web-application-firewall-2026-jbk7ctrackingidxnkkirrxyjff7x8tcmemiw3d3d\"\u003e\u003ca href=\"https://www.linkedin.com/pulse/safeline-free-zero-trust-web-application-firewall-2026-jbk7c/?trackingId=XnkKirrxYjFF7X8tcmEmIw%3D%3D\"\u003eBài viết tham khảo\u003c/a\u003e\u003c/h3\u003e\n\u003cp\u003eTừ bài viết này mình mới biết đến công cụ \u003cstrong\u003eSafeLine\u003c/strong\u003e, một công cụ \u003cstrong\u003eOpen-source WAF\u003c/strong\u003e \u003cem\u003e(WAF Application Firewall)\u003c/em\u003e.\u003c/p\u003e\n\u003ch3 id=\"tài-liệu-tham-khảo\"\u003eTài liệu tham khảo:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eGithub SafeLine: \u003ca href=\"https://github.com/chaitin/SafeLine\"\u003ehttps://github.com/chaitin/SafeLine\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003eTrang chủ SafeLine: \u003ca href=\"https://safepoint.cloud/landing/safeline\"\u003ehttps://safepoint.cloud/landing/safeline\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003eDocuments:\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003ehttps://docs.waf.chaitin.com/en/GetStarted/Deploy\nhttps://docs.waf.chaitin.com/en/tutorials/advanced\n\u003c/code\u003e\u003c/pre\u003e\u003cp\u003e\u003cstrong\u003eSafeLine\u003c/strong\u003e cũng đóng vai trò là một \u003cstrong\u003eproxy-server\u003c/strong\u003e, dựa trên docs thì cài đặt cũng không quá khó.\u003c/p\u003e\n\u003cp\u003eNhưng cái ở đây mình không hiểu là cách setup \u003cstrong\u003erouting traffic\u003c/strong\u003e cho đúng mục đích thì mình vẫn chưa làm đc.\u003c/p\u003e\n\u003cp\u003eTạm thời note lại để cập nhật kiến thức.\u003c/p\u003e\n\u003ch3 id=\"how-it-work\"\u003eHow it work\u003c/h3\u003e\n\u003cp\u003e\u003cimg\n  src=\"https://raw.githubusercontent.com/chaitin/SafeLine/refs/heads/main/images/how-it-works.png\"\n  alt=\"How it work\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n",
+      "url": "https://vinhlin.github.io/posts/system-devops/safeline/",
+      "date_published": "4116-04-09T1159:44:00+07:00",
+      "date_modified": "4116-04-09T1159:44:00+07:00",
+      "author": {
+        "name": "VinhLD",
+        "url": "https://vinhlin.github.io/"
+      }
+    },
+    
+    {
       "id": "4ed7dd34343d20b8d4695d11bf1f3fca3341c7d6",
       "title": "Goi_cuoc_Internet",
       "summary": "",
