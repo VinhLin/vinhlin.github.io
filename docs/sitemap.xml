@@ -2,10 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://vinhlin.github.io/posts/iot/hardware/hdr_wdr/</loc>
-    <lastmod>2025-11-10T11:20:22+07:00</lastmod>
+    <loc>https://vinhlin.github.io/posts/cybersecurity/mon_hoc_attt/</loc>
+    <lastmod>2025-11-10T12:01:30+07:00</lastmod>
   </url><url>
     <loc>https://vinhlin.github.io/posts/</loc>
+    <lastmod>2025-11-10T12:01:30+07:00</lastmod>
+  </url><url>
+    <loc>https://vinhlin.github.io/posts/iot/hardware/hdr_wdr/</loc>
     <lastmod>2025-11-10T11:20:22+07:00</lastmod>
   </url><url>
     <loc>https://vinhlin.github.io/posts/system-devops/safeline/</loc>

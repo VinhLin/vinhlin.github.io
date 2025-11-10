@@ -115,6 +115,7 @@ STT |		Tiêu đề			|		Mô tả				|
 5   | [CTF_Hardware][CTF_Hardware]	| Tổng hợp tài liệu và blog về CTF Hardware hacking |
 6   | [BlueTeam][BlueTeam]		| Ghi chú về tài liệu cho Blue-Team		|
 7   | [Kali_for_ARM][Kali_for_ARM]	| Tổng hợp các Kali-Linux cho Vi xử lý ARM	|
+8   | [Mon_hoc_ATTT][Mon_hoc_ATTT]	| Bài viết về các **Môn học nền tảng cho An toàn thông tin** |
 
 [News]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/news/
 [Tools]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/tools/
@@ -123,6 +124,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [CTF_Hardware]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/ctf_hardware/
 [BlueTeam]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/blueteam/
 [Kali_for_ARM]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/kali_for_arm/
+[Mon_hoc_ATTT]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/mon_hoc_attt/
 
 ## ***Technical***
 > Tổng hợp các ghi chú về **Công cụ**, **Kỹ thuật** cũng như **Tư duy** về cả Blue-Team và Red-Team <br>

@@ -25,7 +25,7 @@ Cả HDR (High Dynamic Range) và WDR (Wide Dynamic Range) đều là công ngh�
 Nhưng chúng khác nhau về nguyên lý hoạt động, hiệu quả và ứng dụng.
 HDR (High Dynamic Range) Không cần cảm biến đặc biệt, chỉ cần xử lý hậu kỳ (post-processing) mạnh."><meta itemprop="datePublished" content="2025-11-10T11:20:22+07:00" />
 <meta itemprop="dateModified" content="2025-11-10T11:20:22+07:00" />
-<meta itemprop="wordCount" content="415">
+<meta itemprop="wordCount" content="356">
 <meta itemprop="keywords" content="" />
     
     <link rel="canonical" href="https://vinhlin.github.io/posts/iot/hardware/hdr_wdr/">
@@ -87,7 +87,7 @@ HDR (High Dynamic Range) Không cần cảm biến đặc biệt, chỉ cần x�
       },
       "image": "https://vinhlin.github.io/assets/favicon.ico",
       "url" : "https:\/\/vinhlin.github.io\/posts\/iot\/hardware\/hdr_wdr\/",
-      "wordCount" : "415",
+      "wordCount" : "356",
       "genre" : [ ],
       "keywords" : [ ]
   }
@@ -136,7 +136,7 @@ HDR (High Dynamic Range) Không cần cảm biến đặc biệt, chỉ cần x�
 <li>Nhược điểm:
 <ul>
 <li>Chỉ tốt với cảnh tĩnh <em>(<strong>dễ ghosting</strong> nếu có chuyển động)</em>.</li>
-<li>Tốn tài nguyên xử lý → có thể giảm FPS.</li>
+<li><strong>Tốn tài nguyên xử lý</strong> → có thể giảm FPS.</li>
 </ul>
 </li>
 <li>Chất lượng màu sắc: Tốt hơn, màu tự nhiên, ít noise.</li>
@@ -167,14 +167,14 @@ HDR (High Dynamic Range) Không cần cảm biến đặc biệt, chỉ cần x�
 </p>
 <h3 id="digital-wdr-dwdr">Digital WDR (DWDR)</h3>
 <ul>
-<li>Chỉ phần mềm: Xử lý hậu kỳ trên 1 khung hình duy nhất (tone mapping), điều chỉnh độ sáng từng vùng pixel riêng biệt.</li>
+<li>Xử lý phần mềm: Xử lý hậu kỳ trên 1 khung hình duy nhất (tone mapping), điều chỉnh độ sáng từng vùng pixel riêng biệt.</li>
 <li>Nhược điểm:</li>
 </ul>
 <blockquote>
 <p><em>Mất chi tiết ở vùng sáng/tối</em> </br>
 <em>Nhiễu cao</em> </br></p>
 </blockquote>
-<h3 id="true-wdr">True WDR</h3>
+<h3 id="true-wdr-hardware-wdr">True WDR (Hardware WDR)</h3>
 <ul>
 <li>Là sự kết hợp <strong>phần cứng + phần mềm</strong>: Chụp đa khung hình thực tế và ghép hình thông minh.</li>
 <li>Cần cảm biến cao cấp (như Sony STARVIS).</li>
@@ -188,17 +188,22 @@ HDR (High Dynamic Range) Không cần cảm biến đặc biệt, chỉ cần x�
 />
 
 </p>
-<h3 id="ví-dụ-minh-họa">Ví dụ minh họa</h3>
-<p>Cảnh: Cửa sổ sáng chói + người trong phòng tối</p>
-<pre tabindex="0"><code>→ HDR: Chụp 3 ảnh → ghép → thấy rõ cả người và cảnh ngoài cửa sổ (nhưng nếu người di chuyển → bị mờ).
-→ WDR: Cảm biến tự động làm sáng vùng tối, giảm sáng vùng chói trong 1 khung hình → video mượt, không ghosting.
-</code></pre><blockquote>
-<p><em><strong>True WDR &gt; HDR &gt; Digital WDR về chất lượng hình ảnh trong môi trường tương phản cao.</strong></em></p>
-</blockquote>
 <h3 id="kết-luận">Kết luận:</h3>
 <blockquote>
 <p><em><strong>HDR = ghép nhiều ảnh → đẹp, chi tiết, nhưng dễ lỗi chuyển động.</strong></em> </br>
 <em><strong>WDR = xử lý cảm biến → nhanh, mượt, phù hợp giám sát.</strong></em> </br></p>
+</blockquote>
+<p><img
+  src="/image/IoT/HDR_WDR/Compare_1.png"
+  alt="Compare 1"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<blockquote>
+<p><em><strong>True WDR &gt; HDR &gt; Digital WDR về chất lượng hình ảnh trong môi trường tương phản cao.</strong></em></p>
 </blockquote>
 <table>
 <thead>
@@ -223,8 +228,8 @@ HDR (High Dynamic Range) Không cần cảm biến đặc biệt, chỉ cần x�
 </tbody>
 </table>
 <p><img
-  src="/image/IoT/HDR_WDR/Compare.png"
-  alt="Compare"
+  src="/image/IoT/HDR_WDR/Compare_2.png"
+  alt="Compare 2"
   loading="lazy"
   decoding="async"
   class="full-width"

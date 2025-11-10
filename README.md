@@ -118,6 +118,7 @@ hugo new posts/CyberSecurity/CyberSecurity_Small_Businesses.md
 hugo new posts/CyberSecurity/CTF_Hardware.md
 hugo new posts/CyberSecurity/BlueTeam.md
 hugo new posts/CyberSecurity/Kali_for_ARM.md
+hugo new posts/CyberSecurity/Mon_hoc_ATTT.md
 ```
 - Technical
 ```
