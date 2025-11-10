@@ -6,7 +6,7 @@ draft = true
 
 ### [Bài viết tham khảo](https://www.linkedin.com/pulse/safeline-free-zero-trust-web-application-firewall-2026-jbk7c/?trackingId=XnkKirrxYjFF7X8tcmEmIw%3D%3D)
 
-Từ bài viết này mình mới biết đến công cụ **SafeLine**, một công cụ **Open-source WAF** *(WAF Application Firewall)*.
+Từ bài viết này mình mới biết đến công cụ **SafeLine**, một công cụ **Open-source WAF** *(Web Application Firewall)*.
 
 ### Tài liệu tham khảo:
 - Github SafeLine: https://github.com/chaitin/SafeLine
@@ -15,6 +15,12 @@ Từ bài viết này mình mới biết đến công cụ **SafeLine**, một c
 ```
 https://docs.waf.chaitin.com/en/GetStarted/Deploy
 https://docs.waf.chaitin.com/en/tutorials/advanced
+```
+- Tham khảo thêm:
+```
+https://kungfutech.edu.vn/posts/huong-dan-su-dung-safeline-waf-tuong-lua-ung-dung-mien-phi
+https://www.youtube.com/watch?v=XIRAo9OP_LA
+https://www.youtube.com/watch?v=E9wOlS_rKuw
 ```
 
 **SafeLine** cũng đóng vai trò là một **proxy-server**, dựa trên docs thì cài đặt cũng không quá khó.

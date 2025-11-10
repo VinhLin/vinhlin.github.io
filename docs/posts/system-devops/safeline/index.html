@@ -8,8 +8,8 @@
     <title>SafeLine | VinhLin</title>
     <meta name="description" content="Technology Blog">
     <meta property="og:title" content="SafeLine" />
-<meta property="og:description" content="Bài viết tham khảo Từ bài viết này mình mới biết đến công cụ SafeLine, một công cụ Open-source WAF (WAF Application Firewall).
-Tài liệu tham khảo: Github SafeLine: https://github.com/chaitin/SafeLine Trang chủ SafeLine: https://safepoint.cloud/landing/safeline Documents: https://docs.waf.chaitin.com/en/GetStarted/Deploy https://docs.waf.chaitin.com/en/tutorials/advanced SafeLine cũng đóng vai trò là một proxy-server, dựa trên docs thì cài đặt cũng không quá khó.
+<meta property="og:description" content="Bài viết tham khảo Từ bài viết này mình mới biết đến công cụ SafeLine, một công cụ Open-source WAF (Web Application Firewall).
+Tài liệu tham khảo: Github SafeLine: https://github.com/chaitin/SafeLine Trang chủ SafeLine: https://safepoint.cloud/landing/safeline Documents: https://docs.waf.chaitin.com/en/GetStarted/Deploy https://docs.waf.chaitin.com/en/tutorials/advanced Tham khảo thêm: https://kungfutech.edu.vn/posts/huong-dan-su-dung-safeline-waf-tuong-lua-ung-dung-mien-phi https://www.youtube.com/watch?v=XIRAo9OP_LA https://www.youtube.com/watch?v=E9wOlS_rKuw SafeLine cũng đóng vai trò là một proxy-server, dựa trên docs thì cài đặt cũng không quá khó.
 Nhưng cái ở đây mình không hiểu là cách setup routing traffic cho đúng mục đích thì mình vẫn chưa làm đc." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://vinhlin.github.io/posts/system-devops/safeline/" /><meta property="article:section" content="posts" />
@@ -17,11 +17,11 @@ Nhưng cái ở đây mình không hiểu là cách setup routing traffic cho đ
 <meta property="article:modified_time" content="2025-11-04T09:59:49+07:00" />
 
     <meta itemprop="name" content="SafeLine">
-<meta itemprop="description" content="Bài viết tham khảo Từ bài viết này mình mới biết đến công cụ SafeLine, một công cụ Open-source WAF (WAF Application Firewall).
-Tài liệu tham khảo: Github SafeLine: https://github.com/chaitin/SafeLine Trang chủ SafeLine: https://safepoint.cloud/landing/safeline Documents: https://docs.waf.chaitin.com/en/GetStarted/Deploy https://docs.waf.chaitin.com/en/tutorials/advanced SafeLine cũng đóng vai trò là một proxy-server, dựa trên docs thì cài đặt cũng không quá khó.
+<meta itemprop="description" content="Bài viết tham khảo Từ bài viết này mình mới biết đến công cụ SafeLine, một công cụ Open-source WAF (Web Application Firewall).
+Tài liệu tham khảo: Github SafeLine: https://github.com/chaitin/SafeLine Trang chủ SafeLine: https://safepoint.cloud/landing/safeline Documents: https://docs.waf.chaitin.com/en/GetStarted/Deploy https://docs.waf.chaitin.com/en/tutorials/advanced Tham khảo thêm: https://kungfutech.edu.vn/posts/huong-dan-su-dung-safeline-waf-tuong-lua-ung-dung-mien-phi https://www.youtube.com/watch?v=XIRAo9OP_LA https://www.youtube.com/watch?v=E9wOlS_rKuw SafeLine cũng đóng vai trò là một proxy-server, dựa trên docs thì cài đặt cũng không quá khó.
 Nhưng cái ở đây mình không hiểu là cách setup routing traffic cho đúng mục đích thì mình vẫn chưa làm đc."><meta itemprop="datePublished" content="2025-11-04T09:59:49+07:00" />
 <meta itemprop="dateModified" content="2025-11-04T09:59:49+07:00" />
-<meta itemprop="wordCount" content="89">
+<meta itemprop="wordCount" content="95">
 <meta itemprop="keywords" content="" />
     
     <link rel="canonical" href="https://vinhlin.github.io/posts/system-devops/safeline/">
@@ -46,7 +46,7 @@ Nhưng cái ở đây mình không hiểu là cách setup routing traffic cho đ
       "name": "SafeLine",
       "headline": "SafeLine",
       "alternativeHeadline": "",
-      "description": "Bài viết tham khảo Từ bài viết này mình mới biết đến công cụ SafeLine, một công cụ Open-source WAF (WAF Application Firewall).\nTài liệu tham khảo: Github SafeLine: https:\/\/github.com\/chaitin\/SafeLine Trang chủ SafeLine: https:\/\/safepoint.cloud\/landing\/safeline Documents: https:\/\/docs.waf.chaitin.com\/en\/GetStarted\/Deploy https:\/\/docs.waf.chaitin.com\/en\/tutorials\/advanced SafeLine cũng đóng vai trò là một proxy-server, dựa trên docs thì cài đặt cũng không quá khó.\nNhưng cái ở đây mình không hiểu là cách setup routing traffic cho đúng mục đích thì mình vẫn chưa làm đc.",
+      "description": "Bài viết tham khảo Từ bài viết này mình mới biết đến công cụ SafeLine, một công cụ Open-source WAF (Web Application Firewall).\nTài liệu tham khảo: Github SafeLine: https:\/\/github.com\/chaitin\/SafeLine Trang chủ SafeLine: https:\/\/safepoint.cloud\/landing\/safeline Documents: https:\/\/docs.waf.chaitin.com\/en\/GetStarted\/Deploy https:\/\/docs.waf.chaitin.com\/en\/tutorials\/advanced Tham khảo thêm: https:\/\/kungfutech.edu.vn\/posts\/huong-dan-su-dung-safeline-waf-tuong-lua-ung-dung-mien-phi https:\/\/www.youtube.com\/watch?v=XIRAo9OP_LA https:\/\/www.youtube.com\/watch?v=E9wOlS_rKuw SafeLine cũng đóng vai trò là một proxy-server, dựa trên docs thì cài đặt cũng không quá khó.\nNhưng cái ở đây mình không hiểu là cách setup routing traffic cho đúng mục đích thì mình vẫn chưa làm đc.",
       "inLanguage": "en-us",
       "isFamilyFriendly": "true",
       "mainEntityOfPage": {
@@ -83,7 +83,7 @@ Nhưng cái ở đây mình không hiểu là cách setup routing traffic cho đ
       },
       "image": "https://vinhlin.github.io/assets/favicon.ico",
       "url" : "https:\/\/vinhlin.github.io\/posts\/system-devops\/safeline\/",
-      "wordCount" : "89",
+      "wordCount" : "95",
       "genre" : [ ],
       "keywords" : [ ]
   }
@@ -122,7 +122,7 @@ Nhưng cái ở đây mình không hiểu là cách setup routing traffic cho đ
     <section>
       <h2 class="post">SafeLine</h2>
       <h3 id="bài-viết-tham-khảohttpswwwlinkedincompulsesafeline-free-zero-trust-web-application-firewall-2026-jbk7ctrackingidxnkkirrxyjff7x8tcmemiw3d3d"><a href="https://www.linkedin.com/pulse/safeline-free-zero-trust-web-application-firewall-2026-jbk7c/?trackingId=XnkKirrxYjFF7X8tcmEmIw%3D%3D">Bài viết tham khảo</a></h3>
-<p>Từ bài viết này mình mới biết đến công cụ <strong>SafeLine</strong>, một công cụ <strong>Open-source WAF</strong> <em>(WAF Application Firewall)</em>.</p>
+<p>Từ bài viết này mình mới biết đến công cụ <strong>SafeLine</strong>, một công cụ <strong>Open-source WAF</strong> <em>(Web Application Firewall)</em>.</p>
 <h3 id="tài-liệu-tham-khảo">Tài liệu tham khảo:</h3>
 <ul>
 <li>Github SafeLine: <a href="https://github.com/chaitin/SafeLine">https://github.com/chaitin/SafeLine</a></li>
@@ -131,6 +131,12 @@ Nhưng cái ở đây mình không hiểu là cách setup routing traffic cho đ
 </ul>
 <pre tabindex="0"><code>https://docs.waf.chaitin.com/en/GetStarted/Deploy
 https://docs.waf.chaitin.com/en/tutorials/advanced
+</code></pre><ul>
+<li>Tham khảo thêm:</li>
+</ul>
+<pre tabindex="0"><code>https://kungfutech.edu.vn/posts/huong-dan-su-dung-safeline-waf-tuong-lua-ung-dung-mien-phi
+https://www.youtube.com/watch?v=XIRAo9OP_LA
+https://www.youtube.com/watch?v=E9wOlS_rKuw
 </code></pre><p><strong>SafeLine</strong> cũng đóng vai trò là một <strong>proxy-server</strong>, dựa trên docs thì cài đặt cũng không quá khó.</p>
 <p>Nhưng cái ở đây mình không hiểu là cách setup <strong>routing traffic</strong> cho đúng mục đích thì mình vẫn chưa làm đc.</p>
 <p>Tạm thời note lại để cập nhật kiến thức.</p>

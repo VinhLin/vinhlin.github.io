@@ -30,6 +30,7 @@ STT |		Tiêu đề			|		Mô tả				|
 18  | [Cloud_Sim][Cloud_Sim]		| Giới thiệu nhanh về khái niệm Cloud Sim	|
 19  | [The_nho][The_nho]		| Tổng hợp thông tin về thẻ nhớ			|
 20  | [Xiaozhi_ESP32][Xiaozhi_ESP32]	| Test bộ **Chatbot ESP32-AI**			|
+21  | [HDR_WDR][HDR_WDR]		| Ghi chú về công nghệ HDR và WDR trên Camera	|
 
 [UNIHIKER]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/unihiker/
 [ESD]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/esd/
@@ -51,6 +52,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [Cloud_Sim]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/cloud_sim/
 [The_nho]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/the_nho/
 [Xiaozhi_ESP32]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/xiaozhi_esp32/
+[HDR_WDR]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/hdr_wdr/
 
 ## ***SOFTWARE***
 

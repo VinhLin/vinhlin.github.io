@@ -14,10 +14,125 @@
     
     
     <item>
+      <title>HDR_WDR</title>
+      <link>https://vinhlin.github.io/posts/iot/hardware/hdr_wdr/</link>
+      <description>&lt;p&gt;Trên camera hành trình có thông tin như &lt;strong&gt;HDR&lt;/strong&gt; và &lt;strong&gt;WDR&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Mình tổng hợp lại các thông tin đã research được.&lt;/p&gt;
+&lt;p&gt;Cả &lt;strong&gt;HDR (High Dynamic Range)&lt;/strong&gt; và &lt;strong&gt;WDR (Wide Dynamic Range)&lt;/strong&gt; đều là &lt;strong&gt;công nghệ giúp camera xử lý cảnh có độ tương phản cao&lt;/strong&gt; (ví dụ: trời nắng chói + bóng tối sâu)&lt;/p&gt;
+&lt;p&gt;Nhưng chúng khác nhau về nguyên lý hoạt động, hiệu quả và ứng dụng.&lt;/p&gt;
+&lt;h2 id=&#34;hdr-high-dynamic-range&#34;&gt;HDR (High Dynamic Range)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Không cần cảm biến đặc biệt, chỉ cần xử lý hậu kỳ (post-processing) mạnh.&lt;/li&gt;
+&lt;li&gt;Nguyên lý hoạt động: Kết hợp nhiều ảnh (thường 2–3 khung hình) chụp ở các mức phơi sáng khác nhau (underexposed, normal, overexposed) → ghép thành 1 ảnh duy nhất có dải sáng rộng.&lt;/li&gt;
+&lt;li&gt;Nhược điểm:
+&lt;ul&gt;
+&lt;li&gt;Chỉ tốt với cảnh tĩnh &lt;em&gt;(&lt;strong&gt;dễ ghosting&lt;/strong&gt; nếu có chuyển động)&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Tốn tài nguyên xử lý → có thể giảm FPS.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Chất lượng màu sắc: Tốt hơn, màu tự nhiên, ít noise.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/HDR_WDR/HDR.jpg&#34;
+  alt=&#34;HDR&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h2 id=&#34;wdr-wide-dynamic-range&#34;&gt;WDR (Wide Dynamic Range)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Có 2 dạng WDR là: True WDR và Digital WDR.&lt;/li&gt;
+&lt;li&gt;Phụ thuộc chất lượng cảm biến.&lt;/li&gt;
+&lt;li&gt;Chất lượng màu sắc: Tốt với &lt;em&gt;hình ảnh chuyển động (&lt;strong&gt;không ghosting&lt;/strong&gt;)&lt;/em&gt;, nhưng có thể bệt màu nếu thuật toán kém&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/HDR_WDR/WDR.webp&#34;
+  alt=&#34;WDR&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;digital-wdr-dwdr&#34;&gt;Digital WDR (DWDR)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Chỉ phần mềm: Xử lý hậu kỳ trên 1 khung hình duy nhất (tone mapping), điều chỉnh độ sáng từng vùng pixel riêng biệt.&lt;/li&gt;
+&lt;li&gt;Nhược điểm:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Mất chi tiết ở vùng sáng/tối&lt;/em&gt; &lt;/br&gt;
+&lt;em&gt;Nhiễu cao&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;true-wdr&#34;&gt;True WDR&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Là sự kết hợp &lt;strong&gt;phần cứng + phần mềm&lt;/strong&gt;: Chụp đa khung hình thực tế và ghép hình thông minh.&lt;/li&gt;
+&lt;li&gt;Cần cảm biến cao cấp (như Sony STARVIS).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/HDR_WDR/TrueWDR_DWDR.webp&#34;
+  alt=&#34;TrueWDR &amp;amp;amp; DWDR&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;ví-dụ-minh-họa&#34;&gt;Ví dụ minh họa&lt;/h3&gt;
+&lt;p&gt;Cảnh: Cửa sổ sáng chói + người trong phòng tối&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;→ HDR: Chụp 3 ảnh → ghép → thấy rõ cả người và cảnh ngoài cửa sổ (nhưng nếu người di chuyển → bị mờ).
+→ WDR: Cảm biến tự động làm sáng vùng tối, giảm sáng vùng chói trong 1 khung hình → video mượt, không ghosting.
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;True WDR &amp;gt; HDR &amp;gt; Digital WDR về chất lượng hình ảnh trong môi trường tương phản cao.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;kết-luận&#34;&gt;Kết luận:&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;HDR = ghép nhiều ảnh → đẹp, chi tiết, nhưng dễ lỗi chuyển động.&lt;/strong&gt;&lt;/em&gt; &lt;/br&gt;
+&lt;em&gt;&lt;strong&gt;WDR = xử lý cảm biến → nhanh, mượt, phù hợp giám sát.&lt;/strong&gt;&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Chọn HDR nếu&lt;/th&gt;
+&lt;th&gt;Chọn WDR nếu&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Chụp ảnh tĩnh, cần màu sắc đẹp&lt;/td&gt;
+&lt;td&gt;Giám sát 24/7, có chuyển động&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Thiết bị tiêu dùng (điện thoại, GoPro)&lt;/td&gt;
+&lt;td&gt;Camera an ninh chuyên dụng&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Chấp nhận ghosting để đổi lấy chi tiết&lt;/td&gt;
+&lt;td&gt;Ưu tiên realtime, không ghosting&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/HDR_WDR/Compare.png&#34;
+  alt=&#34;Compare&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/iot/hardware/hdr_wdr/</guid>
+      <pubDate>Mon, 10 Nov 2025 11:20:22 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>SafeLine</title>
       <link>https://vinhlin.github.io/posts/system-devops/safeline/</link>
       <description>&lt;h3 id=&#34;bài-viết-tham-khảohttpswwwlinkedincompulsesafeline-free-zero-trust-web-application-firewall-2026-jbk7ctrackingidxnkkirrxyjff7x8tcmemiw3d3d&#34;&gt;&lt;a href=&#34;https://www.linkedin.com/pulse/safeline-free-zero-trust-web-application-firewall-2026-jbk7c/?trackingId=XnkKirrxYjFF7X8tcmEmIw%3D%3D&#34;&gt;Bài viết tham khảo&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Từ bài viết này mình mới biết đến công cụ &lt;strong&gt;SafeLine&lt;/strong&gt;, một công cụ &lt;strong&gt;Open-source WAF&lt;/strong&gt; &lt;em&gt;(WAF Application Firewall)&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Từ bài viết này mình mới biết đến công cụ &lt;strong&gt;SafeLine&lt;/strong&gt;, một công cụ &lt;strong&gt;Open-source WAF&lt;/strong&gt; &lt;em&gt;(Web Application Firewall)&lt;/em&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;tài-liệu-tham-khảo&#34;&gt;Tài liệu tham khảo:&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Github SafeLine: &lt;a href=&#34;https://github.com/chaitin/SafeLine&#34;&gt;https://github.com/chaitin/SafeLine&lt;/a&gt;&lt;/li&gt;
@@ -26,6 +141,12 @@
 &lt;/ul&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://docs.waf.chaitin.com/en/GetStarted/Deploy
 https://docs.waf.chaitin.com/en/tutorials/advanced
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Tham khảo thêm:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://kungfutech.edu.vn/posts/huong-dan-su-dung-safeline-waf-tuong-lua-ung-dung-mien-phi
+https://www.youtube.com/watch?v=XIRAo9OP_LA
+https://www.youtube.com/watch?v=E9wOlS_rKuw
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;SafeLine&lt;/strong&gt; cũng đóng vai trò là một &lt;strong&gt;proxy-server&lt;/strong&gt;, dựa trên docs thì cài đặt cũng không quá khó.&lt;/p&gt;
 &lt;p&gt;Nhưng cái ở đây mình không hiểu là cách setup &lt;strong&gt;routing traffic&lt;/strong&gt; cho đúng mục đích thì mình vẫn chưa làm đc.&lt;/p&gt;
 &lt;p&gt;Tạm thời note lại để cập nhật kiến thức.&lt;/p&gt;
