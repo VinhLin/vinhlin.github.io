@@ -90,6 +90,7 @@ hugo new posts/IoT/Hardware/Cloud_Sim.md
 hugo new posts/IoT/Hardware/The_nho.md
 hugo new posts/IoT/Hardware/Xiaozhi_ESP32.md
 hugo new posts/IoT/Hardware/HDR_WDR.md
+hugo new posts/IoT/Hardware/CMOS_Sensor.md
 ```
 - Software
 ```

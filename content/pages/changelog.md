@@ -31,6 +31,7 @@ STT |		Tiêu đề			|		Mô tả				|
 19  | [The_nho][The_nho]		| Tổng hợp thông tin về thẻ nhớ			|
 20  | [Xiaozhi_ESP32][Xiaozhi_ESP32]	| Test bộ **Chatbot ESP32-AI**			|
 21  | [HDR_WDR][HDR_WDR]		| Ghi chú về công nghệ HDR và WDR trên Camera	|
+22  | [CMOS_Sensor][CMOS_Sensor]	| Ghi chú về CMOS Sensor, ví dụ chip `GC4653`	|
 
 [UNIHIKER]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/unihiker/
 [ESD]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/esd/
@@ -53,6 +54,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [The_nho]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/the_nho/
 [Xiaozhi_ESP32]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/xiaozhi_esp32/
 [HDR_WDR]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/hdr_wdr/
+[CMOS_Sensor]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/cmos_sensor/
 
 ## ***SOFTWARE***
 
