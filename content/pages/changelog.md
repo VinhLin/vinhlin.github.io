@@ -32,6 +32,7 @@ STT |		Tiêu đề			|		Mô tả				|
 20  | [Xiaozhi_ESP32][Xiaozhi_ESP32]	| Test bộ **Chatbot ESP32-AI**			|
 21  | [HDR_WDR][HDR_WDR]		| Ghi chú về công nghệ HDR và WDR trên Camera	|
 22  | [CMOS_Sensor][CMOS_Sensor]	| Ghi chú về CMOS Sensor, ví dụ chip `GC4653`	|
+23  | [Test_TF-Card][Test_TF-Card]	| Ghi chú về các cách test thẻ nhớ		|
 
 [UNIHIKER]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/unihiker/
 [ESD]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/esd/
@@ -55,6 +56,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [Xiaozhi_ESP32]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/xiaozhi_esp32/
 [HDR_WDR]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/hdr_wdr/
 [CMOS_Sensor]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/cmos_sensor/
+[Test_TF-Card]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/test_tf-card/
 
 ## ***SOFTWARE***
 
@@ -231,6 +233,7 @@ STT |		Tiêu đề			|		Mô tả				|
 14  | [Android_Xiaomi][Android_Xiaomi]	| Ghi chú về các tính năng thú vị trên Android Xiaomi |
 15  | [SW_Model][SW_Model]		| Ghi chú về các mô hình phát triển Software	|
 16  | [Goi_cuoc_Internet][Goi_cuoc_Internet] | Tổng hợp kiến thức và thông tin về gói cước Internet |
+17  | [Cong_cu_AI][Cong_cu_AI]		| Suy nghĩ của mình về các công cụ AI		|
 
 [Ngoai_ngu]: https://blog.vinhld-homelab.io.vn/posts/others/goc_nhin_ve_ngoai_ngu/
 [Hardware_Hacking]: https://blog.vinhld-homelab.io.vn/posts/others/suy_nghi_ve_hardware_hacking/
@@ -248,3 +251,4 @@ STT |		Tiêu đề			|		Mô tả				|
 [Android_Xiaomi]: https://blog.vinhld-homelab.io.vn/posts/others/android_xiaomi/
 [SW_Model]: https://blog.vinhld-homelab.io.vn/posts/others/sw_model/
 [Goi_cuoc_Internet]: https://blog.vinhld-homelab.io.vn/posts/others/goi_cuoc_internet/
+[Cong_cu_AI]: https://blog.vinhld-homelab.io.vn/posts/others/cong_cu_ai/

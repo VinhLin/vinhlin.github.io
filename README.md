@@ -64,6 +64,7 @@ hugo new posts/Others/Slidev.md
 hugo new posts/Others/Android_Xiaomi.md
 hugo new posts/Others/SW_Model.md
 hugo new posts/Others/Goi_cuoc_Internet.md
+hugo new posts/Others/Cong_cu_AI.md
 ```
 
 ### IoT:
@@ -91,6 +92,7 @@ hugo new posts/IoT/Hardware/The_nho.md
 hugo new posts/IoT/Hardware/Xiaozhi_ESP32.md
 hugo new posts/IoT/Hardware/HDR_WDR.md
 hugo new posts/IoT/Hardware/CMOS_Sensor.md
+hugo new posts/IoT/Hardware/Test_TF-Card.md
 ```
 - Software
 ```

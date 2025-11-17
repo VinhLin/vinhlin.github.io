@@ -14,6 +14,171 @@
     
     
     <item>
+      <title>Cong_cu_AI</title>
+      <link>https://vinhlin.github.io/posts/others/cong_cu_ai/</link>
+      <description>&lt;p&gt;AI đã là quá phổ biến, với mình &lt;em&gt;&lt;strong&gt;AI là những người thầy tài giỏi, những người hiểu biết sâu và rộng&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Nhưng mình cũng không phải là người học trò dễ bảo, không phải cứ nói gì là mình sẽ nghe, mình sẽ luôn có những câu hỏi và đặt ngược trở lại.&lt;/p&gt;
+&lt;p&gt;Về các công cụ AI mà mình sử dụng thường xuyên thì hiện tại mình dùng nhiều là &lt;a href=&#34;https://grok.com/&#34;&gt;Grok AI&lt;/a&gt; và &lt;a href=&#34;https://platform.openai.com/settings/organization/usage&#34;&gt;OpenAI&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;tại-sao-lại-là-grok&#34;&gt;Tại sao lại là &lt;strong&gt;Grok&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Vì Grok thông minh &lt;em&gt;(xem thêm bài viết &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/others/grok_ai/&#34;&gt;Grok_AI&lt;/a&gt;)&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Hơn nữa dữ liệu của Grok đa dạng, phong phú và gần như real-time&lt;/li&gt;
+&lt;li&gt;Ngoài ra, điểm đặc biệt là Grok free &lt;em&gt;(chatGPT cũng free, vậy khác biệt là đâu?)&lt;/em&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Grok cho phép mình sử dụng tính năng &lt;strong&gt;tác vụ&lt;/strong&gt;, mặc dù bị giới hạn số lượt nhưng vẫn dùng ngon. Có thể automation thao tác yêu cầu&lt;/em&gt; &lt;/br&gt;
+&lt;em&gt;Grok cho phép mình tạo được rất nhiều ảnh&lt;/em&gt;. &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Chỉ vậy thôi là đã ăn đứt ChatGPT free về tính năng.&lt;/p&gt;
+&lt;h3 id=&#34;tại-sao-lại-dùng-openai-api&#34;&gt;Tại sao lại dùng &lt;strong&gt;OpenAI API&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Tính đến hiện tại &lt;em&gt;(ngày 17/11/2025)&lt;/em&gt; Grok chưa có API, và giá thành trả phí cho Grok cũng quá đắt.&lt;/li&gt;
+&lt;li&gt;Còn nếu dùng &lt;strong&gt;ChatGPT plus&lt;/strong&gt; thì mình không dùng hết tính năng, do đó mình nghĩ đến dùng &lt;strong&gt;OpenAI API&lt;/strong&gt; &lt;em&gt;(xem thêm bài viết &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/system-devops/fabric_ai/&#34;&gt;Fabric_AI&lt;/a&gt;)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Hơn nữa, ngoài việc dùng cho Fabric, thì mình còn dùng API của OpenAI cho việc code.&lt;/li&gt;
+&lt;li&gt;Cụ thể là dùng cho extension &lt;a href=&#34;https://developers.openai.com/codex/ide/&#34;&gt;codex&lt;/a&gt; &lt;em&gt;(Một extension cho vscode, sử dụng OpenAI API)&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&#34;https://github.com/openai/codex&#34;&gt;Github của dự án &lt;code&gt;openai/codex&lt;/code&gt;&lt;/a&gt;&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Ngoài ra mình còn đang muốn dùng OpenAI API để translation văn bản &lt;em&gt;(thay vì dùng &lt;strong&gt;WPS-AI&lt;/strong&gt;)&lt;/em&gt;.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://community.openai.com/t/can-we-translate-whole-document-pdf-doc-execil-form-one-langues-to-other/716117/2
+https://platform.openai.com/docs/guides/speech-to-text
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Có một số công cụ khác mà mình có thể cân nhắc như:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://anydoctranslator.toolsmart.ai/pricing?position=top_bar_pricing&#34;&gt;AnyDoc Translator&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;Kết quả thu được khi hỏi Grok &lt;em&gt;(có 6 dự án dịch thuật tài liệu)&lt;/em&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;PDF Translator for Human&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GitHub Link:&lt;/strong&gt; &lt;a href=&#34;https://github.com/davideuler/pdf-translator-for-human&#34;&gt;davideuler/pdf-translator-for-human&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mô tả ngắn gọn:&lt;/strong&gt; Công cụ dịch PDF “dành cho con người đọc”, hiển thị song song bản gốc và bản dịch, cực kỳ tiện.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tính năng nổi bật liên quan đến PDF &amp;amp; AI:&lt;/strong&gt;
+• Dịch từng trang (on-demand)
+• Hỗ trợ Ollama, llama.cpp, MLX (chạy local 100%)
+• ChatGPT, DeepSeek, Gemini
+• Giao diện Streamlit đẹp
+• Giữ layout tốt&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;&lt;strong&gt;PDFMathTranslate&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GitHub Link:&lt;/strong&gt; &lt;a href=&#34;https://github.com/Byaidu/PDFMathTranslate&#34;&gt;Byaidu/PDFMathTranslate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mô tả ngắn gọn:&lt;/strong&gt; Chuyên dịch bài báo khoa học, luận văn, tài liệu toán học (giữ công thức LaTeX hoàn hảo).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tính năng nổi bật liên quan đến PDF &amp;amp; AI:&lt;/strong&gt;
+• Layout detection bằng YOLO
+• Dịch bằng GPT-4o, DeepL, Ollama, Qwen
+• CLI + GUI + Docker + plugin Zotero
+• Đa luồng, rất nhanh&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;&lt;strong&gt;BabelDOC&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GitHub Link:&lt;/strong&gt; &lt;a href=&#34;https://github.com/funstory-ai/BabelDOC&#34;&gt;funstory-ai/BabelDOC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mô tả ngắn gọn:&lt;/strong&gt; Thư viện Python dịch PDF song ngữ (Anh ↔ Trung/Việt), hỗ trợ cả PDF scan.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tính năng nổi bật liên quan đến PDF &amp;amp; AI:&lt;/strong&gt;
+• Dùng bất kỳ LLM nào tương thích OpenAI (gpt-4o-mini, Qwen, DeepSeek, v.v.)
+• Glossary tùy chỉnh
+• Output song ngữ hoặc chỉ bản dịch
+• OCR workaround&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;&lt;strong&gt;OpenAI Translator&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GitHub Link:&lt;/strong&gt; &lt;a href=&#34;https://github.com/DjangoPeng/openai-translator&#34;&gt;DjangoPeng/openai-translator&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mô tả ngắn gọn:&lt;/strong&gt; Ứng dụng desktop chuyên dịch sách PDF tiếng Anh → tiếng Trung (có thể đổi sang tiếng Việt).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tính năng nổi bật liên quan đến PDF &amp;amp; AI:&lt;/strong&gt;
+• GUI đơn giản
+• Tự động retry khi lỗi
+• Hỗ trợ ChatGLM local
+• Đang phát triển giữ layout tốt hơn&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;&lt;strong&gt;Zotero PDF Translate&lt;/strong&gt; (plugin)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GitHub Link:&lt;/strong&gt; &lt;a href=&#34;https://github.com/windingwind/zotero-pdf-translate&#34;&gt;windingwind/zotero-pdf-translate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mô tả ngắn gọn:&lt;/strong&gt; Plugin Zotero cực mạnh, dịch ngay trong thư viện tài liệu khoa học.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tính năng nổi bật liên quan đến PDF &amp;amp; AI:&lt;/strong&gt;
+• Hỗ trợ 20+ engine (GPT, Gemini, Claude, DeepL, Qwen, Ollama, v.v.)
+• Dịch text chọn, annotation, metadata
+• Pop-up song ngữ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;&lt;strong&gt;LingoLift PDF Translator&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GitHub Link:&lt;/strong&gt; &lt;a href=&#34;https://github.com/lingolift/pdf-translator&#34;&gt;lingolift/pdf-translator&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mô tả ngắn gọn:&lt;/strong&gt; Ứng dụng GUI nhẹ, đẹp, dành cho người dùng phổ thông.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tính năng nổi bật liên quan đến PDF &amp;amp; AI:&lt;/strong&gt;
+• Giao diện hiện đại (Electron/Tauri)
+• Dịch nhanh bằng Google Translate hoặc LLM local
+• Tự động phát hiện ngôn ngữ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/Cong_cu_AI.png&#34;
+  alt=&#34;Hinh&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/others/cong_cu_ai/</guid>
+      <pubDate>Mon, 17 Nov 2025 16:06:59 +0700</pubDate>
+    </item>
+    
+    <item>
+      <title>Test_TF Card</title>
+      <link>https://vinhlin.github.io/posts/iot/hardware/test_tf-card/</link>
+      <description>&lt;p&gt;Xem thêm bài viết về &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/iot/hardware/the_nho/&#34;&gt;Thẻ nhớ&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Còn trong bài này thì mình sẽ ghi chú lại một số cách để test thẻ nhớ.&lt;/p&gt;
+&lt;p&gt;Để biết một thẻ nhớ có bền hay không thì chỉ có &lt;strong&gt;thời gian mới có câu trả lời&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Môi trường thực tế rất nhiều biến số và khắc nghiệp, nên khi test trong phòng lab, mình cần làm mọi cách để &lt;strong&gt;đẩy thẻ nhớ đến giới hạn hoạt động&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;thuật-ngữ-aging-test&#34;&gt;Thuật ngữ &lt;code&gt;Aging test&lt;/code&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Aging test&lt;/strong&gt; &lt;em&gt;(hay &lt;strong&gt;già hóa thử nghiệm&lt;/strong&gt;)&lt;/em&gt; là &lt;strong&gt;phương pháp kiểm tra độ bền, độ ổn định&lt;/strong&gt; của linh kiện điện tử (như thẻ nhớ, chip, bo mạch…).&lt;/li&gt;
+&lt;li&gt;Bằng cách cho chúng &lt;em&gt;&lt;strong&gt;hoạt động liên tục trong điều kiện khắc nghiệt&lt;/strong&gt;&lt;/em&gt; để &amp;ldquo;già đi nhanh&amp;rdquo; – tức là mô phỏng quá trình sử dụng lâu dài trong thời gian ngắn.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;giả-lập&#34;&gt;Giả lập&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Cho một chiếc camera hoạt động full tải và gắn thẻ nhớ vào.&lt;/li&gt;
+&lt;li&gt;Như gắn thêm camera sau, kết nối module sim, kết nối GPS,&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;trường-hợp-1-ngắt-nguồn-điện-đột-ngột&#34;&gt;Trường hợp 1: Ngắt nguồn điện đột ngột.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Cho thiết bị chạy liên tục khoảng 30p.&lt;/li&gt;
+&lt;li&gt;Sau đó ngắt nguồn giữa chừng.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;trường-hợp-2-tháo-thẻ-nhớ-đột-ngột&#34;&gt;Trường hợp 2: Tháo thẻ nhớ đột ngột.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Cho thiết bị chạy liên tục khoảng 30p.&lt;/li&gt;
+&lt;li&gt;Tháo thẻ nhớ đột ngột.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;trường-hợp-3-format-tf-card&#34;&gt;Trường hợp 3: Format TF-Card&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Trong quá trình ghi hình, thỉnh thoảng tiến hành format thẻ nhớ.&lt;/li&gt;
+&lt;li&gt;Thao tác liên tục như vậy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;trường-hợp-4-test-ghi-hình-liên-tục-2424&#34;&gt;Trường hợp 4: Test ghi hình liên tục 24/24&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Cho thiết bị hoạt động liên tục 24/24 trong mấy ngày.&lt;/li&gt;
+&lt;li&gt;Ngoài ra có thể để camera hoạt động trong môi trường nhiệt độ cao, ví dụ: &lt;em&gt;ngoài trời nắng&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/iot/hardware/test_tf-card/</guid>
+      <pubDate>Mon, 17 Nov 2025 15:44:23 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>CMOS_Sensor</title>
       <link>https://vinhlin.github.io/posts/iot/hardware/cmos_sensor/</link>
       <description>&lt;p&gt;Cảm biến hình ảnh, một bộ phận quan trọng đối với một chiếc camera.&lt;/p&gt;
@@ -1450,6 +1615,16 @@ Pentesting nhanh với các công cụ như wifite, kismet.
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/CyberSecurity/BlueTeam/Wireshark_Filter.jpg&#34;
   alt=&#34;Wireshark_Filter&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;threat-intelligence-tools&#34;&gt;Threat Intelligence Tools&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/BlueTeam/TI_Tools.jfif&#34;
+  alt=&#34;TI Tools&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
   class=&#34;full-width&#34;

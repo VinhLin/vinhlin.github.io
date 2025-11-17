@@ -12,6 +12,10 @@ draft = true
 
 ![Wireshark_Filter](/image/CyberSecurity/BlueTeam/Wireshark_Filter.jpg)
 
+### Threat Intelligence Tools
+
+![TI Tools](/image/CyberSecurity/BlueTeam/TI_Tools.jfif)
+
 ### [Radware: Live Threat Map](https://livethreatmap.radware.com/)
 > *Một công cụ online **(real-time)**, để xem các thông tin về các cuộc tấn công mạng trên thế giới*. </br>
 
