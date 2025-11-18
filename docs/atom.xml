@@ -14,6 +14,81 @@
     
     
     <item>
+      <title>IP_Scanner</title>
+      <link>https://vinhlin.github.io/posts/cybersecurity/technical/ip_scanner/</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;Khi mình public một trang web ra ngoài bị thể nào cũng bị scan.&lt;/li&gt;
+&lt;li&gt;Và mình cũng thế, mình có setup một MQTT Broker, và mỗi lần có thiết bị kết nối với server của mình thì sẽ có alert đẩy về Telegram.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/IP_Scanner/Hinh_1.png&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Và tất nhiên công việc đầu tiên của mình sẽ làm là search IP này trên Viustotal.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/IP_Scanner/Hinh_2.png&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ban đầu mình đã tính thực hiện các thao tác pentest IP này, không hiểu sao tự nhiên mình lại lấy chủ đề này ra trao đổi thêm với Grok.&lt;/li&gt;
+&lt;li&gt;Và mình đã có được những thông tin mới, bổ ích.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;câu-trả-lời-của-grok&#34;&gt;Câu trả lời của Grok&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;IP &lt;strong&gt;45.156.128.71&lt;/strong&gt; thuộc dải &lt;code&gt;45.156.128.0/24&lt;/code&gt;, &lt;strong&gt;đây là dải IP nổi tiếng chuyên dùng cho các tool quét mạng tự động&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Dải 45.156.128.0/24 và 45.156.129.0/24 là nguồn phát ra hàng triệu lượt quét port mỗi ngày trên toàn Internet. Chúng quét rất sạch (không exploit, chỉ kết nối để lấy banner dịch vụ), nhưng tần suất cao nên dễ bị phát hiện trong log.&lt;/li&gt;
+&lt;li&gt;Đây &lt;strong&gt;không phải tấn công nhắm riêng vào bạn&lt;/strong&gt;, mà là quét toàn bộ Internet (hàng tỷ IP). Trang của bạn chỉ là một trong số đó mà thôi.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;bạn-có-nên-quét-ngược-lại-scan-back-hoặc-pentest-ip-này-không&#34;&gt;Bạn có nên quét ngược lại (scan back) hoặc pentest IP này không?&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;KHÔNG NÊN, và tuyệt đối không làm.&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Đây là hành vi &lt;strong&gt;active scanning&lt;/strong&gt; không được phép vào hệ thống của người khác → có thể vi phạm pháp luật (ở Việt Nam là Nghị định 144/2021/NĐ-CP về an ninh mạng, hoặc luật quốc tế như CFAA nếu họ khiếu nại).&lt;/li&gt;
+&lt;li&gt;Chủ IP này là công ty bảo mật/research hợp pháp, họ có honeypot và hệ thống giám sát. Nếu bạn quét mạnh, họ sẽ ghi log và có thể báo cáo ngược lại ISP/hosting của bạn → bạn bị abuse complaint, thậm chí bị khóa server.&lt;/li&gt;
+&lt;li&gt;Hàng nghìn admin khác cũng từng bực tức và thử quét ngược → cuối cùng toàn bị cảnh cáo hoặc mất IP.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;bạn-nên-làm-gì-thay-vì-quét-lại&#34;&gt;Bạn nên làm gì thay vì quét lại?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Block IP này một cách thông minh&lt;/strong&gt; (khuyến nghị).&lt;/li&gt;
+&lt;li&gt;Giảm bề mặt tấn công (quan trọng hơn là block):
+&lt;ul&gt;
+&lt;li&gt;Không expose các port không cần thiết (80/443 thì ok, nhưng 22, 3306, 3389, v.v. thì không nên public).&lt;/li&gt;
+&lt;li&gt;Dùng fail2ban hoặc crowdsec để tự động block các IP quét nhiều.&lt;/li&gt;
+&lt;li&gt;Update server, dùng WAF (ModSecurity, Cloudflare, Imunify360, v.v.).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Report&lt;/strong&gt; nếu muốn (không bắt buộc, vì họ hợp pháp).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;tại-sao-virustotal-lại-flag-ip-4515612871-và-toàn-bộ-dải-45156128024--45156129024-là-maliciousmalware&#34;&gt;Tại sao VirusTotal lại flag IP 45.156.128.71 (và toàn bộ dải 45.156.128.0/24 + 45.156.129.0/24) là malicious/malware?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;IP này thuộc về một công ty nghiên cứu bảo mật hợp pháp (chủ yếu là Censys.io, đôi khi Shadowserver hoặc các dự án internet scanning khác), họ thuê VPS từ M247 (một nhà cung cấp hosting lớn ở châu Âu, chuyên cho thuê dải IP “bẩn” để tránh bị block hàng loạt).&lt;/li&gt;
+&lt;li&gt;Công việc của họ là &lt;strong&gt;quét toàn bộ Internet&lt;/strong&gt; hàng ngày (hàng tỷ IP) để thu thập dữ liệu về port mở, dịch vụ chạy, certificate… nhằm mục đích nghiên cứu bảo mật và cảnh báo lỗ hổng.&lt;/li&gt;
+&lt;li&gt;Vì họ quét cực kỳ mạnh (hàng triệu kết nối/ngày), một số phần mềm diệt virus và hệ thống IDS/IPS coi hành vi này giống hệt botnet/malware scanner/tấn công dò port → tự động gắn nhãn “malicious”, “scanner”, “intrusion attempt”, “suspicious scanning activity”…&lt;/li&gt;
+&lt;li&gt;Kết quả: Trên VirusTotal hiện tại thường có 3–12/90 vendors flag IP này là malicious (tùy thời điểm), nhưng hơn 80–90% còn lại thì clean. Đó chính là false positive điển hình của các scanner hợp pháp.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;công-việc-tiếp-theo&#34;&gt;Công việc tiếp theo&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Vậy là mình đã hiểu thêm và không cần phải &lt;strong&gt;scan back&lt;/strong&gt; &lt;em&gt;(quét ngược lại)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Mà mình chỉ cần add các IP này vào black-list trên FW là được.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/cybersecurity/technical/ip_scanner/</guid>
+      <pubDate>Tue, 18 Nov 2025 16:51:14 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Cong_cu_AI</title>
       <link>https://vinhlin.github.io/posts/others/cong_cu_ai/</link>
       <description>&lt;p&gt;AI đã là quá phổ biến, với mình &lt;em&gt;&lt;strong&gt;AI là những người thầy tài giỏi, những người hiểu biết sâu và rộng&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
@@ -32,7 +107,8 @@
 &lt;p&gt;Chỉ vậy thôi là đã ăn đứt ChatGPT free về tính năng.&lt;/p&gt;
 &lt;h3 id=&#34;tại-sao-lại-dùng-openai-api&#34;&gt;Tại sao lại dùng &lt;strong&gt;OpenAI API&lt;/strong&gt;&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Tính đến hiện tại &lt;em&gt;(ngày 17/11/2025)&lt;/em&gt; Grok chưa có API, và giá thành trả phí cho Grok cũng quá đắt.&lt;/li&gt;
+&lt;li&gt;Lúc trước thì Grok chưa có API, nhưng tính đến hiện tại &lt;em&gt;(ngày 17/11/2025)&lt;/em&gt; &lt;strong&gt;Grok đã ra mắt API&lt;/strong&gt; &lt;em&gt;(link &lt;a href=&#34;https://docs.x.ai/docs/api-reference#chat-completions&#34;&gt;tài liệu xAI&lt;/a&gt;)&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Nhưng nếu so sánh với OpenAI API thì hiện tại API của xAI chưa bằng.&lt;/li&gt;
 &lt;li&gt;Còn nếu dùng &lt;strong&gt;ChatGPT plus&lt;/strong&gt; thì mình không dùng hết tính năng, do đó mình nghĩ đến dùng &lt;strong&gt;OpenAI API&lt;/strong&gt; &lt;em&gt;(xem thêm bài viết &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/system-devops/fabric_ai/&#34;&gt;Fabric_AI&lt;/a&gt;)&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;Hơn nữa, ngoài việc dùng cho Fabric, thì mình còn dùng API của OpenAI cho việc code.&lt;/li&gt;
 &lt;li&gt;Cụ thể là dùng cho extension &lt;a href=&#34;https://developers.openai.com/codex/ide/&#34;&gt;codex&lt;/a&gt; &lt;em&gt;(Một extension cho vscode, sử dụng OpenAI API)&lt;/em&gt;&lt;/li&gt;
@@ -56,11 +132,14 @@ https://platform.openai.com/docs/guides/speech-to-text
 &lt;li&gt;&lt;strong&gt;GitHub Link:&lt;/strong&gt; &lt;a href=&#34;https://github.com/davideuler/pdf-translator-for-human&#34;&gt;davideuler/pdf-translator-for-human&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Mô tả ngắn gọn:&lt;/strong&gt; Công cụ dịch PDF “dành cho con người đọc”, hiển thị song song bản gốc và bản dịch, cực kỳ tiện.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Tính năng nổi bật liên quan đến PDF &amp;amp; AI:&lt;/strong&gt;
-• Dịch từng trang (on-demand)
-• Hỗ trợ Ollama, llama.cpp, MLX (chạy local 100%)
-• ChatGPT, DeepSeek, Gemini
-• Giao diện Streamlit đẹp
-• Giữ layout tốt&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Dịch từng trang (on-demand)&lt;/li&gt;
+&lt;li&gt;Hỗ trợ Ollama, llama.cpp, MLX (chạy local 100%)&lt;/li&gt;
+&lt;li&gt;ChatGPT, DeepSeek, Gemini&lt;/li&gt;
+&lt;li&gt;Giao diện Streamlit đẹp&lt;/li&gt;
+&lt;li&gt;Giữ layout tốt&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;&lt;strong&gt;PDFMathTranslate&lt;/strong&gt;&lt;/li&gt;
@@ -69,10 +148,13 @@ https://platform.openai.com/docs/guides/speech-to-text
 &lt;li&gt;&lt;strong&gt;GitHub Link:&lt;/strong&gt; &lt;a href=&#34;https://github.com/Byaidu/PDFMathTranslate&#34;&gt;Byaidu/PDFMathTranslate&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Mô tả ngắn gọn:&lt;/strong&gt; Chuyên dịch bài báo khoa học, luận văn, tài liệu toán học (giữ công thức LaTeX hoàn hảo).&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Tính năng nổi bật liên quan đến PDF &amp;amp; AI:&lt;/strong&gt;
-• Layout detection bằng YOLO
-• Dịch bằng GPT-4o, DeepL, Ollama, Qwen
-• CLI + GUI + Docker + plugin Zotero
-• Đa luồng, rất nhanh&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Layout detection bằng YOLO&lt;/li&gt;
+&lt;li&gt;Dịch bằng GPT-4o, DeepL, Ollama, Qwen&lt;/li&gt;
+&lt;li&gt;CLI + GUI + Docker + plugin Zotero&lt;/li&gt;
+&lt;li&gt;Đa luồng, rất nhanh&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;ol start=&#34;3&#34;&gt;
 &lt;li&gt;&lt;strong&gt;BabelDOC&lt;/strong&gt;&lt;/li&gt;
@@ -81,10 +163,13 @@ https://platform.openai.com/docs/guides/speech-to-text
 &lt;li&gt;&lt;strong&gt;GitHub Link:&lt;/strong&gt; &lt;a href=&#34;https://github.com/funstory-ai/BabelDOC&#34;&gt;funstory-ai/BabelDOC&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Mô tả ngắn gọn:&lt;/strong&gt; Thư viện Python dịch PDF song ngữ (Anh ↔ Trung/Việt), hỗ trợ cả PDF scan.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Tính năng nổi bật liên quan đến PDF &amp;amp; AI:&lt;/strong&gt;
-• Dùng bất kỳ LLM nào tương thích OpenAI (gpt-4o-mini, Qwen, DeepSeek, v.v.)
-• Glossary tùy chỉnh
-• Output song ngữ hoặc chỉ bản dịch
-• OCR workaround&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Dùng bất kỳ LLM nào tương thích OpenAI (gpt-4o-mini, Qwen, DeepSeek, v.v.)&lt;/li&gt;
+&lt;li&gt;Glossary tùy chỉnh&lt;/li&gt;
+&lt;li&gt;Output song ngữ hoặc chỉ bản dịch&lt;/li&gt;
+&lt;li&gt;OCR workaround&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;ol start=&#34;4&#34;&gt;
 &lt;li&gt;&lt;strong&gt;OpenAI Translator&lt;/strong&gt;&lt;/li&gt;
@@ -93,10 +178,13 @@ https://platform.openai.com/docs/guides/speech-to-text
 &lt;li&gt;&lt;strong&gt;GitHub Link:&lt;/strong&gt; &lt;a href=&#34;https://github.com/DjangoPeng/openai-translator&#34;&gt;DjangoPeng/openai-translator&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Mô tả ngắn gọn:&lt;/strong&gt; Ứng dụng desktop chuyên dịch sách PDF tiếng Anh → tiếng Trung (có thể đổi sang tiếng Việt).&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Tính năng nổi bật liên quan đến PDF &amp;amp; AI:&lt;/strong&gt;
-• GUI đơn giản
-• Tự động retry khi lỗi
-• Hỗ trợ ChatGLM local
-• Đang phát triển giữ layout tốt hơn&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;GUI đơn giản&lt;/li&gt;
+&lt;li&gt;Tự động retry khi lỗi&lt;/li&gt;
+&lt;li&gt;Hỗ trợ ChatGLM local&lt;/li&gt;
+&lt;li&gt;Đang phát triển giữ layout tốt hơn&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;ol start=&#34;5&#34;&gt;
 &lt;li&gt;&lt;strong&gt;Zotero PDF Translate&lt;/strong&gt; (plugin)&lt;/li&gt;
@@ -105,9 +193,12 @@ https://platform.openai.com/docs/guides/speech-to-text
 &lt;li&gt;&lt;strong&gt;GitHub Link:&lt;/strong&gt; &lt;a href=&#34;https://github.com/windingwind/zotero-pdf-translate&#34;&gt;windingwind/zotero-pdf-translate&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Mô tả ngắn gọn:&lt;/strong&gt; Plugin Zotero cực mạnh, dịch ngay trong thư viện tài liệu khoa học.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Tính năng nổi bật liên quan đến PDF &amp;amp; AI:&lt;/strong&gt;
-• Hỗ trợ 20+ engine (GPT, Gemini, Claude, DeepL, Qwen, Ollama, v.v.)
-• Dịch text chọn, annotation, metadata
-• Pop-up song ngữ&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Hỗ trợ 20+ engine (GPT, Gemini, Claude, DeepL, Qwen, Ollama, v.v.)&lt;/li&gt;
+&lt;li&gt;Dịch text chọn, annotation, metadata&lt;/li&gt;
+&lt;li&gt;Pop-up song ngữ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;ol start=&#34;6&#34;&gt;
 &lt;li&gt;&lt;strong&gt;LingoLift PDF Translator&lt;/strong&gt;&lt;/li&gt;
@@ -116,9 +207,12 @@ https://platform.openai.com/docs/guides/speech-to-text
 &lt;li&gt;&lt;strong&gt;GitHub Link:&lt;/strong&gt; &lt;a href=&#34;https://github.com/lingolift/pdf-translator&#34;&gt;lingolift/pdf-translator&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Mô tả ngắn gọn:&lt;/strong&gt; Ứng dụng GUI nhẹ, đẹp, dành cho người dùng phổ thông.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Tính năng nổi bật liên quan đến PDF &amp;amp; AI:&lt;/strong&gt;
-• Giao diện hiện đại (Electron/Tauri)
-• Dịch nhanh bằng Google Translate hoặc LLM local
-• Tự động phát hiện ngôn ngữ&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Giao diện hiện đại (Electron/Tauri)&lt;/li&gt;
+&lt;li&gt;Dịch nhanh bằng Google Translate hoặc LLM local&lt;/li&gt;
+&lt;li&gt;Tự động phát hiện ngôn ngữ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/Others/Cong_cu_AI.png&#34;
@@ -172,6 +266,93 @@ https://platform.openai.com/docs/guides/speech-to-text
 &lt;li&gt;Cho thiết bị hoạt động liên tục 24/24 trong mấy ngày.&lt;/li&gt;
 &lt;li&gt;Ngoài ra có thể để camera hoạt động trong môi trường nhiệt độ cao, ví dụ: &lt;em&gt;ngoài trời nắng&lt;/em&gt;.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;kiểm-tra-tốc-độ-đọcghi-thực-tế&#34;&gt;Kiểm tra tốc độ đọc/ghi thực tế&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Mình gặp trường hợp cùng là camera đó, sử dụng gần như cùng loại thẻ nhớ &lt;em&gt;(một loại là &lt;strong&gt;thẻ A2V30&lt;/strong&gt;, một loại là &lt;strong&gt;thẻ E+ A2V30&lt;/strong&gt;)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Nếu mình dùng công cụ đo thì cả 2 thẻ là gần như nhau.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;công-cụ-usbdeview&#34;&gt;Công cụ USBDeview&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Thông số 2 thẻ là như nhau:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Test_TF-Card/Hinh_1&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sau đó chọn &lt;strong&gt;Speed Test&lt;/strong&gt; để đo tốc độ từng thẻ.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Test_TF-Card/Hinh_2&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Test_TF-Card/Hinh_3&#34;
+  alt=&#34;Hình 3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Test_TF-Card/Hinh_4&#34;
+  alt=&#34;Hình 4&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;note&#34;&gt;Note&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Tốc độ cả 2 thẻ là gần như nhau, vậy tại sao một thẻ lại dùng OK, thẻ còn lại thì dùng không được.&lt;/li&gt;
+&lt;li&gt;Thế là mình đặt câu hỏi cho Grok, và đâu là câu trả lời:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Test_TF-Card/Hinh_5&#34;
+  alt=&#34;Hình 5&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;iostat-commandhttpswwwgeeksforgeeksorglinux-unixiostat-command-in-linux-with-examples&#34;&gt;&lt;a href=&#34;https://www.geeksforgeeks.org/linux-unix/iostat-command-in-linux-with-examples/&#34;&gt;iostat command&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Vậy là mình sẽ cần một công cụ giúp đo khả năng thực tế của thẻ nhớ.&lt;/li&gt;
+&lt;li&gt;Cũng may là mình có thể chạy command này trên thiết bị camera:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;iostat -dxz mmcblk0p1 1 | tee /mnt/sd/camera_sd-card_speed.log
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Test_TF-Card/Hinh_6&#34;
+  alt=&#34;Hình 6&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Test_TF-Card/Hinh_7&#34;
+  alt=&#34;Hình 7&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
 </description>
       <author>VinhLD</author>
       <guid>https://vinhlin.github.io/posts/iot/hardware/test_tf-card/</guid>

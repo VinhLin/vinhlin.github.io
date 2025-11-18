@@ -36,4 +36,39 @@ Môi trường thực tế rất nhiều biến số và khắc nghiệp, nên k
 - Cho thiết bị hoạt động liên tục 24/24 trong mấy ngày.
 - Ngoài ra có thể để camera hoạt động trong môi trường nhiệt độ cao, ví dụ: *ngoài trời nắng*.
 
+---------------------------------------------------------------
+## Kiểm tra tốc độ đọc/ghi thực tế
+- Mình gặp trường hợp cùng là camera đó, sử dụng gần như cùng loại thẻ nhớ *(một loại là **thẻ A2V30**, một loại là **thẻ E+ A2V30**)*
+- Nếu mình dùng công cụ đo thì cả 2 thẻ là gần như nhau.
+
+### Công cụ USBDeview
+- Thông số 2 thẻ là như nhau:
+
+![Hình 1](/image/IoT/Test_TF-Card/Hinh_1)
+
+- Sau đó chọn **Speed Test** để đo tốc độ từng thẻ.
+
+![Hình 2](/image/IoT/Test_TF-Card/Hinh_2)
+
+![Hình 3](/image/IoT/Test_TF-Card/Hinh_3)
+
+![Hình 4](/image/IoT/Test_TF-Card/Hinh_4)
+
+### Note
+- Tốc độ cả 2 thẻ là gần như nhau, vậy tại sao một thẻ lại dùng OK, thẻ còn lại thì dùng không được.
+- Thế là mình đặt câu hỏi cho Grok, và đâu là câu trả lời:
+
+![Hình 5](/image/IoT/Test_TF-Card/Hinh_5)
+
+### [iostat command](https://www.geeksforgeeks.org/linux-unix/iostat-command-in-linux-with-examples/)
+- Vậy là mình sẽ cần một công cụ giúp đo khả năng thực tế của thẻ nhớ.
+- Cũng may là mình có thể chạy command này trên thiết bị camera:
+```
+iostat -dxz mmcblk0p1 1 | tee /mnt/sd/camera_sd-card_speed.log
+```
+
+![Hình 6](/image/IoT/Test_TF-Card/Hinh_6)
+
+![Hình 7](/image/IoT/Test_TF-Card/Hinh_7)
+
 

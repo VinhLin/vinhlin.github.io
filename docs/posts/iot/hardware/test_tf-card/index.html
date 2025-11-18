@@ -23,7 +23,7 @@ Còn trong bài này thì mình sẽ ghi chú lại một số cách để test 
 Để biết một thẻ nhớ có bền hay không thì chỉ có thời gian mới có câu trả lời.
 Môi trường thực tế rất nhiều biến số và khắc nghiệp, nên khi test trong phòng lab, mình cần làm mọi cách để đẩy thẻ nhớ đến giới hạn hoạt động"><meta itemprop="datePublished" content="2025-11-17T15:44:23+07:00" />
 <meta itemprop="dateModified" content="2025-11-17T15:44:23+07:00" />
-<meta itemprop="wordCount" content="270">
+<meta itemprop="wordCount" content="417">
 <meta itemprop="keywords" content="" />
     
     <link rel="canonical" href="https://vinhlin.github.io/posts/iot/hardware/test_tf-card/">
@@ -85,7 +85,7 @@ Môi trường thực tế rất nhiều biến số và khắc nghiệp, nên k
       },
       "image": "https://vinhlin.github.io/assets/favicon.ico",
       "url" : "https:\/\/vinhlin.github.io\/posts\/iot\/hardware\/test_tf-card\/",
-      "wordCount" : "270",
+      "wordCount" : "417",
       "genre" : [ ],
       "keywords" : [ ]
   }
@@ -157,6 +157,93 @@ Môi trường thực tế rất nhiều biến số và khắc nghiệp, nên k
 <li>Cho thiết bị hoạt động liên tục 24/24 trong mấy ngày.</li>
 <li>Ngoài ra có thể để camera hoạt động trong môi trường nhiệt độ cao, ví dụ: <em>ngoài trời nắng</em>.</li>
 </ul>
+<hr>
+<h2 id="kiểm-tra-tốc-độ-đọcghi-thực-tế">Kiểm tra tốc độ đọc/ghi thực tế</h2>
+<ul>
+<li>Mình gặp trường hợp cùng là camera đó, sử dụng gần như cùng loại thẻ nhớ <em>(một loại là <strong>thẻ A2V30</strong>, một loại là <strong>thẻ E+ A2V30</strong>)</em></li>
+<li>Nếu mình dùng công cụ đo thì cả 2 thẻ là gần như nhau.</li>
+</ul>
+<h3 id="công-cụ-usbdeview">Công cụ USBDeview</h3>
+<ul>
+<li>Thông số 2 thẻ là như nhau:</li>
+</ul>
+<p><img
+  src="/image/IoT/Test_TF-Card/Hinh_1"
+  alt="Hình 1"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<ul>
+<li>Sau đó chọn <strong>Speed Test</strong> để đo tốc độ từng thẻ.</li>
+</ul>
+<p><img
+  src="/image/IoT/Test_TF-Card/Hinh_2"
+  alt="Hình 2"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p><img
+  src="/image/IoT/Test_TF-Card/Hinh_3"
+  alt="Hình 3"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p><img
+  src="/image/IoT/Test_TF-Card/Hinh_4"
+  alt="Hình 4"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<h3 id="note">Note</h3>
+<ul>
+<li>Tốc độ cả 2 thẻ là gần như nhau, vậy tại sao một thẻ lại dùng OK, thẻ còn lại thì dùng không được.</li>
+<li>Thế là mình đặt câu hỏi cho Grok, và đâu là câu trả lời:</li>
+</ul>
+<p><img
+  src="/image/IoT/Test_TF-Card/Hinh_5"
+  alt="Hình 5"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<h3 id="iostat-commandhttpswwwgeeksforgeeksorglinux-unixiostat-command-in-linux-with-examples"><a href="https://www.geeksforgeeks.org/linux-unix/iostat-command-in-linux-with-examples/">iostat command</a></h3>
+<ul>
+<li>Vậy là mình sẽ cần một công cụ giúp đo khả năng thực tế của thẻ nhớ.</li>
+<li>Cũng may là mình có thể chạy command này trên thiết bị camera:</li>
+</ul>
+<pre tabindex="0"><code>iostat -dxz mmcblk0p1 1 | tee /mnt/sd/camera_sd-card_speed.log
+</code></pre><p><img
+  src="/image/IoT/Test_TF-Card/Hinh_6"
+  alt="Hình 6"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p><img
+  src="/image/IoT/Test_TF-Card/Hinh_7"
+  alt="Hình 7"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
 
       
       <div class="post-date">

@@ -21,7 +21,7 @@ Về các công cụ AI mà mình sử dụng thường xuyên thì hiện tại
 Nhưng mình cũng không phải là người học trò dễ bảo, không phải cứ nói gì là mình sẽ nghe, mình sẽ luôn có những câu hỏi và đặt ngược trở lại.
 Về các công cụ AI mà mình sử dụng thường xuyên thì hiện tại mình dùng nhiều là Grok AI và OpenAI"><meta itemprop="datePublished" content="2025-11-17T16:06:59+07:00" />
 <meta itemprop="dateModified" content="2025-11-17T16:06:59+07:00" />
-<meta itemprop="wordCount" content="667">
+<meta itemprop="wordCount" content="662">
 <meta itemprop="keywords" content="" />
     
     <link rel="canonical" href="https://vinhlin.github.io/posts/others/cong_cu_ai/">
@@ -83,7 +83,7 @@ Về các công cụ AI mà mình sử dụng thường xuyên thì hiện tại
       },
       "image": "https://vinhlin.github.io/assets/favicon.ico",
       "url" : "https:\/\/vinhlin.github.io\/posts\/others\/cong_cu_ai\/",
-      "wordCount" : "667",
+      "wordCount" : "662",
       "genre" : [ ],
       "keywords" : [ ]
   }
@@ -137,7 +137,8 @@ Về các công cụ AI mà mình sử dụng thường xuyên thì hiện tại
 <p>Chỉ vậy thôi là đã ăn đứt ChatGPT free về tính năng.</p>
 <h3 id="tại-sao-lại-dùng-openai-api">Tại sao lại dùng <strong>OpenAI API</strong></h3>
 <ul>
-<li>Tính đến hiện tại <em>(ngày 17/11/2025)</em> Grok chưa có API, và giá thành trả phí cho Grok cũng quá đắt.</li>
+<li>Lúc trước thì Grok chưa có API, nhưng tính đến hiện tại <em>(ngày 17/11/2025)</em> <strong>Grok đã ra mắt API</strong> <em>(link <a href="https://docs.x.ai/docs/api-reference#chat-completions">tài liệu xAI</a>)</em>.</li>
+<li>Nhưng nếu so sánh với OpenAI API thì hiện tại API của xAI chưa bằng.</li>
 <li>Còn nếu dùng <strong>ChatGPT plus</strong> thì mình không dùng hết tính năng, do đó mình nghĩ đến dùng <strong>OpenAI API</strong> <em>(xem thêm bài viết <a href="https://blog.vinhld-homelab.io.vn/posts/system-devops/fabric_ai/">Fabric_AI</a>)</em></li>
 <li>Hơn nữa, ngoài việc dùng cho Fabric, thì mình còn dùng API của OpenAI cho việc code.</li>
 <li>Cụ thể là dùng cho extension <a href="https://developers.openai.com/codex/ide/">codex</a> <em>(Một extension cho vscode, sử dụng OpenAI API)</em></li>
@@ -161,11 +162,14 @@ https://platform.openai.com/docs/guides/speech-to-text
 <li><strong>GitHub Link:</strong> <a href="https://github.com/davideuler/pdf-translator-for-human">davideuler/pdf-translator-for-human</a></li>
 <li><strong>Mô tả ngắn gọn:</strong> Công cụ dịch PDF “dành cho con người đọc”, hiển thị song song bản gốc và bản dịch, cực kỳ tiện.</li>
 <li><strong>Tính năng nổi bật liên quan đến PDF &amp; AI:</strong>
-• Dịch từng trang (on-demand)
-• Hỗ trợ Ollama, llama.cpp, MLX (chạy local 100%)
-• ChatGPT, DeepSeek, Gemini
-• Giao diện Streamlit đẹp
-• Giữ layout tốt</li>
+<ul>
+<li>Dịch từng trang (on-demand)</li>
+<li>Hỗ trợ Ollama, llama.cpp, MLX (chạy local 100%)</li>
+<li>ChatGPT, DeepSeek, Gemini</li>
+<li>Giao diện Streamlit đẹp</li>
+<li>Giữ layout tốt</li>
+</ul>
+</li>
 </ul>
 <ol start="2">
 <li><strong>PDFMathTranslate</strong></li>
@@ -174,10 +178,13 @@ https://platform.openai.com/docs/guides/speech-to-text
 <li><strong>GitHub Link:</strong> <a href="https://github.com/Byaidu/PDFMathTranslate">Byaidu/PDFMathTranslate</a></li>
 <li><strong>Mô tả ngắn gọn:</strong> Chuyên dịch bài báo khoa học, luận văn, tài liệu toán học (giữ công thức LaTeX hoàn hảo).</li>
 <li><strong>Tính năng nổi bật liên quan đến PDF &amp; AI:</strong>
-• Layout detection bằng YOLO
-• Dịch bằng GPT-4o, DeepL, Ollama, Qwen
-• CLI + GUI + Docker + plugin Zotero
-• Đa luồng, rất nhanh</li>
+<ul>
+<li>Layout detection bằng YOLO</li>
+<li>Dịch bằng GPT-4o, DeepL, Ollama, Qwen</li>
+<li>CLI + GUI + Docker + plugin Zotero</li>
+<li>Đa luồng, rất nhanh</li>
+</ul>
+</li>
 </ul>
 <ol start="3">
 <li><strong>BabelDOC</strong></li>
@@ -186,10 +193,13 @@ https://platform.openai.com/docs/guides/speech-to-text
 <li><strong>GitHub Link:</strong> <a href="https://github.com/funstory-ai/BabelDOC">funstory-ai/BabelDOC</a></li>
 <li><strong>Mô tả ngắn gọn:</strong> Thư viện Python dịch PDF song ngữ (Anh ↔ Trung/Việt), hỗ trợ cả PDF scan.</li>
 <li><strong>Tính năng nổi bật liên quan đến PDF &amp; AI:</strong>
-• Dùng bất kỳ LLM nào tương thích OpenAI (gpt-4o-mini, Qwen, DeepSeek, v.v.)
-• Glossary tùy chỉnh
-• Output song ngữ hoặc chỉ bản dịch
-• OCR workaround</li>
+<ul>
+<li>Dùng bất kỳ LLM nào tương thích OpenAI (gpt-4o-mini, Qwen, DeepSeek, v.v.)</li>
+<li>Glossary tùy chỉnh</li>
+<li>Output song ngữ hoặc chỉ bản dịch</li>
+<li>OCR workaround</li>
+</ul>
+</li>
 </ul>
 <ol start="4">
 <li><strong>OpenAI Translator</strong></li>
@@ -198,10 +208,13 @@ https://platform.openai.com/docs/guides/speech-to-text
 <li><strong>GitHub Link:</strong> <a href="https://github.com/DjangoPeng/openai-translator">DjangoPeng/openai-translator</a></li>
 <li><strong>Mô tả ngắn gọn:</strong> Ứng dụng desktop chuyên dịch sách PDF tiếng Anh → tiếng Trung (có thể đổi sang tiếng Việt).</li>
 <li><strong>Tính năng nổi bật liên quan đến PDF &amp; AI:</strong>
-• GUI đơn giản
-• Tự động retry khi lỗi
-• Hỗ trợ ChatGLM local
-• Đang phát triển giữ layout tốt hơn</li>
+<ul>
+<li>GUI đơn giản</li>
+<li>Tự động retry khi lỗi</li>
+<li>Hỗ trợ ChatGLM local</li>
+<li>Đang phát triển giữ layout tốt hơn</li>
+</ul>
+</li>
 </ul>
 <ol start="5">
 <li><strong>Zotero PDF Translate</strong> (plugin)</li>
@@ -210,9 +223,12 @@ https://platform.openai.com/docs/guides/speech-to-text
 <li><strong>GitHub Link:</strong> <a href="https://github.com/windingwind/zotero-pdf-translate">windingwind/zotero-pdf-translate</a></li>
 <li><strong>Mô tả ngắn gọn:</strong> Plugin Zotero cực mạnh, dịch ngay trong thư viện tài liệu khoa học.</li>
 <li><strong>Tính năng nổi bật liên quan đến PDF &amp; AI:</strong>
-• Hỗ trợ 20+ engine (GPT, Gemini, Claude, DeepL, Qwen, Ollama, v.v.)
-• Dịch text chọn, annotation, metadata
-• Pop-up song ngữ</li>
+<ul>
+<li>Hỗ trợ 20+ engine (GPT, Gemini, Claude, DeepL, Qwen, Ollama, v.v.)</li>
+<li>Dịch text chọn, annotation, metadata</li>
+<li>Pop-up song ngữ</li>
+</ul>
+</li>
 </ul>
 <ol start="6">
 <li><strong>LingoLift PDF Translator</strong></li>
@@ -221,9 +237,12 @@ https://platform.openai.com/docs/guides/speech-to-text
 <li><strong>GitHub Link:</strong> <a href="https://github.com/lingolift/pdf-translator">lingolift/pdf-translator</a></li>
 <li><strong>Mô tả ngắn gọn:</strong> Ứng dụng GUI nhẹ, đẹp, dành cho người dùng phổ thông.</li>
 <li><strong>Tính năng nổi bật liên quan đến PDF &amp; AI:</strong>
-• Giao diện hiện đại (Electron/Tauri)
-• Dịch nhanh bằng Google Translate hoặc LLM local
-• Tự động phát hiện ngôn ngữ</li>
+<ul>
+<li>Giao diện hiện đại (Electron/Tauri)</li>
+<li>Dịch nhanh bằng Google Translate hoặc LLM local</li>
+<li>Tự động phát hiện ngôn ngữ</li>
+</ul>
+</li>
 </ul>
 <p><img
   src="/image/Others/Cong_cu_AI.png"
