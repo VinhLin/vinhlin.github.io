@@ -1,9 +1,17 @@
 +++
 title = 'Test_TF Card'
-date = 2025-11-17T15:44:23+07:00
+date = 2025-11-20T08:44:23+07:00
 draft = true
 +++
 
+## Changelog
+Date	|		Mô tả			|
+--------|---------------------------------------|
+17/11/25| Khởi tạo bài viết và ghi chú cách test thẻ nhớ |
+18/11/25| Bổ sung cách **kiểm tra tốc độ đọc/ghi thực tế của thẻ|
+20/11/25| Ghi chú thêm về command `chkdsk` trên Windows |
+
+----------------------------------------------------------------
 Xem thêm bài viết về [Thẻ nhớ](https://blog.vinhld-homelab.io.vn/posts/iot/hardware/the_nho/)
 
 Còn trong bài này thì mình sẽ ghi chú lại một số cách để test thẻ nhớ.
@@ -37,6 +45,8 @@ Môi trường thực tế rất nhiều biến số và khắc nghiệp, nên k
 - Ngoài ra có thể để camera hoạt động trong môi trường nhiệt độ cao, ví dụ: *ngoài trời nắng*.
 
 ---------------------------------------------------------------
+# Cập nhật ngày `18/11/2025`
+
 ## Kiểm tra tốc độ đọc/ghi thực tế
 - Mình gặp trường hợp cùng là camera đó, sử dụng gần như cùng loại thẻ nhớ *(một loại là **thẻ A2V30**, một loại là **thẻ E+ A2V30**)*
 - Nếu mình dùng công cụ đo thì cả 2 thẻ là gần như nhau.
@@ -70,5 +80,40 @@ iostat -dxz mmcblk0p1 1 | tee /mnt/sd/camera_sd-card_speed.log
 ![Hình 6](/image/IoT/Test_TF-Card/Hinh_6.png)
 
 ![Hình 7](/image/IoT/Test_TF-Card/Hinh_7.png)
+
+-------------------------------------------------------------
+# Cập nhật `20/11/2025`
+
+## Lệnh `chkdsk`
+> **chkdsk** (viết tắt của *Check Disk*) là một lệnh có sẵn trong **Windows** dùng để **kiểm tra** và **sửa lỗi hệ thống tập tin** (file system) trên ổ cứng, phân vùng, USB, thẻ nhớ, v.v.
+
+### Chức năng chính của `chkdsk`
+- **Kiểm tra lỗi logic** trên hệ thống tập tin (FAT32, NTFS, exFAT, ReFS).
+- **Sửa lỗi hệ thống tập tin** (nếu dùng tham số phù hợp).
+- **Tìm và đánh dấu các sector xấu** (bad sector) trên ổ đĩa để hệ điều hành không ghi dữ liệu vào đó nữa.
+- **Khôi phục dữ liệu có thể đọc được** từ các sector xấu (nếu có).
+
+### Cú pháp cơ bản
+```
+chkdsk [tên_ổ_đĩa:] [/f] [/r] [/x] ...
+```
+- `[tên_ổ_đĩa:]` → Ví dụ: C: D: E:
+- Các tham số phổ biến nhất:
+
+![Hình 8](/image/IoT/Test_TF-Card/Hinh_8.png)
+
+### Lưu ý:
+- Luôn sao lưu dữ liệu quan trọng trước khi chạy `/r` (vì nó sẽ cố khôi phục dữ liệu từ sector xấu, đôi khi có thể làm mất dữ liệu nếu ổ hỏng nặng).
+- Do đó khi nghi ngờ ổ cứng hỏng, khuyến nghị không dùng `/r`.
+- Với ổ SSD, chkdsk vẫn hữu ích để sửa lỗi NTFS, nhưng không cần lo bad sector nhiều như HDD (SSD có cơ chế khác).
+- Phải chạy Command Prompt với quyền **Administrator**.
+
+### Ví dụ
+
+![Hình 9](/image/IoT/Test_TF-Card/Hinh_9.png)
+
+- Mình có thử dùng lệnh này để check thẻ nhớ.
+- Câu lệnh này sẽ giúp mình **kiểm tra các lỗi về ghi file**, chứ không giúp mình biết đc thẻ đó có hư không.
+- Tuy vậy, lệnh này rất hữu ích để giúp mình kiểm tra xem **lỗi đầy thẻ nhớ *(hoặc không ghi hình vòng lặp)***, vì một số camera khi bị ngắt nguồn đột ngột, file video sẽ bị hỏng và lúc này camera không thể xử lý xóa video hỏng đó đc --> **Dẫn đến tình trạng không ghi hình vòng lặp**.
 
 

@@ -27,6 +27,8 @@ Chỉ vậy thôi là đã ăn đứt ChatGPT free về tính năng.
 - Cụ thể là dùng cho extension [codex](https://developers.openai.com/codex/ide/) *(Một extension cho vscode, sử dụng OpenAI API)*
 > *[Github của dự án `openai/codex`](https://github.com/openai/codex)* </br>
 
+![Hinh 1](/image/Others/Cong_cu_AI/Hinh_1.png)
+
 Ngoài ra mình còn đang muốn dùng OpenAI API để translation văn bản *(thay vì dùng **WPS-AI**)*.
 ```
 https://community.openai.com/t/can-we-translate-whole-document-pdf-doc-execil-form-one-langues-to-other/716117/2
@@ -92,5 +94,5 @@ Kết quả thu được khi hỏi Grok *(có 6 dự án dịch thuật tài li�
 	- Dịch nhanh bằng Google Translate hoặc LLM local
 	- Tự động phát hiện ngôn ngữ
 
-![Hinh](/image/Others/Cong_cu_AI.png)
+![Hinh 2](/image/Others/Cong_cu_AI/Hinh_2.png)
 
