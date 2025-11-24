@@ -22,7 +22,11 @@ Nhưng chúng khác nhau về nguyên lý hoạt động, hiệu quả và ứng
 
 ![HDR](/image/IoT/HDR_WDR/HDR.jpg)
 
-## WDR (Wide Dynamic Range)
+- Vì sao **HDR** quan trọng cho dashcam:
+
+![Hinh 1](/image/IoT/HDR_WDR/Hinh_1.png)
+
+## [WDR (Wide Dynamic Range)](https://www.dienmayxanh.com/kinh-nghiem-hay/cong-nghe-wdr-la-gi-1391737?srsltid=AfmBOoo8bHdRnTLozVILNU-C-ws4lRefPwBtSpNcGepKQBYAY_k-ufBw)
 - Có 2 dạng WDR là: True WDR và Digital WDR.
 - Phụ thuộc chất lượng cảm biến. 
 - Chất lượng màu sắc: Tốt với *hình ảnh chuyển động (**không ghosting**)*, nhưng có thể bệt màu nếu thuật toán kém

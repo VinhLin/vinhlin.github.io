@@ -43,6 +43,12 @@ https://www.sdcard.org/developers/sd-standard-overview/application-performance-c
 
 ![Hình 2](/image/IoT/The_nho/SpeedClass9.1EN.png)
 
+Thông tin so sánh và cập nhật thêm từ Grok-AI:
+
+![Hình 5](/image/IoT/The_nho/Hinh_5.png)
+
+![Hình 6](/image/IoT/The_nho/Hinh_6.png)
+
 #### UHD
 
 ![Hình 3](/image/IoT/The_nho/UHD.png)

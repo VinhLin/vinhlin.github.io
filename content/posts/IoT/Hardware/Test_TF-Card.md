@@ -8,7 +8,7 @@ draft = true
 Date	|		Mô tả			|
 --------|---------------------------------------|
 17/11/25| Khởi tạo bài viết và ghi chú cách test thẻ nhớ |
-18/11/25| Bổ sung cách **kiểm tra tốc độ đọc/ghi thực tế của thẻ|
+18/11/25| Bổ sung cách **kiểm tra tốc độ đọc/ghi thực tế của thẻ** |
 20/11/25| Ghi chú thêm về command `chkdsk` trên Windows |
 
 ----------------------------------------------------------------
