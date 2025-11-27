@@ -16,8 +16,17 @@ Tuy nhiên mình sẽ làm một số project nhỏ hơn, và sẽ xoay quanh Ho
 - Tự làm một thiết bị Tracking cho bản thân.
 
 ### 👉 Quản lý bán hàng
-- Mình sẽ setup một **SQL Server**, sau đó viết một desktop app đơn giản chạy trên Windows *(dùng công cụ **C++ Builder**)*.
-- App này sẽ có chức năng là cập nhật dữ liệu cho database, kiểm tra hàng hóa *(số lượng, mã QR)*.
+- Viết một app như của anh Sơn *(vừa có thể chạy trên web, vừa dùng trên mobile app)*, dùng ngôn ngữ lập trình **Flutter**.
+- Xây dựng **database server** *(có thể dùng **SQL Server**)*.
+
+#### Web App:
+- App hoạt động ở local *(mạng nội bộ, không public)*, có chức năng nhập liệu.
+- Kết nối với máy quét mã vạch, nhập số lượng hàng và đơn giá. Cập nhật dữ liệu cho database.
+
+#### Mobile App
+- App chỉ có tác dụng quét mã để search đơn giá và cho biết hàng tồn kho.
+- Khách hàng có thể dùng app này để biết tên hàng, và đơn giá.
+
 
 ### 👉 Raspberry Camera
 - Mục đích là ôn luyện lại về **Rust-lang + Tokio Framework** cũng như đào sâu hơn về **Nhúng Linux**.

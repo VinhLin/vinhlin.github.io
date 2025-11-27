@@ -65,6 +65,7 @@ hugo new posts/Others/Android_Xiaomi.md
 hugo new posts/Others/SW_Model.md
 hugo new posts/Others/Goi_cuoc_Internet.md
 hugo new posts/Others/Cong_cu_AI.md
+hugo new posts/Others/Ban_them_ve_Rust.md
 ```
 
 ### IoT:
