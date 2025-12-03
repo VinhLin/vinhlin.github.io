@@ -14,6 +14,145 @@
     
     
     <item>
+      <title>Tong_hop_AI_Tools</title>
+      <link>https://vinhlin.github.io/posts/others/tong_hop_ai_tools/</link>
+      <description>&lt;p&gt;Mình đã từng có bài viết ghi chú về &lt;strong&gt;Các công cụ AI&lt;/strong&gt; mà bản thân đang dùng. &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/others/cong_cu_ai/&#34;&gt;Tham khảo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Sau đây bài viết này mình sẽ tổng hợp lại các công cụ khác, &lt;em&gt;&lt;strong&gt;các công cụ online, offline hoặc các nền tảng khác&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;translation-văn-bản&#34;&gt;Translation văn bản&lt;/h2&gt;
+&lt;h3 id=&#34;wps-aihttpswwwwpsai&#34;&gt;&lt;a href=&#34;https://www.wps.ai/&#34;&gt;WPS-AI&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Video tham khảo, &lt;a href=&#34;https://www.youtube.com/watch?v=izQn-zgmN-Q&amp;amp;pp=ygUHV1BTLUFJIA%3D%3D&#34;&gt;Tôi Đã Xoá Microsoft Office… Vì WPS Quá ĐỈNH! (Tích Hợp AI + Miễn Phí)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tài liệu khác:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&#34;https://vi.wps.com/create-with-ai/what-is-wps-ai-and-how-to-download/&#34;&gt;https://vi.wps.com/create-with-ai/what-is-wps-ai-and-how-to-download/&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;anydoc-translatorhttpsanydoctranslatortoolsmartaipricingpositiontop_bar_pricing&#34;&gt;&lt;a href=&#34;https://anydoctranslator.toolsmart.ai/pricing?position=top_bar_pricing&#34;&gt;AnyDoc Translator&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;tổng-hợp-các-dự-án-dịch-thuật-tài-liệu&#34;&gt;Tổng hợp các dự án Dịch thuật tài liệu:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;PDF Translator for Human&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GitHub Link:&lt;/strong&gt; &lt;a href=&#34;https://github.com/davideuler/pdf-translator-for-human&#34;&gt;davideuler/pdf-translator-for-human&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mô tả ngắn gọn:&lt;/strong&gt; Công cụ dịch PDF “dành cho con người đọc”, hiển thị song song bản gốc và bản dịch, cực kỳ tiện.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tính năng nổi bật liên quan đến PDF &amp;amp; AI:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Dịch từng trang (on-demand)&lt;/li&gt;
+&lt;li&gt;Hỗ trợ Ollama, llama.cpp, MLX (chạy local 100%)&lt;/li&gt;
+&lt;li&gt;ChatGPT, DeepSeek, Gemini&lt;/li&gt;
+&lt;li&gt;Giao diện Streamlit đẹp&lt;/li&gt;
+&lt;li&gt;Giữ layout tốt&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;&lt;strong&gt;PDFMathTranslate&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GitHub Link:&lt;/strong&gt; &lt;a href=&#34;https://github.com/Byaidu/PDFMathTranslate&#34;&gt;Byaidu/PDFMathTranslate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mô tả ngắn gọn:&lt;/strong&gt; Chuyên dịch bài báo khoa học, luận văn, tài liệu toán học (giữ công thức LaTeX hoàn hảo).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tính năng nổi bật liên quan đến PDF &amp;amp; AI:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Layout detection bằng YOLO&lt;/li&gt;
+&lt;li&gt;Dịch bằng GPT-4o, DeepL, Ollama, Qwen&lt;/li&gt;
+&lt;li&gt;CLI + GUI + Docker + plugin Zotero&lt;/li&gt;
+&lt;li&gt;Đa luồng, rất nhanh&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;&lt;strong&gt;BabelDOC&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GitHub Link:&lt;/strong&gt; &lt;a href=&#34;https://github.com/funstory-ai/BabelDOC&#34;&gt;funstory-ai/BabelDOC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mô tả ngắn gọn:&lt;/strong&gt; Thư viện Python dịch PDF song ngữ (Anh ↔ Trung/Việt), hỗ trợ cả PDF scan.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tính năng nổi bật liên quan đến PDF &amp;amp; AI:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Dùng bất kỳ LLM nào tương thích OpenAI (gpt-4o-mini, Qwen, DeepSeek, v.v.)&lt;/li&gt;
+&lt;li&gt;Glossary tùy chỉnh&lt;/li&gt;
+&lt;li&gt;Output song ngữ hoặc chỉ bản dịch&lt;/li&gt;
+&lt;li&gt;OCR workaround&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;&lt;strong&gt;OpenAI Translator&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GitHub Link:&lt;/strong&gt; &lt;a href=&#34;https://github.com/DjangoPeng/openai-translator&#34;&gt;DjangoPeng/openai-translator&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mô tả ngắn gọn:&lt;/strong&gt; Ứng dụng desktop chuyên dịch sách PDF tiếng Anh → tiếng Trung (có thể đổi sang tiếng Việt).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tính năng nổi bật liên quan đến PDF &amp;amp; AI:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;GUI đơn giản&lt;/li&gt;
+&lt;li&gt;Tự động retry khi lỗi&lt;/li&gt;
+&lt;li&gt;Hỗ trợ ChatGLM local&lt;/li&gt;
+&lt;li&gt;Đang phát triển giữ layout tốt hơn&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;&lt;strong&gt;Zotero PDF Translate&lt;/strong&gt; (plugin)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GitHub Link:&lt;/strong&gt; &lt;a href=&#34;https://github.com/windingwind/zotero-pdf-translate&#34;&gt;windingwind/zotero-pdf-translate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mô tả ngắn gọn:&lt;/strong&gt; Plugin Zotero cực mạnh, dịch ngay trong thư viện tài liệu khoa học.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tính năng nổi bật liên quan đến PDF &amp;amp; AI:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Hỗ trợ 20+ engine (GPT, Gemini, Claude, DeepL, Qwen, Ollama, v.v.)&lt;/li&gt;
+&lt;li&gt;Dịch text chọn, annotation, metadata&lt;/li&gt;
+&lt;li&gt;Pop-up song ngữ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;&lt;strong&gt;LingoLift PDF Translator&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GitHub Link:&lt;/strong&gt; &lt;a href=&#34;https://github.com/lingolift/pdf-translator&#34;&gt;lingolift/pdf-translator&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mô tả ngắn gọn:&lt;/strong&gt; Ứng dụng GUI nhẹ, đẹp, dành cho người dùng phổ thông.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tính năng nổi bật liên quan đến PDF &amp;amp; AI:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Giao diện hiện đại (Electron/Tauri)&lt;/li&gt;
+&lt;li&gt;Dịch nhanh bằng Google Translate hoặc LLM local&lt;/li&gt;
+&lt;li&gt;Tự động phát hiện ngôn ngữ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/Tong_hop_AI_Tools/Hinh_1.png&#34;
+  alt=&#34;Hinh 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;speech-to-text&#34;&gt;Speech to Text&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Tham khảo: &lt;a href=&#34;https://platform.openai.com/docs/guides/speech-to-text&#34;&gt;https://platform.openai.com/docs/guides/speech-to-text&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;tạo-video&#34;&gt;Tạo Video&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Tham khảo bài viết về &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/others/heygen_ai/&#34;&gt;HeyGen AI&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;mã-nguồn-mở-open-notebookhttpswwwopen-notebookai&#34;&gt;Mã nguồn mở &lt;a href=&#34;https://www.open-notebook.ai/&#34;&gt;Open Notebook&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Dự án mã nguồn mở, tương tự như &lt;strong&gt;NotebookLM của Google&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Với dự án này có thể tận dụng với API của các mô hình AI khác.&lt;/li&gt;
+&lt;li&gt;Tài liệu:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&#34;https://github.com/lfnovo/open-notebook&#34;&gt;Github project&lt;/a&gt;&lt;/em&gt; &lt;/br&gt;
+&lt;em&gt;&lt;a href=&#34;https://www.open-notebook.ai/basics.html&#34;&gt;Docs&lt;/a&gt;&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/others/tong_hop_ai_tools/</guid>
+      <pubDate>Wed, 03 Dec 2025 11:33:27 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Ban_them_ve_Rust</title>
       <link>https://vinhlin.github.io/posts/others/ban_them_ve_rust/</link>
       <description>&lt;ul&gt;
@@ -511,156 +650,6 @@ https://docs.x.ai/docs/models?cluster=us-east-1#detailed-pricing-for-all-grok-mo
       <author>VinhLD</author>
       <guid>https://vinhlin.github.io/posts/cybersecurity/technical/ip_scanner/</guid>
       <pubDate>Tue, 18 Nov 2025 16:51:14 +0700</pubDate>
-    </item>
-    
-    <item>
-      <title>Cong_cu_AI</title>
-      <link>https://vinhlin.github.io/posts/others/cong_cu_ai/</link>
-      <description>&lt;p&gt;AI đã là quá phổ biến, với mình &lt;em&gt;&lt;strong&gt;AI là những người thầy tài giỏi, những người hiểu biết sâu và rộng&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;Nhưng mình cũng không phải là người học trò dễ bảo, không phải cứ nói gì là mình sẽ nghe, mình sẽ luôn có những câu hỏi và đặt ngược trở lại.&lt;/p&gt;
-&lt;p&gt;Về các công cụ AI mà mình sử dụng thường xuyên thì hiện tại mình dùng nhiều là &lt;a href=&#34;https://grok.com/&#34;&gt;Grok AI&lt;/a&gt; và &lt;a href=&#34;https://platform.openai.com/settings/organization/usage&#34;&gt;OpenAI&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;tại-sao-lại-là-grok&#34;&gt;Tại sao lại là &lt;strong&gt;Grok&lt;/strong&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Vì Grok thông minh &lt;em&gt;(xem thêm bài viết &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/others/grok_ai/&#34;&gt;Grok_AI&lt;/a&gt;)&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;Hơn nữa dữ liệu của Grok đa dạng, phong phú và gần như real-time&lt;/li&gt;
-&lt;li&gt;Ngoài ra, điểm đặc biệt là Grok free &lt;em&gt;(chatGPT cũng free, vậy khác biệt là đâu?)&lt;/em&gt;:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Grok cho phép mình sử dụng tính năng &lt;strong&gt;tác vụ&lt;/strong&gt;, mặc dù bị giới hạn số lượt nhưng vẫn dùng ngon. Có thể automation thao tác yêu cầu&lt;/em&gt; &lt;/br&gt;
-&lt;em&gt;Grok cho phép mình tạo được rất nhiều ảnh&lt;/em&gt;. &lt;/br&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Chỉ vậy thôi là đã ăn đứt ChatGPT free về tính năng.&lt;/p&gt;
-&lt;h3 id=&#34;tại-sao-lại-dùng-openai-api&#34;&gt;Tại sao lại dùng &lt;strong&gt;OpenAI API&lt;/strong&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Lúc trước thì Grok chưa có API, nhưng tính đến hiện tại &lt;em&gt;(ngày 17/11/2025)&lt;/em&gt; &lt;strong&gt;Grok đã ra mắt API&lt;/strong&gt; &lt;em&gt;(link &lt;a href=&#34;https://docs.x.ai/docs/api-reference#chat-completions&#34;&gt;tài liệu xAI&lt;/a&gt;)&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;Nhưng nếu so sánh với OpenAI API thì hiện tại API của xAI chưa bằng.&lt;/li&gt;
-&lt;li&gt;Còn nếu dùng &lt;strong&gt;ChatGPT plus&lt;/strong&gt; thì mình không dùng hết tính năng, do đó mình nghĩ đến dùng &lt;strong&gt;OpenAI API&lt;/strong&gt; &lt;em&gt;(xem thêm bài viết &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/system-devops/fabric_ai/&#34;&gt;Fabric_AI&lt;/a&gt;)&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Hơn nữa, ngoài việc dùng cho Fabric, thì mình còn dùng API của OpenAI cho việc code.&lt;/li&gt;
-&lt;li&gt;Cụ thể là dùng cho extension &lt;a href=&#34;https://developers.openai.com/codex/ide/&#34;&gt;codex&lt;/a&gt; &lt;em&gt;(Một extension cho vscode, sử dụng OpenAI API)&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;&lt;a href=&#34;https://github.com/openai/codex&#34;&gt;Github của dự án &lt;code&gt;openai/codex&lt;/code&gt;&lt;/a&gt;&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/Others/Cong_cu_AI/Hinh_1.png&#34;
-  alt=&#34;Hinh 1&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;p&gt;Ngoài ra mình còn đang muốn dùng OpenAI API để translation văn bản &lt;em&gt;(thay vì dùng &lt;strong&gt;WPS-AI&lt;/strong&gt;)&lt;/em&gt;.&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://community.openai.com/t/can-we-translate-whole-document-pdf-doc-execil-form-one-langues-to-other/716117/2
-https://platform.openai.com/docs/guides/speech-to-text
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Có một số công cụ khác mà mình có thể cân nhắc như:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://anydoctranslator.toolsmart.ai/pricing?position=top_bar_pricing&#34;&gt;AnyDoc Translator&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;p&gt;Kết quả thu được khi hỏi Grok &lt;em&gt;(có 6 dự án dịch thuật tài liệu)&lt;/em&gt;:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;PDF Translator for Human&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;GitHub Link:&lt;/strong&gt; &lt;a href=&#34;https://github.com/davideuler/pdf-translator-for-human&#34;&gt;davideuler/pdf-translator-for-human&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mô tả ngắn gọn:&lt;/strong&gt; Công cụ dịch PDF “dành cho con người đọc”, hiển thị song song bản gốc và bản dịch, cực kỳ tiện.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Tính năng nổi bật liên quan đến PDF &amp;amp; AI:&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;Dịch từng trang (on-demand)&lt;/li&gt;
-&lt;li&gt;Hỗ trợ Ollama, llama.cpp, MLX (chạy local 100%)&lt;/li&gt;
-&lt;li&gt;ChatGPT, DeepSeek, Gemini&lt;/li&gt;
-&lt;li&gt;Giao diện Streamlit đẹp&lt;/li&gt;
-&lt;li&gt;Giữ layout tốt&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;&lt;strong&gt;PDFMathTranslate&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;GitHub Link:&lt;/strong&gt; &lt;a href=&#34;https://github.com/Byaidu/PDFMathTranslate&#34;&gt;Byaidu/PDFMathTranslate&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mô tả ngắn gọn:&lt;/strong&gt; Chuyên dịch bài báo khoa học, luận văn, tài liệu toán học (giữ công thức LaTeX hoàn hảo).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Tính năng nổi bật liên quan đến PDF &amp;amp; AI:&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;Layout detection bằng YOLO&lt;/li&gt;
-&lt;li&gt;Dịch bằng GPT-4o, DeepL, Ollama, Qwen&lt;/li&gt;
-&lt;li&gt;CLI + GUI + Docker + plugin Zotero&lt;/li&gt;
-&lt;li&gt;Đa luồng, rất nhanh&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;&lt;strong&gt;BabelDOC&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;GitHub Link:&lt;/strong&gt; &lt;a href=&#34;https://github.com/funstory-ai/BabelDOC&#34;&gt;funstory-ai/BabelDOC&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mô tả ngắn gọn:&lt;/strong&gt; Thư viện Python dịch PDF song ngữ (Anh ↔ Trung/Việt), hỗ trợ cả PDF scan.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Tính năng nổi bật liên quan đến PDF &amp;amp; AI:&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;Dùng bất kỳ LLM nào tương thích OpenAI (gpt-4o-mini, Qwen, DeepSeek, v.v.)&lt;/li&gt;
-&lt;li&gt;Glossary tùy chỉnh&lt;/li&gt;
-&lt;li&gt;Output song ngữ hoặc chỉ bản dịch&lt;/li&gt;
-&lt;li&gt;OCR workaround&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;&lt;strong&gt;OpenAI Translator&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;GitHub Link:&lt;/strong&gt; &lt;a href=&#34;https://github.com/DjangoPeng/openai-translator&#34;&gt;DjangoPeng/openai-translator&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mô tả ngắn gọn:&lt;/strong&gt; Ứng dụng desktop chuyên dịch sách PDF tiếng Anh → tiếng Trung (có thể đổi sang tiếng Việt).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Tính năng nổi bật liên quan đến PDF &amp;amp; AI:&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;GUI đơn giản&lt;/li&gt;
-&lt;li&gt;Tự động retry khi lỗi&lt;/li&gt;
-&lt;li&gt;Hỗ trợ ChatGLM local&lt;/li&gt;
-&lt;li&gt;Đang phát triển giữ layout tốt hơn&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol start=&#34;5&#34;&gt;
-&lt;li&gt;&lt;strong&gt;Zotero PDF Translate&lt;/strong&gt; (plugin)&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;GitHub Link:&lt;/strong&gt; &lt;a href=&#34;https://github.com/windingwind/zotero-pdf-translate&#34;&gt;windingwind/zotero-pdf-translate&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mô tả ngắn gọn:&lt;/strong&gt; Plugin Zotero cực mạnh, dịch ngay trong thư viện tài liệu khoa học.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Tính năng nổi bật liên quan đến PDF &amp;amp; AI:&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;Hỗ trợ 20+ engine (GPT, Gemini, Claude, DeepL, Qwen, Ollama, v.v.)&lt;/li&gt;
-&lt;li&gt;Dịch text chọn, annotation, metadata&lt;/li&gt;
-&lt;li&gt;Pop-up song ngữ&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol start=&#34;6&#34;&gt;
-&lt;li&gt;&lt;strong&gt;LingoLift PDF Translator&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;GitHub Link:&lt;/strong&gt; &lt;a href=&#34;https://github.com/lingolift/pdf-translator&#34;&gt;lingolift/pdf-translator&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mô tả ngắn gọn:&lt;/strong&gt; Ứng dụng GUI nhẹ, đẹp, dành cho người dùng phổ thông.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Tính năng nổi bật liên quan đến PDF &amp;amp; AI:&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;Giao diện hiện đại (Electron/Tauri)&lt;/li&gt;
-&lt;li&gt;Dịch nhanh bằng Google Translate hoặc LLM local&lt;/li&gt;
-&lt;li&gt;Tự động phát hiện ngôn ngữ&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/Others/Cong_cu_AI/Hinh_2.png&#34;
-  alt=&#34;Hinh 2&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-</description>
-      <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/others/cong_cu_ai/</guid>
-      <pubDate>Mon, 17 Nov 2025 16:06:59 +0700</pubDate>
     </item>
     
     <item>

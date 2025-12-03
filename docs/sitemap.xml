@@ -2,10 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://vinhlin.github.io/posts/others/ban_them_ve_rust/</loc>
-    <lastmod>2025-11-27T08:47:01+07:00</lastmod>
-  </url><url>
     <loc>https://vinhlin.github.io/posts/</loc>
+    <lastmod>2025-12-03T16:06:59+07:00</lastmod>
+  </url><url>
+    <loc>https://vinhlin.github.io/posts/others/tong_hop_ai_tools/</loc>
+    <lastmod>2025-12-03T11:33:27+07:00</lastmod>
+  </url><url>
+    <loc>https://vinhlin.github.io/posts/others/ban_them_ve_rust/</loc>
     <lastmod>2025-11-27T08:47:01+07:00</lastmod>
   </url><url>
     <loc>https://vinhlin.github.io/posts/others/grok_ai/</loc>
@@ -16,9 +19,6 @@
   </url><url>
     <loc>https://vinhlin.github.io/posts/cybersecurity/technical/ip_scanner/</loc>
     <lastmod>2025-11-18T16:51:14+07:00</lastmod>
-  </url><url>
-    <loc>https://vinhlin.github.io/posts/others/cong_cu_ai/</loc>
-    <lastmod>2025-11-17T16:06:59+07:00</lastmod>
   </url><url>
     <loc>https://vinhlin.github.io/posts/iot/hardware/cmos_sensor/</loc>
     <lastmod>2025-11-13T14:02:43+07:00</lastmod>

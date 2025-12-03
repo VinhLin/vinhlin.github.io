@@ -1,9 +1,15 @@
 +++
 title = 'Cong_cu_AI'
-date = 2025-11-17T16:06:59+07:00
+date = 2025-12-03T16:06:59+07:00
 draft = true
 +++
 
+Ngày	|		Mô tả			|
+--------|---------------------------------------|
+17/11/2025| Khởi tạo bài viết, ghi chú về Grok và OpenAI |
+3/12/2025 | Bổ sung thêm công cụ **Notebook-LM** |
+
+--------------------------------------------------------------------
 AI đã là quá phổ biến, với mình ***AI là những người thầy tài giỏi, những người hiểu biết sâu và rộng***.
 
 Nhưng mình cũng không phải là người học trò dễ bảo, không phải cứ nói gì là mình sẽ nghe, mình sẽ luôn có những câu hỏi và đặt ngược trở lại.
@@ -25,7 +31,7 @@ Chỉ vậy thôi là đã ăn đứt ChatGPT free về tính năng.
 - Còn nếu dùng **ChatGPT plus** thì mình không dùng hết tính năng, do đó mình nghĩ đến dùng **OpenAI API** *(xem thêm bài viết [Fabric_AI](https://blog.vinhld-homelab.io.vn/posts/system-devops/fabric_ai/))*
 - Hơn nữa, ngoài việc dùng cho Fabric, thì mình còn dùng API của OpenAI cho việc code.
 - Cụ thể là dùng cho extension [codex](https://developers.openai.com/codex/ide/) *(Một extension cho vscode, sử dụng OpenAI API)*
-> *[Github của dự án `openai/codex`](https://github.com/openai/codex)* </br>
+> ***[Github của dự án `openai/codex`](https://github.com/openai/codex)*** </br>
 
 ![Hinh 1](/image/Others/Cong_cu_AI/Hinh_1.png)
 
@@ -35,64 +41,27 @@ https://community.openai.com/t/can-we-translate-whole-document-pdf-doc-execil-fo
 https://platform.openai.com/docs/guides/speech-to-text
 ```
 
-Có một số công cụ khác mà mình có thể cân nhắc như:
-- [AnyDoc Translator](https://anydoctranslator.toolsmart.ai/pricing?position=top_bar_pricing)
-
 --------------------------------------------------------------------
-Kết quả thu được khi hỏi Grok *(có 6 dự án dịch thuật tài liệu)*:
+## Cập nhật ngày 3/12/2025
+- Xem video tham khảo: [Tạo chatbot mạnh mẽ miễn phí nhanh chóng với Notebooklm không cần biết code](https://www.youtube.com/watch?v=o_ATa-vGQ7k)
+- Khi xem xong video này, mình suy nghĩ có thể dùng **NotebookLM** *(của Google)* để xây dựng thư viện tài liệu cá nhân:
+> *Ví dụ như **Thư viện tài liệu QCVN06*** </br>
+> *Hoặc tài liệu datasheet module sim* </br>
 
-1. **PDF Translator for Human**
-- **GitHub Link:** [davideuler/pdf-translator-for-human](https://github.com/davideuler/pdf-translator-for-human)
-- **Mô tả ngắn gọn:** Công cụ dịch PDF “dành cho con người đọc”, hiển thị song song bản gốc và bản dịch, cực kỳ tiện.
-- **Tính năng nổi bật liên quan đến PDF & AI:**
-	- Dịch từng trang (on-demand)
-	- Hỗ trợ Ollama, llama.cpp, MLX (chạy local 100%)
-	- ChatGPT, DeepSeek, Gemini
-	- Giao diện Streamlit đẹp
-	- Giữ layout tốt
-
-2. **PDFMathTranslate**
-- **GitHub Link:** [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)
-- **Mô tả ngắn gọn:** Chuyên dịch bài báo khoa học, luận văn, tài liệu toán học (giữ công thức LaTeX hoàn hảo).
-- **Tính năng nổi bật liên quan đến PDF & AI:** 
-	- Layout detection bằng YOLO
-	- Dịch bằng GPT-4o, DeepL, Ollama, Qwen
-	- CLI + GUI + Docker + plugin Zotero
-	- Đa luồng, rất nhanh
-
-3. **BabelDOC**
-- **GitHub Link:** [funstory-ai/BabelDOC](https://github.com/funstory-ai/BabelDOC)
-- **Mô tả ngắn gọn:** Thư viện Python dịch PDF song ngữ (Anh ↔ Trung/Việt), hỗ trợ cả PDF scan.
-- **Tính năng nổi bật liên quan đến PDF & AI:** 
-	- Dùng bất kỳ LLM nào tương thích OpenAI (gpt-4o-mini, Qwen, DeepSeek, v.v.)
-	- Glossary tùy chỉnh
-	- Output song ngữ hoặc chỉ bản dịch
-	- OCR workaround
-
-4. **OpenAI Translator**
-- **GitHub Link:** [DjangoPeng/openai-translator](https://github.com/DjangoPeng/openai-translator)
-- **Mô tả ngắn gọn:** Ứng dụng desktop chuyên dịch sách PDF tiếng Anh → tiếng Trung (có thể đổi sang tiếng Việt).
-- **Tính năng nổi bật liên quan đến PDF & AI:** 
-	- GUI đơn giản
-	- Tự động retry khi lỗi
-	- Hỗ trợ ChatGLM local
-	- Đang phát triển giữ layout tốt hơn
-
-5. **Zotero PDF Translate** (plugin)
-- **GitHub Link:** [windingwind/zotero-pdf-translate](https://github.com/windingwind/zotero-pdf-translate)
-- **Mô tả ngắn gọn:** Plugin Zotero cực mạnh, dịch ngay trong thư viện tài liệu khoa học.
-- **Tính năng nổi bật liên quan đến PDF & AI:** 
-	- Hỗ trợ 20+ engine (GPT, Gemini, Claude, DeepL, Qwen, Ollama, v.v.)
-	- Dịch text chọn, annotation, metadata
-	- Pop-up song ngữ
-
-6. **LingoLift PDF Translator**
-- **GitHub Link:** [lingolift/pdf-translator](https://github.com/lingolift/pdf-translator)
-- **Mô tả ngắn gọn:** Ứng dụng GUI nhẹ, đẹp, dành cho người dùng phổ thông.
-- **Tính năng nổi bật liên quan đến PDF & AI:** 
-	- Giao diện hiện đại (Electron/Tauri)
-	- Dịch nhanh bằng Google Translate hoặc LLM local
-	- Tự động phát hiện ngôn ngữ
+### NotebookLM
+- Có thể mình sẽ sử dụng **Google AI Plus** *(một gói thành viên của Google One)* chủ yếu cung cấp các lợi ích tập trung vào người dùng cuối:
 
 ![Hinh 2](/image/Others/Cong_cu_AI/Hinh_2.png)
+
+- Gói **Google AI Plus** sẽ khác với việc sử dụng **API trong AI Studio** *(tương tự như việc **ChatGPT** sẽ khác với **OpenAI API**)*.
+- [Trang web của NotebookLM](https://notebooklm.google.com/?original_referer=https:%2F%2Fwww.google.com%23&pli=1)
+
+![Hinh 3](/image/Others/Cong_cu_AI/Hinh_3.png)
+
+![Hinh 4](/image/Others/Cong_cu_AI/Hinh_4.png)
+
+- Đây là link public: `https://notebooklm.google.com/notebook/0df59610-4554-4fdb-9a10-c39f65e33ac0`
+- Chỉ cần có tài khoản google là có thể dùng.
+
+
 
