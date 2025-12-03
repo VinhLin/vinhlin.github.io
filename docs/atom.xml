@@ -153,6 +153,120 @@
     </item>
     
     <item>
+      <title>Cong_cu_AI</title>
+      <link>https://vinhlin.github.io/posts/others/cong_cu_ai/</link>
+      <description>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Ngày&lt;/th&gt;
+&lt;th&gt;Mô tả&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;17/11/2025&lt;/td&gt;
+&lt;td&gt;Khởi tạo bài viết, ghi chú về Grok và OpenAI&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3/12/2025&lt;/td&gt;
+&lt;td&gt;Bổ sung thêm công cụ &lt;strong&gt;Notebook-LM&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;p&gt;AI đã là quá phổ biến, với mình &lt;em&gt;&lt;strong&gt;AI là những người thầy tài giỏi, những người hiểu biết sâu và rộng&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Nhưng mình cũng không phải là người học trò dễ bảo, không phải cứ nói gì là mình sẽ nghe, mình sẽ luôn có những câu hỏi và đặt ngược trở lại.&lt;/p&gt;
+&lt;p&gt;Về các công cụ AI mà mình sử dụng thường xuyên thì hiện tại mình dùng nhiều là &lt;a href=&#34;https://grok.com/&#34;&gt;Grok AI&lt;/a&gt; và &lt;a href=&#34;https://platform.openai.com/settings/organization/usage&#34;&gt;OpenAI&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;tại-sao-lại-là-grok&#34;&gt;Tại sao lại là &lt;strong&gt;Grok&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Vì Grok thông minh &lt;em&gt;(xem thêm bài viết &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/others/grok_ai/&#34;&gt;Grok_AI&lt;/a&gt;)&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Hơn nữa dữ liệu của Grok đa dạng, phong phú và gần như real-time&lt;/li&gt;
+&lt;li&gt;Ngoài ra, điểm đặc biệt là Grok free &lt;em&gt;(chatGPT cũng free, vậy khác biệt là đâu?)&lt;/em&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Grok cho phép mình sử dụng tính năng &lt;strong&gt;tác vụ&lt;/strong&gt;, mặc dù bị giới hạn số lượt nhưng vẫn dùng ngon. Có thể automation thao tác yêu cầu&lt;/em&gt; &lt;/br&gt;
+&lt;em&gt;Grok cho phép mình tạo được rất nhiều ảnh&lt;/em&gt;. &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Chỉ vậy thôi là đã ăn đứt ChatGPT free về tính năng.&lt;/p&gt;
+&lt;h3 id=&#34;tại-sao-lại-dùng-openai-api&#34;&gt;Tại sao lại dùng &lt;strong&gt;OpenAI API&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Lúc trước thì Grok chưa có API, nhưng tính đến hiện tại &lt;em&gt;(ngày 17/11/2025)&lt;/em&gt; &lt;strong&gt;Grok đã ra mắt API&lt;/strong&gt; &lt;em&gt;(link &lt;a href=&#34;https://docs.x.ai/docs/api-reference#chat-completions&#34;&gt;tài liệu xAI&lt;/a&gt;)&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Nhưng nếu so sánh với OpenAI API thì hiện tại API của xAI chưa bằng.&lt;/li&gt;
+&lt;li&gt;Còn nếu dùng &lt;strong&gt;ChatGPT plus&lt;/strong&gt; thì mình không dùng hết tính năng, do đó mình nghĩ đến dùng &lt;strong&gt;OpenAI API&lt;/strong&gt; &lt;em&gt;(xem thêm bài viết &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/system-devops/fabric_ai/&#34;&gt;Fabric_AI&lt;/a&gt;)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Hơn nữa, ngoài việc dùng cho Fabric, thì mình còn dùng API của OpenAI cho việc code.&lt;/li&gt;
+&lt;li&gt;Cụ thể là dùng cho extension &lt;a href=&#34;https://developers.openai.com/codex/ide/&#34;&gt;codex&lt;/a&gt; &lt;em&gt;(Một extension cho vscode, sử dụng OpenAI API)&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/openai/codex&#34;&gt;Github của dự án &lt;code&gt;openai/codex&lt;/code&gt;&lt;/a&gt;&lt;/strong&gt;&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/Cong_cu_AI/Hinh_1.png&#34;
+  alt=&#34;Hinh 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Ngoài ra mình còn đang muốn dùng OpenAI API để translation văn bản &lt;em&gt;(thay vì dùng &lt;strong&gt;WPS-AI&lt;/strong&gt;)&lt;/em&gt;.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://community.openai.com/t/can-we-translate-whole-document-pdf-doc-execil-form-one-langues-to-other/716117/2
+https://platform.openai.com/docs/guides/speech-to-text
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;h2 id=&#34;cập-nhật-ngày-3122025&#34;&gt;Cập nhật ngày 3/12/2025&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Xem video tham khảo: &lt;a href=&#34;https://www.youtube.com/watch?v=o_ATa-vGQ7k&#34;&gt;Tạo chatbot mạnh mẽ miễn phí nhanh chóng với Notebooklm không cần biết code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Khi xem xong video này, mình suy nghĩ có thể dùng &lt;strong&gt;NotebookLM&lt;/strong&gt; &lt;em&gt;(của Google)&lt;/em&gt; để xây dựng thư viện tài liệu cá nhân:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Ví dụ như &lt;strong&gt;Thư viện tài liệu QCVN06&lt;/strong&gt;&lt;/em&gt; &lt;/br&gt;
+&lt;em&gt;Hoặc tài liệu datasheet module sim&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;notebooklm&#34;&gt;NotebookLM&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Có thể mình sẽ sử dụng &lt;strong&gt;Google AI Plus&lt;/strong&gt; &lt;em&gt;(một gói thành viên của Google One)&lt;/em&gt; chủ yếu cung cấp các lợi ích tập trung vào người dùng cuối:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/Cong_cu_AI/Hinh_2.png&#34;
+  alt=&#34;Hinh 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Gói &lt;strong&gt;Google AI Plus&lt;/strong&gt; sẽ khác với việc sử dụng &lt;strong&gt;API trong AI Studio&lt;/strong&gt; &lt;em&gt;(tương tự như việc &lt;strong&gt;ChatGPT&lt;/strong&gt; sẽ khác với &lt;strong&gt;OpenAI API&lt;/strong&gt;)&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://notebooklm.google.com/?original_referer=https:%2F%2Fwww.google.com%23&amp;amp;pli=1&#34;&gt;Trang web của NotebookLM&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/Cong_cu_AI/Hinh_3.png&#34;
+  alt=&#34;Hinh 3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/Cong_cu_AI/Hinh_4.png&#34;
+  alt=&#34;Hinh 4&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Đây là link public: &lt;code&gt;https://notebooklm.google.com/notebook/0df59610-4554-4fdb-9a10-c39f65e33ac0&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Chỉ cần có tài khoản google là có thể dùng.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/others/cong_cu_ai/</guid>
+      <pubDate>Wed, 03 Dec 2025 10:06:59 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Ban_them_ve_Rust</title>
       <link>https://vinhlin.github.io/posts/others/ban_them_ve_rust/</link>
       <description>&lt;ul&gt;
