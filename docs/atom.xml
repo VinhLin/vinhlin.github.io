@@ -14,6 +14,50 @@
     
     
     <item>
+      <title>Mesh_Roaming</title>
+      <link>https://vinhlin.github.io/posts/iot/software/mesh_roaming/</link>
+      <description>&lt;p&gt;Quá trình làm về thiết bị phần cứng &lt;em&gt;(hay công nghệ viễn thông)&lt;/em&gt; thì mình sẽ nghe nhiều về thuật ngữ &lt;strong&gt;Mesh/Roaming&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Và mình đôi khi không phân biệt được thuật ngữ này, nên sẽ cần &lt;strong&gt;ngâm cứu&lt;/strong&gt; và document lại.&lt;/p&gt;
+&lt;h3 id=&#34;tham-khảo&#34;&gt;Tham khảo:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=wQ-DwXmxmBQ&#34;&gt;Mesh, Repeater và Roaming khác nhau thế nào?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=973pWmG7inQ&#34;&gt;Cách Tối Ưu Roaming Wi-Fi Cho Trải Nghiệm Kết Nối Mượt Mà&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tài liệu:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://www.arubanetworks.com/techdocs/central/2.5.7/content/aos10x/cfg/aps/mesh-ap-config.htm
+https://www.arubanetworks.com/techdocs/ArubaOS_60/UserGuide/Mesh.php
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;tổng-quan&#34;&gt;Tổng quan:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Vậy là hai khái niệm &lt;strong&gt;Mesh&lt;/strong&gt; và &lt;strong&gt;Roaming&lt;/strong&gt; là khác nhau.
+&lt;ul&gt;
+&lt;li&gt;Với &lt;strong&gt;Mesh&lt;/strong&gt; thì đây là công nghệ để giúp các &lt;strong&gt;Access Point (AP)&lt;/strong&gt; kết nối với nhau.&lt;/li&gt;
+&lt;li&gt;Còn &lt;strong&gt;Roaming&lt;/strong&gt; là cách mà &lt;strong&gt;client sẽ kết nối với AP&lt;/strong&gt; nào khi vào một vùng phủ sóng.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Trong tài liệu của Aruba thì Mesh nó có 2 khái niệm:
+&lt;ul&gt;
+&lt;li&gt;Mesh Portal: Là khi AP có &lt;strong&gt;cắm dây LAN&lt;/strong&gt;, hoặc kết nối thông qua LAN.&lt;/li&gt;
+&lt;li&gt;Mesh Point: Là khi AP kết nối &lt;strong&gt;không dây&lt;/strong&gt; với nhau.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;bảng-so-sánh&#34;&gt;Bảng so sánh:&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Mesh_Roaming/Hinh_1.png&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/iot/software/mesh_roaming/</guid>
+      <pubDate>Mon, 08 Dec 2025 14:30:29 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Tong_hop_AI_Tools</title>
       <link>https://vinhlin.github.io/posts/others/tong_hop_ai_tools/</link>
       <description>&lt;p&gt;Mình đã từng có bài viết ghi chú về &lt;strong&gt;Các công cụ AI&lt;/strong&gt; mà bản thân đang dùng. &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/others/cong_cu_ai/&#34;&gt;Tham khảo&lt;/a&gt;&lt;/p&gt;

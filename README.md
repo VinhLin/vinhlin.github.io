@@ -112,6 +112,7 @@ hugo new posts/IoT/Software/Rust_for_ARM.md
 hugo new posts/IoT/Software/Desktop_App.md
 hugo new posts/IoT/Software/EMQK_Broker.md
 hugo new posts/IoT/Software/Speedtest_ARMv7l.md
+hugo new posts/IoT/Software/Mesh_Roaming.md
 ```
 
 ### CyberSecurity:

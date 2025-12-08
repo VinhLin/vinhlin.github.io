@@ -16,6 +16,21 @@
 
     
     {
+      "id": "b647c72de5d146eddc98a97e586ddb6ad4187cc5",
+      "title": "Mesh_Roaming",
+      "summary": "",
+      "content_text": "Quá trình làm về thiết bị phần cứng (hay công nghệ viễn thông) thì mình sẽ nghe nhiều về thuật ngữ Mesh/Roaming.\nVà mình đôi khi không phân biệt được thuật ngữ này, nên sẽ cần ngâm cứu và document lại.\nTham khảo: Mesh, Repeater và Roaming khác nhau thế nào? Cách Tối Ưu Roaming Wi-Fi Cho Trải Nghiệm Kết Nối Mượt Mà Tài liệu: https://www.arubanetworks.com/techdocs/central/2.5.7/content/aos10x/cfg/aps/mesh-ap-config.htm https://www.arubanetworks.com/techdocs/ArubaOS_60/UserGuide/Mesh.php Tổng quan: Vậy là hai khái niệm Mesh và Roaming là khác nhau. Với Mesh thì đây là công nghệ để giúp các Access Point (AP) kết nối với nhau. Còn Roaming là cách mà client sẽ kết nối với AP nào khi vào một vùng phủ sóng. Trong tài liệu của Aruba thì Mesh nó có 2 khái niệm: Mesh Portal: Là khi AP có cắm dây LAN, hoặc kết nối thông qua LAN. Mesh Point: Là khi AP kết nối không dây với nhau. Bảng so sánh: ",
+      "content_html": "\u003cp\u003eQuá trình làm về thiết bị phần cứng \u003cem\u003e(hay công nghệ viễn thông)\u003c/em\u003e thì mình sẽ nghe nhiều về thuật ngữ \u003cstrong\u003eMesh/Roaming\u003c/strong\u003e.\u003c/p\u003e\n\u003cp\u003eVà mình đôi khi không phân biệt được thuật ngữ này, nên sẽ cần \u003cstrong\u003engâm cứu\u003c/strong\u003e và document lại.\u003c/p\u003e\n\u003ch3 id=\"tham-khảo\"\u003eTham khảo:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://www.youtube.com/watch?v=wQ-DwXmxmBQ\"\u003eMesh, Repeater và Roaming khác nhau thế nào?\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://www.youtube.com/watch?v=973pWmG7inQ\"\u003eCách Tối Ưu Roaming Wi-Fi Cho Trải Nghiệm Kết Nối Mượt Mà\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003eTài liệu:\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003ehttps://www.arubanetworks.com/techdocs/central/2.5.7/content/aos10x/cfg/aps/mesh-ap-config.htm\nhttps://www.arubanetworks.com/techdocs/ArubaOS_60/UserGuide/Mesh.php\n\u003c/code\u003e\u003c/pre\u003e\u003ch3 id=\"tổng-quan\"\u003eTổng quan:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eVậy là hai khái niệm \u003cstrong\u003eMesh\u003c/strong\u003e và \u003cstrong\u003eRoaming\u003c/strong\u003e là khác nhau.\n\u003cul\u003e\n\u003cli\u003eVới \u003cstrong\u003eMesh\u003c/strong\u003e thì đây là công nghệ để giúp các \u003cstrong\u003eAccess Point (AP)\u003c/strong\u003e kết nối với nhau.\u003c/li\u003e\n\u003cli\u003eCòn \u003cstrong\u003eRoaming\u003c/strong\u003e là cách mà \u003cstrong\u003eclient sẽ kết nối với AP\u003c/strong\u003e nào khi vào một vùng phủ sóng.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eTrong tài liệu của Aruba thì Mesh nó có 2 khái niệm:\n\u003cul\u003e\n\u003cli\u003eMesh Portal: Là khi AP có \u003cstrong\u003ecắm dây LAN\u003c/strong\u003e, hoặc kết nối thông qua LAN.\u003c/li\u003e\n\u003cli\u003eMesh Point: Là khi AP kết nối \u003cstrong\u003ekhông dây\u003c/strong\u003e với nhau.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3 id=\"bảng-so-sánh\"\u003eBảng so sánh:\u003c/h3\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/IoT/Mesh_Roaming/Hinh_1.png\"\n  alt=\"Hình 1\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n",
+      "url": "https://vinhlin.github.io/posts/iot/software/mesh_roaming/",
+      "date_published": "8126-08-09T1230:88:00+07:00",
+      "date_modified": "8126-08-09T1230:88:00+07:00",
+      "author": {
+        "name": "VinhLD",
+        "url": "https://vinhlin.github.io/"
+      }
+    },
+    
+    {
       "id": "57d9cd14495a931faebdde0b0ad119e84b097c7f",
       "title": "Tong_hop_AI_Tools",
       "summary": "",

@@ -69,6 +69,7 @@ STT |		Tiêu đề			|		Mô tả				|
 5   | [Desktop_App][Desktop_App]	| Giới thiệu **C++ Builder**, công cụ build ứng dụng desktop trên Windows |
 6   | [EMQK_Broker][EMQK_Broker]	| Giới thiệu về **EMQK Broker**			|
 7   | [Speedtest_ARMv7l][Speedtest_ARMv7l] | Test công cụ đo **tốc độ mạng** trên `linux ARMv7l` |
+8   | [Mesh_Roaming][Mesh_Roaming]	| Ghi chú về **Mesh/Roaming** trên WiFi		|
 
 [PiKVM]: https://blog.vinhld-homelab.io.vn/posts/iot/software/pikvm/
 [Pi400-Keyboard]: https://blog.vinhld-homelab.io.vn/posts/iot/software/pi400-keyboard/
@@ -77,6 +78,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [Desktop_App]: https://blog.vinhld-homelab.io.vn/posts/iot/software/desktop_app/
 [EMQK_Broker]: https://blog.vinhld-homelab.io.vn/posts/iot/software/emqk_broker/
 [Speedtest_ARMv7l]: https://blog.vinhld-homelab.io.vn/posts/iot/software/speedtest_armv7l/
+[Mesh_Roaming]: https://blog.vinhld-homelab.io.vn/posts/iot/software/mesh_roaming/
 
 ### Rust-lang
 > Tổng hợp ghi chú về ngôn ngữ lập trình **Rust** </br>
