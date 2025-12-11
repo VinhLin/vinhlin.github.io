@@ -67,6 +67,7 @@ hugo new posts/Others/Goi_cuoc_Internet.md
 hugo new posts/Others/Cong_cu_AI.md
 hugo new posts/Others/Ban_them_ve_Rust.md
 hugo new posts/Others/Tong_hop_AI_Tools.md
+hugo new posts/Others/Loc_gio_Xe_may.md
 ```
 
 ### IoT:

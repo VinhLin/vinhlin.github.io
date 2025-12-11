@@ -240,6 +240,7 @@ STT |		Tiêu đề			|		Mô tả				|
 17  | [Cong_cu_AI][Cong_cu_AI]		| Suy nghĩ của mình về các công cụ AI		|
 18  | [Ban_them_ve_Rust][Ban_them_ve_Rust] | Bàn thêm về ngôn ngữ lập trình Rust	|
 19  | [Tong_hop_AI_Tools][Tong_hop_AI_Tools] | Tổng hợp thêm các dự án và công cụ AI	|
+20  | [Loc_gio_Xe_may][Loc_gio_Xe_may]	| Ghi chú về lọc gió xe máy			|
 
 [Ngoai_ngu]: https://blog.vinhld-homelab.io.vn/posts/others/goc_nhin_ve_ngoai_ngu/
 [Hardware_Hacking]: https://blog.vinhld-homelab.io.vn/posts/others/suy_nghi_ve_hardware_hacking/
@@ -260,3 +261,6 @@ STT |		Tiêu đề			|		Mô tả				|
 [Cong_cu_AI]: https://blog.vinhld-homelab.io.vn/posts/others/cong_cu_ai/
 [Ban_them_ve_Rust]: https://blog.vinhld-homelab.io.vn/posts/others/ban_them_ve_rust/
 [Tong_hop_AI_Tools]: https://blog.vinhld-homelab.io.vn/posts/others/tong_hop_ai_tools/
+[Loc_gio_Xe_may]: https://blog.vinhld-homelab.io.vn/posts/others/loc_gio_xe_may/
+
+
