@@ -14,7 +14,10 @@ AI đã là quá phổ biến, với mình ***AI là những người thầy tà
 
 Nhưng mình cũng không phải là người học trò dễ bảo, không phải cứ nói gì là mình sẽ nghe, mình sẽ luôn có những câu hỏi và đặt ngược trở lại.
 
-Về các công cụ AI mà mình sử dụng thường xuyên thì hiện tại mình dùng nhiều là [Grok AI](https://grok.com/) và [OpenAI](https://platform.openai.com/settings/organization/usage)
+Hiện tại, về các công cụ AI mà mình sử dụng thường xuyên thì hiện tại mình dùng nhiều là:
+> [Grok AI](https://grok.com/) </br>
+> [OpenAI](https://platform.openai.com/settings/organization/usage) </br>
+> Google AI: Dùng Gemini và NotebookLM </br>
 
 ### Tại sao lại là **Grok**
 - Vì Grok thông minh *(xem thêm bài viết [Grok_AI](https://blog.vinhld-homelab.io.vn/posts/others/grok_ai/))*.
@@ -63,5 +66,17 @@ https://platform.openai.com/docs/guides/speech-to-text
 - Đây là link public: `https://notebooklm.google.com/notebook/0df59610-4554-4fdb-9a10-c39f65e33ac0`
 - Chỉ cần có tài khoản google là có thể dùng.
 
+### Tạo ảnh bằng Gemini
+- Mình đã mua bản plus của google, nên tận dụng luôn khả năng xử lý ảnh của nó.
+- Đây là một ví dụ về việc tạo hình ảnh:
 
+![Hinh 5](/image/Others/Cong_cu_AI/Hinh_5.png)
+
+- Dùng prompt: `Chuyển phông đen trong hình thành phông trắng`
+
+![Hinh 6](/image/Others/Cong_cu_AI/Hinh_6.png)
+
+- Kết quả: Đạt yêu cầu
+
+![Hinh 7](/image/Others/Cong_cu_AI/Hinh_7.png)
 

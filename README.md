@@ -68,6 +68,7 @@ hugo new posts/Others/Cong_cu_AI.md
 hugo new posts/Others/Ban_them_ve_Rust.md
 hugo new posts/Others/Tong_hop_AI_Tools.md
 hugo new posts/Others/Loc_gio_Xe_may.md
+hugo new posts/Others/Nut_de_no_Oto.md
 ```
 
 ### IoT:
@@ -114,6 +115,7 @@ hugo new posts/IoT/Software/Desktop_App.md
 hugo new posts/IoT/Software/EMQK_Broker.md
 hugo new posts/IoT/Software/Speedtest_ARMv7l.md
 hugo new posts/IoT/Software/Mesh_Roaming.md
+hugo new posts/IoT/Software/openHABian.md
 ```
 
 ### CyberSecurity:

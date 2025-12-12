@@ -14,6 +14,28 @@
     
     
     <item>
+      <title>OpenHABian</title>
+      <link>https://vinhlin.github.io/posts/iot/software/openhabian/</link>
+      <description>&lt;p&gt;Một bài viết nói về dự án mã nguồn mở openHABian: &lt;a href=&#34;https://raspberrytips.com/openhabian-on-raspberry-pi/?utm_source=newsletter&amp;amp;utm_medium=email&amp;amp;utm_campaign=missed_these_they_re_right_now&amp;amp;utm_term=2025-12-11&#34;&gt;How to Install openHABian on Raspberry Pi (Step-by-Step Guide)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Thường nếu nói về điều khiển IoT cho nhà thông minh, thì người ta sẽ nghĩ ngay về &lt;strong&gt;Home Assistant&lt;/strong&gt;. Phải cài đặt và setup cho &lt;strong&gt;Home Assistant&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Còn &lt;strong&gt;openHABian&lt;/strong&gt; thì đã build sẵn image, chỉ chỉ flash vào Raspberry và dùng.&lt;/p&gt;
+&lt;h3 id=&#34;a-quick-comparison-between-openhab-home-assistant-and-domoticz&#34;&gt;A quick comparison between openHAB, Home Assistant, and Domoticz:&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/OpenHABian_Compare.png&#34;
+  alt=&#34;OpenHABian Compare&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/iot/software/openhabian/</guid>
+      <pubDate>Fri, 12 Dec 2025 10:16:39 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Loc_gio_Xe_may</title>
       <link>https://vinhlin.github.io/posts/others/loc_gio_xe_may/</link>
       <description>&lt;p&gt;Mình mặc dù chạy xe máy nhiều, nhưng chỉ đơn giản là &lt;strong&gt;người chạy xe thôi&lt;/strong&gt;, không biết nhiều về cách thao tác tháo lắp.&lt;/p&gt;
@@ -77,6 +99,135 @@ Còn thay thế thì theo nhà máy là khoảng &lt;strong&gt;18000km&lt;/stron
       <author>VinhLD</author>
       <guid>https://vinhlin.github.io/posts/others/loc_gio_xe_may/</guid>
       <pubDate>Thu, 11 Dec 2025 13:47:00 +0700</pubDate>
+    </item>
+    
+    <item>
+      <title>Nut_de_no_Oto</title>
+      <link>https://vinhlin.github.io/posts/others/nut_de_no_oto/</link>
+      <description>&lt;p&gt;Bản thân mình không biết chạy xe ô tô, mà do làm về phụ kiện camera hành trình trên xe ô tô, nên cần phải biết một số thao tác cơ bản.&lt;/p&gt;
+&lt;p&gt;Phòng mình thì có một chiếc &lt;strong&gt;X-Force&lt;/strong&gt; để test thiết bị, xe sếp lớn đang dùng là &lt;strong&gt;BRZ&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Nay sếp báo thiết bị camera làm hết bình, thế là mình và một bạn kỹ thuật xuống kiểm tra.&lt;/p&gt;
+&lt;p&gt;Đánh giá sơ bộ thì camera set sai chế độ parking mode, dòng camera cao cấp như loại &lt;strong&gt;Vietmap SpeedMap M2&lt;/strong&gt; có đến 3 chế độ &lt;strong&gt;Ghi hình đỗ xe&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Ghi hình đỗ xe phát hiện va chạm&lt;/strong&gt;&lt;/em&gt; &lt;/br&gt;
+&lt;em&gt;&lt;strong&gt;Ghi hình đỗ xe Time-Lapse&lt;/strong&gt;&lt;/em&gt; &lt;/br&gt;
+&lt;em&gt;&lt;strong&gt;Ghi hình đỗ xe phát hiện chuyển động&lt;/strong&gt;&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Mà xe sếp đang set là &lt;strong&gt;Ghi hình đỗ xe phát hiện chuyển động&lt;/strong&gt;,
+- Chế độ này thì thiết bị vẫn &lt;strong&gt;hoạt động&lt;/strong&gt;.
+- Chỉ là không ghi hình, thiết bị chỉ ghi hình khi có sự chuyển động &lt;em&gt;(mình đoán là có sự thay đổi về khung hình)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Nên sẽ có sự tiêu hao bình, khi để qua đêm.&lt;/p&gt;
+&lt;p&gt;Sau đó bạn kỹ thuật mở &lt;strong&gt;nắp capo&lt;/strong&gt;, và nói mình nghe về &lt;strong&gt;nút đề nổ của xe&lt;/strong&gt; &lt;em&gt;(nút &lt;strong&gt;Start/Stop Engine&lt;/strong&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&#34;thông-tin&#34;&gt;Thông tin&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Với xe X-Force thì &lt;strong&gt;nút Engine&lt;/strong&gt; chỉ có &lt;strong&gt;2 nấc&lt;/strong&gt;: 1 là ON &lt;em&gt;(bật ACC và các thiết bị điện khác)&lt;/em&gt;, 2 là OFF&lt;/li&gt;
+&lt;li&gt;Còn với dòng BRZ thì khác, nó có đến &lt;strong&gt;3 nấc&lt;/strong&gt;: Bật ACC, ON và OFF&lt;/li&gt;
+&lt;li&gt;Bạn kỹ thuật có dùng VOM để đo dòng tiêu thụ của BRZ &lt;em&gt;(đồng hồ của bạn đo được &lt;strong&gt;tối đa 10A&lt;/strong&gt;)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Khi mở khóa xe, nhấn &lt;strong&gt;nút Engine lần 1&lt;/strong&gt; &lt;em&gt;(trạng thái bật ACC)&lt;/em&gt;, dòng tiêu thụ nhảy vọt lên đến 6A, nhưng duy trì ở mức &lt;strong&gt;2.69A&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/Nut_de_no_Oto/Hinh_1.jpg&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Còn khi nhấn &lt;strong&gt;nút Engine lần 2&lt;/strong&gt;, bật ON lên hết, dòng tiêu thụ nhảy vọt trên 10A &lt;em&gt;(lúc đó đồng hồ kêu bíp bíp =]])&lt;/em&gt;, và duy trì ở mức &lt;strong&gt;9.51A&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/Nut_de_no_Oto/Hinh_2.jpg&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Nhấn &lt;strong&gt;nút Engine lần 3&lt;/strong&gt;, tắt hết và đo thì kết quả là &lt;strong&gt;0.057A&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/Nut_de_no_Oto/Hinh_3.jpg&#34;
+  alt=&#34;Hình 3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Và mình có hỏi &lt;strong&gt;tại sao dòng xe này lại chia thành 3 nấc, còn xe kia thì chỉ có 2 nấc?&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Theo cách bạn trả lời thì mình có thể hiểu là khi chia thành 3 nấc, &lt;strong&gt;xe sẽ không bị quá tải cho bình xe, hoặc xảy ra tình trạng ọt ẹt&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;tham-khảo-thêm-grok-ai&#34;&gt;Tham khảo thêm Grok-AI&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Mình đã có kiến thức mới về Ô-tô, nhưng cũng cần tham khảo và hỏi thêm với Grok AI về những điều mới mẻ này.&lt;/li&gt;
+&lt;li&gt;Theo Grok thì: &lt;strong&gt;Kiểu 1 nấc (nhấn nhẹ là nổ) → Chủ yếu xe Nhật và xe Hàn dùng. Mục tiêu: đơn giản, tiện lợi, người dùng không cần suy nghĩ, phù hợp với số đông.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Còn loại xe &lt;strong&gt;Subaru BRZ&lt;/strong&gt; được &lt;strong&gt;cố ý&lt;/strong&gt; thiết kế để tạo cảm giác thể thao, hoài cổ:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Trên xe đua hoặc xe thể thao cổ, người ta thường có công tắc bật điện riêng và nút đề riêng.&lt;/em&gt; &lt;/br&gt;
+&lt;em&gt;BRZ/GR86 muốn mang lại cảm giác “lên xe – bật điện – nghe tiếng kim đồng hồ, quạt gió – rồi mới đạp phanh đề nổ” giống xe đua.&lt;/em&gt; &lt;/br&gt;
+&lt;em&gt;Nhiều chủ BRZ/86 còn khoe là “nghe tiếng tạch tạch tạch khi nhấn 3 lần tắt máy nghe đã tai lắm!”&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/Nut_de_no_Oto/Hinh_4.png&#34;
+  alt=&#34;Hình 4&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Trên xe BRZ muốn nổ máy thì:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Đạp phanh + nhấn nút 1 lần duy nhất&lt;/strong&gt; → máy nổ ngay lập tức (bất kể trước đó đang ở trạng thái nào: tắt, ACC hay ON). &lt;/br&gt;
+Không đạp phanh thì dù nhấn bao nhiêu lần cũng không nổ máy được, chỉ tuần hoàn &lt;strong&gt;ACC → ON → OFF&lt;/strong&gt;. &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Và đây là kết luận của Grok:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/Nut_de_no_Oto/Hinh_5.png&#34;
+  alt=&#34;Hình 5&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Kết luận của Grok hơi khác tí, nhưng đây cũng chỉ là một góc nhìn.&lt;/li&gt;
+&lt;li&gt;Mình không phải &lt;strong&gt;dân sửa chữa xe ô tô&lt;/strong&gt;, nên chỉ đọc để biết thêm thôi. =]]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ac-quy-xe-ô-tô&#34;&gt;Ac-quy xe ô-tô&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/Nut_de_no_Oto/Hinh_6.png&#34;
+  alt=&#34;Hình 6&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/Nut_de_no_Oto/Hinh_7.png&#34;
+  alt=&#34;Hình 7&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/others/nut_de_no_oto/</guid>
+      <pubDate>Thu, 11 Dec 2025 10:28:51 +0700</pubDate>
     </item>
     
     <item>
@@ -286,7 +437,12 @@ https://www.arubanetworks.com/techdocs/ArubaOS_60/UserGuide/Mesh.php
 &lt;hr&gt;
 &lt;p&gt;AI đã là quá phổ biến, với mình &lt;em&gt;&lt;strong&gt;AI là những người thầy tài giỏi, những người hiểu biết sâu và rộng&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Nhưng mình cũng không phải là người học trò dễ bảo, không phải cứ nói gì là mình sẽ nghe, mình sẽ luôn có những câu hỏi và đặt ngược trở lại.&lt;/p&gt;
-&lt;p&gt;Về các công cụ AI mà mình sử dụng thường xuyên thì hiện tại mình dùng nhiều là &lt;a href=&#34;https://grok.com/&#34;&gt;Grok AI&lt;/a&gt; và &lt;a href=&#34;https://platform.openai.com/settings/organization/usage&#34;&gt;OpenAI&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Hiện tại, về các công cụ AI mà mình sử dụng thường xuyên thì hiện tại mình dùng nhiều là:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://grok.com/&#34;&gt;Grok AI&lt;/a&gt; &lt;/br&gt;
+&lt;a href=&#34;https://platform.openai.com/settings/organization/usage&#34;&gt;OpenAI&lt;/a&gt; &lt;/br&gt;
+Google AI: Dùng Gemini và NotebookLM &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h3 id=&#34;tại-sao-lại-là-grok&#34;&gt;Tại sao lại là &lt;strong&gt;Grok&lt;/strong&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Vì Grok thông minh &lt;em&gt;(xem thêm bài viết &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/others/grok_ai/&#34;&gt;Grok_AI&lt;/a&gt;)&lt;/em&gt;.&lt;/li&gt;
@@ -370,6 +526,44 @@ https://platform.openai.com/docs/guides/speech-to-text
 &lt;li&gt;Đây là link public: &lt;code&gt;https://notebooklm.google.com/notebook/0df59610-4554-4fdb-9a10-c39f65e33ac0&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Chỉ cần có tài khoản google là có thể dùng.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3 id=&#34;tạo-ảnh-bằng-gemini&#34;&gt;Tạo ảnh bằng Gemini&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Mình đã mua bản plus của google, nên tận dụng luôn khả năng xử lý ảnh của nó.&lt;/li&gt;
+&lt;li&gt;Đây là một ví dụ về việc tạo hình ảnh:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/Cong_cu_AI/Hinh_5.png&#34;
+  alt=&#34;Hinh 5&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dùng prompt: &lt;code&gt;Chuyển phông đen trong hình thành phông trắng&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/Cong_cu_AI/Hinh_6.png&#34;
+  alt=&#34;Hinh 6&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Kết quả: Đạt yêu cầu&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/Cong_cu_AI/Hinh_7.png&#34;
+  alt=&#34;Hinh 7&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
 </description>
       <author>VinhLD</author>
       <guid>https://vinhlin.github.io/posts/others/cong_cu_ai/</guid>

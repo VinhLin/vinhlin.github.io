@@ -70,6 +70,7 @@ STT |		Tiêu đề			|		Mô tả				|
 6   | [EMQK_Broker][EMQK_Broker]	| Giới thiệu về **EMQK Broker**			|
 7   | [Speedtest_ARMv7l][Speedtest_ARMv7l] | Test công cụ đo **tốc độ mạng** trên `linux ARMv7l` |
 8   | [Mesh_Roaming][Mesh_Roaming]	| Ghi chú về **Mesh/Roaming** trên WiFi		|
+9   | [openHABian][openHABian]		| Ghi chú về một tool open-source **openHABian**|
 
 [PiKVM]: https://blog.vinhld-homelab.io.vn/posts/iot/software/pikvm/
 [Pi400-Keyboard]: https://blog.vinhld-homelab.io.vn/posts/iot/software/pi400-keyboard/
@@ -79,6 +80,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [EMQK_Broker]: https://blog.vinhld-homelab.io.vn/posts/iot/software/emqk_broker/
 [Speedtest_ARMv7l]: https://blog.vinhld-homelab.io.vn/posts/iot/software/speedtest_armv7l/
 [Mesh_Roaming]: https://blog.vinhld-homelab.io.vn/posts/iot/software/mesh_roaming/
+[openHABian]: https://blog.vinhld-homelab.io.vn/posts/iot/software/openhabian/
 
 ### Rust-lang
 > Tổng hợp ghi chú về ngôn ngữ lập trình **Rust** </br>
@@ -241,6 +243,7 @@ STT |		Tiêu đề			|		Mô tả				|
 18  | [Ban_them_ve_Rust][Ban_them_ve_Rust] | Bàn thêm về ngôn ngữ lập trình Rust	|
 19  | [Tong_hop_AI_Tools][Tong_hop_AI_Tools] | Tổng hợp thêm các dự án và công cụ AI	|
 20  | [Loc_gio_Xe_may][Loc_gio_Xe_may]	| Ghi chú về lọc gió xe máy			|
+21  | [Nut_de_no_Oto][Nut_de_no_Oto]	| Ghi chú về **nút đồ nổ** trên xe ô-tô		|
 
 [Ngoai_ngu]: https://blog.vinhld-homelab.io.vn/posts/others/goc_nhin_ve_ngoai_ngu/
 [Hardware_Hacking]: https://blog.vinhld-homelab.io.vn/posts/others/suy_nghi_ve_hardware_hacking/
@@ -262,5 +265,5 @@ STT |		Tiêu đề			|		Mô tả				|
 [Ban_them_ve_Rust]: https://blog.vinhld-homelab.io.vn/posts/others/ban_them_ve_rust/
 [Tong_hop_AI_Tools]: https://blog.vinhld-homelab.io.vn/posts/others/tong_hop_ai_tools/
 [Loc_gio_Xe_may]: https://blog.vinhld-homelab.io.vn/posts/others/loc_gio_xe_may/
-
+[Nut_de_no_Oto]: https://blog.vinhld-homelab.io.vn/posts/others/nut_de_no_oto/
 
