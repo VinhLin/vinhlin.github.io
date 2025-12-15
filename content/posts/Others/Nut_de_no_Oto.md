@@ -15,13 +15,13 @@ Nay sếp báo thiết bị camera làm hết bình, thế là mình và một b
 > ***Ghi hình đỗ xe Time-Lapse*** </br>
 > ***Ghi hình đỗ xe phát hiện chuyển động*** </br>
 
-Mà xe sếp đang set là **Ghi hình đỗ xe phát hiện chuyển động**, 
+Mà xe sếp đang set là **Ghi hình đỗ xe phát hiện chuyển động**:
 	- Chế độ này thì thiết bị vẫn **hoạt động**.
 	- Chỉ là không ghi hình, thiết bị chỉ ghi hình khi có sự chuyển động *(mình đoán là có sự thay đổi về khung hình)*
 
 Nên sẽ có sự tiêu hao bình, khi để qua đêm.
 
-Sau đó bạn kỹ thuật mở **nắp capo**, và nói mình nghe về **nút đề nổ của xe** *(nút **Start/Stop Engine**)*
+Sau đó bạn kỹ thuật mở **nắp capo**, và nói mình nghe và trao đổi thêm về **nút đề nổ của xe** *(nút **Start/Stop Engine**)*
 
 ### Thông tin
 - Với xe X-Force thì **nút Engine** chỉ có **2 nấc**: 1 là ON *(bật ACC và các thiết bị điện khác)*, 2 là OFF

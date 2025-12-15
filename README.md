@@ -116,6 +116,7 @@ hugo new posts/IoT/Software/EMQK_Broker.md
 hugo new posts/IoT/Software/Speedtest_ARMv7l.md
 hugo new posts/IoT/Software/Mesh_Roaming.md
 hugo new posts/IoT/Software/openHABian.md
+hugo new posts/IoT/Software/Fast_Roaming.md
 ```
 
 ### CyberSecurity:
