@@ -32,9 +32,8 @@ MÌnh không biết về tính năng này, và thế là phải đi hỏi thăm 
 ![Hình 6](/image/IoT/Fast_Roaming/Hinh_6.png)
 
 ## Tài liệu tham khảo thêm
-```
-https://arubanetworking.hpe.com/techdocs/Archived/Instant-AOS-8/Instant_85_WebHelp/Content/instant-ug/wlan-ssid-conf/conf-fast-roam.htm
-```
+- [Configuring Fast Roaming for Wireless Clients](https://arubanetworking.hpe.com/techdocs/Archived/Instant-AOS-8/Instant_85_WebHelp/Content/instant-ug/wlan-ssid-conf/conf-fast-roam.htm)
+- [Optimizing Aruba WLAN for Roaming Devices](https://higherlogicdownload.s3.amazonaws.com/HPE/MigratedAttachments/9B71B25A-80A1-4851-8B5F-21FDC9AB083F-2-VRD_Optimizing-WLAN-for-Roaming-Devices.pdf)
 
 
 

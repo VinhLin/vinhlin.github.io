@@ -170,4 +170,5 @@ hugo new posts/System-DevOps/NAS_FTP.md
 hugo new posts/System-DevOps/DevOps.md
 hugo new posts/System-DevOps/MinIO.md
 hugo new posts/System-DevOps/SafeLine.md
+hugo new posts/System-DevOps/Firewall_System.md
 ```

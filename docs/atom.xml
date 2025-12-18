@@ -14,6 +14,104 @@
     
     
     <item>
+      <title>Firewall_System</title>
+      <link>https://vinhlin.github.io/posts/system-devops/firewall_system/</link>
+      <description>&lt;p&gt;Sau khi xem xong video &lt;a href=&#34;https://www.youtube.com/watch?v=hQkKdXZiVj4&amp;amp;list=WL&amp;amp;index=2&#34;&gt;Complete Privacy Setup for $0, $5, or $13/Month (You Choose)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Điều làm mình chú ý là về phần &lt;strong&gt;Firewall&lt;/strong&gt;. Mình mới biết thêm về các 2 ứng dụng firewall&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Thứ 1: &lt;strong&gt;NetGuard&lt;/strong&gt; ứng dụng firewall cho thiết bị Android&lt;/em&gt; &lt;/br&gt;
+&lt;em&gt;Thứ 2: &lt;strong&gt;Portmaster&lt;/strong&gt; ứng dụng firewall cho Linux hoặc Windows&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;netguardhttpsnetguardme&#34;&gt;&lt;a href=&#34;https://netguard.me/&#34;&gt;NetGuard&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Download từ &lt;a href=&#34;https://play.google.com/store/apps/details?id=eu.faircode.netguard&#34;&gt;Google Play&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;NetGuard là một trong những ứng dụng &lt;strong&gt;firewall không cần root&lt;/strong&gt; phổ biến nhất trên Android.&lt;/li&gt;
+&lt;li&gt;NetGuard &lt;strong&gt;sử dụng VPN local&lt;/strong&gt;, tạo một &lt;strong&gt;kết nối VPN ảo trên thiết bị&lt;/strong&gt; để lọc traffic → Không thể dùng đồng thời với VPN thật (như ExpressVPN, ProtonVPN) trừ khi có cách chain phức tạp.&lt;/li&gt;
+&lt;li&gt;Tính năng chính là &lt;strong&gt;cho phép chặn/mở truy cập internet&lt;/strong&gt; riêng biệt cho từng ứng dụng (Wi-Fi hoặc dữ liệu di động riêng lẻ).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Mình đã cài ứng dụng này trên điện thoại Andoid của mình, mình chặn các &lt;strong&gt;ứng dụng trò chơi offline (hoặc ứng dụng offline)&lt;/strong&gt;, để tránh việc &lt;strong&gt;tải quảng cáo&lt;/strong&gt; khi có kết nối mạng&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/Firewall_System/Hinh_1.jpg&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;portmasterhttpssafingio&#34;&gt;&lt;a href=&#34;https://safing.io/&#34;&gt;Portmaster&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Ứng dụng mình quan tâm nhất, ứng dụng firewall có &lt;strong&gt;GUI&lt;/strong&gt; dùng được trên cả Linux và Windows&lt;/li&gt;
+&lt;li&gt;Documents:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&#34;https://github.com/safing/portmaster&#34;&gt;Github project&lt;/a&gt;&lt;/em&gt; &lt;/br&gt;
+&lt;em&gt;&lt;a href=&#34;https://wiki.safing.io/en/Portmaster/App&#34;&gt;Safing Community Wiki&lt;/a&gt;&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Mình có hỏi Grok như sau: &lt;strong&gt;&amp;ldquo;bản thân linux có iptable, và windows có ứng dụng firewall, tại sao lại dùng thêm công cụ này?&amp;rdquo;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Câu trả lời của Grok là:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/Firewall_System/Hinh_2.png&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/Firewall_System/Hinh_3.png&#34;
+  alt=&#34;Hình 3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/Firewall_System/Hinh_4.png&#34;
+  alt=&#34;Hình 4&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows có firewall, nhưng mình chả bao giờ dùng, và dựa trên phản hồi từ Grok, mình đã cài thử công cụ này:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/Firewall_System/Hinh_5.png&#34;
+  alt=&#34;Hình 5&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/Firewall_System/Hinh_6.png&#34;
+  alt=&#34;Hình 6&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mình cần trải nghiệm thêm và cần thời gian để nắm bắt cách sử dụng nó.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/system-devops/firewall_system/</guid>
+      <pubDate>Thu, 18 Dec 2025 13:57:41 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Fast_Roaming</title>
       <link>https://vinhlin.github.io/posts/iot/software/fast_roaming/</link>
       <description>&lt;p&gt;khi cấu hình SSID trên Aruba, mình thấy có phần gọi là &lt;strong&gt;Fast Roaming&lt;/strong&gt;.&lt;/p&gt;
@@ -81,8 +179,11 @@
 
 &lt;/p&gt;
 &lt;h2 id=&#34;tài-liệu-tham-khảo-thêm&#34;&gt;Tài liệu tham khảo thêm&lt;/h2&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://arubanetworking.hpe.com/techdocs/Archived/Instant-AOS-8/Instant_85_WebHelp/Content/instant-ug/wlan-ssid-conf/conf-fast-roam.htm
-&lt;/code&gt;&lt;/pre&gt;</description>
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://arubanetworking.hpe.com/techdocs/Archived/Instant-AOS-8/Instant_85_WebHelp/Content/instant-ug/wlan-ssid-conf/conf-fast-roam.htm&#34;&gt;Configuring Fast Roaming for Wireless Clients&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://higherlogicdownload.s3.amazonaws.com/HPE/MigratedAttachments/9B71B25A-80A1-4851-8B5F-21FDC9AB083F-2-VRD_Optimizing-WLAN-for-Roaming-Devices.pdf&#34;&gt;Optimizing Aruba WLAN for Roaming Devices&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
       <author>VinhLD</author>
       <guid>https://vinhlin.github.io/posts/iot/software/fast_roaming/</guid>
       <pubDate>Mon, 15 Dec 2025 14:51:28 +0700</pubDate>
