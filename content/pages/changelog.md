@@ -248,6 +248,7 @@ STT |		Tiêu đề			|		Mô tả				|
 19  | [Tong_hop_AI_Tools][Tong_hop_AI_Tools] | Tổng hợp thêm các dự án và công cụ AI	|
 20  | [Loc_gio_Xe_may][Loc_gio_Xe_may]	| Ghi chú về lọc gió xe máy			|
 21  | [Nut_de_no_Oto][Nut_de_no_Oto]	| Ghi chú về **nút đồ nổ** trên xe ô-tô		|
+22  | [Car_System][Car_System]		| Ghi chú và tổng hợp về **Kỹ thuật An toàn Ô tô và Công nghệ ô tô** |
 
 [Ngoai_ngu]: https://blog.vinhld-homelab.io.vn/posts/others/goc_nhin_ve_ngoai_ngu/
 [Hardware_Hacking]: https://blog.vinhld-homelab.io.vn/posts/others/suy_nghi_ve_hardware_hacking/
@@ -270,4 +271,5 @@ STT |		Tiêu đề			|		Mô tả				|
 [Tong_hop_AI_Tools]: https://blog.vinhld-homelab.io.vn/posts/others/tong_hop_ai_tools/
 [Loc_gio_Xe_may]: https://blog.vinhld-homelab.io.vn/posts/others/loc_gio_xe_may/
 [Nut_de_no_Oto]: https://blog.vinhld-homelab.io.vn/posts/others/nut_de_no_oto/
+[Car_System]: https://blog.vinhld-homelab.io.vn/posts/others/car_system/
 

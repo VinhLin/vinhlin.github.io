@@ -2,10 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://vinhlin.github.io/posts/system-devops/firewall_system/</loc>
-    <lastmod>2025-12-18T13:57:41+07:00</lastmod>
+    <loc>https://vinhlin.github.io/posts/others/car_system/</loc>
+    <lastmod>2025-12-18T17:53:28+07:00</lastmod>
   </url><url>
     <loc>https://vinhlin.github.io/posts/</loc>
+    <lastmod>2025-12-18T17:53:28+07:00</lastmod>
+  </url><url>
+    <loc>https://vinhlin.github.io/posts/system-devops/firewall_system/</loc>
     <lastmod>2025-12-18T13:57:41+07:00</lastmod>
   </url><url>
     <loc>https://vinhlin.github.io/posts/iot/software/fast_roaming/</loc>

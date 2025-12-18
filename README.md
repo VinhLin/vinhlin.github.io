@@ -69,6 +69,7 @@ hugo new posts/Others/Ban_them_ve_Rust.md
 hugo new posts/Others/Tong_hop_AI_Tools.md
 hugo new posts/Others/Loc_gio_Xe_may.md
 hugo new posts/Others/Nut_de_no_Oto.md
+hugo new posts/Others/Car_System.md
 ```
 
 ### IoT:

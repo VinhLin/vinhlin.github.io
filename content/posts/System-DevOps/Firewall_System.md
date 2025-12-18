@@ -17,7 +17,9 @@ Sau khi xem xong video [Complete Privacy Setup for $0, $5, or $13/Month (You Cho
 - Tính năng chính là **cho phép chặn/mở truy cập internet** riêng biệt cho từng ứng dụng (Wi-Fi hoặc dữ liệu di động riêng lẻ).
 > *Mình đã cài ứng dụng này trên điện thoại Andoid của mình, mình chặn các **ứng dụng trò chơi offline (hoặc ứng dụng offline)**, để tránh việc **tải quảng cáo** khi có kết nối mạng* </br>
 
-![Hình 1](/image/System-DevOps/Firewall_System/Hinh_1.jpg)
+![Hình 1](/image/System-DevOps/Firewall_System/NetGuard_1.jpg)
+
+![Hình 2](/image/System-DevOps/Firewall_System/NetGuard_2.jpg)
 
 ### [Portmaster](https://safing.io/)
 - Ứng dụng mình quan tâm nhất, ứng dụng firewall có **GUI** dùng được trên cả Linux và Windows
@@ -28,17 +30,17 @@ Sau khi xem xong video [Complete Privacy Setup for $0, $5, or $13/Month (You Cho
 - Mình có hỏi Grok như sau: **"bản thân linux có iptable, và windows có ứng dụng firewall, tại sao lại dùng thêm công cụ này?"**
 - Câu trả lời của Grok là:
 
-![Hình 2](/image/System-DevOps/Firewall_System/Hinh_2.png)
+![Hình 1](/image/System-DevOps/Firewall_System/Portmaster_1.png)
 
-![Hình 3](/image/System-DevOps/Firewall_System/Hinh_3.png)
+![Hình 2](/image/System-DevOps/Firewall_System/Portmaster_2.png)
 
-![Hình 4](/image/System-DevOps/Firewall_System/Hinh_4.png)
+![Hình 3](/image/System-DevOps/Firewall_System/Portmaster_3.png)
 
 - Windows có firewall, nhưng mình chả bao giờ dùng, và dựa trên phản hồi từ Grok, mình đã cài thử công cụ này:
 
-![Hình 5](/image/System-DevOps/Firewall_System/Hinh_5.png)
+![Hình 4](/image/System-DevOps/Firewall_System/Portmaster_4.png)
 
-![Hình 6](/image/System-DevOps/Firewall_System/Hinh_6.png)
+![Hình 5](/image/System-DevOps/Firewall_System/Portmaster_5.png)
 
 - Mình cần trải nghiệm thêm và cần thời gian để nắm bắt cách sử dụng nó.
 
