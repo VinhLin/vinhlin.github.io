@@ -33,6 +33,7 @@ STT |		Tiêu đề			|		Mô tả				|
 21  | [HDR_WDR][HDR_WDR]		| Ghi chú về công nghệ HDR và WDR trên Camera	|
 22  | [CMOS_Sensor][CMOS_Sensor]	| Ghi chú về CMOS Sensor, ví dụ chip `GC4653`	|
 23  | [Test_TF-Card][Test_TF-Card]	| Ghi chú về các cách test thẻ nhớ		|
+24  | [Sim_for_IoT][Sim_for_IoT]	| Ghi chú về data sim cho thiết bị IoT		|
 
 [UNIHIKER]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/unihiker/
 [ESD]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/esd/
@@ -57,6 +58,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [HDR_WDR]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/hdr_wdr/
 [CMOS_Sensor]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/cmos_sensor/
 [Test_TF-Card]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/test_tf-card/
+[Sim_for_IoT]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/sim_for_iot/
 
 ## ***SOFTWARE***
 
@@ -126,6 +128,7 @@ STT |		Tiêu đề			|		Mô tả				|
 6   | [BlueTeam][BlueTeam]		| Ghi chú về tài liệu cho Blue-Team		|
 7   | [Kali_for_ARM][Kali_for_ARM]	| Tổng hợp các Kali-Linux cho Vi xử lý ARM	|
 8   | [Mon_hoc_ATTT][Mon_hoc_ATTT]	| Bài viết về các **Môn học nền tảng cho An toàn thông tin** |
+9   | [OT_Security_Lab][OT_Security_Lab]| Tổng hợp tài liệu về Lab cho **OT Security**	|
 
 [News]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/news/
 [Tools]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/tools/
@@ -135,6 +138,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [BlueTeam]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/blueteam/
 [Kali_for_ARM]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/kali_for_arm/
 [Mon_hoc_ATTT]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/mon_hoc_attt/
+[OT_Security_Lab]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/oT_security_lab/
 
 ## ***Technical***
 > Tổng hợp các ghi chú về **Công cụ**, **Kỹ thuật** cũng như **Tư duy** về cả Blue-Team và Red-Team <br>
@@ -202,6 +206,7 @@ STT |		Tiêu đề			|		Mô tả				|
 15  | [MinIO][MinIO]			| Ghi chú về giải pháp *object storage* **MinIO** |
 16  | [SafeLine][SafeLine]		| Ghi chú về giải pháp mã nguồn mở, WAF cho hạ tầng |
 17  | [Firewall_System][Firewall_System]| Ghi chú về các **công cụ firewall** cho Android, Linux và Windows |
+18  | [Fleet_Platform][Fleet_Platform]	| Tổng hợp tài liệu về **Fleet Platform**	|
 
 [Permission_Linux]: https://blog.vinhld-homelab.io.vn/posts/system-devops/permission_linux/
 [Huly]: https://blog.vinhld-homelab.io.vn/posts/system-devops/huly/
@@ -220,6 +225,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [MinIO]: https://blog.vinhld-homelab.io.vn/posts/system-devops/minio/
 [SafeLine]: https://blog.vinhld-homelab.io.vn/posts/system-devops/safeline/
 [Firewall_System]: https://blog.vinhld-homelab.io.vn/posts/system-devops/firewall_system/
+[Fleet_Platform]: https://blog.vinhld-homelab.io.vn/posts/system-devops/fleet_platform/
 
 -----------------------------------------------------------------------------------------
 # <mark>Others</mark>

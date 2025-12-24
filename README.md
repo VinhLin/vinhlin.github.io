@@ -98,6 +98,7 @@ hugo new posts/IoT/Hardware/Xiaozhi_ESP32.md
 hugo new posts/IoT/Hardware/HDR_WDR.md
 hugo new posts/IoT/Hardware/CMOS_Sensor.md
 hugo new posts/IoT/Hardware/Test_TF-Card.md
+hugo new posts/IoT/Hardware/Sim_for_IoT.md
 ```
 - Software
 ```
@@ -130,6 +131,7 @@ hugo new posts/CyberSecurity/CTF_Hardware.md
 hugo new posts/CyberSecurity/BlueTeam.md
 hugo new posts/CyberSecurity/Kali_for_ARM.md
 hugo new posts/CyberSecurity/Mon_hoc_ATTT.md
+hugo new posts/CyberSecurity/OT_Security_Lab.md
 ```
 - Technical
 ```
@@ -172,4 +174,5 @@ hugo new posts/System-DevOps/DevOps.md
 hugo new posts/System-DevOps/MinIO.md
 hugo new posts/System-DevOps/SafeLine.md
 hugo new posts/System-DevOps/Firewall_System.md
+hugo new posts/System-DevOps/Fleet_Platform.md
 ```

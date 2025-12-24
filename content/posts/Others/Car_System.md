@@ -24,7 +24,7 @@ draft = true
 - Khi va chạm tốc độ thấp (ví dụ dưới 15 km/h), chúng có thể biến dạng và phục hồi hoặc thay thế để giảm chi phí sửa chữa và bảo vệ khung chính.
 
 ### 3. Khung An toàn (Safety Cage / Safety Ketch):
- -Đây là **pháo đài cuối cùng** bao quanh hành khách, là lớp phòng thủ trong cùng của khung xe, gồm các cột A, B, C và các thanh giằng thép.
+- Đây là **pháo đài cuối cùng** bao quanh hành khách, là lớp phòng thủ trong cùng của khung xe, gồm các cột A, B, C và các thanh giằng thép.
 - Khác với Crumble Zone, Safety Ketch phải **cực kỳ cứng vững**.
 - Mục tiêu là duy trì vùng sống còn cho người ngồi bên trong, không để cấu trúc xâm nhập dù chỉ vài cm.
 - Các hãng xe thường ứng dụng **thép cường độ siêu cao (Ultra High Steel)** cho cột A và rầm cửa.
@@ -72,7 +72,7 @@ draft = true
 - **Giới hạn:** AEB thường được thiết kế chủ yếu cho môi trường đô thị hoặc tốc độ vừa phải; đa số hệ thống giảm hiệu quả hoặc ngưng hoạt động khi xe chạy trên 60–70 km/h,. Tương tự như ACC, vật thể đứng yên như xe tải chết máy đôi khi nằm ngoài danh mục ưu tiên nhận dạng của AEB
 
 ### 3. Công nghệ Cảm biến và Giám sát:
-- Các xe hiện đại ứng dụng cảm biến tiên tiến như **Radar, Camera và Lidar** để hỗ trợ người lái,,.
+- Các xe hiện đại ứng dụng cảm biến tiên tiến như **Radar, Camera và Lidar** để hỗ trợ người lái.
 - Để đảm bảo người lái tập trung, một số xe còn có hệ thống giám sát người lái bằng đèn hồng ngoại chiếu vào mặt hoặc camera để theo dõi.
 
 
