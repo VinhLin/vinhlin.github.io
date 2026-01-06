@@ -6,12 +6,154 @@
     <link>https://vinhlin.github.io/</link>
     
     <language>en</language>
-    <copyright>Copyright 2025, Calvin Tran</copyright>
+    <copyright>Copyright 2026, Calvin Tran</copyright>
     <lastBuildDate>Sat, 06 Jul 2024 15:21:33 +0700</lastBuildDate>
     <generator>Hugo - gohugo.io</generator>
     <docs>http://cyber.harvard.edu/rss/rss.html</docs>
     <atom:link href="https://vinhlin.github.io//atom.xml" rel="self" type="application/atom+xml"/>
     
+    
+    <item>
+      <title>GPS_Signal</title>
+      <link>https://vinhlin.github.io/posts/iot/hardware/gps_signal/</link>
+      <description>&lt;p&gt;Khi làm nhiều về thiết bị tracker hoặc camera hành trình có cảnh báo giao thông, thì yếu tố rất quan trọng đó chính là &lt;strong&gt;tín hiệu GPS&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Với kiến thức của bản thân và trao đổi thêm với AI, thì có các yếu tố sau ảnh hưởng đến GPS. &lt;em&gt;(Tham khảo thêm video &lt;a href=&#34;https://www.youtube.com/watch?v=Q_mP5WZdjSQ&#34;&gt;Fixing a Poor GPS Signal: Step-by-Step Tutorial&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&#34;1-phim-cách-nhiệt-window-tint&#34;&gt;1. Phim cách nhiệt (Window Tint)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Đây là một trong những &lt;strong&gt;nguyên nhân phổ biến nhất&lt;/strong&gt; gây nhiễu sóng GPS.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Phim chứa kim loại:&lt;/strong&gt; Nhiều loại phim cách nhiệt có lớp phủ kim loại (metallic) để phản xạ nhiệt. Tuy nhiên, lớp kim loại này cũng vô tình trở thành một &lt;strong&gt;&amp;ldquo;chiếc lồng&amp;rdquo;&lt;/strong&gt; ngăn cản sóng vệ tinh truyền tới đầu thu GPS của camera.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cách kiểm tra:&lt;/strong&gt; Nếu bạn hạ kính xe xuống mà GPS bắt tín hiệu nhanh hơn, khả năng cao phim cách nhiệt là thủ phạm.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-môi-trường-và-địa-hình-urban-canyons--obstacles&#34;&gt;2. Môi trường và Địa hình (Urban Canyons &amp;amp; Obstacles)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Khu vực đô thị dày đặc:&lt;/strong&gt; Các &lt;strong&gt;tòa nhà cao tầng&lt;/strong&gt; có thể che khuất hoặc làm phản xạ tín hiệu (hiện tượng đa đường - multipath), khiến camera nhận tín hiệu sai lệch.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vật cản tự nhiên:&lt;/strong&gt; Tầm nhìn bị hạn chế khi xe di chuyển &lt;strong&gt;trong hầm, dưới cầu vượt, trong hẻm sâu, rừng cây rậm rạp hoặc các cung đường núi dốc&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Thời tiết:&lt;/strong&gt; Mưa bão lớn, mây dày đặc hoặc các hiện tượng cực đoan cũng làm suy giảm cường độ tín hiệu.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-nhiễu-điện-từ-electromagnetic-interference&#34;&gt;3. Nhiễu điện từ (Electromagnetic Interference)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Các thiết bị điện tử khác trên xe có thể phát ra sóng làm nhiễu đầu thu GPS:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Thiết bị phát sóng:&lt;/strong&gt; Điện thoại di động, bộ phát Wi-Fi, màn hình Android không đạt chuẩn, hoặc thậm chí là một số bộ sạc tẩu thuốc kém chất lượng có thể gây nhiễu điện từ xung quanh camera.&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;-Các nguồn gây nhiễu phổ biến nhất trong xe, nhiễu điện từ thường đến từ 3 nguồn chính:
+- &lt;strong&gt;Bộ sạc tẩu và cáp nguồn kém chất lượng:&lt;/strong&gt; Các bộ chuyển đổi điện áp (từ 12V xuống 5V) rẻ tiền thường không có lớp bọc chống nhiễu tốt. Chúng tạo ra các xung điện dọc theo dây dẫn, biến dây nguồn thành một &amp;ldquo;anten phát nhiễu&amp;rdquo; ngay sát camera.
+- &lt;strong&gt;Màn hình Android và các thiết bị giải trí:&lt;/strong&gt; Màn hình ô tô không đạt chuẩn EMC (Tương thích điện từ) phát ra bức xạ điện từ rất mạnh từ vi xử lý và đèn nền, có thể làm tê liệt anten GPS nếu đặt quá gần.
+- &lt;strong&gt;Điện thoại di động và bộ phát Wi-Fi:&lt;/strong&gt; Khi điện thoại đang truyền tải dữ liệu nặng (4G/5G) hoặc ở khu vực sóng yếu, nó sẽ tăng công suất phát sóng, dễ gây nhiễu cho các thiết bị GPS nhạy cảm ở gần.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Bản thân mình cũng đã mua thử &lt;a href=&#34;https://hshop.vn/may-do-buc-xa-dien-tu-fnirsi-erd-10-4-in-1-electromagnetic-radiation-detector&#34;&gt;Máy đo bức xạ điện từ FNIRSI® ERD-10 4-IN-1 Electromagnetic Radiation Detector&lt;/a&gt;, nhưng cũng chưa biết cách xài cho lắm. =]]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://bizweb.dktcdn.net/thumb/medium/100/522/662/products/fnirsi-erd-10-4-in-1-electromagnetic-radiation-detectorenvironmental-homefnirsifnirsi-1399123.webp?v=1757501485977&#34;
+  alt=&#34;Hinh máy đo bức xạ&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ngoài ra theo tham khảo từ Gemini, thì có thể dùng &lt;strong&gt;Vòng khử nhiễu &lt;em&gt;(Ferrite Core)&lt;/em&gt;&lt;/strong&gt; để lọc nhiễu cho thiết bị.&lt;/li&gt;
+&lt;li&gt;Trong môi trường ô tô, dây nguồn của camera hành trình dài từ 2-4 mét. Khi có các xung điện cao tần từ động cơ, bộ sạc hoặc màn hình Android, các dây dẫn này vô tình trở thành những anten thu nhiễu.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Các nhiễu này chạy dọc theo lớp vỏ hoặc lõi dây dưới dạng &lt;strong&gt;dòng điện chế độ chung (Common Mode Current)&lt;/strong&gt;.&lt;/em&gt; &lt;/br&gt;
+&lt;em&gt;Khi các xung nhiễu này đi vào bên trong camera, chúng gây rối loạn cho chip GPS vốn đang cố gắng thu nhận tín hiệu cực yếu từ vệ tinh.&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Và đây là một số hình của &lt;strong&gt;vòng khử nhiễu&lt;/strong&gt; mình lụm được trên shopee:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/GPS_Signal/Ferrite_Core_1.webp&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/GPS_Signal/Ferrite_Core_2.webp&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/GPS_Signal/Ferrite_Core_3.webp&#34;
+  alt=&#34;Hình 3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/GPS_Signal/Ferrite_Core_4.webp&#34;
+  alt=&#34;Hình 4&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/GPS_Signal/Ferrite_Core_5.webp&#34;
+  alt=&#34;Hình 5&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h2 id=&#34;công-nghệ-agpshttpsfptshopcomvntin-tucdanh-giacong-nghe-dinh-vi-a-gps-177212&#34;&gt;&lt;a href=&#34;https://fptshop.com.vn/tin-tuc/danh-gia/cong-nghe-dinh-vi-a-gps-177212&#34;&gt;Công nghệ AGPS&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Thông thường với để cải thiện giúp bắt GPS tốt hơn, thì mình sẽ dùng đến &lt;strong&gt;AGPS&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Công nghệ AGPS nó không thay thế GPS mà là &lt;strong&gt;bổ trợ&lt;/strong&gt; cho GPS, giúp thiết bị bắt được tín hiệu nhanh hơn.&lt;/p&gt;
+&lt;p&gt;Dưới đây là đoạn hội thoại mình hỏi và Grok trả lời:&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/GPS_Signal/AGPS_1.png&#34;
+  alt=&#34;Hình 6&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/GPS_Signal/AGPS_2.png&#34;
+  alt=&#34;Hình 7&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/GPS_Signal/AGPS_3.png&#34;
+  alt=&#34;Hình 8&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/GPS_Signal/AGPS_4.png&#34;
+  alt=&#34;Hình 9&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/iot/hardware/gps_signal/</guid>
+      <pubDate>Tue, 06 Jan 2026 09:13:45 +0700</pubDate>
+    </item>
     
     <item>
       <title>Fleet_Platform</title>

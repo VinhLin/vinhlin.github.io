@@ -34,6 +34,7 @@ STT |		Tiêu đề			|		Mô tả				|
 22  | [CMOS_Sensor][CMOS_Sensor]	| Ghi chú về CMOS Sensor, ví dụ chip `GC4653`	|
 23  | [Test_TF-Card][Test_TF-Card]	| Ghi chú về các cách test thẻ nhớ		|
 24  | [Sim_for_IoT][Sim_for_IoT]	| Ghi chú về data sim cho thiết bị IoT		|
+25  | [GPS_Signal][GPS_Signal]		| Tổng hợp các thông tin về **tín hiệu GPS**	|
 
 [UNIHIKER]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/unihiker/
 [ESD]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/esd/
@@ -59,6 +60,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [CMOS_Sensor]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/cmos_sensor/
 [Test_TF-Card]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/test_tf-card/
 [Sim_for_IoT]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/sim_for_iot/
+[GPS_Signal]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/gps_signal/
 
 ## ***SOFTWARE***
 
@@ -138,7 +140,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [BlueTeam]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/blueteam/
 [Kali_for_ARM]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/kali_for_arm/
 [Mon_hoc_ATTT]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/mon_hoc_attt/
-[OT_Security_Lab]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/oT_security_lab/
+[OT_Security_Lab]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/ot_security_lab/
 
 ## ***Technical***
 > Tổng hợp các ghi chú về **Công cụ**, **Kỹ thuật** cũng như **Tư duy** về cả Blue-Team và Red-Team <br>
