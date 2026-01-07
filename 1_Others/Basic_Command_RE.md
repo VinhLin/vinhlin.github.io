@@ -4,6 +4,17 @@ strings
 
 file
 
+xxd
+
 binwalk
+
+dd
+
+
+
+
+
+
+
 
 
