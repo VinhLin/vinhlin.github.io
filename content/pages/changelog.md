@@ -165,6 +165,7 @@ STT |		Tiêu đề			|		Mô tả				|
 16  | [Pentest_API_Tools][Pentest_API_Tools] | Ghi chú về các công cụ **Pentest API**	|
 17  | [Ghost_ESP][Ghost_ESP]		| Dự án **Ghost_ESP**, một công cụ pentest dùng **ESP32-S3** |
 18  | [IP_Scanner][IP_Scanner]		| Ghi chú về các bot, hoặc các Scanner hợp pháp |
+19  | [Exif_Tool][Exif_Tool]		| Giới thiệu công cụ lấy **metadata** ảnh chụp		|
 
 [NIS2]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/nis2/
 [FW_CheckList]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/firewall_checklist/
@@ -184,6 +185,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [Pentest_API_Tools]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/pentest_api_tools/
 [Ghost_ESP]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/ghost_esp/
 [IP_Scanner]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/ip_scanner/
+[Exif_Tool]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/exif_tool/
 
 -----------------------------------------------------------------------------------------
 # <mark>System-DevOps</mark>

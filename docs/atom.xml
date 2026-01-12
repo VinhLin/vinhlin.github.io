@@ -14,6 +14,93 @@
     
     
     <item>
+      <title>Exif_Tool</title>
+      <link>https://vinhlin.github.io/posts/cybersecurity/technical/exif_tool/</link>
+      <description>&lt;p&gt;Tham khảo bài viết &lt;a href=&#34;https://tinhte.vn/thread/exif-la-gi-cach-xem-cach-xoa-exif-cua-anh.3133520/&#34;&gt;Exif là gì? Cách xem &amp;amp; cách xóa Exif của ảnh&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Đây là công cụ để lấy &lt;strong&gt;metadata (dữ liệu ẩn)&lt;/strong&gt; của một bức ảnh, bao gồm &lt;strong&gt;ngày chụp (Date)&lt;/strong&gt; và &lt;strong&gt;vị trí (Location/GPS)&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;cài-đặt-exiftoolhttpsexiftoolorg&#34;&gt;Cài đặt &lt;a href=&#34;https://exiftool.org/&#34;&gt;ExifTool&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Truy cập vào trang chủ, tải về phiên bản cho Windows, sau đó giải nén ra.&lt;/li&gt;
+&lt;li&gt;Theo file &lt;strong&gt;readme&lt;/strong&gt; để sử dụng tool bằng command-line, thì mình cần đổi tên:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;exiftool(-k).exe --&amp;gt; exiftool.exe
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Ngoài ra muốn dùng tool này thì file &lt;code&gt;.exe&lt;/code&gt; phải đi kèm với folder &lt;strong&gt;exiftool_files&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Mình có cài WSL trên Windows, nên sẽ cần add &lt;strong&gt;alias&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Exif_Tool/Hinh_1.png&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Test thử command:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;vinhld@LaptopNitro5-VinhLin:/mnt/c/Users/NITRO/Downloads/New folder$ exiftool -time:all -G1 -a -s z7408390630928_c48f8856535c3dea1335d891ba0dec85.jpg
+[System]        FileModifyDate                  : 2026:01:08 09:41:38+07:00
+[System]        FileAccessDate                  : 2026:01:08 10:37:45+07:00
+[System]        FileCreateDate                  : 2026:01:08 09:41:37+07:00
+[ICC-header]    ProfileDateTime                 : 2019:12:01 00:00:00
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Exif_Tool/Hinh_2.png&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tham khảo thêm command khác:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;exiftool -time:all -G1 -a -s ten_anh.jpg
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;note&#34;&gt;Note&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Thông tin show ra từ &lt;strong&gt;exiftool&lt;/strong&gt; có vẻ không đúng thời điểm mình chụp ảnh.&lt;/li&gt;
+&lt;li&gt;Lên hỏi Gemini thôi =]]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Exif_Tool/Hinh_3.png&#34;
+  alt=&#34;Hình 3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Exif_Tool/Hinh_4.png&#34;
+  alt=&#34;Hình 4&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Quyền riêng tư:&lt;/strong&gt; Nếu ảnh được tải về từ các mạng xã hội như &lt;strong&gt;Facebook, Instagram, Zalo&amp;hellip;&lt;/strong&gt; các nền tảng này thường &lt;strong&gt;tự động xóa sạch metadata&lt;/strong&gt; để bảo vệ quyền riêng tư người dùng.&lt;/em&gt; &lt;/br&gt;
+&lt;em&gt;Trong trường hợp này, bạn sẽ không thể xem được vị trí hay ngày chụp gốc.&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Exif_Tool/Hinh_5.png&#34;
+  alt=&#34;Hình 5&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/cybersecurity/technical/exif_tool/</guid>
+      <pubDate>Mon, 12 Jan 2026 11:53:44 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>GPS_Signal</title>
       <link>https://vinhlin.github.io/posts/iot/hardware/gps_signal/</link>
       <description>&lt;p&gt;Khi làm nhiều về thiết bị tracker hoặc camera hành trình có cảnh báo giao thông, thì yếu tố rất quan trọng đó chính là &lt;strong&gt;tín hiệu GPS&lt;/strong&gt;&lt;/p&gt;

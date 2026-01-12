@@ -2,10 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://vinhlin.github.io/posts/iot/hardware/gps_signal/</loc>
-    <lastmod>2026-01-06T09:13:45+07:00</lastmod>
+    <loc>https://vinhlin.github.io/posts/cybersecurity/technical/exif_tool/</loc>
+    <lastmod>2026-01-12T11:53:44+07:00</lastmod>
   </url><url>
     <loc>https://vinhlin.github.io/posts/</loc>
+    <lastmod>2026-01-12T11:53:44+07:00</lastmod>
+  </url><url>
+    <loc>https://vinhlin.github.io/posts/iot/hardware/gps_signal/</loc>
     <lastmod>2026-01-06T09:13:45+07:00</lastmod>
   </url><url>
     <loc>https://vinhlin.github.io/posts/system-devops/fleet_platform/</loc>
