@@ -259,6 +259,7 @@ STT |		Tiêu đề			|		Mô tả				|
 20  | [Loc_gio_Xe_may][Loc_gio_Xe_may]	| Ghi chú về lọc gió xe máy			|
 21  | [Nut_de_no_Oto][Nut_de_no_Oto]	| Ghi chú về **nút đồ nổ** trên xe ô-tô		|
 22  | [Car_System][Car_System]		| Ghi chú và tổng hợp về **Kỹ thuật An toàn Ô tô và Công nghệ ô tô** |
+23  | [Cong_cu_test_Acquy][Cong_cu_test_Acquy] | Ghi chú về **Công cụ test Ac-quy**	|
 
 [Ngoai_ngu]: https://blog.vinhld-homelab.io.vn/posts/others/goc_nhin_ve_ngoai_ngu/
 [Hardware_Hacking]: https://blog.vinhld-homelab.io.vn/posts/others/suy_nghi_ve_hardware_hacking/
@@ -282,4 +283,5 @@ STT |		Tiêu đề			|		Mô tả				|
 [Loc_gio_Xe_may]: https://blog.vinhld-homelab.io.vn/posts/others/loc_gio_xe_may/
 [Nut_de_no_Oto]: https://blog.vinhld-homelab.io.vn/posts/others/nut_de_no_oto/
 [Car_System]: https://blog.vinhld-homelab.io.vn/posts/others/car_system/
+[Cong_cu_test_Acquy]: https://blog.vinhld-homelab.io.vn/posts/others/cong_cu_test_acquy/
 
