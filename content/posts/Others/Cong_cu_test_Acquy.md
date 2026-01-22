@@ -10,7 +10,7 @@ Hôm bữa, trong team có bạn đem xe đi kiểm tra bình:
 
 ![Hình 1](/image/Others/Cong_cu_test_Acquy/Hinh_1.png)
 
-![Hình 2](/image/Others/Cong_cu_test_Acquy/Hinh_2.png)
+![Hình 2](/image/Others/Cong_cu_test_Acquy/Hinh_2.jpg)
 
 Đây là một kiến thức mới về **điện ô-tô**, mình đã biết thêm về công cụ test bình ac-quy.
 

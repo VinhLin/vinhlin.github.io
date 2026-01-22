@@ -71,6 +71,7 @@ hugo new posts/Others/Loc_gio_Xe_may.md
 hugo new posts/Others/Nut_de_no_Oto.md
 hugo new posts/Others/Car_System.md
 hugo new posts/Others/Cong_cu_test_Acquy.md
+hugo new posts/Others/Tem_phu.md
 ```
 
 ### IoT:
@@ -101,7 +102,6 @@ hugo new posts/IoT/Hardware/CMOS_Sensor.md
 hugo new posts/IoT/Hardware/Test_TF-Card.md
 hugo new posts/IoT/Hardware/Sim_for_IoT.md
 hugo new posts/IoT/Hardware/GPS_Signal.md
-hugo new posts/IoT/Hardware/Cong_cu_test_Acquy.md
 ```
 - Software
 ```
