@@ -1,9 +1,16 @@
 +++
 title = 'The_nho'
-date = 2025-09-11T17:20:43+07:00
+date = 2026-01-23T10:20:43+07:00
 draft = true
 +++
 
+## Changelog
+Date	|		Mô tả			|
+--------|---------------------------------------|
+11/9/25	| Khởi tạo bài viết về thẻ nhớ		|
+23/1/26	| Tổng hợp bổ sung các hãng thẻ nhớ chất lượng |
+
+---------------------------------------------------
 Thẻ nhớ là một trong những phần cứng quan trọng cho các thiết bị như Raspberry Pi, Camera hành trình,...
 
 Việc lựa chọn thẻ nhớ phù hợp, tốc độ đọc/ghi cao là yếu tố vô cùng quan trọng để giúp thiết bị hoạt động ổn định nhất.
@@ -93,4 +100,24 @@ https://www.linkedin.com/pulse/choosing-best-file-format-sd-card-external-hard-d
 - Ví dụ về một thẻ nhớ 64GB, dùng với **camera hành trình của 70mai**:
 
 ![Hình 4](/image/IoT/The_nho/Hinh_4.png)
+
+------------------------------------------------------------------
+## Cập nhật `23/1/2026` - Các hãng thẻ nhớ chất lượng
+
+### Hãng Kioxia - [Thẻ A2V30 của Kioxia](https://www.thegioididong.com/the-nho-dien-thoai/the-nho-kioxia-microsd-g3-128gb-class-10-u3)
+
+![Hình thẻ Kioxia](/image/IoT/The_nho/Kioxia-A2V30.jpg)
+
+### Hãng SanDisk - [Thẻ A2V30 của SanDisk](https://memoryzone.com.vn/the-nho-microsdxc-sandisk-extreme-v30-a2-64gb-170mb-s-sdsqxah-064g-gn6mn)
+
+![Hình thẻ SanDisk](/image/IoT/The_nho/SanDisk-A2V30.webp)
+
+### Hãng Transcend - [Thẻ A1V30 của Transcend ](https://cellphones.com.vn/the-nho-micro-sdxc-transcend-uhs-i-u1-a1-128gb.html)
+
+![Hình thẻ Transcend](/image/IoT/The_nho/Transcend-A1V30.png)
+
+
+
+
+
 

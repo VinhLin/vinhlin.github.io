@@ -116,4 +116,3 @@ chkdsk [tên_ổ_đĩa:] [/f] [/r] [/x] ...
 - Câu lệnh này sẽ giúp mình **kiểm tra các lỗi về ghi file**, chứ không giúp mình biết đc thẻ đó có hư không.
 - Tuy vậy, lệnh này rất hữu ích để giúp mình kiểm tra xem **lỗi đầy thẻ nhớ *(hoặc không ghi hình vòng lặp)***, vì một số camera khi bị ngắt nguồn đột ngột, file video sẽ bị hỏng và lúc này camera không thể xử lý xóa video hỏng đó đc --> **Dẫn đến tình trạng không ghi hình vòng lặp**.
 
-

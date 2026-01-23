@@ -31,5 +31,5 @@ Không ngờ mình bỏ qua yếu tố quan trọng, đó chính là "Tem phụ"
 > *Nhập khẩu -> Về kho để dán thêm "Tem phụ" -> Xuất ra ngoài thị trường* </br>
 
 - Nếu có "tem phụ" sẵn trên hộp thì:
-> *Nhập khẩu -> Về kho và bán luôn *(Như vậy quá trình vận hành sẽ trơn tru hơn)* </br>
+> *Nhập khẩu -> Về kho và bán luôn (Như vậy quá trình vận hành sẽ trơn tru hơn)* </br>
 

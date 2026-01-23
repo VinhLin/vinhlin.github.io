@@ -14,6 +14,302 @@
     
     
     <item>
+      <title>The_nho</title>
+      <link>https://vinhlin.github.io/posts/iot/hardware/the_nho/</link>
+      <description>&lt;h2 id=&#34;changelog&#34;&gt;Changelog&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Mô tả&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;11/9/25&lt;/td&gt;
+&lt;td&gt;Khởi tạo bài viết về thẻ nhớ&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;23/1/26&lt;/td&gt;
+&lt;td&gt;Tổng hợp bổ sung các hãng thẻ nhớ chất lượng&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;p&gt;Thẻ nhớ là một trong những phần cứng quan trọng cho các thiết bị như Raspberry Pi, Camera hành trình,&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Việc lựa chọn thẻ nhớ phù hợp, tốc độ đọc/ghi cao là yếu tố vô cùng quan trọng để giúp thiết bị hoạt động ổn định nhất.&lt;/p&gt;
+&lt;h3 id=&#34;bảng-so-sánh&#34;&gt;Bảng so sánh:&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;strong&gt;STT&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Tiêu chí&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Thẻ_XC&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Thẻ_A1&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Thẻ_A2&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Hình minh họa&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/The_nho/The_SDXC.png&#34;
+  alt=&#34;XC&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/td&gt;
+&lt;td&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/The_nho/The_A1.jpg&#34;
+  alt=&#34;A1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/td&gt;
+&lt;td&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/The_nho/The_A2V30.png&#34;
+  alt=&#34;A2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Class hiệu năng&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Không áp dụng (thẻ gốc cũ)&lt;/td&gt;
+&lt;td&gt;A1&lt;/td&gt;
+&lt;td&gt;A2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;UHS Speed Class&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;U1 hoặc U3 tùy loại&lt;/td&gt;
+&lt;td&gt;U1 hoặc U3 tùy loại&lt;/td&gt;
+&lt;td&gt;U3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Video Speed Class&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Có thể không có hoặc V10/V30&lt;/td&gt;
+&lt;td&gt;V10 hoặc V30&lt;/td&gt;
+&lt;td&gt;V30&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Tốc độ ghi tối thiểu&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;10MB/s (U1), 30MB/s (U3)&lt;/td&gt;
+&lt;td&gt;10MB/s (U1), 30MB/s (U3)&lt;/td&gt;
+&lt;td&gt;30MB/s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Tốc độ IOPS (Random RW)&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Không công bố&lt;/td&gt;
+&lt;td&gt;IOPS ≥ 1500 đọc / 500 ghi&lt;/td&gt;
+&lt;td&gt;IOPS ≥ 4000 đọc / 2000 ghi&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Tốc độ đọc lý thuyết&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;~80-100MB/s (tuỳ loại UHS)&lt;/td&gt;
+&lt;td&gt;~100MB/s&lt;/td&gt;
+&lt;td&gt;~100MB/s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Mục đích sử dụng phù hợp&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Camera hành trình phổ thông, lưu trữ&lt;/td&gt;
+&lt;td&gt;Ứng dụng Android, camera hành trình, game nhẹ&lt;/td&gt;
+&lt;td&gt;Android, camera 4K, app lớn, ghi hình chuyên sâu&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;XC (SDXC)&lt;/strong&gt;: Là chuẩn thẻ hỗ trợ dung lượng &amp;gt;32GB đến 2TB. Không có nghĩa là tốc độ cao, phụ thuộc vào UHS và Video Class.&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;A1 &amp;amp; A2&lt;/strong&gt;: Là chuẩn dành riêng cho thiết bị Android. A2 vượt trội hơn A1 về tốc độ truy xuất ngẫu nhiên (IOPS) — điều quan trọng khi chạy ứng dụng từ thẻ nhớ.&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;tài-liệu-tham-khảo&#34;&gt;Tài liệu tham khảo:&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://www.sdcard.org/developers/sd-standard-overview/capacity-sd-sdhc-sdxc-sduc/
+https://www.sdcard.org/developers/sd-standard-overview/speed-class/
+https://www.sdcard.org/developers/sd-standard-overview/application-performance-class/
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;em&gt;&lt;strong&gt;A2 (Application Performance class 2)&lt;/strong&gt;: yêu cầu tối thiểu 4.000 IOPS read và 2.000 IOPS write dùng cho thiết bị chạy app (Android, Linux)&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;V30 (Video Speed Class 30)&lt;/strong&gt;: dành cho quay video 4K, đảm bảo tốc độ ghi liên tục ≥ 30 MB/s&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;h4 id=&#34;cardcamera&#34;&gt;CardCamera&lt;/h4&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/The_nho/CardCameraEN.png&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h4 id=&#34;speedclass&#34;&gt;SpeedClass&lt;/h4&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/The_nho/SpeedClass9.1EN.png&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Thông tin so sánh và cập nhật thêm từ Grok-AI:&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/The_nho/Hinh_5.png&#34;
+  alt=&#34;Hình 5&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/The_nho/Hinh_6.png&#34;
+  alt=&#34;Hình 6&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h4 id=&#34;uhd&#34;&gt;UHD&lt;/h4&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/The_nho/UHD.png&#34;
+  alt=&#34;Hình 3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;so-sánh-sdhc-và-sdxc&#34;&gt;So sánh SDHC và SDXC&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/The_nho/Hinh_1.png&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;phân-biệt-tốc-độ-của-thẻ-micro-sd&#34;&gt;Phân biệt tốc độ của thẻ Micro SD&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/The_nho/Hinh_2.png&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h2 id=&#34;định-dạng-phù-hợp-chung-cho-tf-card&#34;&gt;Định dạng phù hợp chung cho TF-card:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Thẻ nhớ TF-card &lt;em&gt;(hay còn gọi là MicroSD card)&lt;/em&gt; có thể được định dạng với nhiều file system khác nhau tùy theo dung lượng và mục đích sử dụng.&lt;/li&gt;
+&lt;li&gt;Định dạng phù hợp nhất thường phụ thuộc vào dung lượng thẻ và thiết bị sử dụng (như điện thoại, máy ảnh, máy chơi game).&lt;/li&gt;
+&lt;li&gt;Tài liệu tham khảo:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://www.reddit.com/r/SwitchPirates/comments/10vjb39/what_microsd_format_do_i_need_exfat_or_fat32/
+https://www.linkedin.com/pulse/choosing-best-file-format-sd-card-external-hard-drive-dip-sard/
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;fat32&#34;&gt;FAT32&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Đây là định dạng phổ biến và tương thích cao nhất với hầu hết các thiết bị.&lt;/li&gt;
+&lt;li&gt;Tuy nhiên, nó có &lt;strong&gt;giới hạn file size tối đa 4GB&lt;/strong&gt; và &lt;strong&gt;dung lượng phân vùng tối đa lý thuyết 2TB&lt;/strong&gt; (thực tế thường dùng cho thẻ nhỏ).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/The_nho/FAT32.jpg&#34;
+  alt=&#34;FAT32&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;FAT32 phù hợp nhất cho thẻ MicroSDHC &lt;em&gt;&lt;strong&gt;(dung lượng từ 4GB đến 32GB)&lt;/strong&gt;&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;exfat&#34;&gt;exFAT&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Phù hợp hơn cho thẻ dung lượng lớn, &lt;strong&gt;hỗ trợ file size lớn hơn 4GB&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Hỗ trợ dung lượng lớn và file size không giới hạn thực tế, lý tưởng cho lưu trữ video 4K, file lớn.&lt;/li&gt;
+&lt;li&gt;exFAT phù hợp nhất cho thẻ MicroSDXC &lt;em&gt;&lt;strong&gt;(dung lượng từ 64GB trở lên)&lt;/strong&gt;&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;đối-với-camera&#34;&gt;Đối với camera&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Đối với camera hành trình thì định dạng thẻ nhớ là &lt;strong&gt;FAT32&lt;/strong&gt;, không phân biệt dung lượng của thẻ.&lt;/li&gt;
+&lt;li&gt;Ví dụ về một thẻ nhớ 64GB, dùng với &lt;strong&gt;camera hành trình của Vietmap&lt;/strong&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/The_nho/Hinh_3.png&#34;
+  alt=&#34;Hình 3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ví dụ về một thẻ nhớ 64GB, dùng với &lt;strong&gt;camera hành trình của 70mai&lt;/strong&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/The_nho/Hinh_4.png&#34;
+  alt=&#34;Hình 4&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;cập-nhật-2312026---các-hãng-thẻ-nhớ-chất-lượng&#34;&gt;Cập nhật &lt;code&gt;23/1/2026&lt;/code&gt; - Các hãng thẻ nhớ chất lượng&lt;/h2&gt;
+&lt;h3 id=&#34;hãng-kioxia---thẻ-a2v30-của-kioxiahttpswwwthegioididongcomthe-nho-dien-thoaithe-nho-kioxia-microsd-g3-128gb-class-10-u3&#34;&gt;Hãng Kioxia - &lt;a href=&#34;https://www.thegioididong.com/the-nho-dien-thoai/the-nho-kioxia-microsd-g3-128gb-class-10-u3&#34;&gt;Thẻ A2V30 của Kioxia&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/The_nho/Kioxia-A2V30.jpg&#34;
+  alt=&#34;Hình thẻ Kioxia&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;hãng-sandisk---thẻ-a2v30-của-sandiskhttpsmemoryzonecomvnthe-nho-microsdxc-sandisk-extreme-v30-a2-64gb-170mb-s-sdsqxah-064g-gn6mn&#34;&gt;Hãng SanDisk - &lt;a href=&#34;https://memoryzone.com.vn/the-nho-microsdxc-sandisk-extreme-v30-a2-64gb-170mb-s-sdsqxah-064g-gn6mn&#34;&gt;Thẻ A2V30 của SanDisk&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/The_nho/SanDisk-A2V30.webp&#34;
+  alt=&#34;Hình thẻ SanDisk&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;hãng-transcend---thẻ-a1v30-của-transcend-httpscellphonescomvnthe-nho-micro-sdxc-transcend-uhs-i-u1-a1-128gbhtml&#34;&gt;Hãng Transcend - &lt;a href=&#34;https://cellphones.com.vn/the-nho-micro-sdxc-transcend-uhs-i-u1-a1-128gb.html&#34;&gt;Thẻ A1V30 của Transcend &lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/The_nho/Transcend-A1V30.png&#34;
+  alt=&#34;Hình thẻ Transcend&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/iot/hardware/the_nho/</guid>
+      <pubDate>Fri, 23 Jan 2026 10:20:43 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Tem_phu</title>
       <link>https://vinhlin.github.io/posts/others/tem_phu/</link>
       <description>&lt;p&gt;Khi bên design thiết kế box xong, mình check lại thì lúc đó mình chỉ check về mặt &lt;strong&gt;Thông số kỹ thuật&lt;/strong&gt;.&lt;/p&gt;
@@ -79,7 +375,7 @@
 &lt;li&gt;Nếu có &amp;ldquo;tem phụ&amp;rdquo; sẵn trên hộp thì:&lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote&gt;
-&lt;p&gt;*Nhập khẩu -&amp;gt; Về kho và bán luôn &lt;em&gt;(Như vậy quá trình vận hành sẽ trơn tru hơn)&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Nhập khẩu -&amp;gt; Về kho và bán luôn (Như vậy quá trình vận hành sẽ trơn tru hơn)&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
       <author>VinhLD</author>
@@ -3646,250 +3942,6 @@ Pentesting nhanh với các công cụ như wifite, kismet.
       <author>VinhLD</author>
       <guid>https://vinhlin.github.io/posts/cybersecurity/redteam/</guid>
       <pubDate>Tue, 16 Sep 2025 09:05:38 +0700</pubDate>
-    </item>
-    
-    <item>
-      <title>The_nho</title>
-      <link>https://vinhlin.github.io/posts/iot/hardware/the_nho/</link>
-      <description>&lt;p&gt;Thẻ nhớ là một trong những phần cứng quan trọng cho các thiết bị như Raspberry Pi, Camera hành trình,&amp;hellip;&lt;/p&gt;
-&lt;p&gt;Việc lựa chọn thẻ nhớ phù hợp, tốc độ đọc/ghi cao là yếu tố vô cùng quan trọng để giúp thiết bị hoạt động ổn định nhất.&lt;/p&gt;
-&lt;h3 id=&#34;bảng-so-sánh&#34;&gt;Bảng so sánh:&lt;/h3&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;strong&gt;STT&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Tiêu chí&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Thẻ_XC&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Thẻ_A1&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Thẻ_A2&lt;/strong&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Hình minh họa&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/The_nho/The_SDXC.png&#34;
-  alt=&#34;XC&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/td&gt;
-&lt;td&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/The_nho/The_A1.jpg&#34;
-  alt=&#34;A1&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/td&gt;
-&lt;td&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/The_nho/The_A2V30.png&#34;
-  alt=&#34;A2&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Class hiệu năng&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Không áp dụng (thẻ gốc cũ)&lt;/td&gt;
-&lt;td&gt;A1&lt;/td&gt;
-&lt;td&gt;A2&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;3&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;UHS Speed Class&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;U1 hoặc U3 tùy loại&lt;/td&gt;
-&lt;td&gt;U1 hoặc U3 tùy loại&lt;/td&gt;
-&lt;td&gt;U3&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Video Speed Class&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Có thể không có hoặc V10/V30&lt;/td&gt;
-&lt;td&gt;V10 hoặc V30&lt;/td&gt;
-&lt;td&gt;V30&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;5&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Tốc độ ghi tối thiểu&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;10MB/s (U1), 30MB/s (U3)&lt;/td&gt;
-&lt;td&gt;10MB/s (U1), 30MB/s (U3)&lt;/td&gt;
-&lt;td&gt;30MB/s&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;6&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Tốc độ IOPS (Random RW)&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Không công bố&lt;/td&gt;
-&lt;td&gt;IOPS ≥ 1500 đọc / 500 ghi&lt;/td&gt;
-&lt;td&gt;IOPS ≥ 4000 đọc / 2000 ghi&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;7&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Tốc độ đọc lý thuyết&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;~80-100MB/s (tuỳ loại UHS)&lt;/td&gt;
-&lt;td&gt;~100MB/s&lt;/td&gt;
-&lt;td&gt;~100MB/s&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;8&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Mục đích sử dụng phù hợp&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Camera hành trình phổ thông, lưu trữ&lt;/td&gt;
-&lt;td&gt;Ứng dụng Android, camera hành trình, game nhẹ&lt;/td&gt;
-&lt;td&gt;Android, camera 4K, app lớn, ghi hình chuyên sâu&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;XC (SDXC)&lt;/strong&gt;: Là chuẩn thẻ hỗ trợ dung lượng &amp;gt;32GB đến 2TB. Không có nghĩa là tốc độ cao, phụ thuộc vào UHS và Video Class.&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;A1 &amp;amp; A2&lt;/strong&gt;: Là chuẩn dành riêng cho thiết bị Android. A2 vượt trội hơn A1 về tốc độ truy xuất ngẫu nhiên (IOPS) — điều quan trọng khi chạy ứng dụng từ thẻ nhớ.&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&#34;tài-liệu-tham-khảo&#34;&gt;Tài liệu tham khảo:&lt;/h3&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://www.sdcard.org/developers/sd-standard-overview/capacity-sd-sdhc-sdxc-sduc/
-https://www.sdcard.org/developers/sd-standard-overview/speed-class/
-https://www.sdcard.org/developers/sd-standard-overview/application-performance-class/
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;em&gt;&lt;strong&gt;A2 (Application Performance class 2)&lt;/strong&gt;: yêu cầu tối thiểu 4.000 IOPS read và 2.000 IOPS write dùng cho thiết bị chạy app (Android, Linux)&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;V30 (Video Speed Class 30)&lt;/strong&gt;: dành cho quay video 4K, đảm bảo tốc độ ghi liên tục ≥ 30 MB/s&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
-&lt;h4 id=&#34;cardcamera&#34;&gt;CardCamera&lt;/h4&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/The_nho/CardCameraEN.png&#34;
-  alt=&#34;Hình 1&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;h4 id=&#34;speedclass&#34;&gt;SpeedClass&lt;/h4&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/The_nho/SpeedClass9.1EN.png&#34;
-  alt=&#34;Hình 2&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;p&gt;Thông tin so sánh và cập nhật thêm từ Grok-AI:&lt;/p&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/The_nho/Hinh_5.png&#34;
-  alt=&#34;Hình 5&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/The_nho/Hinh_6.png&#34;
-  alt=&#34;Hình 6&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;h4 id=&#34;uhd&#34;&gt;UHD&lt;/h4&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/The_nho/UHD.png&#34;
-  alt=&#34;Hình 3&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;so-sánh-sdhc-và-sdxc&#34;&gt;So sánh SDHC và SDXC&lt;/h3&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/The_nho/Hinh_1.png&#34;
-  alt=&#34;Hình 1&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;h3 id=&#34;phân-biệt-tốc-độ-của-thẻ-micro-sd&#34;&gt;Phân biệt tốc độ của thẻ Micro SD&lt;/h3&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/The_nho/Hinh_2.png&#34;
-  alt=&#34;Hình 2&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;h2 id=&#34;định-dạng-phù-hợp-chung-cho-tf-card&#34;&gt;Định dạng phù hợp chung cho TF-card:&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Thẻ nhớ TF-card &lt;em&gt;(hay còn gọi là MicroSD card)&lt;/em&gt; có thể được định dạng với nhiều file system khác nhau tùy theo dung lượng và mục đích sử dụng.&lt;/li&gt;
-&lt;li&gt;Định dạng phù hợp nhất thường phụ thuộc vào dung lượng thẻ và thiết bị sử dụng (như điện thoại, máy ảnh, máy chơi game).&lt;/li&gt;
-&lt;li&gt;Tài liệu tham khảo:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://www.reddit.com/r/SwitchPirates/comments/10vjb39/what_microsd_format_do_i_need_exfat_or_fat32/
-https://www.linkedin.com/pulse/choosing-best-file-format-sd-card-external-hard-drive-dip-sard/
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;fat32&#34;&gt;FAT32&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Đây là định dạng phổ biến và tương thích cao nhất với hầu hết các thiết bị.&lt;/li&gt;
-&lt;li&gt;Tuy nhiên, nó có &lt;strong&gt;giới hạn file size tối đa 4GB&lt;/strong&gt; và &lt;strong&gt;dung lượng phân vùng tối đa lý thuyết 2TB&lt;/strong&gt; (thực tế thường dùng cho thẻ nhỏ).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/The_nho/FAT32.jpg&#34;
-  alt=&#34;FAT32&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;FAT32 phù hợp nhất cho thẻ MicroSDHC &lt;em&gt;&lt;strong&gt;(dung lượng từ 4GB đến 32GB)&lt;/strong&gt;&lt;/em&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;exfat&#34;&gt;exFAT&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Phù hợp hơn cho thẻ dung lượng lớn, &lt;strong&gt;hỗ trợ file size lớn hơn 4GB&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Hỗ trợ dung lượng lớn và file size không giới hạn thực tế, lý tưởng cho lưu trữ video 4K, file lớn.&lt;/li&gt;
-&lt;li&gt;exFAT phù hợp nhất cho thẻ MicroSDXC &lt;em&gt;&lt;strong&gt;(dung lượng từ 64GB trở lên)&lt;/strong&gt;&lt;/em&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;đối-với-camera&#34;&gt;Đối với camera&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Đối với camera hành trình thì định dạng thẻ nhớ là &lt;strong&gt;FAT32&lt;/strong&gt;, không phân biệt dung lượng của thẻ.&lt;/li&gt;
-&lt;li&gt;Ví dụ về một thẻ nhớ 64GB, dùng với &lt;strong&gt;camera hành trình của Vietmap&lt;/strong&gt;:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/The_nho/Hinh_3.png&#34;
-  alt=&#34;Hình 3&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Ví dụ về một thẻ nhớ 64GB, dùng với &lt;strong&gt;camera hành trình của 70mai&lt;/strong&gt;:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/The_nho/Hinh_4.png&#34;
-  alt=&#34;Hình 4&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-</description>
-      <author>VinhLD</author>
-      <guid>https://vinhlin.github.io/posts/iot/hardware/the_nho/</guid>
-      <pubDate>Thu, 11 Sep 2025 17:20:43 +0700</pubDate>
     </item>
     
     <item>
