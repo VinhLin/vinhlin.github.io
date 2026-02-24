@@ -104,6 +104,7 @@ hugo new posts/IoT/Hardware/CMOS_Sensor.md
 hugo new posts/IoT/Hardware/Test_TF-Card.md
 hugo new posts/IoT/Hardware/Sim_for_IoT.md
 hugo new posts/IoT/Hardware/GPS_Signal.md
+hugo new posts/IoT/Hardware/He_thong_dieu_khien.md
 ```
 - Software
 ```

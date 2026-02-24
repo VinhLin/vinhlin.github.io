@@ -16,6 +16,21 @@
 
     
     {
+      "id": "f2e53a1d3887be2538ed0279123fef4b31e58faa",
+      "title": "He_thong_dieu_khien",
+      "summary": "",
+      "content_text": "Kiếm được bài viết nói về hệ thống điều khiển, tủ điện trong công nghiệp\nVí dụ như mô hình này Tổng quan hệ thống điều khiển ",
+      "content_html": "\u003cp\u003eKiếm được bài viết nói về \u003cstrong\u003ehệ thống điều khiển, tủ điện\u003c/strong\u003e trong công nghiệp\u003c/p\u003e\n\u003ch3 id=\"ví-dụ-như-mô-hình-này\"\u003eVí dụ như mô hình này\u003c/h3\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/IoT/He_thong_dieu_khien/Hinh_0.jpg\"\n  alt=\"Hình 0\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003ch3 id=\"tổng-quan-hệ-thống-điều-khiển\"\u003eTổng quan hệ thống điều khiển\u003c/h3\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/IoT/He_thong_dieu_khien/Hinh_1.jpg\"\n  alt=\"Hình 1\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/IoT/He_thong_dieu_khien/Hinh_2.jpg\"\n  alt=\"Hình 2\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/IoT/He_thong_dieu_khien/Hinh_3.jpg\"\n  alt=\"Hình 3\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/IoT/He_thong_dieu_khien/Hinh_4.jpg\"\n  alt=\"Hình 4\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/IoT/He_thong_dieu_khien/Hinh_5.jpg\"\n  alt=\"Hình 5\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/IoT/He_thong_dieu_khien/Hinh_6.jpg\"\n  alt=\"Hình 6\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/IoT/He_thong_dieu_khien/Hinh_7.jpg\"\n  alt=\"Hình 7\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/IoT/He_thong_dieu_khien/Hinh_8.jpg\"\n  alt=\"Hình 8\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/IoT/He_thong_dieu_khien/Hinh_9.jpg\"\n  alt=\"Hình 9\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/IoT/He_thong_dieu_khien/Hinh_10.jpg\"\n  alt=\"Hình 10\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n",
+      "url": "https://vinhlin.github.io/posts/iot/hardware/he_thong_dieu_khien/",
+      "date_published": "24026-24-09T214:2424:00+07:00",
+      "date_modified": "24026-24-09T214:2424:00+07:00",
+      "author": {
+        "name": "VinhLD",
+        "url": "https://vinhlin.github.io/"
+      }
+    },
+    
+    {
       "id": "b5dfe83ada1e9fb0fa904bbc4dc89788aeb9eb06",
       "title": "Prompt_AI",
       "summary": "",
