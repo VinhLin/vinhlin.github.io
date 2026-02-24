@@ -24,7 +24,7 @@ publishdir = "docs"
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = "-110"
+    weight = -110
   [[menu.main]]
     identifier = "posts"
     name = "Post"
@@ -35,6 +35,11 @@ publishdir = "docs"
     name = "Changelog"
     url = "/changelog/"
     weight = -290
+  [[menu.main]]
+    identifier = "search"
+    name = "Search"
+    url = "/search/"
+    weight = -150
 
 [markup]
   [markup.goldmark.renderer]

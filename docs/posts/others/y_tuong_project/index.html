@@ -21,7 +21,7 @@ Tuy nhiên mình sẽ làm một số project nhỏ hơn, và sẽ xoay quanh Ho
 Tuy nhiên mình sẽ làm một số project nhỏ hơn, và sẽ xoay quanh Homelab.
 🌱 Ý tưởng bổ sung cho HomeLAB: 👉 Rust Tracking Mình vẫn đang tìm hiểu và học ngôn ngữ lập trình Rust. Để trau dồi thêm khả năng code bằng Rust, mình sẽ setup một dự án cho bản thân, tên dự án hiện tại là Rust_Tracking."><meta itemprop="datePublished" content="2025-02-26T07:52:00+07:00" />
 <meta itemprop="dateModified" content="2025-02-26T07:52:00+07:00" />
-<meta itemprop="wordCount" content="444">
+<meta itemprop="wordCount" content="437">
 <meta itemprop="keywords" content="" />
     
     <link rel="canonical" href="https://vinhlin.github.io/posts/others/y_tuong_project/">
@@ -83,7 +83,7 @@ Tuy nhiên mình sẽ làm một số project nhỏ hơn, và sẽ xoay quanh Ho
       },
       "image": "https://vinhlin.github.io/assets/favicon.ico",
       "url" : "https:\/\/vinhlin.github.io\/posts\/others\/y_tuong_project\/",
-      "wordCount" : "444",
+      "wordCount" : "437",
       "genre" : [ ],
       "keywords" : [ ]
   }
@@ -111,6 +111,9 @@ Tuy nhiên mình sẽ làm một số project nhỏ hơn, và sẽ xoay quanh Ho
     
   <li class="">
     <a href="/posts/"><span>Post</span></a>
+    
+  <li class="">
+    <a href="/search/"><span>Search</span></a>
     
   <li class="">
     <a href="/about/"><span>About</span></a>
@@ -145,7 +148,27 @@ Tuy nhiên mình sẽ làm một số project nhỏ hơn, và sẽ xoay quanh Ho
 <li>App chỉ có tác dụng quét mã để search đơn giá và cho biết hàng tồn kho.</li>
 <li>Khách hàng có thể dùng app này để biết tên hàng, và đơn giá.</li>
 </ul>
-<h3 id="-raspberry-camera">👉 Raspberry Camera</h3>
+<h3 id="-bad-usb">👉 Bad USB</h3>
+<ul>
+<li>Mục đích là để <strong>trau dồi kỹ năng coding dùng ngôn ngữ Rust, và ứng dụng vào Red-Team</strong>.</li>
+<li>Ở đây mình dự định sẽ dùng:</li>
+</ul>
+<pre tabindex="0"><code>Raspberry Pico + Rust-lang + Embassy Framewok
+</code></pre><h2 id="-ý-tưởng-khác">🌱 Ý tưởng khác</h2>
+<ul>
+<li>Dùng AI-Agent để build app chạy trên linux, dùng ngôn ngữ Rust.</li>
+<li>Lấy thông tin chứng khoán từ các trang web <em>(cào dữ liệu)</em></li>
+<li>Custom lại và build dashboard cho dự án.</li>
+<li>Tìm cách build database.</li>
+<li>Tìm cách build mobile app, bằng rust.</li>
+</ul>
+<hr>
+<h2 id="-ý-tưởng-cải-thiện-kỹ-năng-lập-trình-rust">🌱 Ý tưởng cải thiện kỹ năng lập trình Rust:</h2>
+<ul>
+<li>Phục vụ cho công việc.</li>
+<li>Nâng cao kỹ năng lập trình.</li>
+</ul>
+<h3 id="-raspberry-camera">👉 Raspberry-Camera</h3>
 <ul>
 <li>Mục đích là ôn luyện lại về <strong>Rust-lang + Tokio Framework</strong> cũng như đào sâu hơn về <strong>Nhúng Linux</strong>.</li>
 <li>Live-stream local <em>(URL streaming Camera dùng HTTP hoặc RTSP)</em>.</li>
@@ -155,25 +178,6 @@ Tuy nhiên mình sẽ làm một số project nhỏ hơn, và sẽ xoay quanh Ho
 <blockquote>
 <p>Ngoài ra mình sẽ code camera này theo <strong>ONVIF Protocol</strong>, và theo <a href="https://sotttt.angiang.gov.vn/sites/default/files/2025-01/qcvn%20135.2024-%20ip%20camera.pdf">QCVN-135</a></p>
 </blockquote>
-<h3 id="-bad-usb">👉 Bad USB</h3>
-<ul>
-<li>Mục đích là để <strong>trau dồi kỹ năng coding dùng ngôn ngữ Rust, và ứng dụng vào Red-Team</strong>.</li>
-<li>Ở đây mình dự định sẽ dùng:</li>
-</ul>
-<pre tabindex="0"><code>Raspberry Pico + Rust-lang + Embassy Framewok
-</code></pre><hr>
-<h2 id="-ý-tưởng-cải-thiện-kỹ-năng-lập-trình-rust">🌱 Ý tưởng cải thiện kỹ năng lập trình Rust:</h2>
-<ul>
-<li>Phục vụ cho công việc.</li>
-<li>Nâng cao kỹ năng lập trình.</li>
-</ul>
-<h3 id="-rust-iot-monitor">👉 Rust-IoT-Monitor</h3>
-<ul>
-<li>Viết một <strong>console app</strong> bằng ngôn ngữ Rust.</li>
-<li>Kiểm tra thiết bị IoT đã kết nối với MQTT Broker <em>(EMQX)</em></li>
-<li>Sau đó sẽ push những thông tin này cho ThingsBoard <em>(tạo một dashboard sẵn)</em></li>
-<li>Nếu một thiết bị đã kết nối và bị disconnect thì sẽ có một notifi tới Telegram.</li>
-</ul>
 <h3 id="-rust-for-arm">👉 Rust-for-ARM</h3>
 <ul>
 <li>Các thiết bị Camera chạy <code>linux nhúng</code>, thường sẽ có một cổng UART để debug. Nhưng để lấy đc các thông tin debug này khá là phiền phức</li>

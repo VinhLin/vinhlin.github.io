@@ -242,47 +242,59 @@ STT |		Tiêu đề			|		Mô tả				|
 3   | [IoT_Security_JD][JD]		| Mô tả công việc của một job về **IoT Security** |
 4   | [Hoi_thao_2024][Hoi_thao_2024]	| Ghi chú một vài điều thú vị trong video record lại về **Hội thảo CNTT 2024** |
 5   | [Y_tuong_project][Y_tuong_project]| Ghi lại các ý tưởng, và dự định để làm với các dự án nhỏ |
-6   | [Grok_AI][Grok_AI]		| Cảm nghĩ và test thử **Grok 3** của **xAI**.		|
-7   | [Thao_tac_An_toan][Thao_tac_An_toan] | Note lại bài viết của **WhiteHat** về các thao tác an toàn trước dịp lễ |
-8   | [USB_Boot][USB_Boot]		| Ghi chú về cách tạo USB-Boot bằng **AnhDV-Boot**|
-9   | [Hop_do_choi_AI][Hop_do_choi_AI]	| Đu trend "Hộp đồ chơi AI"			|
-10  | [Gia_lap_sut_ap_ACC][Gia_lap_sut_ap_ACC] | Làm bộ giả lập **sụt áp**, **mất nguồn** và **áp tăng đột ngột** trên xe ô tô |
-11  | [HeyGen_AI][HeyGen_AI]		| Giới thiệu về công cụ tạo video AI bằng **HeyGen** |
-12  | [Bo_giam_ap][Bo_giam_ap]		| Làm bộ giảm áp				|
-13  | [Slidev][Slidev]			| Giới thiệu về công cụ **Slidev**		|
-14  | [Android_Xiaomi][Android_Xiaomi]	| Ghi chú về các tính năng thú vị trên Android Xiaomi |
-15  | [SW_Model][SW_Model]		| Ghi chú về các mô hình phát triển Software	|
-16  | [Goi_cuoc_Internet][Goi_cuoc_Internet] | Tổng hợp kiến thức và thông tin về gói cước Internet |
-17  | [Cong_cu_AI][Cong_cu_AI]		| Suy nghĩ của mình về các công cụ AI		|
-18  | [Ban_them_ve_Rust][Ban_them_ve_Rust] | Bàn thêm về ngôn ngữ lập trình Rust	|
-19  | [Tong_hop_AI_Tools][Tong_hop_AI_Tools] | Tổng hợp thêm các dự án và công cụ AI	|
-20  | [Loc_gio_Xe_may][Loc_gio_Xe_may]	| Ghi chú về lọc gió xe máy			|
-21  | [Nut_de_no_Oto][Nut_de_no_Oto]	| Ghi chú về **nút đồ nổ** trên xe ô-tô		|
-22  | [Car_System][Car_System]		| Ghi chú và tổng hợp về **Kỹ thuật An toàn Ô tô và Công nghệ ô tô** |
-23  | [Cong_cu_test_Acquy][Cong_cu_test_Acquy] | Ghi chú về **Công cụ test Ac-quy**	|
-24  | [Tem_phu][Tem_phu]		| Ghi chú lại công dụng của "Tem phụ"		|
+6   | [Thao_tac_An_toan][Thao_tac_An_toan] | Note lại bài viết của **WhiteHat** về các thao tác an toàn trước dịp lễ |
+7   | [USB_Boot][USB_Boot]		| Ghi chú về cách tạo USB-Boot bằng **AnhDV-Boot**|
+8   | [Gia_lap_sut_ap_ACC][Gia_lap_sut_ap_ACC] | Làm bộ giả lập **sụt áp**, **mất nguồn** và **áp tăng đột ngột** trên xe ô tô |
+9   | [Bo_giam_ap][Bo_giam_ap]		| Làm bộ giảm áp				|
+10  | [Slidev][Slidev]			| Giới thiệu về công cụ **Slidev**		|
+11  | [Android_Xiaomi][Android_Xiaomi]	| Ghi chú về các tính năng thú vị trên Android Xiaomi |
+12  | [SW_Model][SW_Model]		| Ghi chú về các mô hình phát triển Software	|
+13  | [Goi_cuoc_Internet][Goi_cuoc_Internet] | Tổng hợp kiến thức và thông tin về gói cước Internet |
+14  | [Ban_them_ve_Rust][Ban_them_ve_Rust] | Bàn thêm về ngôn ngữ lập trình Rust	|
+15  | [Loc_gio_Xe_may][Loc_gio_Xe_may]	| Ghi chú về lọc gió xe máy			|
+16  | [Nut_de_no_Oto][Nut_de_no_Oto]	| Ghi chú về **nút đồ nổ** trên xe ô-tô		|
+17  | [Car_System][Car_System]		| Ghi chú và tổng hợp về **Kỹ thuật An toàn Ô tô và Công nghệ ô tô** |
+18  | [Cong_cu_test_Acquy][Cong_cu_test_Acquy] | Ghi chú về **Công cụ test Ac-quy**	|
+19  | [Tem_phu][Tem_phu]		| Ghi chú lại công dụng của "Tem phụ"		|
 
 [Ngoai_ngu]: https://blog.vinhld-homelab.io.vn/posts/others/goc_nhin_ve_ngoai_ngu/
 [Hardware_Hacking]: https://blog.vinhld-homelab.io.vn/posts/others/suy_nghi_ve_hardware_hacking/
 [JD]: https://blog.vinhld-homelab.io.vn/posts/others/iot_security_jd/
 [Hoi_thao_2024]: https://blog.vinhld-homelab.io.vn/posts/others/hoi_thao_2024/
 [Y_tuong_project]: https://blog.vinhld-homelab.io.vn/posts/others/y_tuong_project/
-[Grok_AI]: https://blog.vinhld-homelab.io.vn/posts/others/grok_ai/
+
 [Thao_tac_An_toan]: https://blog.vinhld-homelab.io.vn/posts/others/thao_tac_an_toan/
 [USB_Boot]: https://blog.vinhld-homelab.io.vn/posts/others/usb_boot/
-[Hop_do_choi_AI]: https://blog.vinhld-homelab.io.vn/posts/others/hop_do_choi_ai/
+
 [Gia_lap_sut_ap_ACC]: https://blog.vinhld-homelab.io.vn/posts/others/gia_lap_sut_ap_acc/
-[HeyGen_AI]: https://blog.vinhld-homelab.io.vn/posts/others/heygen_ai/
+
 [Bo_giam_ap]: https://blog.vinhld-homelab.io.vn/posts/others/bo_giam_ap/
 [Slidev]: https://blog.vinhld-homelab.io.vn/posts/others/slidev/
 [Android_Xiaomi]: https://blog.vinhld-homelab.io.vn/posts/others/android_xiaomi/
 [SW_Model]: https://blog.vinhld-homelab.io.vn/posts/others/sw_model/
 [Goi_cuoc_Internet]: https://blog.vinhld-homelab.io.vn/posts/others/goi_cuoc_internet/
-[Cong_cu_AI]: https://blog.vinhld-homelab.io.vn/posts/others/cong_cu_ai/
+
 [Ban_them_ve_Rust]: https://blog.vinhld-homelab.io.vn/posts/others/ban_them_ve_rust/
-[Tong_hop_AI_Tools]: https://blog.vinhld-homelab.io.vn/posts/others/tong_hop_ai_tools/
+
 [Loc_gio_Xe_may]: https://blog.vinhld-homelab.io.vn/posts/others/loc_gio_xe_may/
 [Nut_de_no_Oto]: https://blog.vinhld-homelab.io.vn/posts/others/nut_de_no_oto/
 [Car_System]: https://blog.vinhld-homelab.io.vn/posts/others/car_system/
 [Cong_cu_test_Acquy]: https://blog.vinhld-homelab.io.vn/posts/others/cong_cu_test_acquy/
 [Tem_phu]: https://blog.vinhld-homelab.io.vn/posts/others/tem_phu/
+
+## ***AI***
+
+STT |		Tiêu đề			|		Mô tả				|
+----|-----------------------------------|-----------------------------------------------|
+1   | [Grok_AI][Grok_AI]		| Cảm nghĩ và test thử **Grok 3** của **xAI**.	|
+2   | [Hop_do_choi_AI][Hop_do_choi_AI]	| Đu trend "Hộp đồ chơi AI"			|
+3   | [HeyGen_AI][HeyGen_AI]		| Giới thiệu về công cụ tạo video AI bằng **HeyGen** |
+4   | [Cong_cu_AI][Cong_cu_AI]		| Suy nghĩ của mình về các công cụ AI		|
+5   | [Tong_hop_AI_Tools][Tong_hop_AI_Tools] | Tổng hợp thêm các dự án và công cụ AI	|
+
+[Grok_AI]: https://blog.vinhld-homelab.io.vn/posts/others/grok_ai/
+[Hop_do_choi_AI]: https://blog.vinhld-homelab.io.vn/posts/others/hop_do_choi_ai/
+[HeyGen_AI]: https://blog.vinhld-homelab.io.vn/posts/others/heygen_ai/
+[Cong_cu_AI]: https://blog.vinhld-homelab.io.vn/posts/others/cong_cu_ai/
+[Tong_hop_AI_Tools]: https://blog.vinhld-homelab.io.vn/posts/others/tong_hop_ai_tools/
+
