@@ -1,2 +1,856 @@
-<!doctype html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><meta name=author content="Liste - https://vinhlin.github.io/"><title>Posts | VinhLin</title><meta name=description content="Technology Blog"><meta property="og:url" content="https://vinhlin.github.io/posts/"><meta property="og:site_name" content="VinhLin"><meta property="og:title" content="Posts"><meta property="og:description" content="Technology Blog"><meta property="og:locale" content="en_us"><meta property="og:type" content="website"><meta itemprop=name content="Posts"><meta itemprop=description content="Technology Blog"><link rel=canonical href=https://vinhlin.github.io/posts/><link rel=icon href=https://vinhlin.github.io//assets/favicon.ico><link rel=dns-prefetch href=https://www.google-analytics.com><link href=https://www.google-analytics.com rel=preconnect crossorigin><link rel=alternate type=application/atom+xml title=VinhLin href=https://vinhlin.github.io//atom.xml><link rel=alternate type=application/json title=VinhLin href=https://vinhlin.github.io//feed.json><link rel="shortcut icon" type=image/png href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII="><style>*,:after,:before{box-sizing:border-box;padding:0}body{font:1rem/1.5 '-apple-system',BlinkMacSystemFont,avenir next,avenir,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding:2rem;background:#f5f5f5;color:#000}.skip-link{position:absolute;top:-40px;left:0;background:#eee;z-index:100}.skip-link:focus{top:0}h1,h2,h3,h4,h5,strong,b{font-size:inherit;font-weight:600}header{line-height:2;padding-bottom:1.5rem}.link{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-decoration:none}.time{font-variant-numeric:tabular-nums;white-space:nowrap}blockquote{border-left:5px solid #eee;padding-left:1rem;margin:0}a,a:visited{color:inherit}a:hover,a.heading-link{text-decoration:none}pre{padding:.5rem;overflow:auto;overflow-x:scroll;overflow-wrap:normal}code,pre{font-family:San Francisco Mono,Monaco,consolas,lucida console,dejavu sans mono,bitstream vera sans mono,monospace;font-size:normal;font-size:small;background:#eee}code{margin:.1rem;border:none}ul{list-style-type:square}ul,ol{padding-left:1.2rem}.list{line-height:2;list-style-type:none;padding-left:0}.list li{padding-bottom:.1rem}.meta{color:#777}.content{max-width:70ch;margin:0 auto}header{line-height:2;display:flex;justify-content:space-between;padding-bottom:1rem}header a{text-decoration:none}header ul{list-style-type:none;padding:0}header li,header a{display:inline}h2.post{padding-top:.5rem}header ul a:first-child{padding-left:1rem}.nav{height:1px;background:#000;content:'';max-width:10%}.list li{display:flex;align-items:baseline}.list li time{flex:initial}.hr-list{margin-top:0;margin-bottom:0;margin-right:.5rem;margin-left:.5rem;height:1px;border:0;border-bottom:1px dotted #ccc;flex:1 0 1rem}.m,hr{border:0;margin:3rem 0}img{max-width:100%;height:auto}.post-date{margin:5% 0}.index-date{color:#9a9a9a}.animate-blink{animation:opacity 1s infinite;opacity:1}@keyframes opacity{0%{opacity:1}50%{opacity:.5}100%{opacity:0}}.tags{display:flex;justify-content:space-between}.tags ul{padding:0;margin:0}.tags li{display:inline}.avatar{height:120px;width:120px;position:relative;margin:-10px 0 0 15px;float:right;border-radius:50%}table{width:100%;border-collapse:collapse}th,td{border:1px solid #ddd;text-align:left;padding:8px}th{background-color:#f2f2f2}</style></head><body><a class=skip-link href=#main>Skip to main</a><main id=main><div class=content><header><p style=padding:0;margin:0><a href=/><b>VinhLin</b>
-<span class="text-stone-500 animate-blink">▮</span></a></p><ul style=padding:0;margin:0><li><a href=/changelog/><span>Changelog</span></a><li><a href=/posts/><span>Post</span></a><li><a href=/search/><span>Search</span></a><li><a href=/about/><span>About</span></a></li></ul></header><hr class=hr-list style=padding:0;margin:0><section><ul reversed class=list></ul></section></div></main></body></html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Liste - https://vinhlin.github.io/">
+    <title>Posts | VinhLin</title>
+    <meta name="description" content="Technology Blog">
+    <meta property="og:title" content="Posts" />
+<meta property="og:description" content="Technology Blog" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://vinhlin.github.io/posts/" />
+
+    <meta itemprop="name" content="Posts">
+<meta itemprop="description" content="Technology Blog">
+    
+    <link rel="canonical" href="https://vinhlin.github.io/posts/">
+    <link rel="icon" href="https://vinhlin.github.io//assets/favicon.ico">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
+    <link rel="alternate" type="application/atom+xml" title="VinhLin" href="https://vinhlin.github.io//atom.xml" />
+    <link rel="alternate" type="application/json" title="VinhLin" href="https://vinhlin.github.io//feed.json" />
+    <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=">
+    
+    
+    <style>*,:after,:before{box-sizing:border-box;padding:0}body{font:1rem/1.5 '-apple-system',BlinkMacSystemFont,avenir next,avenir,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding:2rem;background:#f5f5f5;color:#000}.skip-link{position:absolute;top:-40px;left:0;background:#eee;z-index:100}.skip-link:focus{top:0}h1,h2,h3,h4,h5,strong,b{font-size:inherit;font-weight:600}header{line-height:2;padding-bottom:1.5rem}.link{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-decoration:none}.time{font-variant-numeric:tabular-nums;white-space:nowrap}blockquote{border-left:5px solid #eee;padding-left:1rem;margin:0}a,a:visited{color:inherit}a:hover,a.heading-link{text-decoration:none}pre{padding:.5rem;overflow:auto;overflow-x:scroll;overflow-wrap:normal}code,pre{font-family:San Francisco Mono,Monaco,consolas,lucida console,dejavu sans mono,bitstream vera sans mono,monospace;font-size:normal;font-size:small;background:#eee}code{margin:.1rem;border:none}ul{list-style-type:square}ul,ol{padding-left:1.2rem}.list{line-height:2;list-style-type:none;padding-left:0}.list li{padding-bottom:.1rem}.meta{color:#777}.content{max-width:70ch;margin:0 auto}header{line-height:2;display:flex;justify-content:space-between;padding-bottom:1rem}header a{text-decoration:none}header ul{list-style-type:none;padding:0}header li,header a{display:inline}h2.post{padding-top:.5rem}header ul a:first-child{padding-left:1rem}.nav{height:1px;background:#000;content:'';max-width:10%}.list li{display:flex;align-items:baseline}.list li time{flex:initial}.hr-list{margin-top:0;margin-bottom:0;margin-right:.5rem;margin-left:.5rem;height:1px;border:0;border-bottom:1px dotted #ccc;flex:1 0 1rem}.m,hr{border:0;margin:3rem 0}img{max-width:100%;height:auto}.post-date{margin:5% 0}.index-date{color:#9a9a9a}.animate-blink{animation:opacity 1s infinite;opacity:1}@keyframes opacity{0%{opacity:1}50%{opacity:.5}100%{opacity:0}}.tags{display:flex;justify-content:space-between}.tags ul{padding:0;margin:0}.tags li{display:inline}.avatar{height:120px;width:120px;position:relative;margin:-10px 0 0 15px;float:right;border-radius:50%}table{width:100%;border-collapse:collapse}th,td{border:1px solid #ddd;text-align:left;padding:8px}th{background-color:#f2f2f2} </style>
+  
+    
+  
+  </head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main</a>
+  <main id="main">
+  <div class="content">
+    <header>
+<p style="padding: 0;margin: 0;">
+  <a href="/">
+    <b>VinhLin</b>
+    <span class="text-stone-500 animate-blink">▮</span>
+  </a>
+</p>
+<ul style="padding: 0;margin: 0;">
+  
+  
+  <li class="">
+    <a href="/changelog/"><span>Changelog</span></a>
+    
+  <li class="">
+    <a href="/posts/"><span>Post</span></a>
+    
+  <li class="">
+    <a href="/search/"><span>Search</span></a>
+    
+  <li class="">
+    <a href="/about/"><span>About</span></a>
+    
+  </li>
+</ul>
+</header>
+<hr class="hr-list" style="padding: 0;margin: 0;">
+    <section>
+      
+      <ul reversed class="list">
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/iot/hardware/the_nho/" title="The_nho">The_nho
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2026-01-23">23/01/26</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/others/tem_phu/" title="Tem_phu">Tem_phu
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2026-01-22">22/01/26</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/others/cong_cu_test_acquy/" title="Cong_cu_test_Acquy">Cong_cu_test_Acquy
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2026-01-19">19/01/26</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/cybersecurity/technical/exif_tool/" title="Exif_Tool">Exif_Tool
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2026-01-12">12/01/26</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/iot/hardware/gps_signal/" title="GPS_Signal">GPS_Signal
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2026-01-06">06/01/26</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/system-devops/fleet_platform/" title="Fleet_Platform">Fleet_Platform
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-12-24">24/12/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/cybersecurity/ot_security_lab/" title="OT_Security_Lab">OT_Security_Lab
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-12-24">24/12/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/iot/hardware/sim_for_iot/" title="Sim_for_IoT">Sim_for_IoT
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-12-24">24/12/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/others/car_system/" title="Car_System">Car_System
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-12-18">18/12/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/system-devops/firewall_system/" title="Firewall_System">Firewall_System
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-12-18">18/12/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/iot/software/fast_roaming/" title="Fast_Roaming">Fast_Roaming
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-12-15">15/12/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/iot/software/openhabian/" title="OpenHABian">OpenHABian
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-12-12">12/12/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/others/loc_gio_xe_may/" title="Loc_gio_Xe_may">Loc_gio_Xe_may
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-12-11">11/12/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/others/nut_de_no_oto/" title="Nut_de_no_Oto">Nut_de_no_Oto
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-12-11">11/12/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/iot/software/mesh_roaming/" title="Mesh_Roaming">Mesh_Roaming
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-12-08">08/12/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/others/tong_hop_ai_tools/" title="Tong_hop_AI_Tools">Tong_hop_AI_Tools
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-12-03">03/12/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/others/cong_cu_ai/" title="Cong_cu_AI">Cong_cu_AI
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-12-03">03/12/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/others/ban_them_ve_rust/" title="Ban_them_ve_Rust">Ban_them_ve_Rust
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-11-27">27/11/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/others/grok_ai/" title="Grok_AI">Grok_AI
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-11-20">20/11/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/iot/hardware/test_tf-card/" title="Test_TF Card">Test_TF Card
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-11-20">20/11/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/cybersecurity/technical/ip_scanner/" title="IP_Scanner">IP_Scanner
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-11-18">18/11/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/iot/hardware/cmos_sensor/" title="CMOS_Sensor">CMOS_Sensor
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-11-13">13/11/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/cybersecurity/mon_hoc_attt/" title="Mon_hoc_ATTT">Mon_hoc_ATTT
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-11-10">10/11/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/iot/hardware/hdr_wdr/" title="HDR_WDR">HDR_WDR
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-11-10">10/11/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/system-devops/safeline/" title="SafeLine">SafeLine
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-11-04">04/11/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/others/goi_cuoc_internet/" title="Goi_cuoc_Internet">Goi_cuoc_Internet
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-10-20">20/10/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/others/sw_model/" title="SW_Model">SW_Model
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-10-20">20/10/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/system-devops/minio/" title="MinIO">MinIO
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-10-16">16/10/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/system-devops/devops/" title="DevOps">DevOps
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-10-07">07/10/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/iot/hardware/xiaozhi_esp32/" title="Xiaozhi_ESP32">Xiaozhi_ESP32
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-10-06">06/10/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/system-devops/nas_ftp/" title="NAS_FTP">NAS_FTP
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-10-03">03/10/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/cybersecurity/ctf_hardware/" title="CTF_Hardware">CTF_Hardware
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-10-02">02/10/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/cybersecurity/technical/ghost_esp/" title="Ghost_ESP">Ghost_ESP
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-09-30">30/09/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/cybersecurity/technical/pentest_api_tools/" title="Pentest_API_Tools">Pentest_API_Tools
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-09-25">25/09/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/iot/hardware/cau_chi_oto/" title="Cau_chi_Oto">Cau_chi_Oto
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-09-24">24/09/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/cybersecurity/technical/security_hardware_tools/" title="Security_Hardware_Tools">Security_Hardware_Tools
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-09-21">21/09/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/cybersecurity/kali_for_arm/" title="Kali_for_ARM">Kali_for_ARM
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-09-21">21/09/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/cybersecurity/blueteam/" title="BlueTeam">BlueTeam
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-09-16">16/09/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/cybersecurity/redteam/" title="RedTeam">RedTeam
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-09-16">16/09/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/iot/hardware/voice_command/" title="Voice_Command">Voice_Command
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-09-09">09/09/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/iot/software/speedtest_armv7l/" title="Speedtest_ARMv7l">Speedtest_ARMv7l
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-08-29">29/08/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/iot/hardware/power_acc_usb_type_c/" title="Power_ACC_USB_Type_C">Power_ACC_USB_Type_C
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-08-28">28/08/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/system-devops/fabric_ai/" title="Fabric_AI">Fabric_AI
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-08-09">09/08/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/others/android_xiaomi/" title="Android_Xiaomi">Android_Xiaomi
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-08-08">08/08/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/iot/hardware/cloud_sim/" title="Cloud_Sim">Cloud_Sim
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-07-26">26/07/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/cybersecurity/technical/ssh_armv7/" title="SSh_ARMv7">SSh_ARMv7
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-07-01">01/07/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/iot/hardware/wifi_eirp/" title="WiFi_EIRP">WiFi_EIRP
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-06-24">24/06/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/cybersecurity/technical/ble_sniffer/" title="BLE_Sniffer">BLE_Sniffer
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-06-04">04/06/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/iot/hardware/cctv_dashcam/" title="CCTV_Dashcam">CCTV_Dashcam
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-05-01">01/05/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/iot/software/emqk_broker/" title="EMQK_Broker">EMQK_Broker
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-05-01">01/05/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/others/bo_giam_ap/" title="Bo_giam_ap">Bo_giam_ap
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-05-01">01/05/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/others/slidev/" title="Slidev">Slidev
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-04-30">30/04/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/cybersecurity/technical/convoc2/" title="ConvoC2">ConvoC2
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-04-13">13/04/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/others/heygen_ai/" title="HeyGen_AI">HeyGen_AI
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-04-12">12/04/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/others/gia_lap_sut_ap_acc/" title="Gia_lap_sut_ap_ACC">Gia_lap_sut_ap_ACC
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-04-11">11/04/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/others/hop_do_choi_ai/" title="Hop_do_choi_AI">Hop_do_choi_AI
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-04-05">05/04/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/system-devops/web_crawler/" title="Web_Crawler">Web_Crawler
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-03-12">12/03/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/others/usb_boot/" title="USB_Boot">USB_Boot
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-03-11">11/03/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/system-devops/backup_tools/" title="Backup_Tools">Backup_Tools
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-03-11">11/03/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/iot/software/desktop_app/" title="Desktop_App">Desktop_App
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-03-09">09/03/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/others/thao_tac_an_toan/" title="Thao_tac_An_toan">Thao_tac_An_toan
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-03-06">06/03/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/system-devops/automation_tools/" title="Automation_Tools">Automation_Tools
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-02-26">26/02/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/others/y_tuong_project/" title="Y_tuong_project">Y_tuong_project
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-02-26">26/02/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/system-devops/virtual_system/" title="Virtual_System">Virtual_System
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-02-10">10/02/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/system-devops/raid/" title="RAID">RAID
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-01-19">19/01/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/cybersecurity/cybersecurity_small_businesses/" title="CyberSecurity_Small_Businesses">CyberSecurity_Small_Businesses
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-01-17">17/01/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/system-devops/n8n/" title="N8n">N8n
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-01-17">17/01/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/system-devops/tailscale/" title="Tailscale">Tailscale
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2025-01-17">17/01/25</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/system-devops/openmediavault/" title="OpenMediaVault">OpenMediaVault
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2024-12-28">28/12/24</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/system-devops/clamav/" title="ClamAV">ClamAV
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2024-11-30">30/11/24</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/system-devops/huly/" title="Huly">Huly
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2024-11-17">17/11/24</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/system-devops/permission_linux/" title="Permission_Linux">Permission_Linux
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2024-11-17">17/11/24</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/iot/hardware/kien_truc_may_tinh/" title="Kien_truc_may_tinh">Kien_truc_may_tinh
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2024-11-17">17/11/24</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/iot/hardware/obd2_pids/" title="OBD2_PIDs">OBD2_PIDs
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2024-10-11">11/10/24</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/iot/hardware/can_obdii/" title="CAN_OBDII">CAN_OBDII
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2024-10-11">11/10/24</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/iot/hardware/dma/" title="DMA">DMA
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2024-10-11">11/10/24</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/iot/software/rust_for_arm/" title="Rust_for_ARM">Rust_for_ARM
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2024-10-10">10/10/24</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/iot/hardware/android_automotive/" title="Android_Automotive">Android_Automotive
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2024-10-07">07/10/24</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/cybersecurity/technical/fault_injection/" title="Fault_Injection">Fault_Injection
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2024-10-05">05/10/24</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/iot/hardware/car_hacking/" title="Car_Hacking">Car_Hacking
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2024-10-05">05/10/24</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/iot/software/rust-lang/" title="Rust Lang">Rust Lang
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2024-09-13">13/09/24</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/others/hoi_thao_2024/" title="Hoi_thao_2024">Hoi_thao_2024
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2024-09-02">02/09/24</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/iot/hardware/box_rfid/" title="Box_RFID">Box_RFID
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2024-08-29">29/08/24</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/cybersecurity/technical/nfc_pwa/" title="NFC_PWA">NFC_PWA
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2024-08-27">27/08/24</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/iot/hardware/radxa_x4/" title="Radxa_X4">Radxa_X4
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2024-08-27">27/08/24</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/cybersecurity/news/" title="News">News
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2024-08-26">26/08/24</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/cybersecurity/technical/protect_camera/" title="Protect_Camera">Protect_Camera
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2024-08-18">18/08/24</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/cybersecurity/technical/re_tool_binaryninjafree/" title="RE_Tool_BinaryNinjaFree">RE_Tool_BinaryNinjaFree
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2024-08-16">16/08/24</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/iot/software/read_write_uart_stm32fx/" title="Read_Write_UART_STM32Fx">Read_Write_UART_STM32Fx
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2024-08-14">14/08/24</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/iot/hardware/dump_firmware_nor_flash/" title="Dump_Firmware_NOR_Flash">Dump_Firmware_NOR_Flash
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2024-08-12">12/08/24</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/iot/software/shared_access_embassy/" title="Shared_Access_Embassy">Shared_Access_Embassy
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2024-08-10">10/08/24</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/iot/software/lifetime_embassy/" title="Lifetime_Embassy">Lifetime_Embassy
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2024-08-09">09/08/24</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/iot/software/rust-lang/results_rust/" title="Results_Rust">Results_Rust
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2024-08-08">08/08/24</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/iot/software/uart_embassy/" title="UART_Embassy">UART_Embassy
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2024-08-07">07/08/24</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/others/iot_security_jd/" title="IoT_Security_JD">IoT_Security_JD
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2024-08-04">04/08/24</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/iot/software/docklight/" title="Docklight">Docklight
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2024-08-03">03/08/24</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/cybersecurity/technical/paramspider/" title="ParamSpider">ParamSpider
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2024-08-03">03/08/24</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/iot/hardware/research_cr95/" title="Research_CR95">Research_CR95
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2024-07-28">28/07/24</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/cybersecurity/technical/tails_os/" title="Tails_OS">Tails_OS
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2024-07-21">21/07/24</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/others/suy_nghi_ve_hardware_hacking/" title="Suy_nghi_ve_Hardware_Hacking">Suy_nghi_ve_Hardware_Hacking
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2024-07-10">10/07/24</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/others/goc_nhin_ve_ngoai_ngu/" title="Goc_nhin_ve_Ngoai_ngu">Goc_nhin_ve_Ngoai_ngu
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2024-07-07">07/07/24</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/cybersecurity/tools/" title="Tools">Tools
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2024-07-06">06/07/24</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/cybersecurity/technical/thehive/" title="TheHive">TheHive
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2024-06-15">15/06/24</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/cybersecurity/technical/osint/" title="OSINT">OSINT
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2024-06-15">15/06/24</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/iot/hardware/esd/" title="ESD">ESD
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2024-05-25">25/05/24</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/cybersecurity/technical/dflab_vncert/" title="DFLab_VNCERT">DFLab_VNCERT
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2024-05-25">25/05/24</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/cybersecurity/technical/firewall_checklist/" title="Firewall_CheckList">Firewall_CheckList
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2024-05-25">25/05/24</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/cybersecurity/technical/nis2/" title="NIS2">NIS2
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2024-05-25">25/05/24</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/iot/software/raspberry-openauto/" title="Raspberry OpenAuto">Raspberry OpenAuto
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2024-04-01">01/04/24</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/iot/software/pi400-keyboard/" title="Pi400 Keyboard">Pi400 Keyboard
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2024-04-01">01/04/24</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/iot/software/pikvm/" title="PiKVM">PiKVM
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2024-04-01">01/04/24</time>
+          </li>
+        
+          <li>
+            <a class="link" href="https://vinhlin.github.io/posts/iot/hardware/unihiker/" title="UNIHIKER">UNIHIKER
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="2024-04-01">01/04/24</time>
+          </li>
+        
+      </ul>
+    </section>
+  </div>
+</main>
+</body>
+</html>
