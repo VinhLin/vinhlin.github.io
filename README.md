@@ -73,6 +73,7 @@ hugo new posts/Others/Car_System.md
 hugo new posts/Others/Cong_cu_test_Acquy.md
 hugo new posts/Others/Tem_phu.md
 hugo new posts/Others/Google_AI_Tools.md
+hugo new posts/Others/Prompt_AI.md
 ```
 
 ### IoT:

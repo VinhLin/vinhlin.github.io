@@ -2,10 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://vinhlin.github.io/posts/others/google_ai_tools/</loc>
-    <lastmod>2026-02-24T15:19:28+07:00</lastmod>
-  </url><url>
     <loc>https://vinhlin.github.io/posts/</loc>
+    <lastmod>2026-02-24T17:58:47+07:00</lastmod>
+  </url><url>
+    <loc>https://vinhlin.github.io/posts/others/prompt_ai/</loc>
+    <lastmod>2026-02-24T17:58:47+07:00</lastmod>
+  </url><url>
+    <loc>https://vinhlin.github.io/posts/others/google_ai_tools/</loc>
     <lastmod>2026-02-24T15:19:28+07:00</lastmod>
   </url><url>
     <loc>https://vinhlin.github.io/search/</loc>

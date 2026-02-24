@@ -287,6 +287,7 @@ STT |		Tiêu đề			|		Mô tả				|
 4   | [Cong_cu_AI][Cong_cu_AI]		| Suy nghĩ của mình về các công cụ AI		|
 5   | [Tong_hop_AI_Tools][Tong_hop_AI_Tools] | Tổng hợp thêm các dự án và công cụ AI	|
 6   | [Google_AI_Tools][Google_AI_Tools]| Tổng hợp các tools của Google AI		|
+7   | [Prompt_AI][Prompt_AI]		| Tổng hợp các **Prompt cho AI**		|
 
 [Grok_AI]: https://blog.vinhld-homelab.io.vn/posts/others/grok_ai/
 [Hop_do_choi_AI]: https://blog.vinhld-homelab.io.vn/posts/others/hop_do_choi_ai/
@@ -294,3 +295,4 @@ STT |		Tiêu đề			|		Mô tả				|
 [Cong_cu_AI]: https://blog.vinhld-homelab.io.vn/posts/others/cong_cu_ai/
 [Tong_hop_AI_Tools]: https://blog.vinhld-homelab.io.vn/posts/others/tong_hop_ai_tools/
 [Google_AI_Tools]: https://blog.vinhld-homelab.io.vn/posts/others/google_ai_tools/
+[Prompt_AI]: https://blog.vinhld-homelab.io.vn/posts/others/prompt_ai/
