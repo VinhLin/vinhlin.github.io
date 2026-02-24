@@ -16,6 +16,21 @@
 
     
     {
+      "id": "c619649a2d5d3588a0f6edae47587b4d3841b033",
+      "title": "CLI_Fortigate",
+      "summary": "",
+      "content_text": "Trong mô hình Homelab của mình có dùng firewall Fortigate.\nNên note ra những cheat-sheet command-line của Fortigate.\n",
+      "content_html": "\u003cp\u003eTrong mô hình Homelab của mình có dùng firewall Fortigate.\u003c/p\u003e\n\u003cp\u003eNên note ra những \u003cstrong\u003echeat-sheet command-line của Fortigate\u003c/strong\u003e.\u003c/p\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/CyberSecurity/CLI_Fortigate/Hinh_1.jpg\"\n  alt=\"Hình 1\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/CyberSecurity/CLI_Fortigate/Hinh_2.jpg\"\n  alt=\"Hình 2\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/CyberSecurity/CLI_Fortigate/Hinh_3.jpg\"\n  alt=\"Hình 3\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/CyberSecurity/CLI_Fortigate/Hinh_4.jpg\"\n  alt=\"Hình 4\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/CyberSecurity/CLI_Fortigate/Hinh_5.jpg\"\n  alt=\"Hình 5\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/CyberSecurity/CLI_Fortigate/Hinh_6.jpg\"\n  alt=\"Hình 6\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/CyberSecurity/CLI_Fortigate/Hinh_7.jpg\"\n  alt=\"Hình 7\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n",
+      "url": "https://vinhlin.github.io/posts/cybersecurity/technical/cli_fortigate/",
+      "date_published": "24026-24-09T244:2424:00+07:00",
+      "date_modified": "24026-24-09T244:2424:00+07:00",
+      "author": {
+        "name": "VinhLD",
+        "url": "https://vinhlin.github.io/"
+      }
+    },
+    
+    {
       "id": "f2e53a1d3887be2538ed0279123fef4b31e58faa",
       "title": "He_thong_dieu_khien",
       "summary": "",

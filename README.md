@@ -13,6 +13,14 @@ hugo server -D
 - Build ra folder `docs`:
 ```
 hugo --config hugo.toml -D
+npx pagefind --site "docs" --output-subdir "pagefind"
+```
+
+### Run script
+- Mình có đoạn script dùng powershell để command.
+- Run script:
+```
+./build_blog.ps1
 ```
 
 ### Tổng hợp các icon:
@@ -160,6 +168,7 @@ hugo new posts/CyberSecurity/Technical/Pentest_API_Tools.md
 hugo new posts/CyberSecurity/Technical/Ghost_ESP.md
 hugo new posts/CyberSecurity/Technical/IP_Scanner.md
 hugo new posts/CyberSecurity/Technical/Exif_Tool.md
+hugo new posts/CyberSecurity/Technical/CLI_Fortigate.md
 ```
 
 ### System-DevOps

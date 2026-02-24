@@ -35,6 +35,7 @@ STT |		Tiêu đề			|		Mô tả				|
 23  | [Test_TF-Card][Test_TF-Card]	| Ghi chú về các cách test thẻ nhớ		|
 24  | [Sim_for_IoT][Sim_for_IoT]	| Ghi chú về data sim cho thiết bị IoT		|
 25  | [GPS_Signal][GPS_Signal]		| Tổng hợp các thông tin về **tín hiệu GPS**	|
+26  | [He_thong_dieu_khien][He_thong_dieu_khien] | Tổng quan về **hệ thống điều khiển** |
 
 [UNIHIKER]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/unihiker/
 [ESD]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/esd/
@@ -61,6 +62,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [Test_TF-Card]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/test_tf-card/
 [Sim_for_IoT]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/sim_for_iot/
 [GPS_Signal]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/gps_signal/
+[He_thong_dieu_khien]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/he_thong_dieu_khien/
 
 ## ***SOFTWARE***
 
@@ -166,6 +168,7 @@ STT |		Tiêu đề			|		Mô tả				|
 17  | [Ghost_ESP][Ghost_ESP]		| Dự án **Ghost_ESP**, một công cụ pentest dùng **ESP32-S3** |
 18  | [IP_Scanner][IP_Scanner]		| Ghi chú về các bot, hoặc các Scanner hợp pháp |
 19  | [Exif_Tool][Exif_Tool]		| Giới thiệu công cụ lấy **metadata** ảnh chụp		|
+20  | [CLI_Fortigate][CLI_Fortigate]	| Cheat-sheet ommand-line cho firewall Fortigate|
 
 [NIS2]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/nis2/
 [FW_CheckList]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/firewall_checklist/
@@ -186,6 +189,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [Ghost_ESP]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/ghost_esp/
 [IP_Scanner]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/ip_scanner/
 [Exif_Tool]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/exif_tool/
+[CLI_Fortigate]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/cli_fortigate
 
 -----------------------------------------------------------------------------------------
 # <mark>System-DevOps</mark>
