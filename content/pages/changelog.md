@@ -262,20 +262,15 @@ STT |		Tiêu đề			|		Mô tả				|
 [JD]: https://blog.vinhld-homelab.io.vn/posts/others/iot_security_jd/
 [Hoi_thao_2024]: https://blog.vinhld-homelab.io.vn/posts/others/hoi_thao_2024/
 [Y_tuong_project]: https://blog.vinhld-homelab.io.vn/posts/others/y_tuong_project/
-
 [Thao_tac_An_toan]: https://blog.vinhld-homelab.io.vn/posts/others/thao_tac_an_toan/
 [USB_Boot]: https://blog.vinhld-homelab.io.vn/posts/others/usb_boot/
-
 [Gia_lap_sut_ap_ACC]: https://blog.vinhld-homelab.io.vn/posts/others/gia_lap_sut_ap_acc/
-
 [Bo_giam_ap]: https://blog.vinhld-homelab.io.vn/posts/others/bo_giam_ap/
 [Slidev]: https://blog.vinhld-homelab.io.vn/posts/others/slidev/
 [Android_Xiaomi]: https://blog.vinhld-homelab.io.vn/posts/others/android_xiaomi/
 [SW_Model]: https://blog.vinhld-homelab.io.vn/posts/others/sw_model/
 [Goi_cuoc_Internet]: https://blog.vinhld-homelab.io.vn/posts/others/goi_cuoc_internet/
-
 [Ban_them_ve_Rust]: https://blog.vinhld-homelab.io.vn/posts/others/ban_them_ve_rust/
-
 [Loc_gio_Xe_may]: https://blog.vinhld-homelab.io.vn/posts/others/loc_gio_xe_may/
 [Nut_de_no_Oto]: https://blog.vinhld-homelab.io.vn/posts/others/nut_de_no_oto/
 [Car_System]: https://blog.vinhld-homelab.io.vn/posts/others/car_system/
@@ -291,10 +286,11 @@ STT |		Tiêu đề			|		Mô tả				|
 3   | [HeyGen_AI][HeyGen_AI]		| Giới thiệu về công cụ tạo video AI bằng **HeyGen** |
 4   | [Cong_cu_AI][Cong_cu_AI]		| Suy nghĩ của mình về các công cụ AI		|
 5   | [Tong_hop_AI_Tools][Tong_hop_AI_Tools] | Tổng hợp thêm các dự án và công cụ AI	|
+6   | [Google_AI_Tools][Google_AI_Tools]| Tổng hợp các tools của Google AI		|
 
 [Grok_AI]: https://blog.vinhld-homelab.io.vn/posts/others/grok_ai/
 [Hop_do_choi_AI]: https://blog.vinhld-homelab.io.vn/posts/others/hop_do_choi_ai/
 [HeyGen_AI]: https://blog.vinhld-homelab.io.vn/posts/others/heygen_ai/
 [Cong_cu_AI]: https://blog.vinhld-homelab.io.vn/posts/others/cong_cu_ai/
 [Tong_hop_AI_Tools]: https://blog.vinhld-homelab.io.vn/posts/others/tong_hop_ai_tools/
-
+[Google_AI_Tools]: https://blog.vinhld-homelab.io.vn/posts/others/google_ai_tools/
