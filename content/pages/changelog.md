@@ -215,6 +215,7 @@ STT |		Tiêu đề			|		Mô tả				|
 16  | [SafeLine][SafeLine]		| Ghi chú về giải pháp mã nguồn mở, WAF cho hạ tầng |
 17  | [Firewall_System][Firewall_System]| Ghi chú về các **công cụ firewall** cho Android, Linux và Windows |
 18  | [Fleet_Platform][Fleet_Platform]	| Tổng hợp tài liệu về **Fleet Platform**	|
+19  | [Linux_Basic][Linux_Basic]	| Tổng hợp tài liệu và ghi chú kiến thức cơ bản về Linux |
 
 [Permission_Linux]: https://blog.vinhld-homelab.io.vn/posts/system-devops/permission_linux/
 [Huly]: https://blog.vinhld-homelab.io.vn/posts/system-devops/huly/
@@ -234,6 +235,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [SafeLine]: https://blog.vinhld-homelab.io.vn/posts/system-devops/safeline/
 [Firewall_System]: https://blog.vinhld-homelab.io.vn/posts/system-devops/firewall_system/
 [Fleet_Platform]: https://blog.vinhld-homelab.io.vn/posts/system-devops/fleet_platform/
+[Linux_Basic]: https://blog.vinhld-homelab.io.vn/posts/system-devops/linux_basic/
 
 -----------------------------------------------------------------------------------------
 # <mark>Others</mark>

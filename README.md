@@ -1,3 +1,6 @@
+# [My Blog](https://blog.vinhld-homelab.io.vn/)
+
+-------------------------------------------------------------------------
 ### Mở Powershell
 ```
 cd D:\vinhlin.github.io
@@ -191,4 +194,5 @@ hugo new posts/System-DevOps/MinIO.md
 hugo new posts/System-DevOps/SafeLine.md
 hugo new posts/System-DevOps/Firewall_System.md
 hugo new posts/System-DevOps/Fleet_Platform.md
+hugo new posts/System-DevOps/Linux_Basic.md
 ```

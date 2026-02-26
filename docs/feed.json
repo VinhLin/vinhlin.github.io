@@ -16,6 +16,21 @@
 
     
     {
+      "id": "c1e25d91670c394d06ae7616fa464973ede4b714",
+      "title": "Linux_Basic",
+      "summary": "",
+      "content_text": "Tổng hợp các tài liệu và kiến thức cơ bản về Linux\nMình vô tình kiếm được tài liệu cơ bản về Linux được viết bằng tiếng Việt trên github: TimHieuLinux Cũng nhiều chủ đề, đọc để củng cố lại kiến thức bản thân Lịch sử phát triển Linux Cấu trúc thư mục Linux Tài liệu tham khảo trên github, được viết bằng tiếng Việt. CẤU TRÚC THƯ MỤC LINUX Ngoài ra còn phân quyền thư mục trên Linux, mình cũng có bài viết về chủ đề này. Tham khảo Permission_Linux Ubuntu Cheatsheet Tài liệu tham khảo trên github JREAM/ubuntu-cheatsheet Tài liệu Ubuntu Server CLI Một số tài liệu khác: Vi cheatsheet ",
+      "content_html": "\u003cp\u003eTổng hợp các tài liệu và kiến thức cơ bản về Linux\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003cem\u003eMình vô tình kiếm được tài liệu cơ bản về Linux được viết bằng tiếng Việt trên github: \u003ca href=\"https://github.com/hocchudong/thuctap012017/tree/master/TamNT/TimHieuLinux\"\u003eTimHieuLinux\u003c/a\u003e\u003c/em\u003e \u003c/br\u003e\n\u003cem\u003eCũng nhiều chủ đề, đọc để củng cố lại kiến thức bản thân\u003c/em\u003e \u003c/br\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch3 id=\"lịch-sử-phát-triển-linux\"\u003eLịch sử phát triển Linux\u003c/h3\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/System-DevOps/Linux_Basic/Linux_History.jpg\"\n  alt=\"Hình 1\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003ch3 id=\"cấu-trúc-thư-mục-linux\"\u003eCấu trúc thư mục Linux\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eTài liệu tham khảo trên github, được viết bằng tiếng Việt. \u003ca href=\"https://github.com/hocchudong/thuctap012017/blob/master/TamNT/TimHieuLinux/C%E1%BA%A5u%20tr%C3%BAc%20th%C6%B0%20m%E1%BB%A5c%20Linux.md\"\u003eCẤU TRÚC THƯ MỤC LINUX\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/System-DevOps/Linux_Basic/Linux_FileSystem.jpg\"\n  alt=\"Hình 2\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eNgoài ra còn phân quyền thư mục trên Linux, mình cũng có bài viết về chủ đề này.\u003c/li\u003e\n\u003cli\u003eTham khảo \u003ca href=\"https://blog.vinhld-homelab.io.vn/posts/system-devops/permission_linux/\"\u003ePermission_Linux\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3 id=\"ubuntu-cheatsheet\"\u003eUbuntu Cheatsheet\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eTài liệu tham khảo trên github \u003ca href=\"https://github.com/JREAM/ubuntu-cheatsheet\"\u003eJREAM/ubuntu-cheatsheet\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"/docs/linux/Ubuntu+Server+CLI+pro+tips+06.01.20.pdf\"\u003eTài liệu \u003cstrong\u003eUbuntu Server CLI\u003c/strong\u003e\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3 id=\"một-số-tài-liệu-khác\"\u003eMột số tài liệu khác:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"/docs/linux/vi_cheat_sheet.pdf\"\u003e\u003cstrong\u003eVi\u003c/strong\u003e cheatsheet\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n",
+      "url": "https://vinhlin.github.io/posts/system-devops/linux_basic/",
+      "date_published": "26026-26-09T251:2626:00+07:00",
+      "date_modified": "26026-26-09T251:2626:00+07:00",
+      "author": {
+        "name": "VinhLD",
+        "url": "https://vinhlin.github.io/"
+      }
+    },
+    
+    {
       "id": "c619649a2d5d3588a0f6edae47587b4d3841b033",
       "title": "CLI_Fortigate",
       "summary": "",
