@@ -26,5 +26,5 @@ Tổng hợp các tài liệu và kiến thức cơ bản về Linux
 
 ### Một số tài liệu khác:
 - [**Vi** cheatsheet](/docs/linux/vi_cheat_sheet.pdf)
-
+- [Linux command line](https://ss64.com/bash/)
 

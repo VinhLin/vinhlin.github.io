@@ -14,6 +14,63 @@
     
     
     <item>
+      <title>Bruno</title>
+      <link>https://vinhlin.github.io/posts/system-devops/bruno/</link>
+      <description>&lt;p&gt;Lúc trước nếu cần check API thì mình hay dùng &lt;strong&gt;Postman&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Nhưng bây giờ ứng dụng này quá nặng, và cần phải đăng nhập các kiểu.&lt;/p&gt;
+&lt;p&gt;Mình cần tìm một ứng dụng thay thế, gọn nhẹ. Và lúc này mình tìm thấy ứng dụng gọi là &lt;strong&gt;Bruno&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;brunohttpswwwusebrunocom&#34;&gt;&lt;a href=&#34;https://www.usebruno.com/&#34;&gt;Bruno&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Trang github &lt;a href=&#34;https://github.com/usebruno/bruno&#34;&gt;usebruno/bruno&lt;/a&gt;, và link &lt;a href=&#34;https://www.usebruno.com/downloads&#34;&gt;download&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Mình đã tải và cài đặt ứng dụng. Dùng cũng ổn áp, và rất nhẹ =]]&lt;/li&gt;
+&lt;li&gt;Các thao tác test và thử nghiệm:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/Bruno/Hinh_1.png&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/Bruno/Hinh_2.png&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/Bruno/Hinh_3.png&#34;
+  alt=&#34;Hình 3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/Bruno/Hinh_4.png&#34;
+  alt=&#34;Hình 4&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mình sẽ cần thêm thời gian để làm quen, và trải nghiệm đầy đủ các tính năng của nó.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/system-devops/bruno/</guid>
+      <pubDate>Fri, 06 Mar 2026 17:40:03 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Linux_Basic</title>
       <link>https://vinhlin.github.io/posts/system-devops/linux_basic/</link>
       <description>&lt;p&gt;Tổng hợp các tài liệu và kiến thức cơ bản về Linux&lt;/p&gt;
@@ -56,6 +113,7 @@
 &lt;h3 id=&#34;một-số-tài-liệu-khác&#34;&gt;Một số tài liệu khác:&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://vinhlin.github.io/docs/linux/vi_cheat_sheet.pdf&#34;&gt;&lt;strong&gt;Vi&lt;/strong&gt; cheatsheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ss64.com/bash/&#34;&gt;Linux command line&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
       <author>VinhLD</author>

@@ -7,8 +7,6 @@
 ### Windows PowerShell commands
 https://ss64.com/ps/
 
-### Linux command line
-https://ss64.com/bash/
 
 
 

@@ -195,4 +195,5 @@ hugo new posts/System-DevOps/SafeLine.md
 hugo new posts/System-DevOps/Firewall_System.md
 hugo new posts/System-DevOps/Fleet_Platform.md
 hugo new posts/System-DevOps/Linux_Basic.md
+hugo new posts/System-DevOps/Bruno.md
 ```
