@@ -30,7 +30,7 @@ Và đó là lúc mình **chế** lại việc gắn camera ô tô lên chiếc 
 
 ![Hình 1](/image/Others/Test_Camera_tren_Xe_may/Hinh_1.jpg)
 
-- Ai ngờ nước lớn vẫn không làm suy hao gì với chiếc camera, nó vẫn hoạt động được.
+- Ai ngờ mưa lớn vẫn không làm suy hao gì với chiếc camera, nó vẫn hoạt động được.
 
 ![Hình 2](/image/Others/Test_Camera_tren_Xe_may/Hinh_2.jpg)
 

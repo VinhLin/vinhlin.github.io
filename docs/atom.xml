@@ -14,6 +14,50 @@
     
     
     <item>
+      <title>Phone_Farm</title>
+      <link>https://vinhlin.github.io/posts/system-devops/phone_farm/</link>
+      <description>&lt;p&gt;Ban đầu mình tính là sẽ mua &lt;strong&gt;Box Phone Farm&lt;/strong&gt; &lt;em&gt;(dùng thiết bị vật lý)&lt;/em&gt; để setup thử.&lt;/p&gt;
+&lt;p&gt;Nhưng thấy giá thành mắc, xây dựng cũng cầu kì, phức tạp, và hơn thế nữa là hiện mình chưa sử dụng hết sức mạnh của server &lt;strong&gt;dual-core Xeon Gold&lt;/strong&gt; này.&lt;/p&gt;
+&lt;p&gt;Thế là hỏi AI để xem có thể sử dụng server ESXi này của mình để build &lt;strong&gt;Phone Farm ảo&lt;/strong&gt; không.&lt;/p&gt;
+&lt;h3 id=&#34;giải-pháp&#34;&gt;Giải pháp&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Giải pháp đó là &lt;strong&gt;Android Emulator/Container Farm&lt;/strong&gt;, mà phổ biến là &lt;strong&gt;Redroid&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Redroid (Docker trên Linux VM):&lt;/strong&gt; Đây là giải pháp tối ưu nhất cho server. Bạn cài một máy ảo Ubuntu trên ESXi, sau đó chạy Redroid (Android in Docker). Cách này cực kỳ nhẹ, có thể chạy hàng chục đến hàng trăm &amp;ldquo;máy điện thoại&amp;rdquo; trên cùng một server nhờ chia sẻ kernel.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/Phone_Farm/Hinh_1.png&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/Phone_Farm/Hinh_2.png&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;tài-liệu-khác&#34;&gt;Tài liệu khác:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/remote-android/redroid-doc&#34;&gt;https://github.com/remote-android/redroid-doc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hub.docker.com/r/redroid/redroid&#34;&gt;https://hub.docker.com/r/redroid/redroid&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dev.to/avkr/redroid-o6n&#34;&gt;https://dev.to/avkr/redroid-o6n&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Cách khác để cài Android trên ESXi: &lt;a href=&#34;https://www.youtube.com/watch?v=3Q2QULBOyE0&#34;&gt;How to install Android on VMware Esxi Host&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/system-devops/phone_farm/</guid>
+      <pubDate>Sat, 07 Mar 2026 22:41:12 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Test_Camera_tren_Xe_may</title>
       <link>https://vinhlin.github.io/posts/others/test_camera_tren_xe_may/</link>
       <description>&lt;p&gt;Mình làm về thiết bị &lt;strong&gt;camera hành trình cho ô tô&lt;/strong&gt;, nhưng ngặc nổi là không biết lái xe.&lt;/p&gt;
@@ -63,7 +107,7 @@
 
 &lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Ai ngờ nước lớn vẫn không làm suy hao gì với chiếc camera, nó vẫn hoạt động được.&lt;/li&gt;
+&lt;li&gt;Ai ngờ mưa lớn vẫn không làm suy hao gì với chiếc camera, nó vẫn hoạt động được.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/Others/Test_Camera_tren_Xe_may/Hinh_2.jpg&#34;

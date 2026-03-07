@@ -217,6 +217,7 @@ STT |		Tiêu đề			|		Mô tả				|
 18  | [Fleet_Platform][Fleet_Platform]	| Tổng hợp tài liệu về **Fleet Platform**	|
 19  | [Linux_Basic][Linux_Basic]	| Tổng hợp tài liệu và ghi chú kiến thức cơ bản về Linux |
 20  | [Bruno][Bruno]			| Giới thiệu về ứng dụng thay thế Postman - **Bruno** |
+21  | [Phone_Farm][Phone_Farm]		| Ghi chú về cách build **Phone Farm** bằng server ESXi |
 
 [Permission_Linux]: https://blog.vinhld-homelab.io.vn/posts/system-devops/permission_linux/
 [Huly]: https://blog.vinhld-homelab.io.vn/posts/system-devops/huly/
@@ -238,6 +239,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [Fleet_Platform]: https://blog.vinhld-homelab.io.vn/posts/system-devops/fleet_platform/
 [Linux_Basic]: https://blog.vinhld-homelab.io.vn/posts/system-devops/linux_basic/
 [Bruno]: https://blog.vinhld-homelab.io.vn/posts/system-devops/bruno/
+[Phone_Farm]: https://blog.vinhld-homelab.io.vn/posts/system-devops/phone_farm/
 
 -----------------------------------------------------------------------------------------
 # <mark>Others</mark>
