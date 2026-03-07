@@ -10,7 +10,7 @@ Nhưng bây giờ ứng dụng này quá nặng, và cần phải đăng nhập 
 
 Mình cần tìm một ứng dụng thay thế, gọn nhẹ. Và lúc này mình tìm thấy ứng dụng gọi là **Bruno**.
 
-### [Bruno](https://www.usebruno.com/)
+### Trang chủ [Bruno](https://www.usebruno.com/)
 - Trang github [usebruno/bruno](https://github.com/usebruno/bruno), và link [download](https://www.usebruno.com/downloads)
 - Mình đã tải và cài đặt ứng dụng. Dùng cũng ổn áp, và rất nhẹ =]]
 - Các thao tác test và thử nghiệm:

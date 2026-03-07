@@ -85,6 +85,7 @@ hugo new posts/Others/Cong_cu_test_Acquy.md
 hugo new posts/Others/Tem_phu.md
 hugo new posts/Others/Google_AI_Tools.md
 hugo new posts/Others/Prompt_AI.md
+hugo new posts/Others/Test_Camera_tren_Xe_may.md
 ```
 
 ### IoT:

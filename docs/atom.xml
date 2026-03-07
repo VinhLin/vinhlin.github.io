@@ -14,12 +14,82 @@
     
     
     <item>
+      <title>Test_Camera_tren_Xe_may</title>
+      <link>https://vinhlin.github.io/posts/others/test_camera_tren_xe_may/</link>
+      <description>&lt;p&gt;Mình làm về thiết bị &lt;strong&gt;camera hành trình cho ô tô&lt;/strong&gt;, nhưng ngặc nổi là không biết lái xe.&lt;/p&gt;
+&lt;p&gt;Thường thì mình sẽ nhờ đồng nghiệp support thêm về việc trải nghiệm camera. Nhưng đôi lúc, mình cần test các tính năng của camera.&lt;/p&gt;
+&lt;p&gt;Mình có thể test trên lab, sử dụng nguồn từ ac-quy hoặc nguồn tổ ong. Nhưng mình muốn trải nghiệm nhiều hơn các tính năng khác.&lt;/p&gt;
+&lt;p&gt;Và đó là lúc mình &lt;strong&gt;chế&lt;/strong&gt; lại việc gắn camera ô tô lên chiếc xe máy. Có sử dụng đầy đủ cả 3 dây của bộ nguồn Hardware Kit &lt;em&gt;(ACC, B+, GND)&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&#34;video-short-l110-cho-xe-máyhttpswwwyoutubecomshorts2gqjovk0p84&#34;&gt;Video short &lt;a href=&#34;https://www.youtube.com/shorts/2GQjoVK0P84&#34;&gt;L110 cho xe máy&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Đây là video mình làm test check xem quá trình xem lại chạy xe, thử xem video có ổn không.&lt;/li&gt;
+&lt;li&gt;Nhìn chung thì cũng tạm ổn&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;bài-viết-trên-facebook&#34;&gt;Bài viết trên Facebook&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Ban đầu mình cứ nghĩ chỉ có thể gắn test chiếc camera nhỏ gọn như L110.&lt;/li&gt;
+&lt;li&gt;Nhưng sau đó thử với chiếc &lt;strong&gt;M1&lt;/strong&gt;. Wow, vẫn có thể dùng được. &lt;em&gt;(Mặc dù mình thấy gắn L110 vẫn OK hơn)&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://scontent.fsgn2-8.fna.fbcdn.net/v/t39.30808-6/646993326_2947789552083937_621914741349778273_n.jpg?_nc_cat=102&amp;amp;ccb=1-7&amp;amp;_nc_sid=7b2446&amp;amp;_nc_ohc=3RxVoTzqPF0Q7kNvwGPqUlZ&amp;amp;_nc_oc=AdkQYTVTF3YZ-vSUfk9wt8MuqGZ40p4lo_Pyo8P8HtZWEeQ2fow_2YxUAPVjTalKRh4&amp;amp;_nc_zt=23&amp;amp;_nc_ht=scontent.fsgn2-8.fna&amp;amp;_nc_gid=rFFICJRLwqzEv6JT-oJy9g&amp;amp;_nc_ss=8&amp;amp;oh=00_Afx8Rn2IJFbPvFPRfIUR8VkZkfmnKGEeyNIR-7UMY4SSSA&amp;amp;oe=69B1D53A&#34;
+  alt=&#34;Hình Facebook 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://scontent.fsgn2-8.fna.fbcdn.net/v/t39.30808-6/646336025_2947789622083930_1825822205566577633_n.jpg?_nc_cat=102&amp;amp;ccb=1-7&amp;amp;_nc_sid=7b2446&amp;amp;_nc_ohc=0_5x9RB13r8Q7kNvwEQ4vAf&amp;amp;_nc_oc=AdnBYVRQiFY0bN6S2TS1KCpFQZbtsyuAD9nLTuq_krXFRnS4pIumbGmo4BimvOpj0U0&amp;amp;_nc_zt=23&amp;amp;_nc_ht=scontent.fsgn2-8.fna&amp;amp;_nc_gid=Gr7EI6pHeNrb4ZQ3MMoBpQ&amp;amp;_nc_ss=8&amp;amp;oh=00_AfzPoztKC-_kP4M4Du2DChovO8rRAbQXWT_4AImAxGIXFg&amp;amp;oe=69B1CEB3&#34;
+  alt=&#34;Hình Facebook 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;gần-đây&#34;&gt;Gần đây&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Ban đầu mình chỉ gắn cam khi chạy xe, sau đó sẽ cất lại vào cóp.&lt;/li&gt;
+&lt;li&gt;Bây giờ mình quyết định thử sử dụng &lt;strong&gt;bọc ni-lon&lt;/strong&gt; để chống nước.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/Test_Camera_tren_Xe_may/Hinh_1.jpg&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ai ngờ nước lớn vẫn không làm suy hao gì với chiếc camera, nó vẫn hoạt động được.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/Test_Camera_tren_Xe_may/Hinh_2.jpg&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Nếu như vậy, sau này có thể mình sẽ test thêm các tính năng khác của 4G nữa. =]]&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <author>VinhLD</author>
+      <guid>https://vinhlin.github.io/posts/others/test_camera_tren_xe_may/</guid>
+      <pubDate>Sat, 07 Mar 2026 19:02:33 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Bruno</title>
       <link>https://vinhlin.github.io/posts/system-devops/bruno/</link>
       <description>&lt;p&gt;Lúc trước nếu cần check API thì mình hay dùng &lt;strong&gt;Postman&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Nhưng bây giờ ứng dụng này quá nặng, và cần phải đăng nhập các kiểu.&lt;/p&gt;
 &lt;p&gt;Mình cần tìm một ứng dụng thay thế, gọn nhẹ. Và lúc này mình tìm thấy ứng dụng gọi là &lt;strong&gt;Bruno&lt;/strong&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;brunohttpswwwusebrunocom&#34;&gt;&lt;a href=&#34;https://www.usebruno.com/&#34;&gt;Bruno&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;trang-chủ-brunohttpswwwusebrunocom&#34;&gt;Trang chủ &lt;a href=&#34;https://www.usebruno.com/&#34;&gt;Bruno&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Trang github &lt;a href=&#34;https://github.com/usebruno/bruno&#34;&gt;usebruno/bruno&lt;/a&gt;, và link &lt;a href=&#34;https://www.usebruno.com/downloads&#34;&gt;download&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Mình đã tải và cài đặt ứng dụng. Dùng cũng ổn áp, và rất nhẹ =]]&lt;/li&gt;

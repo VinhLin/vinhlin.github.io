@@ -216,6 +216,7 @@ STT |		Tiêu đề			|		Mô tả				|
 17  | [Firewall_System][Firewall_System]| Ghi chú về các **công cụ firewall** cho Android, Linux và Windows |
 18  | [Fleet_Platform][Fleet_Platform]	| Tổng hợp tài liệu về **Fleet Platform**	|
 19  | [Linux_Basic][Linux_Basic]	| Tổng hợp tài liệu và ghi chú kiến thức cơ bản về Linux |
+20  | [Bruno][Bruno]			| Giới thiệu về ứng dụng thay thế Postman - **Bruno** |
 
 [Permission_Linux]: https://blog.vinhld-homelab.io.vn/posts/system-devops/permission_linux/
 [Huly]: https://blog.vinhld-homelab.io.vn/posts/system-devops/huly/
@@ -236,6 +237,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [Firewall_System]: https://blog.vinhld-homelab.io.vn/posts/system-devops/firewall_system/
 [Fleet_Platform]: https://blog.vinhld-homelab.io.vn/posts/system-devops/fleet_platform/
 [Linux_Basic]: https://blog.vinhld-homelab.io.vn/posts/system-devops/linux_basic/
+[Bruno]: https://blog.vinhld-homelab.io.vn/posts/system-devops/bruno/
 
 -----------------------------------------------------------------------------------------
 # <mark>Others</mark>
@@ -262,6 +264,7 @@ STT |		Tiêu đề			|		Mô tả				|
 17  | [Car_System][Car_System]		| Ghi chú và tổng hợp về **Kỹ thuật An toàn Ô tô và Công nghệ ô tô** |
 18  | [Cong_cu_test_Acquy][Cong_cu_test_Acquy] | Ghi chú về **Công cụ test Ac-quy**	|
 19  | [Tem_phu][Tem_phu]		| Ghi chú lại công dụng của "Tem phụ"		|
+20  | [Test_Camera_tren_Xe_may][Test_Camera_tren_Xe_may] | Test camera trên xe máy	|
 
 [Ngoai_ngu]: https://blog.vinhld-homelab.io.vn/posts/others/goc_nhin_ve_ngoai_ngu/
 [Hardware_Hacking]: https://blog.vinhld-homelab.io.vn/posts/others/suy_nghi_ve_hardware_hacking/
@@ -282,6 +285,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [Car_System]: https://blog.vinhld-homelab.io.vn/posts/others/car_system/
 [Cong_cu_test_Acquy]: https://blog.vinhld-homelab.io.vn/posts/others/cong_cu_test_acquy/
 [Tem_phu]: https://blog.vinhld-homelab.io.vn/posts/others/tem_phu/
+[Test_Camera_tren_Xe_may]: https://blog.vinhld-homelab.io.vn/posts/others/test_camera_tren_xe_may/
 
 ## ***AI***
 

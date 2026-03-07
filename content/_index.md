@@ -61,6 +61,7 @@ Mình áp dụng những kiến thức của bản thân để tự build lên h
 - ❤️ Github: https://github.com/VinhLin
 - 📫 Linkedin Profile: https://www.linkedin.com/in/vinh-lin-3921a8191/
 - 👨‍💻 Youtube Channel: https://www.youtube.com/@vinhlin5194
+- 🌱 Facebook: https://www.facebook.com/vinh.linduc/
 
 👉 [My Dashboard HOMELAB Server](https://dashboard.vinhld-homelab.io.vn:3080/)
 
