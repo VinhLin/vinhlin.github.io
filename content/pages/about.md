@@ -37,8 +37,4 @@ Mình vẫn sẽ tiếp tục củng cố, trau dồi để *làm đầy roadmap
 
 ![Mindmap](/image/Mindmap.png)
 
-### Tham khảo [Embedded-Engineering-Roadmap](https://github.com/m3y54m/Embedded-Engineering-Roadmap)
-
-![Roadmap](https://github.com/m3y54m/Embedded-Engineering-Roadmap/releases/latest/download/Embedded-Engineering-Roadmap.png)
-
 

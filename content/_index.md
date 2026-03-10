@@ -67,4 +67,9 @@ Mình áp dụng những kiến thức của bản thân để tự build lên h
 
 ![Dashboard_HL](/image/Dashboard_HOMELAB.png)
 
+### Tham khảo lộ trình [Cyber Security Expert](https://roadmap.sh/cyber-security)
+
+### Tham khảo lộ trình [Embedded-Engineering-Roadmap](https://github.com/m3y54m/Embedded-Engineering-Roadmap)
+
+![Roadmap](https://github.com/m3y54m/Embedded-Engineering-Roadmap/releases/latest/download/Embedded-Engineering-Roadmap.png)
 

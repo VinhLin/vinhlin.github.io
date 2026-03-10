@@ -23,9 +23,9 @@ Công cụ tìm kiếm bài viết trên blog:
                 load_more: "Xem thêm kết quả",
                 search_label: "Tìm kiếm",
                 filters_label: "Lọc",
-                zero_results: "Không tìm thấy nội dung cho: [query]",
-                many_results: "Tìm thấy [count] kết quả cho: [query]",
-                one_result: "Tìm thấy [count] kết quả cho: [query]",
+                zero_results: "Không tìm thấy nội dung cho: {query}",
+                many_results: "Tìm thấy {count} kết quả cho: {query}",
+                one_result: "Tìm thấy {count} kết quả cho: {query}",
                 searching: "Đang tìm kiếm..."
             }
         });

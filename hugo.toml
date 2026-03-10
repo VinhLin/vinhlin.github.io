@@ -1,9 +1,8 @@
 baseURL = 'https://vinhlin.github.io/'
 languageCode = 'en-us'
-title = 'VinhLin'
+title = 'VinhLD'
 paginate = 3
 theme = 'maverick'
-# publishdir = "vinhlin.github.io"
 publishdir = "docs"
 
 [permalinks]
@@ -12,7 +11,7 @@ publishdir = "docs"
 [params]
   logo = '/assets/favicon.ico'
   description = "Technology Blog"
-  author = 'VinhLD'
+  author = 'Vincent'
 
   [params.comments]
     enabled = false

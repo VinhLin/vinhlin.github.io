@@ -1,19 +1,34 @@
 {
   "version": "https://jsonfeed.org/version/1",
-  "title": "VinhLin",
+  "title": "VinhLD",
   "home_page_url": "https://vinhlin.github.io/",
   "feed_url": "https://vinhlin.github.io/feed.json",
   "description": "Technology Blog",
   "favicon": "https://vinhlin.github.io//assets/favicon.ico",
   "expired": false,
   "author": {
-    "name": "VinhLD",
+    "name": "Vincent",
     "url": "https://vinhlin.github.io/"
   },
   "items": [
     
     
 
+    
+    {
+      "id": "abf58e9aa4c66a623076a3160983d4430f5154f0",
+      "title": "Win_CMD_for_CyberSecurity",
+      "summary": "",
+      "content_text": "Bữa lụm được bài viết về các câu lệnh (command) trên Windows dành cho CyberSecurity.\nThấy hay nên lưu lại, nó như một Windows Comamnd Cheatsheet cho bản thân:\n",
+      "content_html": "\u003cp\u003eBữa lụm được bài viết về các câu lệnh \u003cem\u003e(command)\u003c/em\u003e trên Windows dành cho CyberSecurity.\u003c/p\u003e\n\u003cp\u003eThấy hay nên lưu lại, nó như một \u003cstrong\u003eWindows Comamnd Cheatsheet\u003c/strong\u003e cho bản thân:\u003c/p\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/CyberSecurity/Win_CMD_for_CyberSecurity/Hinh_0.jpg\"\n  alt=\"Hình 0\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/CyberSecurity/Win_CMD_for_CyberSecurity/Hinh_1.jpg\"\n  alt=\"Hình 1\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/CyberSecurity/Win_CMD_for_CyberSecurity/Hinh_2.jpg\"\n  alt=\"Hình 2\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/CyberSecurity/Win_CMD_for_CyberSecurity/Hinh_3.jpg\"\n  alt=\"Hình 3\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/CyberSecurity/Win_CMD_for_CyberSecurity/Hinh_4.jpg\"\n  alt=\"Hình 4\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/CyberSecurity/Win_CMD_for_CyberSecurity/Hinh_5.jpg\"\n  alt=\"Hình 5\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/CyberSecurity/Win_CMD_for_CyberSecurity/Hinh_6.jpg\"\n  alt=\"Hình 6\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n",
+      "url": "https://vinhlin.github.io/posts/cybersecurity/technical/win_cmd_for_cybersecurity/",
+      "date_published": "10036-10-09T319:1010:00+07:00",
+      "date_modified": "10036-10-09T319:1010:00+07:00",
+      "author": {
+        "name": "Vincent",
+        "url": "https://vinhlin.github.io/"
+      }
+    },
     
     {
       "id": "64551dd8002382b5cced9fc7843d8750ab0ce8d2",
@@ -25,7 +40,7 @@
       "date_published": "7036-07-09T341:77:00+07:00",
       "date_modified": "7036-07-09T341:77:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -40,7 +55,7 @@
       "date_published": "7036-07-09T32:77:00+07:00",
       "date_modified": "7036-07-09T32:77:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -55,7 +70,7 @@
       "date_published": "6036-06-09T340:66:00+07:00",
       "date_modified": "6036-06-09T340:66:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -70,7 +85,7 @@
       "date_published": "26026-26-09T251:2626:00+07:00",
       "date_modified": "26026-26-09T251:2626:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -85,7 +100,7 @@
       "date_published": "24026-24-09T244:2424:00+07:00",
       "date_modified": "24026-24-09T244:2424:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -100,7 +115,7 @@
       "date_published": "24026-24-09T214:2424:00+07:00",
       "date_modified": "24026-24-09T214:2424:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -115,7 +130,7 @@
       "date_published": "24026-24-09T258:2424:00+07:00",
       "date_modified": "24026-24-09T258:2424:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -130,7 +145,7 @@
       "date_published": "24026-24-09T219:2424:00+07:00",
       "date_modified": "24026-24-09T219:2424:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -145,7 +160,7 @@
       "date_published": "23016-23-09T120:2323:00+07:00",
       "date_modified": "23016-23-09T120:2323:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -160,7 +175,7 @@
       "date_published": "22016-22-09T119:2222:00+07:00",
       "date_modified": "22016-22-09T119:2222:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -175,7 +190,7 @@
       "date_published": "19016-19-09T145:1919:00+07:00",
       "date_modified": "19016-19-09T145:1919:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -190,7 +205,7 @@
       "date_published": "12016-12-09T153:1212:00+07:00",
       "date_modified": "12016-12-09T153:1212:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -205,7 +220,7 @@
       "date_published": "6016-06-09T113:66:00+07:00",
       "date_modified": "6016-06-09T113:66:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -220,7 +235,7 @@
       "date_published": "24126-24-09T1249:2424:00+07:00",
       "date_modified": "24126-24-09T1249:2424:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -235,7 +250,7 @@
       "date_published": "24126-24-09T1242:2424:00+07:00",
       "date_modified": "24126-24-09T1242:2424:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -250,7 +265,7 @@
       "date_published": "24126-24-09T1222:2424:00+07:00",
       "date_modified": "24126-24-09T1222:2424:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -265,7 +280,7 @@
       "date_published": "18126-18-09T1253:1818:00+07:00",
       "date_modified": "18126-18-09T1253:1818:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -280,7 +295,7 @@
       "date_published": "18126-18-09T1257:1818:00+07:00",
       "date_modified": "18126-18-09T1257:1818:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -295,7 +310,7 @@
       "date_published": "15126-15-09T1251:1515:00+07:00",
       "date_modified": "15126-15-09T1251:1515:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -310,7 +325,7 @@
       "date_published": "12126-12-09T1216:1212:00+07:00",
       "date_modified": "12126-12-09T1216:1212:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -325,7 +340,7 @@
       "date_published": "11126-11-09T1247:1111:00+07:00",
       "date_modified": "11126-11-09T1247:1111:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -340,7 +355,7 @@
       "date_published": "11126-11-09T1228:1111:00+07:00",
       "date_modified": "11126-11-09T1228:1111:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -355,7 +370,7 @@
       "date_published": "8126-08-09T1230:88:00+07:00",
       "date_modified": "8126-08-09T1230:88:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -370,7 +385,7 @@
       "date_published": "3126-03-09T1233:33:00+07:00",
       "date_modified": "3126-03-09T1233:33:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -385,7 +400,7 @@
       "date_published": "3126-03-09T126:33:00+07:00",
       "date_modified": "3126-03-09T126:33:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -400,7 +415,7 @@
       "date_published": "27116-27-09T1147:2727:00+07:00",
       "date_modified": "27116-27-09T1147:2727:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -415,7 +430,7 @@
       "date_published": "20116-20-09T1142:2020:00+07:00",
       "date_modified": "20116-20-09T1142:2020:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -430,7 +445,7 @@
       "date_published": "20116-20-09T1144:2020:00+07:00",
       "date_modified": "20116-20-09T1144:2020:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -445,7 +460,7 @@
       "date_published": "18116-18-09T1151:1818:00+07:00",
       "date_modified": "18116-18-09T1151:1818:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -460,7 +475,7 @@
       "date_published": "13116-13-09T112:1313:00+07:00",
       "date_modified": "13116-13-09T112:1313:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -475,7 +490,7 @@
       "date_published": "10116-10-09T111:1010:00+07:00",
       "date_modified": "10116-10-09T111:1010:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -490,7 +505,7 @@
       "date_published": "10116-10-09T1120:1010:00+07:00",
       "date_modified": "10116-10-09T1120:1010:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -505,7 +520,7 @@
       "date_published": "4116-04-09T1159:44:00+07:00",
       "date_modified": "4116-04-09T1159:44:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -520,7 +535,7 @@
       "date_published": "20106-20-09T1046:2020:00+07:00",
       "date_modified": "20106-20-09T1046:2020:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -535,7 +550,7 @@
       "date_published": "20106-20-09T1026:2020:00+07:00",
       "date_modified": "20106-20-09T1026:2020:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -550,7 +565,7 @@
       "date_published": "16106-16-09T1041:1616:00+07:00",
       "date_modified": "16106-16-09T1041:1616:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -559,13 +574,13 @@
       "id": "7f3f11f5478a9e233c7c8cac100e2bfaec97f4b5",
       "title": "DevOps",
       "summary": "",
-      "content_text": "Mình biết đến lĩnh vực DevOps cũng lâu rồi, nhưng nay tự nhiên lại muốn document.\nTheo mình hiểu đơn giản thì khi làm System đủ lâu, mà muốn phát triển lên thì vai trò tiếp theo chính là DevOps.\nLúc trước mình cũng lân la đi đọc JD của vai trò DevOps, học cơ bản về DevOps.\nVà khóa học free mà mình thấy hấp dẫn nhất chính là DevOps for Freshers\nelroydevops Với mình đây là trang web học về DevOps cực kỳ chất lượng. Không những có những khóa học cơ bản miễn phí, mà còn có những bài blog chia sẻ rất có tâm. Giúp mình củng cố kiến thức về linux, monitor, và hiểu thêm về Automation. Linux Xem thêm bài viết về Permission_Linux Tìm hiểu về chattr_Linux Command 1: chattr +i demofile.txt Command 2: chattr -i demofile.txt Cloud - AWS Chuyên mục DevOps Tài liệu AWS - Raspberry: https://docs.aws.amazon.com/iot/latest/developerguide/connecting-to-existing-device.html https://community.aws/content/2fmIjiV6VfXnoN1ABMJHO5OYR0W/getting-started-with-pico-w-iot-core?lang=en https://docs.aws.amazon.com/iot/latest/developerguide/iot-moisture-raspi-setup.html Ảo hóa - Docker Chạy Raspberry OS trên Docker: DockerPi docker run -it lukechilds/dockerpi Cài đặt công cụ IT-Tools bằng Docker: Docker IT-Tools docker run -d -p 8080:80 --name it-tools -it corentinth/it-tools Tham khảo khác: CND Storage Openstack kestra: Opensource automation tool. Ansible Cách sử dụng ansible Roadmap Tham khảo thêm về roadmap devops. PDF file ",
-      "content_html": "\u003cp\u003eMình biết đến lĩnh vực \u003cstrong\u003eDevOps\u003c/strong\u003e cũng lâu rồi, nhưng nay tự nhiên lại muốn document.\u003c/p\u003e\n\u003cp\u003eTheo mình hiểu đơn giản thì \u003cstrong\u003ekhi làm System đủ lâu, mà muốn phát triển lên thì vai trò tiếp theo chính là DevOps\u003c/strong\u003e.\u003c/p\u003e\n\u003cp\u003eLúc trước mình cũng lân la đi đọc JD của vai trò DevOps, học cơ bản về DevOps.\u003c/p\u003e\n\u003cp\u003eVà khóa học free mà mình thấy hấp dẫn nhất chính là \u003ca href=\"https://elroydevops.tech/devops-for-fresher-kien-thuc-thuc-te/\"\u003eDevOps for Freshers\u003c/a\u003e\u003c/p\u003e\n\u003ch3 id=\"elroydevopshttpselroydevopstech\"\u003e\u003ca href=\"https://elroydevops.tech/\"\u003eelroydevops\u003c/a\u003e\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eVới mình đây là trang web học về \u003cstrong\u003eDevOps\u003c/strong\u003e cực kỳ chất lượng.\u003c/li\u003e\n\u003cli\u003eKhông những có những khóa học cơ bản miễn phí, mà còn có những \u003cstrong\u003ebài blog chia sẻ rất có tâm\u003c/strong\u003e.\u003c/li\u003e\n\u003cli\u003eGiúp mình củng cố kiến thức về linux, monitor, và hiểu thêm về Automation.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3 id=\"linux\"\u003eLinux\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eXem thêm bài viết về \u003ca href=\"https://blog.vinhld-homelab.io.vn/posts/system-devops/permission_linux/\"\u003ePermission_Linux\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003eTìm hiểu về \u003ca href=\"https://devops.vn/posts/mot-cau-lenh-linux-cuc-ky-manh-me-ma-co-the-ban-chua-dung-bao-gio/\"\u003echattr_Linux\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003cem\u003eCommand 1: \u003ccode\u003echattr +i demofile.txt\u003c/code\u003e\u003c/em\u003e \u003c/br\u003e\n\u003cem\u003eCommand 2: \u003ccode\u003echattr -i demofile.txt\u003c/code\u003e\u003c/em\u003e \u003c/br\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/System-DevOps/DevOps/Linux_Admin.jpg\"\n  alt=\"Linux Admin\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003ch3 id=\"cloud---aws\"\u003eCloud - AWS\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://elroydevops.tech/aws/\"\u003eChuyên mục DevOps\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003eTài liệu AWS - Raspberry:\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003ehttps://docs.aws.amazon.com/iot/latest/developerguide/connecting-to-existing-device.html\nhttps://community.aws/content/2fmIjiV6VfXnoN1ABMJHO5OYR0W/getting-started-with-pico-w-iot-core?lang=en\nhttps://docs.aws.amazon.com/iot/latest/developerguide/iot-moisture-raspi-setup.html\n\u003c/code\u003e\u003c/pre\u003e\u003cp\u003e\u003cimg\n  src=\"/image/System-DevOps/DevOps/AWS.jpg\"\n  alt=\"AWS\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003ch3 id=\"ảo-hóa---docker\"\u003eẢo hóa - Docker\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eChạy \u003cstrong\u003eRaspberry OS trên Docker\u003c/strong\u003e: \u003ca href=\"https://github.com/lukechilds/dockerpi\"\u003eDockerPi\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003edocker run -it lukechilds/dockerpi\n\u003c/code\u003e\u003c/pre\u003e\u003cul\u003e\n\u003cli\u003eCài đặt công cụ \u003ca href=\"https://it-tools.tech/\"\u003eIT-Tools\u003c/a\u003e bằng Docker: \u003ca href=\"https://github.com/CorentinTh/it-tools\"\u003eDocker IT-Tools\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003edocker run -d -p 8080:80 --name it-tools -it corentinth/it-tools\n\u003c/code\u003e\u003c/pre\u003e\u003ch3 id=\"tham-khảo-khác\"\u003eTham khảo khác:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://www.youtube.com/watch?v=zM-6q54gu1w\u0026amp;list=PLUD8HYMnoROxPqDsDzyTagU3l6V1CbbAy\u0026amp;index=7\"\u003eCND\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://www.youtube.com/watch?v=KhDz0uzoIXM\u0026amp;list=PLUD8HYMnoROxPqDsDzyTagU3l6V1CbbAy\u0026amp;index=3\"\u003eStorage\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://www.youtube.com/watch?v=ZqR34IwIor8\"\u003eOpenstack\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/kestra-io/kestra\"\u003ekestra\u003c/a\u003e: Opensource automation tool.\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://news.cloud365.vn/category/huong-dan/ansible/\"\u003eAnsible\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003cem\u003e\u003ca href=\"https://elroydevops.tech/cach-su-dung-ansible-infrastructure-as-code/\"\u003eCách sử dụng ansible\u003c/a\u003e\u003c/em\u003e \u003c/br\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch3 id=\"roadmap\"\u003eRoadmap\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eTham khảo thêm về \u003ca href=\"https://roadmap.sh/devops\"\u003eroadmap devops\u003c/a\u003e.\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"/docs/devops_roadmap.pdf\"\u003ePDF file\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/System-DevOps/DevOps/DevOps_Roadmap.jpg\"\n  alt=\"DevOps Roadmap\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n",
+      "content_text": "Mình biết đến lĩnh vực DevOps cũng lâu rồi, nhưng nay tự nhiên lại muốn document.\nTheo mình hiểu đơn giản thì khi làm System đủ lâu, mà muốn phát triển lên thì vai trò tiếp theo chính là DevOps.\nLúc trước mình cũng lân la đi đọc JD của vai trò DevOps, học cơ bản về DevOps.\nVà khóa học free mà mình thấy hấp dẫn nhất chính là DevOps for Freshers\nelroydevops Với mình đây là trang web học về DevOps cực kỳ chất lượng. Không những có những khóa học cơ bản miễn phí, mà còn có những bài blog chia sẻ rất có tâm. Giúp mình củng cố kiến thức về linux, monitor, và hiểu thêm về Automation. Linux Xem thêm bài viết về Permission_Linux Tìm hiểu về chattr_Linux Command 1: chattr +i demofile.txt Command 2: chattr -i demofile.txt Cloud - AWS Chuyên mục DevOps Tài liệu AWS - Raspberry: https://docs.aws.amazon.com/iot/latest/developerguide/connecting-to-existing-device.html https://community.aws/content/2fmIjiV6VfXnoN1ABMJHO5OYR0W/getting-started-with-pico-w-iot-core?lang=en https://docs.aws.amazon.com/iot/latest/developerguide/iot-moisture-raspi-setup.html Ảo hóa - Docker Docker Cheatsheet Một số dự án chạy bằng docker Chạy Raspberry OS trên Docker: DockerPi docker run -it lukechilds/dockerpi Cài đặt công cụ IT-Tools bằng Docker: Docker IT-Tools docker run -d -p 8080:80 --name it-tools -it corentinth/it-tools IaC (Infrastructure as Code) Các công cụ cho Automation gồm: kestra: Opensource automation tool. Ansible Cách sử dụng ansible Tài liệu tham khảo thêm về Automation khác: Automation_Tools n8n Tham khảo khác: CND Storage Openstack Roadmap Tham khảo thêm về roadmap devops. PDF file ",
+      "content_html": "\u003cp\u003eMình biết đến lĩnh vực \u003cstrong\u003eDevOps\u003c/strong\u003e cũng lâu rồi, nhưng nay tự nhiên lại muốn document.\u003c/p\u003e\n\u003cp\u003eTheo mình hiểu đơn giản thì \u003cstrong\u003ekhi làm System đủ lâu, mà muốn phát triển lên thì vai trò tiếp theo chính là DevOps\u003c/strong\u003e.\u003c/p\u003e\n\u003cp\u003eLúc trước mình cũng lân la đi đọc JD của vai trò DevOps, học cơ bản về DevOps.\u003c/p\u003e\n\u003cp\u003eVà khóa học free mà mình thấy hấp dẫn nhất chính là \u003ca href=\"https://elroydevops.tech/devops-for-fresher-kien-thuc-thuc-te/\"\u003eDevOps for Freshers\u003c/a\u003e\u003c/p\u003e\n\u003ch3 id=\"elroydevopshttpselroydevopstech\"\u003e\u003ca href=\"https://elroydevops.tech/\"\u003eelroydevops\u003c/a\u003e\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eVới mình đây là trang web học về \u003cstrong\u003eDevOps\u003c/strong\u003e cực kỳ chất lượng.\u003c/li\u003e\n\u003cli\u003eKhông những có những khóa học cơ bản miễn phí, mà còn có những \u003cstrong\u003ebài blog chia sẻ rất có tâm\u003c/strong\u003e.\u003c/li\u003e\n\u003cli\u003eGiúp mình củng cố kiến thức về linux, monitor, và hiểu thêm về Automation.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3 id=\"linux\"\u003eLinux\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eXem thêm bài viết về \u003ca href=\"https://blog.vinhld-homelab.io.vn/posts/system-devops/permission_linux/\"\u003ePermission_Linux\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003eTìm hiểu về \u003ca href=\"https://devops.vn/posts/mot-cau-lenh-linux-cuc-ky-manh-me-ma-co-the-ban-chua-dung-bao-gio/\"\u003echattr_Linux\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003cem\u003eCommand 1: \u003ccode\u003echattr +i demofile.txt\u003c/code\u003e\u003c/em\u003e \u003c/br\u003e\n\u003cem\u003eCommand 2: \u003ccode\u003echattr -i demofile.txt\u003c/code\u003e\u003c/em\u003e \u003c/br\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/System-DevOps/DevOps/Linux_Admin.jpg\"\n  alt=\"Linux Admin\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003ch3 id=\"cloud---aws\"\u003eCloud - AWS\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://elroydevops.tech/aws/\"\u003eChuyên mục DevOps\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003eTài liệu AWS - Raspberry:\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003ehttps://docs.aws.amazon.com/iot/latest/developerguide/connecting-to-existing-device.html\nhttps://community.aws/content/2fmIjiV6VfXnoN1ABMJHO5OYR0W/getting-started-with-pico-w-iot-core?lang=en\nhttps://docs.aws.amazon.com/iot/latest/developerguide/iot-moisture-raspi-setup.html\n\u003c/code\u003e\u003c/pre\u003e\u003cp\u003e\u003cimg\n  src=\"/image/System-DevOps/DevOps/AWS.jpg\"\n  alt=\"AWS\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003ch3 id=\"ảo-hóa---docker\"\u003eẢo hóa - Docker\u003c/h3\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/System-DevOps/DevOps/Docker_1.jpg\"\n  alt=\"Docker 1\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003ch4 id=\"docker-cheatsheet\"\u003eDocker Cheatsheet\u003c/h4\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/System-DevOps/DevOps/Docker_2.jpg\"\n  alt=\"Docker 2\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003ch4 id=\"một-số-dự-án-chạy-bằng-docker\"\u003eMột số dự án chạy bằng docker\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003eChạy \u003cstrong\u003eRaspberry OS trên Docker\u003c/strong\u003e: \u003ca href=\"https://github.com/lukechilds/dockerpi\"\u003eDockerPi\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003edocker run -it lukechilds/dockerpi\n\u003c/code\u003e\u003c/pre\u003e\u003cul\u003e\n\u003cli\u003eCài đặt công cụ \u003ca href=\"https://it-tools.tech/\"\u003eIT-Tools\u003c/a\u003e bằng Docker: \u003ca href=\"https://github.com/CorentinTh/it-tools\"\u003eDocker IT-Tools\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003edocker run -d -p 8080:80 --name it-tools -it corentinth/it-tools\n\u003c/code\u003e\u003c/pre\u003e\u003ch3 id=\"iac-infrastructure-as-code\"\u003eIaC \u003cem\u003e(Infrastructure as Code)\u003c/em\u003e\u003c/h3\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/System-DevOps/DevOps/IaC.jpg\"\n  alt=\"Iac\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eCác công cụ cho Automation gồm:\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/kestra-io/kestra\"\u003ekestra\u003c/a\u003e: Opensource automation tool.\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://news.cloud365.vn/category/huong-dan/ansible/\"\u003eAnsible\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003cem\u003e\u003ca href=\"https://elroydevops.tech/cach-su-dung-ansible-infrastructure-as-code/\"\u003eCách sử dụng ansible\u003c/a\u003e\u003c/em\u003e \u003c/br\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cul\u003e\n\u003cli\u003eTài liệu tham khảo thêm về \u003cstrong\u003eAutomation\u003c/strong\u003e khác:\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003cem\u003e\u003ca href=\"https://blog.vinhld-homelab.io.vn/posts/system-devops/automation_tools/\"\u003eAutomation_Tools\u003c/a\u003e\u003c/em\u003e \u003c/br\u003e\n\u003cem\u003e\u003ca href=\"https://blog.vinhld-homelab.io.vn/posts/system-devops/n8n/\"\u003en8n\u003c/a\u003e\u003c/em\u003e \u003c/br\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch3 id=\"tham-khảo-khác\"\u003eTham khảo khác:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://www.youtube.com/watch?v=zM-6q54gu1w\u0026amp;list=PLUD8HYMnoROxPqDsDzyTagU3l6V1CbbAy\u0026amp;index=7\"\u003eCND\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://www.youtube.com/watch?v=KhDz0uzoIXM\u0026amp;list=PLUD8HYMnoROxPqDsDzyTagU3l6V1CbbAy\u0026amp;index=3\"\u003eStorage\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://www.youtube.com/watch?v=ZqR34IwIor8\"\u003eOpenstack\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3 id=\"roadmap\"\u003eRoadmap\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eTham khảo thêm về \u003ca href=\"https://roadmap.sh/devops\"\u003eroadmap devops\u003c/a\u003e.\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"/docs/devops_roadmap.pdf\"\u003ePDF file\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/System-DevOps/DevOps/DevOps_Roadmap.jpg\"\n  alt=\"DevOps Roadmap\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n",
       "url": "https://vinhlin.github.io/posts/system-devops/devops/",
       "date_published": "7106-07-09T101:77:00+07:00",
       "date_modified": "7106-07-09T101:77:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -580,7 +595,7 @@
       "date_published": "6106-06-09T1031:66:00+07:00",
       "date_modified": "6106-06-09T1031:66:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -595,7 +610,7 @@
       "date_published": "3106-03-09T1018:33:00+07:00",
       "date_modified": "3106-03-09T1018:33:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -610,7 +625,7 @@
       "date_published": "2106-02-09T1051:22:00+07:00",
       "date_modified": "2106-02-09T1051:22:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -625,7 +640,7 @@
       "date_published": "30096-30-09T910:3030:00+07:00",
       "date_modified": "30096-30-09T910:3030:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -640,7 +655,7 @@
       "date_published": "25096-25-09T924:2525:00+07:00",
       "date_modified": "25096-25-09T924:2525:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -655,7 +670,7 @@
       "date_published": "24096-24-09T938:2424:00+07:00",
       "date_modified": "24096-24-09T938:2424:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -670,7 +685,7 @@
       "date_published": "21096-21-09T94:2121:00+07:00",
       "date_modified": "21096-21-09T94:2121:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -685,7 +700,7 @@
       "date_published": "21096-21-09T923:2121:00+07:00",
       "date_modified": "21096-21-09T923:2121:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -700,7 +715,7 @@
       "date_published": "16096-16-09T953:1616:00+07:00",
       "date_modified": "16096-16-09T953:1616:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -715,7 +730,7 @@
       "date_published": "16096-16-09T95:1616:00+07:00",
       "date_modified": "16096-16-09T95:1616:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -730,7 +745,7 @@
       "date_published": "9096-09-09T90:99:00+07:00",
       "date_modified": "9096-09-09T90:99:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -745,7 +760,7 @@
       "date_published": "29086-29-09T832:2929:00+07:00",
       "date_modified": "29086-29-09T832:2929:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -760,7 +775,7 @@
       "date_published": "28086-28-09T840:2828:00+07:00",
       "date_modified": "28086-28-09T840:2828:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -775,7 +790,7 @@
       "date_published": "9086-09-09T829:99:00+07:00",
       "date_modified": "9086-09-09T829:99:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -790,7 +805,7 @@
       "date_published": "8086-08-09T85:88:00+07:00",
       "date_modified": "8086-08-09T85:88:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -805,7 +820,7 @@
       "date_published": "26076-26-09T75:2626:00+07:00",
       "date_modified": "26076-26-09T75:2626:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -820,7 +835,7 @@
       "date_published": "1076-01-09T758:11:00+07:00",
       "date_modified": "1076-01-09T758:11:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -835,7 +850,7 @@
       "date_published": "24066-24-09T634:2424:00+07:00",
       "date_modified": "24066-24-09T634:2424:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -850,7 +865,7 @@
       "date_published": "4066-04-09T64:44:00+07:00",
       "date_modified": "4066-04-09T64:44:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -865,7 +880,7 @@
       "date_published": "1056-01-09T52:11:00+07:00",
       "date_modified": "1056-01-09T52:11:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -880,7 +895,7 @@
       "date_published": "1056-01-09T547:11:00+07:00",
       "date_modified": "1056-01-09T547:11:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -895,7 +910,7 @@
       "date_published": "1056-01-09T534:11:00+07:00",
       "date_modified": "1056-01-09T534:11:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -910,7 +925,7 @@
       "date_published": "30046-30-09T47:3030:00+07:00",
       "date_modified": "30046-30-09T47:3030:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -925,7 +940,7 @@
       "date_published": "13046-13-09T47:1313:00+07:00",
       "date_modified": "13046-13-09T47:1313:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -940,7 +955,7 @@
       "date_published": "12046-12-09T416:1212:00+07:00",
       "date_modified": "12046-12-09T416:1212:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -955,7 +970,7 @@
       "date_published": "11046-11-09T49:1111:00+07:00",
       "date_modified": "11046-11-09T49:1111:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -970,7 +985,7 @@
       "date_published": "5046-05-09T49:55:00+07:00",
       "date_modified": "5046-05-09T49:55:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -985,7 +1000,7 @@
       "date_published": "12036-12-09T316:1212:00+07:00",
       "date_modified": "12036-12-09T316:1212:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1000,7 +1015,7 @@
       "date_published": "11036-11-09T311:1111:00+07:00",
       "date_modified": "11036-11-09T311:1111:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1015,7 +1030,7 @@
       "date_published": "11036-11-09T38:1111:00+07:00",
       "date_modified": "11036-11-09T38:1111:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1030,7 +1045,7 @@
       "date_published": "9036-09-09T322:99:00+07:00",
       "date_modified": "9036-09-09T322:99:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1045,7 +1060,7 @@
       "date_published": "6036-06-09T359:66:00+07:00",
       "date_modified": "6036-06-09T359:66:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1060,7 +1075,7 @@
       "date_published": "26026-26-09T249:2626:00+07:00",
       "date_modified": "26026-26-09T249:2626:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1075,7 +1090,7 @@
       "date_published": "26026-26-09T252:2626:00+07:00",
       "date_modified": "26026-26-09T252:2626:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1090,7 +1105,7 @@
       "date_published": "10026-10-09T22:1010:00+07:00",
       "date_modified": "10026-10-09T22:1010:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1105,7 +1120,7 @@
       "date_published": "19016-19-09T146:1919:00+07:00",
       "date_modified": "19016-19-09T146:1919:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1120,7 +1135,7 @@
       "date_published": "17016-17-09T121:1717:00+07:00",
       "date_modified": "17016-17-09T121:1717:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1135,7 +1150,7 @@
       "date_published": "17016-17-09T159:1717:00+07:00",
       "date_modified": "17016-17-09T159:1717:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1150,7 +1165,7 @@
       "date_published": "17016-17-09T142:1717:00+07:00",
       "date_modified": "17016-17-09T142:1717:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1165,7 +1180,7 @@
       "date_published": "28126-28-09T1238:2828:00+07:00",
       "date_modified": "28126-28-09T1238:2828:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1180,7 +1195,7 @@
       "date_published": "30116-30-09T1120:3030:00+07:00",
       "date_modified": "30116-30-09T1120:3030:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1195,7 +1210,7 @@
       "date_published": "17116-17-09T1145:1717:00+07:00",
       "date_modified": "17116-17-09T1145:1717:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1210,7 +1225,7 @@
       "date_published": "17116-17-09T1139:1717:00+07:00",
       "date_modified": "17116-17-09T1139:1717:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1225,7 +1240,7 @@
       "date_published": "17116-17-09T1111:1717:00+07:00",
       "date_modified": "17116-17-09T1111:1717:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1240,7 +1255,7 @@
       "date_published": "11106-11-09T1023:1111:00+07:00",
       "date_modified": "11106-11-09T1023:1111:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1255,7 +1270,7 @@
       "date_published": "11106-11-09T1056:1111:00+07:00",
       "date_modified": "11106-11-09T1056:1111:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1270,7 +1285,7 @@
       "date_published": "11106-11-09T1021:1111:00+07:00",
       "date_modified": "11106-11-09T1021:1111:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1285,7 +1300,7 @@
       "date_published": "10106-10-09T1030:1010:00+07:00",
       "date_modified": "10106-10-09T1030:1010:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1300,7 +1315,7 @@
       "date_published": "7106-07-09T106:77:00+07:00",
       "date_modified": "7106-07-09T106:77:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1315,7 +1330,7 @@
       "date_published": "5106-05-09T1013:55:00+07:00",
       "date_modified": "5106-05-09T1013:55:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1330,7 +1345,7 @@
       "date_published": "5106-05-09T1055:55:00+07:00",
       "date_modified": "5106-05-09T1055:55:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1345,7 +1360,7 @@
       "date_published": "13096-13-09T914:1313:00+07:00",
       "date_modified": "13096-13-09T914:1313:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1360,7 +1375,7 @@
       "date_published": "2096-02-09T929:22:00+07:00",
       "date_modified": "2096-02-09T929:22:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1375,7 +1390,7 @@
       "date_published": "29086-29-09T838:2929:00+07:00",
       "date_modified": "29086-29-09T838:2929:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1390,7 +1405,7 @@
       "date_published": "27086-27-09T847:2727:00+07:00",
       "date_modified": "27086-27-09T847:2727:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1405,7 +1420,7 @@
       "date_published": "27086-27-09T839:2727:00+07:00",
       "date_modified": "27086-27-09T839:2727:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1420,7 +1435,7 @@
       "date_published": "26086-26-09T827:2626:00+07:00",
       "date_modified": "26086-26-09T827:2626:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1435,7 +1450,7 @@
       "date_published": "18086-18-09T87:1818:00+07:00",
       "date_modified": "18086-18-09T87:1818:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1450,7 +1465,7 @@
       "date_published": "16086-16-09T87:1616:00+07:00",
       "date_modified": "16086-16-09T87:1616:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1465,7 +1480,7 @@
       "date_published": "14086-14-09T817:1414:00+07:00",
       "date_modified": "14086-14-09T817:1414:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1480,7 +1495,7 @@
       "date_published": "12086-12-09T844:1212:00+07:00",
       "date_modified": "12086-12-09T844:1212:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1495,7 +1510,7 @@
       "date_published": "10086-10-09T818:1010:00+07:00",
       "date_modified": "10086-10-09T818:1010:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1510,7 +1525,7 @@
       "date_published": "9086-09-09T88:99:00+07:00",
       "date_modified": "9086-09-09T88:99:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1525,7 +1540,7 @@
       "date_published": "8086-08-09T87:88:00+07:00",
       "date_modified": "8086-08-09T87:88:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1540,7 +1555,7 @@
       "date_published": "7086-07-09T823:77:00+07:00",
       "date_modified": "7086-07-09T823:77:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1555,7 +1570,7 @@
       "date_published": "4086-04-09T84:44:00+07:00",
       "date_modified": "4086-04-09T84:44:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1570,7 +1585,7 @@
       "date_published": "3086-03-09T824:33:00+07:00",
       "date_modified": "3086-03-09T824:33:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1585,7 +1600,7 @@
       "date_published": "3086-03-09T824:33:00+07:00",
       "date_modified": "3086-03-09T824:33:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1600,7 +1615,7 @@
       "date_published": "28076-28-09T712:2828:00+07:00",
       "date_modified": "28076-28-09T712:2828:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1615,7 +1630,7 @@
       "date_published": "21076-21-09T734:2121:00+07:00",
       "date_modified": "21076-21-09T734:2121:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1630,7 +1645,7 @@
       "date_published": "10076-10-09T734:1010:00+07:00",
       "date_modified": "10076-10-09T734:1010:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1645,7 +1660,7 @@
       "date_published": "7076-07-09T73:77:00+07:00",
       "date_modified": "7076-07-09T73:77:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1660,7 +1675,7 @@
       "date_published": "6076-06-09T736:66:00+07:00",
       "date_modified": "6076-06-09T736:66:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1675,7 +1690,7 @@
       "date_published": "15066-15-09T64:1515:00+07:00",
       "date_modified": "15066-15-09T64:1515:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1690,7 +1705,7 @@
       "date_published": "15066-15-09T62:1515:00+07:00",
       "date_modified": "15066-15-09T62:1515:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1705,7 +1720,7 @@
       "date_published": "25056-25-09T559:2525:00+07:00",
       "date_modified": "25056-25-09T559:2525:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1720,7 +1735,7 @@
       "date_published": "25056-25-09T556:2525:00+07:00",
       "date_modified": "25056-25-09T556:2525:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1735,7 +1750,7 @@
       "date_published": "25056-25-09T548:2525:00+07:00",
       "date_modified": "25056-25-09T548:2525:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1750,7 +1765,7 @@
       "date_published": "25056-25-09T543:2525:00+07:00",
       "date_modified": "25056-25-09T543:2525:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1765,7 +1780,7 @@
       "date_published": "1046-01-09T457:11:00+07:00",
       "date_modified": "1046-01-09T457:11:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1780,7 +1795,7 @@
       "date_published": "1046-01-09T453:11:00+07:00",
       "date_modified": "1046-01-09T453:11:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1795,7 +1810,7 @@
       "date_published": "1046-01-09T449:11:00+07:00",
       "date_modified": "1046-01-09T449:11:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     },
@@ -1810,7 +1825,7 @@
       "date_published": "1046-01-09T434:11:00+07:00",
       "date_modified": "1046-01-09T434:11:00+07:00",
       "author": {
-        "name": "VinhLD",
+        "name": "Vincent",
         "url": "https://vinhlin.github.io/"
       }
     }

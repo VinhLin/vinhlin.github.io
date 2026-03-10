@@ -36,6 +36,14 @@ https://docs.aws.amazon.com/iot/latest/developerguide/iot-moisture-raspi-setup.h
 ![AWS](/image/System-DevOps/DevOps/AWS.jpg)
 
 ### Ảo hóa - Docker
+
+![Docker 1](/image/System-DevOps/DevOps/Docker_1.jpg)
+
+#### Docker Cheatsheet
+
+![Docker 2](/image/System-DevOps/DevOps/Docker_2.jpg)
+
+#### Một số dự án chạy bằng docker
 - Chạy **Raspberry OS trên Docker**: [DockerPi](https://github.com/lukechilds/dockerpi)
 ```
 docker run -it lukechilds/dockerpi
@@ -45,20 +53,27 @@ docker run -it lukechilds/dockerpi
 docker run -d -p 8080:80 --name it-tools -it corentinth/it-tools
 ```
 
+### IaC *(Infrastructure as Code)*
+
+![Iac](/image/System-DevOps/DevOps/IaC.jpg)
+
+- Các công cụ cho Automation gồm:
+- [kestra](https://github.com/kestra-io/kestra): Opensource automation tool.
+- [Ansible](https://news.cloud365.vn/category/huong-dan/ansible/)
+> *[Cách sử dụng ansible](https://elroydevops.tech/cach-su-dung-ansible-infrastructure-as-code/)* </br>
+
+- Tài liệu tham khảo thêm về **Automation** khác:
+> *[Automation_Tools](https://blog.vinhld-homelab.io.vn/posts/system-devops/automation_tools/)* </br>
+> *[n8n](https://blog.vinhld-homelab.io.vn/posts/system-devops/n8n/)* </br>
+
 ### Tham khảo khác:
 - [CND](https://www.youtube.com/watch?v=zM-6q54gu1w&list=PLUD8HYMnoROxPqDsDzyTagU3l6V1CbbAy&index=7)
 - [Storage](https://www.youtube.com/watch?v=KhDz0uzoIXM&list=PLUD8HYMnoROxPqDsDzyTagU3l6V1CbbAy&index=3)
 - [Openstack](https://www.youtube.com/watch?v=ZqR34IwIor8)
-- [kestra](https://github.com/kestra-io/kestra): Opensource automation tool.
-- [Ansible](https://news.cloud365.vn/category/huong-dan/ansible/)
-> *[Cách sử dụng ansible](https://elroydevops.tech/cach-su-dung-ansible-infrastructure-as-code/)* </br>
 
 ### Roadmap
 - Tham khảo thêm về [roadmap devops](https://roadmap.sh/devops).
 - [PDF file](/docs/devops_roadmap.pdf)
 
 ![DevOps Roadmap](/image/System-DevOps/DevOps/DevOps_Roadmap.jpg)
-
-
-
 

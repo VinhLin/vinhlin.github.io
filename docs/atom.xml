@@ -1,7 +1,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     
-    <title>VinhLin</title>
+    <title>VinhLD</title>
     <description>Technology Blog</description>
     <link>https://vinhlin.github.io/</link>
     
@@ -12,6 +12,80 @@
     <docs>http://cyber.harvard.edu/rss/rss.html</docs>
     <atom:link href="https://vinhlin.github.io//atom.xml" rel="self" type="application/atom+xml"/>
     
+    
+    <item>
+      <title>Win_CMD_for_CyberSecurity</title>
+      <link>https://vinhlin.github.io/posts/cybersecurity/technical/win_cmd_for_cybersecurity/</link>
+      <description>&lt;p&gt;Bữa lụm được bài viết về các câu lệnh &lt;em&gt;(command)&lt;/em&gt; trên Windows dành cho CyberSecurity.&lt;/p&gt;
+&lt;p&gt;Thấy hay nên lưu lại, nó như một &lt;strong&gt;Windows Comamnd Cheatsheet&lt;/strong&gt; cho bản thân:&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Win_CMD_for_CyberSecurity/Hinh_0.jpg&#34;
+  alt=&#34;Hình 0&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Win_CMD_for_CyberSecurity/Hinh_1.jpg&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Win_CMD_for_CyberSecurity/Hinh_2.jpg&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Win_CMD_for_CyberSecurity/Hinh_3.jpg&#34;
+  alt=&#34;Hình 3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Win_CMD_for_CyberSecurity/Hinh_4.jpg&#34;
+  alt=&#34;Hình 4&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Win_CMD_for_CyberSecurity/Hinh_5.jpg&#34;
+  alt=&#34;Hình 5&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Win_CMD_for_CyberSecurity/Hinh_6.jpg&#34;
+  alt=&#34;Hình 6&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>Vincent</author>
+      <guid>https://vinhlin.github.io/posts/cybersecurity/technical/win_cmd_for_cybersecurity/</guid>
+      <pubDate>Tue, 10 Mar 2026 15:19:23 +0700</pubDate>
+    </item>
     
     <item>
       <title>Phone_Farm</title>
@@ -52,7 +126,7 @@
 &lt;li&gt;Cách khác để cài Android trên ESXi: &lt;a href=&#34;https://www.youtube.com/watch?v=3Q2QULBOyE0&#34;&gt;How to install Android on VMware Esxi Host&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/system-devops/phone_farm/</guid>
       <pubDate>Sat, 07 Mar 2026 22:41:12 +0700</pubDate>
     </item>
@@ -122,7 +196,7 @@
 &lt;li&gt;Nếu như vậy, sau này có thể mình sẽ test thêm các tính năng khác của 4G nữa. =]]&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/others/test_camera_tren_xe_may/</guid>
       <pubDate>Sat, 07 Mar 2026 19:02:33 +0700</pubDate>
     </item>
@@ -179,7 +253,7 @@
 &lt;li&gt;Mình sẽ cần thêm thời gian để làm quen, và trải nghiệm đầy đủ các tính năng của nó.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/system-devops/bruno/</guid>
       <pubDate>Fri, 06 Mar 2026 17:40:03 +0700</pubDate>
     </item>
@@ -230,7 +304,7 @@
 &lt;li&gt;&lt;a href=&#34;https://ss64.com/bash/&#34;&gt;Linux command line&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/system-devops/linux_basic/</guid>
       <pubDate>Thu, 26 Feb 2026 09:51:15 +0700</pubDate>
     </item>
@@ -304,7 +378,7 @@
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/cybersecurity/technical/cli_fortigate/</guid>
       <pubDate>Tue, 24 Feb 2026 18:44:23 +0700</pubDate>
     </item>
@@ -415,7 +489,7 @@
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/hardware/he_thong_dieu_khien/</guid>
       <pubDate>Tue, 24 Feb 2026 18:14:41 +0700</pubDate>
     </item>
@@ -474,7 +548,7 @@
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/others/prompt_ai/</guid>
       <pubDate>Tue, 24 Feb 2026 17:58:47 +0700</pubDate>
     </item>
@@ -589,7 +663,7 @@
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/others/google_ai_tools/</guid>
       <pubDate>Tue, 24 Feb 2026 15:19:28 +0700</pubDate>
     </item>
@@ -885,7 +959,7 @@ https://www.linkedin.com/pulse/choosing-best-file-format-sd-card-external-hard-d
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/hardware/the_nho/</guid>
       <pubDate>Fri, 23 Jan 2026 10:20:43 +0700</pubDate>
     </item>
@@ -959,7 +1033,7 @@ https://www.linkedin.com/pulse/choosing-best-file-format-sd-card-external-hard-d
 &lt;p&gt;&lt;em&gt;Nhập khẩu -&amp;gt; Về kho và bán luôn (Như vậy quá trình vận hành sẽ trơn tru hơn)&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/others/tem_phu/</guid>
       <pubDate>Thu, 22 Jan 2026 14:19:40 +0700</pubDate>
     </item>
@@ -1037,7 +1111,7 @@ https://www.linkedin.com/pulse/choosing-best-file-format-sd-card-external-hard-d
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/others/cong_cu_test_acquy/</guid>
       <pubDate>Mon, 19 Jan 2026 10:45:20 +0700</pubDate>
     </item>
@@ -1124,7 +1198,7 @@ https://www.linkedin.com/pulse/choosing-best-file-format-sd-card-external-hard-d
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/cybersecurity/technical/exif_tool/</guid>
       <pubDate>Mon, 12 Jan 2026 11:53:44 +0700</pubDate>
     </item>
@@ -1313,7 +1387,7 @@ https://www.linkedin.com/pulse/choosing-best-file-format-sd-card-external-hard-d
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/hardware/gps_signal/</guid>
       <pubDate>Tue, 06 Jan 2026 09:13:45 +0700</pubDate>
     </item>
@@ -1419,7 +1493,7 @@ https://www.linkedin.com/pulse/choosing-best-file-format-sd-card-external-hard-d
 &lt;li&gt;&lt;a href=&#34;https://github.com/ZLMediaKit/ZLMediaKit&#34;&gt;https://github.com/ZLMediaKit/ZLMediaKit&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/system-devops/fleet_platform/</guid>
       <pubDate>Wed, 24 Dec 2025 20:49:26 +0700</pubDate>
     </item>
@@ -1449,7 +1523,7 @@ https://www.linkedin.com/pulse/choosing-best-file-format-sd-card-external-hard-d
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLC93sRj_3EZ2Ydl1t5Kr6p4klYDLDEQUF&#34;&gt;Kênh youtube dự án&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/cybersecurity/ot_security_lab/</guid>
       <pubDate>Wed, 24 Dec 2025 20:42:28 +0700</pubDate>
     </item>
@@ -1497,7 +1571,7 @@ https://www.linkedin.com/pulse/choosing-best-file-format-sd-card-external-hard-d
 &lt;li&gt;Nhưng nếu thiết bị tự động tải bản đồ mới hoặc cập nhật firmware, tốc độ này sẽ cực kỳ chậm và có thể &lt;strong&gt;gây lỗi timeout&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/hardware/sim_for_iot/</guid>
       <pubDate>Wed, 24 Dec 2025 20:22:27 +0700</pubDate>
     </item>
@@ -1589,7 +1663,7 @@ https://www.linkedin.com/pulse/choosing-best-file-format-sd-card-external-hard-d
 &lt;li&gt;Để đảm bảo người lái tập trung, một số xe còn có hệ thống giám sát người lái bằng đèn hồng ngoại chiếu vào mặt hoặc camera để theo dõi.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/others/car_system/</guid>
       <pubDate>Thu, 18 Dec 2025 17:53:28 +0700</pubDate>
     </item>
@@ -1696,7 +1770,7 @@ https://www.linkedin.com/pulse/choosing-best-file-format-sd-card-external-hard-d
 &lt;li&gt;Mình cần trải nghiệm thêm và cần thời gian để nắm bắt cách sử dụng nó.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/system-devops/firewall_system/</guid>
       <pubDate>Thu, 18 Dec 2025 13:57:41 +0700</pubDate>
     </item>
@@ -1774,7 +1848,7 @@ https://www.linkedin.com/pulse/choosing-best-file-format-sd-card-external-hard-d
 &lt;li&gt;&lt;a href=&#34;https://higherlogicdownload.s3.amazonaws.com/HPE/MigratedAttachments/9B71B25A-80A1-4851-8B5F-21FDC9AB083F-2-VRD_Optimizing-WLAN-for-Roaming-Devices.pdf&#34;&gt;Optimizing Aruba WLAN for Roaming Devices&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/software/fast_roaming/</guid>
       <pubDate>Mon, 15 Dec 2025 14:51:28 +0700</pubDate>
     </item>
@@ -1796,7 +1870,7 @@ https://www.linkedin.com/pulse/choosing-best-file-format-sd-card-external-hard-d
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/software/openhabian/</guid>
       <pubDate>Fri, 12 Dec 2025 10:16:39 +0700</pubDate>
     </item>
@@ -1862,7 +1936,7 @@ Còn thay thế thì theo nhà máy là khoảng &lt;strong&gt;18000km&lt;/stron
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/others/loc_gio_xe_may/</guid>
       <pubDate>Thu, 11 Dec 2025 13:47:00 +0700</pubDate>
     </item>
@@ -1991,7 +2065,7 @@ Không đạp phanh thì dù nhấn bao nhiêu lần cũng không nổ máy đư
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/others/nut_de_no_oto/</guid>
       <pubDate>Thu, 11 Dec 2025 10:28:51 +0700</pubDate>
     </item>
@@ -2035,7 +2109,7 @@ https://www.arubanetworks.com/techdocs/ArubaOS_60/UserGuide/Mesh.php
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/software/mesh_roaming/</guid>
       <pubDate>Mon, 08 Dec 2025 14:30:29 +0700</pubDate>
     </item>
@@ -2174,7 +2248,7 @@ https://www.arubanetworks.com/techdocs/ArubaOS_60/UserGuide/Mesh.php
 &lt;em&gt;&lt;a href=&#34;https://www.open-notebook.ai/basics.html&#34;&gt;Docs&lt;/a&gt;&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/others/tong_hop_ai_tools/</guid>
       <pubDate>Wed, 03 Dec 2025 11:33:27 +0700</pubDate>
     </item>
@@ -2331,7 +2405,7 @@ https://platform.openai.com/docs/guides/speech-to-text
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/others/cong_cu_ai/</guid>
       <pubDate>Wed, 03 Dec 2025 10:06:59 +0700</pubDate>
     </item>
@@ -2383,7 +2457,7 @@ https://codesuite.org/blogs/why-choose-rust-for-mobile-app-development/
 &lt;li&gt;Mình đang ôn tập code nhúng dùng Rust để chạy cho Camera &lt;em&gt;(kiến trúc ARMv7)&lt;/em&gt;, dùng &lt;strong&gt;tokio framewrok&lt;/strong&gt; &lt;em&gt;(code bất đồng bộ)&lt;/em&gt; để run code.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/others/ban_them_ve_rust/</guid>
       <pubDate>Thu, 27 Nov 2025 08:47:01 +0700</pubDate>
     </item>
@@ -2551,7 +2625,7 @@ https://docs.x.ai/docs/models?cluster=us-east-1#detailed-pricing-for-all-grok-mo
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/others/grok_ai/</guid>
       <pubDate>Thu, 20 Nov 2025 10:42:30 +0700</pubDate>
     </item>
@@ -2756,7 +2830,7 @@ https://docs.x.ai/docs/models?cluster=us-east-1#detailed-pricing-for-all-grok-mo
 &lt;li&gt;Tuy vậy, lệnh này rất hữu ích để giúp mình kiểm tra xem &lt;strong&gt;lỗi đầy thẻ nhớ &lt;em&gt;(hoặc không ghi hình vòng lặp)&lt;/em&gt;&lt;/strong&gt;, vì một số camera khi bị ngắt nguồn đột ngột, file video sẽ bị hỏng và lúc này camera không thể xử lý xóa video hỏng đó đc &amp;ndash;&amp;gt; &lt;strong&gt;Dẫn đến tình trạng không ghi hình vòng lặp&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/hardware/test_tf-card/</guid>
       <pubDate>Thu, 20 Nov 2025 08:44:23 +0700</pubDate>
     </item>
@@ -2831,7 +2905,7 @@ https://docs.x.ai/docs/models?cluster=us-east-1#detailed-pricing-for-all-grok-mo
 &lt;li&gt;Mà mình chỉ cần add các IP này vào black-list trên FW là được.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/cybersecurity/technical/ip_scanner/</guid>
       <pubDate>Tue, 18 Nov 2025 16:51:14 +0700</pubDate>
     </item>
@@ -2899,7 +2973,7 @@ https://dl.sipeed.com/shareURL/MaixCAM/Sensors
 &lt;p&gt;&lt;em&gt;Tức là: &lt;strong&gt;1 bức ảnh = 2560 chấm ngang × 1440 chấm dọc = khoảng 4 triệu chấm → 4MP&lt;/strong&gt;&lt;/em&gt;. &lt;/br&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/hardware/cmos_sensor/</guid>
       <pubDate>Thu, 13 Nov 2025 14:02:43 +0700</pubDate>
     </item>
@@ -2976,7 +3050,7 @@ https://dl.sipeed.com/shareURL/MaixCAM/Sensors
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/cybersecurity/mon_hoc_attt/</guid>
       <pubDate>Mon, 10 Nov 2025 12:01:30 +0700</pubDate>
     </item>
@@ -3108,7 +3182,7 @@ https://dl.sipeed.com/shareURL/MaixCAM/Sensors
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/hardware/hdr_wdr/</guid>
       <pubDate>Mon, 10 Nov 2025 11:20:22 +0700</pubDate>
     </item>
@@ -3146,7 +3220,7 @@ https://www.youtube.com/watch?v=E9wOlS_rKuw
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/system-devops/safeline/</guid>
       <pubDate>Tue, 04 Nov 2025 09:59:49 +0700</pubDate>
     </item>
@@ -3204,7 +3278,7 @@ https://www.youtube.com/watch?v=E9wOlS_rKuw
 &lt;em&gt;Dùng các tính năng như &lt;strong&gt;QoC (Quality of Service) trên ASUS&lt;/strong&gt; hoặc chức năng &lt;strong&gt;Bandwith trên Aruba&lt;/strong&gt;, &lt;strong&gt;Bandwith trên Fortigae&lt;/strong&gt; để kiểm soát băng thông.&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/others/goi_cuoc_internet/</guid>
       <pubDate>Mon, 20 Oct 2025 10:46:51 +0700</pubDate>
     </item>
@@ -3252,7 +3326,7 @@ https://www.youtube.com/watch?v=E9wOlS_rKuw
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/others/sw_model/</guid>
       <pubDate>Mon, 20 Oct 2025 09:26:10 +0700</pubDate>
     </item>
@@ -3316,7 +3390,7 @@ https://www.min.io/download?license=agpl&amp;amp;platform=linux
 &lt;li&gt;Có thể sẽ cần tìm hiểu thêm về &lt;a href=&#34;https://fptcloud.com/object-storage/&#34;&gt;object storage&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/system-devops/minio/</guid>
       <pubDate>Thu, 16 Oct 2025 11:41:38 +0700</pubDate>
     </item>
@@ -3370,6 +3444,26 @@ https://docs.aws.amazon.com/iot/latest/developerguide/iot-moisture-raspi-setup.h
 
 &lt;/p&gt;
 &lt;h3 id=&#34;ảo-hóa---docker&#34;&gt;Ảo hóa - Docker&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/DevOps/Docker_1.jpg&#34;
+  alt=&#34;Docker 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h4 id=&#34;docker-cheatsheet&#34;&gt;Docker Cheatsheet&lt;/h4&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/DevOps/Docker_2.jpg&#34;
+  alt=&#34;Docker 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h4 id=&#34;một-số-dự-án-chạy-bằng-docker&#34;&gt;Một số dự án chạy bằng docker&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Chạy &lt;strong&gt;Raspberry OS trên Docker&lt;/strong&gt;: &lt;a href=&#34;https://github.com/lukechilds/dockerpi&#34;&gt;DockerPi&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -3378,17 +3472,37 @@ https://docs.aws.amazon.com/iot/latest/developerguide/iot-moisture-raspi-setup.h
 &lt;li&gt;Cài đặt công cụ &lt;a href=&#34;https://it-tools.tech/&#34;&gt;IT-Tools&lt;/a&gt; bằng Docker: &lt;a href=&#34;https://github.com/CorentinTh/it-tools&#34;&gt;Docker IT-Tools&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;docker run -d -p 8080:80 --name it-tools -it corentinth/it-tools
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;tham-khảo-khác&#34;&gt;Tham khảo khác:&lt;/h3&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;iac-infrastructure-as-code&#34;&gt;IaC &lt;em&gt;(Infrastructure as Code)&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/DevOps/IaC.jpg&#34;
+  alt=&#34;Iac&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=zM-6q54gu1w&amp;amp;list=PLUD8HYMnoROxPqDsDzyTagU3l6V1CbbAy&amp;amp;index=7&#34;&gt;CND&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=KhDz0uzoIXM&amp;amp;list=PLUD8HYMnoROxPqDsDzyTagU3l6V1CbbAy&amp;amp;index=3&#34;&gt;Storage&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=ZqR34IwIor8&#34;&gt;Openstack&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Các công cụ cho Automation gồm:&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/kestra-io/kestra&#34;&gt;kestra&lt;/a&gt;: Opensource automation tool.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://news.cloud365.vn/category/huong-dan/ansible/&#34;&gt;Ansible&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;&lt;a href=&#34;https://elroydevops.tech/cach-su-dung-ansible-infrastructure-as-code/&#34;&gt;Cách sử dụng ansible&lt;/a&gt;&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Tài liệu tham khảo thêm về &lt;strong&gt;Automation&lt;/strong&gt; khác:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/system-devops/automation_tools/&#34;&gt;Automation_Tools&lt;/a&gt;&lt;/em&gt; &lt;/br&gt;
+&lt;em&gt;&lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/system-devops/n8n/&#34;&gt;n8n&lt;/a&gt;&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;tham-khảo-khác&#34;&gt;Tham khảo khác:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=zM-6q54gu1w&amp;amp;list=PLUD8HYMnoROxPqDsDzyTagU3l6V1CbbAy&amp;amp;index=7&#34;&gt;CND&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=KhDz0uzoIXM&amp;amp;list=PLUD8HYMnoROxPqDsDzyTagU3l6V1CbbAy&amp;amp;index=3&#34;&gt;Storage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=ZqR34IwIor8&#34;&gt;Openstack&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id=&#34;roadmap&#34;&gt;Roadmap&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Tham khảo thêm về &lt;a href=&#34;https://roadmap.sh/devops&#34;&gt;roadmap devops&lt;/a&gt;.&lt;/li&gt;
@@ -3404,7 +3518,7 @@ https://docs.aws.amazon.com/iot/latest/developerguide/iot-moisture-raspi-setup.h
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/system-devops/devops/</guid>
       <pubDate>Tue, 07 Oct 2025 09:01:18 +0700</pubDate>
     </item>
@@ -3541,7 +3655,7 @@ Ngôn ngữ sử dụng là: Tiếng Việt
 &lt;/ul&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://www.youtube.com/watch?v=8bkfMLDgnlE
 &lt;/code&gt;&lt;/pre&gt;</description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/hardware/xiaozhi_esp32/</guid>
       <pubDate>Mon, 06 Oct 2025 11:31:07 +0700</pubDate>
     </item>
@@ -3581,7 +3695,7 @@ https://www.youtube.com/watch?v=l7d7f-YNyQM
 &lt;em&gt;Cách 2: Sử dụng thêm plugin WebDAV (hoặc Nextcloud) trên OMV, để truy cập file qua HTTPS.&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/system-devops/nas_ftp/</guid>
       <pubDate>Fri, 03 Oct 2025 11:18:21 +0700</pubDate>
     </item>
@@ -3636,7 +3750,7 @@ https://github.com/compujuckel/ZigbeeOtaExtractor
 &lt;li&gt;Công cụ setup là dùng ESP32, &lt;a href=&#34;https://github.com/hackgnar/ble_ctf/blob/master/docs/setup.md&#34;&gt;tham khảo môi trường&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/cybersecurity/ctf_hardware/</guid>
       <pubDate>Thu, 02 Oct 2025 12:51:47 +0700</pubDate>
     </item>
@@ -3787,7 +3901,7 @@ Pass: GhostNet
 &lt;li&gt;Hoặc mình chưa biết cách tận dụng sức mạnh công cụ này, dẫu sao thì mình cứ document lại những gì đã làm được.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/cybersecurity/technical/ghost_esp/</guid>
       <pubDate>Tue, 30 Sep 2025 17:10:40 +0700</pubDate>
     </item>
@@ -3896,7 +4010,7 @@ Pass: GhostNet
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/cybersecurity/technical/pentest_api_tools/</guid>
       <pubDate>Thu, 25 Sep 2025 14:24:39 +0700</pubDate>
     </item>
@@ -4097,7 +4211,7 @@ ACC -&amp;gt; Cầu chì USB (Khi mở máy thì sẽ là 12VDC)
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/hardware/cau_chi_oto/</guid>
       <pubDate>Wed, 24 Sep 2025 09:38:03 +0700</pubDate>
     </item>
@@ -4228,7 +4342,7 @@ https://bruce.computer/boards
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://github.com/pr3y/Bruce/wiki
 https://www.youtube.com/watch?v=BUwrWKDqtak&amp;amp;list=WL&amp;amp;index=4&amp;amp;pp=gAQBiAQB
 &lt;/code&gt;&lt;/pre&gt;</description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/cybersecurity/technical/security_hardware_tools/</guid>
       <pubDate>Sun, 21 Sep 2025 14:04:53 +0700</pubDate>
     </item>
@@ -4263,7 +4377,7 @@ Pentesting nhanh với các công cụ như wifite, kismet.
 &lt;li&gt;Lý tưởng khi cần một thiết bị nhỏ gọn, dễ mang theo, tích hợp với điện thoại.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/cybersecurity/kali_for_arm/</guid>
       <pubDate>Sun, 21 Sep 2025 11:23:31 +0700</pubDate>
     </item>
@@ -4335,7 +4449,7 @@ Pentesting nhanh với các công cụ như wifite, kismet.
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/cybersecurity/blueteam/</guid>
       <pubDate>Tue, 16 Sep 2025 09:53:53 +0700</pubDate>
     </item>
@@ -4520,7 +4634,7 @@ Pentesting nhanh với các công cụ như wifite, kismet.
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/cybersecurity/redteam/</guid>
       <pubDate>Tue, 16 Sep 2025 09:05:38 +0700</pubDate>
     </item>
@@ -4566,7 +4680,7 @@ Pentesting nhanh với các công cụ như wifite, kismet.
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/hardware/voice_command/</guid>
       <pubDate>Tue, 09 Sep 2025 14:00:33 +0700</pubDate>
     </item>
@@ -4624,7 +4738,7 @@ export SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/software/speedtest_armv7l/</guid>
       <pubDate>Fri, 29 Aug 2025 13:32:10 +0700</pubDate>
     </item>
@@ -4817,7 +4931,7 @@ export SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt
 &lt;em&gt;Còn khi ACC OFF và mức điện áp dưới ngưỡng, HW kit sẽ tự động ngắt nguồn để bảo vệ bình ắc-quy&lt;/em&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/hardware/power_acc_usb_type_c/</guid>
       <pubDate>Thu, 28 Aug 2025 12:40:20 +0700</pubDate>
     </item>
@@ -4873,7 +4987,7 @@ https://www.youtube.com/watch?v=lEXd6TXPw7E
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/system-devops/fabric_ai/</guid>
       <pubDate>Sat, 09 Aug 2025 20:29:25 +0700</pubDate>
     </item>
@@ -4914,7 +5028,7 @@ https://www.youtube.com/watch?v=lEXd6TXPw7E
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/others/android_xiaomi/</guid>
       <pubDate>Fri, 08 Aug 2025 17:05:34 +0700</pubDate>
     </item>
@@ -4963,7 +5077,7 @@ https://www.youtube.com/watch?v=lEXd6TXPw7E
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/hardware/cloud_sim/</guid>
       <pubDate>Sat, 26 Jul 2025 14:05:59 +0700</pubDate>
     </item>
@@ -5043,7 +5157,7 @@ ln -s /usr/sbin/dropbearmulti /usr/bin/scp
 &lt;/ul&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ssh root@192.168.1.254
 &lt;/code&gt;&lt;/pre&gt;</description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/cybersecurity/technical/ssh_armv7/</guid>
       <pubDate>Tue, 01 Jul 2025 11:58:39 +0700</pubDate>
     </item>
@@ -5109,7 +5223,7 @@ ln -s /usr/sbin/dropbearmulti /usr/bin/scp
 &lt;li&gt;Chứ nếu muốn đo thì cần một thiết bị chuyên dụng &lt;em&gt;(có thể mua loại rẻ tiền thôi cũng được)&lt;/em&gt; =]]&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/hardware/wifi_eirp/</guid>
       <pubDate>Tue, 24 Jun 2025 15:34:53 +0700</pubDate>
     </item>
@@ -5252,7 +5366,7 @@ Lúc này chế độ Nhà phát triển đã bật, sau đó quay lại vào &l
 &lt;li&gt;Vậy là mình đã có thể lấy log kết nối Bluetooth.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/cybersecurity/technical/ble_sniffer/</guid>
       <pubDate>Wed, 04 Jun 2025 17:04:06 +0700</pubDate>
     </item>
@@ -5421,7 +5535,7 @@ Lúc này chế độ Nhà phát triển đã bật, sau đó quay lại vào &l
 &lt;li&gt;Nâng cấp hệ thống CCTV: Nếu bạn muốn độ phân giải cao như dashcam, hãy xem xét các dòng CCTV 2K/4K từ các thương hiệu như Hikvision, Dahua, hoặc Reolink, dù chi phí sẽ cao hơn.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/hardware/cctv_dashcam/</guid>
       <pubDate>Thu, 01 May 2025 14:02:18 +0700</pubDate>
     </item>
@@ -5567,7 +5681,7 @@ Lúc này chế độ Nhà phát triển đã bật, sau đó quay lại vào &l
 ✔ Kết hợp lại = xây dựng hệ thống IoT lớn, chuyên nghiệp, dễ mở rộng.&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/software/emqk_broker/</guid>
       <pubDate>Thu, 01 May 2025 13:47:25 +0700</pubDate>
     </item>
@@ -5611,7 +5725,7 @@ Lúc này chế độ Nhà phát triển đã bật, sau đó quay lại vào &l
 &lt;/p&gt;
 &lt;p&gt;Đây là cận cạnh bộ mạch đã hoàn tất.&lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/others/bo_giam_ap/</guid>
       <pubDate>Thu, 01 May 2025 13:34:47 +0700</pubDate>
     </item>
@@ -5669,7 +5783,7 @@ https://github.com/slidevjs/slidev/tree/main/demo
 &lt;li&gt;Nội dung được lấy ra sẽ được lưu ở định dạng markdown.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/others/slidev/</guid>
       <pubDate>Wed, 30 Apr 2025 14:07:16 +0700</pubDate>
     </item>
@@ -5735,7 +5849,7 @@ Nếu bạn muốn theo dõi sát sao, hãy kiểm tra các bản cập nhật b
 Nghiên cứu cho thấy công cụ này hoạt động trên Windows 10 và 11, nhưng không đề cập đến Android.  
 Có khả năng lý thuyết ConvoC2 hoạt động trên Android nếu Teams xử lý tin nhắn tương tự, nhưng chưa được xác nhận.
 &lt;/code&gt;&lt;/pre&gt;</description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/cybersecurity/technical/convoc2/</guid>
       <pubDate>Sun, 13 Apr 2025 13:07:25 +0700</pubDate>
     </item>
@@ -5771,7 +5885,7 @@ https://docs.heygen.com/docs/create-video
 &lt;p&gt;Một số API như &lt;strong&gt;List language&lt;/strong&gt;: &lt;a href=&#34;https://docs.heygen.com/reference/list-supported-languages&#34;&gt;https://docs.heygen.com/reference/list-supported-languages&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Tham khảo thêm &lt;a href=&#34;https://docs.heygen.com/reference/authentication&#34;&gt;tại đây&lt;/a&gt;.&lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/others/heygen_ai/</guid>
       <pubDate>Sat, 12 Apr 2025 15:16:20 +0700</pubDate>
     </item>
@@ -5808,7 +5922,7 @@ Khi &lt;strong&gt;đạp thắng&lt;/strong&gt; và &lt;strong&gt;nổ máy&lt;/
 &lt;p&gt;Sau khi đã lắp hoàn thiện, mình cho chạy thử. Và đã chạy thành công, giống với nội dung được yêu cầu.&lt;/p&gt;
 &lt;p&gt;Nguồn video: &lt;a href=&#34;https://www.facebook.com/share/v/1BJo6tVgVR/&#34;&gt;https://www.facebook.com/share/v/1BJo6tVgVR/&lt;/a&gt;&lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/others/gia_lap_sut_ap_acc/</guid>
       <pubDate>Fri, 11 Apr 2025 21:09:50 +0700</pubDate>
     </item>
@@ -5886,7 +6000,7 @@ Phong cách thiết kế bao bì: Bao bì màu đen và xanh neon, với hình �
 &lt;p&gt;&lt;em&gt;Note: Dùng bản free trên ChatGPT và Grok 3 thì bị giới hạn về số lần tạo ảnh trong ngày.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;👉 Ngoài ra còn có trend &lt;a href=&#34;https://quantrimang.com/cach-tao-nha-bup-be-voi-chatgpt-tao-mo-hinh-3d-thu-nho-voi-chatgpt-208379&#34;&gt;Tạo mô hình 3D thu nhỏ&lt;/a&gt; nữa. =]]&lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/others/hop_do_choi_ai/</guid>
       <pubDate>Sat, 05 Apr 2025 12:09:44 +0700</pubDate>
     </item>
@@ -5968,7 +6082,7 @@ Quá trình này thường được thực hiện một cách có hệ thống v
 &lt;li&gt;Xem &lt;a href=&#34;https://thunderbit.com/pricing&#34;&gt;pricing&lt;/a&gt; thì bản free chỉ cho phép cào tối đa 6 trang web trong tháng.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/system-devops/web_crawler/</guid>
       <pubDate>Wed, 12 Mar 2025 13:16:25 +0700</pubDate>
     </item>
@@ -6049,7 +6163,7 @@ https://quantrimang.com/cong-nghe/lam-the-nao-de-kiem-tra-usb-boot-da-duoc-tao-t
 &lt;h3 id=&#34;phím-tắt-vào-bios-và-boot-options-của-các-hãng-máy-tínhhttpsanh-dvcomthu-thuat-hayphim-tat-vao-bios-va-boot-options-cac-hang-may-tinh&#34;&gt;&lt;a href=&#34;https://anh-dv.com/thu-thuat-hay/phim-tat-vao-bios-va-boot-options-cac-hang-may-tinh&#34;&gt;Phím tắt vào BIOS và Boot Options của các hãng máy tính&lt;/a&gt;&lt;/h3&gt;
 &lt;h3 id=&#34;tổng-hợp-những-lỗi-cài-đặt-windows-lỗi-cài-win-và-cách-khắc-phụchttpsanh-dvcomos-windowsloi-cai-dat-windows-va-cach-khac-phuc&#34;&gt;&lt;a href=&#34;https://anh-dv.com/os-windows/loi-cai-dat-windows-va-cach-khac-phuc&#34;&gt;Tổng hợp những lỗi cài đặt windows (lỗi cài Win) và cách khắc phục&lt;/a&gt;&lt;/h3&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/others/usb_boot/</guid>
       <pubDate>Tue, 11 Mar 2025 15:11:55 +0700</pubDate>
     </item>
@@ -6131,7 +6245,7 @@ Bạn cần sao lưu tệp đang sử dụng trên Windows (như Outlook, cơ s�
 Bạn muốn tích hợp với nhiều dịch vụ đám mây phổ biến.
 Ví dụ: Sao lưu máy tính cá nhân, dữ liệu đám mây cho gia đình.
 &lt;/code&gt;&lt;/pre&gt;</description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/system-devops/backup_tools/</guid>
       <pubDate>Tue, 11 Mar 2025 15:08:23 +0700</pubDate>
     </item>
@@ -6204,7 +6318,7 @@ https://devblogs.microsoft.com/cppblog/windows-desktop-development-with-c-in-vis
 &lt;li&gt;&lt;a href=&#34;https://slint.dev/demos&#34;&gt;Demos&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/software/desktop_app/</guid>
       <pubDate>Sun, 09 Mar 2025 12:22:45 +0700</pubDate>
     </item>
@@ -6314,7 +6428,7 @@ https://devblogs.microsoft.com/cppblog/windows-desktop-development-with-c-in-vis
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/others/thao_tac_an_toan/</guid>
       <pubDate>Thu, 06 Mar 2025 09:59:55 +0700</pubDate>
     </item>
@@ -6432,7 +6546,7 @@ https://devblogs.microsoft.com/cppblog/windows-desktop-development-with-c-in-vis
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/system-devops/automation_tools/</guid>
       <pubDate>Wed, 26 Feb 2025 15:49:44 +0700</pubDate>
     </item>
@@ -6500,7 +6614,7 @@ https://devblogs.microsoft.com/cppblog/windows-desktop-development-with-c-in-vis
 &lt;li&gt;Do đó mình sẽ cần viết một công cụ để thể &lt;strong&gt;lấy log từ UART&lt;/strong&gt; và &lt;strong&gt;lưu nó vào trong thẻ nhớ&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/others/y_tuong_project/</guid>
       <pubDate>Wed, 26 Feb 2025 07:52:00 +0700</pubDate>
     </item>
@@ -6600,7 +6714,7 @@ https://devblogs.microsoft.com/cppblog/windows-desktop-development-with-c-in-vis
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/system-devops/virtual_system/</guid>
       <pubDate>Mon, 10 Feb 2025 12:02:46 +0700</pubDate>
     </item>
@@ -6695,7 +6809,7 @@ https://devblogs.microsoft.com/cppblog/windows-desktop-development-with-c-in-vis
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/system-devops/raid/</guid>
       <pubDate>Sun, 19 Jan 2025 15:46:29 +0700</pubDate>
     </item>
@@ -6925,7 +7039,7 @@ https://www.ftc.gov/business-guidance/small-businesses/protecting-small-business
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/cybersecurity/cybersecurity_small_businesses/</guid>
       <pubDate>Fri, 17 Jan 2025 15:21:07 +0700</pubDate>
     </item>
@@ -6976,7 +7090,7 @@ https://localai.io/basics/build/
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/system-devops/n8n/</guid>
       <pubDate>Fri, 17 Jan 2025 14:59:59 +0700</pubDate>
     </item>
@@ -7018,7 +7132,7 @@ https://tailscale.com/use-cases/homelab
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/system-devops/tailscale/</guid>
       <pubDate>Fri, 17 Jan 2025 14:42:06 +0700</pubDate>
     </item>
@@ -7115,7 +7229,7 @@ Create a secure, private server you can manage from anywhere with HexOS.&lt;/p&g
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/system-devops/openmediavault/</guid>
       <pubDate>Sat, 28 Dec 2024 09:38:44 +0700</pubDate>
     </item>
@@ -7165,7 +7279,7 @@ Create a secure, private server you can manage from anywhere with HexOS.&lt;/p&g
 &lt;li&gt;&lt;a href=&#34;https://www.clamav.net/downloads&#34;&gt;https://www.clamav.net/downloads&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/system-devops/clamav/</guid>
       <pubDate>Sat, 30 Nov 2024 12:20:10 +0700</pubDate>
     </item>
@@ -7188,7 +7302,7 @@ Create a secure, private server you can manage from anywhere with HexOS.&lt;/p&g
 &lt;li&gt;&lt;a href=&#34;https://github.com/hcengineering/platform&#34;&gt;https://github.com/hcengineering/platform&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/system-devops/huly/</guid>
       <pubDate>Sun, 17 Nov 2024 11:45:33 +0700</pubDate>
     </item>
@@ -7244,7 +7358,7 @@ Create a secure, private server you can manage from anywhere with HexOS.&lt;/p&g
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/system-devops/permission_linux/</guid>
       <pubDate>Sun, 17 Nov 2024 11:39:36 +0700</pubDate>
     </item>
@@ -7360,7 +7474,7 @@ Song song (Parallel)
 &lt;li&gt;Mình nghi là các library đang dùng không support cho &lt;strong&gt;arm&lt;/strong&gt;. =]]&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/hardware/kien_truc_may_tinh/</guid>
       <pubDate>Sun, 17 Nov 2024 10:11:44 +0700</pubDate>
     </item>
@@ -7463,7 +7577,7 @@ Song song (Parallel)
 &lt;/p&gt;
 &lt;h3 id=&#34;calculated-engine-load&#34;&gt;Calculated engine load&lt;/h3&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/hardware/obd2_pids/</guid>
       <pubDate>Fri, 11 Oct 2024 17:23:55 +0700</pubDate>
     </item>
@@ -7658,7 +7772,7 @@ https://www.thegioididong.com/hoi-dap/cong-obd-2-la-gi-cac-tien-ich-tu-cong-obd-
 https://www.obd-codes.com/faq/obd2-codes-explained.php
 https://en.wikipedia.org/wiki/OBD-II_PIDs
 &lt;/code&gt;&lt;/pre&gt;</description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/hardware/can_obdii/</guid>
       <pubDate>Fri, 11 Oct 2024 15:56:03 +0700</pubDate>
     </item>
@@ -7753,7 +7867,7 @@ Hin&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://github.com/embassy-rs/embassy/wiki
 https://www.laptrinhdientu.com/2022/04/DMA1.html
 &lt;/code&gt;&lt;/pre&gt;</description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/hardware/dma/</guid>
       <pubDate>Fri, 11 Oct 2024 14:21:00 +0700</pubDate>
     </item>
@@ -7915,7 +8029,7 @@ https://harmonicss.co.uk/rust/rust-on-a-raspberry-pi-part-1/
 &lt;li&gt;Đây là một ghi chú khác về &lt;a href=&#34;https://github.com/japaric/rust-cross&#34;&gt;cross compiling Rust programs&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/software/rust_for_arm/</guid>
       <pubDate>Thu, 10 Oct 2024 17:30:29 +0700</pubDate>
     </item>
@@ -7970,7 +8084,7 @@ https://harmonicss.co.uk/rust/rust-on-a-raspberry-pi-part-1/
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/hardware/android_automotive/</guid>
       <pubDate>Mon, 07 Oct 2024 11:06:24 +0700</pubDate>
     </item>
@@ -8013,7 +8127,7 @@ Khi bắt đầu quá trình kiểm tra, chúng ta thường gặp phải các b
 &lt;li&gt;Điều này có thể dẫn đến việc tiết lộ thông tin nhạy cảm hoặc truy cập trái phép.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/cybersecurity/technical/fault_injection/</guid>
       <pubDate>Sat, 05 Oct 2024 20:13:46 +0700</pubDate>
     </item>
@@ -8152,7 +8266,7 @@ cansniffer
 &lt;li&gt;&lt;a href=&#34;https://www.newae.com/education&#34;&gt;Education &amp;amp; Training&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/hardware/car_hacking/</guid>
       <pubDate>Sat, 05 Oct 2024 13:55:01 +0700</pubDate>
     </item>
@@ -8326,7 +8440,7 @@ async fn main() -&amp;gt; std::io::Result&amp;lt;()&amp;gt; {
 &lt;h3 id=&#34;a-gentle-introduction-to-rusthttpsstevedonovangithubiorust-gentle-introreadmehtml&#34;&gt;&lt;a href=&#34;https://stevedonovan.github.io/rust-gentle-intro/readme.html&#34;&gt;A Gentle Introduction To Rust&lt;/a&gt;&lt;/h3&gt;
 &lt;h3 id=&#34;easy-rusthttpsdhghomongithubioeasy_rustchapter_1html&#34;&gt;&lt;a href=&#34;https://dhghomon.github.io/easy_rust/Chapter_1.html&#34;&gt;Easy Rust&lt;/a&gt;&lt;/h3&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/software/rust-lang/</guid>
       <pubDate>Fri, 13 Sep 2024 15:14:13 +0700</pubDate>
     </item>
@@ -8458,7 +8572,7 @@ async fn main() -&amp;gt; std::io::Result&amp;lt;()&amp;gt; {
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/others/hoi_thao_2024/</guid>
       <pubDate>Mon, 02 Sep 2024 16:29:20 +0700</pubDate>
     </item>
@@ -8524,7 +8638,7 @@ async fn main() -&amp;gt; std::io::Result&amp;lt;()&amp;gt; {
 &lt;/ul&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$DVSRFID,READ,,,
 &lt;/code&gt;&lt;/pre&gt;</description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/hardware/box_rfid/</guid>
       <pubDate>Thu, 29 Aug 2024 18:38:50 +0700</pubDate>
     </item>
@@ -8574,7 +8688,7 @@ https://github.com/nfcgate/nfcgate/tree/v2/doc/mode
 &lt;li&gt;Như trong &lt;a href=&#34;https://youtu.be/q69--5rdlmI&#34;&gt;Video Youtube&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/cybersecurity/technical/nfc_pwa/</guid>
       <pubDate>Tue, 27 Aug 2024 14:47:38 +0700</pubDate>
     </item>
@@ -8640,7 +8754,7 @@ https://radxa.com/products/x/x4/
 &lt;li&gt;Đây là một chiến lược thông minh để tận dụng thế mạnh của cả hai kiến trúc, tối ưu hóa hiệu suất và hiệu quả năng lượng cho hệ thống.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/hardware/radxa_x4/</guid>
       <pubDate>Tue, 27 Aug 2024 13:39:47 +0700</pubDate>
     </item>
@@ -8724,7 +8838,7 @@ https://radxa.com/products/x/x4/
 &lt;li&gt;&lt;a href=&#34;https://www.synacktiv.com/en/ressources&#34;&gt;Resources&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/cybersecurity/news/</guid>
       <pubDate>Mon, 26 Aug 2024 19:27:53 +0700</pubDate>
     </item>
@@ -8879,7 +8993,7 @@ https://radxa.com/products/x/x4/
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/cybersecurity/technical/protect_camera/</guid>
       <pubDate>Sun, 18 Aug 2024 11:07:18 +0700</pubDate>
     </item>
@@ -8935,7 +9049,7 @@ https://radxa.com/products/x/x4/
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/cybersecurity/technical/re_tool_binaryninjafree/</guid>
       <pubDate>Fri, 16 Aug 2024 14:07:42 +0700</pubDate>
     </item>
@@ -9033,7 +9147,7 @@ fn alloc_error(_layout: core::alloc::Layout) -&amp;gt; ! {
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/software/read_write_uart_stm32fx/</guid>
       <pubDate>Wed, 14 Aug 2024 19:17:29 +0700</pubDate>
     </item>
@@ -9155,7 +9269,7 @@ fn alloc_error(_layout: core::alloc::Layout) -&amp;gt; ! {
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/hardware/dump_firmware_nor_flash/</guid>
       <pubDate>Mon, 12 Aug 2024 16:44:23 +0700</pubDate>
     </item>
@@ -9297,7 +9411,7 @@ async fn main(spawner: Spawner) {
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/software/shared_access_embassy/</guid>
       <pubDate>Sat, 10 Aug 2024 11:18:41 +0700</pubDate>
     </item>
@@ -9373,7 +9487,7 @@ async fn main(spawner: Spawner) {
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Khi đã sử dụng &lt;code&gt;usart_debug&lt;/code&gt; cho &lt;strong&gt;Box::leak&lt;/strong&gt; (và được dùng cho &lt;strong&gt;task RFID&lt;/strong&gt;) thì mình không còn dùng được &lt;code&gt;usart_debug&lt;/code&gt; sau nữa.&lt;/p&gt;
 &lt;p&gt;Vì lúc này bị dính đến &lt;strong&gt;ownership&lt;/strong&gt;.&lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/software/lifetime_embassy/</guid>
       <pubDate>Fri, 09 Aug 2024 18:08:32 +0700</pubDate>
     </item>
@@ -9452,7 +9566,7 @@ async fn main(spawner: Spawner) {
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/software/rust-lang/results_rust/</guid>
       <pubDate>Thu, 08 Aug 2024 18:07:12 +0700</pubDate>
     </item>
@@ -9614,7 +9728,7 @@ async fn no_tag_cr95hf(
     return false;
 }
 &lt;/code&gt;&lt;/pre&gt;</description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/software/uart_embassy/</guid>
       <pubDate>Wed, 07 Aug 2024 13:23:30 +0700</pubDate>
     </item>
@@ -9698,7 +9812,7 @@ Code nhúng Firmware cho MCU
 Code nhúng cho Linux
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Cũng may là mình biết một chút về Security (và đang trên con đường định hướng về IoT Security) nên JD này là cái mà mình cần tham khảo. =]]&lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/others/iot_security_jd/</guid>
       <pubDate>Sun, 04 Aug 2024 11:04:52 +0700</pubDate>
     </item>
@@ -9741,7 +9855,7 @@ Code nhúng cho Linux
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/software/docklight/</guid>
       <pubDate>Sat, 03 Aug 2024 13:24:20 +0700</pubDate>
     </item>
@@ -9773,7 +9887,7 @@ Code nhúng cho Linux
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/cybersecurity/technical/paramspider/</guid>
       <pubDate>Sat, 03 Aug 2024 12:24:25 +0700</pubDate>
     </item>
@@ -9908,7 +10022,7 @@ SendRecv: 0x0403022000
 &lt;li&gt;Đến bây giờ mình mới có thể hiểu. =]]&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/hardware/research_cr95/</guid>
       <pubDate>Sun, 28 Jul 2024 13:12:25 +0700</pubDate>
     </item>
@@ -9971,7 +10085,7 @@ SendRecv: 0x0403022000
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/cybersecurity/technical/tails_os/</guid>
       <pubDate>Sun, 21 Jul 2024 17:34:15 +0700</pubDate>
     </item>
@@ -10068,7 +10182,7 @@ SendRecv: 0x0403022000
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/others/suy_nghi_ve_hardware_hacking/</guid>
       <pubDate>Wed, 10 Jul 2024 20:34:27 +0700</pubDate>
     </item>
@@ -10119,7 +10233,7 @@ SendRecv: 0x0403022000
 &lt;p&gt;&lt;strong&gt;Mà thôi, tiền nhiều thì sẽ gắn với nhiều trách nhiệm.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Người ta sao thì kệ họ, mình theo hướng Chuyên môn hóa, và Ngoại ngữ vẫn chỉ là Công cụ để mình mở rộng cái giếng của bản thân&lt;/strong&gt;.&lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/others/goc_nhin_ve_ngoai_ngu/</guid>
       <pubDate>Sun, 07 Jul 2024 15:03:26 +0700</pubDate>
     </item>
@@ -10188,7 +10302,7 @@ https://cuckoosandbox.org/blog/207-interim-release
 &lt;li&gt;&lt;a href=&#34;https://services.udel.edu/TDClient/32/Portal/KB/ArticleDet?ID=366&#34;&gt;Một bài viết khác&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/cybersecurity/tools/</guid>
       <pubDate>Sat, 06 Jul 2024 15:36:05 +0700</pubDate>
     </item>
@@ -10229,7 +10343,7 @@ https://cuckoosandbox.org/blog/207-interim-release
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;- https://blog.reconinfosec.com/integrating-graylog-with-thehive
 - https://github.com/ReconInfoSec/graylog2thehive
 &lt;/code&gt;&lt;/pre&gt;</description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/cybersecurity/technical/thehive/</guid>
       <pubDate>Sat, 15 Jun 2024 11:04:17 +0700</pubDate>
     </item>
@@ -10261,7 +10375,7 @@ Active Reconnaissance - Thu thập thông tin chủ động
 &lt;li&gt;&lt;a href=&#34;https://any.run/&#34;&gt;ANY.RUN&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/cybersecurity/technical/osint/</guid>
       <pubDate>Sat, 15 Jun 2024 11:02:08 +0700</pubDate>
     </item>
@@ -10312,7 +10426,7 @@ GDT - Gas Discharge Tube
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/hardware/esd/</guid>
       <pubDate>Sat, 25 May 2024 15:59:27 +0700</pubDate>
     </item>
@@ -10342,7 +10456,7 @@ GDT - Gas Discharge Tube
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/cybersecurity/technical/dflab_vncert/</guid>
       <pubDate>Sat, 25 May 2024 15:56:30 +0700</pubDate>
     </item>
@@ -10375,7 +10489,7 @@ GDT - Gas Discharge Tube
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/cybersecurity/technical/firewall_checklist/</guid>
       <pubDate>Sat, 25 May 2024 15:48:35 +0700</pubDate>
     </item>
@@ -10431,7 +10545,7 @@ GDT - Gas Discharge Tube
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/cybersecurity/technical/nis2/</guid>
       <pubDate>Sat, 25 May 2024 15:43:13 +0700</pubDate>
     </item>
@@ -10457,7 +10571,7 @@ GDT - Gas Discharge Tube
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=ko-udLtaPk8&#34;&gt;https://www.youtube.com/watch?v=ko-udLtaPk8&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/software/raspberry-openauto/</guid>
       <pubDate>Mon, 01 Apr 2024 17:57:07 +0700</pubDate>
     </item>
@@ -10481,7 +10595,7 @@ GDT - Gas Discharge Tube
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/software/pi400-keyboard/</guid>
       <pubDate>Mon, 01 Apr 2024 17:53:24 +0700</pubDate>
     </item>
@@ -10521,7 +10635,7 @@ GDT - Gas Discharge Tube
 &lt;li&gt;&lt;a href=&#34;https://www.waveshare.com/wiki/HDMI_to_CSI_Adapter&#34;&gt;Cần thêm module covert từ HDMI - CSI&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/software/pikvm/</guid>
       <pubDate>Mon, 01 Apr 2024 17:49:12 +0700</pubDate>
     </item>
@@ -10545,7 +10659,7 @@ GDT - Gas Discharge Tube
 
 &lt;/p&gt;
 </description>
-      <author>VinhLD</author>
+      <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/hardware/unihiker/</guid>
       <pubDate>Mon, 01 Apr 2024 17:34:03 +0700</pubDate>
     </item>
