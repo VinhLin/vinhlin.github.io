@@ -32,6 +32,10 @@ Việc lựa chọn thẻ nhớ phù hợp, tốc độ đọc/ghi cao là yếu
 
 > ***A1 & A2**: Là chuẩn dành riêng cho thiết bị Android. A2 vượt trội hơn A1 về tốc độ truy xuất ngẫu nhiên (IOPS) — điều quan trọng khi chạy ứng dụng từ thẻ nhớ.* </br>
 
+- Tham khảo một bảng so sánh khác:
+
+![So sánh](/image/IoT/The_nho/So_sánh_TF-Card.jpg)
+
 ### Tài liệu tham khảo:
 ```
 https://www.sdcard.org/developers/sd-standard-overview/capacity-sd-sdhc-sdxc-sduc/
