@@ -17,6 +17,7 @@ Công cụ tìm kiếm bài viết trên blog:
             element: "#search", 
             showSubResults: true,
             pageSize: 10,
+	    bundlePath: "pagefind/",
             translations: {
                 placeholder: "Tìm kiếm bài viết...",
                 clear_search: "Xóa",
