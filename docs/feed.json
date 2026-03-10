@@ -16,6 +16,21 @@
 
     
     {
+      "id": "c50c042b83129f0ff99a9b87fa7bf53838db2c7f",
+      "title": "AI_TTS",
+      "summary": "",
+      "content_text": "TTS - Text to Speech\nLúc trước việc chuyển đổi văn bản thành giọng đọc thành có từ lâu rồi.\nNhưng thời điểm đó, giọng đọc rất khô và như robot.\nBây giờ thời đại công nghệ AI, đã xuất hiện rất nhiều công cụ AI hỗ trợ TTS\nVbee AI Một công cụ chuyển đổi văn bản sang âm thanh Hỗ trợ rất nhiều về giọng đọc tiếng Việt, đủ loại vùng miền. Và tất nhiên công cụ này hầu như không free. Sử dụng của OpenAI Mình thấy bên OpenAI có công cụ online là: OpenAI.fm Có thể chuyển đổi nhanh và download free. Và mình cũng thấy tool TTS khi vào trang https://platform.openai.com/audio/tts Tất nhiên là còn nhiều tool khác nữa khi dùng API của OpenAI Có rất nhiều tài liệu của OpenAI, giúp người dùng có thể tìm hiểu hoặc triển khai dịch vụ: https://developers.openai.com/ https://developers.openai.com/api/docs/guides/speech-to-text https://developers.openai.com/api/docs/guides/deep-research https://developers.openai.com/api/docs/guides/image-generation https://developers.openai.com/api/docs/guides/tools-web-search https://developers.openai.com/api/docs/guides/tools-file-search ",
+      "content_html": "\u003cp\u003e\u003cstrong\u003eTTS - Text to Speech\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eLúc trước việc chuyển đổi \u003cstrong\u003evăn bản thành giọng đọc\u003c/strong\u003e thành có từ lâu rồi.\u003c/p\u003e\n\u003cp\u003eNhưng thời điểm đó, giọng đọc rất khô và như robot.\u003c/p\u003e\n\u003cp\u003eBây giờ thời đại công nghệ AI, đã xuất hiện rất nhiều công cụ \u003cstrong\u003eAI hỗ trợ TTS\u003c/strong\u003e\u003c/p\u003e\n\u003ch2 id=\"vbee-aihttpsstudiovbeevnstudiotext-to-speech\"\u003e\u003ca href=\"https://studio.vbee.vn/studio/text-to-speech\"\u003eVbee AI\u003c/a\u003e\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eMột công cụ chuyển đổi văn bản sang âm thanh\u003c/li\u003e\n\u003cli\u003eHỗ trợ rất nhiều về giọng đọc tiếng Việt, đủ loại vùng miền.\u003c/li\u003e\n\u003cli\u003eVà tất nhiên công cụ này hầu như \u003cstrong\u003ekhông free\u003c/strong\u003e.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2 id=\"sử-dụng-của-openai\"\u003eSử dụng của OpenAI\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eMình thấy bên OpenAI có công cụ online là: \u003ca href=\"https://www.openai.fm/\"\u003eOpenAI.fm\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003eCó thể chuyển đổi nhanh và download free.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/Others/AI_TTS/Hinh_1.png\"\n  alt=\"Hình 1\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eVà mình cũng thấy tool \u003cstrong\u003eTTS\u003c/strong\u003e khi vào trang \u003ca href=\"https://platform.openai.com/audio/tts\"\u003ehttps://platform.openai.com/audio/tts\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/Others/AI_TTS/Hinh_2.png\"\n  alt=\"Hình 2\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eTất nhiên là còn nhiều tool khác nữa khi dùng API của OpenAI\u003c/li\u003e\n\u003cli\u003eCó rất nhiều tài liệu của OpenAI, giúp người dùng có thể tìm hiểu hoặc triển khai dịch vụ:\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003ehttps://developers.openai.com/\nhttps://developers.openai.com/api/docs/guides/speech-to-text\nhttps://developers.openai.com/api/docs/guides/deep-research\nhttps://developers.openai.com/api/docs/guides/image-generation\nhttps://developers.openai.com/api/docs/guides/tools-web-search\nhttps://developers.openai.com/api/docs/guides/tools-file-search\n\u003c/code\u003e\u003c/pre\u003e",
+      "url": "https://vinhlin.github.io/posts/others/ai_tts/",
+      "date_published": "10036-10-09T342:1010:00+07:00",
+      "date_modified": "10036-10-09T342:1010:00+07:00",
+      "author": {
+        "name": "Vincent",
+        "url": "https://vinhlin.github.io/"
+      }
+    },
+    
+    {
       "id": "abf58e9aa4c66a623076a3160983d4430f5154f0",
       "title": "Win_CMD_for_CyberSecurity",
       "summary": "",

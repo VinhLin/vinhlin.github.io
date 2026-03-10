@@ -302,6 +302,7 @@ STT |		Tiêu đề			|		Mô tả				|
 5   | [Tong_hop_AI_Tools][Tong_hop_AI_Tools] | Tổng hợp thêm các dự án và công cụ AI	|
 6   | [Google_AI_Tools][Google_AI_Tools]| Tổng hợp các tools của Google AI		|
 7   | [Prompt_AI][Prompt_AI]		| Tổng hợp các **Prompt cho AI**		|
+8   | [AI_TTS][AI_TTS]			| Ghi chú về tool, cũng như tài liệu giúp **chuyển đổi văn bản sang âm thanh** dùng AI |
 
 [Grok_AI]: https://blog.vinhld-homelab.io.vn/posts/others/grok_ai/
 [Hop_do_choi_AI]: https://blog.vinhld-homelab.io.vn/posts/others/hop_do_choi_ai/
@@ -310,3 +311,5 @@ STT |		Tiêu đề			|		Mô tả				|
 [Tong_hop_AI_Tools]: https://blog.vinhld-homelab.io.vn/posts/others/tong_hop_ai_tools/
 [Google_AI_Tools]: https://blog.vinhld-homelab.io.vn/posts/others/google_ai_tools/
 [Prompt_AI]: https://blog.vinhld-homelab.io.vn/posts/others/prompt_ai/
+[AI_TTS]: https://blog.vinhld-homelab.io.vn/posts/others/ai_tts/
+
