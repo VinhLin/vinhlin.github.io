@@ -6,7 +6,7 @@ draft = true
 
 **TTS - Text to Speech**
 
-Lúc trước việc chuyển đổi **văn bản thành giọng đọc** thành có từ lâu rồi.
+Lúc trước việc chuyển đổi **văn bản thành âm thanh** đã có từ lâu rồi.
 
 Nhưng thời điểm đó, giọng đọc rất khô và như robot.
 

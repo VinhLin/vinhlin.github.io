@@ -36,6 +36,7 @@ STT |		Tiêu đề			|		Mô tả				|
 24  | [Sim_for_IoT][Sim_for_IoT]	| Ghi chú về data sim cho thiết bị IoT		|
 25  | [GPS_Signal][GPS_Signal]		| Tổng hợp các thông tin về **tín hiệu GPS**	|
 26  | [He_thong_dieu_khien][He_thong_dieu_khien] | Tổng quan về **hệ thống điều khiển** |
+27  | [IR_Cut_Filter][IR_Cut_Filter]	| Ghi chú về **bộ lọc hồng ngoại** cho camera	|
 
 [UNIHIKER]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/unihiker/
 [ESD]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/esd/
@@ -63,6 +64,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [Sim_for_IoT]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/sim_for_iot/
 [GPS_Signal]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/gps_signal/
 [He_thong_dieu_khien]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/he_thong_dieu_khien/
+[IR_Cut_Filter]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/ir_cut_filter/
 
 ## ***SOFTWARE***
 

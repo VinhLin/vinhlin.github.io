@@ -14,10 +14,99 @@
     
     
     <item>
+      <title>IR_Cut_Filter</title>
+      <link>https://vinhlin.github.io/posts/iot/hardware/ir_cut_filter/</link>
+      <description>&lt;p&gt;Mình mới biết về khái niệm &lt;strong&gt;IR Cut Filter&lt;/strong&gt; trên camera hành trình &lt;em&gt;(dashcam)&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Theo kiến thức về điện tử/IoT của mình, để nhận biết giữa &lt;strong&gt;ngày/đêm&lt;/strong&gt; của camera thì:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;1. Cảm biến ánh sáng để nhận diện.&lt;/em&gt; &lt;/br&gt;
+&lt;em&gt;2. Đặt timer để chuyển.&lt;/em&gt; &lt;/br&gt;
+&lt;em&gt;3. Xử lý hình ảnh để nhận biết.&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Dashcam thì có vẻ chỉ &lt;strong&gt;dùng 1 và 3 để nhận biết ngày/đêm&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;đây-là-một-bài-viết-trên-facebook-về-ir-cut-filterhttpswwwfacebookcomgroupsdahuavnofficialposts1250285923410958&#34;&gt;Đây là một bài viết trên &lt;a href=&#34;https://www.facebook.com/groups/dahuavnofficial/posts/1250285923410958/&#34;&gt;Facebook về IR Cut Filter&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/IR_Cut_Filter/Hinh_1.png&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;tham-khảo-sản-phẩm-trên-shopee-bộ-lọc-cắt-hồng-ngoạihttpsshopeevnproduct126305749426150941668gads_t_sigvtjgc2rhvmtymtlxtfvsvvrrdenkywxzmtdqtstnag03atlhynzwsjk5qm5rtmxhajjdqul5umpxsnheyjfbwvmrk2o4d25snworwgdazuorauxoeeu4wdbewfljvxrjyytwc1n3skfmmlbmnhzdvklvm2jpqxy5yudkd3f1zhyxr2nnuuc1v0jouhf0wndyowfgbuj3pt0gad_source1gad_campaignid23290731487gbraid0aaaaadppqe5yp60oosnmz6918p377cznmgclidcjwkcajwpctnbha5eiwado1s9nlrpgxiwumqgierjxzgyvne4aqvcotvqfxz3t50j9m5qcvdbv0zgroc1suqavd_bwe&#34;&gt;Tham khảo sản phẩm trên shopee &lt;a href=&#34;https://shopee.vn/product/1263057494/26150941668?gads_t_sig=VTJGc2RHVmtYMTlxTFVSVVRrdENkYWxZMTdQTStNaG03aTlHYnZwSjk5Qm5RTmxhajJDQUl5UmpxSnhEYjFBWVMrK2o4d25sNWorWGdaZUoraUxOeEU4WDBEWFljVXRJYytwc1N3SkFMMlBmNHZDVklvM2JpQXY5YUdkd3F1ZHYxR2NnUUc1V0JOUHF0WndyOWFGbUJ3PT0&amp;amp;gad_source=1&amp;amp;gad_campaignid=23290731487&amp;amp;gbraid=0AAAAADPpQE5yP60ooSnmz6918p377cZNM&amp;amp;gclid=CjwKCAjwpcTNBhA5EiwAdO1S9nlrpGxIwuMqGIErJxZgyVne4AqVCOtvqFxz3t50j9m5QCvDbV0ZGRoC1SUQAvD_BwE&#34;&gt;Bộ lọc cắt hồng ngoại&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://down-vn.img.susercontent.com/file/sg-11134201-7rd56-lvpx6rcn2cg036.webp&#34;
+  alt=&#34;Hình tham khảo&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h2 id=&#34;tiếp-theo-tham-vấn-ai-để-mình-hiểu-rõ-hơn&#34;&gt;Tiếp theo tham vấn AI để mình hiểu rõ hơn&lt;/h2&gt;
+&lt;h3 id=&#34;cảm-biến-ánh-sáng--ir-cut-filter&#34;&gt;Cảm biến ánh sáng + IR Cut Filter&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cảm biến ánh sáng&lt;/strong&gt; và &lt;strong&gt;IR Cut Filter&lt;/strong&gt; đều là một linh kiện phần cứng.&lt;/li&gt;
+&lt;li&gt;Như bài viết ở trên, &lt;strong&gt;IR Cut Filter&lt;/strong&gt; có chức năng &lt;strong&gt;lọc bớt tia hồng ngoại&lt;/strong&gt; &lt;em&gt;(khi trời sáng)&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Còn &lt;strong&gt;cảm biến ánh sáng&lt;/strong&gt; &lt;em&gt;(thường dùng Quang trở - LDR)&lt;/em&gt; để nhận diện sáng tối, lúc đó sẽ đẩy motor vào/ra cho bộ &lt;strong&gt;IR Cut&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Một so sánh khá thú vị:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Cảm biến ánh sáng (Light Sensor/LDR)&lt;/strong&gt;: Là &lt;strong&gt;&amp;ldquo;Mắt&amp;rdquo;&lt;/strong&gt; (để nhìn xem trời tối chưa).&lt;/em&gt; &lt;/br&gt;
+&lt;em&gt;&lt;strong&gt;IR Cut Filter&lt;/strong&gt;: Là &lt;strong&gt;&amp;ldquo;Kính mát&amp;rdquo;&lt;/strong&gt; (để đeo vào hoặc tháo ra giúp lọc ánh sáng).&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/IR_Cut_Filter/Hinh_2.png&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;software-based-switching-chuyển-đổi-dựa-trên-phần-mềm&#34;&gt;Software-based Switching &lt;em&gt;(Chuyển đổi dựa trên phần mềm)&lt;/em&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Thay vì dùng một cảm biến ánh sáng riêng biệt (quang trở - LDR) hay bộ hẹn giờ&lt;/li&gt;
+&lt;li&gt;Một số dòng camera &lt;strong&gt;tiết kiệm chi phí&lt;/strong&gt; sử dụng chính &lt;strong&gt;Cảm biến hình ảnh (Image Sensor)&lt;/strong&gt; để làm nhiệm vụ đo sáng.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Bước 1 - Phân tích dữ liệu điểm ảnh&lt;/strong&gt;: Chip xử lý hình ảnh (DSP) liên tục phân tích độ sáng (Luminance) của các khung hình đang quay. &lt;/br&gt;
+&lt;strong&gt;Bước 2 - Ngưỡng Lux&lt;/strong&gt;: Khi thuật toán nhận thấy giá trị độ sáng trung bình giảm xuống dưới một mức nhất định (ví dụ &amp;lt; 10 Lux), nó sẽ hiểu là &amp;ldquo;trời tối&amp;rdquo;. &lt;/br&gt;
+&lt;strong&gt;Bước 3 - Triệt tiêu màu (Desaturation)&lt;/strong&gt;: Thay vì gạt một tấm kính lọc vật lý (IR Cut), phần mềm sẽ ra lệnh cho chip xử lý loại bỏ hoàn toàn tín hiệu màu (Chroma). Kết quả là hình ảnh biến thành trắng đen (Grayscale). &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Đây là một số so sánh:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/IR_Cut_Filter/Hinh_3.png&#34;
+  alt=&#34;Hình 3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/IR_Cut_Filter/Hinh_4.png&#34;
+  alt=&#34;Hình 4&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>Vincent</author>
+      <guid>https://vinhlin.github.io/posts/iot/hardware/ir_cut_filter/</guid>
+      <pubDate>Wed, 11 Mar 2026 16:01:59 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>AI_TTS</title>
       <link>https://vinhlin.github.io/posts/others/ai_tts/</link>
       <description>&lt;p&gt;&lt;strong&gt;TTS - Text to Speech&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Lúc trước việc chuyển đổi &lt;strong&gt;văn bản thành giọng đọc&lt;/strong&gt; thành có từ lâu rồi.&lt;/p&gt;
+&lt;p&gt;Lúc trước việc chuyển đổi &lt;strong&gt;văn bản thành âm thanh&lt;/strong&gt; đã có từ lâu rồi.&lt;/p&gt;
 &lt;p&gt;Nhưng thời điểm đó, giọng đọc rất khô và như robot.&lt;/p&gt;
 &lt;p&gt;Bây giờ thời đại công nghệ AI, đã xuất hiện rất nhiều công cụ &lt;strong&gt;AI hỗ trợ TTS&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;vbee-aihttpsstudiovbeevnstudiotext-to-speech&#34;&gt;&lt;a href=&#34;https://studio.vbee.vn/studio/text-to-speech&#34;&gt;Vbee AI&lt;/a&gt;&lt;/h2&gt;

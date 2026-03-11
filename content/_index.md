@@ -69,6 +69,10 @@ Mình áp dụng những kiến thức của bản thân để tự build lên h
 
 ### Tham khảo lộ trình [Cyber Security Expert](https://roadmap.sh/cyber-security)
 
+### Tham khảo [Embedded Systems Hacking Roadmap](https://voidstarsec.com/roadmap/)
+
+![Embedded Systems Hacking Roadmap](/image/Embedded_Systems_Hacking_Roadmap.png)
+
 ### Tham khảo lộ trình [Embedded-Engineering-Roadmap](https://github.com/m3y54m/Embedded-Engineering-Roadmap)
 
 ![Roadmap](https://github.com/m3y54m/Embedded-Engineering-Roadmap/releases/latest/download/Embedded-Engineering-Roadmap.png)
