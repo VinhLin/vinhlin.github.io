@@ -16,6 +16,21 @@
 
     
     {
+      "id": "4cce4220308fd2f1f01e3e19db45c5f96e482829",
+      "title": "Raspberry OpenAuto",
+      "summary": "",
+      "content_text": "Changelog Ngày Mô tả 1/4/2024 Khởi tạo bài viết 12/3/2026 Update kiến thức OpenAuto Link\nSource\nTheo như mình hiểu thì OpenAuto, nó như một tool cho việc giao tiếp giữa người dùng và xe hơi, thông qua sử dụng Raspberry.\nHình như CrankShaft cũng từ open source của OpenAuto mà ra.\nTham khảo\nVideo tham khảo https://www.youtube.com/watch?v=RgbHXTHUnQw https://www.youtube.com/watch?v=ko-udLtaPk8 Cập nhật 12/3/2026 Sau thời gian dài, mình mới biết là trên ô tô, có các màn hình DVD (hoặc Android Box) Mục đích là để phục vụ nhu cầu giải trí của người lái xe. Vậy \u0026ldquo;DVD\u0026rdquo; và \u0026ldquo;Android box\u0026rdquo; có giống nhau không? Sau khi tìm hiểu và theo cách hiểu của bản thân, thì mặc dù cả 2 đều chạy Android, nhưng chúng đóng vai trò khác nhau. Tưởng tượng DVD giống như là một chiếc Tivi đời mới, tích hợp sẵn Hệ điều hành Android, có thể giải trí trực tiếp thay vì chỉ xem truyền hình thông thường. Còn Android Box, thì kiểu như một phụ kiện giúp biến Tivi thường thành một chiếc Tivi thông minh. Raspberry + OpenAuto Combo Raspberry Pi + OpenAuto hoàn toàn có thể thay thế một chiếc đầu DVD (Head Unit) truyền thống hoặc một chiếc Android Box đắt tiền. Raspberry Pi + OpenAuto là như cách mình tự handle, tự vọc vạch ngâm cứu, chế cháo để hiểu thêm về cách thiết bị Android Box vận hành. Cũng như cơ chế truyền dữ liệu Android Auto trên ô tô. ",
+      "content_html": "\u003ch3 id=\"changelog\"\u003eChangelog\u003c/h3\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003eNgày\u003c/th\u003e\n\u003cth\u003eMô tả\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e1/4/2024\u003c/td\u003e\n\u003ctd\u003eKhởi tạo bài viết\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e12/3/2026\u003c/td\u003e\n\u003ctd\u003eUpdate kiến thức\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003chr\u003e\n\u003ch3 id=\"openauto\"\u003eOpenAuto\u003c/h3\u003e\n\u003cp\u003e\u003ca href=\"https://bluewavestudio.io/#features\"\u003eLink\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"9https://bluewavestudio.io/community/showthread.php?tid=2774\"\u003eSource\u003c/a\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eTheo như mình hiểu thì \u003cstrong\u003eOpenAuto\u003c/strong\u003e, nó như một tool cho việc giao tiếp giữa người dùng và xe hơi, thông qua sử dụng Raspberry.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eHình như \u003cstrong\u003eCrankShaft\u003c/strong\u003e cũng từ open source của \u003cstrong\u003eOpenAuto\u003c/strong\u003e mà ra.\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/f1xpl/openauto/wiki\"\u003eTham khảo\u003c/a\u003e\u003c/p\u003e\n\u003ch3 id=\"video-tham-khao\"\u003eVideo tham khảo\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://www.youtube.com/watch?v=RgbHXTHUnQw\"\u003ehttps://www.youtube.com/watch?v=RgbHXTHUnQw\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://www.youtube.com/watch?v=ko-udLtaPk8\"\u003ehttps://www.youtube.com/watch?v=ko-udLtaPk8\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr\u003e\n\u003ch2 id=\"cập-nhật-1232026\"\u003eCập nhật 12/3/2026\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eSau thời gian dài, mình mới biết là trên ô tô, có các màn hình DVD \u003cem\u003e(hoặc Android Box)\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003eMục đích là để phục vụ nhu cầu giải trí của người lái xe.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3 id=\"vậy-dvd-và-android-box-có-giống-nhau-không\"\u003eVậy \u0026ldquo;DVD\u0026rdquo; và \u0026ldquo;Android box\u0026rdquo; có giống nhau không?\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eSau khi tìm hiểu và theo cách hiểu của bản thân, thì \u003cstrong\u003emặc dù cả 2 đều chạy Android, nhưng chúng đóng vai trò khác nhau\u003c/strong\u003e.\u003c/li\u003e\n\u003cli\u003eTưởng tượng \u003cstrong\u003eDVD\u003c/strong\u003e giống như là một chiếc Tivi đời mới, \u003cstrong\u003etích hợp sẵn Hệ điều hành Android\u003c/strong\u003e, có thể giải trí trực tiếp thay vì chỉ xem truyền hình thông thường.\u003c/li\u003e\n\u003cli\u003eCòn \u003cstrong\u003eAndroid Box\u003c/strong\u003e, thì kiểu như một \u003cstrong\u003ephụ kiện giúp biến Tivi thường thành một chiếc Tivi thông minh\u003c/strong\u003e.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/IoT/Raspberry-OpenAuto/Hinh_1.png\"\n  alt=\"Hình 1\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003ch3 id=\"raspberry--openauto\"\u003eRaspberry + OpenAuto\u003c/h3\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003cem\u003eCombo \u003cstrong\u003eRaspberry Pi + OpenAuto\u003c/strong\u003e hoàn toàn có thể thay thế một chiếc đầu DVD (Head Unit) truyền thống hoặc một chiếc Android Box đắt tiền.\u003c/em\u003e \u003c/br\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/IoT/Raspberry-OpenAuto/Hinh_2.png\"\n  alt=\"Hình 2\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eRaspberry Pi + OpenAuto\u003c/strong\u003e là như cách mình tự handle, tự vọc vạch ngâm cứu, chế cháo để hiểu thêm về cách thiết bị Android Box vận hành.\u003c/li\u003e\n\u003cli\u003eCũng như cơ chế truyền dữ liệu \u003cstrong\u003eAndroid Auto\u003c/strong\u003e trên ô tô.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/IoT/Raspberry-OpenAuto/Hinh_3.png\"\n  alt=\"Hình 3\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n",
+      "url": "https://vinhlin.github.io/posts/iot/software/raspberry-openauto/",
+      "date_published": "12036-12-09T350:1212:00+07:00",
+      "date_modified": "12036-12-09T350:1212:00+07:00",
+      "author": {
+        "name": "Vincent",
+        "url": "https://vinhlin.github.io/"
+      }
+    },
+    
+    {
       "id": "1d65d7dcec56ee122bc42b995ccc7725f4b59b24",
       "title": "IR_Cut_Filter",
       "summary": "",
@@ -1794,21 +1809,6 @@
       "url": "https://vinhlin.github.io/posts/cybersecurity/technical/nis2/",
       "date_published": "25056-25-09T543:2525:00+07:00",
       "date_modified": "25056-25-09T543:2525:00+07:00",
-      "author": {
-        "name": "Vincent",
-        "url": "https://vinhlin.github.io/"
-      }
-    },
-    
-    {
-      "id": "4cce4220308fd2f1f01e3e19db45c5f96e482829",
-      "title": "Raspberry OpenAuto",
-      "summary": "",
-      "content_text": "OpenAuto Link\nSource\nTheo như mình hiểu thì OpenAuto, nó như một tool cho việc giao tiếp giữa người dùng và xe hơi, thông qua sử dụng Raspberry.\nHình như CrankShaft cũng từ open source của OpenAuto mà ra.\nTham khảo\nVideo tham khảo https://www.youtube.com/watch?v=RgbHXTHUnQw https://www.youtube.com/watch?v=ko-udLtaPk8 ",
-      "content_html": "\u003ch3 id=\"openauto\"\u003eOpenAuto\u003c/h3\u003e\n\u003cp\u003e\u003ca href=\"https://bluewavestudio.io/#features\"\u003eLink\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"9https://bluewavestudio.io/community/showthread.php?tid=2774\"\u003eSource\u003c/a\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eTheo như mình hiểu thì \u003cstrong\u003eOpenAuto\u003c/strong\u003e, nó như một tool cho việc giao tiếp giữa người dùng và xe hơi, thông qua sử dụng Raspberry.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eHình như \u003cstrong\u003eCrankShaft\u003c/strong\u003e cũng từ open source của \u003cstrong\u003eOpenAuto\u003c/strong\u003e mà ra.\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/f1xpl/openauto/wiki\"\u003eTham khảo\u003c/a\u003e\u003c/p\u003e\n\u003ch3 id=\"video-tham-khao\"\u003eVideo tham khảo\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://www.youtube.com/watch?v=RgbHXTHUnQw\"\u003ehttps://www.youtube.com/watch?v=RgbHXTHUnQw\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://www.youtube.com/watch?v=ko-udLtaPk8\"\u003ehttps://www.youtube.com/watch?v=ko-udLtaPk8\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n",
-      "url": "https://vinhlin.github.io/posts/iot/software/raspberry-openauto/",
-      "date_published": "1046-01-09T457:11:00+07:00",
-      "date_modified": "1046-01-09T457:11:00+07:00",
       "author": {
         "name": "Vincent",
         "url": "https://vinhlin.github.io/"

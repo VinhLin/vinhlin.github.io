@@ -2,10 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://vinhlin.github.io/posts/iot/hardware/ir_cut_filter/</loc>
-    <lastmod>2026-03-11T16:01:59+07:00</lastmod>
-  </url><url>
     <loc>https://vinhlin.github.io/posts/</loc>
+    <lastmod>2026-03-12T10:50:07+07:00</lastmod>
+  </url><url>
+    <loc>https://vinhlin.github.io/posts/iot/software/raspberry-openauto/</loc>
+    <lastmod>2026-03-12T10:50:07+07:00</lastmod>
+  </url><url>
+    <loc>https://vinhlin.github.io/posts/iot/hardware/ir_cut_filter/</loc>
     <lastmod>2026-03-11T16:01:59+07:00</lastmod>
   </url><url>
     <loc>https://vinhlin.github.io/posts/others/ai_tts/</loc>
@@ -376,9 +379,6 @@
   </url><url>
     <loc>https://vinhlin.github.io/posts/cybersecurity/technical/nis2/</loc>
     <lastmod>2024-05-25T15:43:13+07:00</lastmod>
-  </url><url>
-    <loc>https://vinhlin.github.io/posts/iot/software/raspberry-openauto/</loc>
-    <lastmod>2024-04-01T17:57:07+07:00</lastmod>
   </url><url>
     <loc>https://vinhlin.github.io/posts/iot/software/pi400-keyboard/</loc>
     <lastmod>2024-04-01T17:53:24+07:00</lastmod>
