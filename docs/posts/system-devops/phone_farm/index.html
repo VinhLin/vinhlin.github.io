@@ -21,7 +21,7 @@ Thế là hỏi AI để xem có thể sử dụng server ESXi này của mình 
 Nhưng thấy giá thành mắc, xây dựng cũng cầu kì, phức tạp, và hơn thế nữa là hiện mình chưa sử dụng hết sức mạnh của server dual-core Xeon Gold này.
 Thế là hỏi AI để xem có thể sử dụng server ESXi này của mình để build Phone Farm ảo không."><meta itemprop="datePublished" content="2026-03-07T22:41:12+07:00" />
 <meta itemprop="dateModified" content="2026-03-07T22:41:12+07:00" />
-<meta itemprop="wordCount" content="158">
+<meta itemprop="wordCount" content="262">
 <meta itemprop="keywords" content="" />
     
     <link rel="canonical" href="https://vinhlin.github.io/posts/system-devops/phone_farm/">
@@ -83,7 +83,7 @@ Thế là hỏi AI để xem có thể sử dụng server ESXi này của mình 
       },
       "image": "https://vinhlin.github.io/assets/favicon.ico",
       "url" : "https:\/\/vinhlin.github.io\/posts\/system-devops\/phone_farm\/",
-      "wordCount" : "158",
+      "wordCount" : "262",
       "genre" : [ ],
       "keywords" : [ ]
   }
@@ -159,6 +159,39 @@ Thế là hỏi AI để xem có thể sử dụng server ESXi này của mình 
 <li><a href="https://dev.to/avkr/redroid-o6n">https://dev.to/avkr/redroid-o6n</a></li>
 <li>Cách khác để cài Android trên ESXi: <a href="https://www.youtube.com/watch?v=3Q2QULBOyE0">How to install Android on VMware Esxi Host</a></li>
 </ul>
+<h2 id="kết-nối">Kết nối:</h2>
+<ul>
+<li>Sau khi mình đã chạy thành công Redroid trên máy ảo rồi.</li>
+<li>Thì mình có thể kết nối với <strong>Android ảo</strong> trên máy Windows bằng các công cụ.</li>
+</ul>
+<h3 id="công-cụ-scrcpyhttpsgithubcomgenymobilescrcpy">Công cụ <a href="https://github.com/Genymobile/scrcpy">scrcpy</a></h3>
+<ul>
+<li>Lựa chọn phiên bản cho Windows và <a href="https://github.com/Genymobile/scrcpy/releases">download</a> về.</li>
+<li>Sau đó thực hiện lệnh:</li>
+</ul>
+<pre tabindex="0"><code>adb connect 172.16.20.50:5555
+scrcpy -s 172.16.20.50:5555
+</code></pre><ul>
+<li>Máy ảo của mình có IP là <code>172.16.20.50</code>, nên phải cần kết nối vào địa chỉ IP này.</li>
+</ul>
+<h3 id="công-cụ-vysorhttpswwwvysorio">Công cụ <a href="https://www.vysor.io/">Vysor</a></h3>
+<ul>
+<li>Ngoài ra còn một công cụ khác nữa là <strong>Vysor</strong>.</li>
+<li>Mình vẫn cần dùng <strong>adb</strong> kết nối trước:</li>
+</ul>
+<pre tabindex="0"><code>adb connect 172.16.20.50:5555
+</code></pre><ul>
+<li>Sau đó mở app này lên, thế là xong.</li>
+</ul>
+<p><img
+  src="/image/System-DevOps/Phone_Farm/Hinh_3.png"
+  alt="Hình 3"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
 
       
       <div class="post-date">

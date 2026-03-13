@@ -33,10 +33,11 @@ Dashcam thì có vẻ chỉ **dùng 1 và 3 để nhận biết ngày/đêm**.
 
 ![Hình 2](/image/IoT/IR_Cut_Filter/Hinh_2.png)
 
-### Software-based Switching *(Chuyển đổi dựa trên phần mềm)*
+### Thuật toán ADN (Adaptive Day Night) - Thường gọi là *Electronic Day/Night (Soft Day/Night)*
 - Thay vì dùng một cảm biến ánh sáng riêng biệt (quang trở - LDR) hay bộ hẹn giờ
 - Một số dòng camera **tiết kiệm chi phí** sử dụng chính **Cảm biến hình ảnh (Image Sensor)** để làm nhiệm vụ đo sáng.
-> **Bước 1 - Phân tích dữ liệu điểm ảnh**: Chip xử lý hình ảnh (DSP) liên tục phân tích độ sáng (Luminance) của các khung hình đang quay. </br>
+-  Cách **Software-based Switching** *(Chuyển đổi dựa trên phần mềm)* này vận hành:
+> **Bước 1 - Phân tích dữ liệu điểm ảnh**: Chip xử lý hình ảnh (DSP) liên tục phân tích độ sáng (Luminance) của các khung hình đang quay *(Thuật toán lấy **mẫu dữ liệu từ cảm biến** để tính toán giá trị độ chói (Y trong **hệ màu YUV**))*. </br>
 > **Bước 2 - Ngưỡng Lux**: Khi thuật toán nhận thấy giá trị độ sáng trung bình giảm xuống dưới một mức nhất định (ví dụ < 10 Lux), nó sẽ hiểu là "trời tối". </br>
 > **Bước 3 - Triệt tiêu màu (Desaturation)**: Thay vì gạt một tấm kính lọc vật lý (IR Cut), phần mềm sẽ ra lệnh cho chip xử lý loại bỏ hoàn toàn tín hiệu màu (Chroma). Kết quả là hình ảnh biến thành trắng đen (Grayscale). </br>
 
@@ -46,4 +47,6 @@ Dashcam thì có vẻ chỉ **dùng 1 và 3 để nhận biết ngày/đêm**.
 
 ![Hình 4](/image/IoT/IR_Cut_Filter/Hinh_4.png)
 
+- Ngoài ra còn có **ADN "Kết hợp phần cứng" (True Day/Night)**: 
+> ***Thuật toán ADN** sau khi phân tích xong (Bước 1 & 2) sẽ ra lệnh cho một cái motor nhỏ gạt kính lọc IR-Cut thật sự. Đây là loại cao cấp, cho hình ảnh đẹp cả ngày lẫn đêm.* </br>
 

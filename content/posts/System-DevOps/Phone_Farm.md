@@ -24,4 +24,25 @@ Thế là hỏi AI để xem có thể sử dụng server ESXi này của mình 
 - https://dev.to/avkr/redroid-o6n
 - Cách khác để cài Android trên ESXi: [How to install Android on VMware Esxi Host](https://www.youtube.com/watch?v=3Q2QULBOyE0)
 
+## Kết nối:
+- Sau khi mình đã chạy thành công Redroid trên máy ảo rồi.
+- Thì mình có thể kết nối với **Android ảo** trên máy Windows bằng các công cụ.
 
+### Công cụ [scrcpy](https://github.com/Genymobile/scrcpy)
+- Lựa chọn phiên bản cho Windows và [download](https://github.com/Genymobile/scrcpy/releases) về.
+- Sau đó thực hiện lệnh:
+```
+adb connect 172.16.20.50:5555
+scrcpy -s 172.16.20.50:5555
+```
+- Máy ảo của mình có IP là `172.16.20.50`, nên phải cần kết nối vào địa chỉ IP này.
+
+### Công cụ [Vysor](https://www.vysor.io/)
+- Ngoài ra còn một công cụ khác nữa là **Vysor**.
+- Mình vẫn cần dùng **adb** kết nối trước:
+```
+adb connect 172.16.20.50:5555
+```
+- Sau đó mở app này lên, thế là xong.
+
+![Hình 3](/image/System-DevOps/Phone_Farm/Hinh_3.png)

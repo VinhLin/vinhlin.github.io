@@ -158,13 +158,14 @@
 /&gt;
 
 &lt;/p&gt;
-&lt;h3 id=&#34;software-based-switching-chuyển-đổi-dựa-trên-phần-mềm&#34;&gt;Software-based Switching &lt;em&gt;(Chuyển đổi dựa trên phần mềm)&lt;/em&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;thuật-toán-adn-adaptive-day-night---thường-gọi-là-electronic-daynight-soft-daynight&#34;&gt;Thuật toán ADN (Adaptive Day Night) - Thường gọi là &lt;em&gt;Electronic Day/Night (Soft Day/Night)&lt;/em&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Thay vì dùng một cảm biến ánh sáng riêng biệt (quang trở - LDR) hay bộ hẹn giờ&lt;/li&gt;
 &lt;li&gt;Một số dòng camera &lt;strong&gt;tiết kiệm chi phí&lt;/strong&gt; sử dụng chính &lt;strong&gt;Cảm biến hình ảnh (Image Sensor)&lt;/strong&gt; để làm nhiệm vụ đo sáng.&lt;/li&gt;
+&lt;li&gt;Cách &lt;strong&gt;Software-based Switching&lt;/strong&gt; &lt;em&gt;(Chuyển đổi dựa trên phần mềm)&lt;/em&gt; này vận hành:&lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Bước 1 - Phân tích dữ liệu điểm ảnh&lt;/strong&gt;: Chip xử lý hình ảnh (DSP) liên tục phân tích độ sáng (Luminance) của các khung hình đang quay. &lt;/br&gt;
+&lt;p&gt;&lt;strong&gt;Bước 1 - Phân tích dữ liệu điểm ảnh&lt;/strong&gt;: Chip xử lý hình ảnh (DSP) liên tục phân tích độ sáng (Luminance) của các khung hình đang quay &lt;em&gt;(Thuật toán lấy &lt;strong&gt;mẫu dữ liệu từ cảm biến&lt;/strong&gt; để tính toán giá trị độ chói (Y trong &lt;strong&gt;hệ màu YUV&lt;/strong&gt;))&lt;/em&gt;. &lt;/br&gt;
 &lt;strong&gt;Bước 2 - Ngưỡng Lux&lt;/strong&gt;: Khi thuật toán nhận thấy giá trị độ sáng trung bình giảm xuống dưới một mức nhất định (ví dụ &amp;lt; 10 Lux), nó sẽ hiểu là &amp;ldquo;trời tối&amp;rdquo;. &lt;/br&gt;
 &lt;strong&gt;Bước 3 - Triệt tiêu màu (Desaturation)&lt;/strong&gt;: Thay vì gạt một tấm kính lọc vật lý (IR Cut), phần mềm sẽ ra lệnh cho chip xử lý loại bỏ hoàn toàn tín hiệu màu (Chroma). Kết quả là hình ảnh biến thành trắng đen (Grayscale). &lt;/br&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -189,6 +190,12 @@
 /&gt;
 
 &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ngoài ra còn có &lt;strong&gt;ADN &amp;ldquo;Kết hợp phần cứng&amp;rdquo; (True Day/Night)&lt;/strong&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Thuật toán ADN&lt;/strong&gt; sau khi phân tích xong (Bước 1 &amp;amp; 2) sẽ ra lệnh cho một cái motor nhỏ gạt kính lọc IR-Cut thật sự. Đây là loại cao cấp, cho hình ảnh đẹp cả ngày lẫn đêm.&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
       <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/hardware/ir_cut_filter/</guid>
@@ -362,6 +369,39 @@ https://developers.openai.com/api/docs/guides/tools-file-search
 &lt;li&gt;&lt;a href=&#34;https://dev.to/avkr/redroid-o6n&#34;&gt;https://dev.to/avkr/redroid-o6n&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Cách khác để cài Android trên ESXi: &lt;a href=&#34;https://www.youtube.com/watch?v=3Q2QULBOyE0&#34;&gt;How to install Android on VMware Esxi Host&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&#34;kết-nối&#34;&gt;Kết nối:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Sau khi mình đã chạy thành công Redroid trên máy ảo rồi.&lt;/li&gt;
+&lt;li&gt;Thì mình có thể kết nối với &lt;strong&gt;Android ảo&lt;/strong&gt; trên máy Windows bằng các công cụ.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;công-cụ-scrcpyhttpsgithubcomgenymobilescrcpy&#34;&gt;Công cụ &lt;a href=&#34;https://github.com/Genymobile/scrcpy&#34;&gt;scrcpy&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Lựa chọn phiên bản cho Windows và &lt;a href=&#34;https://github.com/Genymobile/scrcpy/releases&#34;&gt;download&lt;/a&gt; về.&lt;/li&gt;
+&lt;li&gt;Sau đó thực hiện lệnh:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;adb connect 172.16.20.50:5555
+scrcpy -s 172.16.20.50:5555
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Máy ảo của mình có IP là &lt;code&gt;172.16.20.50&lt;/code&gt;, nên phải cần kết nối vào địa chỉ IP này.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;công-cụ-vysorhttpswwwvysorio&#34;&gt;Công cụ &lt;a href=&#34;https://www.vysor.io/&#34;&gt;Vysor&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Ngoài ra còn một công cụ khác nữa là &lt;strong&gt;Vysor&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Mình vẫn cần dùng &lt;strong&gt;adb&lt;/strong&gt; kết nối trước:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;adb connect 172.16.20.50:5555
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Sau đó mở app này lên, thế là xong.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/Phone_Farm/Hinh_3.png&#34;
+  alt=&#34;Hình 3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
 </description>
       <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/system-devops/phone_farm/</guid>

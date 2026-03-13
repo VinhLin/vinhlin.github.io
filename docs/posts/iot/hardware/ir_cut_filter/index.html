@@ -23,7 +23,7 @@ Theo kiến thức về điện tử/IoT của mình, để nhận biết giữa
 1. Cảm biến ánh sáng để nhận diện. 2. Đặt timer để chuyển. 3. Xử lý hình ảnh để nhận biết. Dashcam thì có vẻ chỉ dùng 1 và 3 để nhận biết ngày/đêm.
 Đây là một bài viết trên Facebook về IR Cut Filter Tham khảo sản phẩm trên shopee Bộ lọc cắt hồng ngoại Tiếp theo tham vấn AI để mình hiểu rõ hơn Cảm biến ánh sáng &#43; IR Cut Filter Cảm biến ánh sáng và IR Cut Filter đều là một linh kiện phần cứng."><meta itemprop="datePublished" content="2026-03-11T16:01:59+07:00" />
 <meta itemprop="dateModified" content="2026-03-11T16:01:59+07:00" />
-<meta itemprop="wordCount" content="362">
+<meta itemprop="wordCount" content="451">
 <meta itemprop="keywords" content="" />
     
     <link rel="canonical" href="https://vinhlin.github.io/posts/iot/hardware/ir_cut_filter/">
@@ -85,7 +85,7 @@ Theo kiến thức về điện tử/IoT của mình, để nhận biết giữa
       },
       "image": "https://vinhlin.github.io/assets/favicon.ico",
       "url" : "https:\/\/vinhlin.github.io\/posts\/iot\/hardware\/ir_cut_filter\/",
-      "wordCount" : "362",
+      "wordCount" : "451",
       "genre" : [ ],
       "keywords" : [ ]
   }
@@ -175,13 +175,14 @@ Theo kiến thức về điện tử/IoT của mình, để nhận biết giữa
 />
 
 </p>
-<h3 id="software-based-switching-chuyển-đổi-dựa-trên-phần-mềm">Software-based Switching <em>(Chuyển đổi dựa trên phần mềm)</em></h3>
+<h3 id="thuật-toán-adn-adaptive-day-night---thường-gọi-là-electronic-daynight-soft-daynight">Thuật toán ADN (Adaptive Day Night) - Thường gọi là <em>Electronic Day/Night (Soft Day/Night)</em></h3>
 <ul>
 <li>Thay vì dùng một cảm biến ánh sáng riêng biệt (quang trở - LDR) hay bộ hẹn giờ</li>
 <li>Một số dòng camera <strong>tiết kiệm chi phí</strong> sử dụng chính <strong>Cảm biến hình ảnh (Image Sensor)</strong> để làm nhiệm vụ đo sáng.</li>
+<li>Cách <strong>Software-based Switching</strong> <em>(Chuyển đổi dựa trên phần mềm)</em> này vận hành:</li>
 </ul>
 <blockquote>
-<p><strong>Bước 1 - Phân tích dữ liệu điểm ảnh</strong>: Chip xử lý hình ảnh (DSP) liên tục phân tích độ sáng (Luminance) của các khung hình đang quay. </br>
+<p><strong>Bước 1 - Phân tích dữ liệu điểm ảnh</strong>: Chip xử lý hình ảnh (DSP) liên tục phân tích độ sáng (Luminance) của các khung hình đang quay <em>(Thuật toán lấy <strong>mẫu dữ liệu từ cảm biến</strong> để tính toán giá trị độ chói (Y trong <strong>hệ màu YUV</strong>))</em>. </br>
 <strong>Bước 2 - Ngưỡng Lux</strong>: Khi thuật toán nhận thấy giá trị độ sáng trung bình giảm xuống dưới một mức nhất định (ví dụ &lt; 10 Lux), nó sẽ hiểu là &ldquo;trời tối&rdquo;. </br>
 <strong>Bước 3 - Triệt tiêu màu (Desaturation)</strong>: Thay vì gạt một tấm kính lọc vật lý (IR Cut), phần mềm sẽ ra lệnh cho chip xử lý loại bỏ hoàn toàn tín hiệu màu (Chroma). Kết quả là hình ảnh biến thành trắng đen (Grayscale). </br></p>
 </blockquote>
@@ -206,6 +207,12 @@ Theo kiến thức về điện tử/IoT của mình, để nhận biết giữa
 />
 
 </p>
+<ul>
+<li>Ngoài ra còn có <strong>ADN &ldquo;Kết hợp phần cứng&rdquo; (True Day/Night)</strong>:</li>
+</ul>
+<blockquote>
+<p><em><strong>Thuật toán ADN</strong> sau khi phân tích xong (Bước 1 &amp; 2) sẽ ra lệnh cho một cái motor nhỏ gạt kính lọc IR-Cut thật sự. Đây là loại cao cấp, cho hình ảnh đẹp cả ngày lẫn đêm.</em> </br></p>
+</blockquote>
 
       
       <div class="post-date">
