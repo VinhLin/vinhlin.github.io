@@ -1,6 +1,6 @@
 +++
 title = 'Tong_hop_AI_Tools'
-date = 2025-12-03T11:33:27+07:00
+date = 2026-03-15T11:33:27+07:00
 draft = true
 +++
 
@@ -22,55 +22,26 @@ Sau đây bài viết này mình sẽ tổng hợp lại các công cụ khác, 
 1. **PDF Translator for Human**
 - **GitHub Link:** [davideuler/pdf-translator-for-human](https://github.com/davideuler/pdf-translator-for-human)
 - **Mô tả ngắn gọn:** Công cụ dịch PDF “dành cho con người đọc”, hiển thị song song bản gốc và bản dịch, cực kỳ tiện.
-- **Tính năng nổi bật liên quan đến PDF & AI:**
-	- Dịch từng trang (on-demand)
-	- Hỗ trợ Ollama, llama.cpp, MLX (chạy local 100%)
-	- ChatGPT, DeepSeek, Gemini
-	- Giao diện Streamlit đẹp
-	- Giữ layout tốt
 
 2. **PDFMathTranslate**
 - **GitHub Link:** [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)
 - **Mô tả ngắn gọn:** Chuyên dịch bài báo khoa học, luận văn, tài liệu toán học (giữ công thức LaTeX hoàn hảo).
-- **Tính năng nổi bật liên quan đến PDF & AI:** 
-	- Layout detection bằng YOLO
-	- Dịch bằng GPT-4o, DeepL, Ollama, Qwen
-	- CLI + GUI + Docker + plugin Zotero
-	- Đa luồng, rất nhanh
 
 3. **BabelDOC**
 - **GitHub Link:** [funstory-ai/BabelDOC](https://github.com/funstory-ai/BabelDOC)
 - **Mô tả ngắn gọn:** Thư viện Python dịch PDF song ngữ (Anh ↔ Trung/Việt), hỗ trợ cả PDF scan.
-- **Tính năng nổi bật liên quan đến PDF & AI:** 
-	- Dùng bất kỳ LLM nào tương thích OpenAI (gpt-4o-mini, Qwen, DeepSeek, v.v.)
-	- Glossary tùy chỉnh
-	- Output song ngữ hoặc chỉ bản dịch
-	- OCR workaround
 
 4. **OpenAI Translator**
 - **GitHub Link:** [DjangoPeng/openai-translator](https://github.com/DjangoPeng/openai-translator)
 - **Mô tả ngắn gọn:** Ứng dụng desktop chuyên dịch sách PDF tiếng Anh → tiếng Trung (có thể đổi sang tiếng Việt).
-- **Tính năng nổi bật liên quan đến PDF & AI:** 
-	- GUI đơn giản
-	- Tự động retry khi lỗi
-	- Hỗ trợ ChatGLM local
-	- Đang phát triển giữ layout tốt hơn
 
 5. **Zotero PDF Translate** (plugin)
 - **GitHub Link:** [windingwind/zotero-pdf-translate](https://github.com/windingwind/zotero-pdf-translate)
 - **Mô tả ngắn gọn:** Plugin Zotero cực mạnh, dịch ngay trong thư viện tài liệu khoa học.
-- **Tính năng nổi bật liên quan đến PDF & AI:** 
-	- Hỗ trợ 20+ engine (GPT, Gemini, Claude, DeepL, Qwen, Ollama, v.v.)
-	- Dịch text chọn, annotation, metadata
-	- Pop-up song ngữ
 
 6. **LingoLift PDF Translator**
 - **GitHub Link:** [lingolift/pdf-translator](https://github.com/lingolift/pdf-translator)
 - **Mô tả ngắn gọn:** Ứng dụng GUI nhẹ, đẹp, dành cho người dùng phổ thông.
-- **Tính năng nổi bật liên quan đến PDF & AI:** 
-	- Giao diện hiện đại (Electron/Tauri)
-	- Dịch nhanh bằng Google Translate hoặc LLM local
-	- Tự động phát hiện ngôn ngữ
 
 ![Hinh 1](/image/Others/Tong_hop_AI_Tools/Hinh_1.png)
 
@@ -78,8 +49,34 @@ Sau đây bài viết này mình sẽ tổng hợp lại các công cụ khác, 
 ## Speech to Text
 - Tham khảo: https://platform.openai.com/docs/guides/speech-to-text
 
+## Dự án [Hugging Face](https://huggingface.co/tasks)
+- Github project [huggingface/speech-to-speech](https://github.com/huggingface/speech-to-speech)
+- [Text to Speech](https://huggingface.co/tasks/text-to-speech)
+
 ## Tạo Video
 - Tham khảo bài viết về [HeyGen AI](https://blog.vinhld-homelab.io.vn/posts/others/heygen_ai/)
+
+## AI Assistant - Trợ lý AI
+
+### Dự án [AstrBot](https://astrbot.app/)
+- Github project [AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot)
+- Docs: https://docs.astrbot.app/en/
+
+### [PicoClaw](https://picoclaw.io/)
+- Github project [sipeed/picoclaw](https://github.com/sipeed/picoclaw)
+- Một dự án được viết bằng Golang, có thể chạy trên máy tính nhúng.
+
+## AI phân tích dữ liệu
+
+### OpenChatBI
+- Tham khảo bài viết: [AI phân tích dữ liệu bằng chat thay vì dashboard](https://www.facebook.com/groups/cto.platform/posts/2406887023090659/)
+- Github dự án [zhongyu09/openchatbi](https://github.com/zhongyu09/openchatbi)
+
+-------------------------------------------------------------------------
+## Các dự án khác:
+
+### [X-PLUG/MobileAgent](https://github.com/X-PLUG/MobileAgent)
+> *AI có thể tự dùng điện thoại và máy tính thay bạn.*
 
 ### Mã nguồn mở [Open Notebook](https://www.open-notebook.ai/)
 - Dự án mã nguồn mở, tương tự như **NotebookLM của Google**.
@@ -87,11 +84,3 @@ Sau đây bài viết này mình sẽ tổng hợp lại các công cụ khác, 
 - Tài liệu:
 > *[Github project](https://github.com/lfnovo/open-notebook)* </br>
 > *[Docs](https://www.open-notebook.ai/basics.html)* </br>
-
-
-
-
-
-
-
-

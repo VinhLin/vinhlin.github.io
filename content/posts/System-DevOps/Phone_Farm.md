@@ -46,3 +46,14 @@ adb connect 172.16.20.50:5555
 - Sau đó mở app này lên, thế là xong.
 
 ![Hình 3](/image/System-DevOps/Phone_Farm/Hinh_3.png)
+
+### Một công cụ khác giúp kết nối trực tiếp trên web: [Pixel-ADB](https://adb.pixel-ai.org/)
+- Thay vì phải cài đặt bộ công cụ **Platform-Tools** của ADB, đây là một dự án giúp kết nối ADB bằng ứng dụng web.
+- Mình thấy nó giống như có mấy công cụ hỗ trợ kết nối Serial trên nền tảng web.
+- Docs:
+```
+https://adb.pixel-ai.org/tutorials
+https://adb.pixel-ai.org/app/device-info
+```
+
+

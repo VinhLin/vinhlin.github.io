@@ -80,6 +80,7 @@ STT |		Tiêu đề			|		Mô tả				|
 8   | [Mesh_Roaming][Mesh_Roaming]	| Ghi chú về **Mesh/Roaming** trên WiFi		|
 9   | [openHABian][openHABian]		| Ghi chú về một tool open-source **openHABian**|
 10  | [Fast_Roaming][Fast_Roaming]	| Ghi chú về **Fast Roaming** trên Aruba	|
+11  | [PicoClaw][PicoClaw]		| Ghi chú về dự án **PicoClaw**, một phiên bản nhỏ gọn của OpenClaw |
 
 [PiKVM]: https://blog.vinhld-homelab.io.vn/posts/iot/software/pikvm/
 [Pi400-Keyboard]: https://blog.vinhld-homelab.io.vn/posts/iot/software/pi400-keyboard/
@@ -91,6 +92,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [Mesh_Roaming]: https://blog.vinhld-homelab.io.vn/posts/iot/software/mesh_roaming/
 [openHABian]: https://blog.vinhld-homelab.io.vn/posts/iot/software/openhabian/
 [Fast_Roaming]: https://blog.vinhld-homelab.io.vn/posts/iot/software/fast_roaming/
+[PicoClaw]: https://blog.vinhld-homelab.io.vn/posts/iot/software/picoclaw/
 
 ### Rust-lang
 > Tổng hợp ghi chú về ngôn ngữ lập trình **Rust** </br>
