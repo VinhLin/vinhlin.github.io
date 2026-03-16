@@ -12,7 +12,7 @@ Một **trợ lý AI cá nhân** *(AI assistant)*, bây giờ các anh Trung Hoa
 
 ![Hình 1](/image/IoT/PicoClaw/Hinh_1.png)
 
-Ở nhà vẫn còn con **CM4**, có thể tận dụng để ngâm cứu dự án này. =]]
+May mà ở nhà vẫn còn một con **CM4** *(Raspberry Compute Module 4)*, có thể tận dụng để ngâm cứu dự án này. =]]
 
 ### Tài liệu và bài viết về PicoClaw
 - [Trang chủ của dự án PicoClaw](https://picoclaw.io/)
