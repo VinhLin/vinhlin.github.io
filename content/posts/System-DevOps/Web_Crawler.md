@@ -7,7 +7,7 @@ draft = true
 ### Changelog
 ```
 9/3/2025: Khởi tạo bài viết Ghi chú về Web Crawler
-12/3/2025: Bổ sung một công cụ AI Crawler
+12/3/2025: Bổ sung một số công cụ Crawler khác
 ```
 
 > Web crawler (hay còn gọi là web spider, bot, hoặc crawler) là một chương trình hoặc phần mềm tự động được thiết kế để duyệt qua các trang web trên internet, thu thập thông tin và lập chỉ mục dữ liệu từ các trang đó. Web crawler hoạt động bằng cách truy cập một trang web, đọc nội dung, tìm các liên kết (link) trên trang, sau đó tiếp tục truy cập các liên kết đó để khám phá thêm các trang khác. </br>
@@ -55,11 +55,10 @@ draft = true
 - Mình xem video thì thấy công cụ này khá hay, dùng cho những người không chuyên quá nhiều về kỹ thuật.
 - Xem [pricing](https://thunderbit.com/pricing) thì bản free chỉ cho phép cào tối đa 6 trang web trong tháng.
 
+### [Katana](https://github.com/projectdiscovery/katana)
+> *A next-generation crawling and spidering framework.* </br>
 
-
-
-
-
+![Sample](https://user-images.githubusercontent.com/8293321/199371558-daba03b6-bf9c-4883-8506-76497c6c3a44.png)
 
 
 
