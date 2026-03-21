@@ -31,7 +31,7 @@ draft = true
 - Bản thân **WebVM** không cho phép kết nối Internet trực tiếp, mà phải thông qua một **ứng dụng thứ 3** *(ví dụ như **Tailscale**)*.
 - Tham khảo bài viết [How we added full networking to WebVM via Tailscale](https://labs.leaningtech.com/blog/webvm-virtual-machine-with-networking-via-tailscale#introduction)
 
-!Hình kết nối Tailscale](https://labs.leaningtech.com/_astro/webvm-tailscale.CDrEDtlg_1661cS.webp)
+![Hình kết nối Tailscale](https://labs.leaningtech.com/_astro/webvm-tailscale.CDrEDtlg_1661cS.webp)
 
 - Nhưng khi mình đọc thông tin này thì mình bật ra câu hỏi: "Nếu kết nối Tailscale thì cần SSH hoặc đại loại một phương thức nào đó. Khi không đi internet đc thì làm sao SSH đc?"
 - Và mình mang câu hỏi này để hỏi AI, và đây là câu trả lời:
