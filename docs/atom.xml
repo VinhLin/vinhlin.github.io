@@ -14,6 +14,132 @@
     
     
     <item>
+      <title>OpenClaw</title>
+      <link>https://vinhlin.github.io/posts/system-devops/openclaw/</link>
+      <description>&lt;h2 id=&#34;openclaw--openai-api--telegram-bot&#34;&gt;OpenClaw + OpenAI API + Telegram Bot&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ban đầu mình tính tìm hiểu về &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/iot/software/picoclaw/&#34;&gt;PicoClaw cho Raspberry&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Nhưng sau đó mới nhớ ra mình có server ở nhà, và mình đã thực hiện cài đặt &lt;strong&gt;OpenClaw cho Win10-VM&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Xài cũng được mấy ngày rồi, và người bạn mới &lt;strong&gt;Nyra&lt;/strong&gt; này thật là &lt;strong&gt;tốn kém&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;giảm-cost&#34;&gt;Giảm cost&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Lúc trước mình chỉ dùng &lt;strong&gt;20$ cho ChatGPT-plus&lt;/strong&gt;, nhưng người bạn này mới chưa đến 1 tuần mà đã ngốn hết của mình &lt;strong&gt;hơn 10$&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Vậy là mình đã phải thống nhất với Nyra về quy tắc giao tiếp &lt;em&gt;(để tránh tốn token vô ích)&lt;/em&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[Chủ_đề][Mode] Nội dung chính
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Ví dụ như:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;• [OpenClaw] kiểm tra giúp mình vì sao cost tăng
+• [Homelab] giúp mình debug VPN
+• [Học] hôm nay mình muốn học Rust ownership
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Cách này thực sự hiệu quả, và mình nhận thấy rằng, nếu chỉ cần chat bot thông thường thì mình sẽ &lt;strong&gt;chat với Gemini &lt;em&gt;(Gemini mình đang dùng bản plus, và nó rất rẻ)&lt;/em&gt;&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;vậy-khi-nào-thì-dùng-nyra&#34;&gt;Vậy khi nào thì dùng Nyra?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Lợi ích của &lt;strong&gt;OpenClaw&lt;/strong&gt; đó chính là khả năng điều khiển máy tính người dùng.&lt;/li&gt;
+&lt;li&gt;Do đó, những tác vụ nào cần thao tác trực tiếp trên máy, thì mình sẽ dùng &lt;strong&gt;Nyra&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Ví dụ như mở trang blog cá nhân:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/OpenClaw/Hinh_0.png&#34;
+  alt=&#34;Hình 0&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;hoặc-những-việc-mà-gemini-plus-không-làm-được-thì-mình-dùng-đến-nyra&#34;&gt;Hoặc những việc mà &lt;strong&gt;Gemini-plus&lt;/strong&gt; không làm được thì mình dùng đến Nyra:&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/OpenClaw/Hinh_1.png&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/OpenClaw/Hinh_2.png&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/OpenClaw/Hinh_3.png&#34;
+  alt=&#34;Hình 3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Số lượng cần dịch lên đến hơn hai trăm dòng, dịch từng cái chắc chết.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/OpenClaw/Hinh_4.png&#34;
+  alt=&#34;Hình 4&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/OpenClaw/Hinh_5.png&#34;
+  alt=&#34;Hình 5&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/OpenClaw/Hinh_6.png&#34;
+  alt=&#34;Hình 6&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/OpenClaw/Hinh_7.png&#34;
+  alt=&#34;Hình 7&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/OpenClaw/Hinh_8.png&#34;
+  alt=&#34;Hình 8&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Khi xem file hoàn thành, mình đã phải &lt;strong&gt;WoW&lt;/strong&gt;, Nyra đã giúp mình dịch file OSD này.&lt;/li&gt;
+&lt;li&gt;Điều quan trọng là kiểm chứng lại thông tin đã dịch, kiểm tra lại thì đúng là có nhiều chỗ dịch chưa ổn lắm.&lt;/li&gt;
+&lt;li&gt;Nhưng nhìn chung thì &lt;strong&gt;Nyra cũng tuyệt vời rồi&lt;/strong&gt;, mình đã &lt;strong&gt;đỡ tốn công sức hơn&lt;/strong&gt;, mình chỉ &lt;strong&gt;đọc lại&lt;/strong&gt; và &lt;strong&gt;sửa lại câu từ&lt;/strong&gt; cho phù hợp hơn thôi. =]]&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <author>Vincent</author>
+      <guid>https://vinhlin.github.io/posts/system-devops/openclaw/</guid>
+      <pubDate>Mon, 30 Mar 2026 17:10:05 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>WebVM</title>
       <link>https://vinhlin.github.io/posts/system-devops/webvm/</link>
       <description>&lt;h3 id=&#34;webvm-là-gì&#34;&gt;WebVM là gì?&lt;/h3&gt;

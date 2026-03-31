@@ -203,4 +203,5 @@ hugo new posts/System-DevOps/Linux_Basic.md
 hugo new posts/System-DevOps/Bruno.md
 hugo new posts/System-DevOps/Phone_Farm.md
 hugo new posts/System-DevOps/WebVM.md
+hugo new posts/System-DevOps/OpenClaw.md
 ```
