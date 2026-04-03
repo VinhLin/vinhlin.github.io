@@ -20,9 +20,9 @@ Và đó là lúc mình **chế** lại việc gắn camera ô tô lên chiếc 
 - Ban đầu mình cứ nghĩ chỉ có thể gắn test chiếc camera nhỏ gọn như L110.
 - Nhưng sau đó thử với chiếc **M1**. Wow, vẫn có thể dùng được. *(Mặc dù mình thấy gắn L110 vẫn OK hơn)*
 
-![Hình Facebook 1](https://scontent.fsgn2-8.fna.fbcdn.net/v/t39.30808-6/646993326_2947789552083937_621914741349778273_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=7b2446&_nc_ohc=3RxVoTzqPF0Q7kNvwGPqUlZ&_nc_oc=AdkQYTVTF3YZ-vSUfk9wt8MuqGZ40p4lo_Pyo8P8HtZWEeQ2fow_2YxUAPVjTalKRh4&_nc_zt=23&_nc_ht=scontent.fsgn2-8.fna&_nc_gid=rFFICJRLwqzEv6JT-oJy9g&_nc_ss=8&oh=00_Afx8Rn2IJFbPvFPRfIUR8VkZkfmnKGEeyNIR-7UMY4SSSA&oe=69B1D53A)
+![Hình Facebook 1](/image/Others/Test_Camera_tren_Xe_may/Hinh_3.jpg)
 
-![Hình Facebook 2](https://scontent.fsgn2-8.fna.fbcdn.net/v/t39.30808-6/646336025_2947789622083930_1825822205566577633_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=7b2446&_nc_ohc=0_5x9RB13r8Q7kNvwEQ4vAf&_nc_oc=AdnBYVRQiFY0bN6S2TS1KCpFQZbtsyuAD9nLTuq_krXFRnS4pIumbGmo4BimvOpj0U0&_nc_zt=23&_nc_ht=scontent.fsgn2-8.fna&_nc_gid=Gr7EI6pHeNrb4ZQ3MMoBpQ&_nc_ss=8&oh=00_AfzPoztKC-_kP4M4Du2DChovO8rRAbQXWT_4AImAxGIXFg&oe=69B1CEB3)
+![Hình Facebook 2](/image/Others/Test_Camera_tren_Xe_may/Hinh_4.jpg)
 
 ### Gần đây
 - Ban đầu mình chỉ gắn cam khi chạy xe, sau đó sẽ cất lại vào cóp.

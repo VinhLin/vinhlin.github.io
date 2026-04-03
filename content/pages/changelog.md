@@ -277,6 +277,7 @@ STT |		Tiêu đề			|		Mô tả				|
 18  | [Cong_cu_test_Acquy][Cong_cu_test_Acquy] | Ghi chú về **Công cụ test Ac-quy**	|
 19  | [Tem_phu][Tem_phu]		| Ghi chú lại công dụng của "Tem phụ"		|
 20  | [Test_Camera_tren_Xe_may][Test_Camera_tren_Xe_may] | Test camera trên xe máy	|
+21  | [Blog_Page][Blog_Page]		| Học hỏi và cải thiện trang Blog		|
 
 [Ngoai_ngu]: https://blog.vinhld-homelab.io.vn/posts/others/goc_nhin_ve_ngoai_ngu/
 [Hardware_Hacking]: https://blog.vinhld-homelab.io.vn/posts/others/suy_nghi_ve_hardware_hacking/
@@ -298,6 +299,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [Cong_cu_test_Acquy]: https://blog.vinhld-homelab.io.vn/posts/others/cong_cu_test_acquy/
 [Tem_phu]: https://blog.vinhld-homelab.io.vn/posts/others/tem_phu/
 [Test_Camera_tren_Xe_may]: https://blog.vinhld-homelab.io.vn/posts/others/test_camera_tren_xe_may/
+[Blog_Page]: https://blog.vinhld-homelab.io.vn/posts/others/blog_page/
 
 ## ***AI***
 
@@ -311,6 +313,7 @@ STT |		Tiêu đề			|		Mô tả				|
 6   | [Google_AI_Tools][Google_AI_Tools]| Tổng hợp các tools của Google AI		|
 7   | [Prompt_AI][Prompt_AI]		| Tổng hợp các **Prompt cho AI**		|
 8   | [AI_TTS][AI_TTS]			| Ghi chú về tool, cũng như tài liệu giúp **chuyển đổi văn bản sang âm thanh** dùng AI |
+9   | [Phuc_hoi_anh][Phuc_hoi_anh]	| Ghi chú và suy nghĩ về việc dùng AI để phục dựng ảnh |
 
 [Grok_AI]: https://blog.vinhld-homelab.io.vn/posts/others/grok_ai/
 [Hop_do_choi_AI]: https://blog.vinhld-homelab.io.vn/posts/others/hop_do_choi_ai/
@@ -320,4 +323,4 @@ STT |		Tiêu đề			|		Mô tả				|
 [Google_AI_Tools]: https://blog.vinhld-homelab.io.vn/posts/others/google_ai_tools/
 [Prompt_AI]: https://blog.vinhld-homelab.io.vn/posts/others/prompt_ai/
 [AI_TTS]: https://blog.vinhld-homelab.io.vn/posts/others/ai_tts/
-
+[Phuc_hoi_anh]: https://blog.vinhld-homelab.io.vn/posts/others/phuc_hoi_anh/

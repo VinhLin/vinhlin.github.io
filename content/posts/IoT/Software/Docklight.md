@@ -10,7 +10,7 @@ draft = true
 
 Lúc này mình mới nhớ ra là có một công cụ mà lúc trước mình có dùng để **giả lập data Serial**.
 
-Công cụ này được một người anh giới thiệu sử dụng, lúc mà còn làm ở Vietmap, nghiên cứu cho dự án **Công lạnh**.
+Công cụ này được một người anh giới thiệu sử dụng, nghiên cứu cho dự án **Công lạnh**.
 
 ### Tool giả lập data cho Serial 
 - Mục tiêu là mình không cần quá phụ thược vào phần cứng module CR95HF nữa. Mà chỉ cần tập trung code.
@@ -23,11 +23,6 @@ Công cụ này được một người anh giới thiệu sử dụng, lúc mà
 - Download [Docklight 2.2](https://docklight.de/downloads/)
 ```
 Download Docklight V2.2.8 for Windows 10, Windows 8, Windows 7, Windows Vista (4.7 MB, Release 11/2016)
-```
-- Và đây là **Key number** để kích hoạt:
-```
-KEY NUMBER
-010111323344556
 ```
 
 ![docklight](https://docklight.de/wp-content/uploads/2018/09/app3_docklight_screenshot_simulator_based_on_log_data.png)

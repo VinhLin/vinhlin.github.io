@@ -1,6 +1,5 @@
-# [My Blog](https://blog.vinhld-homelab.io.vn/)
+## [My Blog](https://blog.vinhld-homelab.io.vn/)
 
--------------------------------------------------------------------------
 ### Mở Powershell
 ```
 cd D:\vinhlin.github.io
@@ -87,6 +86,8 @@ hugo new posts/Others/Google_AI_Tools.md
 hugo new posts/Others/Prompt_AI.md
 hugo new posts/Others/Test_Camera_tren_Xe_may.md
 hugo new posts/Others/AI_TTS.md
+hugo new posts/Others/Phuc_hoi_anh.md
+hugo new posts/Others/Blog_Page.md
 ```
 
 ### IoT:
