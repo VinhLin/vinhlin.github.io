@@ -38,13 +38,13 @@ Ví dụ như tấm hình này, quá mờ để thấy thông tin
 
 Sử dụng chức năng **tạo ảnh của Gemini** và **nhập câu prompt**:
 
-![Hình 11](/image/Others/Phuc_hoi_anh/Hinh_11.jpg)
+![Hình 11](/image/Others/Phuc_hoi_anh/Hinh_11.png)
 
 Kết quả thu được
 
-![Hình 12](/image/Others/Phuc_hoi_anh/Hinh_12.jpg)
+![Hình 12](/image/Others/Phuc_hoi_anh/Hinh_12.png)
 
-Hình thu được thì đúng là đẹp thiệt, nhưng mà điều quan trọng là **thông tin trong của nó là fake**
+Hình thu được thì đúng là đẹp thiệt, nhưng mà điều quan trọng là **thông tin của nó là fake**
 
-Việc dùng AI để làm rõ hình ảnh cũng như đưa ra thông tin chính xác có vẻ còn xa với lắm.
+Việc dùng AI để làm rõ hình ảnh cũng như đưa ra thông tin chính xác có vẻ còn **xa vời** lắm.
 

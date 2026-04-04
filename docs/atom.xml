@@ -175,7 +175,7 @@
 &lt;/p&gt;
 &lt;p&gt;Sử dụng chức năng &lt;strong&gt;tạo ảnh của Gemini&lt;/strong&gt; và &lt;strong&gt;nhập câu prompt&lt;/strong&gt;:&lt;/p&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/Others/Phuc_hoi_anh/Hinh_11.jpg&#34;
+  src=&#34;https://vinhlin.github.io/image/Others/Phuc_hoi_anh/Hinh_11.png&#34;
   alt=&#34;Hình 11&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -185,7 +185,7 @@
 &lt;/p&gt;
 &lt;p&gt;Kết quả thu được&lt;/p&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/Others/Phuc_hoi_anh/Hinh_12.jpg&#34;
+  src=&#34;https://vinhlin.github.io/image/Others/Phuc_hoi_anh/Hinh_12.png&#34;
   alt=&#34;Hình 12&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -193,8 +193,8 @@
 /&gt;
 
 &lt;/p&gt;
-&lt;p&gt;Hình thu được thì đúng là đẹp thiệt, nhưng mà điều quan trọng là &lt;strong&gt;thông tin trong của nó là fake&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Việc dùng AI để làm rõ hình ảnh cũng như đưa ra thông tin chính xác có vẻ còn xa với lắm.&lt;/p&gt;
+&lt;p&gt;Hình thu được thì đúng là đẹp thiệt, nhưng mà điều quan trọng là &lt;strong&gt;thông tin của nó là fake&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Việc dùng AI để làm rõ hình ảnh cũng như đưa ra thông tin chính xác có vẻ còn &lt;strong&gt;xa vời&lt;/strong&gt; lắm.&lt;/p&gt;
 </description>
       <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/others/phuc_hoi_anh/</guid>
