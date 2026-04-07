@@ -81,6 +81,7 @@ STT |		Tiêu đề			|		Mô tả				|
 9   | [openHABian][openHABian]		| Ghi chú về một tool open-source **openHABian**|
 10  | [Fast_Roaming][Fast_Roaming]	| Ghi chú về **Fast Roaming** trên Aruba	|
 11  | [PicoClaw][PicoClaw]		| Ghi chú về dự án **PicoClaw**, một phiên bản nhỏ gọn của OpenClaw |
+12  | [Android_RDP][Android_RDP]	| Ghi chú về cách kết nối RDP cho Android	|
 
 [PiKVM]: https://blog.vinhld-homelab.io.vn/posts/iot/software/pikvm/
 [Pi400-Keyboard]: https://blog.vinhld-homelab.io.vn/posts/iot/software/pi400-keyboard/
@@ -93,6 +94,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [openHABian]: https://blog.vinhld-homelab.io.vn/posts/iot/software/openhabian/
 [Fast_Roaming]: https://blog.vinhld-homelab.io.vn/posts/iot/software/fast_roaming/
 [PicoClaw]: https://blog.vinhld-homelab.io.vn/posts/iot/software/picoclaw/
+[Android_RDP]: https://blog.vinhld-homelab.io.vn/posts/iot/software/android_rdp/
 
 ### Rust-lang
 > Tổng hợp ghi chú về ngôn ngữ lập trình **Rust** </br>

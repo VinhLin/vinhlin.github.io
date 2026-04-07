@@ -4,7 +4,7 @@ date = 2026-04-03T16:49:59+07:00
 draft = true
 +++
 
-Lên thang trên một số diễn đàn về chủ đồ AI trên facebook.
+Lên thang trên một số diễn đàn về chủ đề AI trên facebook.
 
 Mình lụm được một số kiến thức về **Phục hồi ảnh** dùng công nghệ AI.
 

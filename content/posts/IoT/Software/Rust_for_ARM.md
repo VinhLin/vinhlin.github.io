@@ -97,7 +97,7 @@ https://harmonicss.co.uk/rust/rust-on-a-raspberry-pi-part-1/
 ### Ghi chú khác về [armv7-unknown-linux-uclibceabi](https://doc.rust-lang.org/rustc/platform-support/armv7-unknown-linux-uclibceabi.html)
 > This target supports Armv7-A softfloat CPUs and uses the uclibc-ng standard library. This is a common configuration on many consumer routers (e.g., Netgear R7000, Asus RT-AC68U). </br>
 
-- Tức là khi code rust và build file với target là `armv7-unknown-linux-uclibceabi` thì có thể sẽ chạy được trên **OpneWRT**.
+- Tức là khi code rust và build file với target là `armv7-unknown-linux-uclibceabi` thì có thể sẽ chạy được trên **OpenWRT**.
 
 -----------------------------------------------------------------------------------------
 ## Cập nhật 12/10/2024

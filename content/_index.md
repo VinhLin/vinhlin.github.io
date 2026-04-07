@@ -11,6 +11,7 @@ draft = true
 Là một người có thói quen hay ghi chú những điều hay ho về **IoT/Điện tử** (*nói riêng*) và **Công nghệ** (*nói chung*).
 
 Tình cờ thế nào mình biết được có thể host một trang web (*free*) bằng **Github Page**, kết hợp với [framework Hugo](https://gohugo.io/) để tạo **web tĩnh**. Và thế là trang blog này ra đời.
+*(Bài viết đầu tiên được khởi tạo là vào đúng ngày cá tháng tư **1/4/2024**)* =]]
 
 Trang blog này như một **cuốn sổ tay cá nhân**, nơi mà mình ghi chú lại những điều hay ho, kiến thức mới mẻ, cũng như cập nhật lại tri thức cũ.
 

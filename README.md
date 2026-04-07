@@ -141,6 +141,7 @@ hugo new posts/IoT/Software/Mesh_Roaming.md
 hugo new posts/IoT/Software/openHABian.md
 hugo new posts/IoT/Software/Fast_Roaming.md
 hugo new posts/IoT/Software/PicoClaw.md
+hugo new posts/IoT/Software/Android_RDP.md
 ```
 
 ### CyberSecurity:
