@@ -280,6 +280,7 @@ STT |		Tiêu đề			|		Mô tả				|
 19  | [Tem_phu][Tem_phu]		| Ghi chú lại công dụng của "Tem phụ"		|
 20  | [Test_Camera_tren_Xe_may][Test_Camera_tren_Xe_may] | Test camera trên xe máy	|
 21  | [Blog_Page][Blog_Page]		| Học hỏi và cải thiện trang Blog		|
+22  | [Sac_Acquy][Sac_Acquy]		| Ghi chú về thời điểm sạc acquy		|
 
 [Ngoai_ngu]: https://blog.vinhld-homelab.io.vn/posts/others/goc_nhin_ve_ngoai_ngu/
 [Hardware_Hacking]: https://blog.vinhld-homelab.io.vn/posts/others/suy_nghi_ve_hardware_hacking/
@@ -302,6 +303,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [Tem_phu]: https://blog.vinhld-homelab.io.vn/posts/others/tem_phu/
 [Test_Camera_tren_Xe_may]: https://blog.vinhld-homelab.io.vn/posts/others/test_camera_tren_xe_may/
 [Blog_Page]: https://blog.vinhld-homelab.io.vn/posts/others/blog_page/
+[Sac_Acquy]: https://blog.vinhld-homelab.io.vn/posts/others/sac_acquy/
 
 ## ***AI***
 

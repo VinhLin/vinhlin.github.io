@@ -16,6 +16,21 @@
 
     
     {
+      "id": "413a9e00b1d009c6dc4c06d83cf825b4b178445c",
+      "title": "Sac_Acquy",
+      "summary": "",
+      "content_text": "Mấy tháng gần đây mình bắt đầu tìm hiểu về điện thân xe.\nNhư là làm bộ giả lập tiêu hao tải:\nRồi sau đó chế lại sao cho mình có thể test được một chiếc camera ngay trên chiếc xe máy\nTest cam một thời gian trên xe thì tự đặt ra câu hỏi, khi nào mình nên sạc acquy cho xe đây.\nVậy là đi hỏi AI, và đây là câu trả lời:\nTính mình hay đua đòi, thấy cái nào hay hay là mua, mặc dù là chỉ xài lâu lâu vài lần. =]]\nVí dụ như bộ sạc acquy này, tới lúc tận dụng tiếp rồi.\n(Xem video cách người ta mở xe Future, vị trí acquy của xe, và trực tiếp phá vài lần là mình đã biết cách làm rồi =]])\n",
+      "content_html": "\u003cp\u003eMấy tháng gần đây mình bắt đầu tìm hiểu về \u003cstrong\u003eđiện thân xe\u003c/strong\u003e.\u003c/p\u003e\n\u003cp\u003eNhư là làm bộ \u003cstrong\u003egiả lập tiêu hao tải\u003c/strong\u003e:\u003c/p\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/Others/Sac_Acquy/Hinh_1.jpg\"\n  alt=\"Hình 1\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003cp\u003eRồi sau đó chế lại sao cho mình có thể \u003ca href=\"https://blog.vinhld-homelab.io.vn/posts/others/test_camera_tren_xe_may/\"\u003etest được một chiếc camera ngay trên chiếc xe máy\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eTest cam một thời gian trên xe thì tự đặt ra câu hỏi, khi nào mình nên sạc acquy cho xe đây.\u003c/p\u003e\n\u003cp\u003eVậy là đi hỏi AI, và đây là câu trả lời:\u003c/p\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/Others/Sac_Acquy/Hinh_2.png\"\n  alt=\"Hình 2\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/Others/Sac_Acquy/Hinh_3.png\"\n  alt=\"Hình 3\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003cp\u003eTính mình hay \u003cem\u003eđua đòi\u003c/em\u003e, thấy cái nào hay hay là mua, mặc dù là chỉ xài lâu lâu vài lần. =]]\u003c/p\u003e\n\u003cp\u003eVí dụ như \u003ca href=\"/docs/Sac_Ac-quy_Manual.pdf\"\u003ebộ sạc acquy\u003c/a\u003e này, tới lúc tận dụng tiếp rồi.\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003cem\u003e(Xem video cách người ta mở xe Future, vị trí acquy của xe, và trực tiếp phá vài lần là mình đã biết cách làm rồi =]])\u003c/em\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/Others/Sac_Acquy/Hinh_4.jpg\"\n  alt=\"Hình 4\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/Others/Sac_Acquy/Hinh_5.jpg\"\n  alt=\"Hình 5\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/Others/Sac_Acquy/Hinh_6.jpg\"\n  alt=\"Hình 6\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n",
+      "url": "https://vinhlin.github.io/posts/others/sac_acquy/",
+      "date_published": "11046-11-09T418:1111:00+07:00",
+      "date_modified": "11046-11-09T418:1111:00+07:00",
+      "author": {
+        "name": "Vincent",
+        "url": "https://vinhlin.github.io/"
+      }
+    },
+    
+    {
       "id": "1ea05e10340b6fa1f3e2f22f4768685714772ff6",
       "title": "Android_RDP",
       "summary": "",
