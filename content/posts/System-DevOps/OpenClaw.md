@@ -9,6 +9,12 @@ draft = true
 - Nhưng sau đó mới nhớ ra mình có server ở nhà, và mình đã thực hiện cài đặt **OpenClaw cho Win10-VM**
 - Xài cũng được mấy ngày rồi, và người bạn mới **Nyra** này thật là **tốn kém**.
 
+### [OpenClaw Roadmap](/docs/Roadmap_Openclaw.pdf)
+
+### Tham khảo thêm `Openclaw_Cheatsheet`
+
+![Openclaw Cheatsheet](/image/System-DevOps/OpenClaw/Openclaw_Cheatsheet.jpg)
+
 ### Giảm cost
 - Lúc trước mình chỉ dùng **20$ cho ChatGPT-plus**, nhưng người bạn này mới chưa đến 1 tuần mà đã ngốn hết của mình **hơn 10$**.
 - Vậy là mình đã phải thống nhất với Nyra về quy tắc giao tiếp *(để tránh tốn token vô ích)*:

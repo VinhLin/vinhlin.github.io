@@ -318,6 +318,7 @@ STT |		Tiêu đề			|		Mô tả				|
 7   | [Prompt_AI][Prompt_AI]		| Tổng hợp các **Prompt cho AI**		|
 8   | [AI_TTS][AI_TTS]			| Ghi chú về tool, cũng như tài liệu giúp **chuyển đổi văn bản sang âm thanh** dùng AI |
 9   | [Phuc_hoi_anh][Phuc_hoi_anh]	| Ghi chú và suy nghĩ về việc dùng AI để phục dựng ảnh |
+10  | [LLM_Local][LLM_Local]		| Ghi chú thêm về **công cụ llamafile**		|
 
 [Grok_AI]: https://blog.vinhld-homelab.io.vn/posts/others/grok_ai/
 [Hop_do_choi_AI]: https://blog.vinhld-homelab.io.vn/posts/others/hop_do_choi_ai/
@@ -328,3 +329,6 @@ STT |		Tiêu đề			|		Mô tả				|
 [Prompt_AI]: https://blog.vinhld-homelab.io.vn/posts/others/prompt_ai/
 [AI_TTS]: https://blog.vinhld-homelab.io.vn/posts/others/ai_tts/
 [Phuc_hoi_anh]: https://blog.vinhld-homelab.io.vn/posts/others/phuc_hoi_anh/
+[LLM_Local]: https://blog.vinhld-homelab.io.vn/posts/others/llm_local/
+
+

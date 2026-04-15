@@ -89,6 +89,7 @@ hugo new posts/Others/AI_TTS.md
 hugo new posts/Others/Phuc_hoi_anh.md
 hugo new posts/Others/Blog_Page.md
 hugo new posts/Others/Sac_Acquy.md
+hugo new posts/Others/LLM_Local.md
 ```
 
 ### IoT:

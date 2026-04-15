@@ -57,7 +57,7 @@ https://xiaomiprotool.com/
 
 - Đã share được và kết nối mạng thành công.
 
-![Hình 5](/image/Others/Android_Xiaomi/Hinh_5.jpg)
+![Hình 5](/image/Others/Android_Xiaomi/Hinh_5.png)
 
 ### Share mạng qua USB
 - Khi làm về cách share qua ethernet, mình để ý đến mục **Chia sẻ qua USB**.

@@ -18,9 +18,4 @@ May mà ở nhà vẫn còn một con **CM4** *(Raspberry Compute Module 4)*, c�
 - [Trang chủ của dự án PicoClaw](https://picoclaw.io/)
 - Docs: https://docs.picoclaw.io/
 
-### Tham khảo thêm `Openclaw_Cheatsheet`
-
-![Openclaw Cheatsheet](/image/IoT/PicoClaw/Openclaw_Cheatsheet.jpg)
-
-
 
