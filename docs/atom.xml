@@ -14,6 +14,132 @@
     
     
     <item>
+      <title>Android_Xiaomi</title>
+      <link>https://vinhlin.github.io/posts/others/android_xiaomi/</link>
+      <description>&lt;h2 id=&#34;changelog&#34;&gt;Changelog&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Ngày&lt;/th&gt;
+&lt;th&gt;Mô tả&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;8/8/2025&lt;/td&gt;
+&lt;td&gt;Khởi tạo bài viết&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;15/4/2026&lt;/td&gt;
+&lt;td&gt;Update tính năng chia sẻ internet&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Android Xiaomi&lt;/strong&gt;, người ta nói nó như là &lt;strong&gt;Apple Trung Quốc&lt;/strong&gt; vậy.&lt;/p&gt;
+&lt;p&gt;Nên có những tính năng mà điện thoại này có đi theo &lt;strong&gt;hệ sinh thái&lt;/strong&gt; của nó.&lt;/p&gt;
+&lt;p&gt;Mình sẽ tìm và note thêm những tính năng hay ho khác của &lt;em&gt;xiaomi phone&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Tổng hợp một số tool cũng như trang web của &lt;strong&gt;Xiaomi Service&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://github.com/Mrivai/Xiaomi-Service-Tool
+https://xiaomitools.com/main-page-en/
+https://github.com/offici5l/MiTool
+https://xiaomiflashtool.com/
+https://miflashpro.com/
+https://xiaomiprotool.com/
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;tính-năng-ghi-màn-hìnhhttpswwwmicomvnsupportfaqdetailska-504379&#34;&gt;Tính năng &lt;a href=&#34;https://www.mi.com/vn/support/faq/details/KA-504379/&#34;&gt;Ghi màn hình&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Mình dùng &lt;strong&gt;Redmi Note 11&lt;/strong&gt; vẫn hỗ trợ &lt;strong&gt;Ghi màn hình&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Không cần cài đặt app thứ 3 bên ngoài.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/Android_Xiaomi/Hinh_1.jpg&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;ứng-dụng-shareme---tham-khảo-youtubehttpswwwyoutubecomwatchv0zsyeduvet4&#34;&gt;Ứng dụng ShareMe - &lt;a href=&#34;https://www.youtube.com/watch?v=0zSYedUveT4&#34;&gt;Tham khảo youtube&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Ứng dụng này cũng có sẵn trên Xiaomi.&lt;/li&gt;
+&lt;li&gt;Ứng dụng cho phép mình kết nối và chia sẻ dữ liệu giữa PC và Mobile thông qua WiFi &lt;em&gt;(cùng mạng cục bộ)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Mình đã thử và cho thể truy cập vào kho dữ liệu của thiết bị &lt;em&gt;(share qua giao thức FTP)&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/Android_Xiaomi/Hinh_2.jpg&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;cập-nhật-ngày-1542026&#34;&gt;Cập nhật ngày &lt;code&gt;15/4/2026&lt;/code&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;dùng-điện-thoại-android-để-chia-sẻ-mạng-qua-cổng-ethernet&#34;&gt;Dùng điện thoại Android để chia sẻ mạng qua cổng Ethernet&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Vô tình xem được video &lt;a href=&#34;https://www.youtube.com/watch?v=MH3T2_rIi3o&amp;amp;list=WL&amp;amp;index=5&#34;&gt;How to share internet from your phone to your router&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Người ta dùng điện thoại để share mạng qua cho router, mình thử bằng cách kết nối với laptop và thử share mạng.&lt;/li&gt;
+&lt;li&gt;Mình có một vài công cụ để test thử:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/Android_Xiaomi/Hinh_3.jpg&#34;
+  alt=&#34;Hình 3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Kết nối với điện thoại, chọn mục &lt;strong&gt;Chia sẻ qua Ethernet&lt;/strong&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/Android_Xiaomi/Hinh_4.jpg&#34;
+  alt=&#34;Hình 4&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Đã share được và kết nối mạng thành công.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/Android_Xiaomi/Hinh_5.jpg&#34;
+  alt=&#34;Hình 5&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;share-mạng-qua-usb&#34;&gt;Share mạng qua USB&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Khi làm về cách share qua ethernet, mình để ý đến mục &lt;strong&gt;Chia sẻ qua USB&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Thế là thử lấy &lt;strong&gt;cáp USB Type C -&amp;gt; Type A&lt;/strong&gt;, kết nối thử.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/Android_Xiaomi/Hinh_6.jpg&#34;
+  alt=&#34;Hình 6&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Vậy là vẫn có thể share và kết nối mạng thành công. Perfect.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <author>Vincent</author>
+      <guid>https://vinhlin.github.io/posts/others/android_xiaomi/</guid>
+      <pubDate>Wed, 15 Apr 2026 17:05:34 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Sac_Acquy</title>
       <link>https://vinhlin.github.io/posts/others/sac_acquy/</link>
       <description>&lt;p&gt;Mấy tháng gần đây mình bắt đầu tìm hiểu về &lt;strong&gt;điện thân xe&lt;/strong&gt;.&lt;/p&gt;
@@ -51,7 +177,7 @@
 &lt;p&gt;Tính mình hay &lt;em&gt;đua đòi&lt;/em&gt;, thấy cái nào hay hay là mua, mặc dù là chỉ xài lâu lâu vài lần. =]]&lt;/p&gt;
 &lt;p&gt;Ví dụ như &lt;a href=&#34;https://vinhlin.github.io/docs/Sac_Ac-quy_Manual.pdf&#34;&gt;bộ sạc acquy&lt;/a&gt; này, tới lúc tận dụng tiếp rồi.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;(Xem video cách người ta mở xe Future, vị trí acquy của xe, và trực tiếp phá vài lần là mình đã biết cách làm rồi =]])&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;(Xem video cách người ta mở xe Future, vị trí acquy của xe, và trực tiếp phá vài lần là mình đã biết cách làm rồi)&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/Others/Sac_Acquy/Hinh_4.jpg&#34;
@@ -1036,6 +1162,16 @@ https://developers.openai.com/api/docs/guides/tools-file-search
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/CyberSecurity/Win_CMD_for_CyberSecurity/Hinh_6.jpg&#34;
   alt=&#34;Hình 6&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;network-command-for-windows&#34;&gt;Network Command for Windows&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/Win_CMD_for_CyberSecurity/Network_Command_for_Windows.jpg&#34;
+  alt=&#34;Hình Network_Command_for_Windows&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
   class=&#34;full-width&#34;
@@ -4287,13 +4423,13 @@ https://www.min.io/download?license=agpl&amp;amp;platform=linux
 &lt;p&gt;Theo mình hiểu đơn giản thì &lt;strong&gt;khi làm System đủ lâu, mà muốn phát triển lên thì vai trò tiếp theo chính là DevOps&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Lúc trước mình cũng lân la đi đọc JD của vai trò DevOps, học cơ bản về DevOps.&lt;/p&gt;
 &lt;p&gt;Và khóa học free mà mình thấy hấp dẫn nhất chính là &lt;a href=&#34;https://elroydevops.tech/devops-for-fresher-kien-thuc-thuc-te/&#34;&gt;DevOps for Freshers&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;elroydevopshttpselroydevopstech&#34;&gt;&lt;a href=&#34;https://elroydevops.tech/&#34;&gt;elroydevops&lt;/a&gt;&lt;/h3&gt;
+&lt;h1 id=&#34;elroydevopshttpselroydevopstech&#34;&gt;&lt;a href=&#34;https://elroydevops.tech/&#34;&gt;elroydevops&lt;/a&gt;&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Với mình đây là trang web học về &lt;strong&gt;DevOps&lt;/strong&gt; cực kỳ chất lượng.&lt;/li&gt;
 &lt;li&gt;Không những có những khóa học cơ bản miễn phí, mà còn có những &lt;strong&gt;bài blog chia sẻ rất có tâm&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;Giúp mình củng cố kiến thức về linux, monitor, và hiểu thêm về Automation.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;linux&#34;&gt;Linux&lt;/h3&gt;
+&lt;h2 id=&#34;linux&#34;&gt;Linux&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Xem thêm bài viết về &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/system-devops/permission_linux/&#34;&gt;Permission_Linux&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Tìm hiểu về &lt;a href=&#34;https://devops.vn/posts/mot-cau-lenh-linux-cuc-ky-manh-me-ma-co-the-ban-chua-dung-bao-gio/&#34;&gt;chattr_Linux&lt;/a&gt;&lt;/li&gt;
@@ -4305,6 +4441,16 @@ https://www.min.io/download?license=agpl&amp;amp;platform=linux
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/System-DevOps/DevOps/Linux_Admin.jpg&#34;
   alt=&#34;Linux Admin&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h2 id=&#34;cloud-services&#34;&gt;Cloud Services:&lt;/h2&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/DevOps/Cloud_Service.png&#34;
+  alt=&#34;Cloud Service&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
   class=&#34;full-width&#34;
@@ -4328,7 +4474,7 @@ https://docs.aws.amazon.com/iot/latest/developerguide/iot-moisture-raspi-setup.h
 /&gt;
 
 &lt;/p&gt;
-&lt;h3 id=&#34;ảo-hóa---docker&#34;&gt;Ảo hóa - Docker&lt;/h3&gt;
+&lt;h2 id=&#34;ảo-hóa---docker&#34;&gt;Ảo hóa - Docker&lt;/h2&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/System-DevOps/DevOps/Docker_1.jpg&#34;
   alt=&#34;Docker 1&#34;
@@ -4338,7 +4484,7 @@ https://docs.aws.amazon.com/iot/latest/developerguide/iot-moisture-raspi-setup.h
 /&gt;
 
 &lt;/p&gt;
-&lt;h4 id=&#34;docker-cheatsheet&#34;&gt;Docker Cheatsheet&lt;/h4&gt;
+&lt;h3 id=&#34;docker-cheatsheet&#34;&gt;Docker Cheatsheet&lt;/h3&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/System-DevOps/DevOps/Docker_2.jpg&#34;
   alt=&#34;Docker 2&#34;
@@ -4348,7 +4494,7 @@ https://docs.aws.amazon.com/iot/latest/developerguide/iot-moisture-raspi-setup.h
 /&gt;
 
 &lt;/p&gt;
-&lt;h4 id=&#34;một-số-dự-án-chạy-bằng-docker&#34;&gt;Một số dự án chạy bằng docker&lt;/h4&gt;
+&lt;h3 id=&#34;một-số-dự-án-chạy-bằng-docker&#34;&gt;Một số dự án chạy bằng docker&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Chạy &lt;strong&gt;Raspberry OS trên Docker&lt;/strong&gt;: &lt;a href=&#34;https://github.com/lukechilds/dockerpi&#34;&gt;DockerPi&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -4357,7 +4503,17 @@ https://docs.aws.amazon.com/iot/latest/developerguide/iot-moisture-raspi-setup.h
 &lt;li&gt;Cài đặt công cụ &lt;a href=&#34;https://it-tools.tech/&#34;&gt;IT-Tools&lt;/a&gt; bằng Docker: &lt;a href=&#34;https://github.com/CorentinTh/it-tools&#34;&gt;Docker IT-Tools&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;docker run -d -p 8080:80 --name it-tools -it corentinth/it-tools
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;iac-infrastructure-as-code&#34;&gt;IaC &lt;em&gt;(Infrastructure as Code)&lt;/em&gt;&lt;/h3&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;cicd&#34;&gt;CI/CD&lt;/h2&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/DevOps/Sample_CI-CD.jpg&#34;
+  alt=&#34;Sample CI/CD&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h2 id=&#34;iac-infrastructure-as-code&#34;&gt;IaC &lt;em&gt;(Infrastructure as Code)&lt;/em&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/System-DevOps/DevOps/IaC.jpg&#34;
   alt=&#34;Iac&#34;
@@ -4382,6 +4538,7 @@ https://docs.aws.amazon.com/iot/latest/developerguide/iot-moisture-raspi-setup.h
 &lt;p&gt;&lt;em&gt;&lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/system-devops/automation_tools/&#34;&gt;Automation_Tools&lt;/a&gt;&lt;/em&gt; &lt;/br&gt;
 &lt;em&gt;&lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/system-devops/n8n/&#34;&gt;n8n&lt;/a&gt;&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;hr&gt;
 &lt;h3 id=&#34;tham-khảo-khác&#34;&gt;Tham khảo khác:&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=zM-6q54gu1w&amp;amp;list=PLUD8HYMnoROxPqDsDzyTagU3l6V1CbbAy&amp;amp;index=7&#34;&gt;CND&lt;/a&gt;&lt;/li&gt;
@@ -5875,47 +6032,6 @@ https://www.youtube.com/watch?v=lEXd6TXPw7E
       <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/system-devops/fabric_ai/</guid>
       <pubDate>Sat, 09 Aug 2025 20:29:25 +0700</pubDate>
-    </item>
-    
-    <item>
-      <title>Android_Xiaomi</title>
-      <link>https://vinhlin.github.io/posts/others/android_xiaomi/</link>
-      <description>&lt;p&gt;&lt;strong&gt;Android Xiaomi&lt;/strong&gt;, người ta nói nó như là &lt;strong&gt;Apple Trung Quốc&lt;/strong&gt; vậy.&lt;/p&gt;
-&lt;p&gt;Nên có những tính năng mà điện thoại này có đi theo &lt;strong&gt;hệ sinh thái&lt;/strong&gt; của nó.&lt;/p&gt;
-&lt;p&gt;Mình sẽ tìm và note thêm những tính năng hay ho khác của &lt;em&gt;xiaomi phone&lt;/em&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;tính-năng-ghi-màn-hìnhhttpswwwmicomvnsupportfaqdetailska-504379&#34;&gt;Tính năng &lt;a href=&#34;https://www.mi.com/vn/support/faq/details/KA-504379/&#34;&gt;Ghi màn hình&lt;/a&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Mình dùng &lt;strong&gt;Redmi Note 11&lt;/strong&gt; vẫn hỗ trợ &lt;strong&gt;Ghi màn hình&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Không cần cài đặt app thứ 3 bên ngoài.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/Others/Android_Xiaomi/Hinh_1.jpg&#34;
-  alt=&#34;Hình 1&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;h3 id=&#34;ứng-dụng-shareme---tham-khảo-youtubehttpswwwyoutubecomwatchv0zsyeduvet4&#34;&gt;Ứng dụng ShareMe - &lt;a href=&#34;https://www.youtube.com/watch?v=0zSYedUveT4&#34;&gt;Tham khảo youtube&lt;/a&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Ứng dụng này cũng có sẵn trên Xiaomi.&lt;/li&gt;
-&lt;li&gt;Ứng dụng cho phép mình kết nối và chia sẻ dữ liệu giữa PC và Mobile thông qua WiFi &lt;em&gt;(cùng mạng cục bộ)&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Mình đã thử và cho thể truy cập vào kho dữ liệu của thiết bị &lt;em&gt;(share qua giao thức FTP)&lt;/em&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/Others/Android_Xiaomi/Hinh_2.jpg&#34;
-  alt=&#34;Hình 2&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-</description>
-      <author>Vincent</author>
-      <guid>https://vinhlin.github.io/posts/others/android_xiaomi/</guid>
-      <pubDate>Fri, 08 Aug 2025 17:05:34 +0700</pubDate>
     </item>
     
     <item>

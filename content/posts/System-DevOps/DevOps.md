@@ -12,18 +12,22 @@ Lúc trước mình cũng lân la đi đọc JD của vai trò DevOps, học cơ
 
 Và khóa học free mà mình thấy hấp dẫn nhất chính là [DevOps for Freshers](https://elroydevops.tech/devops-for-fresher-kien-thuc-thuc-te/)
 
-### [elroydevops](https://elroydevops.tech/)
+# [elroydevops](https://elroydevops.tech/)
 - Với mình đây là trang web học về **DevOps** cực kỳ chất lượng.
 - Không những có những khóa học cơ bản miễn phí, mà còn có những **bài blog chia sẻ rất có tâm**.
 - Giúp mình củng cố kiến thức về linux, monitor, và hiểu thêm về Automation.
 
-### Linux
+## Linux
 - Xem thêm bài viết về [Permission_Linux](https://blog.vinhld-homelab.io.vn/posts/system-devops/permission_linux/)
 - Tìm hiểu về [chattr_Linux](https://devops.vn/posts/mot-cau-lenh-linux-cuc-ky-manh-me-ma-co-the-ban-chua-dung-bao-gio/)
 > *Command 1: `chattr +i demofile.txt`* </br>
 > *Command 2: `chattr -i demofile.txt`* </br>
 
 ![Linux Admin](/image/System-DevOps/DevOps/Linux_Admin.jpg)
+
+## Cloud Services:
+
+![Cloud Service](/image/System-DevOps/DevOps/Cloud_Service.png)
 
 ### Cloud - AWS
 - [Chuyên mục DevOps](https://elroydevops.tech/aws/)
@@ -35,15 +39,15 @@ https://docs.aws.amazon.com/iot/latest/developerguide/iot-moisture-raspi-setup.h
 ```
 ![AWS](/image/System-DevOps/DevOps/AWS.jpg)
 
-### Ảo hóa - Docker
+## Ảo hóa - Docker
 
 ![Docker 1](/image/System-DevOps/DevOps/Docker_1.jpg)
 
-#### Docker Cheatsheet
+### Docker Cheatsheet
 
 ![Docker 2](/image/System-DevOps/DevOps/Docker_2.jpg)
 
-#### Một số dự án chạy bằng docker
+### Một số dự án chạy bằng docker
 - Chạy **Raspberry OS trên Docker**: [DockerPi](https://github.com/lukechilds/dockerpi)
 ```
 docker run -it lukechilds/dockerpi
@@ -53,7 +57,11 @@ docker run -it lukechilds/dockerpi
 docker run -d -p 8080:80 --name it-tools -it corentinth/it-tools
 ```
 
-### IaC *(Infrastructure as Code)*
+## CI/CD
+
+![Sample CI/CD](/image/System-DevOps/DevOps/Sample_CI-CD.jpg)
+
+## IaC *(Infrastructure as Code)*
 
 ![Iac](/image/System-DevOps/DevOps/IaC.jpg)
 
@@ -66,6 +74,7 @@ docker run -d -p 8080:80 --name it-tools -it corentinth/it-tools
 > *[Automation_Tools](https://blog.vinhld-homelab.io.vn/posts/system-devops/automation_tools/)* </br>
 > *[n8n](https://blog.vinhld-homelab.io.vn/posts/system-devops/n8n/)* </br>
 
+------------------------------------------------------------
 ### Tham khảo khác:
 - [CND](https://www.youtube.com/watch?v=zM-6q54gu1w&list=PLUD8HYMnoROxPqDsDzyTagU3l6V1CbbAy&index=7)
 - [Storage](https://www.youtube.com/watch?v=KhDz0uzoIXM&list=PLUD8HYMnoROxPqDsDzyTagU3l6V1CbbAy&index=3)

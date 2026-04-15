@@ -23,7 +23,7 @@ Vậy là đi hỏi AI, và đây là câu trả lời:
 Tính mình hay *đua đòi*, thấy cái nào hay hay là mua, mặc dù là chỉ xài lâu lâu vài lần. =]]
 
 Ví dụ như [bộ sạc acquy](/docs/Sac_Ac-quy_Manual.pdf) này, tới lúc tận dụng tiếp rồi.
-> *(Xem video cách người ta mở xe Future, vị trí acquy của xe, và trực tiếp phá vài lần là mình đã biết cách làm rồi =]])* 
+> *(Xem video cách người ta mở xe Future, vị trí acquy của xe, và trực tiếp phá vài lần là mình đã biết cách làm rồi)* 
 
 ![Hình 4](/image/Others/Sac_Acquy/Hinh_4.jpg)
 
