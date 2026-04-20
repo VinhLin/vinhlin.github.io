@@ -176,6 +176,7 @@ STT |		Tiêu đề			|		Mô tả				|
 19  | [Exif_Tool][Exif_Tool]		| Giới thiệu công cụ lấy **metadata** ảnh chụp		|
 20  | [CLI_Fortigate][CLI_Fortigate]	| Cheat-sheet ommand-line cho firewall Fortigate|
 21  | [Win_CMD_for_CyberSecurity][Win_CMD_for_CyberSecurity] | Tổng hợp ghi chú các **Windows Command cho Cyber-Security** |
+22  | [Android_Hacking_Tools][Android_Hacking_Tools] | Tổng hợp và ghi chú về các công cụ Pentest Android |
 
 [NIS2]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/nis2/
 [FW_CheckList]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/firewall_checklist/
@@ -198,6 +199,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [Exif_Tool]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/exif_tool/
 [CLI_Fortigate]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/cli_fortigate
 [Win_CMD_for_CyberSecurity]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/win_cmd_for_cybersecurity/
+[Android_Hacking_Tools]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/android_hacking_tools/
 
 -----------------------------------------------------------------------------------------
 # <mark>System-DevOps</mark>

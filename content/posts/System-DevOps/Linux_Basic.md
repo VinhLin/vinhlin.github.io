@@ -27,4 +27,7 @@ Tổng hợp các tài liệu và kiến thức cơ bản về Linux
 ### Một số tài liệu khác:
 - [**Vi** cheatsheet](/docs/linux/vi_cheat_sheet.pdf)
 - [Linux command line](https://ss64.com/bash/)
+- Linux for DevOps:
+
+![Hình 3](/image/System-DevOps/Linux_Basic/Linux_for_DevOps.png)
 
