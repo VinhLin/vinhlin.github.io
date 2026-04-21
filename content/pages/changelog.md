@@ -199,7 +199,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [Exif_Tool]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/exif_tool/
 [CLI_Fortigate]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/cli_fortigate
 [Win_CMD_for_CyberSecurity]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/win_cmd_for_cybersecurity/
-[Android_Hacking_Tools]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/android_hacking_tools/
+[Android_Hacking_Tools]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/android_hacking_tools/
 
 -----------------------------------------------------------------------------------------
 # <mark>System-DevOps</mark>

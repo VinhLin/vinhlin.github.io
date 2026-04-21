@@ -1,7 +1,33 @@
-
 <footer>
-<p>© {{ dateFormat "2022" now }}</p>
+  <p>© {{ dateFormat "2006" now }}</p> <button onclick="topFunction()" id="backToTop" title="Go to top">
+    <span class="arrow">↑</span> Back To Top
+  </button>
+
+  <div id="google_translate_element" style="margin-top: 20px; text-align: center;"></div>
 </footer>
 
-<div id="google_translate_element" style="margin-top: 20px; text-align: center;"></div>
+<script>
+// Lấy button
+var mybutton = document.getElementById("backToTop");
 
+// Khi người dùng cuộn xuống 300px từ đầu trang, hiện nút
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+    mybutton.style.opacity = "1";
+    mybutton.style.visibility = "visible";
+  } else {
+    mybutton.style.opacity = "0";
+    mybutton.style.visibility = "hidden";
+  }
+}
+
+// Hàm xử lý cuộn lên đầu trang
+function topFunction() {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth' // Cuộn mượt mà
+  });
+}
+</script>

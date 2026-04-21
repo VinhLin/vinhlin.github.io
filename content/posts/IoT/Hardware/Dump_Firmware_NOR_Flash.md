@@ -54,6 +54,10 @@ flashrom -p serprog:dev=/dev/ttyACM0 -r dump_spi.bin -c "MX25L6406E/MX25L6408E
 
 ![Hinh_8](/image/IoT/Dump_Firmware_NOR_Flash/Hinh_8.png)
 
+### Quy trình phân tích SPI Flash
+
+![Quy_trình_phân_tích_SPI_Flash](/image/IoT/Dump_Firmware_NOR_Flash/Quy_trình_phân_tích_SPI_Flash.png)
+
 ## Một số command thường dùng khi đã Dump FW thành công
 
 ![FW Extraction](/image/IoT/Dump_Firmware_NOR_Flash/FW_Extraction.png)
