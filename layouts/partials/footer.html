@@ -1,0 +1,51 @@
+<footer>
+  <p>© {{ dateFormat "2006" now }}</p>
+  
+  <button id="backToTop" onclick="topFunction()" title="Go to top">
+    <span class="arrow">↑</span> Back To Top
+  </button>
+
+  <div id="google_translate_element" style="margin-top: 20px; text-align: center;"></div>
+</footer>
+
+<style>
+  /* Căn chỉnh để không đè lên các thành phần khác của Maverick */
+  #backToTop {
+    display: none; 
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 999;
+    background: #fff;
+    color: #222;
+    border: 1px solid #eee;
+    padding: 8px 15px;
+    border-radius: 4px; /* Maverick dùng bo góc nhẹ */
+    cursor: pointer;
+    font-size: 14px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    align-items: center;
+    gap: 5px;
+  }
+  #backToTop:hover {
+    background: #fafafa;
+    border-color: #ccc;
+  }
+</style>
+
+<script>
+  var mybutton = document.getElementById("backToTop");
+
+  // Maverick có thể load nội dung động, nên dùng addEventListener sẽ an toàn hơn
+  window.addEventListener('scroll', function() {
+    if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+      mybutton.style.display = "flex";
+    } else {
+      mybutton.style.display = "none";
+    }
+  });
+
+  function topFunction() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>

@@ -1,0 +1,27 @@
+{{ if .IsPage }}
+<button id="back-to-top" type="button" aria-label="Back to top" title="Back to top">
+  <span aria-hidden="true">↑</span>
+</button>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const btn = document.getElementById('back-to-top');
+    if (!btn) return;
+
+    const toggleButton = () => {
+      if (window.scrollY > 320) {
+        btn.classList.add('show');
+      } else {
+        btn.classList.remove('show');
+      }
+    };
+
+    window.addEventListener('scroll', toggleButton, { passive: true });
+    toggleButton();
+
+    btn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  });
+</script>
+{{ end }}

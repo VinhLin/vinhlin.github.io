@@ -148,10 +148,13 @@ https://docs.heygen.com/docs/create-video
 &lt;li&gt;🧠 AI-first: tích hợp “skills” để AI (Claude, Cursor…) tự viết video&lt;/li&gt;
 &lt;li&gt;🧾 HTML-based: không cần React như Remotion → đơn giản hơn&lt;/li&gt;
 &lt;li&gt;🎬 Deterministic render: cùng input → output giống nhau (ổn định pipeline) ￼&lt;/li&gt;
-&lt;li&gt;⚡ CLI mạnh:&lt;/li&gt;
+&lt;li&gt;⚡ CLI mạnh:
+&lt;ul&gt;
 &lt;li&gt;preview&lt;/li&gt;
 &lt;li&gt;render video&lt;/li&gt;
 &lt;li&gt;transcribe / TTS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;🎨 Template sẵn: social, product, storytelling… ￼&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;🧠 Cách hoạt động&lt;/p&gt;
