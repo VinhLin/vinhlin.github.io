@@ -78,6 +78,100 @@ https://www.youtube.com/watch?v=W3Ri2qbaLJ8
     </item>
     
     <item>
+      <title>HeyGen_AI</title>
+      <link>https://vinhlin.github.io/posts/others/heygen_ai/</link>
+      <description>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Mô tả&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;12/4/2025&lt;/td&gt;
+&lt;td&gt;Khởi tạo bài viết về công cụ &lt;strong&gt;HeyGen&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;21/4/2026&lt;/td&gt;
+&lt;td&gt;Cập nhật thêm framework &lt;strong&gt;hyperframes&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Đây là một công cụ tạo video bằng AI&lt;/p&gt;
+&lt;p&gt;Tạo tài khoản free bằng google, một tháng được 3 lần tạo video.&lt;/p&gt;
+&lt;p&gt;Tài liệu:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://app.heygen.com/get-started
+https://docs.heygen.com/docs/create-video
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Các tính năng của &lt;strong&gt;HeyGen&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hỗ trợ đến &lt;strong&gt;+175 ngôn ngữ&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Tạo video:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Avatar Video&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Video Translation&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Mình đã test thử:&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/HeyGen_Video.jpg&#34;
+  alt=&#34;HeyGen_Video&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Một số API như &lt;strong&gt;List language&lt;/strong&gt;: &lt;a href=&#34;https://docs.heygen.com/reference/list-supported-languages&#34;&gt;https://docs.heygen.com/reference/list-supported-languages&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Tham khảo thêm &lt;a href=&#34;https://docs.heygen.com/reference/authentication&#34;&gt;tại đây&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;hyperframeshttpshyperframesheygencom&#34;&gt;&lt;a href=&#34;https://hyperframes.heygen.com/&#34;&gt;HyperFrames&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Vô tình thấy được một bài viết trên &lt;a href=&#34;https://www.facebook.com/photo/?fbid=1315867703974972&amp;amp;set=gm.2175427699895157&amp;amp;idorvanity=511510259620251&#34;&gt;facebook&lt;/a&gt;, chia sẻ về framework tạo video.&lt;/li&gt;
+&lt;li&gt;Tài liệu về &lt;strong&gt;Hyperframes&lt;/strong&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/heygen-com/hyperframes&#34;&gt;Github heygen-com/hyperframes&lt;/a&gt;&lt;/strong&gt; &lt;/br&gt;
+&lt;strong&gt;&lt;a href=&#34;https://hyperframes.heygen.com/introduction&#34;&gt;Getting Started&lt;/a&gt;&lt;/strong&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Hyperframes là một framework mã nguồn mở từ HeyGen cho phép:&lt;/p&gt;
+&lt;p&gt;👉 viết HTML → render thành video (MP4), tối ưu cho AI agent.&lt;/p&gt;
+&lt;p&gt;🔥 Hyperframes là gì?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Framework render video từ HTML + CSS + animation (GSAP)&lt;/li&gt;
+&lt;li&gt;Thiết kế agent-native: AI có thể tự tạo video end-to-end&lt;/li&gt;
+&lt;li&gt;Có CLI để preview, render, lint, validate&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;⚡ Điểm nổi bật&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🧠 AI-first: tích hợp “skills” để AI (Claude, Cursor…) tự viết video&lt;/li&gt;
+&lt;li&gt;🧾 HTML-based: không cần React như Remotion → đơn giản hơn&lt;/li&gt;
+&lt;li&gt;🎬 Deterministic render: cùng input → output giống nhau (ổn định pipeline) ￼&lt;/li&gt;
+&lt;li&gt;⚡ CLI mạnh:&lt;/li&gt;
+&lt;li&gt;preview&lt;/li&gt;
+&lt;li&gt;render video&lt;/li&gt;
+&lt;li&gt;transcribe / TTS&lt;/li&gt;
+&lt;li&gt;🎨 Template sẵn: social, product, storytelling… ￼&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;🧠 Cách hoạt động&lt;/p&gt;
+&lt;p&gt;Prompt → AI viết HTML composition →
+Timeline (GSAP) → Render → MP4&lt;/p&gt;
+&lt;p&gt;👉 Không cần timeline editor, không cần drag &amp;amp; drop.&lt;/p&gt;
+&lt;p&gt;💡 Use case&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tạo video marketing tự động&lt;/li&gt;
+&lt;li&gt;AI content factory (TikTok, YouTube)&lt;/li&gt;
+&lt;li&gt;Convert docs / data → video&lt;/li&gt;
+&lt;li&gt;Agent workflow (AI → video output)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <author>Vincent</author>
+      <guid>https://vinhlin.github.io/posts/others/heygen_ai/</guid>
+      <pubDate>Tue, 21 Apr 2026 15:16:20 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Android_Hacking_Tools</title>
       <link>https://vinhlin.github.io/posts/cybersecurity/technical/android_hacking_tools/</link>
       <description>&lt;p&gt;Lụm được bài viết về mọt số công cụ cho &lt;strong&gt;Pentest Android&lt;/strong&gt;&lt;/p&gt;
@@ -7191,42 +7285,6 @@ Có khả năng lý thuyết ConvoC2 hoạt động trên Android nếu Teams x�
       <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/cybersecurity/technical/convoc2/</guid>
       <pubDate>Sun, 13 Apr 2025 13:07:25 +0700</pubDate>
-    </item>
-    
-    <item>
-      <title>HeyGen_AI</title>
-      <link>https://vinhlin.github.io/posts/others/heygen_ai/</link>
-      <description>&lt;p&gt;Đây là một công cụ tạo video bằng AI&lt;/p&gt;
-&lt;p&gt;Tạo tài khoản free bằng google, một tháng được 3 lần tạo video.&lt;/p&gt;
-&lt;p&gt;Tài liệu:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://app.heygen.com/get-started
-https://docs.heygen.com/docs/create-video
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Các tính năng của &lt;strong&gt;HeyGen&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Hỗ trợ đến &lt;strong&gt;+175 ngôn ngữ&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Tạo video:
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Avatar Video&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Video Translation&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Mình đã test thử:&lt;/p&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/Others/HeyGen_Video.jpg&#34;
-  alt=&#34;HeyGen_Video&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;p&gt;Một số API như &lt;strong&gt;List language&lt;/strong&gt;: &lt;a href=&#34;https://docs.heygen.com/reference/list-supported-languages&#34;&gt;https://docs.heygen.com/reference/list-supported-languages&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Tham khảo thêm &lt;a href=&#34;https://docs.heygen.com/reference/authentication&#34;&gt;tại đây&lt;/a&gt;.&lt;/p&gt;
-</description>
-      <author>Vincent</author>
-      <guid>https://vinhlin.github.io/posts/others/heygen_ai/</guid>
-      <pubDate>Sat, 12 Apr 2025 15:16:20 +0700</pubDate>
     </item>
     
     <item>
