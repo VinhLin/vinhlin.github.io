@@ -150,7 +150,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [Mon_hoc_ATTT]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/mon_hoc_attt/
 [OT_Security_Lab]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/ot_security_lab/
 
-## ***Technical***
+## Technical
 > Tổng hợp các ghi chú về **Công cụ**, **Kỹ thuật** cũng như **Tư duy** về cả Blue-Team và Red-Team <br>
 
 STT |		Tiêu đề			|		Mô tả				|
@@ -284,6 +284,7 @@ STT |		Tiêu đề			|		Mô tả				|
 21  | [Blog_Page][Blog_Page]		| Học hỏi và cải thiện trang Blog		|
 22  | [Sac_Acquy][Sac_Acquy]		| Ghi chú về thời điểm sạc acquy		|
 23  | [Samsung_Dex][Samsung_Dex]	| Ghi chú về tính năng **Samsung Dex** trên điện thoại Samsung |
+24  | [Basic_Knowledge][Basic_Knowledge]| Tổng hợp các kiến thức cơ bản			|
 
 [Ngoai_ngu]: https://blog.vinhld-homelab.io.vn/posts/others/goc_nhin_ve_ngoai_ngu/
 [Hardware_Hacking]: https://blog.vinhld-homelab.io.vn/posts/others/suy_nghi_ve_hardware_hacking/
@@ -308,8 +309,9 @@ STT |		Tiêu đề			|		Mô tả				|
 [Blog_Page]: https://blog.vinhld-homelab.io.vn/posts/others/blog_page/
 [Sac_Acquy]: https://blog.vinhld-homelab.io.vn/posts/others/sac_acquy/
 [Samsung_Dex]: https://blog.vinhld-homelab.io.vn/posts/others/samsung_dex/
+[Basic_Knowledge]: https://blog.vinhld-homelab.io.vn/posts/others/basic_knowledge/
 
-## ***AI***
+## AI
 
 STT |		Tiêu đề			|		Mô tả				|
 ----|-----------------------------------|-----------------------------------------------|

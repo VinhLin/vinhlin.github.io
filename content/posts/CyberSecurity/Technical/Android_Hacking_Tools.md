@@ -6,7 +6,9 @@ draft = true
 
 Lụm được bài viết về mọt số công cụ cho **Pentest Android**
 
-Lưu lại để khi nào cần thì sẽ research thêm.
+Trong tất cả các tools này thì mình hiện chỉ xài **Termux**
+
+Lưu lại để khi nào cần thì sẽ research thêm những tools khác.
 
 ![Hình 1](/image/CyberSecurity/Android_Hacking_Tools/1.jpg)
 

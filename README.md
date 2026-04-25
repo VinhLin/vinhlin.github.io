@@ -91,6 +91,7 @@ hugo new posts/Others/Blog_Page.md
 hugo new posts/Others/Sac_Acquy.md
 hugo new posts/Others/LLM_Local.md
 hugo new posts/Others/Samsung_Dex.md
+hugo new posts/Others/Basic_Knowledge.md
 ```
 
 ### IoT:

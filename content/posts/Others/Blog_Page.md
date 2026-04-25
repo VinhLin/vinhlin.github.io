@@ -1,8 +1,14 @@
 +++
 title = 'Blog_Page'
-date = 2026-04-03T17:38:05+07:00
+date = 2026-04-25T10:38:05+07:00
 draft = true
 +++
+
+Date	|		Mô tả				|
+--------|-----------------------------------------------|
+3/4/2026 | Khởi tạo bài viết				|
+25/4/2026| Cập nhật những tính năng đã làm được		|
+---------|----------------------------------------------|
 
 Mình thỉnh thoảng cũng tham khảo tài liệu trên trang blog của anh này, [Thuan Bui](https://thuanbui.me/)
 
@@ -31,4 +37,23 @@ Cũng đú theo dùng [PageSpeed Insights](https://pagespeed.web.dev/) để che
 ### Tính năng: Dark mode
 
 ![Hình 4](/image/Others/Blog_Page/Hinh_4.png)
+
+-----------------------------------------
+### Cập nhật 25/4/2026
+- Nay ngày 25/4/2026, ngồi note lại những tính năng đã được cải thiện trên blog này.
+- Ban đầu blog dựa trên **themes/maverick**, mang phong cách tối giản và rất simple.
+- Dần dần mình tham khảo và muốn cải thiện thêm những tính năng như:
+> ***Thêm thanh search*** </br>
+> ***Thêm "Chế độ Dark/Light Mode"*** </br>
+> ***Thêm chức năng "Back to Top"*** </br>
+> ***Thêm phần bình luận*** </br>
+
+- Và giờ mình đã làm được **3 tính năng**:
+
+![Hình 5](/image/Others/Blog_Page/Hinh_5.png)
+
+![Hình 6](/image/Others/Blog_Page/Hinh_6.png)
+
+- Tạm thời là như vậy, có thể sau này sẽ cập nhật những tính năng hữu ích khác, nhưng vẫn giữ phong cách **tối giản**.
+
 

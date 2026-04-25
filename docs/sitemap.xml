@@ -2,8 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://vinhlin.github.io/posts/others/basic_knowledge/</loc>
+    <lastmod>2026-04-25T11:51:06+07:00</lastmod>
+  </url><url>
     <loc>https://vinhlin.github.io/posts/</loc>
-    <lastmod>2026-04-21T21:10:04+07:00</lastmod>
+    <lastmod>2026-04-25T11:51:06+07:00</lastmod>
+  </url><url>
+    <loc>https://vinhlin.github.io/posts/others/blog_page/</loc>
+    <lastmod>2026-04-25T10:38:05+07:00</lastmod>
   </url><url>
     <loc>https://vinhlin.github.io/posts/others/samsung_dex/</loc>
     <lastmod>2026-04-21T21:10:04+07:00</lastmod>
@@ -25,9 +31,6 @@
   </url><url>
     <loc>https://vinhlin.github.io/posts/iot/software/android_rdp/</loc>
     <lastmod>2026-04-07T21:47:40+07:00</lastmod>
-  </url><url>
-    <loc>https://vinhlin.github.io/posts/others/blog_page/</loc>
-    <lastmod>2026-04-03T17:38:05+07:00</lastmod>
   </url><url>
     <loc>https://vinhlin.github.io/posts/others/phuc_hoi_anh/</loc>
     <lastmod>2026-04-03T16:49:59+07:00</lastmod>
