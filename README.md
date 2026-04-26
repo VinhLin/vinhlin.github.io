@@ -124,6 +124,7 @@ hugo new posts/IoT/Hardware/Sim_for_IoT.md
 hugo new posts/IoT/Hardware/GPS_Signal.md
 hugo new posts/IoT/Hardware/He_thong_dieu_khien.md
 hugo new posts/IoT/Hardware/IR_Cut_Filter.md
+hugo new posts/IoT/Hardware/MCU_Board_Pinout.md
 ```
 - Software
 ```

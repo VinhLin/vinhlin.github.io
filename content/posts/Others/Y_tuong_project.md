@@ -51,7 +51,7 @@ Raspberry Pico + Rust-lang + Embassy Framewok
 - Live-stream local *(URL streaming Camera dùng HTTP hoặc RTSP)*.
 - Platform: Lấy thông tin location, upload Image của camera.
 - Điều khiển thông qua chatbot Telegram.
-> Ngoài ra mình sẽ code camera này theo **ONVIF Protocol**, và theo [QCVN-135](https://sotttt.angiang.gov.vn/sites/default/files/2025-01/qcvn%20135.2024-%20ip%20camera.pdf)
+> Ngoài ra mình sẽ code camera này theo **ONVIF Protocol**, và theo [QCVN-135](/docs/qcvn_135.2024-ip_camera.pdf)
 
 ### 👉 Rust-for-ARM
 - Các thiết bị Camera chạy `linux nhúng`, thường sẽ có một cổng UART để debug. Nhưng để lấy đc các thông tin debug này khá là phiền phức

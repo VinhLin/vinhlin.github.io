@@ -37,6 +37,7 @@ STT |		Tiêu đề			|		Mô tả				|
 25  | [GPS_Signal][GPS_Signal]		| Tổng hợp các thông tin về **tín hiệu GPS**	|
 26  | [He_thong_dieu_khien][He_thong_dieu_khien] | Tổng quan về **hệ thống điều khiển** |
 27  | [IR_Cut_Filter][IR_Cut_Filter]	| Ghi chú về **bộ lọc hồng ngoại** cho camera	|
+28  | [MCU_Board_Pinout][MCU_Board_Pinout]| Tổng hợp lại các hình MCU Board Pinout	|
 
 [UNIHIKER]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/unihiker/
 [ESD]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/esd/
@@ -65,6 +66,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [GPS_Signal]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/gps_signal/
 [He_thong_dieu_khien]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/he_thong_dieu_khien/
 [IR_Cut_Filter]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/ir_cut_filter/
+[MCU_Board_Pinout]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/mcu_board_pinout/
 
 ## ***SOFTWARE***
 

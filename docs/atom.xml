@@ -14,6 +14,61 @@
     
     
     <item>
+      <title>MCU_Board_Pinout</title>
+      <link>https://vinhlin.github.io/posts/iot/hardware/mcu_board_pinout/</link>
+      <description>&lt;p&gt;Tổng hợp lại các &lt;strong&gt;MCU Board Pinout&lt;/strong&gt; phổ biến.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Mấy board này dễ mua và mình cũng đã dùng qua, thỉnh thoảng kiếm lại sơ đồ chân thì hơi phiền, nên lưu lại luôn =]]&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;arduino-uno&#34;&gt;Arduino Uno&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/MCU_Board_Pinout/arduino-uno-pinout-diagram.jfif&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;esp32-dev-kit-v1&#34;&gt;ESP32 DEV Kit V1&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/MCU_Board_Pinout/ESP32_pinout.jpg&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;esp32-r32&#34;&gt;ESP32-R32&lt;/h3&gt;
+&lt;p&gt;![Hình 3(/image/IoT/MCU_Board_Pinout/pinout-R32-compressor.png)&lt;/p&gt;
+&lt;h3 id=&#34;stm32f103&#34;&gt;STM32F103&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/MCU_Board_Pinout/stm32f103-pinout-diagram.png&#34;
+  alt=&#34;Hình 4&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;raspberry-pico&#34;&gt;Raspberry Pico&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/MCU_Board_Pinout/Raspberry-Pi-Pico-W-rp2040-WiFi-pinout-mischianti.jpg&#34;
+  alt=&#34;Hình 5&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>Vincent</author>
+      <guid>https://vinhlin.github.io/posts/iot/hardware/mcu_board_pinout/</guid>
+      <pubDate>Sun, 26 Apr 2026 11:55:57 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Basic_Knowledge</title>
       <link>https://vinhlin.github.io/posts/others/basic_knowledge/</link>
       <description>&lt;p&gt;Có những kiến thức cơ bản thôi, nhưng nếu ít khi dùng thì sẽ không nhớ.&lt;/p&gt;
@@ -244,7 +299,16 @@ https://www.youtube.com/watch?v=rketerQik68
 https://www.youtube.com/watch?v=dRGV4bivBYc
 https://www.tiktok.com/@tuanngocday/video/7518769234139155719
 https://www.youtube.com/watch?v=W3Ri2qbaLJ8
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;vậy-những-dòng-samsung-nào-hỗ-trợ-tính-năng-này&#34;&gt;Vậy những dòng Samsung nào hỗ trợ tính năng này?&lt;/h3&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/Samsung_Dex/Tham_khao.png&#34;
+  alt=&#34;Tham khảo&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;vậy-những-dòng-samsung-nào-hỗ-trợ-tính-năng-này&#34;&gt;Vậy những dòng Samsung nào hỗ trợ tính năng này?&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;Thiết bị Samsung: Các &lt;strong&gt;dòng S&lt;/strong&gt; (từ S8 trở lên), &lt;strong&gt;Note&lt;/strong&gt; (từ Note 8), hoặc &lt;strong&gt;dòng Fold/Z Flip&lt;/strong&gt; (Z Flip chỉ hỗ trợ từ đời Flip 5 trở lên).&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -8182,7 +8246,7 @@ https://devblogs.microsoft.com/cppblog/windows-desktop-development-with-c-in-vis
 &lt;li&gt;Điều khiển thông qua chatbot Telegram.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Ngoài ra mình sẽ code camera này theo &lt;strong&gt;ONVIF Protocol&lt;/strong&gt;, và theo &lt;a href=&#34;https://sotttt.angiang.gov.vn/sites/default/files/2025-01/qcvn%20135.2024-%20ip%20camera.pdf&#34;&gt;QCVN-135&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ngoài ra mình sẽ code camera này theo &lt;strong&gt;ONVIF Protocol&lt;/strong&gt;, và theo &lt;a href=&#34;https://vinhlin.github.io/docs/qcvn_135.2024-ip_camera.pdf&#34;&gt;QCVN-135&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3 id=&#34;-rust-for-arm&#34;&gt;👉 Rust-for-ARM&lt;/h3&gt;
 &lt;ul&gt;

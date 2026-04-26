@@ -17,6 +17,8 @@ https://www.tiktok.com/@tuanngocday/video/7518769234139155719
 https://www.youtube.com/watch?v=W3Ri2qbaLJ8
 ```
 
+![Tham khảo](/image/Others/Samsung_Dex/Tham_khao.png)
+
 ### Vậy những dòng Samsung nào hỗ trợ tính năng này?
 > *Thiết bị Samsung: Các **dòng S** (từ S8 trở lên), **Note** (từ Note 8), hoặc **dòng Fold/Z Flip** (Z Flip chỉ hỗ trợ từ đời Flip 5 trở lên).* </br>
 
