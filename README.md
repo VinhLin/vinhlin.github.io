@@ -185,6 +185,7 @@ hugo new posts/CyberSecurity/Technical/Exif_Tool.md
 hugo new posts/CyberSecurity/Technical/CLI_Fortigate.md
 hugo new posts/CyberSecurity/Technical/Win_CMD_for_CyberSecurity.md
 hugo new posts/CyberSecurity/Technical/Android_Hacking_Tools.md
+hugo new posts/CyberSecurity/Technical/CCTV_Hacking.md
 ```
 
 ### System-DevOps

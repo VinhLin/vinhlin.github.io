@@ -48,3 +48,9 @@ draft = true
 ## RAID_Overview
 
 ![RAID_Overview](/image/System-DevOps/RAID/RAID_Overview.jpg)
+
+## Hình ảnh tổng hợp các loại ổ cứng HDD:
+> *Việc hiểu và phân loại ổ cứng sẽ giúp bản thân lựa chọn đúng chất lượng và sử dụng đúng mục đích hơn* </br>
+
+![Ổ cứng](/image/System-DevOps/RAID/HDD.jpg)
+

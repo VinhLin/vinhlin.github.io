@@ -48,6 +48,8 @@ Thôi thi bây giờ, tận dụng blog để mốt cần gì, lên đây search
 
 ![Hình 9](/image/Others/Basic_Knowledge/Hinh_9.webp)
 
+### RF Connector Types
 
+![Hình 10](/image/Others/Basic_Knowledge/Hinh_10.jpg)
 
 

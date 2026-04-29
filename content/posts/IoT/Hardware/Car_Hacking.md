@@ -47,6 +47,8 @@ Vì các vấn đề bảo mật vốn có của CAN bus, các giải pháp bả
 > **Mã hóa dữ liệu**: Mặc dù CAN bus không hỗ trợ mã hóa dữ liệu nội tại, các giải pháp mã hóa có thể được thêm vào ở lớp ứng dụng để bảo vệ dữ liệu nhạy cảm. </br>
 > **Giám sát mạng CAN**: Các hệ thống giám sát (IDS/IPS) có thể được sử dụng để phát hiện các hành vi bất thường trên mạng, như tấn công phát ngập hoặc giả lập thiết bị. </br>
 
+![Can Bus](/image/IoT/Car_Hacking/CAN_Bus.jpg)
+
 ------------------------------------------------------------------
 ## Tools
 
@@ -112,9 +114,5 @@ cansniffer
 - [getting-started](https://chipwhisperer.readthedocs.io/en/latest/getting-started.html)
 - [Documentation Home](https://rtfm.newae.com/)
 - [Education & Training](https://www.newae.com/education)
-
-
-
-
 
 

@@ -39,11 +39,15 @@ https://docs.aws.amazon.com/iot/latest/developerguide/iot-moisture-raspi-setup.h
 ```
 ![AWS](/image/System-DevOps/DevOps/AWS.jpg)
 
-## Ảo hóa - Docker
+## Ảo hóa
+
+![Hypervisors](/image/System-DevOps/DevOps/Hypervisors.jpg)
+
+### Docker
 
 ![Docker 1](/image/System-DevOps/DevOps/Docker_1.jpg)
 
-### Docker Cheatsheet
+- Docker Cheatsheet:
 
 ![Docker 2](/image/System-DevOps/DevOps/Docker_2.jpg)
 
@@ -84,5 +88,6 @@ docker run -d -p 8080:80 --name it-tools -it corentinth/it-tools
 - Tham khảo thêm về [roadmap devops](https://roadmap.sh/devops).
 - [PDF file](/docs/devops_roadmap.pdf)
 
-![DevOps Roadmap](/image/System-DevOps/DevOps/DevOps_Roadmap.jpg)
+![DevOps Roadmap 1](/image/System-DevOps/DevOps/DevOps_Roadmap_1.jpg)
 
+![DevOps Roadmap 2](/image/System-DevOps/DevOps/DevOps_Roadmap_2.jpg)

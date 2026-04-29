@@ -2,10 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://vinhlin.github.io/posts/iot/hardware/mcu_board_pinout/</loc>
-    <lastmod>2026-04-26T11:55:57+07:00</lastmod>
+    <loc>https://vinhlin.github.io/posts/cybersecurity/technical/cctv_hacking/</loc>
+    <lastmod>2026-04-29T18:23:37+07:00</lastmod>
   </url><url>
     <loc>https://vinhlin.github.io/posts/</loc>
+    <lastmod>2026-04-29T18:23:37+07:00</lastmod>
+  </url><url>
+    <loc>https://vinhlin.github.io/posts/iot/hardware/mcu_board_pinout/</loc>
     <lastmod>2026-04-26T11:55:57+07:00</lastmod>
   </url><url>
     <loc>https://vinhlin.github.io/posts/others/basic_knowledge/</loc>

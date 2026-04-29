@@ -14,11 +14,47 @@
     
     
     <item>
+      <title>CCTV_Hacking</title>
+      <link>https://vinhlin.github.io/posts/cybersecurity/technical/cctv_hacking/</link>
+      <description>&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/CCTV_Hacking/CCTV_Camera.jpg&#34;
+  alt=&#34;CCTV_Camera&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h2 id=&#34;tham-khảo-video-youtube-how-hackers-hack-cctv-camerashttpswwwyoutubecomwatchvksuylvdjqdqlistwlindex109&#34;&gt;Tham khảo video Youtube: &lt;a href=&#34;https://www.youtube.com/watch?v=ksUylvdJQDQ&amp;amp;list=WL&amp;amp;index=109&#34;&gt;How Hackers Hack CCTV Cameras&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Theo tham khảo trong video, thì các thao tác sẽ là:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Phải kết nối trong cùng một mạng LAN với victim.&lt;/li&gt;
+&lt;li&gt;Dùng tool để quét toàn bộ mạng (ở đây dùng &lt;strong&gt;arp-scan&lt;/strong&gt;).&lt;/li&gt;
+&lt;li&gt;Dựa vào thông tin &lt;strong&gt;name của IP&lt;/strong&gt;, search trên google xem thiết bị nào là camera.&lt;/li&gt;
+&lt;li&gt;Dùng tool &lt;strong&gt;nmap&lt;/strong&gt; để scan IP camera đó xem đang mở những port nào.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;khi-đã-có-thông-tin-về-camera&#34;&gt;Khi đã có thông tin về Camera.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Truy cập vào trang web config của camera để đoán &lt;strong&gt;username và pass&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Mình có thể dùng &lt;strong&gt;brute-force&lt;/strong&gt; để test và lấy cắp thông tin username, pass.&lt;/li&gt;
+&lt;li&gt;Dùng công cụ VLC để streaming video RTSP của camera.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <author>Vincent</author>
+      <guid>https://vinhlin.github.io/posts/cybersecurity/technical/cctv_hacking/</guid>
+      <pubDate>Wed, 29 Apr 2026 18:23:37 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>MCU_Board_Pinout</title>
       <link>https://vinhlin.github.io/posts/iot/hardware/mcu_board_pinout/</link>
       <description>&lt;p&gt;Tổng hợp lại các &lt;strong&gt;MCU Board Pinout&lt;/strong&gt; phổ biến.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Mấy board này dễ mua và mình cũng đã dùng qua, thỉnh thoảng kiếm lại sơ đồ chân thì hơi phiền, nên lưu lại luôn =]]&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Ngoài ra, trang web này cũng rất hay và hữu ích để mình search kỹ hơn về thông tin của board.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://pinouts.vercel.app/board&#34;&gt;Development Boards&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3 id=&#34;arduino-uno&#34;&gt;Arduino Uno&lt;/h3&gt;
 &lt;p&gt;&lt;img
@@ -159,6 +195,16 @@
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/Others/Basic_Knowledge/Hinh_9.webp&#34;
   alt=&#34;Hình 9&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;rf-connector-types&#34;&gt;RF Connector Types&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/Basic_Knowledge/Hinh_10.jpg&#34;
+  alt=&#34;Hình 10&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
   class=&#34;full-width&#34;
@@ -1381,6 +1427,26 @@ https://xiaomiprotool.com/
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://picoclaw.io/&#34;&gt;Trang chủ của dự án PicoClaw&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Docs: &lt;a href=&#34;https://docs.picoclaw.io/&#34;&gt;https://docs.picoclaw.io/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;zeroclaw&#34;&gt;ZeroClaw&lt;/h2&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/PicoClaw/zeroclaw_1.jpg&#34;
+  alt=&#34;zeroclaw 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Vô tình xem được nội dung trong hình, thế là biết thêm được kiến thức mới.&lt;/li&gt;
+&lt;li&gt;Có một dự án gọi là &lt;a href=&#34;https://github.com/zeroclaw-labs/zeroclaw&#34;&gt;zeroclaw&lt;/a&gt; được viết bằng &lt;strong&gt;Rust&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Fast, small, and fully autonomous AI personal assistant infrastructure, ANY OS, ANY PLATFORM — deploy anywhere, swap anything&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Tham khảo thêm bài viết: &lt;a href=&#34;https://tanphatdigital.com/vi/blog/zeroclaw-la-gi-huong-dan-cai-dat-va-tich-hop-chi-tiet-or-tan-phat-digital&#34;&gt;ZeroClaw là gì? Hướng dẫn Cài đặt và Tích hợp Chi tiết&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
       <author>Vincent</author>
@@ -5136,7 +5202,17 @@ https://docs.aws.amazon.com/iot/latest/developerguide/iot-moisture-raspi-setup.h
 /&gt;
 
 &lt;/p&gt;
-&lt;h2 id=&#34;ảo-hóa---docker&#34;&gt;Ảo hóa - Docker&lt;/h2&gt;
+&lt;h2 id=&#34;ảo-hóa&#34;&gt;Ảo hóa&lt;/h2&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/DevOps/Hypervisors.jpg&#34;
+  alt=&#34;Hypervisors&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;docker&#34;&gt;Docker&lt;/h3&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/System-DevOps/DevOps/Docker_1.jpg&#34;
   alt=&#34;Docker 1&#34;
@@ -5146,7 +5222,9 @@ https://docs.aws.amazon.com/iot/latest/developerguide/iot-moisture-raspi-setup.h
 /&gt;
 
 &lt;/p&gt;
-&lt;h3 id=&#34;docker-cheatsheet&#34;&gt;Docker Cheatsheet&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Docker Cheatsheet:&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/System-DevOps/DevOps/Docker_2.jpg&#34;
   alt=&#34;Docker 2&#34;
@@ -5213,8 +5291,17 @@ https://docs.aws.amazon.com/iot/latest/developerguide/iot-moisture-raspi-setup.h
 &lt;li&gt;&lt;a href=&#34;https://vinhlin.github.io/docs/devops_roadmap.pdf&#34;&gt;PDF file&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/System-DevOps/DevOps/DevOps_Roadmap.jpg&#34;
-  alt=&#34;DevOps Roadmap&#34;
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/DevOps/DevOps_Roadmap_1.jpg&#34;
+  alt=&#34;DevOps Roadmap 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/DevOps/DevOps_Roadmap_2.jpg&#34;
+  alt=&#34;DevOps Roadmap 2&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
   class=&#34;full-width&#34;
@@ -8448,6 +8535,19 @@ https://devblogs.microsoft.com/cppblog/windows-desktop-development-with-c-in-vis
 /&gt;
 
 &lt;/p&gt;
+&lt;h2 id=&#34;hình-ảnh-tổng-hợp-các-loại-ổ-cứng-hdd&#34;&gt;Hình ảnh tổng hợp các loại ổ cứng HDD:&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Việc hiểu và phân loại ổ cứng sẽ giúp bản thân lựa chọn đúng chất lượng và sử dụng đúng mục đích hơn&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/RAID/HDD.jpg&#34;
+  alt=&#34;Ổ cứng&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
 </description>
       <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/system-devops/raid/</guid>
@@ -9831,6 +9931,15 @@ Các thiết bị sẽ tự quyết định liệu có xử lý gói tin hay b�
 &lt;strong&gt;Mã hóa dữ liệu&lt;/strong&gt;: Mặc dù CAN bus không hỗ trợ mã hóa dữ liệu nội tại, các giải pháp mã hóa có thể được thêm vào ở lớp ứng dụng để bảo vệ dữ liệu nhạy cảm. &lt;/br&gt;
 &lt;strong&gt;Giám sát mạng CAN&lt;/strong&gt;: Các hệ thống giám sát (IDS/IPS) có thể được sử dụng để phát hiện các hành vi bất thường trên mạng, như tấn công phát ngập hoặc giả lập thiết bị. &lt;/br&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Car_Hacking/CAN_Bus.jpg&#34;
+  alt=&#34;Can Bus&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;tools&#34;&gt;Tools&lt;/h2&gt;
 &lt;h3 id=&#34;socketcan&#34;&gt;SocketCAN&lt;/h3&gt;

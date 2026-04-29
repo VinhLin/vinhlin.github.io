@@ -37,4 +37,7 @@ Mình vẫn sẽ tiếp tục củng cố, trau dồi để *làm đầy roadmap
 
 ![Mindmap](/image/Mindmap.png)
 
+### Tham khảo: 11 Nhóm Công nghệ Chiến lược
+
+![Công nghệ chiến lược](/image/11_nhóm_Công_nghệ_Chiến_lược.jpg)
 
