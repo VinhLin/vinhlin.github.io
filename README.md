@@ -147,6 +147,7 @@ hugo new posts/IoT/Software/openHABian.md
 hugo new posts/IoT/Software/Fast_Roaming.md
 hugo new posts/IoT/Software/PicoClaw.md
 hugo new posts/IoT/Software/Android_RDP.md
+hugo new posts/IoT/Software/Raspberry_Cam.md
 ```
 
 ### CyberSecurity:

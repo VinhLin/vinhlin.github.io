@@ -14,6 +14,60 @@
     
     
     <item>
+      <title>Raspberry_Cam</title>
+      <link>https://vinhlin.github.io/posts/iot/software/raspberry_cam/</link>
+      <description>&lt;p&gt;Được nghỉ 4 ngày, mình sẽ lên lại kế hoạch thực hiện &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/others/y_tuong_project/&#34;&gt;dự án về &lt;strong&gt;Raspberry-Camera&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Đây sẽ là dự án dài hơi, và sẽ giúp mình ôn luyện nhiều thứ.&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;kế-hoạch-đầu-tiên---thất-bại&#34;&gt;Kế hoạch đầu tiên - Thất bại:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Ban đầu tính build một app chạy trên Raspberry CM4, tất cả trong một, nhưng thất bại.&lt;/li&gt;
+&lt;li&gt;Lý do là khi build xong app, thư viện trên CM4 quá cũ, không chạy được trực tiếp app.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;./raspberry-cam: /lib/aarch64-linux-gnu/libc.so.6: version `GLIBC_2.39&amp;#39; not found (required by ./raspberry-cam)
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Đã thử cài đặt và update nhiều thứ, nhưng vẫn không khả thi.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;các-kế-hoạch-dự-phòng&#34;&gt;Các kế hoạch dự phòng:&lt;/h2&gt;
+&lt;h3 id=&#34;option-1&#34;&gt;Option 1:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Sử dụng các thiết bị camera ngoài, có trên thị trường và có hỗ trợ các port stream như:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;HTTP - 80
+RTSP - 554
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Mình đang nghiên cứu một con &lt;strong&gt;Camera Mini A9&lt;/strong&gt;, con này phiền phức hơn nhiều, và không hỗ trợ các chuẩn phổ biến.&lt;/li&gt;
+&lt;li&gt;Nhưng thay vào đó, mình vẫn sẽ tìm hiểu con cam này, lý do là mình sẽ học thêm được các kỹ năng về &lt;strong&gt;Reverse&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Con cam A9 này mà mình có thể tích hợp được, thì những cam chuẩn khác chỉ là &lt;strong&gt;muỗi&lt;/strong&gt;, lúc đó làm sẽ đơn giản hơn rất nhiều&lt;/em&gt; =]] &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;option-2&#34;&gt;Option 2:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Vẫn sử dụng &lt;strong&gt;USB Camera&lt;/strong&gt;, nhưng có thể mình sẽ dùng &lt;strong&gt;python&lt;/strong&gt; để xử lý việc đọc camera.&lt;/li&gt;
+&lt;li&gt;Còn dùng Rust là để &lt;strong&gt;xử lý data từ camera&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;mục-tiêu&#34;&gt;Mục tiêu:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Có rất nhiều thứ mà mình có thể tận dụng về mặt server hệ thống hiện tại.&lt;/li&gt;
+&lt;li&gt;Và đây sẽ là một số ý tưởng cần ngâm cứu:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;Tích hợp vào hệ thống CCTV hiện tại. &lt;/br&gt;&lt;/li&gt;
+&lt;li&gt;Dùng &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/others/llm_local/&#34;&gt;LLM-Local&lt;/a&gt; để phân tích và xử lý hình ảnh &lt;/br&gt;&lt;/li&gt;
+&lt;li&gt;Upload ảnh qua &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/system-devops/nas_ftp/&#34;&gt;FTP Server&lt;/a&gt;, và notifi qua Telegram &lt;/br&gt;&lt;/li&gt;
+&lt;li&gt;Kiểm tra trạng thái (hoặc điều khiển từ xa) với &lt;a href=&#34;https://www.vinhld-homelab.io.vn/#/login?to=/dashboard/overview&#34;&gt;MQTT Broker&lt;/a&gt; &lt;/br&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+</description>
+      <author>Vincent</author>
+      <guid>https://vinhlin.github.io/posts/iot/software/raspberry_cam/</guid>
+      <pubDate>Thu, 30 Apr 2026 14:04:53 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>CCTV_Hacking</title>
       <link>https://vinhlin.github.io/posts/cybersecurity/technical/cctv_hacking/</link>
       <description>&lt;p&gt;&lt;img
