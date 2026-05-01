@@ -38,6 +38,7 @@ STT |		Tiêu đề			|		Mô tả				|
 26  | [He_thong_dieu_khien][He_thong_dieu_khien] | Tổng quan về **hệ thống điều khiển** |
 27  | [IR_Cut_Filter][IR_Cut_Filter]	| Ghi chú về **bộ lọc hồng ngoại** cho camera	|
 28  | [MCU_Board_Pinout][MCU_Board_Pinout]| Tổng hợp lại các hình MCU Board Pinout	|
+29  | [Dashcam_Power][Dashcam_Power]	| Ghi chú về mức độ tiêu thụ ac-quy của camera	|
 
 [UNIHIKER]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/unihiker/
 [ESD]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/esd/
@@ -67,6 +68,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [He_thong_dieu_khien]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/he_thong_dieu_khien/
 [IR_Cut_Filter]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/ir_cut_filter/
 [MCU_Board_Pinout]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/mcu_board_pinout/
+[Dashcam_Power]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/dashcam_power/
 
 ## ***SOFTWARE***
 

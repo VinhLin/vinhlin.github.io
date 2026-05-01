@@ -14,6 +14,120 @@
     
     
     <item>
+      <title>Dashcam_Power</title>
+      <link>https://vinhlin.github.io/posts/iot/hardware/dashcam_power/</link>
+      <description>&lt;p&gt;Hôm qua có một anh khách nhắn hỏi mình về mức độ hao bình của M2 ở chế độ &lt;strong&gt;Ghi hình đỗ xe Time-Lapse&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Mình sẽ gắn test thử với các acquy xe máy và dùng bộ đo công suất cho &lt;strong&gt;Camera M2 (1 kênh) + module 4G&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ở chế độ ghi hình bình thường &lt;strong&gt;ACC ON&lt;/strong&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Dashcam_Power/Hinh_1.jpg&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Dashcam_Power/Hinh_2.jpg&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Mức tiêu thụ &lt;strong&gt;ổn định&lt;/strong&gt; khi &lt;strong&gt;ACC ON&lt;/strong&gt; là &lt;strong&gt;0.34A&lt;/strong&gt;, tương đương &lt;strong&gt;4.3W&lt;/strong&gt; &lt;em&gt;(điện áp &lt;strong&gt;12.68VDC&lt;/strong&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Ở chế độ &lt;strong&gt;Ghi hình đỗ xe Time-Lapse&lt;/strong&gt; &lt;em&gt;(ACC OFF)&lt;/em&gt;, mức tiêu thụ ổn định là &lt;strong&gt;0.3A&lt;/strong&gt; &lt;em&gt;(tương đương &lt;strong&gt;3.8W&lt;/strong&gt;)&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Dashcam_Power/Hinh_3.jpg&#34;
+  alt=&#34;Hình 3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h2 id=&#34;tra-cứu&#34;&gt;Tra cứu&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Có nhiều công thức, cách tính mà lâu quá không dùng thì thường hay quên.&lt;/li&gt;
+&lt;li&gt;Mà giờ có AI rồi, nên mình paste qua cho nó trả lời:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Dashcam_Power/Hinh_4.png&#34;
+  alt=&#34;Hình 4&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Dashcam_Power/Hinh_5.png&#34;
+  alt=&#34;Hình 5&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tức là tùy vào &lt;strong&gt;dung lượng ac-quy&lt;/strong&gt; mà mình sẽ có thời gian sử dụng của thiết bị.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;thực-nghiệm&#34;&gt;Thực nghiệm&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ac-quy xe máy của mình là &lt;strong&gt;12VDC/3.5Ah&lt;/strong&gt;, test chế độ &lt;strong&gt;ghi hình đỗ xe Time-Lapse&lt;/strong&gt; vào thời điểm &lt;strong&gt;ngày 30/4/2026 lúc 22h34p&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Dùng Hardware Kit, nên thiết bị tự động ngắt ở mức &lt;strong&gt;11.8VDC&lt;/strong&gt;, vào thời điểm &lt;strong&gt;ngày 1/5/2026 lúc 6h57p&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Dashcam_Power/Hinh_6.jpg&#34;
+  alt=&#34;Hình 6&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Check lại công thức:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Dashcam_Power/Hinh_7.png&#34;
+  alt=&#34;Hình 7&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Dashcam_Power/Hinh_8.png&#34;
+  alt=&#34;Hình 8&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;tạm-kết-luận&#34;&gt;Tạm kết luận:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Anh khách chạy ô tô &lt;strong&gt;Vinfast LuxA&lt;/strong&gt;, và mình có search thì &lt;a href=&#34;https://g7auto.vn/vinfast-lux-a-dung-binh-ac-quy-gi&#34;&gt;Ac-quy của dòng xe này là &lt;strong&gt;12V/80Ah&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Nên việc dùng chế độ ghi hình đỗ xe Time-Lapse khi để qua đêm &lt;em&gt;(khoảng 8h)&lt;/em&gt; thì &lt;strong&gt;mức tiêu hao này thường khá nhỏ, nên bình thường sẽ không ảnh hưởng nhiều đến việc đề nổ xe, miễn là ắc-quy còn tốt.&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <author>Vincent</author>
+      <guid>https://vinhlin.github.io/posts/iot/hardware/dashcam_power/</guid>
+      <pubDate>Fri, 01 May 2026 15:39:15 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Raspberry_Cam</title>
       <link>https://vinhlin.github.io/posts/iot/software/raspberry_cam/</link>
       <description>&lt;p&gt;Được nghỉ 4 ngày, mình sẽ lên lại kế hoạch thực hiện &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/others/y_tuong_project/&#34;&gt;dự án về &lt;strong&gt;Raspberry-Camera&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
