@@ -14,6 +14,170 @@
     
     
     <item>
+      <title>Camera_A9_Teardown</title>
+      <link>https://vinhlin.github.io/posts/iot/hardware/camera_a9_teardown/</link>
+      <description>&lt;h3 id=&#34;tham-khảo-sản-phẩm-camera-mini-a9httpsshopeevncamera-wifi-a9-khc3b4ng-dc3a2y-che1bb91ng-tre1bb99m-ke1babft-ne1bb91i-c491ie1bb87n-thoe1baa1i-te1bbab-xa-gc3b3c-quay-120-c491e1bb99-full-hd-1080p-ip-cc3b3-led-he1bb93ng-ngoe1baa1i-i159873213957308490157xptdka53b3919-c493-4af6-a534-13346460da35&#34;&gt;Tham khảo sản phẩm &lt;a href=&#34;https://shopee.vn/Camera-wifi-A9-kh%C3%B4ng-d%C3%A2y-ch%E1%BB%91ng-tr%E1%BB%99m-k%E1%BA%BFt-n%E1%BB%91i-%C4%91i%E1%BB%87n-tho%E1%BA%A1i-t%E1%BB%AB-xa-g%C3%B3c-quay-120-%C4%91%E1%BB%99-Full-HD-1080P-IP-c%C3%B3-Led-h%E1%BB%93ng-ngo%E1%BA%A1i-i.1598732139.57308490157?xptdk=a53b3919-c493-4af6-a534-13346460da35&#34;&gt;Camera Mini A9&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Camera_A9_Teardown/Camera_A9.webp&#34;
+  alt=&#34;Camera A9&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h2 id=&#34;hardware-teardown&#34;&gt;Hardware Teardown&lt;/h2&gt;
+&lt;h3 id=&#34;mặt-trước&#34;&gt;Mặt trước:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Mình đã mở 1 con ra và chụp nội thất bên trong:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Camera_A9_Teardown/Hinh_1.jpg&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Camera_A9_Teardown/Hinh_2.jpg&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Đi tham khảo AI xem con IC mà A9 đang dùng là loại nào, và để coi AI nó phân tích như nào.&lt;/li&gt;
+&lt;li&gt;Và đây là một số thông tin mình thấy AI trả lời OK nhất:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Camera_A9_Teardown/Hinh_3.png&#34;
+  alt=&#34;Hình 3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Đúng nha, khi nhìn thấy mấy pin này là mình nghĩ ngay về &lt;strong&gt;cổng Debug&lt;/strong&gt;&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Camera_A9_Teardown/Hinh_4.png&#34;
+  alt=&#34;Hình 4&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Cái này cũng đúng luôn, nếu có IC flash thì có thể tiến hành &lt;strong&gt;dump&lt;/strong&gt; thử&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Camera_A9_Teardown/Hinh_5.png&#34;
+  alt=&#34;Hình 5&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;mặt-sau&#34;&gt;Mặt sau:&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Camera_A9_Teardown/Hinh_6.jpg&#34;
+  alt=&#34;Hình 6&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Camera_A9_Teardown/Hinh_7.png&#34;
+  alt=&#34;Hình 7&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Camera_A9_Teardown/Hinh_8.png&#34;
+  alt=&#34;Hình 8&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Đây là thông tin mới và hữu ích. Cái này mình không biết có chính xác không.&lt;/li&gt;
+&lt;li&gt;Sẽ cần thêm time để xác minh thử.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;kết-luận&#34;&gt;Kết luận:&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Camera_A9_Teardown/Hinh_9.png&#34;
+  alt=&#34;Hình 9&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Camera_A9_Teardown/Hinh_10.png&#34;
+  alt=&#34;Hình 10&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Thông tin kết luận tạm thời là như vậy.&lt;/li&gt;
+&lt;li&gt;Ngoài ra thì con camera này dùng app tên là &lt;strong&gt;X-IOT CAM&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Camera_A9_Teardown/X-IOT_CAM.png&#34;
+  alt=&#34;X-IOT_CAM&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hơn nữa khi scan IP của cam này, mình phát hiện có port lạ là &lt;strong&gt;5060/tcp&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Camera_A9_Teardown/Nmap_A9.png&#34;
+  alt=&#34;Nmap_A9&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sau đó thì tham vấn AI thôi, và mình đã biết thêm rằng, cổng &lt;strong&gt;5060/tcp&lt;/strong&gt; này là thường dùng cho &lt;strong&gt;giao thức SIP&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Vậy &lt;strong&gt;SIP là gì&lt;/strong&gt;?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;SIP là viết tắt của &lt;strong&gt;Session Initiation Protocol&lt;/strong&gt; — một giao thức dùng để thiết lập, sửa đổi và kết thúc các phiên liên lạc thời gian thực qua mạng IP.&lt;/em&gt; &lt;/br&gt;
+&lt;em&gt;SIP là giao thức ở tầng ứng dụng, kiểu &lt;strong&gt;text-based&lt;/strong&gt;. SIP có thể chạy trên UDP hoặc TCP&lt;/em&gt; &lt;/br&gt;
+&lt;em&gt;Trong camera giá rẻ thì &lt;strong&gt;SIP lo phần “gọi, đổ chuông, bắt máy, cúp máy”&lt;/strong&gt;, còn &lt;strong&gt;âm thanh/video thường truyền bằng RTP&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+      <author>Vincent</author>
+      <guid>https://vinhlin.github.io/posts/iot/hardware/camera_a9_teardown/</guid>
+      <pubDate>Sat, 02 May 2026 13:12:45 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Dashcam_Power</title>
       <link>https://vinhlin.github.io/posts/iot/hardware/dashcam_power/</link>
       <description>&lt;p&gt;Hôm qua có một anh khách nhắn hỏi mình về mức độ hao bình của M2 ở chế độ &lt;strong&gt;Ghi hình đỗ xe Time-Lapse&lt;/strong&gt;&lt;/p&gt;
@@ -186,7 +350,7 @@ RTSP - 554
       <link>https://vinhlin.github.io/posts/cybersecurity/technical/cctv_hacking/</link>
       <description>&lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/CyberSecurity/CCTV_Hacking/CCTV_Camera.jpg&#34;
-  alt=&#34;CCTV_Camera&#34;
+  alt=&#34;Hình 1&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
   class=&#34;full-width&#34;
@@ -207,6 +371,13 @@ RTSP - 554
 &lt;li&gt;Mình có thể dùng &lt;strong&gt;brute-force&lt;/strong&gt; để test và lấy cắp thông tin username, pass.&lt;/li&gt;
 &lt;li&gt;Dùng công cụ VLC để streaming video RTSP của camera.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&#34;video-youtube-home-cctv-cameras-hacked-how-secure-are-your-smart-home-deviceshttpswwwyoutubecomwatchvjjaawsmqih4listwlindex23&#34;&gt;Video Youtube &lt;a href=&#34;https://www.youtube.com/watch?v=jJaAWSMQih4&amp;amp;list=WL&amp;amp;index=23&#34;&gt;Home CCTV Cameras Hacked! How Secure Are Your Smart Home Devices?&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Video này cũng nói về cách mà hacker có thể tấn công vào một chiếc camera, và cách mà mình cần làm để bảo vệ bản thân.&lt;/li&gt;
+&lt;li&gt;Có một điều mình chú ý là &lt;strong&gt;kỹ thuật phishing email&lt;/strong&gt;, kỹ thuật này thì cũng không có gì xa lạ. Nhưng điều mình ngạc nhiên là ý tưởng &lt;strong&gt;gửi mail để cập nhật bảo mật&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Cứ tưởng là email nhắc nhở bình thường, ai ngờ lại là một &lt;strong&gt;phishing email&lt;/strong&gt; =]]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;![Hình 2](/image/CyberSecurity/CCTV_Hacking/Security_Camera.png]&lt;/p&gt;
 </description>
       <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/cybersecurity/technical/cctv_hacking/</guid>
@@ -10935,13 +11106,6 @@ https://radxa.com/products/x/x4/
 &lt;blockquote&gt;
 &lt;p&gt;Binary Ninja is an interactive decompiler, disassembler, debugger, and binary analysis platform built by reverse engineers, for reverse engineers.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h3 id=&#34;video-youtube-tham-khảo&#34;&gt;Video youtube tham khảo:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=FBwRTWEzGN0&amp;amp;list=WL&amp;amp;index=11&#34;&gt;How to Crack Software (Reverse Engineering)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=tCcLhsTdFEw&#34;&gt;Learning Binary Ninja for Reverse Engineering - Workflows, UI Patching and Scripting&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=-RaOeooSmug&#34;&gt;An Intro to Binary Ninja (Free) for Malware Analysis&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=IdNFMIQ9roQ&#34;&gt;Binary Ninja: 4.1 Feature Stream!&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h3 id=&#34;community-provided-binary-ninja-plugins-community-pluginshttpsgithubcomvector35community-plugins&#34;&gt;Community provided Binary Ninja plugins: &lt;a href=&#34;https://github.com/Vector35/community-plugins&#34;&gt;community-plugins&lt;/a&gt;&lt;/h3&gt;
 &lt;h3 id=&#34;download-freehttpsbinaryninjafree&#34;&gt;&lt;a href=&#34;https://binary.ninja/free/&#34;&gt;Download Free&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
@@ -10965,6 +11129,14 @@ https://radxa.com/products/x/x4/
 /&gt;
 
 &lt;/p&gt;
+&lt;h3 id=&#34;một-số-video-youtube-cần-xem&#34;&gt;Một số video youtube cần xem:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=FBwRTWEzGN0&amp;amp;list=WL&amp;amp;index=11&#34;&gt;How to Crack Software (Reverse Engineering)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=tCcLhsTdFEw&#34;&gt;Learning Binary Ninja for Reverse Engineering - Workflows, UI Patching and Scripting&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=-RaOeooSmug&#34;&gt;An Intro to Binary Ninja (Free) for Malware Analysis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=IdNFMIQ9roQ&#34;&gt;Binary Ninja: 4.1 Feature Stream!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=037Pw8btDiM&amp;amp;list=WL&amp;amp;index=22&#34;&gt;How Hackers Crack Any Software With Reverse Engineering&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
       <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/cybersecurity/technical/re_tool_binaryninjafree/</guid>

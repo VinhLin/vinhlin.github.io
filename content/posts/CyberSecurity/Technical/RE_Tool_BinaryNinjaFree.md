@@ -19,12 +19,6 @@ Một bài viết về [RE (Reverse Engineering)](https://whitehat.vn/threads/re
 ## Phần mềm [Binary Ninja](https://binary.ninja/)
 > Binary Ninja is an interactive decompiler, disassembler, debugger, and binary analysis platform built by reverse engineers, for reverse engineers.
 
-### Video youtube tham khảo: 
-- [How to Crack Software (Reverse Engineering)](https://www.youtube.com/watch?v=FBwRTWEzGN0&list=WL&index=11)
-- [Learning Binary Ninja for Reverse Engineering - Workflows, UI Patching and Scripting](https://www.youtube.com/watch?v=tCcLhsTdFEw)
-- [An Intro to Binary Ninja (Free) for Malware Analysis](https://www.youtube.com/watch?v=-RaOeooSmug)
-- [Binary Ninja: 4.1 Feature Stream!](https://www.youtube.com/watch?v=IdNFMIQ9roQ)
-
 ### Community provided Binary Ninja plugins: [community-plugins](https://github.com/Vector35/community-plugins)
 
 ### [Download Free](https://binary.ninja/free/)
@@ -38,6 +32,11 @@ Một bài viết về [RE (Reverse Engineering)](https://whitehat.vn/threads/re
 
 ![Binary_Ninja_Free](/image/CyberSecurity/Binary_Ninja_Free.png)
 
-
+### Một số video youtube cần xem:
+- [How to Crack Software (Reverse Engineering)](https://www.youtube.com/watch?v=FBwRTWEzGN0&list=WL&index=11)
+- [Learning Binary Ninja for Reverse Engineering - Workflows, UI Patching and Scripting](https://www.youtube.com/watch?v=tCcLhsTdFEw)
+- [An Intro to Binary Ninja (Free) for Malware Analysis](https://www.youtube.com/watch?v=-RaOeooSmug)
+- [Binary Ninja: 4.1 Feature Stream!](https://www.youtube.com/watch?v=IdNFMIQ9roQ)
+- [How Hackers Crack Any Software With Reverse Engineering](https://www.youtube.com/watch?v=037Pw8btDiM&list=WL&index=22)
 
 
