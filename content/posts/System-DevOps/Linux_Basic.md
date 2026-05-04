@@ -20,6 +20,10 @@ Tổng hợp các tài liệu và kiến thức cơ bản về Linux
 - Ngoài ra còn phân quyền thư mục trên Linux, mình cũng có bài viết về chủ đề này.
 - Tham khảo [Permission_Linux](https://blog.vinhld-homelab.io.vn/posts/system-devops/permission_linux/)
 
+### Linux Boot
+
+![Hình 3](/image/System-DevOps/Linux_Basic/Linux_Boot.jpg)
+
 ### Ubuntu Cheatsheet
 - Tài liệu tham khảo trên github [JREAM/ubuntu-cheatsheet](https://github.com/JREAM/ubuntu-cheatsheet)
 - [Tài liệu **Ubuntu Server CLI**](/docs/linux/Ubuntu+Server+CLI+pro+tips+06.01.20.pdf)
@@ -29,5 +33,5 @@ Tổng hợp các tài liệu và kiến thức cơ bản về Linux
 - [Linux command line](https://ss64.com/bash/)
 - Linux for DevOps:
 
-![Hình 3](/image/System-DevOps/Linux_Basic/Linux_for_DevOps.png)
+![Hình 4](/image/System-DevOps/Linux_Basic/Linux_for_DevOps.png)
 

@@ -22,7 +22,7 @@
     <meta property="og:title" content="Gia_lap_sut_ap_ACC" />
 <meta property="og:description" content="Mình nhận được một đề bài đó là làm &ldquo;Một bộ giả lập sụt áp, mất nguồn ACC&rdquo;.
 Mô tả như sau tình trạng như sau:
-Trên xe ô tô, khi mở khóa ACC &mdash;&gt; các thiết bị hoạt động. Khi đạp thắng và nổ máy &mdash;&gt; Nguồn bị sụt áp, các thiết bị điện trên bị tắt tạm thời, và sau đó áp tăng lên đột ngột. Dựa vào mô tả này, mình đã code lại dựa trên ngôn ngữ Ladder (một ngôn ngữ lập trình cho PLC)." />
+Trên xe ô tô, khi mở khóa ACC &mdash;&gt; các thiết bị hoạt động. Khi đạp thắng và nổ máy &mdash;&gt; Nguồn bị sụt áp, thiết bị camera trên xe bị tắt tạm thời (khoảng dưới 2s), và sau đó áp tăng lên đột ngột." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://vinhlin.github.io/posts/others/gia_lap_sut_ap_acc/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2025-04-11T21:09:50+07:00" />
@@ -31,9 +31,9 @@ Trên xe ô tô, khi mở khóa ACC &mdash;&gt; các thiết bị hoạt động
     <meta itemprop="name" content="Gia_lap_sut_ap_ACC">
 <meta itemprop="description" content="Mình nhận được một đề bài đó là làm &ldquo;Một bộ giả lập sụt áp, mất nguồn ACC&rdquo;.
 Mô tả như sau tình trạng như sau:
-Trên xe ô tô, khi mở khóa ACC &mdash;&gt; các thiết bị hoạt động. Khi đạp thắng và nổ máy &mdash;&gt; Nguồn bị sụt áp, các thiết bị điện trên bị tắt tạm thời, và sau đó áp tăng lên đột ngột. Dựa vào mô tả này, mình đã code lại dựa trên ngôn ngữ Ladder (một ngôn ngữ lập trình cho PLC)."><meta itemprop="datePublished" content="2025-04-11T21:09:50+07:00" />
+Trên xe ô tô, khi mở khóa ACC &mdash;&gt; các thiết bị hoạt động. Khi đạp thắng và nổ máy &mdash;&gt; Nguồn bị sụt áp, thiết bị camera trên xe bị tắt tạm thời (khoảng dưới 2s), và sau đó áp tăng lên đột ngột."><meta itemprop="datePublished" content="2025-04-11T21:09:50+07:00" />
 <meta itemprop="dateModified" content="2025-04-11T21:09:50+07:00" />
-<meta itemprop="wordCount" content="131">
+<meta itemprop="wordCount" content="247">
 <meta itemprop="keywords" content="" />
     
     <link rel="canonical" href="https://vinhlin.github.io/posts/others/gia_lap_sut_ap_acc/">
@@ -58,7 +58,7 @@ Trên xe ô tô, khi mở khóa ACC &mdash;&gt; các thiết bị hoạt động
       "name": "Gia_lap_sut_ap_ACC",
       "headline": "Gia_lap_sut_ap_ACC",
       "alternativeHeadline": "",
-      "description": "Mình nhận được một đề bài đó là làm \u0026ldquo;Một bộ giả lập sụt áp, mất nguồn ACC\u0026rdquo;.\nMô tả như sau tình trạng như sau:\nTrên xe ô tô, khi mở khóa ACC \u0026mdash;\u0026gt; các thiết bị hoạt động. Khi đạp thắng và nổ máy \u0026mdash;\u0026gt; Nguồn bị sụt áp, các thiết bị điện trên bị tắt tạm thời, và sau đó áp tăng lên đột ngột. Dựa vào mô tả này, mình đã code lại dựa trên ngôn ngữ Ladder (một ngôn ngữ lập trình cho PLC).",
+      "description": "Mình nhận được một đề bài đó là làm \u0026ldquo;Một bộ giả lập sụt áp, mất nguồn ACC\u0026rdquo;.\nMô tả như sau tình trạng như sau:\nTrên xe ô tô, khi mở khóa ACC \u0026mdash;\u0026gt; các thiết bị hoạt động. Khi đạp thắng và nổ máy \u0026mdash;\u0026gt; Nguồn bị sụt áp, thiết bị camera trên xe bị tắt tạm thời (khoảng dưới 2s), và sau đó áp tăng lên đột ngột.",
       "inLanguage": "en-us",
       "isFamilyFriendly": "true",
       "mainEntityOfPage": {
@@ -95,7 +95,7 @@ Trên xe ô tô, khi mở khóa ACC &mdash;&gt; các thiết bị hoạt động
       },
       "image": "https:\/\/vinhlin.github.io\/assets\/favicon.ico",
       "url" : "https:\/\/vinhlin.github.io\/posts\/others\/gia_lap_sut_ap_acc\/",
-      "wordCount" : "131",
+      "wordCount" : "247",
       "genre" : [ ],
       "keywords" : [ ]
   }
@@ -147,8 +147,13 @@ Trên xe ô tô, khi mở khóa ACC &mdash;&gt; các thiết bị hoạt động
 <p>Mô tả như sau tình trạng như sau:</p>
 <blockquote>
 <p>Trên xe ô tô, khi mở khóa ACC &mdash;&gt; các thiết bị hoạt động. </br>
-Khi <strong>đạp thắng</strong> và <strong>nổ máy</strong> &mdash;&gt; Nguồn bị sụt áp, các thiết bị điện trên bị tắt tạm thời, và sau đó áp tăng lên đột ngột. </br></p>
+Khi <strong>đạp thắng</strong> và <strong>nổ máy</strong> &mdash;&gt; Nguồn bị sụt áp, thiết bị camera trên xe bị tắt tạm thời <em>(khoảng dưới 2s)</em>, và sau đó áp tăng lên đột ngột. </br></p>
 </blockquote>
+<h3 id="giải-thích-kỹ-hơn">Giải thích kỹ hơn:</h3>
+<ul>
+<li>Trên X-Force có một <strong>nút Engine</strong>, nhấn 1 lần là để bật ACC &ndash;&gt; Camera đã có thể start lên, và điện áp của tẩu sạc là điện áp của bình ac-quy <em>(khoảng 12VDC)</em>.</li>
+<li><strong>Đạp thắng + nhấn thêm lần nút Engine</strong>, đây là cách <strong>đề nổ</strong> &ndash;&gt; Camera tạm thời bị tắt do mất áp, và điện áp của tẩu là khoảng 13.8VDC <em>(do khi nổ máy, ac-quy được sạc lại)</em>.</li>
+</ul>
 <p>Dựa vào mô tả này, mình đã <strong>code</strong> lại dựa trên <strong>ngôn ngữ Ladder</strong> <em>(một ngôn ngữ lập trình cho <strong>PLC</strong>)</em>.</p>
 <p><img
   src="/image/Others/Sut_ap_ACC/Hinh_1.jpg"
@@ -170,6 +175,12 @@ Khi <strong>đạp thắng</strong> và <strong>nổ máy</strong> &mdash;&gt; N
 
 </p>
 <p>Sau khi đã lắp hoàn thiện, mình cho chạy thử. Và đã chạy thành công, giống với nội dung được yêu cầu.</p>
+<h3 id="note-lại-cách-sử-dụng">Note lại cách sử dụng:</h3>
+<ul>
+<li>Input đầu vào là dùng nguồn 12VDC.</li>
+<li><strong>Nút gạc on/off</strong> là biểu thị cho việc <strong>nhấn 1 lần nút Engine</strong>.</li>
+<li><strong>Nút nhấn nhả</strong> là nút biểu thị cho trạng thái <strong>đề nổ</strong>.</li>
+</ul>
 <p>Nguồn video: <a href="https://www.facebook.com/share/v/1BJo6tVgVR/">https://www.facebook.com/share/v/1BJo6tVgVR/</a></p>
 
   

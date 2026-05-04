@@ -23,5 +23,4 @@ Theo tham khảo trong video, thì các thao tác sẽ là:
 - Có một điều mình chú ý là **kỹ thuật phishing email**, kỹ thuật này thì cũng không có gì xa lạ. Nhưng điều mình ngạc nhiên là ý tưởng **gửi mail để cập nhật bảo mật**.
 - Cứ tưởng là email nhắc nhở bình thường, ai ngờ lại là một **phishing email** =]]
 
-![Hình 2](/image/CyberSecurity/CCTV_Hacking/Security_Camera.png]
-
+![Hình 2](/image/CyberSecurity/CCTV_Hacking/Security_Camera.png)
