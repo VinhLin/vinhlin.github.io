@@ -94,7 +94,7 @@ hugo new posts/Others/Samsung_Dex.md
 hugo new posts/Others/Basic_Knowledge.md
 ```
 
-### IoT:
+### Embedded - IoT:
 - Hardware
 ```
 hugo new posts/IoT/Hardware/UNIHIKER.md
@@ -127,6 +127,7 @@ hugo new posts/IoT/Hardware/IR_Cut_Filter.md
 hugo new posts/IoT/Hardware/MCU_Board_Pinout.md
 hugo new posts/IoT/Hardware/Dashcam_Power.md
 hugo new posts/IoT/Hardware/Camera_A9_Teardown.md
+hugo new posts/IoT/Hardware/Solar_Led_Teardown.md
 ```
 - Software
 ```

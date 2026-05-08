@@ -14,6 +14,87 @@
     
     
     <item>
+      <title>Solar_Led_Teardown</title>
+      <link>https://vinhlin.github.io/posts/iot/hardware/solar_led_teardown/</link>
+      <description>&lt;h3 id=&#34;đèn-led-dây-năng-lượng-mặt-trời-8-chế-độ-không-thấm-nướchttpsshopeevn22m200-c491c3a8n-led-dc3a2y-nc483ng-lc6b0e1bba3ng-me1bab7t-tre1bb9di-8-che1babf-c491e1bb99-khc3b4ng-the1baa5m-nc6b0e1bb9bc-bc3b3ng-pha-lc3aa-bc3b3ng-dc3a2y-c491c3a8n-ce1bb95-tc3adch-sc3a2n-vc6b0e1bb9dn-gic3a1ng-sinh-i60260951115209388978xptdk5fe656bc-e218-4c03-a1e5-a189a9af30fb&#34;&gt;&lt;a href=&#34;https://shopee.vn/22M200-%C4%91%C3%A8n-LED-d%C3%A2y-n%C4%83ng-l%C6%B0%E1%BB%A3ng-m%E1%BA%B7t-tr%E1%BB%9Di-8-ch%E1%BA%BF-%C4%91%E1%BB%99-kh%C3%B4ng-th%E1%BA%A5m-n%C6%B0%E1%BB%9Bc-b%C3%B3ng-pha-l%C3%AA-b%C3%B3ng-d%C3%A2y-%C4%91%C3%A8n-c%E1%BB%95-t%C3%ADch-s%C3%A2n-v%C6%B0%E1%BB%9Dn-gi%C3%A1ng-sinh-i.602609511.15209388978?xptdk=5fe656bc-e218-4c03-a1e5-a189a9af30fb&#34;&gt;Đèn LED dây năng lượng mặt trời 8 chế độ không thấm nước&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Solar_Led_Teardown/Hinh_1.webp&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Thấy cũng hay, trang trí cho ban công.&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Solar_Led_Teardown/Hinh_2.jpg&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Dùng một thời gian thì thấy nó không còn sáng đèn nữa.&lt;/p&gt;
+&lt;p&gt;Vậy là phải khui ra để kiểm tra&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Solar_Led_Teardown/Hinh_3.jpg&#34;
+  alt=&#34;Hình 3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pin sạc 1.2VDC, mức điện áp của pin mặt trời cũng 1.2VDC&lt;/li&gt;
+&lt;li&gt;Nút nhấn nguồn là kiểu &lt;strong&gt;nhấn giữ&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Nút mode là kiểu &lt;strong&gt;nhấn nhả&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;kiểm-tra&#34;&gt;Kiểm tra:&lt;/h2&gt;
+&lt;h3 id=&#34;led&#34;&gt;Led&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Dây led không phân &lt;strong&gt;âm/dương&lt;/strong&gt;. Dây led có đến 4 màu sắc&lt;/li&gt;
+&lt;li&gt;Mình đã thử với &lt;strong&gt;3.7VDC&lt;/strong&gt;, áp đại vào led, sáng 2 màu. Sau đó mình đảo cực, sáng 2 màu còn lại.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;boot-áp&#34;&gt;Boot áp&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Mình đo được có sự &lt;strong&gt;tăng áp&lt;/strong&gt; từ &lt;strong&gt;1.2VDC lên 4.5VDC&lt;/strong&gt;, và đc cấp vào cho IC hoạt động.&lt;/li&gt;
+&lt;li&gt;Chưa rõ là tại sao chỉ với cuộn cảm và diot thì lại boot lên đc 4.5VDC&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ic-chính-có-các-chức-năng&#34;&gt;IC chính có các chức năng&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Solar_Led_Teardown/Hinh_4.jpg&#34;
+  alt=&#34;Hình 4&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Nhận các signal của nút Mode.&lt;/li&gt;
+&lt;li&gt;Kiểm tra điện áp của pin mặt trời:
+&lt;ul&gt;
+&lt;li&gt;Nếu có điện áp &amp;ndash;&amp;gt; Led không sáng&lt;/li&gt;
+&lt;li&gt;Nếu không có tín hiệu điện áp, sẽ cho nhấp led theo mode seting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Output cho led là khoảng 3.7VDC, và có khả năng tự đảo chiều âm/dương.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;suy-nghĩ&#34;&gt;Suy nghĩ:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Sau này nếu mạch led này bị hư, mình có thể tự thiết kế một board MCU nhỏ.&lt;/li&gt;
+&lt;li&gt;Dạng như ESP32, có kết nối WiFi, điều khiển từ xa các kiểu, làm thành bộ led IoT luôn. =]]&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <author>Vincent</author>
+      <guid>https://vinhlin.github.io/posts/iot/hardware/solar_led_teardown/</guid>
+      <pubDate>Fri, 08 May 2026 15:44:03 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Camera_A9_Teardown</title>
       <link>https://vinhlin.github.io/posts/iot/hardware/camera_a9_teardown/</link>
       <description>&lt;h3 id=&#34;tham-khảo-sản-phẩm-camera-mini-a9httpsshopeevncamera-wifi-a9-khc3b4ng-dc3a2y-che1bb91ng-tre1bb99m-ke1babft-ne1bb91i-c491ie1bb87n-thoe1baa1i-te1bbab-xa-gc3b3c-quay-120-c491e1bb99-full-hd-1080p-ip-cc3b3-led-he1bb93ng-ngoe1baa1i-i159873213957308490157xptdka53b3919-c493-4af6-a534-13346460da35&#34;&gt;Tham khảo sản phẩm &lt;a href=&#34;https://shopee.vn/Camera-wifi-A9-kh%C3%B4ng-d%C3%A2y-ch%E1%BB%91ng-tr%E1%BB%99m-k%E1%BA%BFt-n%E1%BB%91i-%C4%91i%E1%BB%87n-tho%E1%BA%A1i-t%E1%BB%AB-xa-g%C3%B3c-quay-120-%C4%91%E1%BB%99-Full-HD-1080P-IP-c%C3%B3-Led-h%E1%BB%93ng-ngo%E1%BA%A1i-i.1598732139.57308490157?xptdk=a53b3919-c493-4af6-a534-13346460da35&#34;&gt;Camera Mini A9&lt;/a&gt;&lt;/h3&gt;

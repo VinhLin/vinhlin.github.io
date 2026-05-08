@@ -40,6 +40,7 @@ STT |		Tiêu đề			|		Mô tả				|
 28  | [MCU_Board_Pinout][MCU_Board_Pinout]| Tổng hợp lại các hình MCU Board Pinout	|
 29  | [Dashcam_Power][Dashcam_Power]	| Ghi chú về mức độ tiêu thụ ac-quy của camera	|
 30  | [Camera_A9_Teardown][Camera_A9_Teardown] | Hardware Teardown Camera A9 		|
+31  | [Solar_Led_Teardown][Solar_Led_Teardown] | Teardown của một bộ led dùng năng lượng mặt trời	|
 
 [UNIHIKER]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/unihiker/
 [ESD]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/esd/
@@ -71,6 +72,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [MCU_Board_Pinout]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/mcu_board_pinout/
 [Dashcam_Power]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/dashcam_power/
 [Camera_A9_Teardown]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/camera_a9_teardown/
+[Solar_Led_Teardown]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/solar_led_teardown/
 
 ## ***SOFTWARE***
 
