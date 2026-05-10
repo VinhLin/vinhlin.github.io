@@ -242,6 +242,7 @@ STT |		Tiêu đề			|		Mô tả				|
 21  | [Phone_Farm][Phone_Farm]		| Ghi chú về cách build **Phone Farm** bằng server ESXi |
 22  | [WebVM][WebVM]			| Ghi chú về **WebVM**, ứng dụng Linux đầy đủ trên Web |
 23  | [OpenClaw][OpenClaw]		| Ghi chú về OpenClaw, một trợ lý AI		|
+24  | [Proxy_Caddy][Proxy_Caddy]	| Setup và thử nghiệm về **Reverse Proxy Caddy**|
 
 [Permission_Linux]: https://blog.vinhld-homelab.io.vn/posts/system-devops/permission_linux/
 [Huly]: https://blog.vinhld-homelab.io.vn/posts/system-devops/huly/
@@ -266,6 +267,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [Phone_Farm]: https://blog.vinhld-homelab.io.vn/posts/system-devops/phone_farm/
 [WebVM]: https://blog.vinhld-homelab.io.vn/posts/system-devops/webvm/
 [OpenClaw]: https://blog.vinhld-homelab.io.vn/posts/system-devops/openclaw/
+[Proxy_Caddy]: https://blog.vinhld-homelab.io.vn/posts/system-devops/proxy_caddy/
 
 -----------------------------------------------------------------------------------------
 # <mark>Others</mark>

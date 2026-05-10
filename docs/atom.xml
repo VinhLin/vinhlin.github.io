@@ -14,6 +14,89 @@
     
     
     <item>
+      <title>Proxy_Caddy</title>
+      <link>https://vinhlin.github.io/posts/system-devops/proxy_caddy/</link>
+      <description>&lt;p&gt;Mình có 2 đường link camera để xem stream:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;http://192.168.100.120:8080/f16099878a7effee1f6c22441cb1b793/mp4/admin/homeCam/s.mp4
+http://192.168.100.120:8080/f16099878a7effee1f6c22441cb1b793/mp4/admin/8R6pN5BjmC/s.mp4
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Và bài toán đặt ra là mình cần rút gọn link này, tham khảo ý kiến AI, thì đây là hướng mà AI đề xuất:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;                        ┌─────────────────────────────┐
+                        │        Router/Gateway       │
+                        │   192.168.100.1/24          │
+                        └─────────────┬───────────────┘
+                                      │
+                         LAN 192.168.100.0/24
+                                      │
+        ┌─────────────────────────────┼─────────────────────────────┐
+        │                             │                             │
+        │                             │                             │
+┌───────▼────────┐          ┌─────────▼─────────┐         ┌────────▼────────┐
+│ Client Devices │          │      Pi-hole      │         │ Reverse Proxy    │
+│ PC / Phone /   │          │ DNS: 192.168.100.2│         │ Caddy/NPM/Nginx  │
+│ Tablet / TV    │          │ DHCP optional     │         │ 192.168.100.10   │
+└───────┬────────┘          └─────────┬─────────┘         └────────┬────────┘
+        │                             │                             │
+        │ DNS query: cam.home.arpa    │                             │
+        ├────────────────────────────►│                             │
+        │                             │                             │
+        │ A record: cam.home.arpa     │                             │
+        │ -&amp;gt; 192.168.100.10           │                             │
+        │◄────────────────────────────┤                             │
+        │                             │                             │
+        │ HTTPS request to            │                             │
+        │ https://cam.home.arpa/s     │                             │
+        ├──────────────────────────────────────────────────────────►│
+        │                             │                             │
+        │                             │                 route by Host/Path
+        │                             │                             │
+        │                             │                             ├──────────────┐
+        │                             │                             │              │
+        │                             │                             │              │
+        │                             │                    ┌────────▼──────┐ ┌────▼─────────┐
+        │                             │                    │ Camera/NVR     │ │ Other Apps    │
+        │                             │                    │ 192.168.100.120│ │ Grafana etc.  │
+        │                             │                    │ port 8080      │ │ 192.168.100.x │
+        │                             │                    └────────────────┘ └──────────────┘
+        │                             │
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;xem-xét&#34;&gt;Xem xét&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Dùng &lt;strong&gt;reverse proxy&lt;/strong&gt; để rút gọn link. Lúc trước mình cũng có tìm hiểu về Proxy. Kiểu như dạng cân bằng tải, hoặc tự động tạo &lt;strong&gt;cert&lt;/strong&gt; cho HTTP.&lt;/li&gt;
+&lt;li&gt;Hồi trước cũng có thử setup &lt;strong&gt;Treafix&lt;/strong&gt; để test thử nhưng thất bại.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Xem video, đọc mô tả thì cũng hiểu chức năng và công dụng của &lt;strong&gt;reverse proxy&lt;/strong&gt;, nhưng đó chỉ là &lt;strong&gt;logic topology&lt;/strong&gt; thôi.&lt;/em&gt;
+&lt;em&gt;Còn &lt;strong&gt;Physical&lt;/strong&gt; thì mình chưa hiểu là nên đặt ở đâu, route như nào. Và đó là lý do thất bại&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Và giờ AI đề xuất dùng proxy để rút gọn link, và có giới thiệu công cụ là &lt;strong&gt;Caddy&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Documents:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://caddyserver.com/docs/install#docker
+https://caddyserver.com/docs/caddyfile/concepts
+https://github.com/caddyserver/caddy
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;OK thôi, có cơ hội làm lại và nghiên cứu lại để thử nghiệm với &lt;strong&gt;Caddy&lt;/strong&gt; thì mình sẽ làm thử.&lt;/li&gt;
+&lt;li&gt;Hết cả buổi test, cuối cùng cũng thành công. Link: &lt;code&gt;http://cam2.vinhld-homelab.local/stream&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/Proxy_Caddy/Ket_qua.png&#34;
+  alt=&#34;Kết quả&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Có thời gian thì mình sẽ thử nhiều hơn về Caddy này.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <author>Vincent</author>
+      <guid>https://vinhlin.github.io/posts/system-devops/proxy_caddy/</guid>
+      <pubDate>Sun, 10 May 2026 15:33:19 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Solar_Led_Teardown</title>
       <link>https://vinhlin.github.io/posts/iot/hardware/solar_led_teardown/</link>
       <description>&lt;h3 id=&#34;đèn-led-dây-năng-lượng-mặt-trời-8-chế-độ-không-thấm-nướchttpsshopeevn22m200-c491c3a8n-led-dc3a2y-nc483ng-lc6b0e1bba3ng-me1bab7t-tre1bb9di-8-che1babf-c491e1bb99-khc3b4ng-the1baa5m-nc6b0e1bb9bc-bc3b3ng-pha-lc3aa-bc3b3ng-dc3a2y-c491c3a8n-ce1bb95-tc3adch-sc3a2n-vc6b0e1bb9dn-gic3a1ng-sinh-i60260951115209388978xptdk5fe656bc-e218-4c03-a1e5-a189a9af30fb&#34;&gt;&lt;a href=&#34;https://shopee.vn/22M200-%C4%91%C3%A8n-LED-d%C3%A2y-n%C4%83ng-l%C6%B0%E1%BB%A3ng-m%E1%BA%B7t-tr%E1%BB%9Di-8-ch%E1%BA%BF-%C4%91%E1%BB%99-kh%C3%B4ng-th%E1%BA%A5m-n%C6%B0%E1%BB%9Bc-b%C3%B3ng-pha-l%C3%AA-b%C3%B3ng-d%C3%A2y-%C4%91%C3%A8n-c%E1%BB%95-t%C3%ADch-s%C3%A2n-v%C6%B0%E1%BB%9Dn-gi%C3%A1ng-sinh-i.602609511.15209388978?xptdk=5fe656bc-e218-4c03-a1e5-a189a9af30fb&#34;&gt;Đèn LED dây năng lượng mặt trời 8 chế độ không thấm nước&lt;/a&gt;&lt;/h3&gt;
