@@ -81,6 +81,36 @@ iostat -dxz mmcblk0p1 1 | tee /mnt/sd/camera_sd-card_speed.log
 
 ![Hình 7](/image/IoT/Test_TF-Card/Hinh_7.png)
 
+### Một công cụ để kiểm tra thẻ fake - [H2testw](https://h2testw.org/)
+
+![Hình H2testw_1](/image/IoT/Test_TF-Card/H2testw_1.png)
+
+![Hình H2testw_2](/image/IoT/Test_TF-Card/H2testw_2.png)
+
+- Nội dung từ kết quả test:
+```
+Warning: Only 39622 of 63984 MByte tested.
+The media is likely to be defective.
+656 MByte OK (1343488 sectors)
+38.0 GByte DATA LOST (79802368 sectors)
+Details:0 KByte overwritten (0 sectors)
+0 KByte slightly changed (< 8 bit/sector, 0 sectors)
+38.0 GByte corrupted (79802368 sectors)
+0 KByte aliased memory (0 sectors)
+First error at offset: 0x0000000000000000
+Expected: 0x0000000000000000
+Found: 0x0fcd16995d769c06
+H2testw version 1.3
+Writing speed: 13.1 MByte/s
+Reading speed: 15.7 MByte/s
+H2testw v1.4
+```
+- Quăng nội dung vào GPT và 2 hình chụp thì mình sẽ nhận được kết quả:
+
+![Hình H2testw_3](/image/IoT/Test_TF-Card/H2testw_3.png)
+
+![Hình H2testw_4](/image/IoT/Test_TF-Card/H2testw_4.png)
+
 -------------------------------------------------------------
 # Cập nhật `20/11/2025`
 
