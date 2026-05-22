@@ -10,10 +10,41 @@ Tuy nhiên mình sẽ làm một số project nhỏ hơn, và sẽ xoay quanh Ho
 
 ## 🌱 Ý tưởng bổ sung cho HomeLAB:
 
+### 👉 Tích hợp Xiaozhi_ESP32 với LLM-Local
+- Sẽ tìm cách tích hợp hoặc chỉnh sửa lại code của **Xiaozhi_ESP32** để có thể trỏ đến LLM-Local
+- Tránh public data tới cloud bên Trung Quốc.
+
+### 👉 Build Tool JT808/1078
+- Sẽ dùng rust để build tool nhận JT808 protocol và live-stream JT1078.
+- Tool chạy trên linux, chạy back-end.
+
 ### 👉 Rust Tracking
 - Mình vẫn đang tìm hiểu và học [ngôn ngữ lập trình Rust](https://blog.vinhld-homelab.io.vn/posts/iot/software/rust-lang/). Để trau dồi thêm khả năng code bằng Rust, mình sẽ setup một dự án cho bản thân, tên dự án hiện tại là `Rust_Tracking`.
 - Dùng Rust để viết Firmware cho thiết bị GPS, sau đó gửi dữ liệu lên [IoT Platform - ThingsBoard](https://www.vinhld-homelab.io.vn/login). IoT Platform này mình cũng tự build dựa trên hạ tầng hiện tại.
 - Tự làm một thiết bị Tracking cho bản thân.
+
+------------------------------------------------------------------------
+## 🌱 Ý tưởng cải thiện kỹ năng lập trình Rust:
+- Phục vụ cho công việc.
+- Nâng cao kỹ năng lập trình.
+
+### 👉 Rust-for-ARM
+- Các thiết bị Camera chạy `linux nhúng`, thường sẽ có một cổng UART để debug. Nhưng để lấy đc các thông tin debug này khá là phiền phức
+- Do đó mình sẽ cần viết một công cụ để thể **lấy log từ UART** và **lưu nó vào trong thẻ nhớ**.
+
+## 🌱 Ý tưởng khác
+- Dùng AI-Agent để build app chạy trên linux, dùng ngôn ngữ Rust.
+- Lấy thông tin chứng khoán từ các trang web *(cào dữ liệu)*
+- Custom lại và build dashboard cho dự án.
+- Tìm cách build database.
+- Tìm cách build mobile app, bằng rust.
+
+### 👉 Bad USB
+- Mục đích là để **trau dồi kỹ năng coding dùng ngôn ngữ Rust, và ứng dụng vào Red-Team**.
+- Ở đây mình dự định sẽ dùng:
+```
+Raspberry Pico + Rust-lang + Embassy Framewok
+```
 
 ### 👉 Quản lý bán hàng
 - Viết một app như của anh Sơn *(vừa có thể chạy trên web, vừa dùng trên mobile app)*, dùng ngôn ngữ lập trình **Flutter**.
@@ -26,36 +57,4 @@ Tuy nhiên mình sẽ làm một số project nhỏ hơn, và sẽ xoay quanh Ho
 #### Mobile App
 - App chỉ có tác dụng quét mã để search đơn giá và cho biết hàng tồn kho.
 - Khách hàng có thể dùng app này để biết tên hàng, và đơn giá.
-
-### 👉 Bad USB
-- Mục đích là để **trau dồi kỹ năng coding dùng ngôn ngữ Rust, và ứng dụng vào Red-Team**.
-- Ở đây mình dự định sẽ dùng:
-```
-Raspberry Pico + Rust-lang + Embassy Framewok
-```
-
-## 🌱 Ý tưởng khác
-- Dùng AI-Agent để build app chạy trên linux, dùng ngôn ngữ Rust.
-- Lấy thông tin chứng khoán từ các trang web *(cào dữ liệu)*
-- Custom lại và build dashboard cho dự án.
-- Tìm cách build database.
-- Tìm cách build mobile app, bằng rust.
-
-------------------------------------------------------------------------
-## 🌱 Ý tưởng cải thiện kỹ năng lập trình Rust:
-- Phục vụ cho công việc.
-- Nâng cao kỹ năng lập trình.
-
-### 👉 Raspberry-Camera
-- Mục đích là ôn luyện lại về **Rust-lang + Tokio Framework** cũng như đào sâu hơn về **Nhúng Linux**.
-- Live-stream local *(URL streaming Camera dùng HTTP hoặc RTSP)*.
-- Platform: Lấy thông tin location, upload Image của camera.
-- Điều khiển thông qua chatbot Telegram.
-> Ngoài ra mình sẽ code camera này theo **ONVIF Protocol**, và theo [QCVN-135](/docs/qcvn_135.2024-ip_camera.pdf)
-
-### 👉 Rust-for-ARM
-- Các thiết bị Camera chạy `linux nhúng`, thường sẽ có một cổng UART để debug. Nhưng để lấy đc các thông tin debug này khá là phiền phức
-- Do đó mình sẽ cần viết một công cụ để thể **lấy log từ UART** và **lưu nó vào trong thẻ nhớ**.
-
-
 

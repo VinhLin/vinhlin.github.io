@@ -16,7 +16,7 @@
     <item>
       <title>May_do_buc_xa</title>
       <link>https://vinhlin.github.io/posts/iot/hardware/may_do_buc_xa/</link>
-      <description>&lt;p&gt;Máy đo bức xạ điện từ FNIRSI® ERD-10 4-IN-1 Electromagnetic Radiation Detector&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;https://hshop.vn/may-do-buc-xa-dien-tu-fnirsi-erd-10-4-in-1-electromagnetic-radiation-detector&#34;&gt;Máy đo bức xạ điện từ FNIRSI® ERD-10 4-IN-1 Electromagnetic Radiation Detector&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/IoT/May_do_buc_xa/Hinh_1.webp&#34;
   alt=&#34;Hinh 1&#34;
@@ -57,6 +57,130 @@ https://manuals.plus/vi/fnirsi/erd-10-electromagnetic-radiation-detector-manual
       <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/hardware/may_do_buc_xa/</guid>
       <pubDate>Fri, 22 May 2026 10:05:50 +0700</pubDate>
+    </item>
+    
+    <item>
+      <title>Raspberry_Cam</title>
+      <link>https://vinhlin.github.io/posts/iot/software/raspberry_cam/</link>
+      <description>&lt;h3 id=&#34;changelog&#34;&gt;Changelog&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;STT&lt;/th&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Nội dung&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;30/4/2026&lt;/td&gt;
+&lt;td&gt;Khởi tạo bài viết&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;21/5/2026&lt;/td&gt;
+&lt;td&gt;Update thông tin&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Được nghỉ 4 ngày, mình sẽ lên lại kế hoạch thực hiện dự án về &lt;strong&gt;Raspberry-Camera&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Đây sẽ là dự án dài hơi, và sẽ giúp mình ôn luyện nhiều thứ.&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;-raspberry-camera&#34;&gt;👉 Raspberry-Camera&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Mục đích là ôn luyện lại về &lt;strong&gt;Rust-lang + Tokio Framework&lt;/strong&gt; cũng như đào sâu hơn về &lt;strong&gt;Nhúng Linux&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Live-stream local &lt;em&gt;(URL streaming Camera dùng HTTP hoặc RTSP)&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Platform: Lấy thông tin location, upload Image của camera.&lt;/li&gt;
+&lt;li&gt;Điều khiển thông qua chatbot Telegram.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Ngoài ra mình sẽ code camera này theo &lt;strong&gt;ONVIF Protocol&lt;/strong&gt;, và theo &lt;a href=&#34;https://vinhlin.github.io/docs/qcvn_135.2024-ip_camera.pdf&#34;&gt;QCVN-135&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;kế-hoạch-đầu-tiên---thất-bại&#34;&gt;Kế hoạch đầu tiên - Thất bại:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Ban đầu tính build một app chạy trên Raspberry CM4, tất cả trong một, nhưng thất bại.&lt;/li&gt;
+&lt;li&gt;Lý do là khi build xong app, thư viện trên CM4 quá cũ, không chạy được trực tiếp app.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;./raspberry-cam: /lib/aarch64-linux-gnu/libc.so.6: version `GLIBC_2.39&amp;#39; not found (required by ./raspberry-cam)
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Đã thử cài đặt và update nhiều thứ, nhưng vẫn không khả thi.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;các-kế-hoạch-dự-phòng&#34;&gt;Các kế hoạch dự phòng:&lt;/h2&gt;
+&lt;h3 id=&#34;option-1&#34;&gt;Option 1:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Sử dụng các thiết bị camera ngoài, có trên thị trường và có hỗ trợ các port stream như:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;HTTP - 80
+RTSP - 554
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Mình đang nghiên cứu một con &lt;strong&gt;Camera Mini A9&lt;/strong&gt;, con này phiền phức hơn nhiều, và không hỗ trợ các chuẩn phổ biến.&lt;/li&gt;
+&lt;li&gt;Nhưng thay vào đó, mình vẫn sẽ tìm hiểu con cam này, lý do là mình sẽ học thêm được các kỹ năng về &lt;strong&gt;Reverse&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Con cam A9 này mà mình có thể tích hợp được, thì những cam chuẩn khác chỉ là &lt;strong&gt;muỗi&lt;/strong&gt;, lúc đó làm sẽ đơn giản hơn rất nhiều&lt;/em&gt; =]] &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;option-2&#34;&gt;Option 2:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Vẫn sử dụng &lt;strong&gt;USB Camera&lt;/strong&gt;, nhưng có thể mình sẽ dùng &lt;strong&gt;python&lt;/strong&gt; để xử lý việc đọc camera.&lt;/li&gt;
+&lt;li&gt;Còn dùng Rust là để &lt;strong&gt;xử lý data từ camera&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;mục-tiêu&#34;&gt;Mục tiêu:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Có rất nhiều thứ mà mình có thể tận dụng về mặt server hệ thống hiện tại.&lt;/li&gt;
+&lt;li&gt;Và đây sẽ là một số ý tưởng cần ngâm cứu:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;Tích hợp vào hệ thống CCTV hiện tại. &lt;/br&gt;&lt;/li&gt;
+&lt;li&gt;Dùng &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/others/llm_local/&#34;&gt;LLM-Local&lt;/a&gt; để phân tích và xử lý hình ảnh &lt;/br&gt;&lt;/li&gt;
+&lt;li&gt;Upload ảnh qua &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/system-devops/nas_ftp/&#34;&gt;FTP Server&lt;/a&gt;, và notifi qua Telegram &lt;/br&gt;&lt;/li&gt;
+&lt;li&gt;Kiểm tra trạng thái (hoặc điều khiển từ xa) với &lt;a href=&#34;https://www.vinhld-homelab.io.vn/#/login?to=/dashboard/overview&#34;&gt;MQTT Broker&lt;/a&gt; &lt;/br&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;cập-nhật-ngày-2152026&#34;&gt;Cập nhật ngày &lt;code&gt;21/5/2026&lt;/code&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Có vẻ ban đầu mình nghĩ hơi phức tạp. Trong 4 mục tiêu đặt ra, thì mình đã &lt;strong&gt;hoàn tất 3 mục&lt;/strong&gt; &lt;em&gt;(mục 1 -&amp;gt; 3)&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Nhưng theo hướng &lt;strong&gt;hơi khác&lt;/strong&gt; so với tưởng tượng và dự tính ban đầu.&lt;/li&gt;
+&lt;li&gt;Mình chọn &lt;strong&gt;option 2&lt;/strong&gt;, nhưng sử dụng &lt;strong&gt;Raspberry CM4 + USB-Camera + Motion&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;kết-quả-đạt-được&#34;&gt;Kết quả đạt được&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Đầu tiên là mình &lt;strong&gt;đã tích hợp USB-Cam với hệ thống CCTV&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Raspberry_Cam/Hinh_1.png&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mình không cần phải viết code để đẩy luồng xử lý dự liệu tới LLM-Local, vì bản thân motion có &lt;strong&gt;tính năng phát hiện chuyển động&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Software sẽ tự động ghi một đoạn video ngắn và lưu lại khi có chuyển động, và mình chỉ cần đẩy notifi cũng như video qua Telegram.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Raspberry_Cam/Hinh_2.png&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Vậy là đã tạm thời đáp ứng đúng mong đợi, nhưng cách làm hơi khác so. =]]&lt;/li&gt;
+&lt;li&gt;Còn mục số 4, vẫn có thể làm theo hướng khác, vì mục tiêu là &lt;strong&gt;Kiểm tra trạng thái (hoặc điều khiển từ xa)&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Những còn những ý tưởng khác, giúp mình ôn luyện thêm.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <author>Vincent</author>
+      <guid>https://vinhlin.github.io/posts/iot/software/raspberry_cam/</guid>
+      <pubDate>Thu, 21 May 2026 14:04:53 +0700</pubDate>
     </item>
     
     <item>
@@ -499,60 +623,6 @@ https://github.com/caddyserver/caddy
       <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/hardware/dashcam_power/</guid>
       <pubDate>Fri, 01 May 2026 15:39:15 +0700</pubDate>
-    </item>
-    
-    <item>
-      <title>Raspberry_Cam</title>
-      <link>https://vinhlin.github.io/posts/iot/software/raspberry_cam/</link>
-      <description>&lt;p&gt;Được nghỉ 4 ngày, mình sẽ lên lại kế hoạch thực hiện &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/others/y_tuong_project/&#34;&gt;dự án về &lt;strong&gt;Raspberry-Camera&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Đây sẽ là dự án dài hơi, và sẽ giúp mình ôn luyện nhiều thứ.&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&#34;kế-hoạch-đầu-tiên---thất-bại&#34;&gt;Kế hoạch đầu tiên - Thất bại:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Ban đầu tính build một app chạy trên Raspberry CM4, tất cả trong một, nhưng thất bại.&lt;/li&gt;
-&lt;li&gt;Lý do là khi build xong app, thư viện trên CM4 quá cũ, không chạy được trực tiếp app.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;./raspberry-cam: /lib/aarch64-linux-gnu/libc.so.6: version `GLIBC_2.39&amp;#39; not found (required by ./raspberry-cam)
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
-&lt;li&gt;Đã thử cài đặt và update nhiều thứ, nhưng vẫn không khả thi.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;các-kế-hoạch-dự-phòng&#34;&gt;Các kế hoạch dự phòng:&lt;/h2&gt;
-&lt;h3 id=&#34;option-1&#34;&gt;Option 1:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Sử dụng các thiết bị camera ngoài, có trên thị trường và có hỗ trợ các port stream như:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;HTTP - 80
-RTSP - 554
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
-&lt;li&gt;Mình đang nghiên cứu một con &lt;strong&gt;Camera Mini A9&lt;/strong&gt;, con này phiền phức hơn nhiều, và không hỗ trợ các chuẩn phổ biến.&lt;/li&gt;
-&lt;li&gt;Nhưng thay vào đó, mình vẫn sẽ tìm hiểu con cam này, lý do là mình sẽ học thêm được các kỹ năng về &lt;strong&gt;Reverse&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Con cam A9 này mà mình có thể tích hợp được, thì những cam chuẩn khác chỉ là &lt;strong&gt;muỗi&lt;/strong&gt;, lúc đó làm sẽ đơn giản hơn rất nhiều&lt;/em&gt; =]] &lt;/br&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&#34;option-2&#34;&gt;Option 2:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Vẫn sử dụng &lt;strong&gt;USB Camera&lt;/strong&gt;, nhưng có thể mình sẽ dùng &lt;strong&gt;python&lt;/strong&gt; để xử lý việc đọc camera.&lt;/li&gt;
-&lt;li&gt;Còn dùng Rust là để &lt;strong&gt;xử lý data từ camera&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;mục-tiêu&#34;&gt;Mục tiêu:&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Có rất nhiều thứ mà mình có thể tận dụng về mặt server hệ thống hiện tại.&lt;/li&gt;
-&lt;li&gt;Và đây sẽ là một số ý tưởng cần ngâm cứu:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;ol&gt;
-&lt;li&gt;Tích hợp vào hệ thống CCTV hiện tại. &lt;/br&gt;&lt;/li&gt;
-&lt;li&gt;Dùng &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/others/llm_local/&#34;&gt;LLM-Local&lt;/a&gt; để phân tích và xử lý hình ảnh &lt;/br&gt;&lt;/li&gt;
-&lt;li&gt;Upload ảnh qua &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/system-devops/nas_ftp/&#34;&gt;FTP Server&lt;/a&gt;, và notifi qua Telegram &lt;/br&gt;&lt;/li&gt;
-&lt;li&gt;Kiểm tra trạng thái (hoặc điều khiển từ xa) với &lt;a href=&#34;https://www.vinhld-homelab.io.vn/#/login?to=/dashboard/overview&#34;&gt;MQTT Broker&lt;/a&gt; &lt;/br&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
-</description>
-      <author>Vincent</author>
-      <guid>https://vinhlin.github.io/posts/iot/software/raspberry_cam/</guid>
-      <pubDate>Thu, 30 Apr 2026 14:04:53 +0700</pubDate>
     </item>
     
     <item>
@@ -8963,13 +9033,48 @@ https://devblogs.microsoft.com/cppblog/windows-desktop-development-with-c-in-vis
       <description>&lt;p&gt;Hiện tại thì bản thân vẫn đang tiếp tục cải thiện project &lt;strong&gt;HOMELAB&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Tuy nhiên mình sẽ làm một số project nhỏ hơn, và sẽ xoay quanh Homelab.&lt;/p&gt;
 &lt;h2 id=&#34;-ý-tưởng-bổ-sung-cho-homelab&#34;&gt;🌱 Ý tưởng bổ sung cho HomeLAB:&lt;/h2&gt;
+&lt;h3 id=&#34;-tích-hợp-xiaozhi_esp32-với-llm-local&#34;&gt;👉 Tích hợp Xiaozhi_ESP32 với LLM-Local&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Sẽ tìm cách tích hợp hoặc chỉnh sửa lại code của &lt;strong&gt;Xiaozhi_ESP32&lt;/strong&gt; để có thể trỏ đến LLM-Local&lt;/li&gt;
+&lt;li&gt;Tránh public data tới cloud bên Trung Quốc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-build-tool-jt8081078&#34;&gt;👉 Build Tool JT808/1078&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Sẽ dùng rust để build tool nhận JT808 protocol và live-stream JT1078.&lt;/li&gt;
+&lt;li&gt;Tool chạy trên linux, chạy back-end.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id=&#34;-rust-tracking&#34;&gt;👉 Rust Tracking&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Mình vẫn đang tìm hiểu và học &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/iot/software/rust-lang/&#34;&gt;ngôn ngữ lập trình Rust&lt;/a&gt;. Để trau dồi thêm khả năng code bằng Rust, mình sẽ setup một dự án cho bản thân, tên dự án hiện tại là &lt;code&gt;Rust_Tracking&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;Dùng Rust để viết Firmware cho thiết bị GPS, sau đó gửi dữ liệu lên &lt;a href=&#34;https://www.vinhld-homelab.io.vn/login&#34;&gt;IoT Platform - ThingsBoard&lt;/a&gt;. IoT Platform này mình cũng tự build dựa trên hạ tầng hiện tại.&lt;/li&gt;
 &lt;li&gt;Tự làm một thiết bị Tracking cho bản thân.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;-quản-lý-bán-hàng&#34;&gt;👉 Quản lý bán hàng&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-ý-tưởng-cải-thiện-kỹ-năng-lập-trình-rust&#34;&gt;🌱 Ý tưởng cải thiện kỹ năng lập trình Rust:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Phục vụ cho công việc.&lt;/li&gt;
+&lt;li&gt;Nâng cao kỹ năng lập trình.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-rust-for-arm&#34;&gt;👉 Rust-for-ARM&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Các thiết bị Camera chạy &lt;code&gt;linux nhúng&lt;/code&gt;, thường sẽ có một cổng UART để debug. Nhưng để lấy đc các thông tin debug này khá là phiền phức&lt;/li&gt;
+&lt;li&gt;Do đó mình sẽ cần viết một công cụ để thể &lt;strong&gt;lấy log từ UART&lt;/strong&gt; và &lt;strong&gt;lưu nó vào trong thẻ nhớ&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-ý-tưởng-khác&#34;&gt;🌱 Ý tưởng khác&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Dùng AI-Agent để build app chạy trên linux, dùng ngôn ngữ Rust.&lt;/li&gt;
+&lt;li&gt;Lấy thông tin chứng khoán từ các trang web &lt;em&gt;(cào dữ liệu)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Custom lại và build dashboard cho dự án.&lt;/li&gt;
+&lt;li&gt;Tìm cách build database.&lt;/li&gt;
+&lt;li&gt;Tìm cách build mobile app, bằng rust.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-bad-usb&#34;&gt;👉 Bad USB&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Mục đích là để &lt;strong&gt;trau dồi kỹ năng coding dùng ngôn ngữ Rust, và ứng dụng vào Red-Team&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Ở đây mình dự định sẽ dùng:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Raspberry Pico + Rust-lang + Embassy Framewok
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;-quản-lý-bán-hàng&#34;&gt;👉 Quản lý bán hàng&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Viết một app như của anh Sơn &lt;em&gt;(vừa có thể chạy trên web, vừa dùng trên mobile app)&lt;/em&gt;, dùng ngôn ngữ lập trình &lt;strong&gt;Flutter&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;Xây dựng &lt;strong&gt;database server&lt;/strong&gt; &lt;em&gt;(có thể dùng &lt;strong&gt;SQL Server&lt;/strong&gt;)&lt;/em&gt;.&lt;/li&gt;
@@ -8983,41 +9088,6 @@ https://devblogs.microsoft.com/cppblog/windows-desktop-development-with-c-in-vis
 &lt;ul&gt;
 &lt;li&gt;App chỉ có tác dụng quét mã để search đơn giá và cho biết hàng tồn kho.&lt;/li&gt;
 &lt;li&gt;Khách hàng có thể dùng app này để biết tên hàng, và đơn giá.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;-bad-usb&#34;&gt;👉 Bad USB&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Mục đích là để &lt;strong&gt;trau dồi kỹ năng coding dùng ngôn ngữ Rust, và ứng dụng vào Red-Team&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Ở đây mình dự định sẽ dùng:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Raspberry Pico + Rust-lang + Embassy Framewok
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;-ý-tưởng-khác&#34;&gt;🌱 Ý tưởng khác&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Dùng AI-Agent để build app chạy trên linux, dùng ngôn ngữ Rust.&lt;/li&gt;
-&lt;li&gt;Lấy thông tin chứng khoán từ các trang web &lt;em&gt;(cào dữ liệu)&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Custom lại và build dashboard cho dự án.&lt;/li&gt;
-&lt;li&gt;Tìm cách build database.&lt;/li&gt;
-&lt;li&gt;Tìm cách build mobile app, bằng rust.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;-ý-tưởng-cải-thiện-kỹ-năng-lập-trình-rust&#34;&gt;🌱 Ý tưởng cải thiện kỹ năng lập trình Rust:&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Phục vụ cho công việc.&lt;/li&gt;
-&lt;li&gt;Nâng cao kỹ năng lập trình.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;-raspberry-camera&#34;&gt;👉 Raspberry-Camera&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Mục đích là ôn luyện lại về &lt;strong&gt;Rust-lang + Tokio Framework&lt;/strong&gt; cũng như đào sâu hơn về &lt;strong&gt;Nhúng Linux&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Live-stream local &lt;em&gt;(URL streaming Camera dùng HTTP hoặc RTSP)&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;Platform: Lấy thông tin location, upload Image của camera.&lt;/li&gt;
-&lt;li&gt;Điều khiển thông qua chatbot Telegram.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Ngoài ra mình sẽ code camera này theo &lt;strong&gt;ONVIF Protocol&lt;/strong&gt;, và theo &lt;a href=&#34;https://vinhlin.github.io/docs/qcvn_135.2024-ip_camera.pdf&#34;&gt;QCVN-135&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&#34;-rust-for-arm&#34;&gt;👉 Rust-for-ARM&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Các thiết bị Camera chạy &lt;code&gt;linux nhúng&lt;/code&gt;, thường sẽ có một cổng UART để debug. Nhưng để lấy đc các thông tin debug này khá là phiền phức&lt;/li&gt;
-&lt;li&gt;Do đó mình sẽ cần viết một công cụ để thể &lt;strong&gt;lấy log từ UART&lt;/strong&gt; và &lt;strong&gt;lưu nó vào trong thẻ nhớ&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
       <author>Vincent</author>

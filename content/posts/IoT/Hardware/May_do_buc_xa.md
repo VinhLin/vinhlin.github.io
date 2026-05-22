@@ -4,7 +4,7 @@ date = 2026-05-22T10:05:50+07:00
 draft = true
 +++
 
-Máy đo bức xạ điện từ FNIRSI® ERD-10 4-IN-1 Electromagnetic Radiation Detector
+[Máy đo bức xạ điện từ FNIRSI® ERD-10 4-IN-1 Electromagnetic Radiation Detector](https://hshop.vn/may-do-buc-xa-dien-tu-fnirsi-erd-10-4-in-1-electromagnetic-radiation-detector)
 
 ![Hinh 1](/image/IoT/May_do_buc_xa/Hinh_1.webp)
 
