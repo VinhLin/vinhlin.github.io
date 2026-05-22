@@ -14,6 +14,52 @@
     
     
     <item>
+      <title>May_do_buc_xa</title>
+      <link>https://vinhlin.github.io/posts/iot/hardware/may_do_buc_xa/</link>
+      <description>&lt;p&gt;Máy đo bức xạ điện từ FNIRSI® ERD-10 4-IN-1 Electromagnetic Radiation Detector&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/May_do_buc_xa/Hinh_1.webp&#34;
+  alt=&#34;Hinh 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Mua máy này là để kiểm tra nhiễu điện từ &lt;em&gt;(nhưng không đo được vùng gây nhiễu GPS)&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Theo thông tin từ GPT&lt;/strong&gt;: &lt;em&gt;Hệ thống định vị toàn cầu GPS hoạt động ở các tần số vi ba cực cao và rất cụ thể, phổ biến nhất là dải &lt;strong&gt;L1 (1575.42 MHz)&lt;/strong&gt; và &lt;strong&gt;L2 (1227.60 MHz)&lt;/strong&gt;. Các thiết bị gây nhiễu GPS (GPS jammers) sẽ phát ra sóng nhiễu nhắm chính xác vào dải tần số từ 1,2 GHz đến 1,6 GHz này để đè bọc tín hiệu vệ tinh.&lt;/em&gt; &lt;/br&gt;
+&lt;em&gt;Máy đo ERD-10: Thiết bị này được thiết kế chủ yếu để đo các &lt;strong&gt;bức xạ điện từ trường dải rộng phổ thông&lt;/strong&gt; trong đời sống và tần số thấp (như dòng điện 50Hz/60Hz từ lưới điện, thiết bị gia dụng) hoặc dải tần số cao RF ở mức độ tổng quát (như sóng Wi-Fi 2.4GHz, sóng trạm BTS).&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;các-chức-năng-chính---sản-phẩm-này-có-khả-năng-đo-lường-đồng-thời-nhiều-thông-số-bao-gồm&#34;&gt;Các chức năng chính - Sản phẩm này có khả năng đo lường đồng thời nhiều thông số, bao gồm:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Điện trường (Electric Field - EF)&lt;/li&gt;
+&lt;li&gt;Từ trường (Magnetic Field - MF)&lt;/li&gt;
+&lt;li&gt;Công suất tần số vô tuyến (Radio Frequency - RF)&lt;/li&gt;
+&lt;li&gt;Nhiệt độ môi trường&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/May_do_buc_xa/Hinh_2.png&#34;
+  alt=&#34;Hinh 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;tài-liệu-hướng-dẫn-sử-dụng&#34;&gt;Tài liệu hướng dẫn sử dụng:&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://www.fnirsi.com/products/erd-10
+https://cdn.shopify.com/s/files/1/0694/8310/2426/files/ERD-10_User_Manual_EN_ZH.pdf?v=1747730537
+https://manuals.plus/vi/fnirsi/erd-10-electromagnetic-radiation-detector-manual
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;a href=&#34;https://vinhlin.github.io/docs/Tai_lieu_tong_hop_Nguong_an_toan.pdf&#34;&gt;Tài liệu tổng hợp về các Ngưỡng an toàn&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Mình sẽ sử dụng máy này để kiểm tra khu vực xung quanh phòng, hạn chế những &lt;strong&gt;điện/từ trường&lt;/strong&gt; ảnh hưởng đến sức khỏe con người.&lt;/p&gt;
+</description>
+      <author>Vincent</author>
+      <guid>https://vinhlin.github.io/posts/iot/hardware/may_do_buc_xa/</guid>
+      <pubDate>Fri, 22 May 2026 10:05:50 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Proxy_Caddy</title>
       <link>https://vinhlin.github.io/posts/system-devops/proxy_caddy/</link>
       <description>&lt;p&gt;Mình có 2 đường link camera để xem stream:&lt;/p&gt;
@@ -588,7 +634,15 @@ RTSP - 554
 
 &lt;/p&gt;
 &lt;h3 id=&#34;esp32-r32&#34;&gt;ESP32-R32&lt;/h3&gt;
-&lt;p&gt;![Hình 3(/image/IoT/MCU_Board_Pinout/pinout-R32-compressor.png)&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/MCU_Board_Pinout/pinout-R32-compressor.png&#34;
+  alt=&#34;Hình 3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
 &lt;h3 id=&#34;stm32f103&#34;&gt;STM32F103&lt;/h3&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/IoT/MCU_Board_Pinout/stm32f103-pinout-diagram.png&#34;
@@ -673,9 +727,24 @@ RTSP - 554
 
 &lt;/p&gt;
 &lt;h3 id=&#34;so-sánh-thế-hệ-wifi&#34;&gt;So sánh thế hệ WiFi&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Tham khảo bảng 1:&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/Others/Basic_Knowledge/Hinh_6.png&#34;
   alt=&#34;Hình 6&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tham khảo bảng 2:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/Basic_Knowledge/Hinh_6-1.png&#34;
+  alt=&#34;Hình 6-1&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
   class=&#34;full-width&#34;
@@ -13007,6 +13076,7 @@ GDT - Gas Discharge Tube
 /&gt;
 
 &lt;/p&gt;
+&lt;h3 id=&#34;chatbox-xiaozhi-aihttpswwwunihikercomwikik10playgroundxiaozhiai&#34;&gt;&lt;a href=&#34;https://www.unihiker.com/wiki/K10/Playground/XiaozhiAI/&#34;&gt;Chatbox Xiaozhi AI&lt;/a&gt;&lt;/h3&gt;
 </description>
       <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/hardware/unihiker/</guid>

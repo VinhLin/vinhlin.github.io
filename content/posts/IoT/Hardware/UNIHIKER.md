@@ -11,8 +11,7 @@ draft = true
 ### [Sản phẩm](https://www.proe.vn/unihiker-iot-python-programming-single-board-computer-with-touchscreen)
 ![SP](https://cdn.mos.cms.futurecdn.net/KRLwXFfy86ybfwUdzxmaFm-1200-80.jpg)
 
-
-
+### [Chatbox Xiaozhi AI](https://www.unihiker.com/wiki/K10/Playground/XiaozhiAI/)
 
 
 

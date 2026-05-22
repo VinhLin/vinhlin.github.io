@@ -20,7 +20,7 @@ Ngoài ra, trang web này cũng rất hay và hữu ích để mình search kỹ
 
 ### ESP32-R32
 
-![Hình 3(/image/IoT/MCU_Board_Pinout/pinout-R32-compressor.png)
+![Hình 3](/image/IoT/MCU_Board_Pinout/pinout-R32-compressor.png)
 
 ### STM32F103
 

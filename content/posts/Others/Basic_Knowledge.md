@@ -33,8 +33,13 @@ Thôi thi bây giờ, tận dụng blog để mốt cần gì, lên đây search
 ![Hình 5](/image/Others/Basic_Knowledge/Hinh_5.png)
 
 ### So sánh thế hệ WiFi
+- Tham khảo bảng 1:
 
 ![Hình 6](/image/Others/Basic_Knowledge/Hinh_6.png)
+
+- Tham khảo bảng 2:
+
+![Hình 6-1](/image/Others/Basic_Knowledge/Hinh_6-1.png)
 
 ### Định nghĩa WiFi Hostpot
 
