@@ -131,6 +131,7 @@ hugo new posts/IoT/Hardware/Dashcam_Power.md
 hugo new posts/IoT/Hardware/Camera_A9_Teardown.md
 hugo new posts/IoT/Hardware/Solar_Led_Teardown.md
 hugo new posts/IoT/Hardware/May_do_buc_xa.md
+hugo new posts/IoT/Hardware/Cac_dong_ESP32.md
 ```
 - Software
 ```

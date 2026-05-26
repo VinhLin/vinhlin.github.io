@@ -42,6 +42,7 @@ STT |		Tiêu đề			|		Mô tả				|
 30  | [Camera_A9_Teardown][Camera_A9_Teardown] | Hardware Teardown Camera A9 		|
 31  | [Solar_Led_Teardown][Solar_Led_Teardown] | Teardown của một bộ led dùng năng lượng mặt trời	|
 32  | [May_do_buc_xa][May_do_buc_xa]	| Ghi chú về **máy đo bức xạ**			|
+33  | [Cac_dong_ESP32][Cac_dong_ESP32]	| Ghi chú lại về **các dòng MCU ESP32**		|
 
 [UNIHIKER]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/unihiker/
 [ESD]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/esd/
@@ -75,6 +76,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [Camera_A9_Teardown]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/camera_a9_teardown/
 [Solar_Led_Teardown]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/solar_led_teardown/
 [May_do_buc_xa]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/may_do_buc_xa/
+[Cac_dong_ESP32]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/cac_dong_esp32/
 
 ## ***SOFTWARE***
 

@@ -16,6 +16,21 @@
 
     
     {
+      "id": "00975956642db3bd14d919385d10929a27a07b7e",
+      "title": "Cac_dong_ESP32",
+      "summary": "",
+      "content_text": "Mình bắt đầu tìm hiểu lại dòng MCU ESP32\nCũng khá lâu, hiện giờ dòng ESP32 đã ra rất nhiều model, nên mình sẽ cần note lại về sự khác nhau giữa các model.\nTham khảo GPT Tham khảo video youtube: ESP32 Guide 2026 Và đây một số mạch minh họa để nhận diện: Hình 1: Hình 2: Hình 3: Tên gọi, model và so sánh:\n",
+      "content_html": "\u003cp\u003eMình bắt đầu tìm hiểu lại dòng \u003cstrong\u003eMCU ESP32\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eCũng khá lâu, hiện giờ dòng ESP32 đã ra rất nhiều model, nên mình sẽ cần note lại về sự khác nhau giữa các model.\u003c/p\u003e\n\u003ch3 id=\"tham-khảo-gpt\"\u003eTham khảo GPT\u003c/h3\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/IoT/Cac_dong_ESP32/Hinh_1.png\"\n  alt=\"Hình 1\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/IoT/Cac_dong_ESP32/Hinh_2.png\"\n  alt=\"Hình 2\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003ch3 id=\"tham-khảo-video-youtube-esp32-guide-2026httpswwwyoutubecomwatchvcfijinych7u\"\u003eTham khảo video youtube: \u003ca href=\"https://www.youtube.com/watch?v=CfIjInYch7U\"\u003eESP32 Guide 2026\u003c/a\u003e\u003c/h3\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/IoT/Cac_dong_ESP32/Hinh_3.png\"\n  alt=\"Hình 3\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003ch3 id=\"và-đây-một-số-mạch-minh-họa-để-nhận-diện\"\u003eVà đây một số mạch minh họa để nhận diện:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eHình 1:\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/IoT/Cac_dong_ESP32/Sample_1.jpg\"\n  alt=\"Sample_1\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eHình 2:\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/IoT/Cac_dong_ESP32/Sample_2.jpg\"\n  alt=\"Sample_2\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eHình 3:\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/IoT/Cac_dong_ESP32/Sample_3.jpg\"\n  alt=\"Sample_3\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003cp\u003eTên gọi, model và so sánh:\u003c/p\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/IoT/Cac_dong_ESP32/Sample_4.jpg\"\n  alt=\"Sample_4\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/IoT/Cac_dong_ESP32/Sample_5.jpg\"\n  alt=\"Sample_5\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/IoT/Cac_dong_ESP32/Sample_6.jpg\"\n  alt=\"Sample_6\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003cp\u003e\u003cimg\n  src=\"/image/IoT/Cac_dong_ESP32/Sample_7.jpg\"\n  alt=\"Sample_7\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n",
+      "url": "https://vinhlin.github.io/posts/iot/hardware/cac_dong_esp32/",
+      "date_published": "26056-26-09T524:2626:00+07:00",
+      "date_modified": "26056-26-09T524:2626:00+07:00",
+      "author": {
+        "name": "Vincent",
+        "url": "https://vinhlin.github.io/"
+      }
+    },
+    
+    {
       "id": "8bca6e87a227ca87be9b06c965660034ce2f5b4a",
       "title": "Samsung_Switch",
       "summary": "",
