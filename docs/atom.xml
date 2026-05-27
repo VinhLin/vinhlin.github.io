@@ -47,6 +47,15 @@
 /&gt;
 
 &lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/Cac_dong_ESP32/Hinh_4.png&#34;
+  alt=&#34;Hình 4&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
 &lt;h3 id=&#34;và-đây-một-số-mạch-minh-họa-để-nhận-diện&#34;&gt;Và đây một số mạch minh họa để nhận diện:&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Hình 1:&lt;/li&gt;
@@ -64,7 +73,7 @@
 &lt;li&gt;Hình 2:&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Cac_dong_ESP32/Sample_2.jpg&#34;
+  src=&#34;https://vinhlin.github.io/image/IoT/Cac_dong_ESP32/Sample_2.webp&#34;
   alt=&#34;Sample_2&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -76,7 +85,7 @@
 &lt;li&gt;Hình 3:&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Cac_dong_ESP32/Sample_3.jpg&#34;
+  src=&#34;https://vinhlin.github.io/image/IoT/Cac_dong_ESP32/Sample_3.webp&#34;
   alt=&#34;Sample_3&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -86,7 +95,7 @@
 &lt;/p&gt;
 &lt;p&gt;Tên gọi, model và so sánh:&lt;/p&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Cac_dong_ESP32/Sample_4.jpg&#34;
+  src=&#34;https://vinhlin.github.io/image/IoT/Cac_dong_ESP32/Sample_4.png&#34;
   alt=&#34;Sample_4&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -95,7 +104,7 @@
 
 &lt;/p&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Cac_dong_ESP32/Sample_5.jpg&#34;
+  src=&#34;https://vinhlin.github.io/image/IoT/Cac_dong_ESP32/Sample_5.png&#34;
   alt=&#34;Sample_5&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -104,7 +113,7 @@
 
 &lt;/p&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Cac_dong_ESP32/Sample_6.jpg&#34;
+  src=&#34;https://vinhlin.github.io/image/IoT/Cac_dong_ESP32/Sample_6.png&#34;
   alt=&#34;Sample_6&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -113,7 +122,7 @@
 
 &lt;/p&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/IoT/Cac_dong_ESP32/Sample_7.jpg&#34;
+  src=&#34;https://vinhlin.github.io/image/IoT/Cac_dong_ESP32/Sample_7.png&#34;
   alt=&#34;Sample_7&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -121,6 +130,29 @@
 /&gt;
 
 &lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;tổng-hợp-các-dự-án-open-source-dùng-esp32&#34;&gt;Tổng hợp các dự án open-source dùng ESP32&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Mình sẽ lưu và tổng hợp lại các dự án trên github về ESP32.&lt;/li&gt;
+&lt;li&gt;Từ các dự án IoT, các công cụ pentest cho Security, cho đến các dự án AI.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;iot&#34;&gt;IoT&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Dự án &lt;a href=&#34;https://shogunxam.github.io/ESP32_BLETracker/&#34;&gt;ESP32 BLETracker&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Dự án &lt;a href=&#34;https://github.com/alexanderlavrushko/BLE-HUD-navigation-ESP32&#34;&gt;BLE-HUD-navigation-ESP32&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Github &lt;a href=&#34;https://github.com/kimdung/cyberhud&#34;&gt;kimdung/cyberhud&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;pentest-tools&#34;&gt;Pentest Tools&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Bài viết &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/security_hardware_tools/&#34;&gt;&lt;code&gt;Security_Hardware_Tools&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Công cụ &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/ghost_esp/&#34;&gt;Ghost_ESP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Github &lt;a href=&#34;https://github.com/hackgnar/ble_ctf&#34;&gt;BLE Capture the Flag&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ai&#34;&gt;AI&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Bài viết về &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/iot/hardware/xiaozhi_esp32/&#34;&gt;Xiaozhi_ESP32&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Đặc biệt là dự án &lt;a href=&#34;https://github.com/ruvnet/RuView&#34;&gt;ruvnet/RuView&lt;/a&gt;: Dự án phát triển hệ thống &lt;strong&gt;nhận diện và theo dõi con người bằng cách tận dụng tín hiệu sóng WiFi&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
       <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/hardware/cac_dong_esp32/</guid>
@@ -131,6 +163,7 @@
       <title>Samsung_Switch</title>
       <link>https://vinhlin.github.io/posts/others/samsung_switch/</link>
       <description>&lt;p&gt;Bữa mẹ mình có mua một chiếc Samsung mới. Người tư vấn nói là có thể dùng &lt;strong&gt;Samsung Switch&lt;/strong&gt; để đồng bộ dữ liệu từ chiếc di động cũ sang chiếc samsung này.&lt;/p&gt;
+&lt;p&gt;Thế là mình ngâm cứu và tìm hiểu thêm về ứng dụng này.&lt;/p&gt;
 &lt;h3 id=&#34;samsung-switchhttpswwwyoutubecomwatchvkrjwuis3c70-là-gì&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=kRjwUiS3C70&#34;&gt;Samsung Switch&lt;/a&gt; là gì?&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;Tham khảo bài viết &lt;a href=&#34;https://cellphones.com.vn/sforum/smart-switch-la-gi&#34;&gt;Smart Switch là gì? Cách truyền, đồng bộ dữ liệu trên Samsung&lt;/a&gt;&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
@@ -145,7 +178,7 @@
 
 &lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Nhìn chung đây là một ứng dụng giúp mình đồng bộ dữ liệu của Samsung.&lt;/li&gt;
+&lt;li&gt;Nhìn chung đây là một ứng dụng giúp mình đồng bộ dữ liệu qua cho máy Samsung.&lt;/li&gt;
 &lt;li&gt;Trên máy samsung thì có sẵn tính năng này rồi, còn trên chiếc điện thoại còn lại cần tải app &lt;a href=&#34;https://www.samsung.com/vn/apps/smart-switch/?srsltid=AfmBOopjn5NdSo2jXZNGx4_hRa7j7IWI9y0IJdjru86ehjGXTOr4I-5e&#34;&gt;Samsung Switch&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Mình kết nối cáp giữa 2 máy, và làm theo hướng dẫn:&lt;/li&gt;
 &lt;/ul&gt;
@@ -161,7 +194,7 @@
 &lt;ul&gt;
 &lt;li&gt;Cuối cùng thì cũng xong, cũng không quá lâu. Dữ liệu được đồng bộ từ file ảnh, cho đến các ứng dụng cài đặt và một số setting.&lt;/li&gt;
 &lt;li&gt;Các ứng dụng thì mình cần đăng nhập lại và tiến hành xác thực trên thiết bị di động &lt;em&gt;(đặc biệt là app ngân hàng)&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Nhìn chung thì một kiến thức mới đã được tiếp thu.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Một kiến thức mới đã được tiếp thu&lt;/strong&gt;. =]]&lt;/li&gt;
 &lt;/ul&gt;
 </description>
       <author>Vincent</author>
@@ -202,12 +235,17 @@
 
 &lt;/p&gt;
 &lt;p&gt;Theo thông tin thì loại này mua về xài luôn, còn không thì hiệu chỉnh lại.&lt;/p&gt;
-&lt;p&gt;Con nếu cần hiệu chỉnh thì tham khảo [video này](&lt;a href=&#34;https://www.youtube.com/watch?v=YkrsGFfNB5E&#34;&gt;https://www.youtube.com/watch?v=YkrsGFfNB5E&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Theo AI thì:&lt;/p&gt;
+&lt;p&gt;Con nếu cần hiệu chỉnh thì tham khảo video: &lt;a href=&#34;https://www.youtube.com/watch?v=YkrsGFfNB5E&#34;&gt;Hướng dẫn hiệu chuẩn bút đo pH chính xác, nhanh chóng&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tham khảo thêm GPT thì:&lt;/li&gt;
+&lt;/ul&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Nếu nước có mùi lạ, màu lạ, nhiều cặn, hoặc nghi nhiễm bẩn thì pH không đủ để kết luận nước an toàn.&lt;/em&gt; &lt;/br&gt;
-&lt;em&gt;pH chỉ là một chỉ số, không nói lên vi sinh, kim loại nặng, TDS, clo dư, amoni, nitrit, v.v.&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Nếu nước có mùi lạ, màu lạ, nhiều cặn, hoặc nghi nhiễm bẩn thì pH không đủ để kết luận nước an toàn. &lt;strong&gt;pH chỉ là một chỉ số&lt;/strong&gt;, không nói lên vi sinh, kim loại nặng, TDS, clo dư, amoni, nitrit, v.v.&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Với mục tiêu ban đầu để test nhanh nước sinh hoạt thì cây bút đo này ok rồi.&lt;/li&gt;
+&lt;li&gt;Sau này mình có thể sẽ mua thêm bút đo TDS nữa. =]]&lt;/li&gt;
+&lt;/ul&gt;
 </description>
       <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/others/but_do_ph/</guid>

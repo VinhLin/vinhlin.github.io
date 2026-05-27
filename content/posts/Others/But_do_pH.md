@@ -20,9 +20,11 @@ Mình mua là để đo, test nhanh về độ pH của nước sinh hoạt.
 
 Theo thông tin thì loại này mua về xài luôn, còn không thì hiệu chỉnh lại.
 
-Con nếu cần hiệu chỉnh thì tham khảo [video này](https://www.youtube.com/watch?v=YkrsGFfNB5E
+Con nếu cần hiệu chỉnh thì tham khảo video: [Hướng dẫn hiệu chuẩn bút đo pH chính xác, nhanh chóng](https://www.youtube.com/watch?v=YkrsGFfNB5E)
 
-Theo AI thì:
-> *Nếu nước có mùi lạ, màu lạ, nhiều cặn, hoặc nghi nhiễm bẩn thì pH không đủ để kết luận nước an toàn.* </br>
-> *pH chỉ là một chỉ số, không nói lên vi sinh, kim loại nặng, TDS, clo dư, amoni, nitrit, v.v.* </br>
+- Tham khảo thêm GPT thì:
+> *Nếu nước có mùi lạ, màu lạ, nhiều cặn, hoặc nghi nhiễm bẩn thì pH không đủ để kết luận nước an toàn. **pH chỉ là một chỉ số**, không nói lên vi sinh, kim loại nặng, TDS, clo dư, amoni, nitrit, v.v.* </br>
+
+- Với mục tiêu ban đầu để test nhanh nước sinh hoạt thì cây bút đo này ok rồi.
+- Sau này mình có thể sẽ mua thêm bút đo TDS nữa. =]]
 
