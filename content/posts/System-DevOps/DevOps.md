@@ -91,3 +91,9 @@ docker run -d -p 8080:80 --name it-tools -it corentinth/it-tools
 ![DevOps Roadmap 1](/image/System-DevOps/DevOps/DevOps_Roadmap_1.jpg)
 
 ![DevOps Roadmap 2](/image/System-DevOps/DevOps/DevOps_Roadmap_2.jpg)
+
+- **AI OPS Engineer**
+
+![AI OPS](/image/System-DevOps/DevOps/AI_OPS.jpg)
+
+

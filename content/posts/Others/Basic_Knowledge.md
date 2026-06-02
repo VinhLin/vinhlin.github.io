@@ -28,7 +28,7 @@ Thôi thi bây giờ, tận dụng blog để mốt cần gì, lên đây search
 
 ![Hình 4](/image/Others/Basic_Knowledge/Hinh_4.png)
 
-### Bảng màu
+### Bảng màu (RGB)
 
 ![Hình 5](/image/Others/Basic_Knowledge/Hinh_5.png)
 

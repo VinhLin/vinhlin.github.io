@@ -62,6 +62,8 @@ ACC -> Cầu chì USB (Khi mở máy thì sẽ là 12VDC)
 ```
 Ngoài ra có một số vị trí cũng có điện thường trực hay độ rủi ro sẽ lớn hơn so với vị trí ghế điện.
 
+![Automotive Fuse](/image/IoT/Cau_chi_Oto/Automotive_Fuse.jpg)
+
 Về nguyên tắc thì bất kì món nào mình lắp lên xe và khi xảy ra sự cố thì **hãng đều có quyền từ chối bảo hành**.
 
 Cho dù có lắp camera hành trình với nguồn tẩu thuốc đi chăng nữa.

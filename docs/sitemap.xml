@@ -2,10 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://vinhlin.github.io/posts/iot/hardware/cac_dong_esp32/</loc>
-    <lastmod>2026-05-26T21:24:42+07:00</lastmod>
+    <loc>https://vinhlin.github.io/posts/iot/hardware/fpt_ip_camera/</loc>
+    <lastmod>2026-06-02T13:45:16+07:00</lastmod>
   </url><url>
     <loc>https://vinhlin.github.io/posts/</loc>
+    <lastmod>2026-06-02T13:45:16+07:00</lastmod>
+  </url><url>
+    <loc>https://vinhlin.github.io/posts/iot/hardware/cac_dong_esp32/</loc>
     <lastmod>2026-05-26T21:24:42+07:00</lastmod>
   </url><url>
     <loc>https://vinhlin.github.io/posts/others/samsung_switch/</loc>
