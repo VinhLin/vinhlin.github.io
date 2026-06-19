@@ -18,6 +18,10 @@ https://github.com/nfcgate/nfcgate/blob/v2/doc/Compatibility.md
 https://github.com/nfcgate/nfcgate/tree/v2/doc/mode
 ```
 
+## NFC Antenna
+
+![Hinh 1](/image/CyberSecurity/NFC_PWA/Hinh_1.jpg)
+
 ----------------------------------------------------------------------------------
 ## Ghi chú theo cách hiểu của bản thân
 - Lúc trước mình có tìm hiểu qua về **Web PWA** (lúc đó có nghiên cứu về *bluetooth* trên di động).

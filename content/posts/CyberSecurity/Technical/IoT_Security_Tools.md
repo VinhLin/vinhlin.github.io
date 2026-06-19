@@ -36,7 +36,9 @@ Lụm được bài viết tập hợp **các công cụ software hỗ trợ pen
 
 ![Hình 8](/image/CyberSecurity/IoT_Security_Tools/Hinh_8.jpg)
 
-*Có những công cụ đã biết, nhưng cũng có công cụ chưa biết. Mình cứ việc note lại tất cả.*
+*Có những công cụ đã biết, nhưng cũng có công cụ chưa biết.*
+
+*Mình cứ việc note lại tất cả thôi. =]]*
 
 ![Hình 9](/image/CyberSecurity/IoT_Security_Tools/Hinh_9.jpg)
 

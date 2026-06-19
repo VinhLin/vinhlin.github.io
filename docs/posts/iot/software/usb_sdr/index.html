@@ -17,30 +17,32 @@
       })();
     </script>
     <meta name="author" content="Liste - https://vinhlin.github.io/">
-    <title>IoT_Security_Tools | VinhLD</title>
+    <title>USB_SDR | VinhLD</title>
     <meta name="description" content="Technology Blog">
-    <meta property="og:url" content="https://vinhlin.github.io/posts/cybersecurity/technical/iot_security_tools/">
+    <meta property="og:url" content="https://vinhlin.github.io/posts/iot/software/usb_sdr/">
 	<meta property="og:site_name" content="VinhLD">
-	<meta property="og:title" content="IoT_Security_Tools">
-	<meta property="og:description" content="Lụm được bài viết tập hợp các công cụ software hỗ trợ pentest thiết bị IoT.
-Shodan Censys Nmap Nuclei Pocsuite3 OSMedeus Routersploit Có những công cụ đã biết, nhưng cũng có công cụ chưa biết.
-Mình cứ việc note lại tất cả thôi. =]]">
+	<meta property="og:title" content="USB_SDR">
+	<meta property="og:description" content="Bữa mình đã mua một USB-SDR (hơn 750K trên shopee).
+Khái niệm về SDR mình biết lâu rồi, nhưng lúc đó kiến thức còn hạn chế và chưa có dịp để nghiên cứu.
+Bây giờ mới có thời gian note lại. =]]
+Mục tiêu: Khi tìm hiểu về hacking, đặc biệt là Hardware Hacking thì sẽ phải tiếp xúc đến tín hiệu RF. Nếu mình muốn đi sâu vào mảng này, thì phải dần dần tìm hiểu về SDR. Ngoài ra khi làm về camera, và đụng đến mấy vụ đo kiểm, mình bắt đầu ngớ ngớ nhận ra: SDR mặc dù không đo được các sóng hoặc tín hiệu WiFi, nhưng nếu là 4G thì vẫn có thể">
 	<meta property="og:locale" content="en_us">
 	<meta property="og:type" content="article">
 		<meta property="article:section" content="posts">
-		<meta property="article:published_time" content="2026-06-19T12:12:51+07:00">
-		<meta property="article:modified_time" content="2026-06-19T12:12:51+07:00">
+		<meta property="article:published_time" content="2026-06-19T17:02:30+07:00">
+		<meta property="article:modified_time" content="2026-06-19T17:02:30+07:00">
 
     
-	<meta itemprop="name" content="IoT_Security_Tools">
-	<meta itemprop="description" content="Lụm được bài viết tập hợp các công cụ software hỗ trợ pentest thiết bị IoT.
-Shodan Censys Nmap Nuclei Pocsuite3 OSMedeus Routersploit Có những công cụ đã biết, nhưng cũng có công cụ chưa biết.
-Mình cứ việc note lại tất cả thôi. =]]">
-	<meta itemprop="datePublished" content="2026-06-19T12:12:51+07:00">
-	<meta itemprop="dateModified" content="2026-06-19T12:12:51+07:00">
-	<meta itemprop="wordCount" content="45">
+	<meta itemprop="name" content="USB_SDR">
+	<meta itemprop="description" content="Bữa mình đã mua một USB-SDR (hơn 750K trên shopee).
+Khái niệm về SDR mình biết lâu rồi, nhưng lúc đó kiến thức còn hạn chế và chưa có dịp để nghiên cứu.
+Bây giờ mới có thời gian note lại. =]]
+Mục tiêu: Khi tìm hiểu về hacking, đặc biệt là Hardware Hacking thì sẽ phải tiếp xúc đến tín hiệu RF. Nếu mình muốn đi sâu vào mảng này, thì phải dần dần tìm hiểu về SDR. Ngoài ra khi làm về camera, và đụng đến mấy vụ đo kiểm, mình bắt đầu ngớ ngớ nhận ra: SDR mặc dù không đo được các sóng hoặc tín hiệu WiFi, nhưng nếu là 4G thì vẫn có thể">
+	<meta itemprop="datePublished" content="2026-06-19T17:02:30+07:00">
+	<meta itemprop="dateModified" content="2026-06-19T17:02:30+07:00">
+	<meta itemprop="wordCount" content="260">
     
-    <link rel="canonical" href="https://vinhlin.github.io/posts/cybersecurity/technical/iot_security_tools/">
+    <link rel="canonical" href="https://vinhlin.github.io/posts/iot/software/usb_sdr/">
     <link rel="icon" href="https://vinhlin.github.io//assets/favicon.ico">
     <link rel="dns-prefetch" href="https://www.google-analytics.com">
     <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
@@ -59,15 +61,15 @@ Mình cứ việc note lại tất cả thôi. =]]">
       "@context": "http://schema.org",
       "@type": "BlogPosting",
       "articleSection": "posts",
-      "name": "IoT_Security_Tools",
-      "headline": "IoT_Security_Tools",
+      "name": "USB_SDR",
+      "headline": "USB_SDR",
       "alternativeHeadline": "",
-      "description": "\u003cp\u003eLụm được bài viết tập hợp \u003cstrong\u003ecác công cụ software hỗ trợ pentest\u003c\/strong\u003e thiết bị IoT.\u003c\/p\u003e\n\u003cp\u003e\u003cimg\n  src=\u0022\/image\/CyberSecurity\/IoT_Security_Tools\/Hinh_1.jpg\u0022\n  alt=\u0022Hình 1\u0022\n  loading=\u0022lazy\u0022\n  decoding=\u0022async\u0022\n  class=\u0022full-width\u0022\n\/\u003e\n\n\u003c\/p\u003e\n\u003ch3 id=\u0022shodan\u0022\u003eShodan\u003c\/h3\u003e\n\u003cp\u003e\u003cimg\n  src=\u0022\/image\/CyberSecurity\/IoT_Security_Tools\/Hinh_2.jpg\u0022\n  alt=\u0022Hình 2\u0022\n  loading=\u0022lazy\u0022\n  decoding=\u0022async\u0022\n  class=\u0022full-width\u0022\n\/\u003e\n\n\u003c\/p\u003e\n\u003ch3 id=\u0022censys\u0022\u003eCensys\u003c\/h3\u003e\n\u003cp\u003e\u003cimg\n  src=\u0022\/image\/CyberSecurity\/IoT_Security_Tools\/Hinh_3.jpg\u0022\n  alt=\u0022Hình 3\u0022\n  loading=\u0022lazy\u0022\n  decoding=\u0022async\u0022\n  class=\u0022full-width\u0022\n\/\u003e\n\n\u003c\/p\u003e\n\u003ch3 id=\u0022nmap\u0022\u003eNmap\u003c\/h3\u003e\n\u003cp\u003e\u003cimg\n  src=\u0022\/image\/CyberSecurity\/IoT_Security_Tools\/Hinh_4.jpg\u0022\n  alt=\u0022Hình 4\u0022\n  loading=\u0022lazy\u0022\n  decoding=\u0022async\u0022\n  class=\u0022full-width\u0022\n\/\u003e\n\n\u003c\/p\u003e\n\u003ch3 id=\u0022nuclei\u0022\u003eNuclei\u003c\/h3\u003e\n\u003cp\u003e\u003cimg\n  src=\u0022\/image\/CyberSecurity\/IoT_Security_Tools\/Hinh_5.jpg\u0022\n  alt=\u0022Hình 5\u0022\n  loading=\u0022lazy\u0022\n  decoding=\u0022async\u0022\n  class=\u0022full-width\u0022\n\/\u003e\n\n\u003c\/p\u003e\n\u003ch3 id=\u0022pocsuite3\u0022\u003ePocsuite3\u003c\/h3\u003e\n\u003cp\u003e\u003cimg\n  src=\u0022\/image\/CyberSecurity\/IoT_Security_Tools\/Hinh_6.jpg\u0022\n  alt=\u0022Hình 6\u0022\n  loading=\u0022lazy\u0022\n  decoding=\u0022async\u0022\n  class=\u0022full-width\u0022\n\/\u003e\n\n\u003c\/p\u003e\n\u003ch3 id=\u0022osmedeus\u0022\u003eOSMedeus\u003c\/h3\u003e\n\u003cp\u003e\u003cimg\n  src=\u0022\/image\/CyberSecurity\/IoT_Security_Tools\/Hinh_7.jpg\u0022\n  alt=\u0022Hình 7\u0022\n  loading=\u0022lazy\u0022\n  decoding=\u0022async\u0022\n  class=\u0022full-width\u0022\n\/\u003e\n\n\u003c\/p\u003e\n\u003ch3 id=\u0022routersploit\u0022\u003eRoutersploit\u003c\/h3\u003e\n\u003cp\u003e\u003cimg\n  src=\u0022\/image\/CyberSecurity\/IoT_Security_Tools\/Hinh_8.jpg\u0022\n  alt=\u0022Hình 8\u0022\n  loading=\u0022lazy\u0022\n  decoding=\u0022async\u0022\n  class=\u0022full-width\u0022\n\/\u003e\n\n\u003c\/p\u003e\n\u003cp\u003e\u003cem\u003eCó những công cụ đã biết, nhưng cũng có công cụ chưa biết.\u003c\/em\u003e\u003c\/p\u003e\n\u003cp\u003e\u003cem\u003eMình cứ việc note lại tất cả thôi. =]]\u003c\/em\u003e\u003c\/p\u003e\n\u003cp\u003e\u003cimg\n  src=\u0022\/image\/CyberSecurity\/IoT_Security_Tools\/Hinh_9.jpg\u0022\n  alt=\u0022Hình 9\u0022\n  loading=\u0022lazy\u0022\n  decoding=\u0022async\u0022\n  class=\u0022full-width\u0022\n\/\u003e\n\n\u003c\/p\u003e",
+      "description": "\u003cp\u003eBữa mình đã mua một \u003cstrong\u003eUSB-SDR\u003c\/strong\u003e \u003cem\u003e(hơn 750K trên shopee)\u003c\/em\u003e.\u003c\/p\u003e\n\u003cp\u003eKhái niệm về SDR mình biết lâu rồi, nhưng lúc đó kiến thức còn hạn chế và chưa có dịp để nghiên cứu.\u003c\/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003cem\u003eBây giờ mới có thời gian note lại. =]]\u003c\/em\u003e\u003c\/p\u003e\n\u003c\/blockquote\u003e\n\u003cp\u003e\u003cimg\n  src=\u0022\/image\/IoT\/USB_SDR\/SDR.jpg\u0022\n  alt=\u0022SDR\u0022\n  loading=\u0022lazy\u0022\n  decoding=\u0022async\u0022\n  class=\u0022full-width\u0022\n\/\u003e\n\n\u003c\/p\u003e\n\u003ch3 id=\u0022mục-tiêu\u0022\u003eMục tiêu:\u003c\/h3\u003e\n\u003cul\u003e\n\u003cli\u003eKhi tìm hiểu về hacking, đặc biệt là \u003cstrong\u003eHardware Hacking\u003c\/strong\u003e thì sẽ phải tiếp xúc đến \u003cstrong\u003etín hiệu RF\u003c\/strong\u003e. Nếu mình muốn đi sâu vào mảng này, thì phải dần dần tìm hiểu về \u003cstrong\u003eSDR\u003c\/strong\u003e.\u003c\/li\u003e\n\u003cli\u003eNgoài ra khi làm về camera, và đụng đến mấy vụ \u003cstrong\u003eđo kiểm\u003c\/strong\u003e, mình bắt đầu ngớ ngớ nhận ra:\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003cem\u003eSDR mặc dù \u003cstrong\u003ekhông đo được các sóng hoặc tín hiệu WiFi\u003c\/strong\u003e, nhưng nếu là \u003cstrong\u003e4G\u003c\/strong\u003e thì vẫn có thể\u003c\/em\u003e \u003c\/br\u003e\u003c\/p\u003e",
       "inLanguage": "en-us",
       "isFamilyFriendly": "true",
       "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https:\/\/vinhlin.github.io\/posts\/cybersecurity\/technical\/iot_security_tools\/"
+          "@id": "https:\/\/vinhlin.github.io\/posts\/iot\/software\/usb_sdr\/"
       },
       "author" : {
           "@type": "Person",
@@ -83,9 +85,9 @@ Mình cứ việc note lại tất cả thôi. =]]">
       },
       "copyrightHolder" : "VinhLD",
       "copyrightYear" : "2026",
-      "dateCreated": "2026-06-19T12:12:51.00Z",
-      "datePublished": "2026-06-19T12:12:51.00Z",
-      "dateModified": "2026-06-19T12:12:51.00Z",
+      "dateCreated": "2026-06-19T17:02:30.00Z",
+      "datePublished": "2026-06-19T17:02:30.00Z",
+      "dateModified": "2026-06-19T17:02:30.00Z",
       "publisher":{
           "@type":"Organization",
           "name": "VinhLD",
@@ -98,8 +100,8 @@ Mình cứ việc note lại tất cả thôi. =]]">
           }
       },
       "image": "https:\/\/vinhlin.github.io\/assets\/favicon.ico",
-      "url" : "https:\/\/vinhlin.github.io\/posts\/cybersecurity\/technical\/iot_security_tools\/",
-      "wordCount" : "45",
+      "url" : "https:\/\/vinhlin.github.io\/posts\/iot\/software\/usb_sdr\/",
+      "wordCount" : "260",
       "genre" : [ ],
       "keywords" : [ ]
   }
@@ -146,92 +148,128 @@ Mình cứ việc note lại tất cả thôi. =]]">
 
         
 <section>
-  <h2 class="post">IoT_Security_Tools</h2>
-  <p>Lụm được bài viết tập hợp <strong>các công cụ software hỗ trợ pentest</strong> thiết bị IoT.</p>
+  <h2 class="post">USB_SDR</h2>
+  <p>Bữa mình đã mua một <strong>USB-SDR</strong> <em>(hơn 750K trên shopee)</em>.</p>
+<p>Khái niệm về SDR mình biết lâu rồi, nhưng lúc đó kiến thức còn hạn chế và chưa có dịp để nghiên cứu.</p>
+<blockquote>
+<p><em>Bây giờ mới có thời gian note lại. =]]</em></p>
+</blockquote>
 <p><img
-  src="/image/CyberSecurity/IoT_Security_Tools/Hinh_1.jpg"
-  alt="Hình 1"
+  src="/image/IoT/USB_SDR/SDR.jpg"
+  alt="SDR"
   loading="lazy"
   decoding="async"
   class="full-width"
 />
 
 </p>
-<h3 id="shodan">Shodan</h3>
+<h3 id="mục-tiêu">Mục tiêu:</h3>
+<ul>
+<li>Khi tìm hiểu về hacking, đặc biệt là <strong>Hardware Hacking</strong> thì sẽ phải tiếp xúc đến <strong>tín hiệu RF</strong>. Nếu mình muốn đi sâu vào mảng này, thì phải dần dần tìm hiểu về <strong>SDR</strong>.</li>
+<li>Ngoài ra khi làm về camera, và đụng đến mấy vụ <strong>đo kiểm</strong>, mình bắt đầu ngớ ngớ nhận ra:</li>
+</ul>
+<blockquote>
+<p><em>SDR mặc dù <strong>không đo được các sóng hoặc tín hiệu WiFi</strong>, nhưng nếu là <strong>4G</strong> thì vẫn có thể</em> </br></p>
+</blockquote>
+<h3 id="compare-sdr-hardware">Compare SDR Hardware</h3>
 <p><img
-  src="/image/CyberSecurity/IoT_Security_Tools/Hinh_2.jpg"
-  alt="Hình 2"
+  src="/image/IoT/USB_SDR/Compare_SDR_Hardware.png"
+  alt="Compare_SDR_Hardware"
   loading="lazy"
   decoding="async"
   class="full-width"
 />
 
 </p>
-<h3 id="censys">Censys</h3>
+<h3 id="tổng-hợp-bài-viết">Tổng hợp bài viết:</h3>
+<ul>
+<li><a href="https://raspberrytips.com/flight-tracker-raspberry-pi/?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=my_pi_thinks_its_an_airport_tower&amp;utm_term=2026-06-17">I Built My Own Flight Tracker with a Raspberry Pi</a></li>
+<li><a href="https://raspberrytips.com/ham-radio-raspberry-pi/?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=you_ll_learn_something_new_today&amp;utm_term=2025-06-12">Getting Started with Ham Radio on Raspberry Pi</a></li>
+<li>Các bài viết tiếng Việt:</li>
+</ul>
+<pre tabindex="0"><code>http://arduino.vn/bai-viet/1363-gioi-thieu-sdr-ung-dung-matlab-va-rtl-sdr-trong-nghien-cuu-song-vo-tuyen-p1
+https://viblo.asia/p/nghe-len-du-lieu-gsm-900-su-dung-rtl-sdr-phan-1-V3m5WznylO7
+https://www2.t17lab.com/blog/gioi-thieu-sdr-va-rtl-sdr-2018/
+</code></pre><ul>
+<li>Learning:</li>
+</ul>
+<pre tabindex="0"><code>https://greatscottgadgets.com/sdr/
+https://greatscottgadgets.com/sdr/1/
+https://www.youtube.com/watch?v=BeeSN14JUYU&amp;list=PLu0BPYzTjiHru1KmPThmbY-8rRm3EWvUQ
+https://airspy.com/download/
+</code></pre><ul>
+<li>Kết quả test ban đầu <em>(tạm ổn)</em>:</li>
+</ul>
 <p><img
-  src="/image/CyberSecurity/IoT_Security_Tools/Hinh_3.jpg"
-  alt="Hình 3"
+  src="/image/IoT/USB_SDR/Result.png"
+  alt="Result"
   loading="lazy"
   decoding="async"
   class="full-width"
 />
 
 </p>
-<h3 id="nmap">Nmap</h3>
+<hr>
+<h2 id="một-số-hình-ảnh-khác-mà-mình-thu-thập-được">Một số hình ảnh khác mà mình thu thập được</h2>
+<h3 id="các-loại-anten">Các loại Anten</h3>
 <p><img
-  src="/image/CyberSecurity/IoT_Security_Tools/Hinh_4.jpg"
-  alt="Hình 4"
+  src="/image/IoT/USB_SDR/Hinh_1.jpg"
+  alt="Hinh 1"
   loading="lazy"
   decoding="async"
   class="full-width"
 />
 
 </p>
-<h3 id="nuclei">Nuclei</h3>
 <p><img
-  src="/image/CyberSecurity/IoT_Security_Tools/Hinh_5.jpg"
-  alt="Hình 5"
+  src="/image/IoT/USB_SDR/Hinh_2.jpg"
+  alt="Hinh 2"
   loading="lazy"
   decoding="async"
   class="full-width"
 />
 
 </p>
-<h3 id="pocsuite3">Pocsuite3</h3>
 <p><img
-  src="/image/CyberSecurity/IoT_Security_Tools/Hinh_6.jpg"
-  alt="Hình 6"
+  src="/image/IoT/USB_SDR/Hinh_3.jpg"
+  alt="Hinh 3"
   loading="lazy"
   decoding="async"
   class="full-width"
 />
 
 </p>
-<h3 id="osmedeus">OSMedeus</h3>
 <p><img
-  src="/image/CyberSecurity/IoT_Security_Tools/Hinh_7.jpg"
-  alt="Hình 7"
+  src="/image/IoT/USB_SDR/Hinh_4.jpg"
+  alt="Hinh 4"
   loading="lazy"
   decoding="async"
   class="full-width"
 />
 
 </p>
-<h3 id="routersploit">Routersploit</h3>
+<h3 id="tính-toán-dây-dẫn-cho-thiết-kế-anten">Tính toán dây dẫn cho thiết kế Anten</h3>
 <p><img
-  src="/image/CyberSecurity/IoT_Security_Tools/Hinh_8.jpg"
-  alt="Hình 8"
+  src="/image/IoT/USB_SDR/Hinh_5.jpg"
+  alt="Hinh 5"
   loading="lazy"
   decoding="async"
   class="full-width"
 />
 
 </p>
-<p><em>Có những công cụ đã biết, nhưng cũng có công cụ chưa biết.</em></p>
-<p><em>Mình cứ việc note lại tất cả thôi. =]]</em></p>
+<h3 id="radar">RADAR</h3>
+<ul>
+<li>Tham khảo bài viết <a href="https://www.rtl-sdr.com/adsb-aircraft-radar-with-rtl-sdr/">RTL-SDR Tutorial: Cheap ADS-B Aircraft RADAR</a></li>
+<li><a href="https://www.reddit.com/r/RTLSDR/comments/1u14g5v/been_compiling_an_opensource_sdrrf_tools_list/?tl=vi">tổng hợp danh sách công cụ SDR/RF mã nguồn mở</a></li>
+</ul>
+<blockquote>
+<p><em>Các thiết bị SDR (Software-Defined Radio) hoàn toàn có thể thu và phân tích được sóng RADAR.</em> </br>
+<em>Nhờ dải tần số hoạt động cực rộng, SDR không chỉ bắt được tín hiệu mà còn có thể ứng dụng để tự chế tạo hệ thống radar thụ động hoặc hệ thống giám sát đường không</em> </br></p>
+</blockquote>
 <p><img
-  src="/image/CyberSecurity/IoT_Security_Tools/Hinh_9.jpg"
-  alt="Hình 9"
+  src="/image/IoT/USB_SDR/Hinh_6.jpg"
+  alt="Hinh 6"
   loading="lazy"
   decoding="async"
   class="full-width"

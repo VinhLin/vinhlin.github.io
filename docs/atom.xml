@@ -14,6 +14,142 @@
     
     
     <item>
+      <title>USB_SDR</title>
+      <link>https://vinhlin.github.io/posts/iot/software/usb_sdr/</link>
+      <description>&lt;p&gt;Bữa mình đã mua một &lt;strong&gt;USB-SDR&lt;/strong&gt; &lt;em&gt;(hơn 750K trên shopee)&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Khái niệm về SDR mình biết lâu rồi, nhưng lúc đó kiến thức còn hạn chế và chưa có dịp để nghiên cứu.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Bây giờ mới có thời gian note lại. =]]&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/USB_SDR/SDR.jpg&#34;
+  alt=&#34;SDR&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;mục-tiêu&#34;&gt;Mục tiêu:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Khi tìm hiểu về hacking, đặc biệt là &lt;strong&gt;Hardware Hacking&lt;/strong&gt; thì sẽ phải tiếp xúc đến &lt;strong&gt;tín hiệu RF&lt;/strong&gt;. Nếu mình muốn đi sâu vào mảng này, thì phải dần dần tìm hiểu về &lt;strong&gt;SDR&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Ngoài ra khi làm về camera, và đụng đến mấy vụ &lt;strong&gt;đo kiểm&lt;/strong&gt;, mình bắt đầu ngớ ngớ nhận ra:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;SDR mặc dù &lt;strong&gt;không đo được các sóng hoặc tín hiệu WiFi&lt;/strong&gt;, nhưng nếu là &lt;strong&gt;4G&lt;/strong&gt; thì vẫn có thể&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;compare-sdr-hardware&#34;&gt;Compare SDR Hardware&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/USB_SDR/Compare_SDR_Hardware.png&#34;
+  alt=&#34;Compare_SDR_Hardware&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;tổng-hợp-bài-viết&#34;&gt;Tổng hợp bài viết:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://raspberrytips.com/flight-tracker-raspberry-pi/?utm_source=newsletter&amp;amp;utm_medium=email&amp;amp;utm_campaign=my_pi_thinks_its_an_airport_tower&amp;amp;utm_term=2026-06-17&#34;&gt;I Built My Own Flight Tracker with a Raspberry Pi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://raspberrytips.com/ham-radio-raspberry-pi/?utm_source=newsletter&amp;amp;utm_medium=email&amp;amp;utm_campaign=you_ll_learn_something_new_today&amp;amp;utm_term=2025-06-12&#34;&gt;Getting Started with Ham Radio on Raspberry Pi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Các bài viết tiếng Việt:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;http://arduino.vn/bai-viet/1363-gioi-thieu-sdr-ung-dung-matlab-va-rtl-sdr-trong-nghien-cuu-song-vo-tuyen-p1
+https://viblo.asia/p/nghe-len-du-lieu-gsm-900-su-dung-rtl-sdr-phan-1-V3m5WznylO7
+https://www2.t17lab.com/blog/gioi-thieu-sdr-va-rtl-sdr-2018/
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Learning:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://greatscottgadgets.com/sdr/
+https://greatscottgadgets.com/sdr/1/
+https://www.youtube.com/watch?v=BeeSN14JUYU&amp;amp;list=PLu0BPYzTjiHru1KmPThmbY-8rRm3EWvUQ
+https://airspy.com/download/
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Kết quả test ban đầu &lt;em&gt;(tạm ổn)&lt;/em&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/USB_SDR/Result.png&#34;
+  alt=&#34;Result&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;một-số-hình-ảnh-khác-mà-mình-thu-thập-được&#34;&gt;Một số hình ảnh khác mà mình thu thập được&lt;/h2&gt;
+&lt;h3 id=&#34;các-loại-anten&#34;&gt;Các loại Anten&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/USB_SDR/Hinh_1.jpg&#34;
+  alt=&#34;Hinh 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/USB_SDR/Hinh_2.jpg&#34;
+  alt=&#34;Hinh 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/USB_SDR/Hinh_3.jpg&#34;
+  alt=&#34;Hinh 3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/USB_SDR/Hinh_4.jpg&#34;
+  alt=&#34;Hinh 4&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;tính-toán-dây-dẫn-cho-thiết-kế-anten&#34;&gt;Tính toán dây dẫn cho thiết kế Anten&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/USB_SDR/Hinh_5.jpg&#34;
+  alt=&#34;Hinh 5&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;radar&#34;&gt;RADAR&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Tham khảo bài viết &lt;a href=&#34;https://www.rtl-sdr.com/adsb-aircraft-radar-with-rtl-sdr/&#34;&gt;RTL-SDR Tutorial: Cheap ADS-B Aircraft RADAR&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.reddit.com/r/RTLSDR/comments/1u14g5v/been_compiling_an_opensource_sdrrf_tools_list/?tl=vi&#34;&gt;tổng hợp danh sách công cụ SDR/RF mã nguồn mở&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Các thiết bị SDR (Software-Defined Radio) hoàn toàn có thể thu và phân tích được sóng RADAR.&lt;/em&gt; &lt;/br&gt;
+&lt;em&gt;Nhờ dải tần số hoạt động cực rộng, SDR không chỉ bắt được tín hiệu mà còn có thể ứng dụng để tự chế tạo hệ thống radar thụ động hoặc hệ thống giám sát đường không&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/IoT/USB_SDR/Hinh_6.jpg&#34;
+  alt=&#34;Hinh 6&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>Vincent</author>
+      <guid>https://vinhlin.github.io/posts/iot/software/usb_sdr/</guid>
+      <pubDate>Fri, 19 Jun 2026 17:02:30 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>IoT_Security_Tools</title>
       <link>https://vinhlin.github.io/posts/cybersecurity/technical/iot_security_tools/</link>
       <description>&lt;p&gt;Lụm được bài viết tập hợp &lt;strong&gt;các công cụ software hỗ trợ pentest&lt;/strong&gt; thiết bị IoT.&lt;/p&gt;
@@ -96,7 +232,8 @@
 /&gt;
 
 &lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Có những công cụ đã biết, nhưng cũng có công cụ chưa biết. Mình cứ việc note lại tất cả.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Có những công cụ đã biết, nhưng cũng có công cụ chưa biết.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Mình cứ việc note lại tất cả thôi. =]]&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/CyberSecurity/IoT_Security_Tools/Hinh_9.jpg&#34;
   alt=&#34;Hình 9&#34;
@@ -11738,7 +11875,17 @@ https://www.darkreading.com/mobile-security/nfc-traffic-stealer-targets-android-
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://github.com/nfcgate/nfcgate/tree/v2/doc
 https://github.com/nfcgate/nfcgate/blob/v2/doc/Compatibility.md
 https://github.com/nfcgate/nfcgate/tree/v2/doc/mode
-&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;nfc-antenna&#34;&gt;NFC Antenna&lt;/h2&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/NFC_PWA/Hinh_1.jpg&#34;
+  alt=&#34;Hinh 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;hr&gt;
 &lt;h2 id=&#34;ghi-chú-theo-cách-hiểu-của-bản-thân&#34;&gt;Ghi chú theo cách hiểu của bản thân&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Lúc trước mình có tìm hiểu qua về &lt;strong&gt;Web PWA&lt;/strong&gt; (lúc đó có nghiên cứu về &lt;em&gt;bluetooth&lt;/em&gt; trên di động).&lt;/li&gt;

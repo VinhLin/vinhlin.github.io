@@ -97,6 +97,7 @@ STT |		Tiêu đề			|		Mô tả				|
 11  | [PicoClaw][PicoClaw]		| Ghi chú về dự án **PicoClaw**, một phiên bản nhỏ gọn của OpenClaw |
 12  | [Android_RDP][Android_RDP]	| Ghi chú về cách kết nối RDP cho Android	|
 13  | [Raspberry_Cam][Raspberry_Cam]	| Ý tưởng triển khai dự án Raspberry Camera	|
+14  | [USB_SDR][USB_SDR]		| Tổng hợp và ghi chú về khái niệm **SDR** *(Software-Defined Radio)*	|
 
 [PiKVM]: https://blog.vinhld-homelab.io.vn/posts/iot/software/pikvm/
 [Pi400-Keyboard]: https://blog.vinhld-homelab.io.vn/posts/iot/software/pi400-keyboard/
@@ -111,6 +112,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [PicoClaw]: https://blog.vinhld-homelab.io.vn/posts/iot/software/picoclaw/
 [Android_RDP]: https://blog.vinhld-homelab.io.vn/posts/iot/software/android_rdp/
 [Raspberry_Cam]: https://blog.vinhld-homelab.io.vn/posts/iot/software/raspberry_cam/
+[USB_SDR]: https://blog.vinhld-homelab.io.vn/posts/iot/software/usb_sdr/
 
 ### Rust-lang
 > Tổng hợp ghi chú về ngôn ngữ lập trình **Rust** </br>
@@ -194,6 +196,7 @@ STT |		Tiêu đề			|		Mô tả				|
 21  | [Win_CMD_for_CyberSecurity][Win_CMD_for_CyberSecurity] | Tổng hợp ghi chú các **Windows Command cho Cyber-Security** |
 22  | [Android_Hacking_Tools][Android_Hacking_Tools] | Tổng hợp và ghi chú về các công cụ Pentest Android |
 23  | [CCTV_Hacking][CCTV_Hacking]	| Một vài ghi chú về **CCTV Camera Hacking**		|
+24  | [IoT_Security_Tools][IoT_Security_Tools] | Tổng hợp và ghi chú về các **phần mềm pentest** cho IoT |
 
 [NIS2]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/nis2/
 [FW_CheckList]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/firewall_checklist/
@@ -218,6 +221,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [Win_CMD_for_CyberSecurity]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/win_cmd_for_cybersecurity/
 [Android_Hacking_Tools]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/android_hacking_tools/
 [CCTV_Hacking]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/cctv_hacking/
+[IoT_Security_Tools]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/iot_security_tools/
 
 -----------------------------------------------------------------------------------------
 # <mark>System-DevOps</mark>
