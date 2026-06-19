@@ -76,5 +76,7 @@ Mình áp dụng những kiến thức của bản thân để tự build lên h
 
 ### Tham khảo lộ trình [Embedded-Engineering-Roadmap](https://github.com/m3y54m/Embedded-Engineering-Roadmap)
 
-![Roadmap](https://github.com/m3y54m/Embedded-Engineering-Roadmap/releases/latest/download/Embedded-Engineering-Roadmap.png)
+### Embedded Career
+
+![Embedded Career](/image/Embedded_Career.jpg)
 

@@ -28,9 +28,14 @@ Tổng hợp các tài liệu và kiến thức cơ bản về Linux
 - Tài liệu tham khảo trên github [JREAM/ubuntu-cheatsheet](https://github.com/JREAM/ubuntu-cheatsheet)
 - [Tài liệu **Ubuntu Server CLI**](/docs/linux/Ubuntu+Server+CLI+pro+tips+06.01.20.pdf)
 
+### Linux Command:
+- [Tài liệu online](https://ss64.com/bash/)
+- File docs PDF:
+
+![File docs PDF](/docs/linux/Linux_Commands.pdf)
+
 ### Một số tài liệu khác:
 - [**Vi** cheatsheet](/docs/linux/vi_cheat_sheet.pdf)
-- [Linux command line](https://ss64.com/bash/)
 - Linux for DevOps:
 
 ![Hình 4](/image/System-DevOps/Linux_Basic/Linux_for_DevOps.png)

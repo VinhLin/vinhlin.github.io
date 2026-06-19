@@ -19,22 +19,26 @@
     <meta name="author" content="Liste - https://vinhlin.github.io/">
     <title>LLM_Local | VinhLD</title>
     <meta name="description" content="Technology Blog">
-    <meta property="og:title" content="LLM_Local" />
-<meta property="og:description" content="Bữa suy nghĩ nếu mình setup một Local AI để sử dụng cho OpenClaw thì sẽ như thế nào.
+    <meta property="og:url" content="https://vinhlin.github.io/posts/others/llm_local/">
+	<meta property="og:site_name" content="VinhLD">
+	<meta property="og:title" content="LLM_Local">
+	<meta property="og:description" content="Changelog STT Date Nội dung 1 15/4/2026 Khởi tạo bài viết về LLM Local 2 17/6/2026 Cập nhật bài Pi Helmet Detection Bữa suy nghĩ nếu mình setup một Local AI để sử dụng cho OpenClaw thì sẽ như thế nào.
 Thế là dành cả ngày Chủ nhật sẽ ngâm cứu phương pháp cài đặt LLM trên Linux.
-LM Studio Ngày trước, mình có thử dùng công cụ này để chạy thử trên Windows. Nhưng mà mình không ưng cho lắm, nên thôi không dùng công cụ này. llamafile Vô tình biết đến công cụ mã nguồn mở này." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://vinhlin.github.io/posts/others/llm_local/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2026-04-15T21:30:48+07:00" />
-<meta property="article:modified_time" content="2026-04-15T21:30:48+07:00" />
+LM Studio Ngày trước, mình có thử dùng công cụ này để chạy thử trên Windows. Nhưng mà mình không ưng cho lắm, nên thôi không dùng công cụ này. llamafile Vô tình biết đến công cụ mã nguồn mở này. Mục tiêu của mình là tận dụng khả năng của CPU thay vì GPU (home server đang là dual-gold chưa dùng hết sức mạnh của nó) Nên mình sẽ lựa chọn những mô hình nào có thể chạy OK nhất trên CPU. Và mình sẽ dùng mô hình Qwen3.5-2B-Q8_0.llamafile">
+	<meta property="og:locale" content="en_us">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2026-06-17T11:30:48+07:00">
+		<meta property="article:modified_time" content="2026-06-17T11:30:48+07:00">
 
-    <meta itemprop="name" content="LLM_Local">
-<meta itemprop="description" content="Bữa suy nghĩ nếu mình setup một Local AI để sử dụng cho OpenClaw thì sẽ như thế nào.
+    
+	<meta itemprop="name" content="LLM_Local">
+	<meta itemprop="description" content="Changelog STT Date Nội dung 1 15/4/2026 Khởi tạo bài viết về LLM Local 2 17/6/2026 Cập nhật bài Pi Helmet Detection Bữa suy nghĩ nếu mình setup một Local AI để sử dụng cho OpenClaw thì sẽ như thế nào.
 Thế là dành cả ngày Chủ nhật sẽ ngâm cứu phương pháp cài đặt LLM trên Linux.
-LM Studio Ngày trước, mình có thử dùng công cụ này để chạy thử trên Windows. Nhưng mà mình không ưng cho lắm, nên thôi không dùng công cụ này. llamafile Vô tình biết đến công cụ mã nguồn mở này."><meta itemprop="datePublished" content="2026-04-15T21:30:48+07:00" />
-<meta itemprop="dateModified" content="2026-04-15T21:30:48+07:00" />
-<meta itemprop="wordCount" content="187">
-<meta itemprop="keywords" content="" />
+LM Studio Ngày trước, mình có thử dùng công cụ này để chạy thử trên Windows. Nhưng mà mình không ưng cho lắm, nên thôi không dùng công cụ này. llamafile Vô tình biết đến công cụ mã nguồn mở này. Mục tiêu của mình là tận dụng khả năng của CPU thay vì GPU (home server đang là dual-gold chưa dùng hết sức mạnh của nó) Nên mình sẽ lựa chọn những mô hình nào có thể chạy OK nhất trên CPU. Và mình sẽ dùng mô hình Qwen3.5-2B-Q8_0.llamafile">
+	<meta itemprop="datePublished" content="2026-06-17T11:30:48+07:00">
+	<meta itemprop="dateModified" content="2026-06-17T11:30:48+07:00">
+	<meta itemprop="wordCount" content="294">
     
     <link rel="canonical" href="https://vinhlin.github.io/posts/others/llm_local/">
     <link rel="icon" href="https://vinhlin.github.io//assets/favicon.ico">
@@ -58,7 +62,7 @@ LM Studio Ngày trước, mình có thử dùng công cụ này để chạy th�
       "name": "LLM_Local",
       "headline": "LLM_Local",
       "alternativeHeadline": "",
-      "description": "Bữa suy nghĩ nếu mình setup một Local AI để sử dụng cho OpenClaw thì sẽ như thế nào.\nThế là dành cả ngày Chủ nhật sẽ ngâm cứu phương pháp cài đặt LLM trên Linux.\nLM Studio Ngày trước, mình có thử dùng công cụ này để chạy thử trên Windows. Nhưng mà mình không ưng cho lắm, nên thôi không dùng công cụ này. llamafile Vô tình biết đến công cụ mã nguồn mở này.",
+      "description": "\u003ch2 id=\u0022changelog\u0022\u003eChangelog\u003c\/h2\u003e\n\u003ctable\u003e\n\t\u003cthead\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003cth\u003eSTT\u003c\/th\u003e\n\t\t\t\t\t\u003cth\u003eDate\u003c\/th\u003e\n\t\t\t\t\t\u003cth\u003eNội dung\u003c\/th\u003e\n\t\t\t\u003c\/tr\u003e\n\t\u003c\/thead\u003e\n\t\u003ctbody\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e1\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003e15\/4\/2026\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eKhởi tạo bài viết về \u003cstrong\u003eLLM Local\u003c\/strong\u003e\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e2\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003e17\/6\/2026\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eCập nhật bài \u003cstrong\u003ePi Helmet Detection\u003c\/strong\u003e\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\u003c\/tbody\u003e\n\u003c\/table\u003e\n\u003cp\u003eBữa suy nghĩ nếu mình setup một \u003cstrong\u003eLocal AI\u003c\/strong\u003e để sử dụng cho OpenClaw thì sẽ như thế nào.\u003c\/p\u003e\n\u003cp\u003eThế là dành cả ngày Chủ nhật sẽ ngâm cứu phương pháp cài đặt LLM trên Linux.\u003c\/p\u003e\n\u003ch3 id=\u0022lm-studio\u0022\u003e\u003ca href=\u0022https:\/\/lmstudio.ai\/\u0022\u003eLM Studio\u003c\/a\u003e\u003c\/h3\u003e\n\u003cul\u003e\n\u003cli\u003eNgày trước, mình có thử dùng công cụ này để chạy thử trên Windows.\u003c\/li\u003e\n\u003cli\u003eNhưng mà mình không ưng cho lắm, nên thôi không dùng công cụ này.\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003ch3 id=\u0022llamafile\u0022\u003e\u003ca href=\u0022https:\/\/github.com\/mozilla-ai\/llamafile\u0022\u003ellamafile\u003c\/a\u003e\u003c\/h3\u003e\n\u003cul\u003e\n\u003cli\u003eVô tình biết đến công cụ mã nguồn mở này.\u003c\/li\u003e\n\u003cli\u003eMục tiêu của mình là \u003cstrong\u003etận dụng khả năng của CPU thay vì GPU\u003c\/strong\u003e \u003cem\u003e(home server đang là \u003cstrong\u003edual-gold\u003c\/strong\u003e chưa dùng hết sức mạnh của nó)\u003c\/em\u003e\u003c\/li\u003e\n\u003cli\u003eNên mình sẽ lựa chọn những mô hình nào có thể chạy OK nhất trên CPU.\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003cem\u003eVà mình sẽ dùng mô hình \u003cstrong\u003eQwen3.5-2B-Q8_0.llamafile\u003c\/strong\u003e\u003c\/em\u003e \u003c\/br\u003e\u003c\/p\u003e",
       "inLanguage": "en-us",
       "isFamilyFriendly": "true",
       "mainEntityOfPage": {
@@ -79,9 +83,9 @@ LM Studio Ngày trước, mình có thử dùng công cụ này để chạy th�
       },
       "copyrightHolder" : "VinhLD",
       "copyrightYear" : "2026",
-      "dateCreated": "2026-04-15T21:30:48.00Z",
-      "datePublished": "2026-04-15T21:30:48.00Z",
-      "dateModified": "2026-04-15T21:30:48.00Z",
+      "dateCreated": "2026-06-17T11:30:48.00Z",
+      "datePublished": "2026-06-17T11:30:48.00Z",
+      "dateModified": "2026-06-17T11:30:48.00Z",
       "publisher":{
           "@type":"Organization",
           "name": "VinhLD",
@@ -95,7 +99,7 @@ LM Studio Ngày trước, mình có thử dùng công cụ này để chạy th�
       },
       "image": "https:\/\/vinhlin.github.io\/assets\/favicon.ico",
       "url" : "https:\/\/vinhlin.github.io\/posts\/others\/llm_local\/",
-      "wordCount" : "187",
+      "wordCount" : "294",
       "genre" : [ ],
       "keywords" : [ ]
   }
@@ -143,14 +147,36 @@ LM Studio Ngày trước, mình có thử dùng công cụ này để chạy th�
         
 <section>
   <h2 class="post">LLM_Local</h2>
-  <p>Bữa suy nghĩ nếu mình setup một <strong>Local AI</strong> để sử dụng cho OpenClaw thì sẽ như thế nào.</p>
+  <h2 id="changelog">Changelog</h2>
+<table>
+	<thead>
+			<tr>
+					<th>STT</th>
+					<th>Date</th>
+					<th>Nội dung</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>1</td>
+					<td>15/4/2026</td>
+					<td>Khởi tạo bài viết về <strong>LLM Local</strong></td>
+			</tr>
+			<tr>
+					<td>2</td>
+					<td>17/6/2026</td>
+					<td>Cập nhật bài <strong>Pi Helmet Detection</strong></td>
+			</tr>
+	</tbody>
+</table>
+<p>Bữa suy nghĩ nếu mình setup một <strong>Local AI</strong> để sử dụng cho OpenClaw thì sẽ như thế nào.</p>
 <p>Thế là dành cả ngày Chủ nhật sẽ ngâm cứu phương pháp cài đặt LLM trên Linux.</p>
-<h3 id="lm-studiohttpslmstudioai"><a href="https://lmstudio.ai/">LM Studio</a></h3>
+<h3 id="lm-studio"><a href="https://lmstudio.ai/">LM Studio</a></h3>
 <ul>
 <li>Ngày trước, mình có thử dùng công cụ này để chạy thử trên Windows.</li>
 <li>Nhưng mà mình không ưng cho lắm, nên thôi không dùng công cụ này.</li>
 </ul>
-<h3 id="llamafilehttpsgithubcommozilla-aillamafile"><a href="https://github.com/mozilla-ai/llamafile">llamafile</a></h3>
+<h3 id="llamafile"><a href="https://github.com/mozilla-ai/llamafile">llamafile</a></h3>
 <ul>
 <li>Vô tình biết đến công cụ mã nguồn mở này.</li>
 <li>Mục tiêu của mình là <strong>tận dụng khả năng của CPU thay vì GPU</strong> <em>(home server đang là <strong>dual-gold</strong> chưa dùng hết sức mạnh của nó)</em></li>
@@ -206,10 +232,34 @@ LM Studio Ngày trước, mình có thử dùng công cụ này để chạy th�
 <li>Mới nhắn 1 câu thôi, mà đã đơ luôn rồi.</li>
 <li>Có vẻ số lượng input token của Openclaw quá lớn, khiến llamafile bị đơ luôn. =]]</li>
 </ul>
+<hr>
+<h2 id="cập-nhật-1762026---pi-helmet-detection">Cập nhật <code>17/6/2026</code> - Pi Helmet Detection</h2>
+<ul>
+<li>Nay vô tình đọc được bài viết về cách sử dụng Raspberry để detect hình ảnh.</li>
+<li>Cái này thì cũng không có gì mới, cái làm mình thấy thú vị là:</li>
+</ul>
+<blockquote>
+<p><em>Một trang web public các tính năng AI, bằng cách dùng API</em> </br>
+<em>Mình cũng tự đặt câu hỏi, nếu như mình dùng <strong>AI API local</strong> thì có OK hơn không</em> </br></p>
+</blockquote>
+<h3 id="bài-viết-how-to-build-helmet-detection-with-raspberry-pi-using-circuitdigest-cloud">Bài viết <a href="https://circuitdigest.com/microcontroller-projects/raspberry-pi-helmet-detection-using-circuitdigest-cloud">How to Build Helmet Detection with Raspberry Pi Using CircuitDigest Cloud</a></h3>
+<ul>
+<li><a href="https://www.circuitdigest.cloud/helmet-detection">Trang web</a></li>
+<li>Mô hình:</li>
+</ul>
+<p><img
+  src="/image/Others/LLM_Local/Hinh_5.png"
+  alt="Hình 5"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
 
   
   <div class="post-date">
-    <span class="g time">April 15, 2026</span> &#8729;
+    <span class="g time">June 17, 2026</span> &#8729;
     
   </div>
   

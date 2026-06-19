@@ -19,18 +19,22 @@
     <meta name="author" content="Liste - https://vinhlin.github.io/">
     <title>OpenMediaVault | VinhLD</title>
     <meta name="description" content="Technology Blog">
-    <meta property="og:title" content="OpenMediaVault" />
-<meta property="og:description" content="History STT Create Description 1 30/11/2024 Tạo nội dung về OMV. 2 28/12/2024 Thêm nội dung về một NAS OS - HexOS OpenMediaVault (OMV) Là một hệ điều hành mã nguồn mở được thiết kế đặc biệt để triển khai hệ thống lưu trữ mạng (Network Attached Storage - NAS). Dựa trên hệ điều hành Debian Linux, OMV cung cấp một giao diện web thân thiện để quản lý, cấu hình và vận hành các dịch vụ lưu trữ dữ liệu." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://vinhlin.github.io/posts/system-devops/openmediavault/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-12-28T09:38:44+07:00" />
-<meta property="article:modified_time" content="2024-12-28T09:38:44+07:00" />
+    <meta property="og:url" content="https://vinhlin.github.io/posts/system-devops/openmediavault/">
+	<meta property="og:site_name" content="VinhLD">
+	<meta property="og:title" content="OpenMediaVault">
+	<meta property="og:description" content="History STT Create Description 1 30/11/2024 Tạo nội dung về OMV. 2 28/12/2024 Thêm nội dung về một NAS OS - HexOS OpenMediaVault (OMV) Là một hệ điều hành mã nguồn mở được thiết kế đặc biệt để triển khai hệ thống lưu trữ mạng (Network Attached Storage - NAS). Dựa trên hệ điều hành Debian Linux, OMV cung cấp một giao diện web thân thiện để quản lý, cấu hình và vận hành các dịch vụ lưu trữ dữ liệu. Lưu ý là hiện tại OMV không hỗ trợ trên Ubuntu được. Ngoài ra mình cũng có thể cài OMV trên Raspberry.">
+	<meta property="og:locale" content="en_us">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2024-12-28T09:38:44+07:00">
+		<meta property="article:modified_time" content="2024-12-28T09:38:44+07:00">
 
-    <meta itemprop="name" content="OpenMediaVault">
-<meta itemprop="description" content="History STT Create Description 1 30/11/2024 Tạo nội dung về OMV. 2 28/12/2024 Thêm nội dung về một NAS OS - HexOS OpenMediaVault (OMV) Là một hệ điều hành mã nguồn mở được thiết kế đặc biệt để triển khai hệ thống lưu trữ mạng (Network Attached Storage - NAS). Dựa trên hệ điều hành Debian Linux, OMV cung cấp một giao diện web thân thiện để quản lý, cấu hình và vận hành các dịch vụ lưu trữ dữ liệu."><meta itemprop="datePublished" content="2024-12-28T09:38:44+07:00" />
-<meta itemprop="dateModified" content="2024-12-28T09:38:44+07:00" />
-<meta itemprop="wordCount" content="198">
-<meta itemprop="keywords" content="" />
+    
+	<meta itemprop="name" content="OpenMediaVault">
+	<meta itemprop="description" content="History STT Create Description 1 30/11/2024 Tạo nội dung về OMV. 2 28/12/2024 Thêm nội dung về một NAS OS - HexOS OpenMediaVault (OMV) Là một hệ điều hành mã nguồn mở được thiết kế đặc biệt để triển khai hệ thống lưu trữ mạng (Network Attached Storage - NAS). Dựa trên hệ điều hành Debian Linux, OMV cung cấp một giao diện web thân thiện để quản lý, cấu hình và vận hành các dịch vụ lưu trữ dữ liệu. Lưu ý là hiện tại OMV không hỗ trợ trên Ubuntu được. Ngoài ra mình cũng có thể cài OMV trên Raspberry.">
+	<meta itemprop="datePublished" content="2024-12-28T09:38:44+07:00">
+	<meta itemprop="dateModified" content="2024-12-28T09:38:44+07:00">
+	<meta itemprop="wordCount" content="198">
     
     <link rel="canonical" href="https://vinhlin.github.io/posts/system-devops/openmediavault/">
     <link rel="icon" href="https://vinhlin.github.io//assets/favicon.ico">
@@ -54,7 +58,7 @@
       "name": "OpenMediaVault",
       "headline": "OpenMediaVault",
       "alternativeHeadline": "",
-      "description": "History STT Create Description 1 30\/11\/2024 Tạo nội dung về OMV. 2 28\/12\/2024 Thêm nội dung về một NAS OS - HexOS OpenMediaVault (OMV) Là một hệ điều hành mã nguồn mở được thiết kế đặc biệt để triển khai hệ thống lưu trữ mạng (Network Attached Storage - NAS). Dựa trên hệ điều hành Debian Linux, OMV cung cấp một giao diện web thân thiện để quản lý, cấu hình và vận hành các dịch vụ lưu trữ dữ liệu.",
+      "description": "\u003ch2 id=\u0022history\u0022\u003eHistory\u003c\/h2\u003e\n\u003ctable\u003e\n\t\u003cthead\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003cth\u003eSTT\u003c\/th\u003e\n\t\t\t\t\t\u003cth\u003eCreate\u003c\/th\u003e\n\t\t\t\t\t\u003cth\u003eDescription\u003c\/th\u003e\n\t\t\t\u003c\/tr\u003e\n\t\u003c\/thead\u003e\n\t\u003ctbody\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e1\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003e30\/11\/2024\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eTạo nội dung về \u003cstrong\u003eOMV\u003c\/strong\u003e.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e2\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003e28\/12\/2024\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eThêm nội dung về một NAS OS - \u003cstrong\u003eHexOS\u003c\/strong\u003e\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\u003c\/tbody\u003e\n\u003c\/table\u003e\n\u003ch2 id=\u0022openmediavault-omv\u0022\u003e\u003ca href=\u0022https:\/\/www.openmediavault.org\/\u0022\u003eOpenMediaVault (OMV)\u003c\/a\u003e\u003c\/h2\u003e\n\u003cul\u003e\n\u003cli\u003eLà một hệ điều hành mã nguồn mở được thiết kế đặc biệt để triển khai hệ thống lưu trữ mạng (Network Attached Storage - NAS).\u003c\/li\u003e\n\u003cli\u003eDựa trên hệ điều hành \u003cstrong\u003eDebian Linux\u003c\/strong\u003e, OMV cung cấp một giao diện web thân thiện để quản lý, cấu hình và vận hành các dịch vụ lưu trữ dữ liệu.\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003eLưu ý là hiện tại \u003cstrong\u003eOMV\u003c\/strong\u003e không hỗ trợ trên Ubuntu được. \u003c\/br\u003e\nNgoài ra mình cũng có thể cài OMV trên \u003cstrong\u003eRaspberry\u003c\/strong\u003e. \u003c\/br\u003e\u003c\/p\u003e",
       "inLanguage": "en-us",
       "isFamilyFriendly": "true",
       "mainEntityOfPage": {
@@ -141,27 +145,27 @@
   <h2 class="post">OpenMediaVault</h2>
   <h2 id="history">History</h2>
 <table>
-<thead>
-<tr>
-<th>STT</th>
-<th>Create</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>30/11/2024</td>
-<td>Tạo nội dung về <strong>OMV</strong>.</td>
-</tr>
-<tr>
-<td>2</td>
-<td>28/12/2024</td>
-<td>Thêm nội dung về một NAS OS - <strong>HexOS</strong></td>
-</tr>
-</tbody>
+	<thead>
+			<tr>
+					<th>STT</th>
+					<th>Create</th>
+					<th>Description</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>1</td>
+					<td>30/11/2024</td>
+					<td>Tạo nội dung về <strong>OMV</strong>.</td>
+			</tr>
+			<tr>
+					<td>2</td>
+					<td>28/12/2024</td>
+					<td>Thêm nội dung về một NAS OS - <strong>HexOS</strong></td>
+			</tr>
+	</tbody>
 </table>
-<h2 id="openmediavault-omvhttpswwwopenmediavaultorg"><a href="https://www.openmediavault.org/">OpenMediaVault (OMV)</a></h2>
+<h2 id="openmediavault-omv"><a href="https://www.openmediavault.org/">OpenMediaVault (OMV)</a></h2>
 <ul>
 <li>Là một hệ điều hành mã nguồn mở được thiết kế đặc biệt để triển khai hệ thống lưu trữ mạng (Network Attached Storage - NAS).</li>
 <li>Dựa trên hệ điều hành <strong>Debian Linux</strong>, OMV cung cấp một giao diện web thân thiện để quản lý, cấu hình và vận hành các dịch vụ lưu trữ dữ liệu.</li>
@@ -170,7 +174,7 @@
 <p>Lưu ý là hiện tại <strong>OMV</strong> không hỗ trợ trên Ubuntu được. </br>
 Ngoài ra mình cũng có thể cài OMV trên <strong>Raspberry</strong>. </br></p>
 </blockquote>
-<h3 id="download-file-isohttpswwwopenmediavaultorgdownloadhtml"><a href="https://www.openmediavault.org/download.html">Download file ISO</a></h3>
+<h3 id="download-file-iso"><a href="https://www.openmediavault.org/download.html">Download file ISO</a></h3>
 <h3 id="documents">Documents:</h3>
 <ul>
 <li><a href="https://computingforgeeks.com/install-and-configure-openmediavault-nas-storage-server/#google_vignette">https://computingforgeeks.com/install-and-configure-openmediavault-nas-storage-server/#google_vignette</a></li>
@@ -217,7 +221,7 @@ Create a secure, private server you can manage from anywhere with HexOS.</p>
 <li><a href="https://hexos.com/blog/the-magic-behind-hexos">https://hexos.com/blog/the-magic-behind-hexos</a></li>
 <li><a href="https://nascompares.com/2024/12/02/hexos-nas-software-review-of-the-beta/">https://nascompares.com/2024/12/02/hexos-nas-software-review-of-the-beta/</a></li>
 </ul>
-<h3 id="video-so-sánh-best-nas-software-truenas-vs-openmediavault-vs-unraidhttpswwwyoutubecomwatchvxngpayc2iau">Video so sánh: <a href="https://www.youtube.com/watch?v=xNGPAyC2iaU">Best NAS Software: TrueNAS vs OpenMediaVault vs Unraid</a></h3>
+<h3 id="video-so-sánh-best-nas-software-truenas-vs-openmediavault-vs-unraid">Video so sánh: <a href="https://www.youtube.com/watch?v=xNGPAyC2iaU">Best NAS Software: TrueNAS vs OpenMediaVault vs Unraid</a></h3>
 <p><img
   src="/image/System-DevOps/NAS_Server/Hinh_2.png"
   alt="Hình 2"

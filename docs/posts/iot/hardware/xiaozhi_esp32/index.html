@@ -19,22 +19,26 @@
     <meta name="author" content="Liste - https://vinhlin.github.io/">
     <title>Xiaozhi_ESP32 | VinhLD</title>
     <meta name="description" content="Technology Blog">
-    <meta property="og:title" content="Xiaozhi_ESP32" />
-<meta property="og:description" content="Một Chatbot AI trên module ESP32-S3
+    <meta property="og:url" content="https://vinhlin.github.io/posts/iot/hardware/xiaozhi_esp32/">
+	<meta property="og:site_name" content="VinhLD">
+	<meta property="og:title" content="Xiaozhi_ESP32">
+	<meta property="og:description" content="Một Chatbot AI trên module ESP32-S3
 Link mua hàng trên shoppe Sơ đồ nút nhấn:
-Tài liệu tham khảo: Github xiaozhi-esp32, và mô hình hoạt động của Xiaozhi: Tài liệu khác: https://ccnphfhqs21z.feishu.cn/wiki/Zpz4wXBtdimBrLk25WdcXzxcnNS https://ccnphfhqs21z.feishu.cn/wiki/F5krwD16viZoF0kKkvDcrZNYnhb https://github.com/78/xiaozhi-esp32/blob/main/README_en.md#an-mcp-based-chatbot Cách sử dụng cơ bản sản phẩm: Nhìn chung sản phẩm này đã được các pháp sư Trung Hoa làm sẵn cả rồi. Phần cứng cũng có, firmware cũng có sẵn, mình chỉ việc mua về và setting cho phù hợp với nhu cầu." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://vinhlin.github.io/posts/iot/hardware/xiaozhi_esp32/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2025-10-06T11:31:07+07:00" />
-<meta property="article:modified_time" content="2025-10-06T11:31:07+07:00" />
+Tài liệu tham khảo: Github xiaozhi-esp32, và mô hình hoạt động của Xiaozhi: Tài liệu khác: https://ccnphfhqs21z.feishu.cn/wiki/Zpz4wXBtdimBrLk25WdcXzxcnNS https://ccnphfhqs21z.feishu.cn/wiki/F5krwD16viZoF0kKkvDcrZNYnhb https://github.com/78/xiaozhi-esp32/blob/main/README_en.md#an-mcp-based-chatbot Cách sử dụng cơ bản sản phẩm: Nhìn chung sản phẩm này đã được các pháp sư Trung Hoa làm sẵn cả rồi. Phần cứng cũng có, firmware cũng có sẵn, mình chỉ việc mua về và setting cho phù hợp với nhu cầu. Khi mua về, mình cắm dây USB Type C vào, thiết bị đã có sẵn Firmware, có thể dùng ngay được luôn. Ngoài ra kiểm tra thì cổng USB này vừa cấp nguồn vừa dùng để debug. Baud-rate cho Serial là 115200. Kết nối WiFi Thiết bị sẽ phát ra một wifi local, kết nối với wifi này. Truy cập link http://192.168.4.1/, sau đó kết nối với một mạng wifi sẵn có (mục đích là để thiết bị có kết nối Internet).">
+	<meta property="og:locale" content="en_us">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2025-10-06T11:31:07+07:00">
+		<meta property="article:modified_time" content="2025-10-06T11:31:07+07:00">
 
-    <meta itemprop="name" content="Xiaozhi_ESP32">
-<meta itemprop="description" content="Một Chatbot AI trên module ESP32-S3
+    
+	<meta itemprop="name" content="Xiaozhi_ESP32">
+	<meta itemprop="description" content="Một Chatbot AI trên module ESP32-S3
 Link mua hàng trên shoppe Sơ đồ nút nhấn:
-Tài liệu tham khảo: Github xiaozhi-esp32, và mô hình hoạt động của Xiaozhi: Tài liệu khác: https://ccnphfhqs21z.feishu.cn/wiki/Zpz4wXBtdimBrLk25WdcXzxcnNS https://ccnphfhqs21z.feishu.cn/wiki/F5krwD16viZoF0kKkvDcrZNYnhb https://github.com/78/xiaozhi-esp32/blob/main/README_en.md#an-mcp-based-chatbot Cách sử dụng cơ bản sản phẩm: Nhìn chung sản phẩm này đã được các pháp sư Trung Hoa làm sẵn cả rồi. Phần cứng cũng có, firmware cũng có sẵn, mình chỉ việc mua về và setting cho phù hợp với nhu cầu."><meta itemprop="datePublished" content="2025-10-06T11:31:07+07:00" />
-<meta itemprop="dateModified" content="2025-10-06T11:31:07+07:00" />
-<meta itemprop="wordCount" content="298">
-<meta itemprop="keywords" content="" />
+Tài liệu tham khảo: Github xiaozhi-esp32, và mô hình hoạt động của Xiaozhi: Tài liệu khác: https://ccnphfhqs21z.feishu.cn/wiki/Zpz4wXBtdimBrLk25WdcXzxcnNS https://ccnphfhqs21z.feishu.cn/wiki/F5krwD16viZoF0kKkvDcrZNYnhb https://github.com/78/xiaozhi-esp32/blob/main/README_en.md#an-mcp-based-chatbot Cách sử dụng cơ bản sản phẩm: Nhìn chung sản phẩm này đã được các pháp sư Trung Hoa làm sẵn cả rồi. Phần cứng cũng có, firmware cũng có sẵn, mình chỉ việc mua về và setting cho phù hợp với nhu cầu. Khi mua về, mình cắm dây USB Type C vào, thiết bị đã có sẵn Firmware, có thể dùng ngay được luôn. Ngoài ra kiểm tra thì cổng USB này vừa cấp nguồn vừa dùng để debug. Baud-rate cho Serial là 115200. Kết nối WiFi Thiết bị sẽ phát ra một wifi local, kết nối với wifi này. Truy cập link http://192.168.4.1/, sau đó kết nối với một mạng wifi sẵn có (mục đích là để thiết bị có kết nối Internet).">
+	<meta itemprop="datePublished" content="2025-10-06T11:31:07+07:00">
+	<meta itemprop="dateModified" content="2025-10-06T11:31:07+07:00">
+	<meta itemprop="wordCount" content="298">
     
     <link rel="canonical" href="https://vinhlin.github.io/posts/iot/hardware/xiaozhi_esp32/">
     <link rel="icon" href="https://vinhlin.github.io//assets/favicon.ico">
@@ -58,7 +62,7 @@ Tài liệu tham khảo: Github xiaozhi-esp32, và mô hình hoạt động củ
       "name": "Xiaozhi_ESP32",
       "headline": "Xiaozhi_ESP32",
       "alternativeHeadline": "",
-      "description": "Một Chatbot AI trên module ESP32-S3\nLink mua hàng trên shoppe Sơ đồ nút nhấn:\nTài liệu tham khảo: Github xiaozhi-esp32, và mô hình hoạt động của Xiaozhi: Tài liệu khác: https:\/\/ccnphfhqs21z.feishu.cn\/wiki\/Zpz4wXBtdimBrLk25WdcXzxcnNS https:\/\/ccnphfhqs21z.feishu.cn\/wiki\/F5krwD16viZoF0kKkvDcrZNYnhb https:\/\/github.com\/78\/xiaozhi-esp32\/blob\/main\/README_en.md#an-mcp-based-chatbot Cách sử dụng cơ bản sản phẩm: Nhìn chung sản phẩm này đã được các pháp sư Trung Hoa làm sẵn cả rồi. Phần cứng cũng có, firmware cũng có sẵn, mình chỉ việc mua về và setting cho phù hợp với nhu cầu.",
+      "description": "\u003cp\u003eMột \u003cstrong\u003eChatbot AI trên module ESP32-S3\u003c\/strong\u003e\u003c\/p\u003e\n\u003ch3 id=\u0022link-mua-hàng-trên-shoppe\u0022\u003e\u003ca href=\u0022https:\/\/s.shopee.vn\/3qDwJj0B1l\u0022\u003eLink mua hàng trên shoppe\u003c\/a\u003e\u003c\/h3\u003e\n\u003cp\u003e\u003cimg\n  src=\u0022\/image\/IoT\/Xiaozhi_ESP32\/Ph%e1%ba%a7n_c%e1%bb%a9ng_1.webp\u0022\n  alt=\u0022Sản phẩm\u0022\n  loading=\u0022lazy\u0022\n  decoding=\u0022async\u0022\n  class=\u0022full-width\u0022\n\/\u003e\n\n\u003c\/p\u003e\n\u003cp\u003eSơ đồ nút nhấn:\u003c\/p\u003e\n\u003cp\u003e\u003cimg\n  src=\u0022\/image\/IoT\/Xiaozhi_ESP32\/Ph%e1%ba%a7n_c%e1%bb%a9ng_2.webp\u0022\n  alt=\u0022Sơ đồ nút nhấn\u0022\n  loading=\u0022lazy\u0022\n  decoding=\u0022async\u0022\n  class=\u0022full-width\u0022\n\/\u003e\n\n\u003c\/p\u003e\n\u003ch3 id=\u0022tài-liệu-tham-khảo\u0022\u003eTài liệu tham khảo:\u003c\/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\u0022https:\/\/github.com\/78\/xiaozhi-esp32\u0022\u003eGithub xiaozhi-esp32\u003c\/a\u003e, và mô hình hoạt động của \u003cstrong\u003eXiaozhi\u003c\/strong\u003e:\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cp\u003e\u003cimg\n  src=\u0022\/image\/IoT\/Xiaozhi_ESP32\/M%c3%b4_h%c3%acnh.jpg\u0022\n  alt=\u0022Mô hình\u0022\n  loading=\u0022lazy\u0022\n  decoding=\u0022async\u0022\n  class=\u0022full-width\u0022\n\/\u003e\n\n\u003c\/p\u003e\n\u003cul\u003e\n\u003cli\u003eTài liệu khác:\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cpre tabindex=\u00220\u0022\u003e\u003ccode\u003ehttps:\/\/ccnphfhqs21z.feishu.cn\/wiki\/Zpz4wXBtdimBrLk25WdcXzxcnNS\nhttps:\/\/ccnphfhqs21z.feishu.cn\/wiki\/F5krwD16viZoF0kKkvDcrZNYnhb\nhttps:\/\/github.com\/78\/xiaozhi-esp32\/blob\/main\/README_en.md#an-mcp-based-chatbot\n\u003c\/code\u003e\u003c\/pre\u003e\u003ch2 id=\u0022cách-sử-dụng-cơ-bản-sản-phẩm\u0022\u003eCách sử dụng cơ bản sản phẩm:\u003c\/h2\u003e\n\u003cul\u003e\n\u003cli\u003eNhìn chung sản phẩm này đã được các \u003cstrong\u003epháp sư Trung Hoa\u003c\/strong\u003e làm sẵn cả rồi.\u003c\/li\u003e\n\u003cli\u003ePhần cứng cũng có, firmware cũng có sẵn, mình chỉ việc mua về và setting cho phù hợp với nhu cầu.\u003c\/li\u003e\n\u003cli\u003eKhi mua về, mình cắm dây USB Type C vào, \u003cstrong\u003ethiết bị đã có sẵn Firmware\u003c\/strong\u003e, có thể dùng ngay được luôn.\u003c\/li\u003e\n\u003cli\u003eNgoài ra kiểm tra thì cổng USB này vừa cấp nguồn vừa dùng để \u003cstrong\u003edebug\u003c\/strong\u003e. Baud-rate cho Serial là \u003cstrong\u003e115200\u003c\/strong\u003e.\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003ch3 id=\u0022kết-nối-wifi\u0022\u003eKết nối WiFi\u003c\/h3\u003e\n\u003cul\u003e\n\u003cli\u003eThiết bị sẽ phát ra một wifi local, kết nối với wifi này.\u003c\/li\u003e\n\u003cli\u003eTruy cập link \u003ccode\u003ehttp:\/\/192.168.4.1\/\u003c\/code\u003e, sau đó kết nối với một mạng wifi sẵn có \u003cem\u003e(mục đích là để thiết bị có kết nối Internet)\u003c\/em\u003e.\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cp\u003e\u003cimg\n  src=\u0022\/image\/IoT\/Xiaozhi_ESP32\/Hinh_1.png\u0022\n  alt=\u0022Hình 1\u0022\n  loading=\u0022lazy\u0022\n  decoding=\u0022async\u0022\n  class=\u0022full-width\u0022\n\/\u003e\n\n\u003c\/p\u003e",
       "inLanguage": "en-us",
       "isFamilyFriendly": "true",
       "mainEntityOfPage": {
@@ -144,7 +148,7 @@ Tài liệu tham khảo: Github xiaozhi-esp32, và mô hình hoạt động củ
 <section>
   <h2 class="post">Xiaozhi_ESP32</h2>
   <p>Một <strong>Chatbot AI trên module ESP32-S3</strong></p>
-<h3 id="link-mua-hàng-trên-shoppehttpssshopeevn3qdwjj0b1l"><a href="https://s.shopee.vn/3qDwJj0B1l">Link mua hàng trên shoppe</a></h3>
+<h3 id="link-mua-hàng-trên-shoppe"><a href="https://s.shopee.vn/3qDwJj0B1l">Link mua hàng trên shoppe</a></h3>
 <p><img
   src="/image/IoT/Xiaozhi_ESP32/Ph%e1%ba%a7n_c%e1%bb%a9ng_1.webp"
   alt="Sản phẩm"

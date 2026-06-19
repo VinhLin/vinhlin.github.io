@@ -19,18 +19,22 @@
     <meta name="author" content="Liste - https://vinhlin.github.io/">
     <title>Research_CR95 | VinhLD</title>
     <meta name="description" content="Technology Blog">
-    <meta property="og:title" content="Research_CR95" />
-<meta property="og:description" content="Giới thiệu: CR95 là dòng chip dùng để đọc RFID và NFC. Các thiết bị Giám sát hành trình theo QCVN31 đều phải có bộ RFID, để đọc thẻ tài xế. Công ty đang dùng một bộ RFID với dòng chip cũ, nên sếp yêu cầu thiết kế và nghiên cứu dùng loại IC CR95 (vì loại này rất phổ biến, và hầu hết các thiết bị tracking có RFID đều dùng loại này)." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://vinhlin.github.io/posts/iot/hardware/research_cr95/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-07-28T13:12:25+07:00" />
-<meta property="article:modified_time" content="2024-07-28T13:12:25+07:00" />
+    <meta property="og:url" content="https://vinhlin.github.io/posts/iot/hardware/research_cr95/">
+	<meta property="og:site_name" content="VinhLD">
+	<meta property="og:title" content="Research_CR95">
+	<meta property="og:description" content="Giới thiệu: CR95 là dòng chip dùng để đọc RFID và NFC. Các thiết bị Giám sát hành trình theo QCVN31 đều phải có bộ RFID, để đọc thẻ tài xế. Công ty đang dùng một bộ RFID với dòng chip cũ, nên sếp yêu cầu thiết kế và nghiên cứu dùng loại IC CR95 (vì loại này rất phổ biến, và hầu hết các thiết bị tracking có RFID đều dùng loại này). Yêu cầu: Nghiên cứu dùng STM32F103 &#43; CR95, kết nối thông qua UART. Dùng ngôn ngữ lập trình Rust để viết Firmware. Research Sau khi tìm hiểu các library dùng cho CR95, thì mình thấy rằng hầu hết đều dùng chuẩn kết nối là SPI. Mình cần xem lại datasheet của CR95. Về phần cứng thì mình không cần phải lo (vì đã có một anh (anh Sơn) trong cty lo về hardware), nhiệm vụ của mình là cần tìm hiều cách đọc bản tin, giao tiếp và viết firmware. May mắn thay Lúc trước có một anh khác trong cty (anh này cũng tên Vinh và hiện tại thì đã off) đã làm được và kết nối thành công với CR95 bằng UART. Source code anh này được viết bằng C, mình đọc source code, kết hợp với việc đọc lại datasheet và test command trên một board phần cứng CR95 khác">
+	<meta property="og:locale" content="en_us">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2024-07-28T13:12:25+07:00">
+		<meta property="article:modified_time" content="2024-07-28T13:12:25+07:00">
 
-    <meta itemprop="name" content="Research_CR95">
-<meta itemprop="description" content="Giới thiệu: CR95 là dòng chip dùng để đọc RFID và NFC. Các thiết bị Giám sát hành trình theo QCVN31 đều phải có bộ RFID, để đọc thẻ tài xế. Công ty đang dùng một bộ RFID với dòng chip cũ, nên sếp yêu cầu thiết kế và nghiên cứu dùng loại IC CR95 (vì loại này rất phổ biến, và hầu hết các thiết bị tracking có RFID đều dùng loại này)."><meta itemprop="datePublished" content="2024-07-28T13:12:25+07:00" />
-<meta itemprop="dateModified" content="2024-07-28T13:12:25+07:00" />
-<meta itemprop="wordCount" content="667">
-<meta itemprop="keywords" content="" />
+    
+	<meta itemprop="name" content="Research_CR95">
+	<meta itemprop="description" content="Giới thiệu: CR95 là dòng chip dùng để đọc RFID và NFC. Các thiết bị Giám sát hành trình theo QCVN31 đều phải có bộ RFID, để đọc thẻ tài xế. Công ty đang dùng một bộ RFID với dòng chip cũ, nên sếp yêu cầu thiết kế và nghiên cứu dùng loại IC CR95 (vì loại này rất phổ biến, và hầu hết các thiết bị tracking có RFID đều dùng loại này). Yêu cầu: Nghiên cứu dùng STM32F103 &#43; CR95, kết nối thông qua UART. Dùng ngôn ngữ lập trình Rust để viết Firmware. Research Sau khi tìm hiểu các library dùng cho CR95, thì mình thấy rằng hầu hết đều dùng chuẩn kết nối là SPI. Mình cần xem lại datasheet của CR95. Về phần cứng thì mình không cần phải lo (vì đã có một anh (anh Sơn) trong cty lo về hardware), nhiệm vụ của mình là cần tìm hiều cách đọc bản tin, giao tiếp và viết firmware. May mắn thay Lúc trước có một anh khác trong cty (anh này cũng tên Vinh và hiện tại thì đã off) đã làm được và kết nối thành công với CR95 bằng UART. Source code anh này được viết bằng C, mình đọc source code, kết hợp với việc đọc lại datasheet và test command trên một board phần cứng CR95 khác">
+	<meta itemprop="datePublished" content="2024-07-28T13:12:25+07:00">
+	<meta itemprop="dateModified" content="2024-07-28T13:12:25+07:00">
+	<meta itemprop="wordCount" content="667">
     
     <link rel="canonical" href="https://vinhlin.github.io/posts/iot/hardware/research_cr95/">
     <link rel="icon" href="https://vinhlin.github.io//assets/favicon.ico">
@@ -54,7 +58,7 @@
       "name": "Research_CR95",
       "headline": "Research_CR95",
       "alternativeHeadline": "",
-      "description": "Giới thiệu: CR95 là dòng chip dùng để đọc RFID và NFC. Các thiết bị Giám sát hành trình theo QCVN31 đều phải có bộ RFID, để đọc thẻ tài xế. Công ty đang dùng một bộ RFID với dòng chip cũ, nên sếp yêu cầu thiết kế và nghiên cứu dùng loại IC CR95 (vì loại này rất phổ biến, và hầu hết các thiết bị tracking có RFID đều dùng loại này).",
+      "description": "\u003ch3 id=\u0022giới-thiệu\u0022\u003eGiới thiệu:\u003c\/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eCR95\u003c\/strong\u003e là dòng chip dùng để đọc \u003cstrong\u003eRFID\u003c\/strong\u003e và \u003cstrong\u003eNFC\u003c\/strong\u003e.\u003c\/li\u003e\n\u003cli\u003eCác thiết bị Giám sát hành trình theo \u003cstrong\u003eQCVN31\u003c\/strong\u003e đều phải có bộ RFID, để đọc thẻ tài xế.\u003c\/li\u003e\n\u003cli\u003eCông ty đang dùng một bộ RFID với dòng chip cũ, nên sếp yêu cầu thiết kế và nghiên cứu dùng loại \u003cstrong\u003eIC CR95\u003c\/strong\u003e (vì loại này rất phổ biến, và hầu hết các thiết bị tracking có RFID đều dùng loại này).\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003ch3 id=\u0022yêu-cầu\u0022\u003eYêu cầu:\u003c\/h3\u003e\n\u003cul\u003e\n\u003cli\u003eNghiên cứu dùng STM32F103 \u002b CR95, kết nối thông qua UART.\u003c\/li\u003e\n\u003cli\u003eDùng ngôn ngữ lập trình Rust để viết Firmware.\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003ch2 id=\u0022research\u0022\u003eResearch\u003c\/h2\u003e\n\u003cul\u003e\n\u003cli\u003eSau khi tìm hiểu các library dùng cho CR95, thì mình thấy rằng hầu hết đều dùng chuẩn kết nối là \u003cstrong\u003eSPI\u003c\/strong\u003e.\u003c\/li\u003e\n\u003cli\u003eMình cần xem lại \u003ca href=\u0022https:\/\/www.st.com\/resource\/en\/datasheet\/cr95hf.pdf\u0022\u003edatasheet của CR95\u003c\/a\u003e.\u003c\/li\u003e\n\u003cli\u003eVề phần cứng thì mình không cần phải lo (vì đã có một anh (anh Sơn) trong cty lo về hardware), nhiệm vụ của mình là cần tìm hiều cách đọc bản tin, giao tiếp và viết firmware.\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003ch3 id=\u0022may-mắn-thay\u0022\u003eMay mắn thay\u003c\/h3\u003e\n\u003cul\u003e\n\u003cli\u003eLúc trước có một anh khác trong cty (anh này cũng tên Vinh và hiện tại thì đã off) đã làm được và kết nối thành công với CR95 bằng UART.\u003c\/li\u003e\n\u003cli\u003e\u003cstrong\u003eSource code\u003c\/strong\u003e anh này được viết \u003cstrong\u003ebằng C\u003c\/strong\u003e, mình đọc source code, kết hợp với việc đọc lại datasheet và test command trên một \u003ca href=\u0022http:\/\/www.tme.vn\/product.aspx?id=2095#page=pro_info\u0022\u003eboard phần cứng CR95 khác\u003c\/a\u003e\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cp\u003e\u003cimg\n  src=\u0022\/image\/IoT\/Research_CR95\/CR95HF-BRD.jpg\u0022\n  alt=\u0022CR95HF-BRD\u0022\n  loading=\u0022lazy\u0022\n  decoding=\u0022async\u0022\n  class=\u0022full-width\u0022\n\/\u003e\n\n\u003c\/p\u003e",
       "inLanguage": "en-us",
       "isFamilyFriendly": "true",
       "mainEntityOfPage": {

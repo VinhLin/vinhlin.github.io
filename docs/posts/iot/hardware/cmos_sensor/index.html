@@ -19,22 +19,26 @@
     <meta name="author" content="Liste - https://vinhlin.github.io/">
     <title>CMOS_Sensor | VinhLD</title>
     <meta name="description" content="Technology Blog">
-    <meta property="og:title" content="CMOS_Sensor" />
-<meta property="og:description" content="Cảm biến hình ảnh, một bộ phận quan trọng đối với một chiếc camera.
+    <meta property="og:url" content="https://vinhlin.github.io/posts/iot/hardware/cmos_sensor/">
+	<meta property="og:site_name" content="VinhLD">
+	<meta property="og:title" content="CMOS_Sensor">
+	<meta property="og:description" content="Cảm biến hình ảnh, một bộ phận quan trọng đối với một chiếc camera.
 Đối với các thiết bị như điện thoại, camera an ninh, webcam thì loại Cảm biến CMOS (CMOS Sensor) được dùng rất phổ biến.
-Ví dụ về loại cảm biến hình ảnh GC4653 Đây là một sản phẩm của công ty Trung Quốc chuyên về các linh kiện hình ảnh. Tài liệu tham khảo về sensor này: https://www." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://vinhlin.github.io/posts/iot/hardware/cmos_sensor/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2025-11-13T14:02:43+07:00" />
-<meta property="article:modified_time" content="2025-11-13T14:02:43+07:00" />
+Ví dụ về loại cảm biến hình ảnh GC4653 Đây là một sản phẩm của công ty Trung Quốc chuyên về các linh kiện hình ảnh. Tài liệu tham khảo về sensor này: https://www.gophotonics.com/products/cmos-image-sensors/galaxycore-microelectronics/21-117-gc4653 https://en.gcoreinc.com/products/index?cid=14&amp;subcid=15 https://dl.sipeed.com/fileList/MaixCAM/Sensors/GC4653/GC4653_CSP_datasheet%C2%A0for%C2%A0release_Rev.1.0_20190712.pdf Đặc điểm chính của GC4653: Độ phân giải: 4MP (2560 x 1440 pixel), hỗ trợ video 2K/1440p ở 30fps. Kích thước: 1/3 inch (khoảng 1/2.9 inch theo một số nguồn), phù hợp cho các thiết bị nhỏ gọn. Giao diện: MIPI CSI (dùng cho camera module), hỗ trợ định dạng RAW10/RAW12. Tính năng nổi bật: Hỗ trợ HDR (High Dynamic Range) cho hình ảnh rõ nét trong điều kiện ánh sáng phức tạp. Chế độ low-light (ánh sáng yếu) tốt, phù hợp cho camera ban đêm hoặc IR CUT (cắt hồng ngoại). Tích hợp ADC 10/12-bit và ISP (Image Signal Processor) cơ bản, giúp giảm tải xử lý cho chip chính. Nhiệt độ hoạt động: -20°C đến 80°C, khá bền bỉ. Ứng dụng phổ biến: Camera an ninh CCTV, module IP camera (hỗ trợ H.264/H.265). Dashcam ô tô (ví dụ: WonVon W4K sử dụng GC4653 cho camera trước). Webcam USB, camera điện thoại, UAV (drone), hoặc thiết bị IoT. Tham khảo thêm: https://www.linkedin.com/posts/gophotonics_galaxycoremicroelectronics-cmos-image-activity-7282077269928419328-kbUn/ https://wiki.sipeed.com/hardware/en/maixcam/cameras.html https://dl.sipeed.com/shareURL/MaixCAM/Sensors Ví dụ dòng camera 70mai Dash Cam A200 đang dùng sensor GC2093 (chất lượng thấp hơn GC4653) Giải thích thêm về một số thuật ngữ Đọc datasheet thì có nhiều chỗ mình không hiểu lắm, phải trao đổi với Grok AI thì mình mới được khai sáng thêm. =]]">
+	<meta property="og:locale" content="en_us">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2025-11-13T14:02:43+07:00">
+		<meta property="article:modified_time" content="2025-11-13T14:02:43+07:00">
 
-    <meta itemprop="name" content="CMOS_Sensor">
-<meta itemprop="description" content="Cảm biến hình ảnh, một bộ phận quan trọng đối với một chiếc camera.
+    
+	<meta itemprop="name" content="CMOS_Sensor">
+	<meta itemprop="description" content="Cảm biến hình ảnh, một bộ phận quan trọng đối với một chiếc camera.
 Đối với các thiết bị như điện thoại, camera an ninh, webcam thì loại Cảm biến CMOS (CMOS Sensor) được dùng rất phổ biến.
-Ví dụ về loại cảm biến hình ảnh GC4653 Đây là một sản phẩm của công ty Trung Quốc chuyên về các linh kiện hình ảnh. Tài liệu tham khảo về sensor này: https://www."><meta itemprop="datePublished" content="2025-11-13T14:02:43+07:00" />
-<meta itemprop="dateModified" content="2025-11-13T14:02:43+07:00" />
-<meta itemprop="wordCount" content="382">
-<meta itemprop="keywords" content="" />
+Ví dụ về loại cảm biến hình ảnh GC4653 Đây là một sản phẩm của công ty Trung Quốc chuyên về các linh kiện hình ảnh. Tài liệu tham khảo về sensor này: https://www.gophotonics.com/products/cmos-image-sensors/galaxycore-microelectronics/21-117-gc4653 https://en.gcoreinc.com/products/index?cid=14&amp;subcid=15 https://dl.sipeed.com/fileList/MaixCAM/Sensors/GC4653/GC4653_CSP_datasheet%C2%A0for%C2%A0release_Rev.1.0_20190712.pdf Đặc điểm chính của GC4653: Độ phân giải: 4MP (2560 x 1440 pixel), hỗ trợ video 2K/1440p ở 30fps. Kích thước: 1/3 inch (khoảng 1/2.9 inch theo một số nguồn), phù hợp cho các thiết bị nhỏ gọn. Giao diện: MIPI CSI (dùng cho camera module), hỗ trợ định dạng RAW10/RAW12. Tính năng nổi bật: Hỗ trợ HDR (High Dynamic Range) cho hình ảnh rõ nét trong điều kiện ánh sáng phức tạp. Chế độ low-light (ánh sáng yếu) tốt, phù hợp cho camera ban đêm hoặc IR CUT (cắt hồng ngoại). Tích hợp ADC 10/12-bit và ISP (Image Signal Processor) cơ bản, giúp giảm tải xử lý cho chip chính. Nhiệt độ hoạt động: -20°C đến 80°C, khá bền bỉ. Ứng dụng phổ biến: Camera an ninh CCTV, module IP camera (hỗ trợ H.264/H.265). Dashcam ô tô (ví dụ: WonVon W4K sử dụng GC4653 cho camera trước). Webcam USB, camera điện thoại, UAV (drone), hoặc thiết bị IoT. Tham khảo thêm: https://www.linkedin.com/posts/gophotonics_galaxycoremicroelectronics-cmos-image-activity-7282077269928419328-kbUn/ https://wiki.sipeed.com/hardware/en/maixcam/cameras.html https://dl.sipeed.com/shareURL/MaixCAM/Sensors Ví dụ dòng camera 70mai Dash Cam A200 đang dùng sensor GC2093 (chất lượng thấp hơn GC4653) Giải thích thêm về một số thuật ngữ Đọc datasheet thì có nhiều chỗ mình không hiểu lắm, phải trao đổi với Grok AI thì mình mới được khai sáng thêm. =]]">
+	<meta itemprop="datePublished" content="2025-11-13T14:02:43+07:00">
+	<meta itemprop="dateModified" content="2025-11-13T14:02:43+07:00">
+	<meta itemprop="wordCount" content="382">
     
     <link rel="canonical" href="https://vinhlin.github.io/posts/iot/hardware/cmos_sensor/">
     <link rel="icon" href="https://vinhlin.github.io//assets/favicon.ico">
@@ -58,7 +62,7 @@ Ví dụ về loại cảm biến hình ảnh GC4653 Đây là một sản phẩ
       "name": "CMOS_Sensor",
       "headline": "CMOS_Sensor",
       "alternativeHeadline": "",
-      "description": "Cảm biến hình ảnh, một bộ phận quan trọng đối với một chiếc camera.\nĐối với các thiết bị như điện thoại, camera an ninh, webcam thì loại Cảm biến CMOS (CMOS Sensor) được dùng rất phổ biến.\nVí dụ về loại cảm biến hình ảnh GC4653 Đây là một sản phẩm của công ty Trung Quốc chuyên về các linh kiện hình ảnh. Tài liệu tham khảo về sensor này: https:\/\/www.",
+      "description": "\u003cp\u003eCảm biến hình ảnh, một bộ phận quan trọng đối với một chiếc camera.\u003c\/p\u003e\n\u003cp\u003eĐối với các thiết bị như \u003cstrong\u003eđiện thoại, camera an ninh, webcam\u003c\/strong\u003e thì loại \u003cstrong\u003eCảm biến CMOS\u003c\/strong\u003e \u003cem\u003e(CMOS Sensor)\u003c\/em\u003e được dùng rất phổ biến.\u003c\/p\u003e\n\u003ch2 id=\u0022ví-dụ-về-loại-cảm-biến-hình-ảnh-gc4653\u0022\u003eVí dụ về loại cảm biến hình ảnh \u003ca href=\u0022https:\/\/blog.vinhld-homelab.io.vn\/docs\/GC4653_CSP_datasheet_for_release_Rev.1.0_20190712.pdf\u0022\u003eGC4653\u003c\/a\u003e\u003c\/h2\u003e\n\u003cul\u003e\n\u003cli\u003eĐây là một sản phẩm của công ty Trung Quốc chuyên về các linh kiện hình ảnh.\u003c\/li\u003e\n\u003cli\u003eTài liệu tham khảo về sensor này:\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cpre tabindex=\u00220\u0022\u003e\u003ccode\u003ehttps:\/\/www.gophotonics.com\/products\/cmos-image-sensors\/galaxycore-microelectronics\/21-117-gc4653\nhttps:\/\/en.gcoreinc.com\/products\/index?cid=14\u0026amp;subcid=15\nhttps:\/\/dl.sipeed.com\/fileList\/MaixCAM\/Sensors\/GC4653\/GC4653_CSP_datasheet%C2%A0for%C2%A0release_Rev.1.0_20190712.pdf\n\u003c\/code\u003e\u003c\/pre\u003e\u003ch3 id=\u0022đặc-điểm-chính-của-gc4653\u0022\u003eĐặc điểm chính của GC4653:\u003c\/h3\u003e\n\u003cul\u003e\n\u003cli\u003eĐộ phân giải: \u003cstrong\u003e4MP (2560 x 1440 pixel)\u003c\/strong\u003e, hỗ trợ video 2K\/1440p ở 30fps.\u003c\/li\u003e\n\u003cli\u003eKích thước: 1\/3 inch (khoảng 1\/2.9 inch theo một số nguồn), phù hợp cho các thiết bị nhỏ gọn.\u003c\/li\u003e\n\u003cli\u003eGiao diện: \u003cstrong\u003eMIPI CSI\u003c\/strong\u003e (dùng cho camera module), hỗ trợ định dạng RAW10\/RAW12.\u003c\/li\u003e\n\u003cli\u003eTính năng nổi bật:\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eHỗ trợ HDR (High Dynamic Range)\u003c\/strong\u003e cho hình ảnh rõ nét trong điều kiện ánh sáng phức tạp.\u003c\/li\u003e\n\u003cli\u003eChế độ low-light (ánh sáng yếu) tốt, phù hợp cho camera ban đêm hoặc IR CUT (cắt hồng ngoại).\u003c\/li\u003e\n\u003cli\u003eTích hợp ADC 10\/12-bit và ISP (Image Signal Processor) cơ bản, giúp giảm tải xử lý cho chip chính.\u003c\/li\u003e\n\u003cli\u003eNhiệt độ hoạt động: -20°C đến 80°C, khá bền bỉ.\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003c\/li\u003e\n\u003cli\u003eỨng dụng phổ biến:\n\u003cul\u003e\n\u003cli\u003eCamera an ninh CCTV, module IP camera (hỗ trợ H.264\/H.265).\u003c\/li\u003e\n\u003cli\u003eDashcam ô tô (ví dụ: WonVon W4K sử dụng GC4653 cho camera trước).\u003c\/li\u003e\n\u003cli\u003eWebcam USB, camera điện thoại, UAV (drone), hoặc thiết bị IoT.\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003ch3 id=\u0022tham-khảo-thêm\u0022\u003eTham khảo thêm:\u003c\/h3\u003e\n\u003cpre tabindex=\u00220\u0022\u003e\u003ccode\u003ehttps:\/\/www.linkedin.com\/posts\/gophotonics_galaxycoremicroelectronics-cmos-image-activity-7282077269928419328-kbUn\/\nhttps:\/\/wiki.sipeed.com\/hardware\/en\/maixcam\/cameras.html\nhttps:\/\/dl.sipeed.com\/shareURL\/MaixCAM\/Sensors\n\u003c\/code\u003e\u003c\/pre\u003e\u003cul\u003e\n\u003cli\u003eVí dụ dòng camera \u003ca href=\u0022https:\/\/shop70mai.vn\/camera-hanh-trinh-70mai-a200\/\u0022\u003e70mai Dash Cam A200\u003c\/a\u003e đang dùng sensor GC2093 \u003cem\u003e(\u003cstrong\u003echất lượng thấp hơn GC4653\u003c\/strong\u003e)\u003c\/em\u003e\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003ch2 id=\u0022giải-thích-thêm-về-một-số-thuật-ngữ\u0022\u003eGiải thích thêm về một số thuật ngữ\u003c\/h2\u003e\n\u003cp\u003eĐọc datasheet thì có nhiều chỗ mình không hiểu lắm, phải trao đổi với \u003cstrong\u003eGrok AI\u003c\/strong\u003e thì mình mới được khai sáng thêm. =]]\u003c\/p\u003e",
       "inLanguage": "en-us",
       "isFamilyFriendly": "true",
       "mainEntityOfPage": {
@@ -145,7 +149,7 @@ Ví dụ về loại cảm biến hình ảnh GC4653 Đây là một sản phẩ
   <h2 class="post">CMOS_Sensor</h2>
   <p>Cảm biến hình ảnh, một bộ phận quan trọng đối với một chiếc camera.</p>
 <p>Đối với các thiết bị như <strong>điện thoại, camera an ninh, webcam</strong> thì loại <strong>Cảm biến CMOS</strong> <em>(CMOS Sensor)</em> được dùng rất phổ biến.</p>
-<h2 id="ví-dụ-về-loại-cảm-biến-hình-ảnh-gc4653gc4653">Ví dụ về loại cảm biến hình ảnh <a href="https://blog.vinhld-homelab.io.vn/docs/GC4653_CSP_datasheet_for_release_Rev.1.0_20190712.pdf">GC4653</a></h2>
+<h2 id="ví-dụ-về-loại-cảm-biến-hình-ảnh-gc4653">Ví dụ về loại cảm biến hình ảnh <a href="https://blog.vinhld-homelab.io.vn/docs/GC4653_CSP_datasheet_for_release_Rev.1.0_20190712.pdf">GC4653</a></h2>
 <ul>
 <li>Đây là một sản phẩm của công ty Trung Quốc chuyên về các linh kiện hình ảnh.</li>
 <li>Tài liệu tham khảo về sensor này:</li>

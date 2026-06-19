@@ -19,18 +19,22 @@
     <meta name="author" content="Liste - https://vinhlin.github.io/">
     <title>N8n | VinhLD</title>
     <meta name="description" content="Technology Blog">
-    <meta property="og:title" content="N8n" />
-<meta property="og:description" content="Giới thiệu n8n n8n là một công cụ tự động hóa luồng công việc (workflow automation) mã nguồn mở. Nó cho phép người dùng tạo ra các luồng công việc tự động bằng cách kết nối các ứng dụng, dịch vụ và API khác nhau mà không cần viết code. n8n phù hợp để tự động hóa các quy trình kinh doanh, quản lý dữ liệu và tích hợp ứng dụng." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://vinhlin.github.io/posts/system-devops/n8n/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2025-01-17T14:59:59+07:00" />
-<meta property="article:modified_time" content="2025-01-17T14:59:59+07:00" />
+    <meta property="og:url" content="https://vinhlin.github.io/posts/system-devops/n8n/">
+	<meta property="og:site_name" content="VinhLD">
+	<meta property="og:title" content="N8n">
+	<meta property="og:description" content="Giới thiệu n8n n8n là một công cụ tự động hóa luồng công việc (workflow automation) mã nguồn mở. Nó cho phép người dùng tạo ra các luồng công việc tự động bằng cách kết nối các ứng dụng, dịch vụ và API khác nhau mà không cần viết code. n8n phù hợp để tự động hóa các quy trình kinh doanh, quản lý dữ liệu và tích hợp ứng dụng. Ví dụ về Tự động hóa phát triển phần mềm: Tích hợp CI/CD: Khi có commit mới trên GitHub, n8n có thể kích hoạt một quy trình CI/CD trên Jenkins hoặc GitLab. Thông báo lỗi: Khi có lỗi xảy ra trong ứng dụng (được ghi nhận qua Sentry), n8n có thể gửi thông báo tới đội phát triển qua Slack. Một số bài viết về n8n: https://wiki.matbao.net/top-3-cong-nghe-ai-giup-tu-dong-hoa-quy-trinh-lam-viec-hieu-qua/ https://viblo.asia/p/gioi-thieu-n8n-nodes-chatwork-L4x5x3JblBM https://www.youtube.com/watch?v=oqNWwiFKAj0 Tham khảo tài liệu: Free versions: A free self-hosted community edition for self-hosted users Docker Installation: https://docs.n8n.io/hosting/installation/docker/ Build AI functionality using n8n: https://docs.n8n.io/advanced-ai/#related-resources https://docs.n8n.io/hosting/starter-kits/ai-starter-kit/ Install n8n on server super fast with only 1 command - AI Noodles Dựa theo video và tài liệu về n8n, thì có thể dùng n8n &#43; AI để thực hiện các tác vụ nâng cao về automation. và trong video thì sử dụng LocalAI Install LocalAI: https://localai.io/basics/container/ https://localai.io/basics/build/ Enrich security incident tickets">
+	<meta property="og:locale" content="en_us">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2025-01-17T14:59:59+07:00">
+		<meta property="article:modified_time" content="2025-01-17T14:59:59+07:00">
 
-    <meta itemprop="name" content="N8n">
-<meta itemprop="description" content="Giới thiệu n8n n8n là một công cụ tự động hóa luồng công việc (workflow automation) mã nguồn mở. Nó cho phép người dùng tạo ra các luồng công việc tự động bằng cách kết nối các ứng dụng, dịch vụ và API khác nhau mà không cần viết code. n8n phù hợp để tự động hóa các quy trình kinh doanh, quản lý dữ liệu và tích hợp ứng dụng."><meta itemprop="datePublished" content="2025-01-17T14:59:59+07:00" />
-<meta itemprop="dateModified" content="2025-01-17T14:59:59+07:00" />
-<meta itemprop="wordCount" content="217">
-<meta itemprop="keywords" content="" />
+    
+	<meta itemprop="name" content="N8n">
+	<meta itemprop="description" content="Giới thiệu n8n n8n là một công cụ tự động hóa luồng công việc (workflow automation) mã nguồn mở. Nó cho phép người dùng tạo ra các luồng công việc tự động bằng cách kết nối các ứng dụng, dịch vụ và API khác nhau mà không cần viết code. n8n phù hợp để tự động hóa các quy trình kinh doanh, quản lý dữ liệu và tích hợp ứng dụng. Ví dụ về Tự động hóa phát triển phần mềm: Tích hợp CI/CD: Khi có commit mới trên GitHub, n8n có thể kích hoạt một quy trình CI/CD trên Jenkins hoặc GitLab. Thông báo lỗi: Khi có lỗi xảy ra trong ứng dụng (được ghi nhận qua Sentry), n8n có thể gửi thông báo tới đội phát triển qua Slack. Một số bài viết về n8n: https://wiki.matbao.net/top-3-cong-nghe-ai-giup-tu-dong-hoa-quy-trinh-lam-viec-hieu-qua/ https://viblo.asia/p/gioi-thieu-n8n-nodes-chatwork-L4x5x3JblBM https://www.youtube.com/watch?v=oqNWwiFKAj0 Tham khảo tài liệu: Free versions: A free self-hosted community edition for self-hosted users Docker Installation: https://docs.n8n.io/hosting/installation/docker/ Build AI functionality using n8n: https://docs.n8n.io/advanced-ai/#related-resources https://docs.n8n.io/hosting/starter-kits/ai-starter-kit/ Install n8n on server super fast with only 1 command - AI Noodles Dựa theo video và tài liệu về n8n, thì có thể dùng n8n &#43; AI để thực hiện các tác vụ nâng cao về automation. và trong video thì sử dụng LocalAI Install LocalAI: https://localai.io/basics/container/ https://localai.io/basics/build/ Enrich security incident tickets">
+	<meta itemprop="datePublished" content="2025-01-17T14:59:59+07:00">
+	<meta itemprop="dateModified" content="2025-01-17T14:59:59+07:00">
+	<meta itemprop="wordCount" content="217">
     
     <link rel="canonical" href="https://vinhlin.github.io/posts/system-devops/n8n/">
     <link rel="icon" href="https://vinhlin.github.io//assets/favicon.ico">
@@ -54,7 +58,7 @@
       "name": "N8n",
       "headline": "N8n",
       "alternativeHeadline": "",
-      "description": "Giới thiệu n8n n8n là một công cụ tự động hóa luồng công việc (workflow automation) mã nguồn mở. Nó cho phép người dùng tạo ra các luồng công việc tự động bằng cách kết nối các ứng dụng, dịch vụ và API khác nhau mà không cần viết code. n8n phù hợp để tự động hóa các quy trình kinh doanh, quản lý dữ liệu và tích hợp ứng dụng.",
+      "description": "\u003ch2 id=\u0022giới-thiệu-n8n\u0022\u003eGiới thiệu n8n\u003c\/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003en8n\u003c\/strong\u003e là một công cụ \u003cstrong\u003etự động hóa luồng công việc\u003c\/strong\u003e \u003cem\u003e(workflow automation)\u003c\/em\u003e mã nguồn mở.\u003c\/li\u003e\n\u003cli\u003eNó cho phép người dùng tạo ra các luồng công việc tự động bằng cách kết nối các ứng dụng, dịch vụ và API khác nhau mà không cần viết code.\u003c\/li\u003e\n\u003cli\u003e\u003cstrong\u003en8n\u003c\/strong\u003e phù hợp để tự động hóa các quy trình kinh doanh, quản lý dữ liệu và tích hợp ứng dụng.\u003c\/li\u003e\n\u003cli\u003eVí dụ về \u003cstrong\u003eTự động hóa phát triển phần mềm\u003c\/strong\u003e:\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eTích hợp CI\/CD\u003c\/strong\u003e: Khi có commit mới trên GitHub, n8n có thể kích hoạt một quy trình CI\/CD trên Jenkins hoặc GitLab.\u003c\/li\u003e\n\u003cli\u003e\u003cstrong\u003eThông báo lỗi\u003c\/strong\u003e: Khi có lỗi xảy ra trong ứng dụng (được ghi nhận qua Sentry), n8n có thể gửi thông báo tới đội phát triển qua Slack.\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003c\/li\u003e\n\u003cli\u003eMột số bài viết về \u003cstrong\u003en8n\u003c\/strong\u003e:\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cpre tabindex=\u00220\u0022\u003e\u003ccode\u003ehttps:\/\/wiki.matbao.net\/top-3-cong-nghe-ai-giup-tu-dong-hoa-quy-trinh-lam-viec-hieu-qua\/\nhttps:\/\/viblo.asia\/p\/gioi-thieu-n8n-nodes-chatwork-L4x5x3JblBM\nhttps:\/\/www.youtube.com\/watch?v=oqNWwiFKAj0\n\u003c\/code\u003e\u003c\/pre\u003e\u003ch3 id=\u0022tham-khảo-tài-liệu\u0022\u003eTham khảo tài liệu:\u003c\/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\u0022https:\/\/docs.n8n.io\/choose-n8n\/#licenses\u0022\u003eFree versions\u003c\/a\u003e: A free self-hosted community edition for self-hosted users\u003c\/li\u003e\n\u003cli\u003eDocker Installation: \u003ca href=\u0022https:\/\/docs.n8n.io\/hosting\/installation\/docker\/\u0022\u003ehttps:\/\/docs.n8n.io\/hosting\/installation\/docker\/\u003c\/a\u003e\u003c\/li\u003e\n\u003cli\u003eBuild AI functionality using n8n:\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cpre tabindex=\u00220\u0022\u003e\u003ccode\u003ehttps:\/\/docs.n8n.io\/advanced-ai\/#related-resources\nhttps:\/\/docs.n8n.io\/hosting\/starter-kits\/ai-starter-kit\/\n\u003c\/code\u003e\u003c\/pre\u003e\u003ch3 id=\u0022install-n8n-on-server-super-fast-with-only-1-command---ai-noodles\u0022\u003e\u003ca href=\u0022https:\/\/www.youtube.com\/watch?v=OfLYgNmsKoQ\u0022\u003eInstall n8n on server super fast with only 1 command - AI Noodles\u003c\/a\u003e\u003c\/h3\u003e\n\u003cul\u003e\n\u003cli\u003eDựa theo video và tài liệu về n8n, thì có thể dùng \u003cstrong\u003en8n \u002b AI\u003c\/strong\u003e để thực hiện các tác vụ nâng cao về automation.\u003c\/li\u003e\n\u003cli\u003evà trong video thì sử dụng \u003ca href=\u0022https:\/\/localai.io\/\u0022\u003eLocalAI\u003c\/a\u003e\u003c\/li\u003e\n\u003cli\u003eInstall LocalAI:\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cpre tabindex=\u00220\u0022\u003e\u003ccode\u003ehttps:\/\/localai.io\/basics\/container\/\nhttps:\/\/localai.io\/basics\/build\/\n\u003c\/code\u003e\u003c\/pre\u003e\u003cp\u003eEnrich security incident tickets\u003c\/p\u003e",
       "inLanguage": "en-us",
       "isFamilyFriendly": "true",
       "mainEntityOfPage": {
@@ -163,7 +167,7 @@ https://www.youtube.com/watch?v=oqNWwiFKAj0
 </ul>
 <pre tabindex="0"><code>https://docs.n8n.io/advanced-ai/#related-resources
 https://docs.n8n.io/hosting/starter-kits/ai-starter-kit/
-</code></pre><h3 id="install-n8n-on-server-super-fast-with-only-1-command---ai-noodleshttpswwwyoutubecomwatchvoflygnmskoq"><a href="https://www.youtube.com/watch?v=OfLYgNmsKoQ">Install n8n on server super fast with only 1 command - AI Noodles</a></h3>
+</code></pre><h3 id="install-n8n-on-server-super-fast-with-only-1-command---ai-noodles"><a href="https://www.youtube.com/watch?v=OfLYgNmsKoQ">Install n8n on server super fast with only 1 command - AI Noodles</a></h3>
 <ul>
 <li>Dựa theo video và tài liệu về n8n, thì có thể dùng <strong>n8n + AI</strong> để thực hiện các tác vụ nâng cao về automation.</li>
 <li>và trong video thì sử dụng <a href="https://localai.io/">LocalAI</a></li>

@@ -14,6 +14,223 @@
     
     
     <item>
+      <title>IoT_Security_Tools</title>
+      <link>https://vinhlin.github.io/posts/cybersecurity/technical/iot_security_tools/</link>
+      <description>&lt;p&gt;Lụm được bài viết tập hợp &lt;strong&gt;các công cụ software hỗ trợ pentest&lt;/strong&gt; thiết bị IoT.&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/IoT_Security_Tools/Hinh_1.jpg&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;shodan&#34;&gt;Shodan&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/IoT_Security_Tools/Hinh_2.jpg&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;censys&#34;&gt;Censys&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/IoT_Security_Tools/Hinh_3.jpg&#34;
+  alt=&#34;Hình 3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;nmap&#34;&gt;Nmap&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/IoT_Security_Tools/Hinh_4.jpg&#34;
+  alt=&#34;Hình 4&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;nuclei&#34;&gt;Nuclei&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/IoT_Security_Tools/Hinh_5.jpg&#34;
+  alt=&#34;Hình 5&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;pocsuite3&#34;&gt;Pocsuite3&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/IoT_Security_Tools/Hinh_6.jpg&#34;
+  alt=&#34;Hình 6&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;osmedeus&#34;&gt;OSMedeus&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/IoT_Security_Tools/Hinh_7.jpg&#34;
+  alt=&#34;Hình 7&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;routersploit&#34;&gt;Routersploit&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/IoT_Security_Tools/Hinh_8.jpg&#34;
+  alt=&#34;Hình 8&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Có những công cụ đã biết, nhưng cũng có công cụ chưa biết. Mình cứ việc note lại tất cả.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/IoT_Security_Tools/Hinh_9.jpg&#34;
+  alt=&#34;Hình 9&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>Vincent</author>
+      <guid>https://vinhlin.github.io/posts/cybersecurity/technical/iot_security_tools/</guid>
+      <pubDate>Fri, 19 Jun 2026 12:12:51 +0700</pubDate>
+    </item>
+    
+    <item>
+      <title>LLM_Local</title>
+      <link>https://vinhlin.github.io/posts/others/llm_local/</link>
+      <description>&lt;h2 id=&#34;changelog&#34;&gt;Changelog&lt;/h2&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;STT&lt;/th&gt;
+					&lt;th&gt;Date&lt;/th&gt;
+					&lt;th&gt;Nội dung&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;1&lt;/td&gt;
+					&lt;td&gt;15/4/2026&lt;/td&gt;
+					&lt;td&gt;Khởi tạo bài viết về &lt;strong&gt;LLM Local&lt;/strong&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;2&lt;/td&gt;
+					&lt;td&gt;17/6/2026&lt;/td&gt;
+					&lt;td&gt;Cập nhật bài &lt;strong&gt;Pi Helmet Detection&lt;/strong&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Bữa suy nghĩ nếu mình setup một &lt;strong&gt;Local AI&lt;/strong&gt; để sử dụng cho OpenClaw thì sẽ như thế nào.&lt;/p&gt;
+&lt;p&gt;Thế là dành cả ngày Chủ nhật sẽ ngâm cứu phương pháp cài đặt LLM trên Linux.&lt;/p&gt;
+&lt;h3 id=&#34;lm-studio&#34;&gt;&lt;a href=&#34;https://lmstudio.ai/&#34;&gt;LM Studio&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Ngày trước, mình có thử dùng công cụ này để chạy thử trên Windows.&lt;/li&gt;
+&lt;li&gt;Nhưng mà mình không ưng cho lắm, nên thôi không dùng công cụ này.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;llamafile&#34;&gt;&lt;a href=&#34;https://github.com/mozilla-ai/llamafile&#34;&gt;llamafile&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Vô tình biết đến công cụ mã nguồn mở này.&lt;/li&gt;
+&lt;li&gt;Mục tiêu của mình là &lt;strong&gt;tận dụng khả năng của CPU thay vì GPU&lt;/strong&gt; &lt;em&gt;(home server đang là &lt;strong&gt;dual-gold&lt;/strong&gt; chưa dùng hết sức mạnh của nó)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Nên mình sẽ lựa chọn những mô hình nào có thể chạy OK nhất trên CPU.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Và mình sẽ dùng mô hình &lt;strong&gt;Qwen3.5-2B-Q8_0.llamafile&lt;/strong&gt;&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/LLM_Local/Hinh_1.png&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cài đặt đã xong, giờ sẽ đến phần hỏi đáp:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/LLM_Local/Hinh_2.png&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/LLM_Local/Hinh_3.png&#34;
+  alt=&#34;Hình 3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cũng rất là OK, phần trăm CPU nhảy lên được &lt;strong&gt;28%&lt;/strong&gt; cho câu hỏi này.&lt;/li&gt;
+&lt;li&gt;Nhưng thật đáng tiếc, &lt;strong&gt;tích hợp với OpenClaw không ổn&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/LLM_Local/Hinh_4.png&#34;
+  alt=&#34;Hình 4&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mới nhắn 1 câu thôi, mà đã đơ luôn rồi.&lt;/li&gt;
+&lt;li&gt;Có vẻ số lượng input token của Openclaw quá lớn, khiến llamafile bị đơ luôn. =]]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;cập-nhật-1762026---pi-helmet-detection&#34;&gt;Cập nhật &lt;code&gt;17/6/2026&lt;/code&gt; - Pi Helmet Detection&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Nay vô tình đọc được bài viết về cách sử dụng Raspberry để detect hình ảnh.&lt;/li&gt;
+&lt;li&gt;Cái này thì cũng không có gì mới, cái làm mình thấy thú vị là:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Một trang web public các tính năng AI, bằng cách dùng API&lt;/em&gt; &lt;/br&gt;
+&lt;em&gt;Mình cũng tự đặt câu hỏi, nếu như mình dùng &lt;strong&gt;AI API local&lt;/strong&gt; thì có OK hơn không&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;bài-viết-how-to-build-helmet-detection-with-raspberry-pi-using-circuitdigest-cloud&#34;&gt;Bài viết &lt;a href=&#34;https://circuitdigest.com/microcontroller-projects/raspberry-pi-helmet-detection-using-circuitdigest-cloud&#34;&gt;How to Build Helmet Detection with Raspberry Pi Using CircuitDigest Cloud&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.circuitdigest.cloud/helmet-detection&#34;&gt;Trang web&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Mô hình:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/LLM_Local/Hinh_5.png&#34;
+  alt=&#34;Hình 5&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>Vincent</author>
+      <guid>https://vinhlin.github.io/posts/others/llm_local/</guid>
+      <pubDate>Wed, 17 Jun 2026 11:30:48 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>FPT_IP_Camera</title>
       <link>https://vinhlin.github.io/posts/iot/hardware/fpt_ip_camera/</link>
       <description>&lt;p&gt;Bữa mình mua được một chiếc &lt;strong&gt;Camera IP của FPT&lt;/strong&gt;, hàng &lt;strong&gt;second-hand nhưng like-new&lt;/strong&gt;.&lt;/p&gt;
@@ -173,7 +390,7 @@ Nhấn nhanh 3 lần -&amp;gt; Chuyển đổi giao thức kết nối giữa BL
 /&gt;
 
 &lt;/p&gt;
-&lt;h3 id=&#34;tham-khảo-video-youtube-esp32-guide-2026httpswwwyoutubecomwatchvcfijinych7u&#34;&gt;Tham khảo video youtube: &lt;a href=&#34;https://www.youtube.com/watch?v=CfIjInYch7U&#34;&gt;ESP32 Guide 2026&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;tham-khảo-video-youtube-esp32-guide-2026&#34;&gt;Tham khảo video youtube: &lt;a href=&#34;https://www.youtube.com/watch?v=CfIjInYch7U&#34;&gt;ESP32 Guide 2026&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/IoT/Cac_dong_ESP32/Hinh_3.png&#34;
   alt=&#34;Hình 3&#34;
@@ -300,7 +517,7 @@ Nhấn nhanh 3 lần -&amp;gt; Chuyển đổi giao thức kết nối giữa BL
       <link>https://vinhlin.github.io/posts/others/samsung_switch/</link>
       <description>&lt;p&gt;Bữa mẹ mình có mua một chiếc Samsung mới. Người tư vấn nói là có thể dùng &lt;strong&gt;Samsung Switch&lt;/strong&gt; để đồng bộ dữ liệu từ chiếc di động cũ sang chiếc samsung này.&lt;/p&gt;
 &lt;p&gt;Thế là mình ngâm cứu và tìm hiểu thêm về ứng dụng này.&lt;/p&gt;
-&lt;h3 id=&#34;samsung-switchhttpswwwyoutubecomwatchvkrjwuis3c70-là-gì&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=kRjwUiS3C70&#34;&gt;Samsung Switch&lt;/a&gt; là gì?&lt;/h3&gt;
+&lt;h3 id=&#34;samsung-switch-là-gì&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=kRjwUiS3C70&#34;&gt;Samsung Switch&lt;/a&gt; là gì?&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;Tham khảo bài viết &lt;a href=&#34;https://cellphones.com.vn/sforum/smart-switch-la-gi&#34;&gt;Smart Switch là gì? Cách truyền, đồng bộ dữ liệu trên Samsung&lt;/a&gt;&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -461,25 +678,25 @@ https://manuals.plus/vi/fnirsi/erd-10-electromagnetic-radiation-detector-manual
       <link>https://vinhlin.github.io/posts/iot/software/raspberry_cam/</link>
       <description>&lt;h3 id=&#34;changelog&#34;&gt;Changelog&lt;/h3&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;STT&lt;/th&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Nội dung&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;30/4/2026&lt;/td&gt;
-&lt;td&gt;Khởi tạo bài viết&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;21/5/2026&lt;/td&gt;
-&lt;td&gt;Update thông tin&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;STT&lt;/th&gt;
+					&lt;th&gt;Date&lt;/th&gt;
+					&lt;th&gt;Nội dung&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;1&lt;/td&gt;
+					&lt;td&gt;30/4/2026&lt;/td&gt;
+					&lt;td&gt;Khởi tạo bài viết&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;2&lt;/td&gt;
+					&lt;td&gt;21/5/2026&lt;/td&gt;
+					&lt;td&gt;Update thông tin&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;Được nghỉ 4 ngày, mình sẽ lên lại kế hoạch thực hiện dự án về &lt;strong&gt;Raspberry-Camera&lt;/strong&gt;&lt;/p&gt;
 &lt;blockquote&gt;
@@ -666,7 +883,7 @@ https://github.com/caddyserver/caddy
     <item>
       <title>Solar_Led_Teardown</title>
       <link>https://vinhlin.github.io/posts/iot/hardware/solar_led_teardown/</link>
-      <description>&lt;h3 id=&#34;đèn-led-dây-năng-lượng-mặt-trời-8-chế-độ-không-thấm-nướchttpsshopeevn22m200-c491c3a8n-led-dc3a2y-nc483ng-lc6b0e1bba3ng-me1bab7t-tre1bb9di-8-che1babf-c491e1bb99-khc3b4ng-the1baa5m-nc6b0e1bb9bc-bc3b3ng-pha-lc3aa-bc3b3ng-dc3a2y-c491c3a8n-ce1bb95-tc3adch-sc3a2n-vc6b0e1bb9dn-gic3a1ng-sinh-i60260951115209388978xptdk5fe656bc-e218-4c03-a1e5-a189a9af30fb&#34;&gt;&lt;a href=&#34;https://shopee.vn/22M200-%C4%91%C3%A8n-LED-d%C3%A2y-n%C4%83ng-l%C6%B0%E1%BB%A3ng-m%E1%BA%B7t-tr%E1%BB%9Di-8-ch%E1%BA%BF-%C4%91%E1%BB%99-kh%C3%B4ng-th%E1%BA%A5m-n%C6%B0%E1%BB%9Bc-b%C3%B3ng-pha-l%C3%AA-b%C3%B3ng-d%C3%A2y-%C4%91%C3%A8n-c%E1%BB%95-t%C3%ADch-s%C3%A2n-v%C6%B0%E1%BB%9Dn-gi%C3%A1ng-sinh-i.602609511.15209388978?xptdk=5fe656bc-e218-4c03-a1e5-a189a9af30fb&#34;&gt;Đèn LED dây năng lượng mặt trời 8 chế độ không thấm nước&lt;/a&gt;&lt;/h3&gt;
+      <description>&lt;h3 id=&#34;đèn-led-dây-năng-lượng-mặt-trời-8-chế-độ-không-thấm-nước&#34;&gt;&lt;a href=&#34;https://shopee.vn/22M200-%C4%91%C3%A8n-LED-d%C3%A2y-n%C4%83ng-l%C6%B0%E1%BB%A3ng-m%E1%BA%B7t-tr%E1%BB%9Di-8-ch%E1%BA%BF-%C4%91%E1%BB%99-kh%C3%B4ng-th%E1%BA%A5m-n%C6%B0%E1%BB%9Bc-b%C3%B3ng-pha-l%C3%AA-b%C3%B3ng-d%C3%A2y-%C4%91%C3%A8n-c%E1%BB%95-t%C3%ADch-s%C3%A2n-v%C6%B0%E1%BB%9Dn-gi%C3%A1ng-sinh-i.602609511.15209388978?xptdk=5fe656bc-e218-4c03-a1e5-a189a9af30fb&#34;&gt;Đèn LED dây năng lượng mặt trời 8 chế độ không thấm nước&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/IoT/Solar_Led_Teardown/Hinh_1.webp&#34;
   alt=&#34;Hình 1&#34;
@@ -747,7 +964,7 @@ https://github.com/caddyserver/caddy
     <item>
       <title>Camera_A9_Teardown</title>
       <link>https://vinhlin.github.io/posts/iot/hardware/camera_a9_teardown/</link>
-      <description>&lt;h3 id=&#34;tham-khảo-sản-phẩm-camera-mini-a9httpsshopeevncamera-wifi-a9-khc3b4ng-dc3a2y-che1bb91ng-tre1bb99m-ke1babft-ne1bb91i-c491ie1bb87n-thoe1baa1i-te1bbab-xa-gc3b3c-quay-120-c491e1bb99-full-hd-1080p-ip-cc3b3-led-he1bb93ng-ngoe1baa1i-i159873213957308490157xptdka53b3919-c493-4af6-a534-13346460da35&#34;&gt;Tham khảo sản phẩm &lt;a href=&#34;https://shopee.vn/Camera-wifi-A9-kh%C3%B4ng-d%C3%A2y-ch%E1%BB%91ng-tr%E1%BB%99m-k%E1%BA%BFt-n%E1%BB%91i-%C4%91i%E1%BB%87n-tho%E1%BA%A1i-t%E1%BB%AB-xa-g%C3%B3c-quay-120-%C4%91%E1%BB%99-Full-HD-1080P-IP-c%C3%B3-Led-h%E1%BB%93ng-ngo%E1%BA%A1i-i.1598732139.57308490157?xptdk=a53b3919-c493-4af6-a534-13346460da35&#34;&gt;Camera Mini A9&lt;/a&gt;&lt;/h3&gt;
+      <description>&lt;h3 id=&#34;tham-khảo-sản-phẩm-camera-mini-a9&#34;&gt;Tham khảo sản phẩm &lt;a href=&#34;https://shopee.vn/Camera-wifi-A9-kh%C3%B4ng-d%C3%A2y-ch%E1%BB%91ng-tr%E1%BB%99m-k%E1%BA%BFt-n%E1%BB%91i-%C4%91i%E1%BB%87n-tho%E1%BA%A1i-t%E1%BB%AB-xa-g%C3%B3c-quay-120-%C4%91%E1%BB%99-Full-HD-1080P-IP-c%C3%B3-Led-h%E1%BB%93ng-ngo%E1%BA%A1i-i.1598732139.57308490157?xptdk=a53b3919-c493-4af6-a534-13346460da35&#34;&gt;Camera Mini A9&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/IoT/Camera_A9_Teardown/Camera_A9.webp&#34;
   alt=&#34;Camera A9&#34;
@@ -1034,7 +1251,7 @@ https://github.com/caddyserver/caddy
 /&gt;
 
 &lt;/p&gt;
-&lt;h2 id=&#34;tham-khảo-video-youtube-how-hackers-hack-cctv-camerashttpswwwyoutubecomwatchvksuylvdjqdqlistwlindex109&#34;&gt;Tham khảo video Youtube: &lt;a href=&#34;https://www.youtube.com/watch?v=ksUylvdJQDQ&amp;amp;list=WL&amp;amp;index=109&#34;&gt;How Hackers Hack CCTV Cameras&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;tham-khảo-video-youtube-how-hackers-hack-cctv-cameras&#34;&gt;Tham khảo video Youtube: &lt;a href=&#34;https://www.youtube.com/watch?v=ksUylvdJQDQ&amp;amp;list=WL&amp;amp;index=109&#34;&gt;How Hackers Hack CCTV Cameras&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Theo tham khảo trong video, thì các thao tác sẽ là:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Phải kết nối trong cùng một mạng LAN với victim.&lt;/li&gt;
@@ -1048,7 +1265,7 @@ https://github.com/caddyserver/caddy
 &lt;li&gt;Mình có thể dùng &lt;strong&gt;brute-force&lt;/strong&gt; để test và lấy cắp thông tin username, pass.&lt;/li&gt;
 &lt;li&gt;Dùng công cụ VLC để streaming video RTSP của camera.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;video-youtube-home-cctv-cameras-hacked-how-secure-are-your-smart-home-deviceshttpswwwyoutubecomwatchvjjaawsmqih4listwlindex23&#34;&gt;Video Youtube &lt;a href=&#34;https://www.youtube.com/watch?v=jJaAWSMQih4&amp;amp;list=WL&amp;amp;index=23&#34;&gt;Home CCTV Cameras Hacked! How Secure Are Your Smart Home Devices?&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;video-youtube-home-cctv-cameras-hacked-how-secure-are-your-smart-home-devices&#34;&gt;Video Youtube &lt;a href=&#34;https://www.youtube.com/watch?v=jJaAWSMQih4&amp;amp;list=WL&amp;amp;index=23&#34;&gt;Home CCTV Cameras Hacked! How Secure Are Your Smart Home Devices?&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Video này cũng nói về cách mà hacker có thể tấn công vào một chiếc camera, và cách mà mình cần làm để bảo vệ bản thân.&lt;/li&gt;
 &lt;li&gt;Có một điều mình chú ý là &lt;strong&gt;kỹ thuật phishing email&lt;/strong&gt;, kỹ thuật này thì cũng không có gì xa lạ. Nhưng điều mình ngạc nhiên là ý tưởng &lt;strong&gt;gửi mail để cập nhật bảo mật&lt;/strong&gt;.&lt;/li&gt;
@@ -1248,10 +1465,20 @@ https://github.com/caddyserver/caddy
 /&gt;
 
 &lt;/p&gt;
-&lt;h3 id=&#34;rf-connector-types&#34;&gt;RF Connector Types&lt;/h3&gt;
+&lt;h3 id=&#34;các-loại-relay-công-nghiệp&#34;&gt;Các loại relay Công nghiệp&lt;/h3&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/Others/Basic_Knowledge/Hinh_10.jpg&#34;
   alt=&#34;Hình 10&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;cấu-tạo-jack-tai-nghe-35&#34;&gt;Cấu tạo jack tai nghe 3.5&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/Basic_Knowledge/Hinh_11.jpg&#34;
+  alt=&#34;Hình 11&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
   class=&#34;full-width&#34;
@@ -1268,26 +1495,26 @@ https://github.com/caddyserver/caddy
       <title>Blog_Page</title>
       <link>https://vinhlin.github.io/posts/others/blog_page/</link>
       <description>&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Mô tả&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3/4/2026&lt;/td&gt;
-&lt;td&gt;Khởi tạo bài viết&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;25/4/2026&lt;/td&gt;
-&lt;td&gt;Cập nhật những tính năng đã làm được&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&amp;mdash;&amp;mdash;&amp;mdash;&lt;/td&gt;
-&lt;td&gt;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Date&lt;/th&gt;
+					&lt;th&gt;Mô tả&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;3/4/2026&lt;/td&gt;
+					&lt;td&gt;Khởi tạo bài viết&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;25/4/2026&lt;/td&gt;
+					&lt;td&gt;Cập nhật những tính năng đã làm được&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&amp;mdash;&amp;mdash;&amp;mdash;&lt;/td&gt;
+					&lt;td&gt;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;Mình thỉnh thoảng cũng tham khảo tài liệu trên trang blog của anh này, &lt;a href=&#34;https://thuanbui.me/&#34;&gt;Thuan Bui&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Đọc được bài viết &lt;a href=&#34;https://thuanbui.me/bye-wordpress-hello-astro/&#34;&gt;Bye WordPress! Blog Thuanbui.me đã được chuyển nhà qua Astro + Cloudflare&lt;/a&gt;&lt;/p&gt;
@@ -1458,22 +1685,22 @@ https://www.youtube.com/watch?v=W3Ri2qbaLJ8
       <title>HeyGen_AI</title>
       <link>https://vinhlin.github.io/posts/others/heygen_ai/</link>
       <description>&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Mô tả&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;12/4/2025&lt;/td&gt;
-&lt;td&gt;Khởi tạo bài viết về công cụ &lt;strong&gt;HeyGen&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;21/4/2026&lt;/td&gt;
-&lt;td&gt;Cập nhật thêm framework &lt;strong&gt;hyperframes&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Date&lt;/th&gt;
+					&lt;th&gt;Mô tả&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;12/4/2025&lt;/td&gt;
+					&lt;td&gt;Khởi tạo bài viết về công cụ &lt;strong&gt;HeyGen&lt;/strong&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;21/4/2026&lt;/td&gt;
+					&lt;td&gt;Cập nhật thêm framework &lt;strong&gt;hyperframes&lt;/strong&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;Đây là một công cụ tạo video bằng AI&lt;/p&gt;
 &lt;p&gt;Tạo tài khoản free bằng google, một tháng được 3 lần tạo video.&lt;/p&gt;
@@ -1503,7 +1730,7 @@ https://docs.heygen.com/docs/create-video
 &lt;p&gt;Một số API như &lt;strong&gt;List language&lt;/strong&gt;: &lt;a href=&#34;https://docs.heygen.com/reference/list-supported-languages&#34;&gt;https://docs.heygen.com/reference/list-supported-languages&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Tham khảo thêm &lt;a href=&#34;https://docs.heygen.com/reference/authentication&#34;&gt;tại đây&lt;/a&gt;.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;hyperframeshttpshyperframesheygencom&#34;&gt;&lt;a href=&#34;https://hyperframes.heygen.com/&#34;&gt;HyperFrames&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;hyperframes&#34;&gt;&lt;a href=&#34;https://hyperframes.heygen.com/&#34;&gt;HyperFrames&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Vô tình thấy được một bài viết trên &lt;a href=&#34;https://www.facebook.com/photo/?fbid=1315867703974972&amp;amp;set=gm.2175427699895157&amp;amp;idorvanity=511510259620251&#34;&gt;facebook&lt;/a&gt;, chia sẻ về framework tạo video.&lt;/li&gt;
 &lt;li&gt;Tài liệu về &lt;strong&gt;Hyperframes&lt;/strong&gt;:&lt;/li&gt;
@@ -1744,98 +1971,26 @@ Timeline (GSAP) → Render → MP4&lt;/p&gt;
     </item>
     
     <item>
-      <title>LLM_Local</title>
-      <link>https://vinhlin.github.io/posts/others/llm_local/</link>
-      <description>&lt;p&gt;Bữa suy nghĩ nếu mình setup một &lt;strong&gt;Local AI&lt;/strong&gt; để sử dụng cho OpenClaw thì sẽ như thế nào.&lt;/p&gt;
-&lt;p&gt;Thế là dành cả ngày Chủ nhật sẽ ngâm cứu phương pháp cài đặt LLM trên Linux.&lt;/p&gt;
-&lt;h3 id=&#34;lm-studiohttpslmstudioai&#34;&gt;&lt;a href=&#34;https://lmstudio.ai/&#34;&gt;LM Studio&lt;/a&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Ngày trước, mình có thử dùng công cụ này để chạy thử trên Windows.&lt;/li&gt;
-&lt;li&gt;Nhưng mà mình không ưng cho lắm, nên thôi không dùng công cụ này.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;llamafilehttpsgithubcommozilla-aillamafile&#34;&gt;&lt;a href=&#34;https://github.com/mozilla-ai/llamafile&#34;&gt;llamafile&lt;/a&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Vô tình biết đến công cụ mã nguồn mở này.&lt;/li&gt;
-&lt;li&gt;Mục tiêu của mình là &lt;strong&gt;tận dụng khả năng của CPU thay vì GPU&lt;/strong&gt; &lt;em&gt;(home server đang là &lt;strong&gt;dual-gold&lt;/strong&gt; chưa dùng hết sức mạnh của nó)&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Nên mình sẽ lựa chọn những mô hình nào có thể chạy OK nhất trên CPU.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Và mình sẽ dùng mô hình &lt;strong&gt;Qwen3.5-2B-Q8_0.llamafile&lt;/strong&gt;&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/Others/LLM_Local/Hinh_1.png&#34;
-  alt=&#34;Hình 1&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Cài đặt đã xong, giờ sẽ đến phần hỏi đáp:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/Others/LLM_Local/Hinh_2.png&#34;
-  alt=&#34;Hình 2&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/Others/LLM_Local/Hinh_3.png&#34;
-  alt=&#34;Hình 3&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Cũng rất là OK, phần trăm CPU nhảy lên được &lt;strong&gt;28%&lt;/strong&gt; cho câu hỏi này.&lt;/li&gt;
-&lt;li&gt;Nhưng thật đáng tiếc, &lt;strong&gt;tích hợp với OpenClaw không ổn&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/Others/LLM_Local/Hinh_4.png&#34;
-  alt=&#34;Hình 4&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Mới nhắn 1 câu thôi, mà đã đơ luôn rồi.&lt;/li&gt;
-&lt;li&gt;Có vẻ số lượng input token của Openclaw quá lớn, khiến llamafile bị đơ luôn. =]]&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-      <author>Vincent</author>
-      <guid>https://vinhlin.github.io/posts/others/llm_local/</guid>
-      <pubDate>Wed, 15 Apr 2026 21:30:48 +0700</pubDate>
-    </item>
-    
-    <item>
       <title>Android_Xiaomi</title>
       <link>https://vinhlin.github.io/posts/others/android_xiaomi/</link>
       <description>&lt;h2 id=&#34;changelog&#34;&gt;Changelog&lt;/h2&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Ngày&lt;/th&gt;
-&lt;th&gt;Mô tả&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;8/8/2025&lt;/td&gt;
-&lt;td&gt;Khởi tạo bài viết&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;15/4/2026&lt;/td&gt;
-&lt;td&gt;Update tính năng chia sẻ internet&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Ngày&lt;/th&gt;
+					&lt;th&gt;Mô tả&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;8/8/2025&lt;/td&gt;
+					&lt;td&gt;Khởi tạo bài viết&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;15/4/2026&lt;/td&gt;
+					&lt;td&gt;Update tính năng chia sẻ internet&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;Android Xiaomi&lt;/strong&gt;, người ta nói nó như là &lt;strong&gt;Apple Trung Quốc&lt;/strong&gt; vậy.&lt;/p&gt;
@@ -1848,7 +2003,7 @@ https://github.com/offici5l/MiTool
 https://xiaomiflashtool.com/
 https://miflashpro.com/
 https://xiaomiprotool.com/
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;tính-năng-ghi-màn-hìnhhttpswwwmicomvnsupportfaqdetailska-504379&#34;&gt;Tính năng &lt;a href=&#34;https://www.mi.com/vn/support/faq/details/KA-504379/&#34;&gt;Ghi màn hình&lt;/a&gt;&lt;/h3&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;tính-năng-ghi-màn-hình&#34;&gt;Tính năng &lt;a href=&#34;https://www.mi.com/vn/support/faq/details/KA-504379/&#34;&gt;Ghi màn hình&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Mình dùng &lt;strong&gt;Redmi Note 11&lt;/strong&gt; vẫn hỗ trợ &lt;strong&gt;Ghi màn hình&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;Không cần cài đặt app thứ 3 bên ngoài.&lt;/li&gt;
@@ -1862,7 +2017,7 @@ https://xiaomiprotool.com/
 /&gt;
 
 &lt;/p&gt;
-&lt;h3 id=&#34;ứng-dụng-shareme---tham-khảo-youtubehttpswwwyoutubecomwatchv0zsyeduvet4&#34;&gt;Ứng dụng ShareMe - &lt;a href=&#34;https://www.youtube.com/watch?v=0zSYedUveT4&#34;&gt;Tham khảo youtube&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;ứng-dụng-shareme---tham-khảo-youtube&#34;&gt;Ứng dụng ShareMe - &lt;a href=&#34;https://www.youtube.com/watch?v=0zSYedUveT4&#34;&gt;Tham khảo youtube&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Ứng dụng này cũng có sẵn trên Xiaomi.&lt;/li&gt;
 &lt;li&gt;Ứng dụng cho phép mình kết nối và chia sẻ dữ liệu giữa PC và Mobile thông qua WiFi &lt;em&gt;(cùng mạng cục bộ)&lt;/em&gt;&lt;/li&gt;
@@ -2217,7 +2372,7 @@ https://xiaomiprotool.com/
 &lt;li&gt;Nhưng sau đó mới nhớ ra mình có server ở nhà, và mình đã thực hiện cài đặt &lt;strong&gt;OpenClaw cho Win10-VM&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;Xài cũng được mấy ngày rồi, và người bạn mới &lt;strong&gt;Nyra&lt;/strong&gt; này thật là &lt;strong&gt;tốn kém&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;openclaw-roadmapdocsroadmap_openclawpdf&#34;&gt;&lt;a href=&#34;https://vinhlin.github.io/docs/Roadmap_Openclaw.pdf&#34;&gt;OpenClaw Roadmap&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;openclaw-roadmap&#34;&gt;&lt;a href=&#34;https://vinhlin.github.io/docs/Roadmap_Openclaw.pdf&#34;&gt;OpenClaw Roadmap&lt;/a&gt;&lt;/h3&gt;
 &lt;h3 id=&#34;tham-khảo-thêm-openclaw_cheatsheet&#34;&gt;Tham khảo thêm &lt;code&gt;Openclaw_Cheatsheet&lt;/code&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/System-DevOps/OpenClaw/Openclaw_Cheatsheet.jpg&#34;
@@ -2374,7 +2529,7 @@ https://xiaomiprotool.com/
 /&gt;
 
 &lt;/p&gt;
-&lt;h3 id=&#34;trang-web-httpswebvmio&#34;&gt;Trang web: &lt;a href=&#34;https://webvm.io/&#34;&gt;https://webvm.io/&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;trang-web&#34;&gt;Trang web: &lt;a href=&#34;https://webvm.io/&#34;&gt;https://webvm.io/&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/System-DevOps/WebVM/Hinh_3.png&#34;
   alt=&#34;Hình 3&#34;
@@ -2507,7 +2662,7 @@ https://xiaomiprotool.com/
       <description>&lt;p&gt;Mình đã từng có bài viết ghi chú về &lt;strong&gt;Các công cụ AI&lt;/strong&gt; mà bản thân đang dùng. &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/others/cong_cu_ai/&#34;&gt;Tham khảo&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Sau đây bài viết này mình sẽ tổng hợp lại các công cụ khác, &lt;em&gt;&lt;strong&gt;các công cụ online, offline hoặc các nền tảng khác&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;translation-văn-bản&#34;&gt;Translation văn bản&lt;/h2&gt;
-&lt;h3 id=&#34;wps-aihttpswwwwpsai&#34;&gt;&lt;a href=&#34;https://www.wps.ai/&#34;&gt;WPS-AI&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;wps-ai&#34;&gt;&lt;a href=&#34;https://www.wps.ai/&#34;&gt;WPS-AI&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Video tham khảo, &lt;a href=&#34;https://www.youtube.com/watch?v=izQn-zgmN-Q&amp;amp;pp=ygUHV1BTLUFJIA%3D%3D&#34;&gt;Tôi Đã Xoá Microsoft Office… Vì WPS Quá ĐỈNH! (Tích Hợp AI + Miễn Phí)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Tài liệu khác:&lt;/li&gt;
@@ -2515,7 +2670,7 @@ https://xiaomiprotool.com/
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;&lt;a href=&#34;https://vi.wps.com/create-with-ai/what-is-wps-ai-and-how-to-download/&#34;&gt;https://vi.wps.com/create-with-ai/what-is-wps-ai-and-how-to-download/&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h3 id=&#34;anydoc-translatorhttpsanydoctranslatortoolsmartaipricingpositiontop_bar_pricing&#34;&gt;&lt;a href=&#34;https://anydoctranslator.toolsmart.ai/pricing?position=top_bar_pricing&#34;&gt;AnyDoc Translator&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;anydoc-translator&#34;&gt;&lt;a href=&#34;https://anydoctranslator.toolsmart.ai/pricing?position=top_bar_pricing&#34;&gt;AnyDoc Translator&lt;/a&gt;&lt;/h3&gt;
 &lt;h3 id=&#34;tổng-hợp-các-dự-án-dịch-thuật-tài-liệu&#34;&gt;Tổng hợp các dự án Dịch thuật tài liệu:&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;PDF Translator for Human&lt;/strong&gt;&lt;/li&gt;
@@ -2573,7 +2728,7 @@ https://xiaomiprotool.com/
 &lt;ul&gt;
 &lt;li&gt;Tham khảo: &lt;a href=&#34;https://platform.openai.com/docs/guides/speech-to-text&#34;&gt;https://platform.openai.com/docs/guides/speech-to-text&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;dự-án-hugging-facehttpshuggingfacecotasks&#34;&gt;Dự án &lt;a href=&#34;https://huggingface.co/tasks&#34;&gt;Hugging Face&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;dự-án-hugging-face&#34;&gt;Dự án &lt;a href=&#34;https://huggingface.co/tasks&#34;&gt;Hugging Face&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Github project &lt;a href=&#34;https://github.com/huggingface/speech-to-speech&#34;&gt;huggingface/speech-to-speech&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://huggingface.co/tasks/text-to-speech&#34;&gt;Text to Speech&lt;/a&gt;&lt;/li&gt;
@@ -2583,12 +2738,12 @@ https://xiaomiprotool.com/
 &lt;li&gt;Tham khảo bài viết về &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/others/heygen_ai/&#34;&gt;HeyGen AI&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;ai-assistant---trợ-lý-ai&#34;&gt;AI Assistant - Trợ lý AI&lt;/h2&gt;
-&lt;h3 id=&#34;dự-án-astrbothttpsastrbotapp&#34;&gt;Dự án &lt;a href=&#34;https://astrbot.app/&#34;&gt;AstrBot&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;dự-án-astrbot&#34;&gt;Dự án &lt;a href=&#34;https://astrbot.app/&#34;&gt;AstrBot&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Github project &lt;a href=&#34;https://github.com/AstrBotDevs/AstrBot&#34;&gt;AstrBotDevs/AstrBot&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Docs: &lt;a href=&#34;https://docs.astrbot.app/en/&#34;&gt;https://docs.astrbot.app/en/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;picoclawhttpspicoclawio&#34;&gt;&lt;a href=&#34;https://picoclaw.io/&#34;&gt;PicoClaw&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;picoclaw&#34;&gt;&lt;a href=&#34;https://picoclaw.io/&#34;&gt;PicoClaw&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Github project &lt;a href=&#34;https://github.com/sipeed/picoclaw&#34;&gt;sipeed/picoclaw&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Một dự án được viết bằng Golang, có thể chạy trên máy tính nhúng.&lt;/li&gt;
@@ -2601,11 +2756,11 @@ https://xiaomiprotool.com/
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;các-dự-án-khác&#34;&gt;Các dự án khác:&lt;/h2&gt;
-&lt;h3 id=&#34;x-plugmobileagenthttpsgithubcomx-plugmobileagent&#34;&gt;&lt;a href=&#34;https://github.com/X-PLUG/MobileAgent&#34;&gt;X-PLUG/MobileAgent&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;x-plugmobileagent&#34;&gt;&lt;a href=&#34;https://github.com/X-PLUG/MobileAgent&#34;&gt;X-PLUG/MobileAgent&lt;/a&gt;&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;AI có thể tự dùng điện thoại và máy tính thay bạn.&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h3 id=&#34;mã-nguồn-mở-open-notebookhttpswwwopen-notebookai&#34;&gt;Mã nguồn mở &lt;a href=&#34;https://www.open-notebook.ai/&#34;&gt;Open Notebook&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;mã-nguồn-mở-open-notebook&#34;&gt;Mã nguồn mở &lt;a href=&#34;https://www.open-notebook.ai/&#34;&gt;Open Notebook&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Dự án mã nguồn mở, tương tự như &lt;strong&gt;NotebookLM của Google&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;Với dự án này có thể tận dụng với API của các mô hình AI khác.&lt;/li&gt;
@@ -2626,22 +2781,22 @@ https://xiaomiprotool.com/
       <link>https://vinhlin.github.io/posts/iot/software/raspberry-openauto/</link>
       <description>&lt;h3 id=&#34;changelog&#34;&gt;Changelog&lt;/h3&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Ngày&lt;/th&gt;
-&lt;th&gt;Mô tả&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;1/4/2024&lt;/td&gt;
-&lt;td&gt;Khởi tạo bài viết&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;12/3/2026&lt;/td&gt;
-&lt;td&gt;Update kiến thức&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Ngày&lt;/th&gt;
+					&lt;th&gt;Mô tả&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;1/4/2024&lt;/td&gt;
+					&lt;td&gt;Khởi tạo bài viết&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;12/3/2026&lt;/td&gt;
+					&lt;td&gt;Update kiến thức&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;openauto&#34;&gt;OpenAuto&lt;/h3&gt;
@@ -2725,7 +2880,7 @@ https://xiaomiprotool.com/
 &lt;em&gt;3. Xử lý hình ảnh để nhận biết.&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Dashcam thì có vẻ chỉ &lt;strong&gt;dùng 1 và 3 để nhận biết ngày/đêm&lt;/strong&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;đây-là-một-bài-viết-trên-facebook-về-ir-cut-filterhttpswwwfacebookcomgroupsdahuavnofficialposts1250285923410958&#34;&gt;Đây là một bài viết trên &lt;a href=&#34;https://www.facebook.com/groups/dahuavnofficial/posts/1250285923410958/&#34;&gt;Facebook về IR Cut Filter&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;đây-là-một-bài-viết-trên-facebook-về-ir-cut-filter&#34;&gt;Đây là một bài viết trên &lt;a href=&#34;https://www.facebook.com/groups/dahuavnofficial/posts/1250285923410958/&#34;&gt;Facebook về IR Cut Filter&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/IoT/IR_Cut_Filter/Hinh_1.png&#34;
   alt=&#34;Hình 1&#34;
@@ -2735,7 +2890,7 @@ https://xiaomiprotool.com/
 /&gt;
 
 &lt;/p&gt;
-&lt;h3 id=&#34;tham-khảo-sản-phẩm-trên-shopee-bộ-lọc-cắt-hồng-ngoạihttpsshopeevnproduct126305749426150941668gads_t_sigvtjgc2rhvmtymtlxtfvsvvrrdenkywxzmtdqtstnag03atlhynzwsjk5qm5rtmxhajjdqul5umpxsnheyjfbwvmrk2o4d25snworwgdazuorauxoeeu4wdbewfljvxrjyytwc1n3skfmmlbmnhzdvklvm2jpqxy5yudkd3f1zhyxr2nnuuc1v0jouhf0wndyowfgbuj3pt0gad_source1gad_campaignid23290731487gbraid0aaaaadppqe5yp60oosnmz6918p377cznmgclidcjwkcajwpctnbha5eiwado1s9nlrpgxiwumqgierjxzgyvne4aqvcotvqfxz3t50j9m5qcvdbv0zgroc1suqavd_bwe&#34;&gt;Tham khảo sản phẩm trên shopee &lt;a href=&#34;https://shopee.vn/product/1263057494/26150941668?gads_t_sig=VTJGc2RHVmtYMTlxTFVSVVRrdENkYWxZMTdQTStNaG03aTlHYnZwSjk5Qm5RTmxhajJDQUl5UmpxSnhEYjFBWVMrK2o4d25sNWorWGdaZUoraUxOeEU4WDBEWFljVXRJYytwc1N3SkFMMlBmNHZDVklvM2JpQXY5YUdkd3F1ZHYxR2NnUUc1V0JOUHF0WndyOWFGbUJ3PT0&amp;amp;gad_source=1&amp;amp;gad_campaignid=23290731487&amp;amp;gbraid=0AAAAADPpQE5yP60ooSnmz6918p377cZNM&amp;amp;gclid=CjwKCAjwpcTNBhA5EiwAdO1S9nlrpGxIwuMqGIErJxZgyVne4AqVCOtvqFxz3t50j9m5QCvDbV0ZGRoC1SUQAvD_BwE&#34;&gt;Bộ lọc cắt hồng ngoại&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;tham-khảo-sản-phẩm-trên-shopee-bộ-lọc-cắt-hồng-ngoại&#34;&gt;Tham khảo sản phẩm trên shopee &lt;a href=&#34;https://shopee.vn/product/1263057494/26150941668?gads_t_sig=VTJGc2RHVmtYMTlxTFVSVVRrdENkYWxZMTdQTStNaG03aTlHYnZwSjk5Qm5RTmxhajJDQUl5UmpxSnhEYjFBWVMrK2o4d25sNWorWGdaZUoraUxOeEU4WDBEWFljVXRJYytwc1N3SkFMMlBmNHZDVklvM2JpQXY5YUdkd3F1ZHYxR2NnUUc1V0JOUHF0WndyOWFGbUJ3PT0&amp;amp;gad_source=1&amp;amp;gad_campaignid=23290731487&amp;amp;gbraid=0AAAAADPpQE5yP60ooSnmz6918p377cZNM&amp;amp;gclid=CjwKCAjwpcTNBhA5EiwAdO1S9nlrpGxIwuMqGIErJxZgyVne4AqVCOtvqFxz3t50j9m5QCvDbV0ZGRoC1SUQAvD_BwE&#34;&gt;Bộ lọc cắt hồng ngoại&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://down-vn.img.susercontent.com/file/sg-11134201-7rd56-lvpx6rcn2cg036.webp&#34;
   alt=&#34;Hình tham khảo&#34;
@@ -2817,7 +2972,7 @@ https://xiaomiprotool.com/
 &lt;p&gt;Lúc trước việc chuyển đổi &lt;strong&gt;văn bản thành âm thanh&lt;/strong&gt; đã có từ lâu rồi.&lt;/p&gt;
 &lt;p&gt;Nhưng thời điểm đó, giọng đọc rất khô và như robot.&lt;/p&gt;
 &lt;p&gt;Bây giờ thời đại công nghệ AI, đã xuất hiện rất nhiều công cụ &lt;strong&gt;AI hỗ trợ TTS&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;vbee-aihttpsstudiovbeevnstudiotext-to-speech&#34;&gt;&lt;a href=&#34;https://studio.vbee.vn/studio/text-to-speech&#34;&gt;Vbee AI&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;vbee-ai&#34;&gt;&lt;a href=&#34;https://studio.vbee.vn/studio/text-to-speech&#34;&gt;Vbee AI&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Một công cụ chuyển đổi văn bản sang âm thanh&lt;/li&gt;
 &lt;li&gt;Hỗ trợ rất nhiều về giọng đọc tiếng Việt, đủ loại vùng miền.&lt;/li&gt;
@@ -2992,7 +3147,7 @@ https://developers.openai.com/api/docs/guides/tools-file-search
 &lt;li&gt;Sau khi mình đã chạy thành công Redroid trên máy ảo rồi.&lt;/li&gt;
 &lt;li&gt;Thì mình có thể kết nối với &lt;strong&gt;Android ảo&lt;/strong&gt; trên máy Windows bằng các công cụ.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;công-cụ-scrcpyhttpsgithubcomgenymobilescrcpy&#34;&gt;Công cụ &lt;a href=&#34;https://github.com/Genymobile/scrcpy&#34;&gt;scrcpy&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;công-cụ-scrcpy&#34;&gt;Công cụ &lt;a href=&#34;https://github.com/Genymobile/scrcpy&#34;&gt;scrcpy&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Lựa chọn phiên bản cho Windows và &lt;a href=&#34;https://github.com/Genymobile/scrcpy/releases&#34;&gt;download&lt;/a&gt; về.&lt;/li&gt;
 &lt;li&gt;Sau đó thực hiện lệnh:&lt;/li&gt;
@@ -3002,7 +3157,7 @@ scrcpy -s 172.16.20.50:5555
 &lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
 &lt;li&gt;Máy ảo của mình có IP là &lt;code&gt;172.16.20.50&lt;/code&gt;, nên phải cần kết nối vào địa chỉ IP này.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;công-cụ-vysorhttpswwwvysorio&#34;&gt;Công cụ &lt;a href=&#34;https://www.vysor.io/&#34;&gt;Vysor&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;công-cụ-vysor&#34;&gt;Công cụ &lt;a href=&#34;https://www.vysor.io/&#34;&gt;Vysor&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Ngoài ra còn một công cụ khác nữa là &lt;strong&gt;Vysor&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;Mình vẫn cần dùng &lt;strong&gt;adb&lt;/strong&gt; kết nối trước:&lt;/li&gt;
@@ -3020,7 +3175,7 @@ scrcpy -s 172.16.20.50:5555
 /&gt;
 
 &lt;/p&gt;
-&lt;h3 id=&#34;một-công-cụ-khác-giúp-kết-nối-trực-tiếp-trên-web-pixel-adbhttpsadbpixel-aiorg&#34;&gt;Một công cụ khác giúp kết nối trực tiếp trên web: &lt;a href=&#34;https://adb.pixel-ai.org/&#34;&gt;Pixel-ADB&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;một-công-cụ-khác-giúp-kết-nối-trực-tiếp-trên-web-pixel-adb&#34;&gt;Một công cụ khác giúp kết nối trực tiếp trên web: &lt;a href=&#34;https://adb.pixel-ai.org/&#34;&gt;Pixel-ADB&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Thay vì phải cài đặt bộ công cụ &lt;strong&gt;Platform-Tools&lt;/strong&gt; của ADB, đây là một dự án giúp kết nối ADB bằng ứng dụng web.&lt;/li&gt;
 &lt;li&gt;Mình thấy nó giống như có mấy công cụ hỗ trợ kết nối Serial trên nền tảng web.&lt;/li&gt;
@@ -3041,7 +3196,7 @@ https://adb.pixel-ai.org/app/device-info
 &lt;p&gt;Thường thì mình sẽ nhờ đồng nghiệp support thêm về việc trải nghiệm camera. Nhưng đôi lúc, mình cần test các tính năng của camera.&lt;/p&gt;
 &lt;p&gt;Mình có thể test trên lab, sử dụng nguồn từ ac-quy hoặc nguồn tổ ong. Nhưng mình muốn trải nghiệm nhiều hơn các tính năng khác.&lt;/p&gt;
 &lt;p&gt;Và đó là lúc mình &lt;strong&gt;chế&lt;/strong&gt; lại việc gắn camera ô tô lên chiếc xe máy. Có sử dụng đầy đủ cả 3 dây của bộ nguồn Hardware Kit &lt;em&gt;(ACC, B+, GND)&lt;/em&gt;&lt;/p&gt;
-&lt;h3 id=&#34;video-short-l110-cho-xe-máyhttpswwwyoutubecomshorts2gqjovk0p84&#34;&gt;Video short &lt;a href=&#34;https://www.youtube.com/shorts/2GQjoVK0P84&#34;&gt;L110 cho xe máy&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;video-short-l110-cho-xe-máy&#34;&gt;Video short &lt;a href=&#34;https://www.youtube.com/shorts/2GQjoVK0P84&#34;&gt;L110 cho xe máy&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Đây là video mình làm test check xem quá trình xem lại chạy xe, thử xem video có ổn không.&lt;/li&gt;
 &lt;li&gt;Nhìn chung thì cũng tạm ổn&lt;/li&gt;
@@ -3110,7 +3265,7 @@ https://adb.pixel-ai.org/app/device-info
       <description>&lt;p&gt;Lúc trước nếu cần check API thì mình hay dùng &lt;strong&gt;Postman&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Nhưng bây giờ ứng dụng này quá nặng, và cần phải đăng nhập các kiểu.&lt;/p&gt;
 &lt;p&gt;Mình cần tìm một ứng dụng thay thế, gọn nhẹ. Và lúc này mình tìm thấy ứng dụng gọi là &lt;strong&gt;Bruno&lt;/strong&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;trang-chủ-brunohttpswwwusebrunocom&#34;&gt;Trang chủ &lt;a href=&#34;https://www.usebruno.com/&#34;&gt;Bruno&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;trang-chủ-bruno&#34;&gt;Trang chủ &lt;a href=&#34;https://www.usebruno.com/&#34;&gt;Bruno&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Trang github &lt;a href=&#34;https://github.com/usebruno/bruno&#34;&gt;usebruno/bruno&lt;/a&gt;, và link &lt;a href=&#34;https://www.usebruno.com/downloads&#34;&gt;download&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Mình đã tải và cài đặt ứng dụng. Dùng cũng ổn áp, và rất nhẹ =]]&lt;/li&gt;
@@ -3211,10 +3366,23 @@ https://adb.pixel-ai.org/app/device-info
 &lt;li&gt;Tài liệu tham khảo trên github &lt;a href=&#34;https://github.com/JREAM/ubuntu-cheatsheet&#34;&gt;JREAM/ubuntu-cheatsheet&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://vinhlin.github.io/docs/linux/Ubuntu+Server+CLI+pro+tips+06.01.20.pdf&#34;&gt;Tài liệu &lt;strong&gt;Ubuntu Server CLI&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3 id=&#34;linux-command&#34;&gt;Linux Command:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ss64.com/bash/&#34;&gt;Tài liệu online&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;File docs PDF:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/docs/linux/Linux_Commands.pdf&#34;
+  alt=&#34;File docs PDF&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
 &lt;h3 id=&#34;một-số-tài-liệu-khác&#34;&gt;Một số tài liệu khác:&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://vinhlin.github.io/docs/linux/vi_cheat_sheet.pdf&#34;&gt;&lt;strong&gt;Vi&lt;/strong&gt; cheatsheet&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://ss64.com/bash/&#34;&gt;Linux command line&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Linux for DevOps:&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img
@@ -3606,42 +3774,42 @@ https://adb.pixel-ai.org/app/device-info
       <link>https://vinhlin.github.io/posts/iot/hardware/the_nho/</link>
       <description>&lt;h2 id=&#34;changelog&#34;&gt;Changelog&lt;/h2&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Mô tả&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;11/9/25&lt;/td&gt;
-&lt;td&gt;Khởi tạo bài viết về thẻ nhớ&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;23/1/26&lt;/td&gt;
-&lt;td&gt;Tổng hợp bổ sung các hãng thẻ nhớ chất lượng&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Date&lt;/th&gt;
+					&lt;th&gt;Mô tả&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;11/9/25&lt;/td&gt;
+					&lt;td&gt;Khởi tạo bài viết về thẻ nhớ&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;23/1/26&lt;/td&gt;
+					&lt;td&gt;Tổng hợp bổ sung các hãng thẻ nhớ chất lượng&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;hr&gt;
 &lt;p&gt;Thẻ nhớ là một trong những phần cứng quan trọng cho các thiết bị như Raspberry Pi, Camera hành trình,&amp;hellip;&lt;/p&gt;
 &lt;p&gt;Việc lựa chọn thẻ nhớ phù hợp, tốc độ đọc/ghi cao là yếu tố vô cùng quan trọng để giúp thiết bị hoạt động ổn định nhất.&lt;/p&gt;
 &lt;h3 id=&#34;bảng-so-sánh&#34;&gt;Bảng so sánh:&lt;/h3&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;strong&gt;STT&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Tiêu chí&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Thẻ_XC&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Thẻ_A1&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Thẻ_A2&lt;/strong&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Hình minh họa&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;&lt;strong&gt;STT&lt;/strong&gt;&lt;/th&gt;
+					&lt;th&gt;&lt;strong&gt;Tiêu chí&lt;/strong&gt;&lt;/th&gt;
+					&lt;th&gt;&lt;strong&gt;Thẻ_XC&lt;/strong&gt;&lt;/th&gt;
+					&lt;th&gt;&lt;strong&gt;Thẻ_A1&lt;/strong&gt;&lt;/th&gt;
+					&lt;th&gt;&lt;strong&gt;Thẻ_A2&lt;/strong&gt;&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;1&lt;/td&gt;
+					&lt;td&gt;&lt;strong&gt;Hình minh họa&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/IoT/The_nho/The_SDXC.png&#34;
   alt=&#34;XC&#34;
   loading=&#34;lazy&#34;
@@ -3650,7 +3818,7 @@ https://adb.pixel-ai.org/app/device-info
 /&gt;
 
 &lt;/td&gt;
-&lt;td&gt;&lt;img
+					&lt;td&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/IoT/The_nho/The_A1.jpg&#34;
   alt=&#34;A1&#34;
   loading=&#34;lazy&#34;
@@ -3659,7 +3827,7 @@ https://adb.pixel-ai.org/app/device-info
 /&gt;
 
 &lt;/td&gt;
-&lt;td&gt;&lt;img
+					&lt;td&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/IoT/The_nho/The_A2V30.png&#34;
   alt=&#34;A2&#34;
   loading=&#34;lazy&#34;
@@ -3668,57 +3836,57 @@ https://adb.pixel-ai.org/app/device-info
 /&gt;
 
 &lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Class hiệu năng&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Không áp dụng (thẻ gốc cũ)&lt;/td&gt;
-&lt;td&gt;A1&lt;/td&gt;
-&lt;td&gt;A2&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;3&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;UHS Speed Class&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;U1 hoặc U3 tùy loại&lt;/td&gt;
-&lt;td&gt;U1 hoặc U3 tùy loại&lt;/td&gt;
-&lt;td&gt;U3&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Video Speed Class&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Có thể không có hoặc V10/V30&lt;/td&gt;
-&lt;td&gt;V10 hoặc V30&lt;/td&gt;
-&lt;td&gt;V30&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;5&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Tốc độ ghi tối thiểu&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;10MB/s (U1), 30MB/s (U3)&lt;/td&gt;
-&lt;td&gt;10MB/s (U1), 30MB/s (U3)&lt;/td&gt;
-&lt;td&gt;30MB/s&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;6&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Tốc độ IOPS (Random RW)&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Không công bố&lt;/td&gt;
-&lt;td&gt;IOPS ≥ 1500 đọc / 500 ghi&lt;/td&gt;
-&lt;td&gt;IOPS ≥ 4000 đọc / 2000 ghi&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;7&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Tốc độ đọc lý thuyết&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;~80-100MB/s (tuỳ loại UHS)&lt;/td&gt;
-&lt;td&gt;~100MB/s&lt;/td&gt;
-&lt;td&gt;~100MB/s&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;8&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Mục đích sử dụng phù hợp&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Camera hành trình phổ thông, lưu trữ&lt;/td&gt;
-&lt;td&gt;Ứng dụng Android, camera hành trình, game nhẹ&lt;/td&gt;
-&lt;td&gt;Android, camera 4K, app lớn, ghi hình chuyên sâu&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;2&lt;/td&gt;
+					&lt;td&gt;&lt;strong&gt;Class hiệu năng&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;Không áp dụng (thẻ gốc cũ)&lt;/td&gt;
+					&lt;td&gt;A1&lt;/td&gt;
+					&lt;td&gt;A2&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;3&lt;/td&gt;
+					&lt;td&gt;&lt;strong&gt;UHS Speed Class&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;U1 hoặc U3 tùy loại&lt;/td&gt;
+					&lt;td&gt;U1 hoặc U3 tùy loại&lt;/td&gt;
+					&lt;td&gt;U3&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;4&lt;/td&gt;
+					&lt;td&gt;&lt;strong&gt;Video Speed Class&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;Có thể không có hoặc V10/V30&lt;/td&gt;
+					&lt;td&gt;V10 hoặc V30&lt;/td&gt;
+					&lt;td&gt;V30&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;5&lt;/td&gt;
+					&lt;td&gt;&lt;strong&gt;Tốc độ ghi tối thiểu&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;10MB/s (U1), 30MB/s (U3)&lt;/td&gt;
+					&lt;td&gt;10MB/s (U1), 30MB/s (U3)&lt;/td&gt;
+					&lt;td&gt;30MB/s&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;6&lt;/td&gt;
+					&lt;td&gt;&lt;strong&gt;Tốc độ IOPS (Random RW)&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;Không công bố&lt;/td&gt;
+					&lt;td&gt;IOPS ≥ 1500 đọc / 500 ghi&lt;/td&gt;
+					&lt;td&gt;IOPS ≥ 4000 đọc / 2000 ghi&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;7&lt;/td&gt;
+					&lt;td&gt;&lt;strong&gt;Tốc độ đọc lý thuyết&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;~80-100MB/s (tuỳ loại UHS)&lt;/td&gt;
+					&lt;td&gt;~100MB/s&lt;/td&gt;
+					&lt;td&gt;~100MB/s&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;8&lt;/td&gt;
+					&lt;td&gt;&lt;strong&gt;Mục đích sử dụng phù hợp&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;Camera hành trình phổ thông, lưu trữ&lt;/td&gt;
+					&lt;td&gt;Ứng dụng Android, camera hành trình, game nhẹ&lt;/td&gt;
+					&lt;td&gt;Android, camera 4K, app lớn, ghi hình chuyên sâu&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;XC (SDXC)&lt;/strong&gt;: Là chuẩn thẻ hỗ trợ dung lượng &amp;gt;32GB đến 2TB. Không có nghĩa là tốc độ cao, phụ thuộc vào UHS và Video Class.&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
@@ -3873,7 +4041,7 @@ https://www.linkedin.com/pulse/choosing-best-file-format-sd-card-external-hard-d
 &lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;cập-nhật-2312026---các-hãng-thẻ-nhớ-chất-lượng&#34;&gt;Cập nhật &lt;code&gt;23/1/2026&lt;/code&gt; - Các hãng thẻ nhớ chất lượng&lt;/h2&gt;
-&lt;h3 id=&#34;hãng-kioxia---thẻ-a2v30-của-kioxiahttpswwwthegioididongcomthe-nho-dien-thoaithe-nho-kioxia-microsd-g3-128gb-class-10-u3&#34;&gt;Hãng Kioxia - &lt;a href=&#34;https://www.thegioididong.com/the-nho-dien-thoai/the-nho-kioxia-microsd-g3-128gb-class-10-u3&#34;&gt;Thẻ A2V30 của Kioxia&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;hãng-kioxia---thẻ-a2v30-của-kioxia&#34;&gt;Hãng Kioxia - &lt;a href=&#34;https://www.thegioididong.com/the-nho-dien-thoai/the-nho-kioxia-microsd-g3-128gb-class-10-u3&#34;&gt;Thẻ A2V30 của Kioxia&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/IoT/The_nho/Kioxia-A2V30.jpg&#34;
   alt=&#34;Hình thẻ Kioxia&#34;
@@ -3883,7 +4051,7 @@ https://www.linkedin.com/pulse/choosing-best-file-format-sd-card-external-hard-d
 /&gt;
 
 &lt;/p&gt;
-&lt;h3 id=&#34;hãng-sandisk---thẻ-a2v30-của-sandiskhttpsmemoryzonecomvnthe-nho-microsdxc-sandisk-extreme-v30-a2-64gb-170mb-s-sdsqxah-064g-gn6mn&#34;&gt;Hãng SanDisk - &lt;a href=&#34;https://memoryzone.com.vn/the-nho-microsdxc-sandisk-extreme-v30-a2-64gb-170mb-s-sdsqxah-064g-gn6mn&#34;&gt;Thẻ A2V30 của SanDisk&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;hãng-sandisk---thẻ-a2v30-của-sandisk&#34;&gt;Hãng SanDisk - &lt;a href=&#34;https://memoryzone.com.vn/the-nho-microsdxc-sandisk-extreme-v30-a2-64gb-170mb-s-sdsqxah-064g-gn6mn&#34;&gt;Thẻ A2V30 của SanDisk&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/IoT/The_nho/SanDisk-A2V30.webp&#34;
   alt=&#34;Hình thẻ SanDisk&#34;
@@ -3893,7 +4061,7 @@ https://www.linkedin.com/pulse/choosing-best-file-format-sd-card-external-hard-d
 /&gt;
 
 &lt;/p&gt;
-&lt;h3 id=&#34;hãng-transcend---thẻ-a1v30-của-transcend-httpscellphonescomvnthe-nho-micro-sdxc-transcend-uhs-i-u1-a1-128gbhtml&#34;&gt;Hãng Transcend - &lt;a href=&#34;https://cellphones.com.vn/the-nho-micro-sdxc-transcend-uhs-i-u1-a1-128gb.html&#34;&gt;Thẻ A1V30 của Transcend &lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;hãng-transcend---thẻ-a1v30-của-transcend&#34;&gt;Hãng Transcend - &lt;a href=&#34;https://cellphones.com.vn/the-nho-micro-sdxc-transcend-uhs-i-u1-a1-128gb.html&#34;&gt;Thẻ A1V30 của Transcend &lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/IoT/The_nho/Transcend-A1V30.png&#34;
   alt=&#34;Hình thẻ Transcend&#34;
@@ -4066,7 +4234,7 @@ https://www.linkedin.com/pulse/choosing-best-file-format-sd-card-external-hard-d
       <link>https://vinhlin.github.io/posts/cybersecurity/technical/exif_tool/</link>
       <description>&lt;p&gt;Tham khảo bài viết &lt;a href=&#34;https://tinhte.vn/thread/exif-la-gi-cach-xem-cach-xoa-exif-cua-anh.3133520/&#34;&gt;Exif là gì? Cách xem &amp;amp; cách xóa Exif của ảnh&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Đây là công cụ để lấy &lt;strong&gt;metadata (dữ liệu ẩn)&lt;/strong&gt; của một bức ảnh, bao gồm &lt;strong&gt;ngày chụp (Date)&lt;/strong&gt; và &lt;strong&gt;vị trí (Location/GPS)&lt;/strong&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;cài-đặt-exiftoolhttpsexiftoolorg&#34;&gt;Cài đặt &lt;a href=&#34;https://exiftool.org/&#34;&gt;ExifTool&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;cài-đặt-exiftool&#34;&gt;Cài đặt &lt;a href=&#34;https://exiftool.org/&#34;&gt;ExifTool&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Truy cập vào trang chủ, tải về phiên bản cho Windows, sau đó giải nén ra.&lt;/li&gt;
 &lt;li&gt;Theo file &lt;strong&gt;readme&lt;/strong&gt; để sử dụng tool bằng command-line, thì mình cần đổi tên:&lt;/li&gt;
@@ -4247,7 +4415,7 @@ https://www.linkedin.com/pulse/choosing-best-file-format-sd-card-external-hard-d
 /&gt;
 
 &lt;/p&gt;
-&lt;h2 id=&#34;công-nghệ-agpshttpsfptshopcomvntin-tucdanh-giacong-nghe-dinh-vi-a-gps-177212&#34;&gt;&lt;a href=&#34;https://fptshop.com.vn/tin-tuc/danh-gia/cong-nghe-dinh-vi-a-gps-177212&#34;&gt;Công nghệ AGPS&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;công-nghệ-agps&#34;&gt;&lt;a href=&#34;https://fptshop.com.vn/tin-tuc/danh-gia/cong-nghe-dinh-vi-a-gps-177212&#34;&gt;Công nghệ AGPS&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Thông thường với để cải thiện giúp bắt GPS tốt hơn, thì mình sẽ dùng đến &lt;strong&gt;AGPS&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
@@ -4393,7 +4561,7 @@ https://www.linkedin.com/pulse/choosing-best-file-format-sd-card-external-hard-d
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Ant Media Server&lt;/strong&gt;&lt;/em&gt; &lt;/br&gt;
 &lt;em&gt;&lt;strong&gt;SRS(Simple Realtime Server)&lt;/strong&gt;&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h4 id=&#34;giải-pháp-1-ant-media-serverhttpsantmediaio&#34;&gt;Giải pháp 1: &lt;a href=&#34;https://antmedia.io/&#34;&gt;Ant Media Server&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;giải-pháp-1-ant-media-server&#34;&gt;Giải pháp 1: &lt;a href=&#34;https://antmedia.io/&#34;&gt;Ant Media Server&lt;/a&gt;&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Dự án này có phiên bản mã nguồn mở, nhưng bị giới hạn. Lợi điểm là build nhanh.&lt;/li&gt;
 &lt;li&gt;Tài liệu:&lt;/li&gt;
@@ -4446,7 +4614,7 @@ https://www.linkedin.com/pulse/choosing-best-file-format-sd-card-external-hard-d
     <item>
       <title>OT_Security_Lab</title>
       <link>https://vinhlin.github.io/posts/cybersecurity/ot_security_lab/</link>
-      <description>&lt;h3 id=&#34;bài-viếthttpswwwlinkedincomfeedupdateurnliactivity7409103868728635392&#34;&gt;&lt;a href=&#34;https://www.linkedin.com/feed/update/urn:li:activity:7409103868728635392/&#34;&gt;Bài viết&lt;/a&gt;&lt;/h3&gt;
+      <description>&lt;h3 id=&#34;bài-viết&#34;&gt;&lt;a href=&#34;https://www.linkedin.com/feed/update/urn:li:activity:7409103868728635392/&#34;&gt;Bài viết&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://media.licdn.com/dms/image/v2/D4E22AQF7v2KlyXxuaw/feedshare-shrink_800/B4EZs2pwTXIwAg-/0/1766148475742?e=1767830400&amp;amp;v=beta&amp;amp;t=dbtKFyUJN263AeGnnt0tls56acNlzLK2SNVIFmFng3E&#34;
   alt=&#34;Hình 1&#34;
@@ -4545,7 +4713,7 @@ https://www.linkedin.com/pulse/choosing-best-file-format-sd-card-external-hard-d
       <title>Car_System</title>
       <link>https://vinhlin.github.io/posts/others/car_system/</link>
       <description>&lt;h2 id=&#34;tổng-hợp-các-video-về-kỹ-thuật-ô-tô&#34;&gt;Tổng hợp các video về Kỹ thuật ô tô&lt;/h2&gt;
-&lt;h1 id=&#34;video-vinfast-vf3-đam-xe-rac--hieu-đung-hon-ve-an-toan-xe-hoihttpswwwyoutubecomwatchvx5nt0fi2yculistplvqx3stz6naj17re--xxlul9jogoiqwefindex19&#34;&gt;Video &lt;a href=&#34;https://www.youtube.com/watch?v=x5nT0Fi2ycU&amp;amp;list=PLVQx3stZ6NAj17rE--xxLUL9jOGoiQWeF&amp;amp;index=19&#34;&gt;VINFAST VF3 đâm xe rác – Hiểu đúng hơn về an toàn xe hơi&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;video-vinfast-vf3-đam-xe-rac--hieu-đung-hon-ve-an-toan-xe-hoi&#34;&gt;Video &lt;a href=&#34;https://www.youtube.com/watch?v=x5nT0Fi2ycU&amp;amp;list=PLVQx3stZ6NAj17rE--xxLUL9jOGoiQWeF&amp;amp;index=19&#34;&gt;VINFAST VF3 đâm xe rác – Hiểu đúng hơn về an toàn xe hơi&lt;/a&gt;&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Video này giới thiệu về các kỹ thuật người ta test độ an toàn của xe hơi.&lt;/li&gt;
 &lt;li&gt;Bao gồm &lt;strong&gt;An toàn thụ động (Passive Safety)&lt;/strong&gt;, &lt;strong&gt;Các chương trình Thử nghiệm An toàn&lt;/strong&gt;&lt;/li&gt;
@@ -4599,7 +4767,7 @@ https://www.linkedin.com/pulse/choosing-best-file-format-sd-card-external-hard-d
 &lt;ul&gt;
 &lt;li&gt;Được dùng để kiểm tra chấn thương cổ khi bị xe khác tông từ phía sau&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;video-vinfast-vf9-đam-xe-tai--đau-la-gioi-han-cong-nghe-an-toan-adas-ở-đâuhttpswwwyoutubecomwatchvcmvqo91esoolistplvqx3stz6naj17re--xxlul9jogoiqwefindex9&#34;&gt;Video &lt;a href=&#34;https://www.youtube.com/watch?v=CmvqO91esoo&amp;amp;list=PLVQx3stZ6NAj17rE--xxLUL9jOGoiQWeF&amp;amp;index=9&#34;&gt;VINFAST VF9 ĐÂM XE TẢI – Đâu là Giới Hạn Công Nghệ An Toàn? ADAS ở đâu??&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;video-vinfast-vf9-đam-xe-tai--đau-la-gioi-han-cong-nghe-an-toan-adas-ở-đâu&#34;&gt;Video &lt;a href=&#34;https://www.youtube.com/watch?v=CmvqO91esoo&amp;amp;list=PLVQx3stZ6NAj17rE--xxLUL9jOGoiQWeF&amp;amp;index=9&#34;&gt;VINFAST VF9 ĐÂM XE TẢI – Đâu là Giới Hạn Công Nghệ An Toàn? ADAS ở đâu??&lt;/a&gt;&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Giải thích công nghệ radar ADAS, và công nghệ AEB&lt;/li&gt;
 &lt;li&gt;Nhìn chung thì khi &lt;strong&gt;xe chạy trên cao tốc thì vẫn phụ thuộc vào khả năng của người lái xe&lt;/strong&gt;, chứ không thể phụ thuộc hoàn toàn vào công nghệ,&lt;/li&gt;
@@ -4642,7 +4810,7 @@ https://www.linkedin.com/pulse/choosing-best-file-format-sd-card-external-hard-d
 &lt;p&gt;&lt;em&gt;Thứ 1: &lt;strong&gt;NetGuard&lt;/strong&gt; ứng dụng firewall cho thiết bị Android&lt;/em&gt; &lt;/br&gt;
 &lt;em&gt;Thứ 2: &lt;strong&gt;Portmaster&lt;/strong&gt; ứng dụng firewall cho Linux hoặc Windows&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h3 id=&#34;netguardhttpsnetguardme&#34;&gt;&lt;a href=&#34;https://netguard.me/&#34;&gt;NetGuard&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;netguard&#34;&gt;&lt;a href=&#34;https://netguard.me/&#34;&gt;NetGuard&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Download từ &lt;a href=&#34;https://play.google.com/store/apps/details?id=eu.faircode.netguard&#34;&gt;Google Play&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;NetGuard là một trong những ứng dụng &lt;strong&gt;firewall không cần root&lt;/strong&gt; phổ biến nhất trên Android.&lt;/li&gt;
@@ -4670,7 +4838,7 @@ https://www.linkedin.com/pulse/choosing-best-file-format-sd-card-external-hard-d
 /&gt;
 
 &lt;/p&gt;
-&lt;h3 id=&#34;portmasterhttpssafingio&#34;&gt;&lt;a href=&#34;https://safing.io/&#34;&gt;Portmaster&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;portmaster&#34;&gt;&lt;a href=&#34;https://safing.io/&#34;&gt;Portmaster&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Ứng dụng mình quan tâm nhất, ứng dụng firewall có &lt;strong&gt;GUI&lt;/strong&gt; dùng được trên cả Linux và Windows&lt;/li&gt;
 &lt;li&gt;Documents:&lt;/li&gt;
@@ -4848,7 +5016,7 @@ https://www.linkedin.com/pulse/choosing-best-file-format-sd-card-external-hard-d
 &lt;p&gt;Nhìn thì cũng không khó lắm, và khi tháo ra mình còn được bạn đó chỉ về &lt;strong&gt;lọc gió&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Trước giờ mình có biết lọc gió xe máy là gì đâu, và cũng chẳng biết nó nằm đâu. =]]&lt;/p&gt;
 &lt;p&gt;Thế là về nhà tìm hiểu thêm về cách tháo xe máy &lt;strong&gt;chiếc Honda Future&lt;/strong&gt;, và ngâm cứu về lọc gió.&lt;/p&gt;
-&lt;h3 id=&#34;hướng-dẫn-tháo-lắp-nhựa-honda-futurehttpswwwyoutubecomwatchveito2wabpqi&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Eito2WAbpQI&#34;&gt;Hướng dẫn tháo lắp nhựa Honda Future&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;hướng-dẫn-tháo-lắp-nhựa-honda-future&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Eito2WAbpQI&#34;&gt;Hướng dẫn tháo lắp nhựa Honda Future&lt;/a&gt;&lt;/h3&gt;
 &lt;h2 id=&#34;lọc-gió&#34;&gt;Lọc gió:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Tham khảo video:&lt;/li&gt;
@@ -5083,22 +5251,22 @@ https://www.arubanetworks.com/techdocs/ArubaOS_60/UserGuide/Mesh.php
       <title>Cong_cu_AI</title>
       <link>https://vinhlin.github.io/posts/others/cong_cu_ai/</link>
       <description>&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Ngày&lt;/th&gt;
-&lt;th&gt;Mô tả&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;17/11/2025&lt;/td&gt;
-&lt;td&gt;Khởi tạo bài viết, ghi chú về Grok và OpenAI&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;3/12/2025&lt;/td&gt;
-&lt;td&gt;Bổ sung thêm công cụ &lt;strong&gt;Notebook-LM&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Ngày&lt;/th&gt;
+					&lt;th&gt;Mô tả&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;17/11/2025&lt;/td&gt;
+					&lt;td&gt;Khởi tạo bài viết, ghi chú về Grok và OpenAI&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;3/12/2025&lt;/td&gt;
+					&lt;td&gt;Bổ sung thêm công cụ &lt;strong&gt;Notebook-LM&lt;/strong&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;hr&gt;
 &lt;p&gt;AI đã là quá phổ biến, với mình &lt;em&gt;&lt;strong&gt;AI là những người thầy tài giỏi, những người hiểu biết sâu và rộng&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
@@ -5293,22 +5461,22 @@ https://codesuite.org/blogs/why-choose-rust-for-mobile-app-development/
       <link>https://vinhlin.github.io/posts/others/grok_ai/</link>
       <description>&lt;h3 id=&#34;changelog&#34;&gt;Changelog&lt;/h3&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Mô tả&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;26/2/25&lt;/td&gt;
-&lt;td&gt;Khởi tạo bài viết, và cảm nhận về Grok&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;20/11/25&lt;/td&gt;
-&lt;td&gt;Ghi chú về các tính năng mới của Grok&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Date&lt;/th&gt;
+					&lt;th&gt;Mô tả&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;26/2/25&lt;/td&gt;
+					&lt;td&gt;Khởi tạo bài viết, và cảm nhận về Grok&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;20/11/25&lt;/td&gt;
+					&lt;td&gt;Ghi chú về các tính năng mới của Grok&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;hr&gt;
 &lt;p&gt;Dạo gần đây rộ lên thông tin về một AI của &lt;strong&gt;tỷ phú Elon Musk&lt;/strong&gt;, tên là &lt;strong&gt;Grok 3&lt;/strong&gt;.&lt;/p&gt;
@@ -5461,26 +5629,26 @@ https://docs.x.ai/docs/models?cluster=us-east-1#detailed-pricing-for-all-grok-mo
       <link>https://vinhlin.github.io/posts/iot/hardware/test_tf-card/</link>
       <description>&lt;h2 id=&#34;changelog&#34;&gt;Changelog&lt;/h2&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Mô tả&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;17/11/25&lt;/td&gt;
-&lt;td&gt;Khởi tạo bài viết và ghi chú cách test thẻ nhớ&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;18/11/25&lt;/td&gt;
-&lt;td&gt;Bổ sung cách &lt;strong&gt;kiểm tra tốc độ đọc/ghi thực tế của thẻ&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;20/11/25&lt;/td&gt;
-&lt;td&gt;Ghi chú thêm về command &lt;code&gt;chkdsk&lt;/code&gt; trên Windows&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Date&lt;/th&gt;
+					&lt;th&gt;Mô tả&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;17/11/25&lt;/td&gt;
+					&lt;td&gt;Khởi tạo bài viết và ghi chú cách test thẻ nhớ&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;18/11/25&lt;/td&gt;
+					&lt;td&gt;Bổ sung cách &lt;strong&gt;kiểm tra tốc độ đọc/ghi thực tế của thẻ&lt;/strong&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;20/11/25&lt;/td&gt;
+					&lt;td&gt;Ghi chú thêm về command &lt;code&gt;chkdsk&lt;/code&gt; trên Windows&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;hr&gt;
 &lt;p&gt;Xem thêm bài viết về &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/iot/hardware/the_nho/&#34;&gt;Thẻ nhớ&lt;/a&gt;&lt;/p&gt;
@@ -5581,7 +5749,7 @@ https://docs.x.ai/docs/models?cluster=us-east-1#detailed-pricing-for-all-grok-mo
 /&gt;
 
 &lt;/p&gt;
-&lt;h3 id=&#34;iostat-commandhttpswwwgeeksforgeeksorglinux-unixiostat-command-in-linux-with-examples&#34;&gt;&lt;a href=&#34;https://www.geeksforgeeks.org/linux-unix/iostat-command-in-linux-with-examples/&#34;&gt;iostat command&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;iostat-command&#34;&gt;&lt;a href=&#34;https://www.geeksforgeeks.org/linux-unix/iostat-command-in-linux-with-examples/&#34;&gt;iostat command&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Vậy là mình sẽ cần một công cụ giúp đo khả năng thực tế của thẻ nhớ.&lt;/li&gt;
 &lt;li&gt;Cũng may là mình có thể chạy command này trên thiết bị camera:&lt;/li&gt;
@@ -5605,7 +5773,7 @@ https://docs.x.ai/docs/models?cluster=us-east-1#detailed-pricing-for-all-grok-mo
 /&gt;
 
 &lt;/p&gt;
-&lt;h3 id=&#34;một-công-cụ-để-kiểm-tra-thẻ-fake---h2testwhttpsh2testworg&#34;&gt;Một công cụ để kiểm tra thẻ fake - &lt;a href=&#34;https://h2testw.org/&#34;&gt;H2testw&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;một-công-cụ-để-kiểm-tra-thẻ-fake---h2testw&#34;&gt;Một công cụ để kiểm tra thẻ fake - &lt;a href=&#34;https://h2testw.org/&#34;&gt;H2testw&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/IoT/Test_TF-Card/H2testw_1.png&#34;
   alt=&#34;Hình H2testw_1&#34;
@@ -5799,7 +5967,7 @@ H2testw v1.4
       <link>https://vinhlin.github.io/posts/iot/hardware/cmos_sensor/</link>
       <description>&lt;p&gt;Cảm biến hình ảnh, một bộ phận quan trọng đối với một chiếc camera.&lt;/p&gt;
 &lt;p&gt;Đối với các thiết bị như &lt;strong&gt;điện thoại, camera an ninh, webcam&lt;/strong&gt; thì loại &lt;strong&gt;Cảm biến CMOS&lt;/strong&gt; &lt;em&gt;(CMOS Sensor)&lt;/em&gt; được dùng rất phổ biến.&lt;/p&gt;
-&lt;h2 id=&#34;ví-dụ-về-loại-cảm-biến-hình-ảnh-gc4653gc4653&#34;&gt;Ví dụ về loại cảm biến hình ảnh &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/docs/GC4653_CSP_datasheet_for_release_Rev.1.0_20190712.pdf&#34;&gt;GC4653&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;ví-dụ-về-loại-cảm-biến-hình-ảnh-gc4653&#34;&gt;Ví dụ về loại cảm biến hình ảnh &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/docs/GC4653_CSP_datasheet_for_release_Rev.1.0_20190712.pdf&#34;&gt;GC4653&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Đây là một sản phẩm của công ty Trung Quốc chuyên về các linh kiện hình ảnh.&lt;/li&gt;
 &lt;li&gt;Tài liệu tham khảo về sensor này:&lt;/li&gt;
@@ -5979,7 +6147,7 @@ https://dl.sipeed.com/shareURL/MaixCAM/Sensors
 /&gt;
 
 &lt;/p&gt;
-&lt;h2 id=&#34;wdr-wide-dynamic-rangehttpswwwdienmayxanhcomkinh-nghiem-haycong-nghe-wdr-la-gi-1391737srsltidafmbooo8bhdrntlozvilnu-c-ws4lrefpwbtspncgepkqbyay_k-ufbw&#34;&gt;&lt;a href=&#34;https://www.dienmayxanh.com/kinh-nghiem-hay/cong-nghe-wdr-la-gi-1391737?srsltid=AfmBOoo8bHdRnTLozVILNU-C-ws4lRefPwBtSpNcGepKQBYAY_k-ufBw&#34;&gt;WDR (Wide Dynamic Range)&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;wdr-wide-dynamic-range&#34;&gt;&lt;a href=&#34;https://www.dienmayxanh.com/kinh-nghiem-hay/cong-nghe-wdr-la-gi-1391737?srsltid=AfmBOoo8bHdRnTLozVILNU-C-ws4lRefPwBtSpNcGepKQBYAY_k-ufBw&#34;&gt;WDR (Wide Dynamic Range)&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Có 2 dạng WDR là: True WDR và Digital WDR.&lt;/li&gt;
 &lt;li&gt;Phụ thuộc chất lượng cảm biến.&lt;/li&gt;
@@ -6010,7 +6178,7 @@ https://dl.sipeed.com/shareURL/MaixCAM/Sensors
 &lt;/ul&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/IoT/HDR_WDR/TrueWDR_DWDR.webp&#34;
-  alt=&#34;TrueWDR &amp;amp;amp; DWDR&#34;
+  alt=&#34;TrueWDR &amp;amp; DWDR&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
   class=&#34;full-width&#34;
@@ -6035,26 +6203,26 @@ https://dl.sipeed.com/shareURL/MaixCAM/Sensors
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;True WDR &amp;gt; HDR &amp;gt; Digital WDR về chất lượng hình ảnh trong môi trường tương phản cao.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Chọn HDR nếu&lt;/th&gt;
-&lt;th&gt;Chọn WDR nếu&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Chụp ảnh tĩnh, cần màu sắc đẹp&lt;/td&gt;
-&lt;td&gt;Giám sát 24/7, có chuyển động&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Thiết bị tiêu dùng (điện thoại, GoPro)&lt;/td&gt;
-&lt;td&gt;Camera an ninh chuyên dụng&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Chấp nhận ghosting để đổi lấy chi tiết&lt;/td&gt;
-&lt;td&gt;Ưu tiên realtime, không ghosting&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Chọn HDR nếu&lt;/th&gt;
+					&lt;th&gt;Chọn WDR nếu&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Chụp ảnh tĩnh, cần màu sắc đẹp&lt;/td&gt;
+					&lt;td&gt;Giám sát 24/7, có chuyển động&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Thiết bị tiêu dùng (điện thoại, GoPro)&lt;/td&gt;
+					&lt;td&gt;Camera an ninh chuyên dụng&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Chấp nhận ghosting để đổi lấy chi tiết&lt;/td&gt;
+					&lt;td&gt;Ưu tiên realtime, không ghosting&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/IoT/HDR_WDR/Compare_2.png&#34;
@@ -6074,7 +6242,7 @@ https://dl.sipeed.com/shareURL/MaixCAM/Sensors
     <item>
       <title>SafeLine</title>
       <link>https://vinhlin.github.io/posts/system-devops/safeline/</link>
-      <description>&lt;h3 id=&#34;bài-viết-tham-khảohttpswwwlinkedincompulsesafeline-free-zero-trust-web-application-firewall-2026-jbk7ctrackingidxnkkirrxyjff7x8tcmemiw3d3d&#34;&gt;&lt;a href=&#34;https://www.linkedin.com/pulse/safeline-free-zero-trust-web-application-firewall-2026-jbk7c/?trackingId=XnkKirrxYjFF7X8tcmEmIw%3D%3D&#34;&gt;Bài viết tham khảo&lt;/a&gt;&lt;/h3&gt;
+      <description>&lt;h3 id=&#34;bài-viết-tham-khảo&#34;&gt;&lt;a href=&#34;https://www.linkedin.com/pulse/safeline-free-zero-trust-web-application-firewall-2026-jbk7c/?trackingId=XnkKirrxYjFF7X8tcmEmIw%3D%3D&#34;&gt;Bài viết tham khảo&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Từ bài viết này mình mới biết đến công cụ &lt;strong&gt;SafeLine&lt;/strong&gt;, một công cụ &lt;strong&gt;Open-source WAF&lt;/strong&gt; &lt;em&gt;(Web Application Firewall)&lt;/em&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;tài-liệu-tham-khảo&#34;&gt;Tài liệu tham khảo:&lt;/h3&gt;
 &lt;ul&gt;
@@ -6172,7 +6340,7 @@ https://www.youtube.com/watch?v=E9wOlS_rKuw
       <link>https://vinhlin.github.io/posts/others/sw_model/</link>
       <description>&lt;p&gt;Ban đầu mình chỉ nghe đến &lt;a href=&#34;https://pma.edu.vn/blogs/scrum-vs-agile/?gad_source=1&amp;amp;gad_campaignid=22577955519&amp;amp;gbraid=0AAAAApCszYZRfQGNmsgOyTPq3E2TTkNRn&amp;amp;gclid=CjwKCAjwmNLHBhA4EiwA3ts3mb9-F5yt_Knxqrx2C1fvFUPBzlKTrl8TKdxGMjdwHQWDsQ5NKR0RLxoC1U4QAvD_BwE&#34;&gt;Scrum vs Agile&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Vô tình xem được bài viết bên Vietnix về các mô hình software và biết thêm về các model này.&lt;/p&gt;
-&lt;h3 id=&#34;4-mô-hình-phát-triển-phần-mềm-phổ-biến-hiện-nayhttpswwwfacebookcomgroupsgroupsinhvienitposts1794196418174735&#34;&gt;&lt;a href=&#34;https://www.facebook.com/groups/groupsinhvienit/posts/1794196418174735/&#34;&gt;4 MÔ HÌNH PHÁT TRIỂN PHẦN MỀM PHỔ BIẾN HIỆN NAY&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;4-mô-hình-phát-triển-phần-mềm-phổ-biến-hiện-nay&#34;&gt;&lt;a href=&#34;https://www.facebook.com/groups/groupsinhvienit/posts/1794196418174735/&#34;&gt;4 MÔ HÌNH PHÁT TRIỂN PHẦN MỀM PHỔ BIẾN HIỆN NAY&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/Others/SW_Model/Hinh_1.jpg&#34;
   alt=&#34;Hình 1&#34;
@@ -6286,7 +6454,7 @@ https://www.min.io/download?license=agpl&amp;amp;platform=linux
 &lt;p&gt;Theo mình hiểu đơn giản thì &lt;strong&gt;khi làm System đủ lâu, mà muốn phát triển lên thì vai trò tiếp theo chính là DevOps&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Lúc trước mình cũng lân la đi đọc JD của vai trò DevOps, học cơ bản về DevOps.&lt;/p&gt;
 &lt;p&gt;Và khóa học free mà mình thấy hấp dẫn nhất chính là &lt;a href=&#34;https://elroydevops.tech/devops-for-fresher-kien-thuc-thuc-te/&#34;&gt;DevOps for Freshers&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&#34;elroydevopshttpselroydevopstech&#34;&gt;&lt;a href=&#34;https://elroydevops.tech/&#34;&gt;elroydevops&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;elroydevops&#34;&gt;&lt;a href=&#34;https://elroydevops.tech/&#34;&gt;elroydevops&lt;/a&gt;&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Với mình đây là trang web học về &lt;strong&gt;DevOps&lt;/strong&gt; cực kỳ chất lượng.&lt;/li&gt;
 &lt;li&gt;Không những có những khóa học cơ bản miễn phí, mà còn có những &lt;strong&gt;bài blog chia sẻ rất có tâm&lt;/strong&gt;.&lt;/li&gt;
@@ -6465,7 +6633,7 @@ https://docs.aws.amazon.com/iot/latest/developerguide/iot-moisture-raspi-setup.h
       <title>Xiaozhi_ESP32</title>
       <link>https://vinhlin.github.io/posts/iot/hardware/xiaozhi_esp32/</link>
       <description>&lt;p&gt;Một &lt;strong&gt;Chatbot AI trên module ESP32-S3&lt;/strong&gt;&lt;/p&gt;
-&lt;h3 id=&#34;link-mua-hàng-trên-shoppehttpssshopeevn3qdwjj0b1l&#34;&gt;&lt;a href=&#34;https://s.shopee.vn/3qDwJj0B1l&#34;&gt;Link mua hàng trên shoppe&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;link-mua-hàng-trên-shoppe&#34;&gt;&lt;a href=&#34;https://s.shopee.vn/3qDwJj0B1l&#34;&gt;Link mua hàng trên shoppe&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/IoT/Xiaozhi_ESP32/Ph%e1%ba%a7n_c%e1%bb%a9ng_1.webp&#34;
   alt=&#34;Sản phẩm&#34;
@@ -6642,22 +6810,22 @@ https://www.youtube.com/watch?v=l7d7f-YNyQM
       <title>CTF_Hardware</title>
       <link>https://vinhlin.github.io/posts/cybersecurity/ctf_hardware/</link>
       <description>&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Mô tả&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;26/6/2025&lt;/td&gt;
-&lt;td&gt;Khởi tạo bài viết&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;02/10/2025&lt;/td&gt;
-&lt;td&gt;Ghi chú và tổng hợp các bài lab&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Date&lt;/th&gt;
+					&lt;th&gt;Mô tả&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;26/6/2025&lt;/td&gt;
+					&lt;td&gt;Khởi tạo bài viết&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;02/10/2025&lt;/td&gt;
+					&lt;td&gt;Ghi chú và tổng hợp các bài lab&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h2 id=&#34;blog-về-ctf-hardware&#34;&gt;Blog về CTF Hardware&lt;/h2&gt;
 &lt;ul&gt;
@@ -6677,12 +6845,12 @@ https://github.com/compujuckel/ZigbeeOtaExtractor
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;tổng-hợp-các-bài-lab-về-hardware-hacking&#34;&gt;Tổng hợp các bài lab về Hardware Hacking:&lt;/h2&gt;
-&lt;h3 id=&#34;iotgoathttpsgithubcomowaspiotgoat&#34;&gt;&lt;a href=&#34;https://github.com/OWASP/IoTGoat&#34;&gt;IoTGoat&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;iotgoat&#34;&gt;&lt;a href=&#34;https://github.com/OWASP/IoTGoat&#34;&gt;IoTGoat&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Danh sách các bài lab về Hardware hacking, của bên &lt;strong&gt;OWASP&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;Từ Raspberry, linux, cho đến reverse.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;hackgnarble_ctfhttpsgithubcomhackgnarble_ctf&#34;&gt;&lt;a href=&#34;https://github.com/hackgnar/ble_ctf&#34;&gt;hackgnar/ble_ctf&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;hackgnarble_&#34;&gt;&lt;a href=&#34;https://github.com/hackgnar/ble_ctf&#34;&gt;hackgnar/ble_ctf&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Một repo &lt;strong&gt;CTF để học về Bluetooth&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;Công cụ setup là dùng ESP32, &lt;a href=&#34;https://github.com/hackgnar/ble_ctf/blob/master/docs/setup.md&#34;&gt;tham khảo môi trường&lt;/a&gt;&lt;/li&gt;
@@ -6752,7 +6920,7 @@ https://www.youtube.com/watch?v=6RjM7aI4k4k
 &lt;/ul&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://github.com/WeActStudio/WeActStudio.ESP32S3-AorB
 https://github.com/WeActStudio/WeActStudio.ESP32S3-AorB/tree/main/ESP32S3-B/Doc
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;ghost_esp-dùng-mcu-esp32-s3---hướng-dẫnhttpsghostespnet&#34;&gt;Ghost_ESP dùng MCU ESP32-S3 - &lt;a href=&#34;https://ghostesp.net/&#34;&gt;Hướng dẫn&lt;/a&gt;&lt;/h2&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;ghost_esp-dùng-mcu-esp32-s3---hướng-dẫn&#34;&gt;Ghost_ESP dùng MCU ESP32-S3 - &lt;a href=&#34;https://ghostesp.net/&#34;&gt;Hướng dẫn&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Trên ESP32 này có 2 cổng Type-C, thiết bị ghi là:&lt;/li&gt;
 &lt;/ul&gt;
@@ -6957,25 +7125,25 @@ Pass: GhostNet
       <title>Cau_chi_Oto</title>
       <link>https://vinhlin.github.io/posts/iot/hardware/cau_chi_oto/</link>
       <description>&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Ngày&lt;/th&gt;
-&lt;th&gt;Mô tả&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;24/7/2025&lt;/td&gt;
-&lt;td&gt;Khởi tạo bài viết về &lt;strong&gt;cầu chì ô tô&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;24/9/2025&lt;/td&gt;
-&lt;td&gt;Bổ sung ghi chú về loại &lt;strong&gt;dây chia cầu chì&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Ngày&lt;/th&gt;
+					&lt;th&gt;Mô tả&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;24/7/2025&lt;/td&gt;
+					&lt;td&gt;Khởi tạo bài viết về &lt;strong&gt;cầu chì ô tô&lt;/strong&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;24/9/2025&lt;/td&gt;
+					&lt;td&gt;Bổ sung ghi chú về loại &lt;strong&gt;dây chia cầu chì&lt;/strong&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;tham-khảo-về-cầu-chì-xehttpsotoeduvncau-chi-xe-o-to&#34;&gt;&lt;a href=&#34;https://oto.edu.vn/cau-chi-xe-o-to/&#34;&gt;Tham khảo về Cầu chì xe&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;tham-khảo-về-cầu-chì-xe&#34;&gt;&lt;a href=&#34;https://oto.edu.vn/cau-chi-xe-o-to/&#34;&gt;Tham khảo về Cầu chì xe&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/IoT/Cau_chi_Oto/Hinh_1.png&#34;
   alt=&#34;Hình 1&#34;
@@ -7227,7 +7395,7 @@ https://github.com/yaakov/Ghost_ESP_YS_fork
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://github.com/dbisu/pico-ducky
 https://circuitpython.org/board/raspberry_pi_pico/
 https://workbook.securityboat.net/Pentesting/Physical/Raspberry%20Pi/usb-rubber-ducky-using-raspberry-pi-pico/
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;esp32-bus-piratehttpsgeo-tpgithubioesp32-bus-piratewebflasher&#34;&gt;&lt;a href=&#34;https://geo-tp.github.io/ESP32-Bus-Pirate/webflasher/&#34;&gt;ESP32 Bus Pirate&lt;/a&gt;&lt;/h3&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;esp32-bus-pirate&#34;&gt;&lt;a href=&#34;https://geo-tp.github.io/ESP32-Bus-Pirate/webflasher/&#34;&gt;ESP32 Bus Pirate&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Documents: &lt;em&gt;&lt;a href=&#34;https://github.com/geo-tp/ESP32-Bus-Pirate/wiki&#34;&gt;Github &lt;code&gt;geo-tp/ESP32-Bus-Pirate&lt;/code&gt;&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;Dự án này mình có thể dùng ESP32-S3, &lt;a href=&#34;https://hshop.vn/kit-phat-trien-wifi-ble-soc-esp32-s3-weact-esp32-s3-b-n16r8-espressif-devkitc-1-compatible&#34;&gt;link sản phẩm tham khảo bên hshop&lt;/a&gt;&lt;/li&gt;
@@ -7275,7 +7443,7 @@ https://espressif.github.io/esp-launchpad/
 /&gt;
 
 &lt;/p&gt;
-&lt;h3 id=&#34;pr3ybrucehttpsgithubcompr3ybruce&#34;&gt;&lt;a href=&#34;https://github.com/pr3y/Bruce&#34;&gt;pr3y/Bruce&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;pr3ybruce&#34;&gt;&lt;a href=&#34;https://github.com/pr3y/Bruce&#34;&gt;pr3y/Bruce&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Dự án này có các tính năng cũng tương tự như Flipper Zero, &lt;a href=&#34;https://github.com/pr3y/Bruce?tab=readme-ov-file#computer-list-of-features&#34;&gt;List&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Cài đặt Firmware online, &lt;a href=&#34;https://bruce.computer/flasher&#34;&gt;flasher&lt;/a&gt;&lt;/li&gt;
@@ -7303,7 +7471,7 @@ https://www.youtube.com/watch?v=BUwrWKDqtak&amp;amp;list=WL&amp;amp;index=4&amp;
 https://www.youtube.com/watch?v=km81ph7pZz8
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Thế là phát hiện ra đã có rất nhiều &lt;strong&gt;bản image của Kali dành cho ARM&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Document lại để dành, sau này có time sẽ nghiên cứu từ từ.&lt;/p&gt;
-&lt;h3 id=&#34;dự-án-raspberry-pi-zero-w-p4wnp1-aloahttpswwwkaliorgdocsarmraspberry-pi-zero-w-p4wnp1-aloa&#34;&gt;Dự án &lt;a href=&#34;https://www.kali.org/docs/arm/raspberry-pi-zero-w-p4wnp1-aloa/&#34;&gt;Raspberry Pi Zero W P4wnP1 A.L.O.A&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;dự-án-raspberry-pi-zero-w-p4wnp1-aloa&#34;&gt;Dự án &lt;a href=&#34;https://www.kali.org/docs/arm/raspberry-pi-zero-w-p4wnp1-aloa/&#34;&gt;Raspberry Pi Zero W P4wnP1 A.L.O.A&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Đây là dự án dành cho &lt;strong&gt;Raspberry Pi Zero W&lt;/strong&gt;, dự án này có sẵn image.&lt;/li&gt;
 &lt;li&gt;Image này đa dụng, nhưng mục tiêu chính là test &lt;strong&gt;HID Script&lt;/strong&gt;. &lt;a href=&#34;https://p4wnp1.readthedocs.io/en/latest/&#34;&gt;P4wnP1 Official Wiki&lt;/a&gt;&lt;/li&gt;
@@ -7313,7 +7481,7 @@ https://www.youtube.com/watch?v=km81ph7pZz8
 https://github.com/RoganDawes/P4wnP1_aloa
 https://github.com/NightRang3r/P4wnP1-A.L.O.A.-Payloads
 https://drive.google.com/drive/folders/14XCb1sHFjzZa7OnzNZRt5AeTbEyZlZGf
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;dự-án-raspberry-pi-tail-zero-2-whttpswwwkaliorgdocsarmraspberry-pi-zero-2-w-pi-tail&#34;&gt;Dự án &lt;a href=&#34;https://www.kali.org/docs/arm/raspberry-pi-zero-2-w-pi-tail/&#34;&gt;Raspberry Pi-Tail Zero 2 W&lt;/a&gt;&lt;/h3&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;dự-án-raspberry-pi-tail-zero-2-w&#34;&gt;Dự án &lt;a href=&#34;https://www.kali.org/docs/arm/raspberry-pi-zero-2-w-pi-tail/&#34;&gt;Raspberry Pi-Tail Zero 2 W&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Dự án này phù hợp cho các tác vụ thực địa như:&lt;/li&gt;
 &lt;/ul&gt;
@@ -7362,7 +7530,7 @@ Pentesting nhanh với các công cụ như wifite, kismet.
 /&gt;
 
 &lt;/p&gt;
-&lt;h3 id=&#34;radware-live-threat-maphttpslivethreatmapradwarecom&#34;&gt;&lt;a href=&#34;https://livethreatmap.radware.com/&#34;&gt;Radware: Live Threat Map&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;radware-live-threat-map&#34;&gt;&lt;a href=&#34;https://livethreatmap.radware.com/&#34;&gt;Radware: Live Threat Map&lt;/a&gt;&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;Một công cụ online &lt;strong&gt;(real-time)&lt;/strong&gt;, để xem các thông tin về các cuộc tấn công mạng trên thế giới&lt;/em&gt;. &lt;/br&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -7405,25 +7573,25 @@ Pentesting nhanh với các công cụ như wifite, kismet.
       <title>RedTeam</title>
       <link>https://vinhlin.github.io/posts/cybersecurity/redteam/</link>
       <description>&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Ngày&lt;/th&gt;
-&lt;th&gt;Mô tả&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;15/6/2024&lt;/td&gt;
-&lt;td&gt;Khởi tạo bài viết.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;16/9/2025&lt;/td&gt;
-&lt;td&gt;Bổ sung thêm về &lt;strong&gt;Kali Cheatsheet&lt;/strong&gt; và &lt;strong&gt;Dark Web&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Ngày&lt;/th&gt;
+					&lt;th&gt;Mô tả&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;15/6/2024&lt;/td&gt;
+					&lt;td&gt;Khởi tạo bài viết.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;16/9/2025&lt;/td&gt;
+					&lt;td&gt;Bổ sung thêm về &lt;strong&gt;Kali Cheatsheet&lt;/strong&gt; và &lt;strong&gt;Dark Web&lt;/strong&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;5-free-red-teaming-resources-to-get-you-startedhttpswwwhelpnetsecuritycom20240416free-red-teaming-resources&#34;&gt;&lt;a href=&#34;https://www.helpnetsecurity.com/2024/04/16/free-red-teaming-resources/&#34;&gt;5 free red teaming resources to get you started&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;5-free-red-teaming-resources-to-get-you-started&#34;&gt;&lt;a href=&#34;https://www.helpnetsecurity.com/2024/04/16/free-red-teaming-resources/&#34;&gt;5 free red teaming resources to get you started&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://dmcxblue.gitbook.io/red-team-notes-2-0&#34;&gt;Red Team Notes&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://assets.publishing.service.gov.uk/media/61702155e90e07197867eb93/20210625-Red_Teaming_Handbook.pdf&#34;&gt;Red Teaming Handbook&lt;/a&gt;&lt;/li&gt;
@@ -7605,7 +7773,7 @@ Pentesting nhanh với các công cụ như wifite, kismet.
 /&gt;
 
 &lt;/p&gt;
-&lt;h2 id=&#34;mạch-nhận-dạng-giọng-nói-offline-voice-recognition-vc-02-kit-ai-thinkerhttpshshopvnmach-nhan-dang-giong-noi-offline-voice-recognition-vc-02-kit-ai-thinker&#34;&gt;&lt;a href=&#34;https://hshop.vn/mach-nhan-dang-giong-noi-offline-voice-recognition-vc-02-kit-ai-thinker&#34;&gt;Mạch nhận dạng giọng nói Offline Voice Recognition VC-02 Kit Ai-thinker&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;mạch-nhận-dạng-giọng-nói-offline-voice-recognition-vc-02-kit-ai-thinker&#34;&gt;&lt;a href=&#34;https://hshop.vn/mach-nhan-dang-giong-noi-offline-voice-recognition-vc-02-kit-ai-thinker&#34;&gt;Mạch nhận dạng giọng nói Offline Voice Recognition VC-02 Kit Ai-thinker&lt;/a&gt;&lt;/h2&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Giá bán: 165.000₫
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/IoT/Voice_Command/Hinh_3.webp&#34;
@@ -7616,7 +7784,7 @@ Pentesting nhanh với các công cụ như wifite, kismet.
 /&gt;
 
 &lt;/p&gt;
-&lt;h3 id=&#34;video-youtube-so-sánhhttpswwwyoutubecomwatchvacy1vwedll8&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=AcY1vWEDll8&#34;&gt;Video Youtube so sánh&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;video-youtube-so-sánh&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=AcY1vWEDll8&#34;&gt;Video Youtube so sánh&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/IoT/Voice_Command/Hinh_2.png&#34;
   alt=&#34;Hình 2&#34;
@@ -7695,22 +7863,22 @@ export SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt
       <link>https://vinhlin.github.io/posts/iot/hardware/power_acc_usb_type_c/</link>
       <description>&lt;h2 id=&#34;changelog&#34;&gt;Changelog&lt;/h2&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Ngày&lt;/th&gt;
-&lt;th&gt;Mô tả&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;25/6/2025&lt;/td&gt;
-&lt;td&gt;Bài viết về &lt;strong&gt;bộ nguồn ACC&lt;/strong&gt; &lt;em&gt;(Hardware Kit)&lt;/em&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;28/8/2025&lt;/td&gt;
-&lt;td&gt;Thiết bị test và test-case&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Ngày&lt;/th&gt;
+					&lt;th&gt;Mô tả&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;25/6/2025&lt;/td&gt;
+					&lt;td&gt;Bài viết về &lt;strong&gt;bộ nguồn ACC&lt;/strong&gt; &lt;em&gt;(Hardware Kit)&lt;/em&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;28/8/2025&lt;/td&gt;
+					&lt;td&gt;Thiết bị test và test-case&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/IoT/Power_ACC_USB_Type_C/Hinh_1.jpg&#34;
@@ -7729,7 +7897,7 @@ export SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;Nguyên tắc hoạt động chính: Là &lt;strong&gt;chuyển đổi mức điện áp từ 12VDC -&amp;gt; 5VDC&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h3 id=&#34;sử-dụng-một-board-nhỏ-của-usb-type-c-ra-chânhttpsshopeevnme1baa1ch-ra-chc3a2n-hc3a0n-ce1bb95ng-usb-31-type-c-sang-dip-24pin-i151012458826531551404xptdk375e62e1-f176-43d2-967a-59548adc26cf&#34;&gt;Sử dụng một board nhỏ của &lt;a href=&#34;https://shopee.vn/M%E1%BA%A1ch-Ra-Ch%C3%A2n-(h%C3%A0n)-C%E1%BB%95ng-USB-3.1-Type-C-Sang-DIP-24pin-i.1510124588.26531551404?xptdk=375e62e1-f176-43d2-967a-59548adc26cf&#34;&gt;USB Type C ra chân&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;sử-dụng-một-board-nhỏ-của-usb-type-c-ra-chân&#34;&gt;Sử dụng một board nhỏ của &lt;a href=&#34;https://shopee.vn/M%E1%BA%A1ch-Ra-Ch%C3%A2n-(h%C3%A0n)-C%E1%BB%95ng-USB-3.1-Type-C-Sang-DIP-24pin-i.1510124588.26531551404?xptdk=375e62e1-f176-43d2-967a-59548adc26cf&#34;&gt;USB Type C ra chân&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/IoT/Power_ACC_USB_Type_C/Hinh_2.webp&#34;
   alt=&#34;Hình 2&#34;
@@ -7756,26 +7924,26 @@ export SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt
 &lt;li&gt;Vị trí tương ứng:&lt;/li&gt;
 &lt;/ul&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Dây&lt;/th&gt;
-&lt;th&gt;USB Type C pintout&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;B+ (5VDC)&lt;/td&gt;
-&lt;td&gt;A4, A9, B4, B9&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;GND&lt;/td&gt;
-&lt;td&gt;A1, A12, B1, B12&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;ACC (5VDC)&lt;/td&gt;
-&lt;td&gt;A5, B5&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Dây&lt;/th&gt;
+					&lt;th&gt;USB Type C pintout&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;B+ (5VDC)&lt;/td&gt;
+					&lt;td&gt;A4, A9, B4, B9&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;GND&lt;/td&gt;
+					&lt;td&gt;A1, A12, B1, B12&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;ACC (5VDC)&lt;/td&gt;
+					&lt;td&gt;A5, B5&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Note:&lt;/strong&gt; &lt;code&gt;USB Type C pintout&lt;/code&gt; chân &lt;strong&gt;A5&lt;/strong&gt; và &lt;strong&gt;B5&lt;/strong&gt; chính là &lt;strong&gt;CC2&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
@@ -7806,35 +7974,35 @@ export SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt
 &lt;/ul&gt;
 &lt;h3 id=&#34;mức-điện-áp-12vdc&#34;&gt;Mức điện áp &lt;code&gt;12VDC&lt;/code&gt;&lt;/h3&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;ACC&lt;/th&gt;
-&lt;th&gt;Điện áp&lt;/th&gt;
-&lt;th&gt;Trạng thái thiết bị test&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;ACC ON&lt;/td&gt;
-&lt;td&gt;&amp;gt; 11.5VDC&lt;/td&gt;
-&lt;td&gt;Thiết bị có điện áp và đèn sáng&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;ACC OFF&lt;/td&gt;
-&lt;td&gt;&amp;gt; 11.5VDC&lt;/td&gt;
-&lt;td&gt;Thiết bị có điện áp, đèn không sáng&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;ACC OFF&lt;/td&gt;
-&lt;td&gt;&amp;lt;= 11.5VDC&lt;/td&gt;
-&lt;td&gt;Thiết bị ban đầu có điện áp, &lt;strong&gt;sau 3s&lt;/strong&gt; sẽ không còn đo điện áp, đèn không sáng&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;ACC ON&lt;/td&gt;
-&lt;td&gt;&amp;lt;= 11.5VDC&lt;/td&gt;
-&lt;td&gt;Thiết bị có điện áp trở lại và đèn sáng&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;ACC&lt;/th&gt;
+					&lt;th&gt;Điện áp&lt;/th&gt;
+					&lt;th&gt;Trạng thái thiết bị test&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;ACC ON&lt;/td&gt;
+					&lt;td&gt;&amp;gt; 11.5VDC&lt;/td&gt;
+					&lt;td&gt;Thiết bị có điện áp và đèn sáng&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;ACC OFF&lt;/td&gt;
+					&lt;td&gt;&amp;gt; 11.5VDC&lt;/td&gt;
+					&lt;td&gt;Thiết bị có điện áp, đèn không sáng&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;ACC OFF&lt;/td&gt;
+					&lt;td&gt;&amp;lt;= 11.5VDC&lt;/td&gt;
+					&lt;td&gt;Thiết bị ban đầu có điện áp, &lt;strong&gt;sau 3s&lt;/strong&gt; sẽ không còn đo điện áp, đèn không sáng&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;ACC ON&lt;/td&gt;
+					&lt;td&gt;&amp;lt;= 11.5VDC&lt;/td&gt;
+					&lt;td&gt;Thiết bị có điện áp trở lại và đèn sáng&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h3 id=&#34;mức-điện-áp-24vdc&#34;&gt;Mức điện áp &lt;code&gt;24VDC&lt;/code&gt;&lt;/h3&gt;
 &lt;ul&gt;
@@ -7842,35 +8010,35 @@ export SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt
 &lt;li&gt;Để tránh bộ HW kit nhận sai mức điện áp.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;ACC&lt;/th&gt;
-&lt;th&gt;Điện áp&lt;/th&gt;
-&lt;th&gt;Trạng thái thiết bị test&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;ACC ON&lt;/td&gt;
-&lt;td&gt;&amp;gt; 23.5VDC&lt;/td&gt;
-&lt;td&gt;Thiết bị có điện áp và đèn sáng&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;ACC OFF&lt;/td&gt;
-&lt;td&gt;&amp;gt; 23.5VDC&lt;/td&gt;
-&lt;td&gt;Thiết bị có điện áp, đèn không sáng&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;ACC OFF&lt;/td&gt;
-&lt;td&gt;&amp;lt;= 23.5VDC&lt;/td&gt;
-&lt;td&gt;Thiết bị ban đầu có điện áp, &lt;strong&gt;sau 3s&lt;/strong&gt; sẽ không còn đo điện áp, đèn không sáng&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;ACC ON&lt;/td&gt;
-&lt;td&gt;&amp;lt;= 23.5VDC&lt;/td&gt;
-&lt;td&gt;Thiết bị có điện áp trở lại và đèn sáng&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;ACC&lt;/th&gt;
+					&lt;th&gt;Điện áp&lt;/th&gt;
+					&lt;th&gt;Trạng thái thiết bị test&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;ACC ON&lt;/td&gt;
+					&lt;td&gt;&amp;gt; 23.5VDC&lt;/td&gt;
+					&lt;td&gt;Thiết bị có điện áp và đèn sáng&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;ACC OFF&lt;/td&gt;
+					&lt;td&gt;&amp;gt; 23.5VDC&lt;/td&gt;
+					&lt;td&gt;Thiết bị có điện áp, đèn không sáng&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;ACC OFF&lt;/td&gt;
+					&lt;td&gt;&amp;lt;= 23.5VDC&lt;/td&gt;
+					&lt;td&gt;Thiết bị ban đầu có điện áp, &lt;strong&gt;sau 3s&lt;/strong&gt; sẽ không còn đo điện áp, đèn không sáng&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;ACC ON&lt;/td&gt;
+					&lt;td&gt;&amp;lt;= 23.5VDC&lt;/td&gt;
+					&lt;td&gt;Thiết bị có điện áp trở lại và đèn sáng&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;=&amp;gt; Bộ Hardware Kit ở ngưỡng 12VDC và 24VDC đã hoạt động đúng chức năng&lt;/strong&gt;&lt;/em&gt; &lt;/br&gt;
@@ -7889,7 +8057,7 @@ export SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt
       <description>&lt;p&gt;Hiện tại thời điểm này (8/2025) mình đang dùng &lt;strong&gt;ChatGPT plus&lt;/strong&gt;, chi phí hàng tháng là &lt;strong&gt;20$&lt;/strong&gt;. và đã dùng được 4 tháng.&lt;/p&gt;
 &lt;p&gt;Mình thì thấy bản thân dùng GPT cũng không nhiều, chưa tận dụng được hết các tính năng của GPT &lt;em&gt;(như &lt;strong&gt;chế độ tác nhân&lt;/strong&gt;, &lt;strong&gt;giao tiếp qua âm thanh&lt;/strong&gt;,&amp;hellip;)&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Nên mình muốn hạn chế phần chi phí này, và đang nghĩ đến dùng &lt;strong&gt;Fabric AI + OpenAI API&lt;/strong&gt;. Mục tiêu là để tạo ra một ứng dụng có WebUI có chức năng gần giống như chatGPT.&lt;/p&gt;
-&lt;h3 id=&#34;fabrichttpsgithubcomdanielmiesslerfabric&#34;&gt;&lt;a href=&#34;https://github.com/danielmiessler/Fabric&#34;&gt;Fabric&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;fabric&#34;&gt;&lt;a href=&#34;https://github.com/danielmiessler/Fabric&#34;&gt;Fabric&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/System-DevOps/Fabric_AI/Hinh_1.webp&#34;
   alt=&#34;Logo Fabric&#34;
@@ -7944,7 +8112,7 @@ https://www.youtube.com/watch?v=lEXd6TXPw7E
       <link>https://vinhlin.github.io/posts/iot/hardware/cloud_sim/</link>
       <description>&lt;p&gt;Trong quá trình test về camera có module sim, mình gặp tình trạng lạ là &lt;strong&gt;không có sim, nhưng thiết bị vẫn online bỉnh thường&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Những tính năng online đều hoạt động được, sau khi tham khảo và tìm hiểu thì có thể module sim đang dùng tính năng &lt;strong&gt;Cloud Sim&lt;/strong&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;tham-khảo-video-httpswwwyoutubecomwatchvxu6-p9lm3h4&#34;&gt;Tham khảo video: &lt;a href=&#34;https://www.youtube.com/watch?v=xu6-P9lm3H4&#34;&gt;https://www.youtube.com/watch?v=xu6-P9lm3H4&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;tham-khảo-video&#34;&gt;Tham khảo video: &lt;a href=&#34;https://www.youtube.com/watch?v=xu6-P9lm3H4&#34;&gt;https://www.youtube.com/watch?v=xu6-P9lm3H4&lt;/a&gt;&lt;/h3&gt;
 &lt;h3 id=&#34;tham-khảo-chatgpt&#34;&gt;Tham khảo chatGPT&lt;/h3&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/IoT/Cloud_Sim/Hinh_1.png&#34;
@@ -7991,7 +8159,7 @@ https://www.youtube.com/watch?v=lEXd6TXPw7E
     <item>
       <title>SSh_ARMv7</title>
       <link>https://vinhlin.github.io/posts/cybersecurity/technical/ssh_armv7/</link>
-      <description>&lt;h3 id=&#34;tải-dropbear-bản-đã-biên-dịch-sẵn-cho-armhttpsmattuccasnaudropbeardropbearhtml&#34;&gt;&lt;a href=&#34;https://matt.ucc.asn.au/dropbear/dropbear.html&#34;&gt;Tải &lt;code&gt;Dropbear&lt;/code&gt; bản đã biên dịch sẵn cho ARM&lt;/a&gt;&lt;/h3&gt;
+      <description>&lt;h3 id=&#34;tải&#34;&gt;&lt;a href=&#34;https://matt.ucc.asn.au/dropbear/dropbear.html&#34;&gt;Tải &lt;code&gt;Dropbear&lt;/code&gt; bản đã biên dịch sẵn cho ARM&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Trên PC, mình chạy command:&lt;/li&gt;
 &lt;/ul&gt;
@@ -8160,8 +8328,8 @@ https://blog.attify.com/exploiting-iot-enabled-ble-smart-bulb-security/
 &lt;li&gt;Phần cứng là sẽ dùng các công cụ BLE, để bắt gói.&lt;/li&gt;
 &lt;li&gt;Còn phần mềm thì là sẽ dùng &lt;strong&gt;Wireshark&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;nrf52840-dongle-usb-dongle-based-on-nrf52840httpswwwproevnnrf52840-dongle-usb-dongle-based-on-nrf52840&#34;&gt;&lt;a href=&#34;https://www.proe.vn/nrf52840-dongle-usb-dongle-based-on-nrf52840&#34;&gt;nRF52840 Dongle USB Dongle based on nRF52840&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id=&#34;cc26x2r---launchxl-cc26x2r1-cc2652r-wireless-mcuhttpswwwproevnlaunchxl-cc26x2r1-cc2652r-wireless-mcu&#34;&gt;CC26x2R - &lt;a href=&#34;https://www.proe.vn/launchxl-cc26x2r1-cc2652r-wireless-mcu&#34;&gt;LAUNCHXL-CC26X2R1 CC2652R wireless MCU&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;nrf52840-dongle-usb-dongle-based-on-nrf52840&#34;&gt;&lt;a href=&#34;https://www.proe.vn/nrf52840-dongle-usb-dongle-based-on-nrf52840&#34;&gt;nRF52840 Dongle USB Dongle based on nRF52840&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;cc26x2r---launchxl-cc26x2r1-cc2652r-wireless-mcu&#34;&gt;CC26x2R - &lt;a href=&#34;https://www.proe.vn/launchxl-cc26x2r1-cc2652r-wireless-mcu&#34;&gt;LAUNCHXL-CC26X2R1 CC2652R wireless MCU&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Tài liệu về sản phẩm:&lt;/li&gt;
 &lt;/ul&gt;
@@ -8483,22 +8651,22 @@ Lúc này chế độ Nhà phát triển đã bật, sau đó quay lại vào &l
 &lt;h2 id=&#34;2-có-cần-chỉnh-cấu-hình-gì-không&#34;&gt;2. Có cần chỉnh cấu hình gì không?&lt;/h2&gt;
 &lt;p&gt;Có, cần lưu ý 2 bước:&lt;/p&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:left&#34;&gt;Bước&lt;/th&gt;
-&lt;th style=&#34;text-align:left&#34;&gt;Nội dung cần làm&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;strong&gt;1. Cấu hình EMQX&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;- Cho phép ThingsBoard connect đến EMQX.&lt;br&gt; - Nếu cần, set ACL để ThingsBoard có quyền subscribe/publish topic phù hợp.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;strong&gt;2. Cấu hình ThingsBoard&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;- Tạo Integration dạng &lt;strong&gt;MQTT&lt;/strong&gt;.&lt;br&gt; - Chỉ định địa chỉ EMQX (host, port, username, password).&lt;br&gt; - Mapping topic/telemetry vào thiết bị ThingsBoard.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th style=&#34;text-align: left&#34;&gt;Bước&lt;/th&gt;
+					&lt;th style=&#34;text-align: left&#34;&gt;Nội dung cần làm&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;1. Cấu hình EMQX&lt;/strong&gt;&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;- Cho phép ThingsBoard connect đến EMQX.&lt;br&gt; - Nếu cần, set ACL để ThingsBoard có quyền subscribe/publish topic phù hợp.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;2. Cấu hình ThingsBoard&lt;/strong&gt;&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;- Tạo Integration dạng &lt;strong&gt;MQTT&lt;/strong&gt;.&lt;br&gt; - Chỉ định địa chỉ EMQX (host, port, username, password).&lt;br&gt; - Mapping topic/telemetry vào thiết bị ThingsBoard.&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;&lt;strong&gt;Tài liệu tham khảo:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -8507,61 +8675,61 @@ Lúc này chế độ Nhà phát triển đã bật, sau đó quay lại vào &l
 &lt;/ul&gt;
 &lt;h2 id=&#34;3-những-điểm-lưu-ý-khi-kết-hợp&#34;&gt;3. Những điểm lưu ý khi kết hợp&lt;/h2&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:left&#34;&gt;Vấn đề&lt;/th&gt;
-&lt;th style=&#34;text-align:left&#34;&gt;Giải thích&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;strong&gt;QoS&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;EMQX và ThingsBoard đều hỗ trợ QoS 0/1/2, nên cần match QoS config nếu cần đảm bảo độ tin cậy cao.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;strong&gt;Authentication&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;EMQX hỗ trợ nhiều dạng auth (username/password, cert), ThingsBoard nên dùng cơ chế bảo mật phù hợp.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;strong&gt;Topic format&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;Cần thống nhất định dạng topic giữa thiết bị và ThingsBoard.&lt;br&gt;Ví dụ: &lt;code&gt;devices/&amp;lt;device_id&amp;gt;/telemetry&lt;/code&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;strong&gt;Performance&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;Nếu lượng thiết bị lớn (&amp;gt;10k devices), nên tuning EMQX để tối ưu connection pool, và ThingsBoard để optimize db storage.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;strong&gt;Scaling&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;EMQX scale riêng, ThingsBoard scale riêng (ThingsBoard có phiên bản Edge để chạy local gần thiết bị).&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th style=&#34;text-align: left&#34;&gt;Vấn đề&lt;/th&gt;
+					&lt;th style=&#34;text-align: left&#34;&gt;Giải thích&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;QoS&lt;/strong&gt;&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;EMQX và ThingsBoard đều hỗ trợ QoS 0/1/2, nên cần match QoS config nếu cần đảm bảo độ tin cậy cao.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Authentication&lt;/strong&gt;&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;EMQX hỗ trợ nhiều dạng auth (username/password, cert), ThingsBoard nên dùng cơ chế bảo mật phù hợp.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Topic format&lt;/strong&gt;&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;Cần thống nhất định dạng topic giữa thiết bị và ThingsBoard.&lt;br&gt;Ví dụ: &lt;code&gt;devices/&amp;lt;device_id&amp;gt;/telemetry&lt;/code&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Performance&lt;/strong&gt;&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;Nếu lượng thiết bị lớn (&amp;gt;10k devices), nên tuning EMQX để tối ưu connection pool, và ThingsBoard để optimize db storage.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Scaling&lt;/strong&gt;&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;EMQX scale riêng, ThingsBoard scale riêng (ThingsBoard có phiên bản Edge để chạy local gần thiết bị).&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h2 id=&#34;4-khi-nào-nên-kết-hợp&#34;&gt;4. Khi nào nên kết hợp?&lt;/h2&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:left&#34;&gt;Trường hợp&lt;/th&gt;
-&lt;th style=&#34;text-align:left&#34;&gt;Nên kết hợp?&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;Hệ thống có hàng ngàn đến triệu thiết bị IoT&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;✅&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;Cần broker riêng để tối ưu hiệu suất, bảo mật&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;✅&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;Cần phân chia rõ nhiệm vụ: hạ tầng giao tiếp vs xử lý ứng dụng&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;✅&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;Cần tận dụng tính năng chuyên sâu của từng nền tảng&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;✅&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th style=&#34;text-align: left&#34;&gt;Trường hợp&lt;/th&gt;
+					&lt;th style=&#34;text-align: left&#34;&gt;Nên kết hợp?&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;Hệ thống có hàng ngàn đến triệu thiết bị IoT&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;✅&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;Cần broker riêng để tối ưu hiệu suất, bảo mật&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;✅&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;Cần phân chia rõ nhiệm vụ: hạ tầng giao tiếp vs xử lý ứng dụng&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;✅&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;Cần tận dụng tính năng chuyên sâu của từng nền tảng&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;✅&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h2 id=&#34;5-minh-họa-sơ-đồ&#34;&gt;5. Minh họa sơ đồ&lt;/h2&gt;
 &lt;p&gt;&lt;img
@@ -8639,7 +8807,7 @@ Lúc này chế độ Nhà phát triển đã bật, sau đó quay lại vào &l
     <item>
       <title>Slidev</title>
       <link>https://vinhlin.github.io/posts/others/slidev/</link>
-      <description>&lt;h2 id=&#34;video-mình-trở-thành-nạn-nhân-của-aihttpswwwyoutubecomwatchvnpe3rlcen1a&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=nPE3rLcEN1A&#34;&gt;Video: Mình trở thành “Nạn Nhân” của AI…&lt;/a&gt;&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;video-mình-trở-thành-nạn-nhân-của-ai&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=nPE3rLcEN1A&#34;&gt;Video: Mình trở thành “Nạn Nhân” của AI…&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/Others/Slidev/Noi_dung_Video.png&#34;
   alt=&#34;Tổng hợp&#34;
@@ -8678,12 +8846,12 @@ https://github.com/slidevjs/slidev/tree/main/demo
 &lt;hr&gt;
 &lt;h2 id=&#34;một-số-công-cụ-khác&#34;&gt;Một số công cụ khác:&lt;/h2&gt;
 &lt;p&gt;Đây là một số công cụ mình thấy cũng hay ho khác.&lt;/p&gt;
-&lt;h3 id=&#34;gradiohttpswwwgradioappguidesquickstart&#34;&gt;&lt;a href=&#34;https://www.gradio.app/guides/quickstart&#34;&gt;Gradio&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;gradio&#34;&gt;&lt;a href=&#34;https://www.gradio.app/guides/quickstart&#34;&gt;Gradio&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Một công cụ tạo code nhanh cho front-end&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/gradio-app/gradio&#34;&gt;https://github.com/gradio-app/gradio&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;markitdownhttpsgithubcommicrosoftmarkitdown&#34;&gt;&lt;a href=&#34;https://github.com/microsoft/markitdown&#34;&gt;markitdown&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;markitdown&#34;&gt;&lt;a href=&#34;https://github.com/microsoft/markitdown&#34;&gt;markitdown&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Mình dùng công cụ này để lấy nội dung text trong 1 file bất kỳ.&lt;/li&gt;
 &lt;li&gt;Nội dung được lấy ra sẽ được lưu ở định dạng markdown.&lt;/li&gt;
@@ -8697,8 +8865,8 @@ https://github.com/slidevjs/slidev/tree/main/demo
     <item>
       <title>ConvoC2</title>
       <link>https://vinhlin.github.io/posts/cybersecurity/technical/convoc2/</link>
-      <description>&lt;h3 id=&#34;video-ms-teams-is-now-a-c2-command-and-controlhttpswwwyoutubecomwatchvfqzim6vp7xmlistwlindex5t45s&#34;&gt;Video: &lt;a href=&#34;https://www.youtube.com/watch?v=FqZIm6vP7XM&amp;amp;list=WL&amp;amp;index=5&amp;amp;t=45s&#34;&gt;ms teams is now a C2 (command-and-control)&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id=&#34;github-cxnturi0n--convoc2httpsgithubcomcxnturi0nconvoc2&#34;&gt;Github: &lt;a href=&#34;https://github.com/cxnturi0n/convoC2&#34;&gt;cxnturi0n / convoC2&lt;/a&gt;&lt;/h3&gt;
+      <description>&lt;h3 id=&#34;video-ms-teams-is-now-a-c2-command-and-control&#34;&gt;Video: &lt;a href=&#34;https://www.youtube.com/watch?v=FqZIm6vP7XM&amp;amp;list=WL&amp;amp;index=5&amp;amp;t=45s&#34;&gt;ms teams is now a C2 (command-and-control)&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;github-cxnturi0n--convoc2&#34;&gt;Github: &lt;a href=&#34;https://github.com/cxnturi0n/convoC2&#34;&gt;cxnturi0n / convoC2&lt;/a&gt;&lt;/h3&gt;
 &lt;h3 id=&#34;một-số-tài-liệu-khác&#34;&gt;Một số tài liệu khác:&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://logon-int.com/blog/convoc2/&#34;&gt;https://logon-int.com/blog/convoc2/&lt;/a&gt;&lt;/li&gt;
@@ -8812,7 +8980,7 @@ Khi &lt;strong&gt;đạp thắng&lt;/strong&gt; và &lt;strong&gt;nổ máy&lt;/
       <title>Hop_do_choi_AI</title>
       <link>https://vinhlin.github.io/posts/others/hop_do_choi_ai/</link>
       <description>&lt;h2 id=&#34;trend-hộp-đồ-chơi-ai&#34;&gt;Trend &amp;ldquo;Hộp đồ chơi AI&amp;rdquo;&lt;/h2&gt;
-&lt;h3 id=&#34;video-tham-khảo-httpswwwyoutubecomwatchvocdrhlm5tns&#34;&gt;Video tham khảo: &lt;a href=&#34;https://www.youtube.com/watch?v=oCdrHlM5TNs&#34;&gt;https://www.youtube.com/watch?v=oCdrHlM5TNs&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;video-tham-khảo&#34;&gt;Video tham khảo: &lt;a href=&#34;https://www.youtube.com/watch?v=oCdrHlM5TNs&#34;&gt;https://www.youtube.com/watch?v=oCdrHlM5TNs&lt;/a&gt;&lt;/h3&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;A full-figure action figure of a [giới tính - woman/man/person] displayed in its original blister pack packaging. 3D toy style. On the top packaging card, the name &amp;#39;[TÊN_NGƯỜI_DÙNG]&amp;#39; is written prominently, with the role &amp;#39;[NGHỀ_NGHIỆP]&amp;#39; written below it. The figure represents [TÊN_NGƯỜI_DÙNG] and is wearing [mô tả trang phục phù hợp với nghề nghiệp]. Inside the blister pack, next to the figure, are the following accessories: [liệt kê các phụ kiện liên quan đến nghề nghiệp]. The packaging card has a [mô tả phong cách thiết kế bao bì, màu sắc, hình ảnh].
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Tạo ảnh thì mình sẽ dùng &lt;strong&gt;ChatGPT&lt;/strong&gt;, còn đoạn văn miêu tả thì mình qua hỏi &lt;strong&gt;Grok 3&lt;/strong&gt; nhờ giúp&lt;/p&gt;
 &lt;p&gt;Sau khi đó mình đã có hỏi grok, thì mình có format này và nhờ nó phiên dịch thành tiếng anh.&lt;/p&gt;
@@ -8903,7 +9071,7 @@ Quá trình này thường được thực hiện một cách có hệ thống v
 &lt;li&gt;&lt;strong&gt;Giám sát web:&lt;/strong&gt; Kiểm tra cập nhật nội dung, phát hiện lỗi liên kết, hoặc theo dõi thay đổi trên các trang.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Phân tích dữ liệu:&lt;/strong&gt; Thu thập dữ liệu lớn (big data) để phân tích xu hướng, thị trường, hoặc hành vi người dùng.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;so-sánh-giữa-web-crawling-và-web-scrapinghttpsvietnixvncrawler-la-giso-sanh-giua-web-crawling-va-web-scraping&#34;&gt;&lt;a href=&#34;https://vietnix.vn/crawler-la-gi/#so-sanh-giua-web-crawling-va-web-scraping&#34;&gt;So sánh giữa Web Crawling và Web Scraping&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;so-sánh-giữa-web-crawling-và-web-scraping&#34;&gt;&lt;a href=&#34;https://vietnix.vn/crawler-la-gi/#so-sanh-giua-web-crawling-va-web-scraping&#34;&gt;So sánh giữa Web Crawling và Web Scraping&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/System-DevOps/Web_Crawler/Hinh_1.png&#34;
   alt=&#34;Hình 1&#34;
@@ -8922,7 +9090,7 @@ Quá trình này thường được thực hiện một cách có hệ thống v
 /&gt;
 
 &lt;/p&gt;
-&lt;h2 id=&#34;công-cụ-firecrawlhttpsgithubcommendableaifirecrawl&#34;&gt;Công cụ &lt;a href=&#34;https://github.com/mendableai/firecrawl&#34;&gt;Firecrawl&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;công-cụ-firecrawl&#34;&gt;Công cụ &lt;a href=&#34;https://github.com/mendableai/firecrawl&#34;&gt;Firecrawl&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Đây là một công cụ mã nguồn mở, có thể vào cả việc &lt;strong&gt;crawl&lt;/strong&gt; và &lt;strong&gt;scraping&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;Theo tài liệu thì công cụ này có thể &lt;strong&gt;selft-hosted&lt;/strong&gt; hoặc đăng ký sử dụng free API &lt;em&gt;(bị giới hạn crawl khoảng 500 trang web và một số tính năng khác)&lt;/em&gt;.&lt;/li&gt;
@@ -8955,14 +9123,14 @@ Quá trình này thường được thực hiện một cách có hệ thống v
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;cập-nhật-1232025&#34;&gt;Cập nhật: &lt;code&gt;12/3/2025&lt;/code&gt;&lt;/h2&gt;
-&lt;h3 id=&#34;ai-web-scraper-thunderbithttpsthunderbitcom&#34;&gt;AI Web Scraper: &lt;a href=&#34;https://thunderbit.com/&#34;&gt;Thunderbit&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;ai-web-scraper-thunderbit&#34;&gt;AI Web Scraper: &lt;a href=&#34;https://thunderbit.com/&#34;&gt;Thunderbit&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Tham khảo video: &lt;a href=&#34;https://www.youtube.com/watch?v=qUTGm_uneLU&amp;amp;list=WL&amp;amp;index=2&#34;&gt;Cào Mọi Thông Tin trên Website chỉ 2 Click bằng AI - Không code - Thunderbit&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;công cụ này mình có thể cài đặt, hoặc &lt;strong&gt;add thêm extension cho Chrome&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;Mình xem video thì thấy công cụ này khá hay, dùng cho những người không chuyên quá nhiều về kỹ thuật.&lt;/li&gt;
 &lt;li&gt;Xem &lt;a href=&#34;https://thunderbit.com/pricing&#34;&gt;pricing&lt;/a&gt; thì bản free chỉ cho phép cào tối đa 6 trang web trong tháng.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;katanahttpsgithubcomprojectdiscoverykatana&#34;&gt;&lt;a href=&#34;https://github.com/projectdiscovery/katana&#34;&gt;Katana&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;katana&#34;&gt;&lt;a href=&#34;https://github.com/projectdiscovery/katana&#34;&gt;Katana&lt;/a&gt;&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;A next-generation crawling and spidering framework.&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -9014,7 +9182,7 @@ Quá trình này thường được thực hiện một cách có hệ thống v
 &lt;/ul&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://www.youtube.com/watch?v=PvS7AaxA4PY&amp;amp;list=PL7Gq3F-DZa6mb_RutcFzSVQhYvi1QAxiZ&amp;amp;index=2
 https://blogchiasekienthuc.com/thu-thuat-may-tinh/cach-tao-bo-cai-windows-aio.html
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;anhdv-boothttpsanhdvbootcom&#34;&gt;&lt;a href=&#34;https://anhdvboot.com/&#34;&gt;AnhDV Boot&lt;/a&gt;&lt;/h3&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;anhdv-boot&#34;&gt;&lt;a href=&#34;https://anhdvboot.com/&#34;&gt;AnhDV Boot&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Download &lt;a href=&#34;https://anhdvboot.com/tai-ve/&#34;&gt;Anhdv Boot&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -9054,8 +9222,8 @@ https://www.youtube.com/watch?v=g2tDjh7v-Ok&amp;amp;list=PL7Gq3F-DZa6mb_RutcFzSV
 https://quantrimang.com/cong-nghe/lam-the-nao-de-kiem-tra-usb-boot-da-duoc-tao-thanh-cong-hay-chua-133082#google_vignette
 &lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
 &lt;h2 id=&#34;tài-liệu-tham-khảo-khác&#34;&gt;Tài liệu tham khảo khác:&lt;/h2&gt;
-&lt;h3 id=&#34;phím-tắt-vào-bios-và-boot-options-của-các-hãng-máy-tínhhttpsanh-dvcomthu-thuat-hayphim-tat-vao-bios-va-boot-options-cac-hang-may-tinh&#34;&gt;&lt;a href=&#34;https://anh-dv.com/thu-thuat-hay/phim-tat-vao-bios-va-boot-options-cac-hang-may-tinh&#34;&gt;Phím tắt vào BIOS và Boot Options của các hãng máy tính&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id=&#34;tổng-hợp-những-lỗi-cài-đặt-windows-lỗi-cài-win-và-cách-khắc-phụchttpsanh-dvcomos-windowsloi-cai-dat-windows-va-cach-khac-phuc&#34;&gt;&lt;a href=&#34;https://anh-dv.com/os-windows/loi-cai-dat-windows-va-cach-khac-phuc&#34;&gt;Tổng hợp những lỗi cài đặt windows (lỗi cài Win) và cách khắc phục&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;phím-tắt-vào-bios-và-boot-options-của-các-hãng-máy-tính&#34;&gt;&lt;a href=&#34;https://anh-dv.com/thu-thuat-hay/phim-tat-vao-bios-va-boot-options-cac-hang-may-tinh&#34;&gt;Phím tắt vào BIOS và Boot Options của các hãng máy tính&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;tổng-hợp-những-lỗi-cài-đặt-windows-lỗi-cài-win-và-cách-khắc-phục&#34;&gt;&lt;a href=&#34;https://anh-dv.com/os-windows/loi-cai-dat-windows-va-cach-khac-phuc&#34;&gt;Tổng hợp những lỗi cài đặt windows (lỗi cài Win) và cách khắc phục&lt;/a&gt;&lt;/h3&gt;
 </description>
       <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/others/usb_boot/</guid>
@@ -9071,7 +9239,7 @@ https://quantrimang.com/cong-nghe/lam-the-nao-de-kiem-tra-usb-boot-da-duoc-tao-t
 &lt;p&gt;Nếu mình không muốn cứ phải thực hiện sao lưu thủ công, thì mình có thể cài đặt phần mềm &lt;strong&gt;Google Drive for Desktop&lt;/strong&gt; để thực hiện &lt;strong&gt;backup (sao lưu) và sync (đồng bộ hóa)&lt;/strong&gt; thư mục.&lt;/p&gt;
 &lt;p&gt;Tương tự như vậy, mình có NAS (OMV) là nơi lưu trữ, bây giờ mình muốn có một tool để tự động thực hiện &lt;strong&gt;sao lưu&lt;/strong&gt; thì có thể dùng &lt;strong&gt;Kopia&lt;/strong&gt; hoặc &lt;strong&gt;Duplicati&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;(Kopia hay Duplicati là công cụ sao lưu (backup) thôi, chứ không phải đồng bộ hóa (sync). Thuật ngữ backup và sync mang ý nghĩa khác nhau)&lt;/em&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;kopiahttpsgithubcomkopiakopia&#34;&gt;&lt;a href=&#34;https://github.com/kopia/kopia&#34;&gt;Kopia&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;kopia&#34;&gt;&lt;a href=&#34;https://github.com/kopia/kopia&#34;&gt;Kopia&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Kopia là một &lt;strong&gt;công cụ sao lưu (backup tool) mã nguồn mở&lt;/strong&gt;, được thiết kế để sao lưu và khôi phục dữ liệu từ nhiều nguồn khác nhau (máy tính, máy chủ, đám mây).&lt;/li&gt;
 &lt;li&gt;Chức năng chính:
@@ -9097,7 +9265,7 @@ https://www.youtube.com/watch?v=a6GfQy9wZfA&amp;amp;list=WL&amp;amp;index=4
 &lt;li&gt;&lt;a href=&#34;https://docs.linuxserver.io/images/docker-duplicati&#34;&gt;linuxserver/duplicati&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/christianlempa/videos/tree/main/duplicati-tutorial&#34;&gt;duplicati-tutorial&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;script-thực-hiện-việc-auto-backuphttpsgithubcomchristianlempascriptstreemaindb-container-backup&#34;&gt;&lt;a href=&#34;https://github.com/ChristianLempa/scripts/tree/main/db-container-backup&#34;&gt;Script thực hiện việc auto-backup&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;script-thực-hiện-việc-auto-backup&#34;&gt;&lt;a href=&#34;https://github.com/ChristianLempa/scripts/tree/main/db-container-backup&#34;&gt;Script thực hiện việc auto-backup&lt;/a&gt;&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=wvsi3QilNQ8&#34;&gt;Tham khảo khác&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -9205,7 +9373,7 @@ https://devblogs.microsoft.com/cppblog/windows-desktop-development-with-c-in-vis
 &lt;li&gt;Thích hợp cho &lt;strong&gt;thiết bị nhúng&lt;/strong&gt; (ví dụ: HMI cho xe điện của SK Signet), ứng dụng nhẹ, hoặc các dự án cần hỗ trợ đa nền tảng tối ưu.&lt;/li&gt;
 &lt;li&gt;Đang được dùng trong các lĩnh vực như âm thanh (WesAudio), tự động hóa đường sắt (OTIV).&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;documentshttpsdocsslintdevlatestdocsslint&#34;&gt;&lt;a href=&#34;https://docs.slint.dev/latest/docs/slint/&#34;&gt;Documents&lt;/a&gt;:&lt;/h3&gt;
+&lt;h3 id=&#34;documents&#34;&gt;&lt;a href=&#34;https://docs.slint.dev/latest/docs/slint/&#34;&gt;Documents&lt;/a&gt;:&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/slint-ui/slint&#34;&gt;Github Project&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://slint.dev/supported-boards&#34;&gt;Supported Boards&lt;/a&gt;&lt;/li&gt;
@@ -9616,7 +9784,7 @@ https://devblogs.microsoft.com/cppblog/windows-desktop-development-with-c-in-vis
     <item>
       <title>RAID</title>
       <link>https://vinhlin.github.io/posts/system-devops/raid/</link>
-      <description>&lt;h2 id=&#34;tham-khảo-video-khái-niệm-về-raidhttpswwwyoutubecomwatchvi9kbfiswxpclistwlindex6&#34;&gt;Tham khảo video: &lt;a href=&#34;https://www.youtube.com/watch?v=i9KbFISWXPc&amp;amp;list=WL&amp;amp;index=6&#34;&gt;Khái niệm về RAID&lt;/a&gt;&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;tham-khảo-video-khái-niệm-về-raid&#34;&gt;Tham khảo video: &lt;a href=&#34;https://www.youtube.com/watch?v=i9KbFISWXPc&amp;amp;list=WL&amp;amp;index=6&#34;&gt;Khái niệm về RAID&lt;/a&gt;&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;RAID (Redundant Array of Independent/Inexpensive Disks)&lt;/strong&gt; là một công nghệ lưu trữ dữ liệu cho phép kết hợp nhiều ổ đĩa cứng để tăng hiệu suất hoặc tạo khả năng chịu lỗi (fault tolerance).&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -9978,7 +10146,7 @@ https://www.youtube.com/watch?v=oqNWwiFKAj0
 &lt;/ul&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://docs.n8n.io/advanced-ai/#related-resources
 https://docs.n8n.io/hosting/starter-kits/ai-starter-kit/
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;install-n8n-on-server-super-fast-with-only-1-command---ai-noodleshttpswwwyoutubecomwatchvoflygnmskoq&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=OfLYgNmsKoQ&#34;&gt;Install n8n on server super fast with only 1 command - AI Noodles&lt;/a&gt;&lt;/h3&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;install-n8n-on-server-super-fast-with-only-1-command---ai-noodles&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=OfLYgNmsKoQ&#34;&gt;Install n8n on server super fast with only 1 command - AI Noodles&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Dựa theo video và tài liệu về n8n, thì có thể dùng &lt;strong&gt;n8n + AI&lt;/strong&gt; để thực hiện các tác vụ nâng cao về automation.&lt;/li&gt;
 &lt;li&gt;và trong video thì sử dụng &lt;a href=&#34;https://localai.io/&#34;&gt;LocalAI&lt;/a&gt;&lt;/li&gt;
@@ -10005,12 +10173,12 @@ https://localai.io/basics/build/
     <item>
       <title>Tailscale</title>
       <link>https://vinhlin.github.io/posts/system-devops/tailscale/</link>
-      <description>&lt;h3 id=&#34;video-3-best-remote-access-methods-for-your-homelab-revealedhttpswwwyoutubecomwatchvxmktcfb5vselistwlindex4t2s&#34;&gt;Video: &lt;a href=&#34;https://www.youtube.com/watch?v=XMKTCFB5VsE&amp;amp;list=WL&amp;amp;index=4&amp;amp;t=2s&#34;&gt;3 Best Remote Access Methods for Your Homelab Revealed!&lt;/a&gt;&lt;/h3&gt;
+      <description>&lt;h3 id=&#34;video-3-best-remote-access-methods-for-your-homelab-revealed&#34;&gt;Video: &lt;a href=&#34;https://www.youtube.com/watch?v=XMKTCFB5VsE&amp;amp;list=WL&amp;amp;index=4&amp;amp;t=2s&#34;&gt;3 Best Remote Access Methods for Your Homelab Revealed!&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Sau khi xem xong video này, mình thấy có một thông tin khá hay.&lt;/li&gt;
 &lt;li&gt;Đó là về giải pháp VPN &lt;strong&gt;Tailscale&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;tailscalehttpstailscalecom&#34;&gt;&lt;a href=&#34;https://tailscale.com/&#34;&gt;Tailscale&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;tailscale&#34;&gt;&lt;a href=&#34;https://tailscale.com/&#34;&gt;Tailscale&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Tailscale một giải pháp VPN thay thế cho các kiểu &lt;em&gt;VPN truyền thống&lt;/em&gt;.&lt;/li&gt;
 &lt;li&gt;Mình có thể sử dụng Tailscale cho cá nhân &lt;em&gt;(và nó &lt;strong&gt;free&lt;/strong&gt;)&lt;/em&gt;.&lt;/li&gt;
@@ -10049,27 +10217,27 @@ https://tailscale.com/use-cases/homelab
       <link>https://vinhlin.github.io/posts/system-devops/openmediavault/</link>
       <description>&lt;h2 id=&#34;history&#34;&gt;History&lt;/h2&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;STT&lt;/th&gt;
-&lt;th&gt;Create&lt;/th&gt;
-&lt;th&gt;Description&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;30/11/2024&lt;/td&gt;
-&lt;td&gt;Tạo nội dung về &lt;strong&gt;OMV&lt;/strong&gt;.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;28/12/2024&lt;/td&gt;
-&lt;td&gt;Thêm nội dung về một NAS OS - &lt;strong&gt;HexOS&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;STT&lt;/th&gt;
+					&lt;th&gt;Create&lt;/th&gt;
+					&lt;th&gt;Description&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;1&lt;/td&gt;
+					&lt;td&gt;30/11/2024&lt;/td&gt;
+					&lt;td&gt;Tạo nội dung về &lt;strong&gt;OMV&lt;/strong&gt;.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;2&lt;/td&gt;
+					&lt;td&gt;28/12/2024&lt;/td&gt;
+					&lt;td&gt;Thêm nội dung về một NAS OS - &lt;strong&gt;HexOS&lt;/strong&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&#34;openmediavault-omvhttpswwwopenmediavaultorg&#34;&gt;&lt;a href=&#34;https://www.openmediavault.org/&#34;&gt;OpenMediaVault (OMV)&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;openmediavault-omv&#34;&gt;&lt;a href=&#34;https://www.openmediavault.org/&#34;&gt;OpenMediaVault (OMV)&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Là một hệ điều hành mã nguồn mở được thiết kế đặc biệt để triển khai hệ thống lưu trữ mạng (Network Attached Storage - NAS).&lt;/li&gt;
 &lt;li&gt;Dựa trên hệ điều hành &lt;strong&gt;Debian Linux&lt;/strong&gt;, OMV cung cấp một giao diện web thân thiện để quản lý, cấu hình và vận hành các dịch vụ lưu trữ dữ liệu.&lt;/li&gt;
@@ -10078,7 +10246,7 @@ https://tailscale.com/use-cases/homelab
 &lt;p&gt;Lưu ý là hiện tại &lt;strong&gt;OMV&lt;/strong&gt; không hỗ trợ trên Ubuntu được. &lt;/br&gt;
 Ngoài ra mình cũng có thể cài OMV trên &lt;strong&gt;Raspberry&lt;/strong&gt;. &lt;/br&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h3 id=&#34;download-file-isohttpswwwopenmediavaultorgdownloadhtml&#34;&gt;&lt;a href=&#34;https://www.openmediavault.org/download.html&#34;&gt;Download file ISO&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;download-file-iso&#34;&gt;&lt;a href=&#34;https://www.openmediavault.org/download.html&#34;&gt;Download file ISO&lt;/a&gt;&lt;/h3&gt;
 &lt;h3 id=&#34;documents&#34;&gt;Documents:&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://computingforgeeks.com/install-and-configure-openmediavault-nas-storage-server/#google_vignette&#34;&gt;https://computingforgeeks.com/install-and-configure-openmediavault-nas-storage-server/#google_vignette&lt;/a&gt;&lt;/li&gt;
@@ -10125,7 +10293,7 @@ Create a secure, private server you can manage from anywhere with HexOS.&lt;/p&g
 &lt;li&gt;&lt;a href=&#34;https://hexos.com/blog/the-magic-behind-hexos&#34;&gt;https://hexos.com/blog/the-magic-behind-hexos&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://nascompares.com/2024/12/02/hexos-nas-software-review-of-the-beta/&#34;&gt;https://nascompares.com/2024/12/02/hexos-nas-software-review-of-the-beta/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;video-so-sánh-best-nas-software-truenas-vs-openmediavault-vs-unraidhttpswwwyoutubecomwatchvxngpayc2iau&#34;&gt;Video so sánh: &lt;a href=&#34;https://www.youtube.com/watch?v=xNGPAyC2iaU&#34;&gt;Best NAS Software: TrueNAS vs OpenMediaVault vs Unraid&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;video-so-sánh-best-nas-software-truenas-vs-openmediavault-vs-unraid&#34;&gt;Video so sánh: &lt;a href=&#34;https://www.youtube.com/watch?v=xNGPAyC2iaU&#34;&gt;Best NAS Software: TrueNAS vs OpenMediaVault vs Unraid&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/System-DevOps/NAS_Server/Hinh_2.png&#34;
   alt=&#34;Hình 2&#34;
@@ -10165,7 +10333,7 @@ Create a secure, private server you can manage from anywhere with HexOS.&lt;/p&g
 &lt;strong&gt;XDR&lt;/strong&gt;: Wazuh Agent &lt;/br&gt;
 &lt;strong&gt;EDR&lt;/strong&gt;: Aurora Agent &lt;/br&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h3 id=&#34;clamav--wazuh-powerful-anti-virus-protection-for-linuxhttpswwwyoutubecomwatchv9e45tq61h14&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=9e45TQ61H14&#34;&gt;ClamAV + Wazuh, powerful Anti-Virus protection for Linux&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;clamav--wazuh-powerful-anti-virus-protection-for-linux&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=9e45TQ61H14&#34;&gt;ClamAV + Wazuh, powerful Anti-Virus protection for Linux&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Công cụ này sẽ thực sự hữu ích và phát huy tác dụng mạnh trên Linux.&lt;/li&gt;
 &lt;li&gt;Giống như trong video có giới thiệu, việc kết hợp giữa &lt;strong&gt;ClamAV + Wazuh&lt;/strong&gt; sẽ giúp mình monitor và phản ứng kịp thời các tác nhân gây hại đến server.&lt;/li&gt;
@@ -10218,7 +10386,7 @@ Create a secure, private server you can manage from anywhere with HexOS.&lt;/p&g
       <title>Permission_Linux</title>
       <link>https://vinhlin.github.io/posts/system-devops/permission_linux/</link>
       <description>&lt;p&gt;Ghi chú về &lt;strong&gt;Permission trong linux&lt;/strong&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;video-devops-for-freshers--bài-7-quyền-truy-cập-trong-linux--devops-cho-người-mới-bắt-đầuhttpswwwyoutubecomwatchvu5oufnvomt4listplsvroivfnp1ku8fouecc-hbjbqnaggwl2index8&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=U5Oufnvomt4&amp;amp;list=PLsvroIvFNP1KU8foUeCC-hbJbqnAggWL2&amp;amp;index=8&#34;&gt;Video: DevOps for Freshers | Bài 7: Quyền truy cập trong Linux | DevOps cho người mới bắt đầu&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;video-devops-for-freshers--bài-7-quyền-truy-cập-trong-linux--devops-cho-người-mới-bắt-đầu&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=U5Oufnvomt4&amp;amp;list=PLsvroIvFNP1KU8foUeCC-hbJbqnAggWL2&amp;amp;index=8&#34;&gt;Video: DevOps for Freshers | Bài 7: Quyền truy cập trong Linux | DevOps cho người mới bắt đầu&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/System-DevOps/Permission_Linux/Permission.png&#34;
   alt=&#34;Permission&#34;
@@ -10274,26 +10442,26 @@ Create a secure, private server you can manage from anywhere with HexOS.&lt;/p&g
       <title>Kien_truc_may_tinh</title>
       <link>https://vinhlin.github.io/posts/iot/hardware/kien_truc_may_tinh/</link>
       <description>&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Ngày&lt;/th&gt;
-&lt;th&gt;Mô tả&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;27/8/2024&lt;/td&gt;
-&lt;td&gt;Khởi tạo bài viết&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;17/11/2024&lt;/td&gt;
-&lt;td&gt;Update thêm từ video &lt;strong&gt;ARM vs x86: khác biệt ra sao? Mạnh hơn? Pin tốt hơn?&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Ngày&lt;/th&gt;
+					&lt;th&gt;Mô tả&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;27/8/2024&lt;/td&gt;
+					&lt;td&gt;Khởi tạo bài viết&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;17/11/2024&lt;/td&gt;
+					&lt;td&gt;Update thêm từ video &lt;strong&gt;ARM vs x86: khác biệt ra sao? Mạnh hơn? Pin tốt hơn?&lt;/strong&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;kiển-trúc-máy-tính&#34;&gt;Kiển trúc Máy tính&lt;/h2&gt;
-&lt;h3 id=&#34;kiến-trúc-máy-tính---von-neumannhttpswwwdigikeycomenmakerblogs2024von-neumann-architecture&#34;&gt;&lt;a href=&#34;https://www.digikey.com/en/maker/blogs/2024/von-neumann-architecture&#34;&gt;Kiến trúc máy tính - Von-Neumann&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;kiến-trúc-máy-tính---von-neumann&#34;&gt;&lt;a href=&#34;https://www.digikey.com/en/maker/blogs/2024/von-neumann-architecture&#34;&gt;Kiến trúc máy tính - Von-Neumann&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Được chia làm 3 phần chính:
 &lt;ul&gt;
@@ -10306,7 +10474,7 @@ Create a secure, private server you can manage from anywhere with HexOS.&lt;/p&g
 &lt;/ul&gt;
 &lt;h3 id=&#34;kiến-trúc-harvard-sử-dụng-rộng-rãi-trong-các-bộ-vi-điều-khiển-và-dsp-digital-signal-processing&#34;&gt;kiến trúc Harvard: Sử dụng rộng rãi trong các bộ vi điều khiển và DSP (Digital Signal Processing)&lt;/h3&gt;
 &lt;p&gt;Sự khác biệt giữa kiến trúc &lt;strong&gt;Harvard&lt;/strong&gt; vs &lt;strong&gt;Von-Neumann&lt;/strong&gt; đó chính là sự bố trí giữa &lt;strong&gt;CPU - Memory&lt;/strong&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;kiến-trúc-chiphttpsinc42comglossarychip-architecture&#34;&gt;&lt;a href=&#34;https://inc42.com/glossary/chip-architecture/&#34;&gt;Kiến trúc chip&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;kiến-trúc-chip&#34;&gt;&lt;a href=&#34;https://inc42.com/glossary/chip-architecture/&#34;&gt;Kiến trúc chip&lt;/a&gt;&lt;/h2&gt;
 &lt;h3 id=&#34;x86-architecture&#34;&gt;x86 Architecture&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Thường thấy trong các sản phẩm máy tính desktop hoặc laptop.&lt;/li&gt;
@@ -10322,7 +10490,7 @@ Create a secure, private server you can manage from anywhere with HexOS.&lt;/p&g
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;data-bushttpswwwdigikeycomenmakertutorials2023what-is-serial-communication-and-how-does-it-compare-to-paralleltextwhats20the20difference20between20serialdata20that20can20be20transferred&#34;&gt;&lt;a href=&#34;https://www.digikey.com/en/maker/tutorials/2023/what-is-serial-communication-and-how-does-it-compare-to-parallel#:~:text=What&#39;s%20the%20Difference%20Between%20Serial,data%20that%20can%20be%20transferred&#34;&gt;Data Bus&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;data-bus&#34;&gt;&lt;a href=&#34;https://www.digikey.com/en/maker/tutorials/2023/what-is-serial-communication-and-how-does-it-compare-to-parallel#:~:text=What&#39;s%20the%20Difference%20Between%20Serial,data%20that%20can%20be%20transferred&#34;&gt;Data Bus&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Có 2 kiểu truyền dữ liệu là:&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Nối tiếp (Serial)
 Song song (Parallel)
@@ -10419,7 +10587,7 @@ Song song (Parallel)
 &lt;blockquote&gt;
 &lt;p&gt;Còn DTC (mã lỗi) thì xe sẽ &lt;strong&gt;tự động tạo ra mã lỗi&lt;/strong&gt; này khi phát hiện vấn đề. Ví dụ, nếu xe của bạn gặp sự cố liên quan đến xi-lanh, ECU sẽ tạo ra mã lỗi P0301 và lưu trữ nó. khi bạn kết nối công cụ quét OBD-II (như STN1110) với cổng OBD-II của xe, &lt;strong&gt;công cụ này sẽ tự động đọc và hiển thị mã DTC mà ECU đã lưu trữ&lt;/strong&gt;. &lt;/br&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h3 id=&#34;giới-thiệu-về-stn1110httpswwwobdsolcomsolutionschipsstn1110formmg0av3&#34;&gt;Giới thiệu về &lt;a href=&#34;https://www.obdsol.com/solutions/chips/stn1110/?form=MG0AV3&#34;&gt;STN1110&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;giới-thiệu-về-stn1110&#34;&gt;Giới thiệu về &lt;a href=&#34;https://www.obdsol.com/solutions/chips/stn1110/?form=MG0AV3&#34;&gt;STN1110&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;IC STN1110 là một OBD-II to UART interpreter IC (thiết bị trình dịch OBD-II sang UART)&lt;/li&gt;
 &lt;li&gt;Thay vào đó, nó được sử dụng để chuyển đổi các thông điệp OBD-II thành các thông điệp UART, cho phép kết nối với các thiết bị khác như máy tính hoặc microcontroller thông qua giao tiếp UART.&lt;/li&gt;
@@ -10427,7 +10595,7 @@ Song song (Parallel)
 &lt;li&gt;Để tạo ra một thiết bị tương tự như STN1110, bạn sẽ cần những thành phần cơ bản sau: &lt;code&gt;MCU&lt;/code&gt;, &lt;code&gt;CAN Controller&lt;/code&gt;, &lt;code&gt;CAN Transceiver&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;tham-khảo-telematics-dashboards---visualize-can-datahttpswwwcsselectronicscompagestelematics-dashboard-open-source&#34;&gt;Tham khảo &lt;a href=&#34;https://www.csselectronics.com/pages/telematics-dashboard-open-source&#34;&gt;Telematics Dashboards - Visualize CAN Data&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;tham-khảo-telematics-dashboards---visualize-can-data&#34;&gt;Tham khảo &lt;a href=&#34;https://www.csselectronics.com/pages/telematics-dashboard-open-source&#34;&gt;Telematics Dashboards - Visualize CAN Data&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/IoT/OBD2_PIDs/Sample_OBDII_Dashboard.webp&#34;
   alt=&#34;Sample_OBDII_Dashboard&#34;
@@ -10492,7 +10660,7 @@ Song song (Parallel)
     <item>
       <title>CAN_OBDII</title>
       <link>https://vinhlin.github.io/posts/iot/hardware/can_obdii/</link>
-      <description>&lt;h2 id=&#34;can-bus-serial-communication---how-it-workshttpswwwyoutubecomwatchvjzsczrt9tto&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=JZSCzRT9TTo&#34;&gt;CAN Bus: Serial Communication - How It Works?&lt;/a&gt;&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;can-bus-serial-communication---how-it-works&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=JZSCzRT9TTo&#34;&gt;CAN Bus: Serial Communication - How It Works?&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/IoT/CAN_OBDII/CAN_1.png&#34;
   alt=&#34;CAN_1&#34;
@@ -10690,7 +10858,7 @@ https://en.wikipedia.org/wiki/OBD-II_PIDs
       <description>&lt;p&gt;Trong quá trình tìm hiểu lại về &lt;strong&gt;DMA&lt;/strong&gt;, mình lại vô trình biết thêm một trang web chia sẻ kiến thức về &lt;strong&gt;Điện tử, Lập trình,&amp;hellip;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;👉 Website: &lt;a href=&#34;https://www.laptrinhdientu.com/&#34;&gt;Lập trình - Điện tử&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Ngoài ra mình cũng tìm đc một bài viết khá hay, cũng liên quan một phần đến DMA.&lt;/p&gt;
-&lt;h2 id=&#34;-bài-viết-các-kỹ-thuật-thiết-kế-luồng-xử-lý-trong-chương-trình-nhúnghttpswwwlaptrinhdientucom202201embeddeddesignhtml&#34;&gt;🌱 Bài viết &lt;a href=&#34;https://www.laptrinhdientu.com/2022/01/EmbeddedDesign.html&#34;&gt;Các kỹ thuật thiết kế luồng xử lý trong chương trình nhúng&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;-bài-viết-các-kỹ-thuật-thiết-kế-luồng-xử-lý-trong-chương-trình-nhúng&#34;&gt;🌱 Bài viết &lt;a href=&#34;https://www.laptrinhdientu.com/2022/01/EmbeddedDesign.html&#34;&gt;Các kỹ thuật thiết kế luồng xử lý trong chương trình nhúng&lt;/a&gt;&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Đối với một số chương trình nhỏ, các chương trình mà các bạn mới thực hành (blink LED, đọc nút bấm, &amp;hellip;) có một đặc điểm chung, đó là chương trình đều liên tục thực thi, kiểm tra một số lệnh nào đó, trong vòng lặp while (1). Điều này dẫn đến nhiều nhược điểm, chẳng hạn: Những lệnh đứng sau phải đợi những lệnh đứng trước thực thi xong, như vậy có thể gây bỏ lỡ các sự kiện nếu kích thước chương trình lớn. &lt;/br&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -10731,7 +10899,7 @@ Hin&lt;/p&gt;
 &lt;li&gt;Ưu điểm là Interrupt là giúp chương trình đáp ứng nhanh với những cái ta cần. Có thể sử dụng chế độ tiết kiệm năng lượng khi vi điều khiển không làm gì.&lt;/li&gt;
 &lt;li&gt;Tuy nhiên, nhược điểm của nó là ta cần khống chế chương trình con thực thi ngắt ISR để tránh việc chương trình phục vụ một ngắt quá lâu. Lời khuyên là nên viết chương trình ISR càng ngắn về mặt thời gian càng tốt.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;markdma---direct-memory-accessmark&#34;&gt;&lt;mark&gt;DMA - Direct Memory Access&lt;/mark&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;dma---direct-memory-access&#34;&gt;&lt;mark&gt;DMA - Direct Memory Access&lt;/mark&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Kỹ thuật này để sử dụng để truyền dữ liệu trực tiếp giữa bộ nhớ và ngoại vi mà không thông qua CPU (trong lúc này, CPU có thể làm việc khác nhờ thế tiết kiệm thời gian CPU rất nhiều).&lt;/li&gt;
 &lt;li&gt;Trong hầu hết các thiết bị nhúng, các thiết bị ngoại vi không hỗ trợ truyền nhiều bit cùng lúc, với ngoại lệ là giao thức CAN. Thay vào đó, vi điều khiển (MCU) phải ghi từng byte một, và sau đó chờ cho đến khi thiết bị ngoại vi sẵn sàng để gửi byte tiếp theo.&lt;/li&gt;
@@ -10783,22 +10951,22 @@ https://www.laptrinhdientu.com/2022/04/DMA1.html
       <title>Rust_for_ARM</title>
       <link>https://vinhlin.github.io/posts/iot/software/rust_for_arm/</link>
       <description>&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Ngày&lt;/th&gt;
-&lt;th&gt;Mô tả&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;10/10/2024&lt;/td&gt;
-&lt;td&gt;Khởi tạo bài viết, ghi chú về Rust for ARM&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;12/10/2024&lt;/td&gt;
-&lt;td&gt;Ghi chú thêm một số tài liệu về OpenWRT&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Ngày&lt;/th&gt;
+					&lt;th&gt;Mô tả&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;10/10/2024&lt;/td&gt;
+					&lt;td&gt;Khởi tạo bài viết, ghi chú về Rust for ARM&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;12/10/2024&lt;/td&gt;
+					&lt;td&gt;Ghi chú thêm một số tài liệu về OpenWRT&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;hr&gt;
 &lt;ul&gt;
@@ -10859,20 +11027,20 @@ $ rustup target add arm-unknown-linux-gnueabihf
 &lt;li&gt;Dựa trên &lt;a href=&#34;https://doc.rust-lang.org/beta/rustc/platform-support.html&#34;&gt;platform support&lt;/a&gt; có thông tin:&lt;/li&gt;
 &lt;/ul&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;target&lt;/th&gt;
-&lt;th&gt;std&lt;/th&gt;
-&lt;th&gt;Note&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;armv7-unknown-linux-gnueabi&lt;/td&gt;
-&lt;td&gt;✓&lt;/td&gt;
-&lt;td&gt;Armv7-A Linux (kernel 4.15, glibc 2.27)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;target&lt;/th&gt;
+					&lt;th&gt;std&lt;/th&gt;
+					&lt;th&gt;Note&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;armv7-unknown-linux-gnueabi&lt;/td&gt;
+					&lt;td&gt;✓&lt;/td&gt;
+					&lt;td&gt;Armv7-A Linux (kernel 4.15, glibc 2.27)&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h3 id=&#34;setup-trên-máy-ubuntu&#34;&gt;Setup trên máy Ubuntu&lt;/h3&gt;
 &lt;ul&gt;
@@ -10921,7 +11089,7 @@ https://harmonicss.co.uk/rust/rust-on-a-raspberry-pi-part-1/
 &lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
 &lt;li&gt;Đây là một tutorial làm quen với việc &lt;strong&gt;viết OS cho Raspberry&lt;/strong&gt;, tên project: &lt;a href=&#34;https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials&#34;&gt;rust-raspberrypi-OS-tutorials&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;ghi-chú-khác-về-armv7-unknown-linux-uclibceabihttpsdocrust-langorgrustcplatform-supportarmv7-unknown-linux-uclibceabihtml&#34;&gt;Ghi chú khác về &lt;a href=&#34;https://doc.rust-lang.org/rustc/platform-support/armv7-unknown-linux-uclibceabi.html&#34;&gt;armv7-unknown-linux-uclibceabi&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;ghi-chú-khác-về-armv7-unknown-linux-uclibceabi&#34;&gt;Ghi chú khác về &lt;a href=&#34;https://doc.rust-lang.org/rustc/platform-support/armv7-unknown-linux-uclibceabi.html&#34;&gt;armv7-unknown-linux-uclibceabi&lt;/a&gt;&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;This target supports Armv7-A softfloat CPUs and uses the uclibc-ng standard library. This is a common configuration on many consumer routers (e.g., Netgear R7000, Asus RT-AC68U). &lt;/br&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -10947,8 +11115,8 @@ https://harmonicss.co.uk/rust/rust-on-a-raspberry-pi-part-1/
       <description>&lt;p&gt;Trong lúc lướt lát trên facebook, mình vô tình bắt gặp một bài viết &lt;strong&gt;Android Automotive Boot Process A-Z&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Từ đó vô tình biết thêm được một trang chia sẻ kiến thức về mảng Automotive.&lt;/p&gt;
 &lt;p&gt;👉Website: &lt;a href=&#34;https://devlinux.vn/newest&#34;&gt;https://devlinux.vn/newest&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;trang-tổng-hợp-các-bài-viết-về-android-automotivehttpsdevlinuxvnseriesbasic-android-automotive&#34;&gt;Trang tổng hợp các bài viết về &lt;a href=&#34;https://devlinux.vn/series/basic-android-automotive&#34;&gt;Android Automotive&lt;/a&gt;&lt;/h2&gt;
-&lt;h3 id=&#34;tổng-quát-về-bài-viết-android-automotive-boot-process-a-zhttpsdevlinuxvnpostandroid-boot-process-a-z&#34;&gt;Tổng quát về bài viết &lt;a href=&#34;https://devlinux.vn/post/android-boot-process-a-z&#34;&gt;Android Automotive Boot Process A-Z&lt;/a&gt;&lt;/h3&gt;
+&lt;h2 id=&#34;trang-tổng-hợp-các-bài-viết-về-android-automotive&#34;&gt;Trang tổng hợp các bài viết về &lt;a href=&#34;https://devlinux.vn/series/basic-android-automotive&#34;&gt;Android Automotive&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;tổng-quát-về-bài-viết-android-automotive-boot-process-a-z&#34;&gt;Tổng quát về bài viết &lt;a href=&#34;https://devlinux.vn/post/android-boot-process-a-z&#34;&gt;Android Automotive Boot Process A-Z&lt;/a&gt;&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Tóm tắt các bước chính trong quá trình khởi động Android: &lt;/br&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -11020,7 +11188,7 @@ https://harmonicss.co.uk/rust/rust-on-a-raspberry-pi-part-1/
 /&gt;
 
 &lt;/p&gt;
-&lt;h2 id=&#34;bài-viết-how-to-voltage-fault-injectionhttpswwwsynacktivcompublicationshow-to-voltage-fault-injection&#34;&gt;Bài viết &lt;a href=&#34;https://www.synacktiv.com/publications/how-to-voltage-fault-injection&#34;&gt;How to voltage fault injection&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;bài-viết-how-to-voltage-fault-injection&#34;&gt;Bài viết &lt;a href=&#34;https://www.synacktiv.com/publications/how-to-voltage-fault-injection&#34;&gt;How to voltage fault injection&lt;/a&gt;&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Trong quá trình đánh giá bảo mật vật lý của thiết bị IoT, một trong những mục tiêu là &lt;strong&gt;tận dụng giao diện gỡ lỗi&lt;/strong&gt; của chip để có thể truy cập và nghiên cứu cách hoạt động của thiết bị. &lt;/br&gt;
 Một kịch bản lý tưởng là trích xuất toàn bộ hệ thống tệp để &lt;strong&gt;tìm cách giành quyền truy cập root vào thiết bị&lt;/strong&gt;. Sau đó là &lt;em&gt;kiểm tra những dịch vụ nào đang chạy&lt;/em&gt;, &lt;em&gt;debug&lt;/em&gt; để cuối cùng là kiểm soát mục tiêu (target). &lt;/br&gt;
@@ -11042,7 +11210,7 @@ Khi bắt đầu quá trình kiểm tra, chúng ta thường gặp phải các b
     <item>
       <title>Car_Hacking</title>
       <link>https://vinhlin.github.io/posts/iot/hardware/car_hacking/</link>
-      <description>&lt;h1 id=&#34;book-the-car-hacker-handbookhttpsdocsalexomarcombibliotecathecarhackershandbookpdf&#34;&gt;Book: &lt;a href=&#34;https://docs.alexomar.com/biblioteca/thecarhackershandbook.pdf&#34;&gt;The Car Hacker Handbook&lt;/a&gt;&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;book-the-car-hacker-handbook&#34;&gt;Book: &lt;a href=&#34;https://docs.alexomar.com/biblioteca/thecarhackershandbook.pdf&#34;&gt;The Car Hacker Handbook&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/IoT/Car_Hacking/Car_Hacking.jpg&#34;
   alt=&#34;Car Hacking&#34;
@@ -11139,7 +11307,7 @@ Các thiết bị sẽ tự quyết định liệu có xử lý gói tin hay b�
 &lt;/ul&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;candump
 cansniffer
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;kayakhttpsdschanoehgithubiokayak-is-an-application-for-can-bus-diagnosis-and-monitoring&#34;&gt;&lt;a href=&#34;https://dschanoeh.github.io/Kayak/&#34;&gt;Kayak&lt;/a&gt; is an application for CAN bus diagnosis and monitoring.&lt;/h3&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;kayak-is-an-application-for-can-bus-diagnosis-and-monitoring&#34;&gt;&lt;a href=&#34;https://dschanoeh.github.io/Kayak/&#34;&gt;Kayak&lt;/a&gt; is an application for CAN bus diagnosis and monitoring.&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/dschanoeh/Kayak&#34;&gt;Github Project&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://dschanoeh.github.io/Kayak/tutorial.html&#34;&gt;Kayak- tutorial&lt;/a&gt;&lt;/li&gt;
@@ -11173,9 +11341,9 @@ cansniffer
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;other-documents&#34;&gt;Other Documents&lt;/h2&gt;
-&lt;h3 id=&#34;obd-can-bus-equipped-vehicleshttpwwwauterrawebcomaboutcanhtml&#34;&gt;&lt;a href=&#34;http://www.auterraweb.com/aboutcan.html&#34;&gt;OBD CAN Bus Equipped Vehicles&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id=&#34;ecu-pin-out-diagramshttpswwwinnovatemotorsportscomecu-pin-out-diagrams&#34;&gt;&lt;a href=&#34;https://www.innovatemotorsports.com/ecu-pin-out-diagrams/&#34;&gt;ECU PIN-OUT DIAGRAMS&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id=&#34;chipwhispererhttpswwwnewaecomchipwhisperer&#34;&gt;&lt;a href=&#34;https://www.newae.com/chipwhisperer&#34;&gt;ChipWhisperer&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;obd-can-bus-equipped-vehicles&#34;&gt;&lt;a href=&#34;http://www.auterraweb.com/aboutcan.html&#34;&gt;OBD CAN Bus Equipped Vehicles&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;ecu-pin-out-diagrams&#34;&gt;&lt;a href=&#34;https://www.innovatemotorsports.com/ecu-pin-out-diagrams/&#34;&gt;ECU PIN-OUT DIAGRAMS&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;chipwhisperer&#34;&gt;&lt;a href=&#34;https://www.newae.com/chipwhisperer&#34;&gt;ChipWhisperer&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://chipwhisperer.readthedocs.io/en/latest/getting-started.html&#34;&gt;getting-started&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://rtfm.newae.com/&#34;&gt;Documentation Home&lt;/a&gt;&lt;/li&gt;
@@ -11200,26 +11368,26 @@ cansniffer
 
 &lt;/p&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Ngày&lt;/th&gt;
-&lt;th&gt;Mô tả&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;1/4/2024&lt;/td&gt;
-&lt;td&gt;Khởi tạo bài viết&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;17/8/2024&lt;/td&gt;
-&lt;td&gt;Cập nhật bài viết, thêm thông tin về Rust-lang&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;13/9/2024&lt;/td&gt;
-&lt;td&gt;Update thêm documents về Rust&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Ngày&lt;/th&gt;
+					&lt;th&gt;Mô tả&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;1/4/2024&lt;/td&gt;
+					&lt;td&gt;Khởi tạo bài viết&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;17/8/2024&lt;/td&gt;
+					&lt;td&gt;Cập nhật bài viết, thêm thông tin về Rust-lang&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;13/9/2024&lt;/td&gt;
+					&lt;td&gt;Update thêm documents về Rust&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;hạn-chế&#34;&gt;Hạn chế&lt;/h3&gt;
@@ -11245,7 +11413,7 @@ cansniffer
 &lt;li&gt;Rust chú trọng vào sự an toàn - &lt;strong&gt;memory safety&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;Cộng đồng Rust vẫn đang phát triển. &lt;a href=&#34;https://pypl.github.io/PYPL.html&#34;&gt;Dựa trên báo cáo thì số lượt tìm kiếm hướng dẫn lập trình Rust đã tăng hơn Golang&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;rust-roadmaphttpsroadmapshrust&#34;&gt;&lt;a href=&#34;https://roadmap.sh/rust&#34;&gt;Rust Roadmap&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;rust-roadmap&#34;&gt;&lt;a href=&#34;https://roadmap.sh/rust&#34;&gt;Rust Roadmap&lt;/a&gt;&lt;/h3&gt;
 &lt;h3 id=&#34;tài-liệu-về-rust&#34;&gt;Tài liệu về Rust&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -11281,22 +11449,22 @@ cansniffer
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;cập-nhật-1782024&#34;&gt;Cập nhật 17/8/2024&lt;/h1&gt;
-&lt;h3 id=&#34;youtube-where-is-rust-being-usedhttpswwwyoutubecomwatchv42fhqwq6sva&#34;&gt;Youtube: &lt;a href=&#34;https://www.youtube.com/watch?v=42FhQWQ6SVA&#34;&gt;Where is Rust being used?&lt;/a&gt;&lt;/h3&gt;
-&lt;h2 id=&#34;tổng-hợp-rust-is-for-roboticshttpsroboticsrs&#34;&gt;Tổng hợp &lt;a href=&#34;https://robotics.rs/&#34;&gt;Rust is for Robotics&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;youtube-where-is-rust-being-used&#34;&gt;Youtube: &lt;a href=&#34;https://www.youtube.com/watch?v=42FhQWQ6SVA&#34;&gt;Where is Rust being used?&lt;/a&gt;&lt;/h3&gt;
+&lt;h2 id=&#34;tổng-hợp-rust-is-for-robotics&#34;&gt;Tổng hợp &lt;a href=&#34;https://robotics.rs/&#34;&gt;Rust is for Robotics&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Project &lt;a href=&#34;https://github.com/ros2-rust/ros2_rust&#34;&gt;ros2_rust&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Project &lt;a href=&#34;https://github.com/Sollimann/CleanIt&#34;&gt;CleanIt&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;doc-offline-first-smart-energy-monitor-with-rust-esp32-and-thingsboardhttpsmoslehiancomposts20223-ofmon&#34;&gt;Doc: &lt;a href=&#34;https://moslehian.com/posts/2022/3-ofmon/&#34;&gt;Offline-first Smart Energy Monitor with Rust, ESP32, and Thingsboard&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;doc-offline-first-smart-energy-monitor-with-rust-esp32-and-thingsboard&#34;&gt;Doc: &lt;a href=&#34;https://moslehian.com/posts/2022/3-ofmon/&#34;&gt;Offline-first Smart Energy Monitor with Rust, ESP32, and Thingsboard&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/Nereuxofficial/nostd-wifi-lamp&#34;&gt;nostd-wifi-lamp&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/JurajSadel/esp32c3-no-std-async-mqtt-demo&#34;&gt;esp32c3-no-std-async-mqtt-demo&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;framework-cho-mqtt-cho-rust-rumqtthttpsgithubcombytebeamiorumqtt&#34;&gt;Framework cho MQTT cho Rust: &lt;a href=&#34;https://github.com/bytebeamio/rumqtt&#34;&gt;rumqtt&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;framework-cho-mqtt-cho-rust-rumqtt&#34;&gt;Framework cho MQTT cho Rust: &lt;a href=&#34;https://github.com/bytebeamio/rumqtt&#34;&gt;rumqtt&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/obabec/rust-mqtt&#34;&gt;rust-mqtt&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;framework-nats-for-rust-natsrshttpsgithubcomnats-ionatsrs&#34;&gt;Framework NATS for Rust: &lt;a href=&#34;https://github.com/nats-io/nats.rs&#34;&gt;nats.rs&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;framework-nats-for-rust-natsrs&#34;&gt;Framework NATS for Rust: &lt;a href=&#34;https://github.com/nats-io/nats.rs&#34;&gt;nats.rs&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Có thể sử dụng NATS cho ThingsBoard.&lt;/li&gt;
 &lt;li&gt;Sample code từ ChatGPT:&lt;/li&gt;
@@ -11345,16 +11513,16 @@ async fn main() -&amp;gt; std::io::Result&amp;lt;()&amp;gt; {
 }
 &lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
 &lt;h1 id=&#34;cập-nhật-1392024&#34;&gt;Cập nhật 13/9/2024&lt;/h1&gt;
-&lt;h2 id=&#34;bài-viết-35-rust-learning-resources-every-beginner-should-know-in-2022httpsblogtheembeddedrustaceancom35-rust-learning-resources-every-beginner-should-know-in-2022&#34;&gt;Bài viết: &lt;a href=&#34;https://blog.theembeddedrustacean.com/35-rust-learning-resources-every-beginner-should-know-in-2022&#34;&gt;35 Rust Learning Resources Every Beginner Should Know in 2022&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;bài-viết-35-rust-learning-resources-every-beginner-should-know-in-2022&#34;&gt;Bài viết: &lt;a href=&#34;https://blog.theembeddedrustacean.com/35-rust-learning-resources-every-beginner-should-know-in-2022&#34;&gt;35 Rust Learning Resources Every Beginner Should Know in 2022&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Trong bài viết này tổng hợp rất nhiều documents cho beginner để bắt đầu với Rust.&lt;/li&gt;
 &lt;li&gt;Ở đây mình thấy có những trang rất hay, ví dụ:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;tour-of-rusthttpstourofrustcom&#34;&gt;&lt;a href=&#34;https://tourofrust.com/&#34;&gt;Tour of Rust&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;tour-of-rust&#34;&gt;&lt;a href=&#34;https://tourofrust.com/&#34;&gt;Tour of Rust&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Trang này có tiếng Việt và có thêm phần để run code.&lt;/p&gt;
-&lt;h3 id=&#34;a-half-hour-to-learn-rusthttpsfasterthanlimearticlesa-half-hour-to-learn-rust&#34;&gt;&lt;a href=&#34;https://fasterthanli.me/articles/a-half-hour-to-learn-rust&#34;&gt;A half-hour to learn Rust&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id=&#34;a-gentle-introduction-to-rusthttpsstevedonovangithubiorust-gentle-introreadmehtml&#34;&gt;&lt;a href=&#34;https://stevedonovan.github.io/rust-gentle-intro/readme.html&#34;&gt;A Gentle Introduction To Rust&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id=&#34;easy-rusthttpsdhghomongithubioeasy_rustchapter_1html&#34;&gt;&lt;a href=&#34;https://dhghomon.github.io/easy_rust/Chapter_1.html&#34;&gt;Easy Rust&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;a-half-hour-to-learn-rust&#34;&gt;&lt;a href=&#34;https://fasterthanli.me/articles/a-half-hour-to-learn-rust&#34;&gt;A half-hour to learn Rust&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;a-gentle-introduction-to-rust&#34;&gt;&lt;a href=&#34;https://stevedonovan.github.io/rust-gentle-intro/readme.html&#34;&gt;A Gentle Introduction To Rust&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;easy-rust&#34;&gt;&lt;a href=&#34;https://dhghomon.github.io/easy_rust/Chapter_1.html&#34;&gt;Easy Rust&lt;/a&gt;&lt;/h3&gt;
 </description>
       <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/software/rust-lang/</guid>
@@ -11364,7 +11532,7 @@ async fn main() -&amp;gt; std::io::Result&amp;lt;()&amp;gt; {
     <item>
       <title>Hoi_thao_2024</title>
       <link>https://vinhlin.github.io/posts/others/hoi_thao_2024/</link>
-      <description>&lt;h2 id=&#34;link-video-hội-thảo-và-triển-lãm-an-toàn-thông-tin-phía-nam-2024httpswwwfacebookcomvnisahcmvideos1461942441187294&#34;&gt;Link Video: &lt;a href=&#34;https://www.facebook.com/VNISA.HCM/videos/1461942441187294&#34;&gt;Hội thảo và Triển lãm An toàn Thông tin phía Nam 2024&lt;/a&gt;&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;link-video-hội-thảo-và-triển-lãm-an-toàn-thông-tin-phía-nam-2024&#34;&gt;Link Video: &lt;a href=&#34;https://www.facebook.com/VNISA.HCM/videos/1461942441187294&#34;&gt;Hội thảo và Triển lãm An toàn Thông tin phía Nam 2024&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Sau khi xem và nghe xong thì mình có nhiều thông tin hữu ích như sau&lt;/p&gt;
 &lt;h3 id=&#34;thiết-bị-phần-cứng---khóa-xác-thực&#34;&gt;Thiết bị phần cứng - Khóa xác thực&lt;/h3&gt;
 &lt;ul&gt;
@@ -11525,18 +11693,18 @@ async fn main() -&amp;gt; std::io::Result&amp;lt;()&amp;gt; {
 &lt;/ul&gt;
 &lt;h3 id=&#34;request-version&#34;&gt;Request Version:&lt;/h3&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Send&lt;/th&gt;
-&lt;th&gt;Response&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;$DVSRFID,VER&lt;/td&gt;
-&lt;td&gt;$DVSRFID,VER,1.2&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Send&lt;/th&gt;
+					&lt;th&gt;Response&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;$DVSRFID,VER&lt;/td&gt;
+					&lt;td&gt;$DVSRFID,VER,1.2&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h3 id=&#34;đọc-thẻ&#34;&gt;Đọc thẻ&lt;/h3&gt;
 &lt;ul&gt;
@@ -11566,7 +11734,7 @@ async fn main() -&amp;gt; std::io::Result&amp;lt;()&amp;gt; {
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://tinnhiemmang.vn/tin-tac-danh-cap-thong-tin-ngan-hang-tu-nguoi-dung-ios-android-thong-qua-ung-dung-pwa
 https://www.bleepingcomputer.com/news/security/new-ngate-android-malware-uses-nfc-chip-to-steal-credit-card-data/
 https://www.darkreading.com/mobile-security/nfc-traffic-stealer-targets-android-users-and-their-banking-info
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;github-project-nfcgatehttpsgithubcomnfcgatenfcgate&#34;&gt;Github project: &lt;a href=&#34;https://github.com/nfcgate/nfcgate&#34;&gt;nfcgate&lt;/a&gt;&lt;/h3&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;github-project-nfcgate&#34;&gt;Github project: &lt;a href=&#34;https://github.com/nfcgate/nfcgate&#34;&gt;nfcgate&lt;/a&gt;&lt;/h3&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://github.com/nfcgate/nfcgate/tree/v2/doc
 https://github.com/nfcgate/nfcgate/blob/v2/doc/Compatibility.md
 https://github.com/nfcgate/nfcgate/tree/v2/doc/mode
@@ -11680,22 +11848,22 @@ https://radxa.com/products/x/x4/
       <link>https://vinhlin.github.io/posts/cybersecurity/news/</link>
       <description>&lt;h3 id=&#34;changelog&#34;&gt;Changelog&lt;/h3&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Ngày&lt;/th&gt;
-&lt;th&gt;Mô tả&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;10/4/2024&lt;/td&gt;
-&lt;td&gt;Khởi tạo bài viết&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;26/8/2024&lt;/td&gt;
-&lt;td&gt;Cập nhật một số trang blog và youtube về chủ đề Hardware Hacking&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Ngày&lt;/th&gt;
+					&lt;th&gt;Mô tả&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;10/4/2024&lt;/td&gt;
+					&lt;td&gt;Khởi tạo bài viết&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;26/8/2024&lt;/td&gt;
+					&lt;td&gt;Cập nhật một số trang blog và youtube về chủ đề Hardware Hacking&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;hr&gt;
 &lt;ul&gt;
@@ -11706,13 +11874,13 @@ https://radxa.com/products/x/x4/
 &lt;ul&gt;
 &lt;li&gt;Các trang ngôn ngữ tiếng Việt mà mình cập nhật thông tin về giới bảo mật, bao gồm:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;ncsc-vnhttpstinnhiemmangvnnoi-bat&#34;&gt;&lt;a href=&#34;https://tinnhiemmang.vn/noi-bat&#34;&gt;NCSC VN&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id=&#34;whitehathttpswhitehatvn&#34;&gt;&lt;a href=&#34;https://whitehat.vn/&#34;&gt;Whitehat&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;ncsc-vn&#34;&gt;&lt;a href=&#34;https://tinnhiemmang.vn/noi-bat&#34;&gt;NCSC VN&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;whitehat&#34;&gt;&lt;a href=&#34;https://whitehat.vn/&#34;&gt;Whitehat&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Còn trang của nước ngoài thì gồm (trong đó có telegram):&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;cyber-security-newshttpscybersecuritynewscom&#34;&gt;&lt;a href=&#34;https://cybersecuritynews.com/&#34;&gt;Cyber Security News&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id=&#34;telegram-cyber-threat-intelligencehttpstmectinow&#34;&gt;&lt;a href=&#34;https://t.me/ctinow&#34;&gt;Telegram: Cyber Threat Intelligence&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;cyber-security-news&#34;&gt;&lt;a href=&#34;https://cybersecuritynews.com/&#34;&gt;Cyber Security News&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;telegram-cyber-threat-intelligence&#34;&gt;&lt;a href=&#34;https://t.me/ctinow&#34;&gt;Telegram: Cyber Threat Intelligence&lt;/a&gt;&lt;/h3&gt;
 &lt;h3 id=&#34;kênh-youtube&#34;&gt;Kênh youtube:&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Mình đang theo dõi hầu hết các kênh được liệt kê trong hình dưới.&lt;/li&gt;
@@ -11730,24 +11898,24 @@ https://radxa.com/products/x/x4/
 &lt;hr&gt;
 &lt;h2 id=&#34;ngày-2682024&#34;&gt;Ngày 26/8/2024&lt;/h2&gt;
 &lt;p&gt;Một số trang blog và kênh Youtube về Hardware Hacking&lt;/p&gt;
-&lt;h3 id=&#34;ncc-grouphttpsresearchnccgroupcomcategoryhardware-embedded-systems&#34;&gt;&lt;a href=&#34;https://research.nccgroup.com/category/hardware-embedded-systems/&#34;&gt;NCC Group&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;ncc-group&#34;&gt;&lt;a href=&#34;https://research.nccgroup.com/category/hardware-embedded-systems/&#34;&gt;NCC Group&lt;/a&gt;&lt;/h3&gt;
 &lt;h3 id=&#34;matt-brown-iot-pentester--hardware-security-researcher&#34;&gt;Matt Brown: IoT Pentester &amp;amp; Hardware Security Researcher&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://brownfinesecurity.com/blog/&#34;&gt;Blog&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Youtube Channel: &lt;a href=&#34;https://www.youtube.com/@mattbrwn&#34;&gt;Matt Brown&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;hextreeiohttpsapphextreeio-một-nền-tảng-học-tập-về-hacking&#34;&gt;&lt;a href=&#34;https://app.hextree.io/&#34;&gt;hextree.io&lt;/a&gt;: Một nền tảng học tập về hacking.&lt;/h3&gt;
+&lt;h3 id=&#34;hextreeio-một-nền-tảng-học-tập-về-hacking&#34;&gt;&lt;a href=&#34;https://app.hextree.io/&#34;&gt;hextree.io&lt;/a&gt;: Một nền tảng học tập về hacking.&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Youtube Channel: &lt;a href=&#34;https://www.youtube.com/@LiveOverflow&#34;&gt;LiveOverflow&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;iot-pentesting-guidehttpswwwiotpentestingguidecom&#34;&gt;&lt;a href=&#34;https://www.iotpentestingguide.com/&#34;&gt;IoT Pentesting Guide&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id=&#34;iotsecurity101httpsv33rugithubioiotsecurity101&#34;&gt;&lt;a href=&#34;https://v33ru.github.io/IoTSecurity101/&#34;&gt;IoTSecurity101&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id=&#34;gamehackinggghttpsgamehackinggg&#34;&gt;&lt;a href=&#34;https://gamehacking.gg/&#34;&gt;GameHacking.GG&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;iot-pentesting-guide&#34;&gt;&lt;a href=&#34;https://www.iotpentestingguide.com/&#34;&gt;IoT Pentesting Guide&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;iotsecurity101&#34;&gt;&lt;a href=&#34;https://v33ru.github.io/IoTSecurity101/&#34;&gt;IoTSecurity101&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;gamehackinggg&#34;&gt;&lt;a href=&#34;https://gamehacking.gg/&#34;&gt;GameHacking.GG&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Trò chơi để luyện tập về &lt;strong&gt;reverse&lt;/strong&gt; và hacking game.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/jhllc/Unity-Game&#34;&gt;Github Hướng dẫn&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;synacktivhttpswwwsynacktivcomenour-publications&#34;&gt;&lt;a href=&#34;https://www.synacktiv.com/en/our-publications&#34;&gt;synacktiv&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;synacktiv&#34;&gt;&lt;a href=&#34;https://www.synacktiv.com/en/our-publications&#34;&gt;synacktiv&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.synacktiv.com/en/publications&#34;&gt;Publications&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.synacktiv.com/en/advisories&#34;&gt;Advisories&lt;/a&gt;&lt;/li&gt;
@@ -11918,7 +12086,7 @@ https://radxa.com/products/x/x4/
       <title>RE_Tool_BinaryNinjaFree</title>
       <link>https://vinhlin.github.io/posts/cybersecurity/technical/re_tool_binaryninjafree/</link>
       <description>&lt;p&gt;Một bài viết về &lt;a href=&#34;https://whitehat.vn/threads/re1-gioi-thieu-ve-reverse-engineering.875/&#34;&gt;RE (Reverse Engineering)&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;công-cụ-ida---the-interactive-disassemblerhttpswhitehatvnthreadsre3-huong-dan-su-dung-ida913&#34;&gt;&lt;a href=&#34;https://whitehat.vn/threads/re3-huong-dan-su-dung-ida.913/&#34;&gt;Công cụ IDA - The Interactive Disassembler&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;công-cụ-ida---the-interactive-disassembler&#34;&gt;&lt;a href=&#34;https://whitehat.vn/threads/re3-huong-dan-su-dung-ida.913/&#34;&gt;Công cụ IDA - The Interactive Disassembler&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Công cụ này có &lt;a href=&#34;https://hex-rays.com/ida-free/#download&#34;&gt;bản free&lt;/a&gt; và hỗ trợ cài đặt trên nhiều nền tảng.&lt;/li&gt;
 &lt;li&gt;Mình tải và cài đặt bản free cho Windows. Tuy nhiên thì:
@@ -11929,13 +12097,13 @@ https://radxa.com/products/x/x4/
 &lt;/li&gt;
 &lt;li&gt;Với bản &lt;em&gt;free&lt;/em&gt; thì có nhiều hạn chế quá, và nhìn cũng hơi khá dùng.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;công-cụ-online---decompiler-explorerhttpsdogboltorg&#34;&gt;Công cụ Online - &lt;a href=&#34;https://dogbolt.org/&#34;&gt;Decompiler Explorer&lt;/a&gt;&lt;/h3&gt;
-&lt;h2 id=&#34;phần-mềm-binary-ninjahttpsbinaryninja&#34;&gt;Phần mềm &lt;a href=&#34;https://binary.ninja/&#34;&gt;Binary Ninja&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;công-cụ-online---decompiler-explorer&#34;&gt;Công cụ Online - &lt;a href=&#34;https://dogbolt.org/&#34;&gt;Decompiler Explorer&lt;/a&gt;&lt;/h3&gt;
+&lt;h2 id=&#34;phần-mềm-binary-ninja&#34;&gt;Phần mềm &lt;a href=&#34;https://binary.ninja/&#34;&gt;Binary Ninja&lt;/a&gt;&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Binary Ninja is an interactive decompiler, disassembler, debugger, and binary analysis platform built by reverse engineers, for reverse engineers.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h3 id=&#34;community-provided-binary-ninja-plugins-community-pluginshttpsgithubcomvector35community-plugins&#34;&gt;Community provided Binary Ninja plugins: &lt;a href=&#34;https://github.com/Vector35/community-plugins&#34;&gt;community-plugins&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id=&#34;download-freehttpsbinaryninjafree&#34;&gt;&lt;a href=&#34;https://binary.ninja/free/&#34;&gt;Download Free&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;community-provided-binary-ninja-plugins-community-plugins&#34;&gt;Community provided Binary Ninja plugins: &lt;a href=&#34;https://github.com/Vector35/community-plugins&#34;&gt;community-plugins&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;download-free&#34;&gt;&lt;a href=&#34;https://binary.ninja/free/&#34;&gt;Download Free&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Đây là một công cụ mạnh mẽ, nhưng được sử dụng &lt;strong&gt;free&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;Nếu so sánh thì phần mềm này &lt;strong&gt;ăn đứt IDA&lt;/strong&gt; về tính năng của bản free:
@@ -12444,8 +12612,8 @@ async fn main(spawner: Spawner) {
 
 &lt;/p&gt;
 &lt;p&gt;Mình có đọc kha khá tài liệu và sample code về việc này, và video youtube này có vẻ là OK nhất.&lt;/p&gt;
-&lt;h3 id=&#34;video-youtube-a-simpler-way-to-see-resultshttpswwwyoutubecomwatchvs5s2ed5t-dc&#34;&gt;Video Youtube: &lt;a href=&#34;https://www.youtube.com/watch?v=s5S2Ed5T-dc&#34;&gt;A Simpler Way to See Results&lt;/a&gt;&lt;/h3&gt;
-&lt;h2 id=&#34;result-vs-optionhttpsdhghomongithubioeasy_rustchapter_31html&#34;&gt;&lt;a href=&#34;https://dhghomon.github.io/easy_rust/Chapter_31.html&#34;&gt;Result vs Option&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;video-youtube-a-simpler-way-to-see-results&#34;&gt;Video Youtube: &lt;a href=&#34;https://www.youtube.com/watch?v=s5S2Ed5T-dc&#34;&gt;A Simpler Way to See Results&lt;/a&gt;&lt;/h3&gt;
+&lt;h2 id=&#34;result-vs-option&#34;&gt;&lt;a href=&#34;https://dhghomon.github.io/easy_rust/Chapter_31.html&#34;&gt;Result vs Option&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/IoT/Rust-lang/Result/Hinh_2.png&#34;
   alt=&#34;Hinh_2&#34;
@@ -12511,7 +12679,7 @@ async fn main(spawner: Spawner) {
     <item>
       <title>UART_Embassy</title>
       <link>https://vinhlin.github.io/posts/iot/software/uart_embassy/</link>
-      <description>&lt;h2 id=&#34;giới-thiệu-về-embassyhttpsembassydev&#34;&gt;Giới thiệu về &lt;a href=&#34;https://embassy.dev/&#34;&gt;Embassy&lt;/a&gt;&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;giới-thiệu-về-embassy&#34;&gt;Giới thiệu về &lt;a href=&#34;https://embassy.dev/&#34;&gt;Embassy&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Trong quá trình tìm hiểu về lập trình nhúng bằng Rust, thì mình vô tình biết đến framework này.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Embassy&lt;/strong&gt; một framework lập trình theo kiểu &lt;strong&gt;bất đồng bộ (async)&lt;/strong&gt;, dễ tiếp cận hơn việc setup một &lt;strong&gt;RTOS&lt;/strong&gt; cho MCU.&lt;/li&gt;
@@ -12803,7 +12971,7 @@ Code nhúng cho Linux
 4. FFUF
 5. ParamSpider
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Mấy công cụ đầu thì mình cũng có biết qua, có công cụ cuối cùng là cần note lại.&lt;/p&gt;
-&lt;h3 id=&#34;github-paramspiderhttpsgithubcomdevanshbathamparamspider&#34;&gt;&lt;a href=&#34;https://github.com/devanshbatham/ParamSpider&#34;&gt;Github ParamSpider&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;github-paramspider&#34;&gt;&lt;a href=&#34;https://github.com/devanshbatham/ParamSpider&#34;&gt;Github ParamSpider&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Dựa vào thông tin trên github công cụ giống như &lt;a href=&#34;https://web.archive.org/&#34;&gt;Wayback Machine&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Tuy nhiên nó giúp mình lọc bớt những thông tin thừa thải, chỉ như vậy thôi cũng đã giúp pentester tiết kiệm kha khá thời gian.&lt;/li&gt;
@@ -13043,7 +13211,7 @@ SendRecv: 0x0403022000
 &lt;p&gt;Người làm ra những thiết bị này đúng là &lt;strong&gt;tay chơi về phần cứng&lt;/strong&gt;, không những hiểu về tín hiệu RF, mà còn giỏi về phần cứng và cả về Firmware.&lt;/p&gt;
 &lt;p&gt;Là hacker thì đi hack người khác thì có vẻ vui đấy. Nhưng là người làm về sản phẩm phần cứng, mình mà bị hack thì đó lại là câu chuyện khác.&lt;/p&gt;
 &lt;p&gt;Mình cần rèn luyện kỹ năng, và ghi nhớ &lt;strong&gt;Hack to learn and not Learn to Hack&lt;/strong&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;một-bài-viết-khác-về-hardware-hacking---tấn-công-hidhttpswhitehatvnthreadstan-cong-hid-la-gi-minh-da-de-dang-che-tao-usb-theo-doi-danh-cap-du-lieu-nhu-the-nao18012&#34;&gt;&lt;a href=&#34;https://whitehat.vn/threads/tan-cong-hid-la-gi-minh-da-de-dang-che-tao-usb-theo-doi-danh-cap-du-lieu-nhu-the-nao.18012/&#34;&gt;Một bài viết khác về Hardware hacking - Tấn công HID&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;một-bài-viết-khác-về-hardware-hacking---tấn-công-hid&#34;&gt;&lt;a href=&#34;https://whitehat.vn/threads/tan-cong-hid-la-gi-minh-da-de-dang-che-tao-usb-theo-doi-danh-cap-du-lieu-nhu-the-nao.18012/&#34;&gt;Một bài viết khác về Hardware hacking - Tấn công HID&lt;/a&gt;&lt;/h3&gt;
 &lt;h3 id=&#34;tổng-hợp-các-tài-liệu-về-iot-hacking&#34;&gt;Tổng hợp các tài liệu về IoT Hacking:&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/feed/update/urn:li:activity:7219979516855664640/&#34;&gt;https://www.linkedin.com/feed/update/urn:li:activity:7219979516855664640/&lt;/a&gt;&lt;/li&gt;
@@ -13173,12 +13341,12 @@ SendRecv: 0x0403022000
     <item>
       <title>Tools</title>
       <link>https://vinhlin.github.io/posts/cybersecurity/tools/</link>
-      <description>&lt;h3 id=&#34;tool-git-dumperhttpsgithubcomarthaudgit-dumper&#34;&gt;&lt;a href=&#34;https://github.com/arthaud/git-dumper&#34;&gt;Tool: Git-Dumper&lt;/a&gt;&lt;/h3&gt;
+      <description>&lt;h3 id=&#34;tool-git-dumper&#34;&gt;&lt;a href=&#34;https://github.com/arthaud/git-dumper&#34;&gt;Tool: Git-Dumper&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Trong quá trình &lt;strong&gt;recon&lt;/strong&gt; một trang web, mà mình thấy có đường dẫn &lt;code&gt;.git&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Thì có thể dùng tool &lt;strong&gt;git-dumper&lt;/strong&gt; này để lấy thông tin.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;tool-web-checkhttpsweb-checkxyz&#34;&gt;&lt;a href=&#34;https://web-check.xyz/&#34;&gt;Tool Web Check&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;tool-web-check&#34;&gt;&lt;a href=&#34;https://web-check.xyz/&#34;&gt;Tool Web Check&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Đây là một công cụ có thể sử dụng online, hoặc build ở local.&lt;/li&gt;
 &lt;li&gt;Công cụ này giúp mình recon những thông số cơ bản của một trang web.&lt;/li&gt;
@@ -13186,7 +13354,7 @@ SendRecv: 0x0403022000
 &lt;/ul&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;1. https://github.com/lissy93/web-check
 2. https://web-check.xyz/about#api-documentation
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;caidohttpscaidoio&#34;&gt;&lt;a href=&#34;https://caido.io/&#34;&gt;Caido&lt;/a&gt;&lt;/h3&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;caido&#34;&gt;&lt;a href=&#34;https://caido.io/&#34;&gt;Caido&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Công cụ này có chức năng tương tự như &lt;strong&gt;Burp-Suite&lt;/strong&gt;, nhưng mà là ở &lt;strong&gt;giao diện Web&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=5Di0VVK9JiQ&amp;amp;list=WL&amp;amp;index=2&#34;&gt;Tham khảo Youtube: How to Hack Web Apps with Caido&lt;/a&gt;&lt;/li&gt;
@@ -13227,7 +13395,7 @@ https://cuckoosandbox.org/blog/207-interim-release
 &lt;li&gt;Documents: &lt;a href=&#34;https://owasp.org/www-project-nettacker/&#34;&gt;https://owasp.org/www-project-nettacker/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Note&lt;/strong&gt;: Nhìn chung mình thấy tool này khá giống với tool &lt;strong&gt;reNgine&lt;/strong&gt;, hoặc một số công cụ auto-scan khác.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;aescrypthttpswwwaescryptcom-công-cụ-mã-hóa-file&#34;&gt;&lt;a href=&#34;https://www.aescrypt.com/&#34;&gt;AESCrypt&lt;/a&gt;: Công cụ mã hóa file&lt;/h3&gt;
+&lt;h3 id=&#34;aescrypt-công-cụ-mã-hóa-file&#34;&gt;&lt;a href=&#34;https://www.aescrypt.com/&#34;&gt;AESCrypt&lt;/a&gt;: Công cụ mã hóa file&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Đây là một phần mềm &lt;strong&gt;mã nguồn mở&lt;/strong&gt;, hỗ trợ mã hóa file.&lt;/li&gt;
 &lt;li&gt;Video giới thiệu về công cụ này: &lt;a href=&#34;https://www.youtube.com/watch?v=zA4dDlslDXo&#34;&gt;AESCrypt - Mã hoá file&lt;/a&gt;&lt;/li&gt;
@@ -13283,7 +13451,7 @@ https://cuckoosandbox.org/blog/207-interim-release
     <item>
       <title>OSINT</title>
       <link>https://vinhlin.github.io/posts/cybersecurity/technical/osint/</link>
-      <description>&lt;h3 id=&#34;osint---open-source-intelligencehttpsanonyvietcomosint-la-gi-osint-duoc-su-dung-nhu-the-nao-de-truy-vet-qua-internet&#34;&gt;&lt;a href=&#34;https://anonyviet.com/osint-la-gi-osint-duoc-su-dung-nhu-the-nao-de-truy-vet-qua-internet/&#34;&gt;OSINT - Open Source Intelligence&lt;/a&gt;&lt;/h3&gt;
+      <description>&lt;h3 id=&#34;osint---open-source-intelligence&#34;&gt;&lt;a href=&#34;https://anonyviet.com/osint-la-gi-osint-duoc-su-dung-nhu-the-nao-de-truy-vet-qua-internet/&#34;&gt;OSINT - Open Source Intelligence&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Bước đầu tiên&lt;/strong&gt; trong một cuộc tấn công có chủ đích – hoặc kiểm tra thâm nhập của Red Team – là &lt;strong&gt;thu thập các thông tin&lt;/strong&gt; giá trị về mục tiêu.&lt;/li&gt;
 &lt;li&gt;Thu thập thông tin thì có 2 dạng là:&lt;/li&gt;
@@ -13299,7 +13467,7 @@ Active Reconnaissance - Thu thập thông tin chủ động
 &lt;li&gt;&lt;a href=&#34;https://www.hackers-arise.com/osint&#34;&gt;https://www.hackers-arise.com/osint&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://anonyviet.com/cac-tool-osint-truy-vet-toi-pham-tren-internet/&#34;&gt;Top 10 công cụ OSINT tốt nhất 2020&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;một-số-công-cụ-theo-osint-frameworkhttpsosintframeworkcom-mà-mình-biết&#34;&gt;Một số công cụ theo &lt;a href=&#34;https://osintframework.com/&#34;&gt;OSINT Framework&lt;/a&gt; mà mình biết:&lt;/h3&gt;
+&lt;h3 id=&#34;một-số-công-cụ-theo-osint-framework-mà-mình-biết&#34;&gt;Một số công cụ theo &lt;a href=&#34;https://osintframework.com/&#34;&gt;OSINT Framework&lt;/a&gt; mà mình biết:&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.virustotal.com/gui/home/upload&#34;&gt;VirusTotal&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.shodan.io/&#34;&gt;Shodan&lt;/a&gt;&lt;/li&gt;
@@ -13366,16 +13534,16 @@ GDT - Gas Discharge Tube
     <item>
       <title>DFLab_VNCERT</title>
       <link>https://vinhlin.github.io/posts/cybersecurity/technical/dflab_vncert/</link>
-      <description>&lt;h2 id=&#34;bài-viết---công-cụ-điều-tra-nhật-ký-sự-kiện-của-digital-forensics-lab---cục-an-toàn-thông-tin-vncertcchttpsdfirlabvndocstoolslog&#34;&gt;&lt;a href=&#34;https://df.irlab.vn/docs/tools/log/&#34;&gt;Bài viết - Công cụ điều tra nhật ký sự kiện (của Digital Forensics Lab - Cục An toàn thông tin (VNCERT/CC))&lt;/a&gt;&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;bài-viết---công-cụ-điều-tra-nhật-ký-sự-kiện-của-digital-forensics-lab---cục-an-toàn-thông-tin-vncertcc&#34;&gt;&lt;a href=&#34;https://df.irlab.vn/docs/tools/log/&#34;&gt;Bài viết - Công cụ điều tra nhật ký sự kiện (của Digital Forensics Lab - Cục An toàn thông tin (VNCERT/CC))&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Bài viết cung cấp thông tin những công cụ hữu ích và miễn phí giúp thu thập và phân tích &lt;strong&gt;log&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;Trong đó, mình thấy có những công cụ khá hay ho, có thể nghiên cứu sâu hơn và có thể tận dụng cho môi trường lab của bản thân:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;hayabusahttpsgithubcomyamato-securityhayabusa&#34;&gt;&lt;a href=&#34;https://github.com/Yamato-Security/hayabusa&#34;&gt;Hayabusa&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;hayabusa&#34;&gt;&lt;a href=&#34;https://github.com/Yamato-Security/hayabusa&#34;&gt;Hayabusa&lt;/a&gt;&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Hayabusa là một công cụ xử lý nhanh &lt;strong&gt;Windows Event Log&lt;/strong&gt;, tạo timeline và tìm kiếm mối đe dọa do Yamato Security ở Nhật Bản phát triển. Nó được viết bằng Rust và hỗ trợ xử lý đa luồng. Hayabusa có thể chạy trên các hệ thống đang hoạt động để phân tích trực tiếp, bằng cách thu thập Event Logs từ một hoặc nhiều hệ thống để phân tích ngoại tuyến hoặc bằng cách chạy công cụ Hayabusa với Velociraptor để tìm kiếm mối đe dọa và ứng phó sự cố trên quy mô lớn. Báo cáo là một timeline trên CSV để dễ dàng phân tích trong Excel, Timeline Explorer, Elastic Stack, Timesketch, v.v&amp;hellip;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h3 id=&#34;goaccesshttpsgithubcomallinurlgoaccess&#34;&gt;&lt;a href=&#34;https://github.com/allinurl/goaccess&#34;&gt;GoAccess&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;goaccess&#34;&gt;&lt;a href=&#34;https://github.com/allinurl/goaccess&#34;&gt;GoAccess&lt;/a&gt;&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;GoAccess là trình phân tích nhật ký web, có thể quan sát theo thời gian thực và trình xem tương tác mã nguồn mở chạy trong terminal trong các hệ thống.. Cung cấp số liệu thống kê HTTP nhanh chóng và có giá trị cho các quản trị viên hệ thống yêu cầu báo cáo máy chủ trực quan một cách nhanh chóng.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -13409,7 +13577,7 @@ GDT - Gas Discharge Tube
 &lt;li&gt;Check version của Firewall + CVE, tìm các cách khắc phục.&lt;/li&gt;
 &lt;li&gt;Dựa vào file &lt;strong&gt;Firewall_Checklist&lt;/strong&gt; để áp dụng cách đặt rule.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;documents-firewall_checklistdocsfirewallchecklistpdf&#34;&gt;&lt;a href=&#34;https://vinhlin.github.io/docs/FirewallChecklist.pdf&#34;&gt;Documents Firewall_Checklist&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;documents-firewall_&#34;&gt;&lt;a href=&#34;https://vinhlin.github.io/docs/FirewallChecklist.pdf&#34;&gt;Documents Firewall_Checklist&lt;/a&gt;&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/CyberSecurity/Firewall_Cheatsheet.jpg&#34;
@@ -13429,8 +13597,8 @@ GDT - Gas Discharge Tube
     <item>
       <title>NIS2</title>
       <link>https://vinhlin.github.io/posts/cybersecurity/technical/nis2/</link>
-      <description>&lt;h2 id=&#34;bài-viết-tuân-thủ-nis2-cho-các-mạng-công-nghiệphttpswhitehatvnthreadstuan-thu-nis2-cho-cac-mang-cong-nghiep-ban-da-san-sang-chua17872&#34;&gt;&lt;a href=&#34;https://whitehat.vn/threads/tuan-thu-nis2-cho-cac-mang-cong-nghiep-ban-da-san-sang-chua.17872/&#34;&gt;Bài viết: Tuân thủ NIS2 cho các mạng công nghiệp&lt;/a&gt;&lt;/h2&gt;
-&lt;h3 id=&#34;nis2-compliance-for-industries-white-paperhttpswwwciscocomcenusproductscollateralsecurityindustrial-securitynetwork-info-security-wppdf&#34;&gt;&lt;a href=&#34;https://www.cisco.com/c/en/us/products/collateral/security/industrial-security/network-info-security-wp.pdf&#34;&gt;NIS2 Compliance for Industries White Paper&lt;/a&gt;&lt;/h3&gt;
+      <description>&lt;h2 id=&#34;bài-viết-tuân-thủ-nis2-cho-các-mạng-công-nghiệp&#34;&gt;&lt;a href=&#34;https://whitehat.vn/threads/tuan-thu-nis2-cho-cac-mang-cong-nghiep-ban-da-san-sang-chua.17872/&#34;&gt;Bài viết: Tuân thủ NIS2 cho các mạng công nghiệp&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;nis2-compliance-for-industries-white-paper&#34;&gt;&lt;a href=&#34;https://www.cisco.com/c/en/us/products/collateral/security/industrial-security/network-info-security-wp.pdf&#34;&gt;NIS2 Compliance for Industries White Paper&lt;/a&gt;&lt;/h3&gt;
 &lt;h3 id=&#34;tổng-hợp-các-thông-tin-cần-biết-trong-bài-viết&#34;&gt;Tổng hợp các thông tin cần biết trong bài viết:&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -13509,7 +13677,7 @@ GDT - Gas Discharge Tube
     <item>
       <title>PiKVM</title>
       <link>https://vinhlin.github.io/posts/iot/software/pikvm/</link>
-      <description>&lt;h3 id=&#34;pikvmhttpsgithubcompikvmpikvm&#34;&gt;&lt;a href=&#34;https://github.com/pikvm/pikvm&#34;&gt;PiKVM&lt;/a&gt;&lt;/h3&gt;
+      <description>&lt;h3 id=&#34;pikvm&#34;&gt;&lt;a href=&#34;https://github.com/pikvm/pikvm&#34;&gt;PiKVM&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Theo tài liệu thì &lt;strong&gt;KVM (Keyboard-Video-Mouse)&lt;/strong&gt;, tức là &lt;strong&gt;PiKVM&lt;/strong&gt; là sử dụng raspberry để điều khiển máy tính từ xa thông qua IP.&lt;/li&gt;
 &lt;li&gt;Tức là giả sử mình có 1 PC, nếu mình muốn sử dụng PC này thì cần:
@@ -13554,7 +13722,7 @@ GDT - Gas Discharge Tube
 &lt;li&gt;&lt;a href=&#34;https://www.unihiker.com/wiki/get-started&#34;&gt;Getting Started with UNIHIKER&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.dfrobot.com/product-2691.html&#34;&gt;Dfrobot&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;sản-phẩmhttpswwwproevnunihiker-iot-python-programming-single-board-computer-with-touchscreen&#34;&gt;&lt;a href=&#34;https://www.proe.vn/unihiker-iot-python-programming-single-board-computer-with-touchscreen&#34;&gt;Sản phẩm&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;sản-phẩm&#34;&gt;&lt;a href=&#34;https://www.proe.vn/unihiker-iot-python-programming-single-board-computer-with-touchscreen&#34;&gt;Sản phẩm&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://cdn.mos.cms.futurecdn.net/KRLwXFfy86ybfwUdzxmaFm-1200-80.jpg&#34;
   alt=&#34;SP&#34;
@@ -13564,7 +13732,7 @@ GDT - Gas Discharge Tube
 /&gt;
 
 &lt;/p&gt;
-&lt;h3 id=&#34;chatbox-xiaozhi-aihttpswwwunihikercomwikik10playgroundxiaozhiai&#34;&gt;&lt;a href=&#34;https://www.unihiker.com/wiki/K10/Playground/XiaozhiAI/&#34;&gt;Chatbox Xiaozhi AI&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;chatbox-xiaozhi-ai&#34;&gt;&lt;a href=&#34;https://www.unihiker.com/wiki/K10/Playground/XiaozhiAI/&#34;&gt;Chatbox Xiaozhi AI&lt;/a&gt;&lt;/h3&gt;
 </description>
       <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/iot/hardware/unihiker/</guid>

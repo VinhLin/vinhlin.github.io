@@ -1,5 +1,5 @@
 # Chuyển trực tiếp đến thư mục chứa project của bạn
-Set-Location -Path "D:\vinhlin.github.io"
+Set-Location -Path "D:\7_vinhlin.github.io"
 
 Write-Host "--- Running Build Blog (Hugo + Pagefind) ---" -ForegroundColor Cyan
 

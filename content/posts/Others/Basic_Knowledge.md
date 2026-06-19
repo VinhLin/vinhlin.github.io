@@ -53,8 +53,12 @@ Thôi thi bây giờ, tận dụng blog để mốt cần gì, lên đây search
 
 ![Hình 9](/image/Others/Basic_Knowledge/Hinh_9.webp)
 
-### RF Connector Types
+### Các loại relay Công nghiệp
 
 ![Hình 10](/image/Others/Basic_Knowledge/Hinh_10.jpg)
+
+### Cấu tạo jack tai nghe 3.5
+
+![Hình 11](/image/Others/Basic_Knowledge/Hinh_11.jpg)
 
 

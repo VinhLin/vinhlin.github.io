@@ -19,18 +19,22 @@
     <meta name="author" content="Liste - https://vinhlin.github.io/">
     <title>CTF_Hardware | VinhLD</title>
     <meta name="description" content="Technology Blog">
-    <meta property="og:title" content="CTF_Hardware" />
-<meta property="og:description" content="Date Mô tả 26/6/2025 Khởi tạo bài viết 02/10/2025 Ghi chú và tổng hợp các bài lab Blog về CTF Hardware https://github.com/AnduinBrian/anduinbrian.github.io https://anduinbrian.github.io/ Tài liệu: https://www.autosar.org/fileadmin/standards/R22-11/CP/AUTOSAR_SWS_CRCLibrary.pdf https://github.com/jopohl/urh https://github.com/RfidResearchGroup/proxmark3 https://github.com/compujuckel/ZigbeeOtaExtractor Tài liệu khác: AUTOSAR_SWS_CRCLibrary Android Application Security CheckList v2.0 Release Candidate romhack-revving-up_the-journey-to-pwn2own-automotive-2024 Tổng hợp các bài lab về Hardware Hacking: IoTGoat Danh sách các bài lab về Hardware hacking, của bên OWASP Từ Raspberry, linux, cho đến reverse. hackgnar/ble_ctf Một repo CTF để học về Bluetooth." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://vinhlin.github.io/posts/cybersecurity/ctf_hardware/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2025-10-02T12:51:47+07:00" />
-<meta property="article:modified_time" content="2025-10-02T12:51:47+07:00" />
+    <meta property="og:url" content="https://vinhlin.github.io/posts/cybersecurity/ctf_hardware/">
+	<meta property="og:site_name" content="VinhLD">
+	<meta property="og:title" content="CTF_Hardware">
+	<meta property="og:description" content="Date Mô tả 26/6/2025 Khởi tạo bài viết 02/10/2025 Ghi chú và tổng hợp các bài lab Blog về CTF Hardware https://github.com/AnduinBrian/anduinbrian.github.io https://anduinbrian.github.io/ Tài liệu: https://www.autosar.org/fileadmin/standards/R22-11/CP/AUTOSAR_SWS_CRCLibrary.pdf https://github.com/jopohl/urh https://github.com/RfidResearchGroup/proxmark3 https://github.com/compujuckel/ZigbeeOtaExtractor Tài liệu khác: AUTOSAR_SWS_CRCLibrary Android Application Security CheckList v2.0 Release Candidate romhack-revving-up_the-journey-to-pwn2own-automotive-2024 Tổng hợp các bài lab về Hardware Hacking: IoTGoat Danh sách các bài lab về Hardware hacking, của bên OWASP Từ Raspberry, linux, cho đến reverse. hackgnar/ble_ctf Một repo CTF để học về Bluetooth. Công cụ setup là dùng ESP32, tham khảo môi trường">
+	<meta property="og:locale" content="en_us">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2025-10-02T12:51:47+07:00">
+		<meta property="article:modified_time" content="2025-10-02T12:51:47+07:00">
 
-    <meta itemprop="name" content="CTF_Hardware">
-<meta itemprop="description" content="Date Mô tả 26/6/2025 Khởi tạo bài viết 02/10/2025 Ghi chú và tổng hợp các bài lab Blog về CTF Hardware https://github.com/AnduinBrian/anduinbrian.github.io https://anduinbrian.github.io/ Tài liệu: https://www.autosar.org/fileadmin/standards/R22-11/CP/AUTOSAR_SWS_CRCLibrary.pdf https://github.com/jopohl/urh https://github.com/RfidResearchGroup/proxmark3 https://github.com/compujuckel/ZigbeeOtaExtractor Tài liệu khác: AUTOSAR_SWS_CRCLibrary Android Application Security CheckList v2.0 Release Candidate romhack-revving-up_the-journey-to-pwn2own-automotive-2024 Tổng hợp các bài lab về Hardware Hacking: IoTGoat Danh sách các bài lab về Hardware hacking, của bên OWASP Từ Raspberry, linux, cho đến reverse. hackgnar/ble_ctf Một repo CTF để học về Bluetooth."><meta itemprop="datePublished" content="2025-10-02T12:51:47+07:00" />
-<meta itemprop="dateModified" content="2025-10-02T12:51:47+07:00" />
-<meta itemprop="wordCount" content="85">
-<meta itemprop="keywords" content="" />
+    
+	<meta itemprop="name" content="CTF_Hardware">
+	<meta itemprop="description" content="Date Mô tả 26/6/2025 Khởi tạo bài viết 02/10/2025 Ghi chú và tổng hợp các bài lab Blog về CTF Hardware https://github.com/AnduinBrian/anduinbrian.github.io https://anduinbrian.github.io/ Tài liệu: https://www.autosar.org/fileadmin/standards/R22-11/CP/AUTOSAR_SWS_CRCLibrary.pdf https://github.com/jopohl/urh https://github.com/RfidResearchGroup/proxmark3 https://github.com/compujuckel/ZigbeeOtaExtractor Tài liệu khác: AUTOSAR_SWS_CRCLibrary Android Application Security CheckList v2.0 Release Candidate romhack-revving-up_the-journey-to-pwn2own-automotive-2024 Tổng hợp các bài lab về Hardware Hacking: IoTGoat Danh sách các bài lab về Hardware hacking, của bên OWASP Từ Raspberry, linux, cho đến reverse. hackgnar/ble_ctf Một repo CTF để học về Bluetooth. Công cụ setup là dùng ESP32, tham khảo môi trường">
+	<meta itemprop="datePublished" content="2025-10-02T12:51:47+07:00">
+	<meta itemprop="dateModified" content="2025-10-02T12:51:47+07:00">
+	<meta itemprop="wordCount" content="85">
     
     <link rel="canonical" href="https://vinhlin.github.io/posts/cybersecurity/ctf_hardware/">
     <link rel="icon" href="https://vinhlin.github.io//assets/favicon.ico">
@@ -54,7 +58,7 @@
       "name": "CTF_Hardware",
       "headline": "CTF_Hardware",
       "alternativeHeadline": "",
-      "description": "Date Mô tả 26\/6\/2025 Khởi tạo bài viết 02\/10\/2025 Ghi chú và tổng hợp các bài lab Blog về CTF Hardware https:\/\/github.com\/AnduinBrian\/anduinbrian.github.io https:\/\/anduinbrian.github.io\/ Tài liệu: https:\/\/www.autosar.org\/fileadmin\/standards\/R22-11\/CP\/AUTOSAR_SWS_CRCLibrary.pdf https:\/\/github.com\/jopohl\/urh https:\/\/github.com\/RfidResearchGroup\/proxmark3 https:\/\/github.com\/compujuckel\/ZigbeeOtaExtractor Tài liệu khác: AUTOSAR_SWS_CRCLibrary Android Application Security CheckList v2.0 Release Candidate romhack-revving-up_the-journey-to-pwn2own-automotive-2024 Tổng hợp các bài lab về Hardware Hacking: IoTGoat Danh sách các bài lab về Hardware hacking, của bên OWASP Từ Raspberry, linux, cho đến reverse. hackgnar\/ble_ctf Một repo CTF để học về Bluetooth.",
+      "description": "\u003ctable\u003e\n\t\u003cthead\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003cth\u003eDate\u003c\/th\u003e\n\t\t\t\t\t\u003cth\u003eMô tả\u003c\/th\u003e\n\t\t\t\u003c\/tr\u003e\n\t\u003c\/thead\u003e\n\t\u003ctbody\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e26\/6\/2025\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eKhởi tạo bài viết\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e02\/10\/2025\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eGhi chú và tổng hợp các bài lab\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\u003c\/tbody\u003e\n\u003c\/table\u003e\n\u003ch2 id=\u0022blog-về-ctf-hardware\u0022\u003eBlog về CTF Hardware\u003c\/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\u0022https:\/\/github.com\/AnduinBrian\/anduinbrian.github.io\u0022\u003ehttps:\/\/github.com\/AnduinBrian\/anduinbrian.github.io\u003c\/a\u003e\u003c\/li\u003e\n\u003cli\u003e\u003ca href=\u0022https:\/\/anduinbrian.github.io\/\u0022\u003ehttps:\/\/anduinbrian.github.io\/\u003c\/a\u003e\u003c\/li\u003e\n\u003cli\u003eTài liệu:\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cpre tabindex=\u00220\u0022\u003e\u003ccode\u003ehttps:\/\/www.autosar.org\/fileadmin\/standards\/R22-11\/CP\/AUTOSAR_SWS_CRCLibrary.pdf\nhttps:\/\/github.com\/jopohl\/urh\nhttps:\/\/github.com\/RfidResearchGroup\/proxmark3\nhttps:\/\/github.com\/compujuckel\/ZigbeeOtaExtractor\n\u003c\/code\u003e\u003c\/pre\u003e\u003ch3 id=\u0022tài-liệu-khác\u0022\u003eTài liệu khác:\u003c\/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\u0022\/docs\/ctf_hardware\/AUTOSAR_SWS_CRCLibrary.pdf\u0022\u003eAUTOSAR_SWS_CRCLibrary\u003c\/a\u003e\u003c\/li\u003e\n\u003cli\u003e\u003ca href=\u0022\/docs\/ctf_hardware\/Android_Application_Security_CheckList_v2.0_Release_Candidate.xlsx\u0022\u003eAndroid Application Security CheckList v2.0 Release Candidate\u003c\/a\u003e\u003c\/li\u003e\n\u003cli\u003e\u003ca href=\u0022\/docs\/ctf_hardware\/romhack-revving-up_the-journey-to-pwn2own-automotive-2024.pdf\u0022\u003eromhack-revving-up_the-journey-to-pwn2own-automotive-2024\u003c\/a\u003e\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003chr\u003e\n\u003ch2 id=\u0022tổng-hợp-các-bài-lab-về-hardware-hacking\u0022\u003eTổng hợp các bài lab về Hardware Hacking:\u003c\/h2\u003e\n\u003ch3 id=\u0022iotgoat\u0022\u003e\u003ca href=\u0022https:\/\/github.com\/OWASP\/IoTGoat\u0022\u003eIoTGoat\u003c\/a\u003e\u003c\/h3\u003e\n\u003cul\u003e\n\u003cli\u003eDanh sách các bài lab về Hardware hacking, của bên \u003cstrong\u003eOWASP\u003c\/strong\u003e\u003c\/li\u003e\n\u003cli\u003eTừ Raspberry, linux, cho đến reverse.\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003ch3 id=\u0022hackgnarble_\u0022\u003e\u003ca href=\u0022https:\/\/github.com\/hackgnar\/ble_ctf\u0022\u003ehackgnar\/ble_ctf\u003c\/a\u003e\u003c\/h3\u003e\n\u003cul\u003e\n\u003cli\u003eMột repo \u003cstrong\u003eCTF để học về Bluetooth\u003c\/strong\u003e.\u003c\/li\u003e\n\u003cli\u003eCông cụ setup là dùng ESP32, \u003ca href=\u0022https:\/\/github.com\/hackgnar\/ble_ctf\/blob\/master\/docs\/setup.md\u0022\u003etham khảo môi trường\u003c\/a\u003e\u003c\/li\u003e\n\u003c\/ul\u003e",
       "inLanguage": "en-us",
       "isFamilyFriendly": "true",
       "mainEntityOfPage": {
@@ -140,22 +144,22 @@
 <section>
   <h2 class="post">CTF_Hardware</h2>
   <table>
-<thead>
-<tr>
-<th>Date</th>
-<th>Mô tả</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>26/6/2025</td>
-<td>Khởi tạo bài viết</td>
-</tr>
-<tr>
-<td>02/10/2025</td>
-<td>Ghi chú và tổng hợp các bài lab</td>
-</tr>
-</tbody>
+	<thead>
+			<tr>
+					<th>Date</th>
+					<th>Mô tả</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>26/6/2025</td>
+					<td>Khởi tạo bài viết</td>
+			</tr>
+			<tr>
+					<td>02/10/2025</td>
+					<td>Ghi chú và tổng hợp các bài lab</td>
+			</tr>
+	</tbody>
 </table>
 <h2 id="blog-về-ctf-hardware">Blog về CTF Hardware</h2>
 <ul>
@@ -175,12 +179,12 @@ https://github.com/compujuckel/ZigbeeOtaExtractor
 </ul>
 <hr>
 <h2 id="tổng-hợp-các-bài-lab-về-hardware-hacking">Tổng hợp các bài lab về Hardware Hacking:</h2>
-<h3 id="iotgoathttpsgithubcomowaspiotgoat"><a href="https://github.com/OWASP/IoTGoat">IoTGoat</a></h3>
+<h3 id="iotgoat"><a href="https://github.com/OWASP/IoTGoat">IoTGoat</a></h3>
 <ul>
 <li>Danh sách các bài lab về Hardware hacking, của bên <strong>OWASP</strong></li>
 <li>Từ Raspberry, linux, cho đến reverse.</li>
 </ul>
-<h3 id="hackgnarble_ctfhttpsgithubcomhackgnarble_ctf"><a href="https://github.com/hackgnar/ble_ctf">hackgnar/ble_ctf</a></h3>
+<h3 id="hackgnarble_"><a href="https://github.com/hackgnar/ble_ctf">hackgnar/ble_ctf</a></h3>
 <ul>
 <li>Một repo <strong>CTF để học về Bluetooth</strong>.</li>
 <li>Công cụ setup là dùng ESP32, <a href="https://github.com/hackgnar/ble_ctf/blob/master/docs/setup.md">tham khảo môi trường</a></li>

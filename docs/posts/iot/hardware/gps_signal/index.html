@@ -19,22 +19,26 @@
     <meta name="author" content="Liste - https://vinhlin.github.io/">
     <title>GPS_Signal | VinhLD</title>
     <meta name="description" content="Technology Blog">
-    <meta property="og:title" content="GPS_Signal" />
-<meta property="og:description" content="Khi làm nhiều về thiết bị tracker hoặc camera hành trình có cảnh báo giao thông, thì yếu tố rất quan trọng đó chính là tín hiệu GPS
+    <meta property="og:url" content="https://vinhlin.github.io/posts/iot/hardware/gps_signal/">
+	<meta property="og:site_name" content="VinhLD">
+	<meta property="og:title" content="GPS_Signal">
+	<meta property="og:description" content="Khi làm nhiều về thiết bị tracker hoặc camera hành trình có cảnh báo giao thông, thì yếu tố rất quan trọng đó chính là tín hiệu GPS
 Với kiến thức của bản thân và trao đổi thêm với AI, thì có các yếu tố sau ảnh hưởng đến GPS. (Tham khảo thêm video Fixing a Poor GPS Signal: Step-by-Step Tutorial)
-1. Phim cách nhiệt (Window Tint) Đây là một trong những nguyên nhân phổ biến nhất gây nhiễu sóng GPS." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://vinhlin.github.io/posts/iot/hardware/gps_signal/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2026-01-06T09:13:45+07:00" />
-<meta property="article:modified_time" content="2026-01-06T09:13:45+07:00" />
+1. Phim cách nhiệt (Window Tint) Đây là một trong những nguyên nhân phổ biến nhất gây nhiễu sóng GPS. Phim chứa kim loại: Nhiều loại phim cách nhiệt có lớp phủ kim loại (metallic) để phản xạ nhiệt. Tuy nhiên, lớp kim loại này cũng vô tình trở thành một “chiếc lồng” ngăn cản sóng vệ tinh truyền tới đầu thu GPS của camera. Cách kiểm tra: Nếu bạn hạ kính xe xuống mà GPS bắt tín hiệu nhanh hơn, khả năng cao phim cách nhiệt là thủ phạm. 2. Môi trường và Địa hình (Urban Canyons &amp; Obstacles) Khu vực đô thị dày đặc: Các tòa nhà cao tầng có thể che khuất hoặc làm phản xạ tín hiệu (hiện tượng đa đường - multipath), khiến camera nhận tín hiệu sai lệch. Vật cản tự nhiên: Tầm nhìn bị hạn chế khi xe di chuyển trong hầm, dưới cầu vượt, trong hẻm sâu, rừng cây rậm rạp hoặc các cung đường núi dốc. Thời tiết: Mưa bão lớn, mây dày đặc hoặc các hiện tượng cực đoan cũng làm suy giảm cường độ tín hiệu. 3. Nhiễu điện từ (Electromagnetic Interference) Các thiết bị điện tử khác trên xe có thể phát ra sóng làm nhiễu đầu thu GPS: Thiết bị phát sóng: Điện thoại di động, bộ phát Wi-Fi, màn hình Android không đạt chuẩn, hoặc thậm chí là một số bộ sạc tẩu thuốc kém chất lượng có thể gây nhiễu điện từ xung quanh camera.">
+	<meta property="og:locale" content="en_us">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2026-01-06T09:13:45+07:00">
+		<meta property="article:modified_time" content="2026-01-06T09:13:45+07:00">
 
-    <meta itemprop="name" content="GPS_Signal">
-<meta itemprop="description" content="Khi làm nhiều về thiết bị tracker hoặc camera hành trình có cảnh báo giao thông, thì yếu tố rất quan trọng đó chính là tín hiệu GPS
+    
+	<meta itemprop="name" content="GPS_Signal">
+	<meta itemprop="description" content="Khi làm nhiều về thiết bị tracker hoặc camera hành trình có cảnh báo giao thông, thì yếu tố rất quan trọng đó chính là tín hiệu GPS
 Với kiến thức của bản thân và trao đổi thêm với AI, thì có các yếu tố sau ảnh hưởng đến GPS. (Tham khảo thêm video Fixing a Poor GPS Signal: Step-by-Step Tutorial)
-1. Phim cách nhiệt (Window Tint) Đây là một trong những nguyên nhân phổ biến nhất gây nhiễu sóng GPS."><meta itemprop="datePublished" content="2026-01-06T09:13:45+07:00" />
-<meta itemprop="dateModified" content="2026-01-06T09:13:45+07:00" />
-<meta itemprop="wordCount" content="783">
-<meta itemprop="keywords" content="" />
+1. Phim cách nhiệt (Window Tint) Đây là một trong những nguyên nhân phổ biến nhất gây nhiễu sóng GPS. Phim chứa kim loại: Nhiều loại phim cách nhiệt có lớp phủ kim loại (metallic) để phản xạ nhiệt. Tuy nhiên, lớp kim loại này cũng vô tình trở thành một “chiếc lồng” ngăn cản sóng vệ tinh truyền tới đầu thu GPS của camera. Cách kiểm tra: Nếu bạn hạ kính xe xuống mà GPS bắt tín hiệu nhanh hơn, khả năng cao phim cách nhiệt là thủ phạm. 2. Môi trường và Địa hình (Urban Canyons &amp; Obstacles) Khu vực đô thị dày đặc: Các tòa nhà cao tầng có thể che khuất hoặc làm phản xạ tín hiệu (hiện tượng đa đường - multipath), khiến camera nhận tín hiệu sai lệch. Vật cản tự nhiên: Tầm nhìn bị hạn chế khi xe di chuyển trong hầm, dưới cầu vượt, trong hẻm sâu, rừng cây rậm rạp hoặc các cung đường núi dốc. Thời tiết: Mưa bão lớn, mây dày đặc hoặc các hiện tượng cực đoan cũng làm suy giảm cường độ tín hiệu. 3. Nhiễu điện từ (Electromagnetic Interference) Các thiết bị điện tử khác trên xe có thể phát ra sóng làm nhiễu đầu thu GPS: Thiết bị phát sóng: Điện thoại di động, bộ phát Wi-Fi, màn hình Android không đạt chuẩn, hoặc thậm chí là một số bộ sạc tẩu thuốc kém chất lượng có thể gây nhiễu điện từ xung quanh camera.">
+	<meta itemprop="datePublished" content="2026-01-06T09:13:45+07:00">
+	<meta itemprop="dateModified" content="2026-01-06T09:13:45+07:00">
+	<meta itemprop="wordCount" content="783">
     
     <link rel="canonical" href="https://vinhlin.github.io/posts/iot/hardware/gps_signal/">
     <link rel="icon" href="https://vinhlin.github.io//assets/favicon.ico">
@@ -58,7 +62,7 @@ Với kiến thức của bản thân và trao đổi thêm với AI, thì có c
       "name": "GPS_Signal",
       "headline": "GPS_Signal",
       "alternativeHeadline": "",
-      "description": "Khi làm nhiều về thiết bị tracker hoặc camera hành trình có cảnh báo giao thông, thì yếu tố rất quan trọng đó chính là tín hiệu GPS\nVới kiến thức của bản thân và trao đổi thêm với AI, thì có các yếu tố sau ảnh hưởng đến GPS. (Tham khảo thêm video Fixing a Poor GPS Signal: Step-by-Step Tutorial)\n1. Phim cách nhiệt (Window Tint) Đây là một trong những nguyên nhân phổ biến nhất gây nhiễu sóng GPS.",
+      "description": "\u003cp\u003eKhi làm nhiều về thiết bị tracker hoặc camera hành trình có cảnh báo giao thông, thì yếu tố rất quan trọng đó chính là \u003cstrong\u003etín hiệu GPS\u003c\/strong\u003e\u003c\/p\u003e\n\u003cp\u003eVới kiến thức của bản thân và trao đổi thêm với AI, thì có các yếu tố sau ảnh hưởng đến GPS. \u003cem\u003e(Tham khảo thêm video \u003ca href=\u0022https:\/\/www.youtube.com\/watch?v=Q_mP5WZdjSQ\u0022\u003eFixing a Poor GPS Signal: Step-by-Step Tutorial\u003c\/a\u003e)\u003c\/em\u003e\u003c\/p\u003e\n\u003ch3 id=\u00221-phim-cách-nhiệt-window-tint\u0022\u003e1. Phim cách nhiệt (Window Tint)\u003c\/h3\u003e\n\u003cul\u003e\n\u003cli\u003eĐây là một trong những \u003cstrong\u003enguyên nhân phổ biến nhất\u003c\/strong\u003e gây nhiễu sóng GPS.\u003c\/li\u003e\n\u003cli\u003e\u003cstrong\u003ePhim chứa kim loại:\u003c\/strong\u003e Nhiều loại phim cách nhiệt có \u003cstrong\u003elớp phủ kim loại \u003cem\u003e(metallic)\u003c\/em\u003e\u003c\/strong\u003e để phản xạ nhiệt. Tuy nhiên, lớp kim loại này cũng vô tình trở thành một \u003cstrong\u003e\u0026ldquo;chiếc lồng\u0026rdquo;\u003c\/strong\u003e ngăn cản sóng vệ tinh truyền tới đầu thu GPS của camera.\u003c\/li\u003e\n\u003cli\u003e\u003cstrong\u003eCách kiểm tra:\u003c\/strong\u003e Nếu bạn hạ kính xe xuống mà GPS bắt tín hiệu nhanh hơn, khả năng cao phim cách nhiệt là thủ phạm.\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003ch3 id=\u00222-môi-trường-và-địa-hình-urban-canyons--obstacles\u0022\u003e2. Môi trường và Địa hình (Urban Canyons \u0026amp; Obstacles)\u003c\/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eKhu vực đô thị dày đặc:\u003c\/strong\u003e Các \u003cstrong\u003etòa nhà cao tầng\u003c\/strong\u003e có thể che khuất hoặc làm phản xạ tín hiệu (hiện tượng đa đường - multipath), khiến camera nhận tín hiệu sai lệch.\u003c\/li\u003e\n\u003cli\u003e\u003cstrong\u003eVật cản tự nhiên:\u003c\/strong\u003e Tầm nhìn bị hạn chế khi xe di chuyển \u003cstrong\u003etrong hầm, dưới cầu vượt, trong hẻm sâu, rừng cây rậm rạp hoặc các cung đường núi dốc\u003c\/strong\u003e.\u003c\/li\u003e\n\u003cli\u003e\u003cstrong\u003eThời tiết:\u003c\/strong\u003e Mưa bão lớn, mây dày đặc hoặc các hiện tượng cực đoan cũng làm suy giảm cường độ tín hiệu.\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003ch3 id=\u00223-nhiễu-điện-từ-electromagnetic-interference\u0022\u003e3. Nhiễu điện từ (Electromagnetic Interference)\u003c\/h3\u003e\n\u003cul\u003e\n\u003cli\u003eCác thiết bị điện tử khác trên xe có thể phát ra sóng làm nhiễu đầu thu GPS:\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003cem\u003e\u003cstrong\u003eThiết bị phát sóng:\u003c\/strong\u003e Điện thoại di động, bộ phát Wi-Fi, màn hình Android không đạt chuẩn, hoặc thậm chí là một số bộ sạc tẩu thuốc kém chất lượng có thể gây nhiễu điện từ xung quanh camera.\u003c\/em\u003e \u003c\/br\u003e\u003c\/p\u003e",
       "inLanguage": "en-us",
       "isFamilyFriendly": "true",
       "mainEntityOfPage": {
@@ -239,7 +243,7 @@ Với kiến thức của bản thân và trao đổi thêm với AI, thì có c
 />
 
 </p>
-<h2 id="công-nghệ-agpshttpsfptshopcomvntin-tucdanh-giacong-nghe-dinh-vi-a-gps-177212"><a href="https://fptshop.com.vn/tin-tuc/danh-gia/cong-nghe-dinh-vi-a-gps-177212">Công nghệ AGPS</a></h2>
+<h2 id="công-nghệ-agps"><a href="https://fptshop.com.vn/tin-tuc/danh-gia/cong-nghe-dinh-vi-a-gps-177212">Công nghệ AGPS</a></h2>
 <ul>
 <li>Thông thường với để cải thiện giúp bắt GPS tốt hơn, thì mình sẽ dùng đến <strong>AGPS</strong>.</li>
 </ul>

@@ -1,8 +1,15 @@
 +++
 title = 'LLM_Local'
-date = 2026-04-15T21:30:48+07:00
+date = 2026-06-17T11:30:48+07:00
 draft = true
 +++
+
+## Changelog
+
+STT	|	Date		|	Nội dung			|
+--------|-----------------------|---------------------------------------|
+1	|	15/4/2026	| Khởi tạo bài viết về **LLM Local**	|
+2	|	17/6/2026	| Cập nhật bài **Pi Helmet Detection**	|
 
 Bữa suy nghĩ nếu mình setup một **Local AI** để sử dụng cho OpenClaw thì sẽ như thế nào.
 
@@ -33,4 +40,19 @@ Thế là dành cả ngày Chủ nhật sẽ ngâm cứu phương pháp cài đ�
 
 - Mới nhắn 1 câu thôi, mà đã đơ luôn rồi.
 - Có vẻ số lượng input token của Openclaw quá lớn, khiến llamafile bị đơ luôn. =]]
+
+----------------------------------------------------
+## Cập nhật `17/6/2026` - Pi Helmet Detection
+- Nay vô tình đọc được bài viết về cách sử dụng Raspberry để detect hình ảnh.
+- Cái này thì cũng không có gì mới, cái làm mình thấy thú vị là:
+> *Một trang web public các tính năng AI, bằng cách dùng API* </br>
+> *Mình cũng tự đặt câu hỏi, nếu như mình dùng **AI API local** thì có OK hơn không* </br>
+
+### Bài viết [How to Build Helmet Detection with Raspberry Pi Using CircuitDigest Cloud](https://circuitdigest.com/microcontroller-projects/raspberry-pi-helmet-detection-using-circuitdigest-cloud)
+- [Trang web](https://www.circuitdigest.cloud/helmet-detection)
+- Mô hình:
+
+![Hình 5](/image/Others/LLM_Local/Hinh_5.png)
+
+
 

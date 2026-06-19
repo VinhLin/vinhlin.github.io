@@ -2,7 +2,7 @@
 
 ### Mở Powershell
 ```
-cd D:\vinhlin.github.io
+cd D:\7_vinhlin.github.io
 ```
 - Tạo một bài viết:
 ```
@@ -195,6 +195,7 @@ hugo new posts/CyberSecurity/Technical/CLI_Fortigate.md
 hugo new posts/CyberSecurity/Technical/Win_CMD_for_CyberSecurity.md
 hugo new posts/CyberSecurity/Technical/Android_Hacking_Tools.md
 hugo new posts/CyberSecurity/Technical/CCTV_Hacking.md
+hugo new posts/CyberSecurity/Technical/IoT_Security_Tools.md
 ```
 
 ### System-DevOps

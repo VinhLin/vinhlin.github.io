@@ -19,20 +19,24 @@
     <meta name="author" content="Liste - https://vinhlin.github.io/">
     <title>Rust_for_ARM | VinhLD</title>
     <meta name="description" content="Technology Blog">
-    <meta property="og:title" content="Rust_for_ARM" />
-<meta property="og:description" content="Ngày Mô tả 10/10/2024 Khởi tạo bài viết, ghi chú về Rust for ARM 12/10/2024 Ghi chú thêm một số tài liệu về OpenWRT Hiện tại đã dùng Rust để code Bất đồng bộ.
-Với MCU thì dùng framework embassy Với Linux (hoặc Windows) thì dùng tokio Với framework tokio thì mình đã có một project nhỏ (tên là Tracking_Report), mục tiêu là build app để lấy thông tin trên NATS Server và gửi data lên ThingsBoard." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://vinhlin.github.io/posts/iot/software/rust_for_arm/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-10-10T17:30:29+07:00" />
-<meta property="article:modified_time" content="2024-10-10T17:30:29+07:00" />
+    <meta property="og:url" content="https://vinhlin.github.io/posts/iot/software/rust_for_arm/">
+	<meta property="og:site_name" content="VinhLD">
+	<meta property="og:title" content="Rust_for_ARM">
+	<meta property="og:description" content="Ngày Mô tả 10/10/2024 Khởi tạo bài viết, ghi chú về Rust for ARM 12/10/2024 Ghi chú thêm một số tài liệu về OpenWRT Hiện tại đã dùng Rust để code Bất đồng bộ.
+Với MCU thì dùng framework embassy Với Linux (hoặc Windows) thì dùng tokio Với framework tokio thì mình đã có một project nhỏ (tên là Tracking_Report), mục tiêu là build app để lấy thông tin trên NATS Server và gửi data lên ThingsBoard.">
+	<meta property="og:locale" content="en_us">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2024-10-10T17:30:29+07:00">
+		<meta property="article:modified_time" content="2024-10-10T17:30:29+07:00">
 
-    <meta itemprop="name" content="Rust_for_ARM">
-<meta itemprop="description" content="Ngày Mô tả 10/10/2024 Khởi tạo bài viết, ghi chú về Rust for ARM 12/10/2024 Ghi chú thêm một số tài liệu về OpenWRT Hiện tại đã dùng Rust để code Bất đồng bộ.
-Với MCU thì dùng framework embassy Với Linux (hoặc Windows) thì dùng tokio Với framework tokio thì mình đã có một project nhỏ (tên là Tracking_Report), mục tiêu là build app để lấy thông tin trên NATS Server và gửi data lên ThingsBoard."><meta itemprop="datePublished" content="2024-10-10T17:30:29+07:00" />
-<meta itemprop="dateModified" content="2024-10-10T17:30:29+07:00" />
-<meta itemprop="wordCount" content="449">
-<meta itemprop="keywords" content="" />
+    
+	<meta itemprop="name" content="Rust_for_ARM">
+	<meta itemprop="description" content="Ngày Mô tả 10/10/2024 Khởi tạo bài viết, ghi chú về Rust for ARM 12/10/2024 Ghi chú thêm một số tài liệu về OpenWRT Hiện tại đã dùng Rust để code Bất đồng bộ.
+Với MCU thì dùng framework embassy Với Linux (hoặc Windows) thì dùng tokio Với framework tokio thì mình đã có một project nhỏ (tên là Tracking_Report), mục tiêu là build app để lấy thông tin trên NATS Server và gửi data lên ThingsBoard.">
+	<meta itemprop="datePublished" content="2024-10-10T17:30:29+07:00">
+	<meta itemprop="dateModified" content="2024-10-10T17:30:29+07:00">
+	<meta itemprop="wordCount" content="449">
     
     <link rel="canonical" href="https://vinhlin.github.io/posts/iot/software/rust_for_arm/">
     <link rel="icon" href="https://vinhlin.github.io//assets/favicon.ico">
@@ -56,7 +60,7 @@ Với MCU thì dùng framework embassy Với Linux (hoặc Windows) thì dùng t
       "name": "Rust_for_ARM",
       "headline": "Rust_for_ARM",
       "alternativeHeadline": "",
-      "description": "Ngày Mô tả 10\/10\/2024 Khởi tạo bài viết, ghi chú về Rust for ARM 12\/10\/2024 Ghi chú thêm một số tài liệu về OpenWRT Hiện tại đã dùng Rust để code Bất đồng bộ.\nVới MCU thì dùng framework embassy Với Linux (hoặc Windows) thì dùng tokio Với framework tokio thì mình đã có một project nhỏ (tên là Tracking_Report), mục tiêu là build app để lấy thông tin trên NATS Server và gửi data lên ThingsBoard.",
+      "description": "\u003ctable\u003e\n\t\u003cthead\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003cth\u003eNgày\u003c\/th\u003e\n\t\t\t\t\t\u003cth\u003eMô tả\u003c\/th\u003e\n\t\t\t\u003c\/tr\u003e\n\t\u003c\/thead\u003e\n\t\u003ctbody\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e10\/10\/2024\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eKhởi tạo bài viết, ghi chú về Rust for ARM\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e12\/10\/2024\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eGhi chú thêm một số tài liệu về OpenWRT\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\u003c\/tbody\u003e\n\u003c\/table\u003e\n\u003chr\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eHiện tại đã dùng \u003cstrong\u003eRust\u003c\/strong\u003e để code \u003cstrong\u003eBất đồng bộ\u003c\/strong\u003e.\u003c\/p\u003e\n\u003cul\u003e\n\u003cli\u003eVới MCU thì dùng framework \u003ca href=\u0022https:\/\/github.com\/embassy-rs\/embassy\u0022\u003eembassy\u003c\/a\u003e\u003c\/li\u003e\n\u003cli\u003eVới Linux (hoặc Windows) thì dùng \u003ca href=\u0022https:\/\/github.com\/tokio-rs\/tokio\u0022\u003etokio\u003c\/a\u003e\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003eVới framework tokio thì mình đã có một project nhỏ \u003cem\u003e(tên là Tracking_Report)\u003c\/em\u003e, mục tiêu là build app để lấy thông tin trên \u003cstrong\u003eNATS Server\u003c\/strong\u003e và gửi data lên \u003cstrong\u003eThingsBoard\u003c\/strong\u003e.\u003c\/p\u003e",
       "inLanguage": "en-us",
       "isFamilyFriendly": "true",
       "mainEntityOfPage": {
@@ -142,22 +146,22 @@ Với MCU thì dùng framework embassy Với Linux (hoặc Windows) thì dùng t
 <section>
   <h2 class="post">Rust_for_ARM</h2>
   <table>
-<thead>
-<tr>
-<th>Ngày</th>
-<th>Mô tả</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>10/10/2024</td>
-<td>Khởi tạo bài viết, ghi chú về Rust for ARM</td>
-</tr>
-<tr>
-<td>12/10/2024</td>
-<td>Ghi chú thêm một số tài liệu về OpenWRT</td>
-</tr>
-</tbody>
+	<thead>
+			<tr>
+					<th>Ngày</th>
+					<th>Mô tả</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>10/10/2024</td>
+					<td>Khởi tạo bài viết, ghi chú về Rust for ARM</td>
+			</tr>
+			<tr>
+					<td>12/10/2024</td>
+					<td>Ghi chú thêm một số tài liệu về OpenWRT</td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 <ul>
@@ -218,20 +222,20 @@ $ rustup target add arm-unknown-linux-gnueabihf
 <li>Dựa trên <a href="https://doc.rust-lang.org/beta/rustc/platform-support.html">platform support</a> có thông tin:</li>
 </ul>
 <table>
-<thead>
-<tr>
-<th>target</th>
-<th>std</th>
-<th>Note</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>armv7-unknown-linux-gnueabi</td>
-<td>✓</td>
-<td>Armv7-A Linux (kernel 4.15, glibc 2.27)</td>
-</tr>
-</tbody>
+	<thead>
+			<tr>
+					<th>target</th>
+					<th>std</th>
+					<th>Note</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>armv7-unknown-linux-gnueabi</td>
+					<td>✓</td>
+					<td>Armv7-A Linux (kernel 4.15, glibc 2.27)</td>
+			</tr>
+	</tbody>
 </table>
 <h3 id="setup-trên-máy-ubuntu">Setup trên máy Ubuntu</h3>
 <ul>
@@ -280,7 +284,7 @@ https://harmonicss.co.uk/rust/rust-on-a-raspberry-pi-part-1/
 </code></pre><ul>
 <li>Đây là một tutorial làm quen với việc <strong>viết OS cho Raspberry</strong>, tên project: <a href="https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials">rust-raspberrypi-OS-tutorials</a></li>
 </ul>
-<h3 id="ghi-chú-khác-về-armv7-unknown-linux-uclibceabihttpsdocrust-langorgrustcplatform-supportarmv7-unknown-linux-uclibceabihtml">Ghi chú khác về <a href="https://doc.rust-lang.org/rustc/platform-support/armv7-unknown-linux-uclibceabi.html">armv7-unknown-linux-uclibceabi</a></h3>
+<h3 id="ghi-chú-khác-về-armv7-unknown-linux-uclibceabi">Ghi chú khác về <a href="https://doc.rust-lang.org/rustc/platform-support/armv7-unknown-linux-uclibceabi.html">armv7-unknown-linux-uclibceabi</a></h3>
 <blockquote>
 <p>This target supports Armv7-A softfloat CPUs and uses the uclibc-ng standard library. This is a common configuration on many consumer routers (e.g., Netgear R7000, Asus RT-AC68U). </br></p>
 </blockquote>

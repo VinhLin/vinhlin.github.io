@@ -19,22 +19,26 @@
     <meta name="author" content="Liste - https://vinhlin.github.io/">
     <title>Test_TF Card | VinhLD</title>
     <meta name="description" content="Technology Blog">
-    <meta property="og:title" content="Test_TF Card" />
-<meta property="og:description" content="Changelog Date Mô tả 17/11/25 Khởi tạo bài viết và ghi chú cách test thẻ nhớ 18/11/25 Bổ sung cách kiểm tra tốc độ đọc/ghi thực tế của thẻ 20/11/25 Ghi chú thêm về command chkdsk trên Windows Xem thêm bài viết về Thẻ nhớ
+    <meta property="og:url" content="https://vinhlin.github.io/posts/iot/hardware/test_tf-card/">
+	<meta property="og:site_name" content="VinhLD">
+	<meta property="og:title" content="Test_TF Card">
+	<meta property="og:description" content="Changelog Date Mô tả 17/11/25 Khởi tạo bài viết và ghi chú cách test thẻ nhớ 18/11/25 Bổ sung cách kiểm tra tốc độ đọc/ghi thực tế của thẻ 20/11/25 Ghi chú thêm về command chkdsk trên Windows Xem thêm bài viết về Thẻ nhớ
 Còn trong bài này thì mình sẽ ghi chú lại một số cách để test thẻ nhớ.
-Để biết một thẻ nhớ có bền hay không thì chỉ có thời gian mới có câu trả lời." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://vinhlin.github.io/posts/iot/hardware/test_tf-card/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2025-11-20T08:44:23+07:00" />
-<meta property="article:modified_time" content="2025-11-20T08:44:23+07:00" />
+Để biết một thẻ nhớ có bền hay không thì chỉ có thời gian mới có câu trả lời.">
+	<meta property="og:locale" content="en_us">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2025-11-20T08:44:23+07:00">
+		<meta property="article:modified_time" content="2025-11-20T08:44:23+07:00">
 
-    <meta itemprop="name" content="Test_TF Card">
-<meta itemprop="description" content="Changelog Date Mô tả 17/11/25 Khởi tạo bài viết và ghi chú cách test thẻ nhớ 18/11/25 Bổ sung cách kiểm tra tốc độ đọc/ghi thực tế của thẻ 20/11/25 Ghi chú thêm về command chkdsk trên Windows Xem thêm bài viết về Thẻ nhớ
+    
+	<meta itemprop="name" content="Test_TF Card">
+	<meta itemprop="description" content="Changelog Date Mô tả 17/11/25 Khởi tạo bài viết và ghi chú cách test thẻ nhớ 18/11/25 Bổ sung cách kiểm tra tốc độ đọc/ghi thực tế của thẻ 20/11/25 Ghi chú thêm về command chkdsk trên Windows Xem thêm bài viết về Thẻ nhớ
 Còn trong bài này thì mình sẽ ghi chú lại một số cách để test thẻ nhớ.
-Để biết một thẻ nhớ có bền hay không thì chỉ có thời gian mới có câu trả lời."><meta itemprop="datePublished" content="2025-11-20T08:44:23+07:00" />
-<meta itemprop="dateModified" content="2025-11-20T08:44:23+07:00" />
-<meta itemprop="wordCount" content="871">
-<meta itemprop="keywords" content="" />
+Để biết một thẻ nhớ có bền hay không thì chỉ có thời gian mới có câu trả lời.">
+	<meta itemprop="datePublished" content="2025-11-20T08:44:23+07:00">
+	<meta itemprop="dateModified" content="2025-11-20T08:44:23+07:00">
+	<meta itemprop="wordCount" content="871">
     
     <link rel="canonical" href="https://vinhlin.github.io/posts/iot/hardware/test_tf-card/">
     <link rel="icon" href="https://vinhlin.github.io//assets/favicon.ico">
@@ -58,7 +62,7 @@ Còn trong bài này thì mình sẽ ghi chú lại một số cách để test 
       "name": "Test_TF Card",
       "headline": "Test_TF Card",
       "alternativeHeadline": "",
-      "description": "Changelog Date Mô tả 17\/11\/25 Khởi tạo bài viết và ghi chú cách test thẻ nhớ 18\/11\/25 Bổ sung cách kiểm tra tốc độ đọc\/ghi thực tế của thẻ 20\/11\/25 Ghi chú thêm về command chkdsk trên Windows Xem thêm bài viết về Thẻ nhớ\nCòn trong bài này thì mình sẽ ghi chú lại một số cách để test thẻ nhớ.\nĐể biết một thẻ nhớ có bền hay không thì chỉ có thời gian mới có câu trả lời.",
+      "description": "\u003ch2 id=\u0022changelog\u0022\u003eChangelog\u003c\/h2\u003e\n\u003ctable\u003e\n\t\u003cthead\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003cth\u003eDate\u003c\/th\u003e\n\t\t\t\t\t\u003cth\u003eMô tả\u003c\/th\u003e\n\t\t\t\u003c\/tr\u003e\n\t\u003c\/thead\u003e\n\t\u003ctbody\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e17\/11\/25\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eKhởi tạo bài viết và ghi chú cách test thẻ nhớ\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e18\/11\/25\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eBổ sung cách \u003cstrong\u003ekiểm tra tốc độ đọc\/ghi thực tế của thẻ\u003c\/strong\u003e\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e20\/11\/25\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eGhi chú thêm về command \u003ccode\u003echkdsk\u003c\/code\u003e trên Windows\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\u003c\/tbody\u003e\n\u003c\/table\u003e\n\u003chr\u003e\n\u003cp\u003eXem thêm bài viết về \u003ca href=\u0022https:\/\/blog.vinhld-homelab.io.vn\/posts\/iot\/hardware\/the_nho\/\u0022\u003eThẻ nhớ\u003c\/a\u003e\u003c\/p\u003e\n\u003cp\u003eCòn trong bài này thì mình sẽ ghi chú lại một số cách để test thẻ nhớ.\u003c\/p\u003e\n\u003cp\u003eĐể biết một thẻ nhớ có bền hay không thì chỉ có \u003cstrong\u003ethời gian mới có câu trả lời\u003c\/strong\u003e.\u003c\/p\u003e",
       "inLanguage": "en-us",
       "isFamilyFriendly": "true",
       "mainEntityOfPage": {
@@ -145,26 +149,26 @@ Còn trong bài này thì mình sẽ ghi chú lại một số cách để test 
   <h2 class="post">Test_TF Card</h2>
   <h2 id="changelog">Changelog</h2>
 <table>
-<thead>
-<tr>
-<th>Date</th>
-<th>Mô tả</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>17/11/25</td>
-<td>Khởi tạo bài viết và ghi chú cách test thẻ nhớ</td>
-</tr>
-<tr>
-<td>18/11/25</td>
-<td>Bổ sung cách <strong>kiểm tra tốc độ đọc/ghi thực tế của thẻ</strong></td>
-</tr>
-<tr>
-<td>20/11/25</td>
-<td>Ghi chú thêm về command <code>chkdsk</code> trên Windows</td>
-</tr>
-</tbody>
+	<thead>
+			<tr>
+					<th>Date</th>
+					<th>Mô tả</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>17/11/25</td>
+					<td>Khởi tạo bài viết và ghi chú cách test thẻ nhớ</td>
+			</tr>
+			<tr>
+					<td>18/11/25</td>
+					<td>Bổ sung cách <strong>kiểm tra tốc độ đọc/ghi thực tế của thẻ</strong></td>
+			</tr>
+			<tr>
+					<td>20/11/25</td>
+					<td>Ghi chú thêm về command <code>chkdsk</code> trên Windows</td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 <p>Xem thêm bài viết về <a href="https://blog.vinhld-homelab.io.vn/posts/iot/hardware/the_nho/">Thẻ nhớ</a></p>
@@ -265,7 +269,7 @@ Còn trong bài này thì mình sẽ ghi chú lại một số cách để test 
 />
 
 </p>
-<h3 id="iostat-commandhttpswwwgeeksforgeeksorglinux-unixiostat-command-in-linux-with-examples"><a href="https://www.geeksforgeeks.org/linux-unix/iostat-command-in-linux-with-examples/">iostat command</a></h3>
+<h3 id="iostat-command"><a href="https://www.geeksforgeeks.org/linux-unix/iostat-command-in-linux-with-examples/">iostat command</a></h3>
 <ul>
 <li>Vậy là mình sẽ cần một công cụ giúp đo khả năng thực tế của thẻ nhớ.</li>
 <li>Cũng may là mình có thể chạy command này trên thiết bị camera:</li>
@@ -289,7 +293,7 @@ Còn trong bài này thì mình sẽ ghi chú lại một số cách để test 
 />
 
 </p>
-<h3 id="một-công-cụ-để-kiểm-tra-thẻ-fake---h2testwhttpsh2testworg">Một công cụ để kiểm tra thẻ fake - <a href="https://h2testw.org/">H2testw</a></h3>
+<h3 id="một-công-cụ-để-kiểm-tra-thẻ-fake---h2testw">Một công cụ để kiểm tra thẻ fake - <a href="https://h2testw.org/">H2testw</a></h3>
 <p><img
   src="/image/IoT/Test_TF-Card/H2testw_1.png"
   alt="Hình H2testw_1"

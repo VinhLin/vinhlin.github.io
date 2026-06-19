@@ -19,22 +19,26 @@
     <meta name="author" content="Liste - https://vinhlin.github.io/">
     <title>Exif_Tool | VinhLD</title>
     <meta name="description" content="Technology Blog">
-    <meta property="og:title" content="Exif_Tool" />
-<meta property="og:description" content="Tham khảo bài viết Exif là gì? Cách xem &amp; cách xóa Exif của ảnh
+    <meta property="og:url" content="https://vinhlin.github.io/posts/cybersecurity/technical/exif_tool/">
+	<meta property="og:site_name" content="VinhLD">
+	<meta property="og:title" content="Exif_Tool">
+	<meta property="og:description" content="Tham khảo bài viết Exif là gì? Cách xem &amp; cách xóa Exif của ảnh
 Đây là công cụ để lấy metadata (dữ liệu ẩn) của một bức ảnh, bao gồm ngày chụp (Date) và vị trí (Location/GPS).
-Cài đặt ExifTool Truy cập vào trang chủ, tải về phiên bản cho Windows, sau đó giải nén ra. Theo file readme để sử dụng tool bằng command-line, thì mình cần đổi tên: exiftool(-k)." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://vinhlin.github.io/posts/cybersecurity/technical/exif_tool/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2026-01-12T11:53:44+07:00" />
-<meta property="article:modified_time" content="2026-01-12T11:53:44+07:00" />
+Cài đặt ExifTool Truy cập vào trang chủ, tải về phiên bản cho Windows, sau đó giải nén ra. Theo file readme để sử dụng tool bằng command-line, thì mình cần đổi tên: exiftool(-k).exe --&gt; exiftool.exe Ngoài ra muốn dùng tool này thì file .exe phải đi kèm với folder exiftool_files. Mình có cài WSL trên Windows, nên sẽ cần add alias">
+	<meta property="og:locale" content="en_us">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2026-01-12T11:53:44+07:00">
+		<meta property="article:modified_time" content="2026-01-12T11:53:44+07:00">
 
-    <meta itemprop="name" content="Exif_Tool">
-<meta itemprop="description" content="Tham khảo bài viết Exif là gì? Cách xem &amp; cách xóa Exif của ảnh
+    
+	<meta itemprop="name" content="Exif_Tool">
+	<meta itemprop="description" content="Tham khảo bài viết Exif là gì? Cách xem &amp; cách xóa Exif của ảnh
 Đây là công cụ để lấy metadata (dữ liệu ẩn) của một bức ảnh, bao gồm ngày chụp (Date) và vị trí (Location/GPS).
-Cài đặt ExifTool Truy cập vào trang chủ, tải về phiên bản cho Windows, sau đó giải nén ra. Theo file readme để sử dụng tool bằng command-line, thì mình cần đổi tên: exiftool(-k)."><meta itemprop="datePublished" content="2026-01-12T11:53:44+07:00" />
-<meta itemprop="dateModified" content="2026-01-12T11:53:44+07:00" />
-<meta itemprop="wordCount" content="214">
-<meta itemprop="keywords" content="" />
+Cài đặt ExifTool Truy cập vào trang chủ, tải về phiên bản cho Windows, sau đó giải nén ra. Theo file readme để sử dụng tool bằng command-line, thì mình cần đổi tên: exiftool(-k).exe --&gt; exiftool.exe Ngoài ra muốn dùng tool này thì file .exe phải đi kèm với folder exiftool_files. Mình có cài WSL trên Windows, nên sẽ cần add alias">
+	<meta itemprop="datePublished" content="2026-01-12T11:53:44+07:00">
+	<meta itemprop="dateModified" content="2026-01-12T11:53:44+07:00">
+	<meta itemprop="wordCount" content="214">
     
     <link rel="canonical" href="https://vinhlin.github.io/posts/cybersecurity/technical/exif_tool/">
     <link rel="icon" href="https://vinhlin.github.io//assets/favicon.ico">
@@ -58,7 +62,7 @@ Cài đặt ExifTool Truy cập vào trang chủ, tải về phiên bản cho Wi
       "name": "Exif_Tool",
       "headline": "Exif_Tool",
       "alternativeHeadline": "",
-      "description": "Tham khảo bài viết Exif là gì? Cách xem \u0026amp; cách xóa Exif của ảnh\nĐây là công cụ để lấy metadata (dữ liệu ẩn) của một bức ảnh, bao gồm ngày chụp (Date) và vị trí (Location\/GPS).\nCài đặt ExifTool Truy cập vào trang chủ, tải về phiên bản cho Windows, sau đó giải nén ra. Theo file readme để sử dụng tool bằng command-line, thì mình cần đổi tên: exiftool(-k).",
+      "description": "\u003cp\u003eTham khảo bài viết \u003ca href=\u0022https:\/\/tinhte.vn\/thread\/exif-la-gi-cach-xem-cach-xoa-exif-cua-anh.3133520\/\u0022\u003eExif là gì? Cách xem \u0026amp; cách xóa Exif của ảnh\u003c\/a\u003e\u003c\/p\u003e\n\u003cp\u003eĐây là công cụ để lấy \u003cstrong\u003emetadata (dữ liệu ẩn)\u003c\/strong\u003e của một bức ảnh, bao gồm \u003cstrong\u003engày chụp (Date)\u003c\/strong\u003e và \u003cstrong\u003evị trí (Location\/GPS)\u003c\/strong\u003e.\u003c\/p\u003e\n\u003ch2 id=\u0022cài-đặt-exiftool\u0022\u003eCài đặt \u003ca href=\u0022https:\/\/exiftool.org\/\u0022\u003eExifTool\u003c\/a\u003e\u003c\/h2\u003e\n\u003cul\u003e\n\u003cli\u003eTruy cập vào trang chủ, tải về phiên bản cho Windows, sau đó giải nén ra.\u003c\/li\u003e\n\u003cli\u003eTheo file \u003cstrong\u003ereadme\u003c\/strong\u003e để sử dụng tool bằng command-line, thì mình cần đổi tên:\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cpre tabindex=\u00220\u0022\u003e\u003ccode\u003eexiftool(-k).exe --\u0026gt; exiftool.exe\n\u003c\/code\u003e\u003c\/pre\u003e\u003cul\u003e\n\u003cli\u003eNgoài ra muốn dùng tool này thì file \u003ccode\u003e.exe\u003c\/code\u003e phải đi kèm với folder \u003cstrong\u003eexiftool_files\u003c\/strong\u003e.\u003c\/li\u003e\n\u003cli\u003eMình có cài WSL trên Windows, nên sẽ cần add \u003cstrong\u003ealias\u003c\/strong\u003e\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cp\u003e\u003cimg\n  src=\u0022\/image\/CyberSecurity\/Exif_Tool\/Hinh_1.png\u0022\n  alt=\u0022Hình 1\u0022\n  loading=\u0022lazy\u0022\n  decoding=\u0022async\u0022\n  class=\u0022full-width\u0022\n\/\u003e\n\n\u003c\/p\u003e",
       "inLanguage": "en-us",
       "isFamilyFriendly": "true",
       "mainEntityOfPage": {
@@ -145,7 +149,7 @@ Cài đặt ExifTool Truy cập vào trang chủ, tải về phiên bản cho Wi
   <h2 class="post">Exif_Tool</h2>
   <p>Tham khảo bài viết <a href="https://tinhte.vn/thread/exif-la-gi-cach-xem-cach-xoa-exif-cua-anh.3133520/">Exif là gì? Cách xem &amp; cách xóa Exif của ảnh</a></p>
 <p>Đây là công cụ để lấy <strong>metadata (dữ liệu ẩn)</strong> của một bức ảnh, bao gồm <strong>ngày chụp (Date)</strong> và <strong>vị trí (Location/GPS)</strong>.</p>
-<h2 id="cài-đặt-exiftoolhttpsexiftoolorg">Cài đặt <a href="https://exiftool.org/">ExifTool</a></h2>
+<h2 id="cài-đặt-exiftool">Cài đặt <a href="https://exiftool.org/">ExifTool</a></h2>
 <ul>
 <li>Truy cập vào trang chủ, tải về phiên bản cho Windows, sau đó giải nén ra.</li>
 <li>Theo file <strong>readme</strong> để sử dụng tool bằng command-line, thì mình cần đổi tên:</li>

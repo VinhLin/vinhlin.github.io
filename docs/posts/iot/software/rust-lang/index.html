@@ -19,18 +19,22 @@
     <meta name="author" content="Liste - https://vinhlin.github.io/">
     <title>Rust Lang | VinhLD</title>
     <meta name="description" content="Technology Blog">
-    <meta property="og:title" content="Rust Lang" />
-<meta property="og:description" content="Ngày Mô tả 1/4/2024 Khởi tạo bài viết 17/8/2024 Cập nhật bài viết, thêm thông tin về Rust-lang 13/9/2024 Update thêm documents về Rust Hạn chế Năm 2023 xảy ra nhiều dramma của Rust Found Rust là ngôn ngữ khó học, code khó. 5 things I wish I knew before learning Rust Why do developers hate Rust? Cộng đồng DEV chưa quá đông như Golang. Top Programming Languages 2023 Lợi ích Rust là ngôn ngữ low level, được sử dụng cho nhiều mục đích khác nhau: Dùng để code nhúng." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://vinhlin.github.io/posts/iot/software/rust-lang/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-09-13T15:14:13+07:00" />
-<meta property="article:modified_time" content="2024-09-13T15:14:13+07:00" />
+    <meta property="og:url" content="https://vinhlin.github.io/posts/iot/software/rust-lang/">
+	<meta property="og:site_name" content="VinhLD">
+	<meta property="og:title" content="Rust Lang">
+	<meta property="og:description" content="Ngày Mô tả 1/4/2024 Khởi tạo bài viết 17/8/2024 Cập nhật bài viết, thêm thông tin về Rust-lang 13/9/2024 Update thêm documents về Rust Hạn chế Năm 2023 xảy ra nhiều dramma của Rust Found Rust là ngôn ngữ khó học, code khó. 5 things I wish I knew before learning Rust Why do developers hate Rust? Cộng đồng DEV chưa quá đông như Golang. Top Programming Languages 2023 Lợi ích Rust là ngôn ngữ low level, được sử dụng cho nhiều mục đích khác nhau: Dùng để code nhúng. Dùng để code phía Server. Có thể dùng để code OS - như Rust for Linux Rust chú trọng vào sự an toàn - memory safety. Cộng đồng Rust vẫn đang phát triển. Dựa trên báo cáo thì số lượt tìm kiếm hướng dẫn lập trình Rust đã tăng hơn Golang Rust Roadmap Tài liệu về Rust Rust IDE - RustRover">
+	<meta property="og:locale" content="en_us">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2024-09-13T15:14:13+07:00">
+		<meta property="article:modified_time" content="2024-09-13T15:14:13+07:00">
 
-    <meta itemprop="name" content="Rust Lang">
-<meta itemprop="description" content="Ngày Mô tả 1/4/2024 Khởi tạo bài viết 17/8/2024 Cập nhật bài viết, thêm thông tin về Rust-lang 13/9/2024 Update thêm documents về Rust Hạn chế Năm 2023 xảy ra nhiều dramma của Rust Found Rust là ngôn ngữ khó học, code khó. 5 things I wish I knew before learning Rust Why do developers hate Rust? Cộng đồng DEV chưa quá đông như Golang. Top Programming Languages 2023 Lợi ích Rust là ngôn ngữ low level, được sử dụng cho nhiều mục đích khác nhau: Dùng để code nhúng."><meta itemprop="datePublished" content="2024-09-13T15:14:13+07:00" />
-<meta itemprop="dateModified" content="2024-09-13T15:14:13+07:00" />
-<meta itemprop="wordCount" content="444">
-<meta itemprop="keywords" content="" />
+    
+	<meta itemprop="name" content="Rust Lang">
+	<meta itemprop="description" content="Ngày Mô tả 1/4/2024 Khởi tạo bài viết 17/8/2024 Cập nhật bài viết, thêm thông tin về Rust-lang 13/9/2024 Update thêm documents về Rust Hạn chế Năm 2023 xảy ra nhiều dramma của Rust Found Rust là ngôn ngữ khó học, code khó. 5 things I wish I knew before learning Rust Why do developers hate Rust? Cộng đồng DEV chưa quá đông như Golang. Top Programming Languages 2023 Lợi ích Rust là ngôn ngữ low level, được sử dụng cho nhiều mục đích khác nhau: Dùng để code nhúng. Dùng để code phía Server. Có thể dùng để code OS - như Rust for Linux Rust chú trọng vào sự an toàn - memory safety. Cộng đồng Rust vẫn đang phát triển. Dựa trên báo cáo thì số lượt tìm kiếm hướng dẫn lập trình Rust đã tăng hơn Golang Rust Roadmap Tài liệu về Rust Rust IDE - RustRover">
+	<meta itemprop="datePublished" content="2024-09-13T15:14:13+07:00">
+	<meta itemprop="dateModified" content="2024-09-13T15:14:13+07:00">
+	<meta itemprop="wordCount" content="444">
     
     <link rel="canonical" href="https://vinhlin.github.io/posts/iot/software/rust-lang/">
     <link rel="icon" href="https://vinhlin.github.io//assets/favicon.ico">
@@ -54,7 +58,7 @@
       "name": "Rust Lang",
       "headline": "Rust Lang",
       "alternativeHeadline": "",
-      "description": "Ngày Mô tả 1\/4\/2024 Khởi tạo bài viết 17\/8\/2024 Cập nhật bài viết, thêm thông tin về Rust-lang 13\/9\/2024 Update thêm documents về Rust Hạn chế Năm 2023 xảy ra nhiều dramma của Rust Found Rust là ngôn ngữ khó học, code khó. 5 things I wish I knew before learning Rust Why do developers hate Rust? Cộng đồng DEV chưa quá đông như Golang. Top Programming Languages 2023 Lợi ích Rust là ngôn ngữ low level, được sử dụng cho nhiều mục đích khác nhau: Dùng để code nhúng.",
+      "description": "\u003cp\u003e\u003cimg\n  src=\u0022\/image\/IoT\/Rust_Embedded.png\u0022\n  alt=\u0022Rust_Embedded\u0022\n  loading=\u0022lazy\u0022\n  decoding=\u0022async\u0022\n  class=\u0022full-width\u0022\n\/\u003e\n\n\u003c\/p\u003e\n\u003ctable\u003e\n\t\u003cthead\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003cth\u003eNgày\u003c\/th\u003e\n\t\t\t\t\t\u003cth\u003eMô tả\u003c\/th\u003e\n\t\t\t\u003c\/tr\u003e\n\t\u003c\/thead\u003e\n\t\u003ctbody\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e1\/4\/2024\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eKhởi tạo bài viết\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e17\/8\/2024\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eCập nhật bài viết, thêm thông tin về Rust-lang\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e13\/9\/2024\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eUpdate thêm documents về Rust\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\u003c\/tbody\u003e\n\u003c\/table\u003e\n\u003chr\u003e\n\u003ch3 id=\u0022hạn-chế\u0022\u003eHạn chế\u003c\/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\u0022https:\/\/users.rust-lang.org\/t\/why-is-there-so-much-mismanagement-in-the-rust-foundation-and-core-team\/94822\u0022\u003eNăm 2023 xảy ra nhiều dramma của Rust Found\u003c\/a\u003e\u003c\/li\u003e\n\u003cli\u003eRust là ngôn ngữ \u003cstrong\u003ekhó học, code khó\u003c\/strong\u003e.\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\u0022https:\/\/www.youtube.com\/watch?v=EYCBm0xAWow\u0026amp;list=LL\u0026amp;index=3\u0022\u003e5 things I wish I knew before learning Rust\u003c\/a\u003e\u003c\/li\u003e\n\u003cli\u003e\u003ca href=\u0022https:\/\/www.youtube.com\/watch?v=fknamfNtKk0\u0022\u003eWhy do developers hate Rust?\u003c\/a\u003e\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003c\/li\u003e\n\u003cli\u003eCộng đồng \u003cstrong\u003eDEV\u003c\/strong\u003e chưa quá đông như Golang. \u003ca href=\u0022https:\/\/spectrum.ieee.org\/the-top-programming-languages-2023\u0022\u003eTop Programming Languages 2023\u003c\/a\u003e\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003ch3 id=\u0022lợi-ích\u0022\u003eLợi ích\u003c\/h3\u003e\n\u003cul\u003e\n\u003cli\u003eRust là ngôn ngữ \u003cstrong\u003elow level\u003c\/strong\u003e, được sử dụng cho nhiều mục đích khác nhau:\n\u003cul\u003e\n\u003cli\u003eDùng để code nhúng.\u003c\/li\u003e\n\u003cli\u003eDùng để code phía Server.\u003c\/li\u003e\n\u003cli\u003eCó thể dùng để code OS - như \u003ca href=\u0022https:\/\/rust-for-linux.com\/\u0022\u003eRust for Linux\u003c\/a\u003e\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003c\/li\u003e\n\u003cli\u003eRust chú trọng vào sự an toàn - \u003cstrong\u003ememory safety\u003c\/strong\u003e.\u003c\/li\u003e\n\u003cli\u003eCộng đồng Rust vẫn đang phát triển. \u003ca href=\u0022https:\/\/pypl.github.io\/PYPL.html\u0022\u003eDựa trên báo cáo thì số lượt tìm kiếm hướng dẫn lập trình Rust đã tăng hơn Golang\u003c\/a\u003e\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003ch3 id=\u0022rust-roadmap\u0022\u003e\u003ca href=\u0022https:\/\/roadmap.sh\/rust\u0022\u003eRust Roadmap\u003c\/a\u003e\u003c\/h3\u003e\n\u003ch3 id=\u0022tài-liệu-về-rust\u0022\u003eTài liệu về Rust\u003c\/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\u0022https:\/\/www.jetbrains.com\/help\/rust\/getting-started.html\u0022\u003eRust IDE - RustRover\u003c\/a\u003e\u003c\/p\u003e",
       "inLanguage": "en-us",
       "isFamilyFriendly": "true",
       "mainEntityOfPage": {
@@ -149,26 +153,26 @@
 
 </p>
 <table>
-<thead>
-<tr>
-<th>Ngày</th>
-<th>Mô tả</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1/4/2024</td>
-<td>Khởi tạo bài viết</td>
-</tr>
-<tr>
-<td>17/8/2024</td>
-<td>Cập nhật bài viết, thêm thông tin về Rust-lang</td>
-</tr>
-<tr>
-<td>13/9/2024</td>
-<td>Update thêm documents về Rust</td>
-</tr>
-</tbody>
+	<thead>
+			<tr>
+					<th>Ngày</th>
+					<th>Mô tả</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>1/4/2024</td>
+					<td>Khởi tạo bài viết</td>
+			</tr>
+			<tr>
+					<td>17/8/2024</td>
+					<td>Cập nhật bài viết, thêm thông tin về Rust-lang</td>
+			</tr>
+			<tr>
+					<td>13/9/2024</td>
+					<td>Update thêm documents về Rust</td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 <h3 id="hạn-chế">Hạn chế</h3>
@@ -194,7 +198,7 @@
 <li>Rust chú trọng vào sự an toàn - <strong>memory safety</strong>.</li>
 <li>Cộng đồng Rust vẫn đang phát triển. <a href="https://pypl.github.io/PYPL.html">Dựa trên báo cáo thì số lượt tìm kiếm hướng dẫn lập trình Rust đã tăng hơn Golang</a></li>
 </ul>
-<h3 id="rust-roadmaphttpsroadmapshrust"><a href="https://roadmap.sh/rust">Rust Roadmap</a></h3>
+<h3 id="rust-roadmap"><a href="https://roadmap.sh/rust">Rust Roadmap</a></h3>
 <h3 id="tài-liệu-về-rust">Tài liệu về Rust</h3>
 <ul>
 <li>
@@ -230,22 +234,22 @@
 </ul>
 <hr>
 <h1 id="cập-nhật-1782024">Cập nhật 17/8/2024</h1>
-<h3 id="youtube-where-is-rust-being-usedhttpswwwyoutubecomwatchv42fhqwq6sva">Youtube: <a href="https://www.youtube.com/watch?v=42FhQWQ6SVA">Where is Rust being used?</a></h3>
-<h2 id="tổng-hợp-rust-is-for-roboticshttpsroboticsrs">Tổng hợp <a href="https://robotics.rs/">Rust is for Robotics</a></h2>
+<h3 id="youtube-where-is-rust-being-used">Youtube: <a href="https://www.youtube.com/watch?v=42FhQWQ6SVA">Where is Rust being used?</a></h3>
+<h2 id="tổng-hợp-rust-is-for-robotics">Tổng hợp <a href="https://robotics.rs/">Rust is for Robotics</a></h2>
 <ul>
 <li>Project <a href="https://github.com/ros2-rust/ros2_rust">ros2_rust</a></li>
 <li>Project <a href="https://github.com/Sollimann/CleanIt">CleanIt</a></li>
 </ul>
-<h3 id="doc-offline-first-smart-energy-monitor-with-rust-esp32-and-thingsboardhttpsmoslehiancomposts20223-ofmon">Doc: <a href="https://moslehian.com/posts/2022/3-ofmon/">Offline-first Smart Energy Monitor with Rust, ESP32, and Thingsboard</a></h3>
+<h3 id="doc-offline-first-smart-energy-monitor-with-rust-esp32-and-thingsboard">Doc: <a href="https://moslehian.com/posts/2022/3-ofmon/">Offline-first Smart Energy Monitor with Rust, ESP32, and Thingsboard</a></h3>
 <ul>
 <li><a href="https://github.com/Nereuxofficial/nostd-wifi-lamp">nostd-wifi-lamp</a></li>
 <li><a href="https://github.com/JurajSadel/esp32c3-no-std-async-mqtt-demo">esp32c3-no-std-async-mqtt-demo</a></li>
 </ul>
-<h3 id="framework-cho-mqtt-cho-rust-rumqtthttpsgithubcombytebeamiorumqtt">Framework cho MQTT cho Rust: <a href="https://github.com/bytebeamio/rumqtt">rumqtt</a></h3>
+<h3 id="framework-cho-mqtt-cho-rust-rumqtt">Framework cho MQTT cho Rust: <a href="https://github.com/bytebeamio/rumqtt">rumqtt</a></h3>
 <ul>
 <li><a href="https://github.com/obabec/rust-mqtt">rust-mqtt</a></li>
 </ul>
-<h3 id="framework-nats-for-rust-natsrshttpsgithubcomnats-ionatsrs">Framework NATS for Rust: <a href="https://github.com/nats-io/nats.rs">nats.rs</a></h3>
+<h3 id="framework-nats-for-rust-natsrs">Framework NATS for Rust: <a href="https://github.com/nats-io/nats.rs">nats.rs</a></h3>
 <ul>
 <li>Có thể sử dụng NATS cho ThingsBoard.</li>
 <li>Sample code từ ChatGPT:</li>
@@ -294,16 +298,16 @@ async fn main() -&gt; std::io::Result&lt;()&gt; {
 }
 </code></pre><hr>
 <h1 id="cập-nhật-1392024">Cập nhật 13/9/2024</h1>
-<h2 id="bài-viết-35-rust-learning-resources-every-beginner-should-know-in-2022httpsblogtheembeddedrustaceancom35-rust-learning-resources-every-beginner-should-know-in-2022">Bài viết: <a href="https://blog.theembeddedrustacean.com/35-rust-learning-resources-every-beginner-should-know-in-2022">35 Rust Learning Resources Every Beginner Should Know in 2022</a></h2>
+<h2 id="bài-viết-35-rust-learning-resources-every-beginner-should-know-in-2022">Bài viết: <a href="https://blog.theembeddedrustacean.com/35-rust-learning-resources-every-beginner-should-know-in-2022">35 Rust Learning Resources Every Beginner Should Know in 2022</a></h2>
 <ul>
 <li>Trong bài viết này tổng hợp rất nhiều documents cho beginner để bắt đầu với Rust.</li>
 <li>Ở đây mình thấy có những trang rất hay, ví dụ:</li>
 </ul>
-<h3 id="tour-of-rusthttpstourofrustcom"><a href="https://tourofrust.com/">Tour of Rust</a></h3>
+<h3 id="tour-of-rust"><a href="https://tourofrust.com/">Tour of Rust</a></h3>
 <p>Trang này có tiếng Việt và có thêm phần để run code.</p>
-<h3 id="a-half-hour-to-learn-rusthttpsfasterthanlimearticlesa-half-hour-to-learn-rust"><a href="https://fasterthanli.me/articles/a-half-hour-to-learn-rust">A half-hour to learn Rust</a></h3>
-<h3 id="a-gentle-introduction-to-rusthttpsstevedonovangithubiorust-gentle-introreadmehtml"><a href="https://stevedonovan.github.io/rust-gentle-intro/readme.html">A Gentle Introduction To Rust</a></h3>
-<h3 id="easy-rusthttpsdhghomongithubioeasy_rustchapter_1html"><a href="https://dhghomon.github.io/easy_rust/Chapter_1.html">Easy Rust</a></h3>
+<h3 id="a-half-hour-to-learn-rust"><a href="https://fasterthanli.me/articles/a-half-hour-to-learn-rust">A half-hour to learn Rust</a></h3>
+<h3 id="a-gentle-introduction-to-rust"><a href="https://stevedonovan.github.io/rust-gentle-intro/readme.html">A Gentle Introduction To Rust</a></h3>
+<h3 id="easy-rust"><a href="https://dhghomon.github.io/easy_rust/Chapter_1.html">Easy Rust</a></h3>
 
   
   <div class="post-date">

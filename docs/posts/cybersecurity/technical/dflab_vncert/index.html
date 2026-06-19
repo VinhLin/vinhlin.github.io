@@ -19,18 +19,22 @@
     <meta name="author" content="Liste - https://vinhlin.github.io/">
     <title>DFLab_VNCERT | VinhLD</title>
     <meta name="description" content="Technology Blog">
-    <meta property="og:title" content="DFLab_VNCERT" />
-<meta property="og:description" content="Bài viết - Công cụ điều tra nhật ký sự kiện (của Digital Forensics Lab - Cục An toàn thông tin (VNCERT/CC)) Bài viết cung cấp thông tin những công cụ hữu ích và miễn phí giúp thu thập và phân tích log. Trong đó, mình thấy có những công cụ khá hay ho, có thể nghiên cứu sâu hơn và có thể tận dụng cho môi trường lab của bản thân: Hayabusa Hayabusa là một công cụ xử lý nhanh Windows Event Log, tạo timeline và tìm kiếm mối đe dọa do Yamato Security ở Nhật Bản phát triển." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://vinhlin.github.io/posts/cybersecurity/technical/dflab_vncert/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-05-25T15:56:30+07:00" />
-<meta property="article:modified_time" content="2024-05-25T15:56:30+07:00" />
+    <meta property="og:url" content="https://vinhlin.github.io/posts/cybersecurity/technical/dflab_vncert/">
+	<meta property="og:site_name" content="VinhLD">
+	<meta property="og:title" content="DFLab_VNCERT">
+	<meta property="og:description" content="Bài viết - Công cụ điều tra nhật ký sự kiện (của Digital Forensics Lab - Cục An toàn thông tin (VNCERT/CC)) Bài viết cung cấp thông tin những công cụ hữu ích và miễn phí giúp thu thập và phân tích log. Trong đó, mình thấy có những công cụ khá hay ho, có thể nghiên cứu sâu hơn và có thể tận dụng cho môi trường lab của bản thân: Hayabusa Hayabusa là một công cụ xử lý nhanh Windows Event Log, tạo timeline và tìm kiếm mối đe dọa do Yamato Security ở Nhật Bản phát triển. Nó được viết bằng Rust và hỗ trợ xử lý đa luồng. Hayabusa có thể chạy trên các hệ thống đang hoạt động để phân tích trực tiếp, bằng cách thu thập Event Logs từ một hoặc nhiều hệ thống để phân tích ngoại tuyến hoặc bằng cách chạy công cụ Hayabusa với Velociraptor để tìm kiếm mối đe dọa và ứng phó sự cố trên quy mô lớn. Báo cáo là một timeline trên CSV để dễ dàng phân tích trong Excel, Timeline Explorer, Elastic Stack, Timesketch, v.v…">
+	<meta property="og:locale" content="en_us">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2024-05-25T15:56:30+07:00">
+		<meta property="article:modified_time" content="2024-05-25T15:56:30+07:00">
 
-    <meta itemprop="name" content="DFLab_VNCERT">
-<meta itemprop="description" content="Bài viết - Công cụ điều tra nhật ký sự kiện (của Digital Forensics Lab - Cục An toàn thông tin (VNCERT/CC)) Bài viết cung cấp thông tin những công cụ hữu ích và miễn phí giúp thu thập và phân tích log. Trong đó, mình thấy có những công cụ khá hay ho, có thể nghiên cứu sâu hơn và có thể tận dụng cho môi trường lab của bản thân: Hayabusa Hayabusa là một công cụ xử lý nhanh Windows Event Log, tạo timeline và tìm kiếm mối đe dọa do Yamato Security ở Nhật Bản phát triển."><meta itemprop="datePublished" content="2024-05-25T15:56:30+07:00" />
-<meta itemprop="dateModified" content="2024-05-25T15:56:30+07:00" />
-<meta itemprop="wordCount" content="268">
-<meta itemprop="keywords" content="" />
+    
+	<meta itemprop="name" content="DFLab_VNCERT">
+	<meta itemprop="description" content="Bài viết - Công cụ điều tra nhật ký sự kiện (của Digital Forensics Lab - Cục An toàn thông tin (VNCERT/CC)) Bài viết cung cấp thông tin những công cụ hữu ích và miễn phí giúp thu thập và phân tích log. Trong đó, mình thấy có những công cụ khá hay ho, có thể nghiên cứu sâu hơn và có thể tận dụng cho môi trường lab của bản thân: Hayabusa Hayabusa là một công cụ xử lý nhanh Windows Event Log, tạo timeline và tìm kiếm mối đe dọa do Yamato Security ở Nhật Bản phát triển. Nó được viết bằng Rust và hỗ trợ xử lý đa luồng. Hayabusa có thể chạy trên các hệ thống đang hoạt động để phân tích trực tiếp, bằng cách thu thập Event Logs từ một hoặc nhiều hệ thống để phân tích ngoại tuyến hoặc bằng cách chạy công cụ Hayabusa với Velociraptor để tìm kiếm mối đe dọa và ứng phó sự cố trên quy mô lớn. Báo cáo là một timeline trên CSV để dễ dàng phân tích trong Excel, Timeline Explorer, Elastic Stack, Timesketch, v.v…">
+	<meta itemprop="datePublished" content="2024-05-25T15:56:30+07:00">
+	<meta itemprop="dateModified" content="2024-05-25T15:56:30+07:00">
+	<meta itemprop="wordCount" content="268">
     
     <link rel="canonical" href="https://vinhlin.github.io/posts/cybersecurity/technical/dflab_vncert/">
     <link rel="icon" href="https://vinhlin.github.io//assets/favicon.ico">
@@ -54,7 +58,7 @@
       "name": "DFLab_VNCERT",
       "headline": "DFLab_VNCERT",
       "alternativeHeadline": "",
-      "description": "Bài viết - Công cụ điều tra nhật ký sự kiện (của Digital Forensics Lab - Cục An toàn thông tin (VNCERT\/CC)) Bài viết cung cấp thông tin những công cụ hữu ích và miễn phí giúp thu thập và phân tích log. Trong đó, mình thấy có những công cụ khá hay ho, có thể nghiên cứu sâu hơn và có thể tận dụng cho môi trường lab của bản thân: Hayabusa Hayabusa là một công cụ xử lý nhanh Windows Event Log, tạo timeline và tìm kiếm mối đe dọa do Yamato Security ở Nhật Bản phát triển.",
+      "description": "\u003ch2 id=\u0022bài-viết---công-cụ-điều-tra-nhật-ký-sự-kiện-của-digital-forensics-lab---cục-an-toàn-thông-tin-vncertcc\u0022\u003e\u003ca href=\u0022https:\/\/df.irlab.vn\/docs\/tools\/log\/\u0022\u003eBài viết - Công cụ điều tra nhật ký sự kiện (của Digital Forensics Lab - Cục An toàn thông tin (VNCERT\/CC))\u003c\/a\u003e\u003c\/h2\u003e\n\u003cul\u003e\n\u003cli\u003eBài viết cung cấp thông tin những công cụ hữu ích và miễn phí giúp thu thập và phân tích \u003cstrong\u003elog\u003c\/strong\u003e.\u003c\/li\u003e\n\u003cli\u003eTrong đó, mình thấy có những công cụ khá hay ho, có thể nghiên cứu sâu hơn và có thể tận dụng cho môi trường lab của bản thân:\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003ch3 id=\u0022hayabusa\u0022\u003e\u003ca href=\u0022https:\/\/github.com\/Yamato-Security\/hayabusa\u0022\u003eHayabusa\u003c\/a\u003e\u003c\/h3\u003e\n\u003cblockquote\u003e\n\u003cp\u003eHayabusa là một công cụ xử lý nhanh \u003cstrong\u003eWindows Event Log\u003c\/strong\u003e, tạo timeline và tìm kiếm mối đe dọa do Yamato Security ở Nhật Bản phát triển. Nó được viết bằng Rust và hỗ trợ xử lý đa luồng. Hayabusa có thể chạy trên các hệ thống đang hoạt động để phân tích trực tiếp, bằng cách thu thập Event Logs từ một hoặc nhiều hệ thống để phân tích ngoại tuyến hoặc bằng cách chạy công cụ Hayabusa với Velociraptor để tìm kiếm mối đe dọa và ứng phó sự cố trên quy mô lớn. Báo cáo là một timeline trên CSV để dễ dàng phân tích trong Excel, Timeline Explorer, Elastic Stack, Timesketch, v.v\u0026hellip;\u003c\/p\u003e",
       "inLanguage": "en-us",
       "isFamilyFriendly": "true",
       "mainEntityOfPage": {
@@ -139,16 +143,16 @@
         
 <section>
   <h2 class="post">DFLab_VNCERT</h2>
-  <h2 id="bài-viết---công-cụ-điều-tra-nhật-ký-sự-kiện-của-digital-forensics-lab---cục-an-toàn-thông-tin-vncertcchttpsdfirlabvndocstoolslog"><a href="https://df.irlab.vn/docs/tools/log/">Bài viết - Công cụ điều tra nhật ký sự kiện (của Digital Forensics Lab - Cục An toàn thông tin (VNCERT/CC))</a></h2>
+  <h2 id="bài-viết---công-cụ-điều-tra-nhật-ký-sự-kiện-của-digital-forensics-lab---cục-an-toàn-thông-tin-vncertcc"><a href="https://df.irlab.vn/docs/tools/log/">Bài viết - Công cụ điều tra nhật ký sự kiện (của Digital Forensics Lab - Cục An toàn thông tin (VNCERT/CC))</a></h2>
 <ul>
 <li>Bài viết cung cấp thông tin những công cụ hữu ích và miễn phí giúp thu thập và phân tích <strong>log</strong>.</li>
 <li>Trong đó, mình thấy có những công cụ khá hay ho, có thể nghiên cứu sâu hơn và có thể tận dụng cho môi trường lab của bản thân:</li>
 </ul>
-<h3 id="hayabusahttpsgithubcomyamato-securityhayabusa"><a href="https://github.com/Yamato-Security/hayabusa">Hayabusa</a></h3>
+<h3 id="hayabusa"><a href="https://github.com/Yamato-Security/hayabusa">Hayabusa</a></h3>
 <blockquote>
 <p>Hayabusa là một công cụ xử lý nhanh <strong>Windows Event Log</strong>, tạo timeline và tìm kiếm mối đe dọa do Yamato Security ở Nhật Bản phát triển. Nó được viết bằng Rust và hỗ trợ xử lý đa luồng. Hayabusa có thể chạy trên các hệ thống đang hoạt động để phân tích trực tiếp, bằng cách thu thập Event Logs từ một hoặc nhiều hệ thống để phân tích ngoại tuyến hoặc bằng cách chạy công cụ Hayabusa với Velociraptor để tìm kiếm mối đe dọa và ứng phó sự cố trên quy mô lớn. Báo cáo là một timeline trên CSV để dễ dàng phân tích trong Excel, Timeline Explorer, Elastic Stack, Timesketch, v.v&hellip;</p>
 </blockquote>
-<h3 id="goaccesshttpsgithubcomallinurlgoaccess"><a href="https://github.com/allinurl/goaccess">GoAccess</a></h3>
+<h3 id="goaccess"><a href="https://github.com/allinurl/goaccess">GoAccess</a></h3>
 <blockquote>
 <p>GoAccess là trình phân tích nhật ký web, có thể quan sát theo thời gian thực và trình xem tương tác mã nguồn mở chạy trong terminal trong các hệ thống.. Cung cấp số liệu thống kê HTTP nhanh chóng và có giá trị cho các quản trị viên hệ thống yêu cầu báo cáo máy chủ trực quan một cách nhanh chóng.</p>
 </blockquote>
