@@ -1,5 +1,6 @@
 baseURL = 'https://vinhlin.github.io/'
-languageCode = 'en-us'
+#languageCode = 'en-us'
+defaultContentLanguage = 'en-us'
 title = 'VinhLD'
 paginate = 3
 theme = 'maverick'

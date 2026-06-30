@@ -4,6 +4,11 @@ date = 2025-11-04T09:59:49+07:00
 draft = true
 +++
 
+STT	|	Date	|	Nội dung		|
+--------|---------------|-------------------------------|
+1	| 4/11/2025	| Khởi tạo bài viết, ghi chú về công cụ WAF |
+2	| 30/6/2026	| Build công cụ SafeLine	|
+
 ### [Bài viết tham khảo](https://www.linkedin.com/pulse/safeline-free-zero-trust-web-application-firewall-2026-jbk7c/?trackingId=XnkKirrxYjFF7X8tcmEmIw%3D%3D)
 
 Từ bài viết này mình mới biết đến công cụ **SafeLine**, một công cụ **Open-source WAF** *(Web Application Firewall)*.
@@ -32,3 +37,20 @@ Tạm thời note lại để cập nhật kiến thức.
 ### How it work
 
 ![How it work](https://raw.githubusercontent.com/chaitin/SafeLine/refs/heads/main/images/how-it-works.png)
+
+-------------------------------------------
+## Cập nhật `30/6/2026`
+- Hôm nay mình đã thử build công cụ SafeLine, một dự án Open-source WAF.
+- Đến tận bây giờ mình mới có thể hiểu và build thành công.
+- Build lên thì rất đơn giản, chỉ cần command:
+```
+sudo bash -c "$(curl -fsSLk https://waf.chaitin.com/release/latest/manager.sh)" -- --en
+```
+- Nhưng để sử dụng được, mình đã phải đi tìm hiểu về cách routing của hệ thống lab và setup proxy cho đúng.
+- Thật là nan giả, nhưng may mắn là đã thành công.
+
+![Hình 1](/image/System-DevOps/SafeLine/Hinh_1.png)
+
+![Hình 2](/image/System-DevOps/SafeLine/Hinh_2.png)
+
+
