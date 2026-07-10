@@ -17,26 +17,32 @@
       })();
     </script>
     <meta name="author" content="Liste - https://vinhlin.github.io/">
-    <title>TheHive | VinhLD</title>
+    <title>Network_Basic | VinhLD</title>
     <meta name="description" content="Technology Blog">
-    <meta property="og:url" content="https://vinhlin.github.io/posts/cybersecurity/technical/thehive/">
+    <meta property="og:url" content="https://vinhlin.github.io/posts/cybersecurity/network_basic/">
 	<meta property="og:site_name" content="VinhLD">
-	<meta property="og:title" content="TheHive">
-	<meta property="og:description" content="Roles in SOC Theo mình nghiên cứu và hiểu thì SOC sẽ gồm các quá trình: Phát hiện Báo cáo Xử lý Công cụ TheHive là nằm trong giai đoạn 2. Ví dụ dễ hiểu như sau: Khi nhận cảnh báo về một sự kiện nào đó, nhân viên A sẽ làm check và xử lý cơ bản tác vụ này. Nếu không xử lý được, hoặc mức độ phức tạp cao thì tạo Ticket mô tả và cung cấp đầy đủ thông tin. (Giai đoạn này là bước sử dụng TheHive). Người có trách nhiệm, hoặc chuyên môn cao sẽ nhận ticket này và tiếp tục xử lý. TheHive TheHive cũng có chức năng như JIRA, tuy nhiên TheHive là open-source. Documents: - https://thehive-project.org/ - http://docs.thehive-project.org/cortex/ - https://github.com/thehive-project/Cortex/ - https://blog.thehive-project.org/ - https://docs.thehive-project.org/ - https://github.com/TheHive-Project/Cortex Tham khảo TheHive với Graylog - https://blog.reconinfosec.com/integrating-graylog-with-thehive - https://github.com/ReconInfoSec/graylog2thehive">
+	<meta property="og:title" content="Network_Basic">
+	<meta property="og:description" content="Như trong bài viết Mon_hoc_ATTT
+Để bắt đầu trên con đường Security, thì mình phải có kiến thức về Network
+May mắn là mình lụm được danh sách các kiến thức cơ bản về CCNA.
+CCNA Cheatsheet Thuật toán DIJKSTRA">
 	<meta property="og:locale" content="en_us">
 	<meta property="og:type" content="article">
 		<meta property="article:section" content="posts">
-		<meta property="article:published_time" content="2024-06-15T11:04:17+07:00">
-		<meta property="article:modified_time" content="2024-06-15T11:04:17+07:00">
+		<meta property="article:published_time" content="2026-07-10T18:22:48+07:00">
+		<meta property="article:modified_time" content="2026-07-10T18:22:48+07:00">
 
     
-	<meta itemprop="name" content="TheHive">
-	<meta itemprop="description" content="Roles in SOC Theo mình nghiên cứu và hiểu thì SOC sẽ gồm các quá trình: Phát hiện Báo cáo Xử lý Công cụ TheHive là nằm trong giai đoạn 2. Ví dụ dễ hiểu như sau: Khi nhận cảnh báo về một sự kiện nào đó, nhân viên A sẽ làm check và xử lý cơ bản tác vụ này. Nếu không xử lý được, hoặc mức độ phức tạp cao thì tạo Ticket mô tả và cung cấp đầy đủ thông tin. (Giai đoạn này là bước sử dụng TheHive). Người có trách nhiệm, hoặc chuyên môn cao sẽ nhận ticket này và tiếp tục xử lý. TheHive TheHive cũng có chức năng như JIRA, tuy nhiên TheHive là open-source. Documents: - https://thehive-project.org/ - http://docs.thehive-project.org/cortex/ - https://github.com/thehive-project/Cortex/ - https://blog.thehive-project.org/ - https://docs.thehive-project.org/ - https://github.com/TheHive-Project/Cortex Tham khảo TheHive với Graylog - https://blog.reconinfosec.com/integrating-graylog-with-thehive - https://github.com/ReconInfoSec/graylog2thehive">
-	<meta itemprop="datePublished" content="2024-06-15T11:04:17+07:00">
-	<meta itemprop="dateModified" content="2024-06-15T11:04:17+07:00">
-	<meta itemprop="wordCount" content="144">
+	<meta itemprop="name" content="Network_Basic">
+	<meta itemprop="description" content="Như trong bài viết Mon_hoc_ATTT
+Để bắt đầu trên con đường Security, thì mình phải có kiến thức về Network
+May mắn là mình lụm được danh sách các kiến thức cơ bản về CCNA.
+CCNA Cheatsheet Thuật toán DIJKSTRA">
+	<meta itemprop="datePublished" content="2026-07-10T18:22:48+07:00">
+	<meta itemprop="dateModified" content="2026-07-10T18:22:48+07:00">
+	<meta itemprop="wordCount" content="40">
     
-    <link rel="canonical" href="https://vinhlin.github.io/posts/cybersecurity/technical/thehive/">
+    <link rel="canonical" href="https://vinhlin.github.io/posts/cybersecurity/network_basic/">
     <link rel="icon" href="https://vinhlin.github.io//assets/favicon.ico">
     <link rel="dns-prefetch" href="https://www.google-analytics.com">
     <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
@@ -55,15 +61,15 @@
       "@context": "http://schema.org",
       "@type": "BlogPosting",
       "articleSection": "posts",
-      "name": "TheHive",
-      "headline": "TheHive",
+      "name": "Network_Basic",
+      "headline": "Network_Basic",
       "alternativeHeadline": "",
-      "description": "\u003ch3 id=\u0022roles-in-soc\u0022\u003eRoles in SOC\u003c\/h3\u003e\n\u003cp\u003e\u003cimg\n  src=\u0022\/image\/CyberSecurity\/TheHive\/SOC.jpg\u0022\n  alt=\u0022Hình 1\u0022\n  loading=\u0022lazy\u0022\n  decoding=\u0022async\u0022\n  class=\u0022full-width\u0022\n\/\u003e\n\n\u003c\/p\u003e\n\u003cul\u003e\n\u003cli\u003eTheo mình nghiên cứu và hiểu thì SOC sẽ gồm các quá trình:\n\u003cul\u003e\n\u003cli\u003ePhát hiện\u003c\/li\u003e\n\u003cli\u003eBáo cáo\u003c\/li\u003e\n\u003cli\u003eXử lý\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003c\/li\u003e\n\u003cli\u003eCông cụ \u003cstrong\u003eTheHive\u003c\/strong\u003e là nằm trong giai đoạn 2.\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003ch3 id=\u0022ví-dụ-dễ-hiểu-như-sau\u0022\u003eVí dụ dễ hiểu như sau:\u003c\/h3\u003e\n\u003cul\u003e\n\u003cli\u003eKhi nhận cảnh báo về một sự kiện nào đó, nhân viên A sẽ làm check và xử lý cơ bản tác vụ này.\u003c\/li\u003e\n\u003cli\u003eNếu không xử lý được, hoặc mức độ phức tạp cao thì tạo \u003cstrong\u003eTicket\u003c\/strong\u003e mô tả và cung cấp đầy đủ thông tin.\n(Giai đoạn này là bước sử dụng \u003cstrong\u003eTheHive\u003c\/strong\u003e).\u003c\/li\u003e\n\u003cli\u003eNgười có trách nhiệm, hoặc chuyên môn cao sẽ nhận ticket này và tiếp tục xử lý.\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003ch2 id=\u0022thehive\u0022\u003eTheHive\u003c\/h2\u003e\n\u003cul\u003e\n\u003cli\u003eTheHive cũng có chức năng như \u003cstrong\u003eJIRA\u003c\/strong\u003e, tuy nhiên TheHive là \u003cstrong\u003eopen-source\u003c\/strong\u003e.\u003c\/li\u003e\n\u003cli\u003eDocuments:\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cpre tabindex=\u00220\u0022\u003e\u003ccode\u003e- https:\/\/thehive-project.org\/\n- http:\/\/docs.thehive-project.org\/cortex\/\n- https:\/\/github.com\/thehive-project\/Cortex\/\n- https:\/\/blog.thehive-project.org\/\n- https:\/\/docs.thehive-project.org\/\n- https:\/\/github.com\/TheHive-Project\/Cortex\n\u003c\/code\u003e\u003c\/pre\u003e\u003ch3 id=\u0022tham-khảo-thehive-với-graylog\u0022\u003eTham khảo TheHive với Graylog\u003c\/h3\u003e\n\u003cpre tabindex=\u00220\u0022\u003e\u003ccode\u003e- https:\/\/blog.reconinfosec.com\/integrating-graylog-with-thehive\n- https:\/\/github.com\/ReconInfoSec\/graylog2thehive\n\u003c\/code\u003e\u003c\/pre\u003e",
+      "description": "\u003cp\u003eNhư trong bài viết \u003ca href=\u0022https:\/\/blog.vinhld-homelab.io.vn\/posts\/cybersecurity\/mon_hoc_attt\/\u0022\u003e\u003ccode\u003eMon_hoc_ATTT\u003c\/code\u003e\u003c\/a\u003e\u003c\/p\u003e\n\u003cp\u003eĐể bắt đầu trên con đường \u003cstrong\u003eSecurity\u003c\/strong\u003e, thì mình phải có kiến thức về \u003cstrong\u003eNetwork\u003c\/strong\u003e\u003c\/p\u003e\n\u003cp\u003eMay mắn là mình lụm được danh sách các kiến thức cơ bản về CCNA.\u003c\/p\u003e\n\u003ch2 id=\u0022ccna-cheatsheet\u0022\u003eCCNA Cheatsheet\u003c\/h2\u003e\n\u003cp\u003e\u003cimg\n  src=\u0022\/image\/CyberSecurity\/Network_Basic\/Hinh_0.jpg\u0022\n  alt=\u0022Hình 0\u0022\n  loading=\u0022lazy\u0022\n  decoding=\u0022async\u0022\n  class=\u0022full-width\u0022\n\/\u003e\n\n\u003c\/p\u003e\n\u003cp\u003e\u003cimg\n  src=\u0022\/image\/CyberSecurity\/Network_Basic\/Hinh_1.jpg\u0022\n  alt=\u0022Hình 1\u0022\n  loading=\u0022lazy\u0022\n  decoding=\u0022async\u0022\n  class=\u0022full-width\u0022\n\/\u003e\n\n\u003c\/p\u003e\n\u003cp\u003e\u003cimg\n  src=\u0022\/image\/CyberSecurity\/Network_Basic\/Hinh_2.jpg\u0022\n  alt=\u0022Hình 2\u0022\n  loading=\u0022lazy\u0022\n  decoding=\u0022async\u0022\n  class=\u0022full-width\u0022\n\/\u003e\n\n\u003c\/p\u003e\n\u003cp\u003e\u003cimg\n  src=\u0022\/image\/CyberSecurity\/Network_Basic\/Hinh_3.jpg\u0022\n  alt=\u0022Hình 3\u0022\n  loading=\u0022lazy\u0022\n  decoding=\u0022async\u0022\n  class=\u0022full-width\u0022\n\/\u003e\n\n\u003c\/p\u003e\n\u003cp\u003e\u003cimg\n  src=\u0022\/image\/CyberSecurity\/Network_Basic\/Hinh_4.jpg\u0022\n  alt=\u0022Hình 4\u0022\n  loading=\u0022lazy\u0022\n  decoding=\u0022async\u0022\n  class=\u0022full-width\u0022\n\/\u003e\n\n\u003c\/p\u003e\n\u003cp\u003e\u003cimg\n  src=\u0022\/image\/CyberSecurity\/Network_Basic\/Hinh_5.jpg\u0022\n  alt=\u0022Hình 5\u0022\n  loading=\u0022lazy\u0022\n  decoding=\u0022async\u0022\n  class=\u0022full-width\u0022\n\/\u003e\n\n\u003c\/p\u003e\n\u003cp\u003e\u003cimg\n  src=\u0022\/image\/CyberSecurity\/Network_Basic\/Hinh_6.jpg\u0022\n  alt=\u0022Hình 6\u0022\n  loading=\u0022lazy\u0022\n  decoding=\u0022async\u0022\n  class=\u0022full-width\u0022\n\/\u003e\n\n\u003c\/p\u003e\n\u003cp\u003e\u003cimg\n  src=\u0022\/image\/CyberSecurity\/Network_Basic\/Hinh_7.jpg\u0022\n  alt=\u0022Hình 7\u0022\n  loading=\u0022lazy\u0022\n  decoding=\u0022async\u0022\n  class=\u0022full-width\u0022\n\/\u003e\n\n\u003c\/p\u003e\n\u003cp\u003e\u003cimg\n  src=\u0022\/image\/CyberSecurity\/Network_Basic\/Hinh_8.jpg\u0022\n  alt=\u0022Hình 8\u0022\n  loading=\u0022lazy\u0022\n  decoding=\u0022async\u0022\n  class=\u0022full-width\u0022\n\/\u003e\n\n\u003c\/p\u003e\n\u003cp\u003e\u003cimg\n  src=\u0022\/image\/CyberSecurity\/Network_Basic\/Hinh_9.jpg\u0022\n  alt=\u0022Hình 9\u0022\n  loading=\u0022lazy\u0022\n  decoding=\u0022async\u0022\n  class=\u0022full-width\u0022\n\/\u003e\n\n\u003c\/p\u003e\n\u003cp\u003e\u003cimg\n  src=\u0022\/image\/CyberSecurity\/Network_Basic\/Hinh_10.jpg\u0022\n  alt=\u0022Hình 10\u0022\n  loading=\u0022lazy\u0022\n  decoding=\u0022async\u0022\n  class=\u0022full-width\u0022\n\/\u003e\n\n\u003c\/p\u003e\n\u003ch3 id=\u0022thuật-toán-dijkstra\u0022\u003eThuật toán DIJKSTRA\u003c\/h3\u003e\n\u003cp\u003e\u003cimg\n  src=\u0022\/image\/CyberSecurity\/Network_Basic\/Thuat_toan_DIJKSTRA.jfif\u0022\n  alt=\u0022Thuat_toan_DIJKSTRA\u0022\n  loading=\u0022lazy\u0022\n  decoding=\u0022async\u0022\n  class=\u0022full-width\u0022\n\/\u003e\n\n\u003c\/p\u003e",
       "inLanguage": "en-us",
       "isFamilyFriendly": "true",
       "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https:\/\/vinhlin.github.io\/posts\/cybersecurity\/technical\/thehive\/"
+          "@id": "https:\/\/vinhlin.github.io\/posts\/cybersecurity\/network_basic\/"
       },
       "author" : {
           "@type": "Person",
@@ -78,10 +84,10 @@
           "name": "Vincent"
       },
       "copyrightHolder" : "VinhLD",
-      "copyrightYear" : "2024",
-      "dateCreated": "2024-06-15T11:04:17.00Z",
-      "datePublished": "2024-06-15T11:04:17.00Z",
-      "dateModified": "2024-06-15T11:04:17.00Z",
+      "copyrightYear" : "2026",
+      "dateCreated": "2026-07-10T18:22:48.00Z",
+      "datePublished": "2026-07-10T18:22:48.00Z",
+      "dateModified": "2026-07-10T18:22:48.00Z",
       "publisher":{
           "@type":"Organization",
           "name": "VinhLD",
@@ -94,8 +100,8 @@
           }
       },
       "image": "https:\/\/vinhlin.github.io\/assets\/favicon.ico",
-      "url" : "https:\/\/vinhlin.github.io\/posts\/cybersecurity\/technical\/thehive\/",
-      "wordCount" : "144",
+      "url" : "https:\/\/vinhlin.github.io\/posts\/cybersecurity\/network_basic\/",
+      "wordCount" : "40",
       "genre" : [ ],
       "keywords" : [ ]
   }
@@ -142,10 +148,22 @@
 
         
 <section>
-  <h2 class="post">TheHive</h2>
-  <h3 id="roles-in-soc">Roles in SOC</h3>
+  <h2 class="post">Network_Basic</h2>
+  <p>Như trong bài viết <a href="https://blog.vinhld-homelab.io.vn/posts/cybersecurity/mon_hoc_attt/"><code>Mon_hoc_ATTT</code></a></p>
+<p>Để bắt đầu trên con đường <strong>Security</strong>, thì mình phải có kiến thức về <strong>Network</strong></p>
+<p>May mắn là mình lụm được danh sách các kiến thức cơ bản về CCNA.</p>
+<h2 id="ccna-cheatsheet">CCNA Cheatsheet</h2>
 <p><img
-  src="/image/CyberSecurity/TheHive/SOC.jpg"
+  src="/image/CyberSecurity/Network_Basic/Hinh_0.jpg"
+  alt="Hình 0"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p><img
+  src="/image/CyberSecurity/Network_Basic/Hinh_1.jpg"
   alt="Hình 1"
   loading="lazy"
   decoding="async"
@@ -153,41 +171,101 @@
 />
 
 </p>
-<ul>
-<li>Theo mình nghiên cứu và hiểu thì SOC sẽ gồm các quá trình:
-<ul>
-<li>Phát hiện</li>
-<li>Báo cáo</li>
-<li>Xử lý</li>
-</ul>
-</li>
-<li>Công cụ <strong>TheHive</strong> là nằm trong giai đoạn 2.</li>
-</ul>
-<h3 id="ví-dụ-dễ-hiểu-như-sau">Ví dụ dễ hiểu như sau:</h3>
-<ul>
-<li>Khi nhận cảnh báo về một sự kiện nào đó, nhân viên A sẽ làm check và xử lý cơ bản tác vụ này.</li>
-<li>Nếu không xử lý được, hoặc mức độ phức tạp cao thì tạo <strong>Ticket</strong> mô tả và cung cấp đầy đủ thông tin.
-(Giai đoạn này là bước sử dụng <strong>TheHive</strong>).</li>
-<li>Người có trách nhiệm, hoặc chuyên môn cao sẽ nhận ticket này và tiếp tục xử lý.</li>
-</ul>
-<h2 id="thehive">TheHive</h2>
-<ul>
-<li>TheHive cũng có chức năng như <strong>JIRA</strong>, tuy nhiên TheHive là <strong>open-source</strong>.</li>
-<li>Documents:</li>
-</ul>
-<pre tabindex="0"><code>- https://thehive-project.org/
-- http://docs.thehive-project.org/cortex/
-- https://github.com/thehive-project/Cortex/
-- https://blog.thehive-project.org/
-- https://docs.thehive-project.org/
-- https://github.com/TheHive-Project/Cortex
-</code></pre><h3 id="tham-khảo-thehive-với-graylog">Tham khảo TheHive với Graylog</h3>
-<pre tabindex="0"><code>- https://blog.reconinfosec.com/integrating-graylog-with-thehive
-- https://github.com/ReconInfoSec/graylog2thehive
-</code></pre>
+<p><img
+  src="/image/CyberSecurity/Network_Basic/Hinh_2.jpg"
+  alt="Hình 2"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p><img
+  src="/image/CyberSecurity/Network_Basic/Hinh_3.jpg"
+  alt="Hình 3"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p><img
+  src="/image/CyberSecurity/Network_Basic/Hinh_4.jpg"
+  alt="Hình 4"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p><img
+  src="/image/CyberSecurity/Network_Basic/Hinh_5.jpg"
+  alt="Hình 5"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p><img
+  src="/image/CyberSecurity/Network_Basic/Hinh_6.jpg"
+  alt="Hình 6"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p><img
+  src="/image/CyberSecurity/Network_Basic/Hinh_7.jpg"
+  alt="Hình 7"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p><img
+  src="/image/CyberSecurity/Network_Basic/Hinh_8.jpg"
+  alt="Hình 8"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p><img
+  src="/image/CyberSecurity/Network_Basic/Hinh_9.jpg"
+  alt="Hình 9"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p><img
+  src="/image/CyberSecurity/Network_Basic/Hinh_10.jpg"
+  alt="Hình 10"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<h3 id="thuật-toán-dijkstra">Thuật toán DIJKSTRA</h3>
+<p><img
+  src="/image/CyberSecurity/Network_Basic/Thuat_toan_DIJKSTRA.jfif"
+  alt="Thuat_toan_DIJKSTRA"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+
   
   <div class="post-date">
-    <span class="g time">June 15, 2024</span> &#8729;
+    <span class="g time">July 10, 2026</span> &#8729;
     
   </div>
   

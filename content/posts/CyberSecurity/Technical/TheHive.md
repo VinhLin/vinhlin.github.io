@@ -4,6 +4,10 @@ date = 2024-06-15T11:04:17+07:00
 draft = true
 +++
 
+### Roles in SOC
+
+![Hình 1](/image/CyberSecurity/TheHive/SOC.jpg)
+
 - Theo mình nghiên cứu và hiểu thì SOC sẽ gồm các quá trình:
 	- Phát hiện
 	- Báo cáo
@@ -16,7 +20,6 @@ draft = true
 (Giai đoạn này là bước sử dụng **TheHive**).
 - Người có trách nhiệm, hoặc chuyên môn cao sẽ nhận ticket này và tiếp tục xử lý.
 
--------------------------------------------------------------------------------------
 ## TheHive
 - TheHive cũng có chức năng như **JIRA**, tuy nhiên TheHive là **open-source**.
 - Documents:
@@ -34,13 +37,6 @@ draft = true
 - https://blog.reconinfosec.com/integrating-graylog-with-thehive
 - https://github.com/ReconInfoSec/graylog2thehive
 ```
-
-
-
-
-
-
-
 
 
 

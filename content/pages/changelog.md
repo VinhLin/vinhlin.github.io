@@ -157,6 +157,7 @@ STT |		Tiêu đề			|		Mô tả				|
 7   | [Kali_for_ARM][Kali_for_ARM]	| Tổng hợp các Kali-Linux cho Vi xử lý ARM	|
 8   | [Mon_hoc_ATTT][Mon_hoc_ATTT]	| Bài viết về các **Môn học nền tảng cho An toàn thông tin** |
 9   | [OT_Security_Lab][OT_Security_Lab]| Tổng hợp tài liệu về Lab cho **OT Security**	|
+10  | [Network_Basic][Network_Basic]	| Tổng hợp tài liệu về **CCNA Cheatsheet**	|
 
 [News]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/news/
 [Tools]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/tools/
@@ -167,6 +168,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [Kali_for_ARM]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/kali_for_arm/
 [Mon_hoc_ATTT]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/mon_hoc_attt/
 [OT_Security_Lab]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/ot_security_lab/
+[Network_Basic]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/network_basic/
 
 ## Technical
 > Tổng hợp các ghi chú về **Công cụ**, **Kỹ thuật** cũng như **Tư duy** về cả Blue-Team và Red-Team <br>

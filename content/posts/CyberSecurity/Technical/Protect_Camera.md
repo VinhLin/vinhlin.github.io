@@ -87,5 +87,10 @@ Sau khi đọc xong thì mình thấy các nội dung trong đây **không chỉ
 
 ![Hinh_8](/image/CyberSecurity/Protect_Camera/8.jpg)
 
+------------------------------------------------
+## Tham khảo thêm
+- Một luồng chạy, vừa public camera ra ngoài internet, vừa có khả năng bảo mật thiết bị
+- Luồng bảo mật:
 
+![Hình 11](/image/CyberSecurity/Protect_Camera/Hinh_11.jfif)
 

@@ -2,8 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://vinhlin.github.io/posts/cybersecurity/network_basic/</loc>
+    <lastmod>2026-07-10T18:22:48+07:00</lastmod>
+  </url><url>
     <loc>https://vinhlin.github.io/posts/</loc>
-    <lastmod>2026-06-19T17:02:30+07:00</lastmod>
+    <lastmod>2026-07-10T18:22:48+07:00</lastmod>
+  </url><url>
+    <loc>https://vinhlin.github.io/posts/system-devops/safeline/</loc>
+    <lastmod>2026-06-30T09:59:49+07:00</lastmod>
   </url><url>
     <loc>https://vinhlin.github.io/posts/iot/software/usb_sdr/</loc>
     <lastmod>2026-06-19T17:02:30+07:00</lastmod>
@@ -196,9 +202,6 @@
   </url><url>
     <loc>https://vinhlin.github.io/posts/iot/hardware/hdr_wdr/</loc>
     <lastmod>2025-11-10T11:20:22+07:00</lastmod>
-  </url><url>
-    <loc>https://vinhlin.github.io/posts/system-devops/safeline/</loc>
-    <lastmod>2025-11-04T09:59:49+07:00</lastmod>
   </url><url>
     <loc>https://vinhlin.github.io/posts/others/goi_cuoc_internet/</loc>
     <lastmod>2025-10-20T10:46:51+07:00</lastmod>
