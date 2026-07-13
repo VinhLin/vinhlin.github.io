@@ -20,9 +20,17 @@ Thôi thi bây giờ, tận dụng blog để mốt cần gì, lên đây search
 
 ![Hình 2](/image/Others/Basic_Knowledge/Hinh_2.jpg)
 
+### Các loại relay Công nghiệp
+
+![Hình 2-1](/image/Others/Basic_Knowledge/Hinh_2-1.jpg)
+
 ### Bấm dây LAN
 
 ![Hình 3](/image/Others/Basic_Knowledge/Hinh_3.jpg)
+
+## Phân loại các loại cáp Ethernet
+
+![Hình 3-1](/image/Others/Basic_Knowledge/Hinh_3-1.jpg)
 
 ### Bảng chuyển đổi HEX -> DEC
 
@@ -53,7 +61,7 @@ Thôi thi bây giờ, tận dụng blog để mốt cần gì, lên đây search
 
 ![Hình 9](/image/Others/Basic_Knowledge/Hinh_9.webp)
 
-### Các loại relay Công nghiệp
+### Các loại mũi khoan
 
 ![Hình 10](/image/Others/Basic_Knowledge/Hinh_10.jpg)
 

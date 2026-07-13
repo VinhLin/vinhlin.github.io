@@ -38,4 +38,12 @@ May mắn là mình lụm được danh sách các kiến thức cơ bản về 
 
 ![Thuat_toan_DIJKSTRA](/image/CyberSecurity/Network_Basic/Thuat_toan_DIJKSTRA.jfif)
 
+### How Bank Protect Network
+
+![How_bank_protect_network](/image/CyberSecurity/Network_Basic/How_bank_protect_network.jfif)
+
+### IT_Engineering_Paths.jpg
+
+![IT_Engineering_Paths](/image/CyberSecurity/Network_Basic/IT_Engineering_Paths.jpg)
+
 

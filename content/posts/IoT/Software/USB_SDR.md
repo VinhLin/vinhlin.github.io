@@ -65,5 +65,14 @@ https://airspy.com/download/
 
 ![Hinh 6](/image/IoT/USB_SDR/Hinh_6.jpg)
 
+### Wireless
+- Các chuẩn công nghệ không dây:
+
+![Hinh 7](/image/IoT/USB_SDR/Hinh_7.jpg)
+
+- Hacking wireless toolkits:
+
+![Hinh 8](/image/IoT/USB_SDR/Hinh_8.jpg)
+
 
 

@@ -29,3 +29,8 @@ https://www.arubanetworks.com/techdocs/ArubaOS_60/UserGuide/Mesh.php
 
 ![Hình 1](/image/IoT/Mesh_Roaming/Hinh_1.png)
 
+### Ví dụ so sánh giữa Mesh và Roaming:
+
+![Hình 2](/image/IoT/Mesh_Roaming/Hinh_2.jpg)
+
+
