@@ -30,3 +30,31 @@ Một cách khác để check nhanh sức khỏe ac-quy *(dựa trên mức đi�
 
 ![Hình 7](/image/Others/Cong_cu_test_Acquy/Hinh_7.png)
 
+### Test thử với Acquy xe máy
+
+![Hình 8](/image/Others/Cong_cu_test_Acquy/Hinh_8.png)
+
+![Hình 9](/image/Others/Cong_cu_test_Acquy/Hinh_9.png)
+
+![Hình 10](/image/Others/Cong_cu_test_Acquy/Hinh_10.png)
+
+- Vậy là với acquy xe máy, mình có đến 2 cách để test.
+	- Thứ 1: Dựa trên **dung lượng điện năng** (AH)
+	- Thứ 2: Là dựa trên **dòng khởi động** (CCA)
+- Mà công thức tính nhanh CCA lại là:
+```
+CCA (ước tính) = Dung lượng (AH) * 12
+```
+- Vậy setting trên máy sẽ là:
+> `TYPE`: chọn **AGM** *(hoặc STD)* </br>
+> `D-STD`: chọn **CCA** *(hoặc AH)* </br>
+
+- Nếu chọn **CCA** thì nhập số: **50 A**
+- Nếu chọn **AH** thì nhập số: **4 AH**
+- Sau đó nhấn `TEST`, acquy xe máy của mình vẫn còn tốt
+
+![Hình 11](/image/Others/Cong_cu_test_Acquy/Hinh_11.jpg)
+
+![Hình 12](/image/Others/Cong_cu_test_Acquy/Hinh_12.jpg)
+
+

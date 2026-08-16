@@ -1,0 +1,536 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem('theme');
+          var systemDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var theme = stored || (systemDark ? 'dark' : 'light');
+          document.documentElement.setAttribute('data-theme', theme);
+        } catch (e) {
+          document.documentElement.setAttribute('data-theme', 'light');
+        }
+      })();
+    </script>
+    <meta name="author" content="Liste - https://vinhlin.github.io/">
+    <title>Acquy_UPS | VinhLD</title>
+    <meta name="description" content="Technology Blog">
+    <meta property="og:url" content="https://vinhlin.github.io/posts/others/acquy_ups/">
+	<meta property="og:site_name" content="VinhLD">
+	<meta property="og:title" content="Acquy_UPS">
+	<meta property="og:description" content="Mình đang sử dụng bộ UPS này (PRO1201SFC: không có cổng USB).
+Bộ lưu điện UPS PROLINK PRO1201SFC (1200VA) Thông số: &#43; Dung lượng: 1200VA. &#43; Kích thước: 320x130x182mm (Dài x rộng x cao). &#43; Trọng lượng: 8.2kg. &#43; Thông số đầu vào: - Điện áp định mức: 200/208/220/230/240 VAC. - Dải điện áp vào: 110-300VAC. - Tần số định danh: 40 Hz ~ 70 Hz. &#43; Thông số đầu ra: - Điện áp đầu ra: 200/208/220/230/240 VAC ± 1%. - Tần số ở chế độ ắc quy: 50 ± 0.1Hz hoặc 60 ± 0.3Hz. - Thời gian chuyển mạch: 2ms. - Dạng sóng: sóng sin mô phỏng. &#43; Cảnh báo: Âm thanh &#43; màn hình LCD. &#43; Form: Tower. &#43; Ắc quy/Giao tiếp: - Số lượng ắc quy: 2x 12V/8.2Ah. - Thời gian sạc (90%): 4-6 tiếng. TÍNH NĂNG NỔI BẬT: &#43; Super Fast Charging - Công nghệ sạc siêu nhanh. &#43; AVR - Công nghệ tự động điều chỉnh dải điện áp đầu vào. &#43; Dải điện đầu vào rộng 140-300V. &#43; Thời gian chuyển mạch ngắn 2-6ms. &#43; Tự động khởi động lại sau khi có điện. &#43; Dung lượng ắc quy vượt trội 8.2-10 Ah. &#43; Sử dụng bộ vi xử lý mạnh đảm bảo độ tin cậy cao. &#43; Đáp ứng: Desktop, Laptop, Workstation, Printer, Fax, Modem. Tình trạng Dùng cũng một thời gian rồi, bây giờ cái UPS hoạt động không ổn nữa (cúp điện UPS không duy trì được, phát tiếng kêu inh ỏi và hiện led đỏ)">
+	<meta property="og:locale" content="en_us">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2026-08-16T16:01:58+07:00">
+		<meta property="article:modified_time" content="2026-08-16T16:01:58+07:00">
+
+    
+	<meta itemprop="name" content="Acquy_UPS">
+	<meta itemprop="description" content="Mình đang sử dụng bộ UPS này (PRO1201SFC: không có cổng USB).
+Bộ lưu điện UPS PROLINK PRO1201SFC (1200VA) Thông số: &#43; Dung lượng: 1200VA. &#43; Kích thước: 320x130x182mm (Dài x rộng x cao). &#43; Trọng lượng: 8.2kg. &#43; Thông số đầu vào: - Điện áp định mức: 200/208/220/230/240 VAC. - Dải điện áp vào: 110-300VAC. - Tần số định danh: 40 Hz ~ 70 Hz. &#43; Thông số đầu ra: - Điện áp đầu ra: 200/208/220/230/240 VAC ± 1%. - Tần số ở chế độ ắc quy: 50 ± 0.1Hz hoặc 60 ± 0.3Hz. - Thời gian chuyển mạch: 2ms. - Dạng sóng: sóng sin mô phỏng. &#43; Cảnh báo: Âm thanh &#43; màn hình LCD. &#43; Form: Tower. &#43; Ắc quy/Giao tiếp: - Số lượng ắc quy: 2x 12V/8.2Ah. - Thời gian sạc (90%): 4-6 tiếng. TÍNH NĂNG NỔI BẬT: &#43; Super Fast Charging - Công nghệ sạc siêu nhanh. &#43; AVR - Công nghệ tự động điều chỉnh dải điện áp đầu vào. &#43; Dải điện đầu vào rộng 140-300V. &#43; Thời gian chuyển mạch ngắn 2-6ms. &#43; Tự động khởi động lại sau khi có điện. &#43; Dung lượng ắc quy vượt trội 8.2-10 Ah. &#43; Sử dụng bộ vi xử lý mạnh đảm bảo độ tin cậy cao. &#43; Đáp ứng: Desktop, Laptop, Workstation, Printer, Fax, Modem. Tình trạng Dùng cũng một thời gian rồi, bây giờ cái UPS hoạt động không ổn nữa (cúp điện UPS không duy trì được, phát tiếng kêu inh ỏi và hiện led đỏ)">
+	<meta itemprop="datePublished" content="2026-08-16T16:01:58+07:00">
+	<meta itemprop="dateModified" content="2026-08-16T16:01:58+07:00">
+	<meta itemprop="wordCount" content="496">
+    
+    <link rel="canonical" href="https://vinhlin.github.io/posts/others/acquy_ups/">
+    <link rel="icon" href="https://vinhlin.github.io//assets/favicon.ico">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
+    <link rel="alternate" type="application/atom+xml" title="VinhLD" href="https://vinhlin.github.io//atom.xml" />
+    <link rel="alternate" type="application/json" title="VinhLD" href="https://vinhlin.github.io//feed.json" />
+    <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=">
+    
+    
+    <style>*,:after,:before{box-sizing:border-box;padding:0}body{font:1rem/1.5 '-apple-system',BlinkMacSystemFont,avenir next,avenir,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding:2rem;background:#f5f5f5;color:#000}.skip-link{position:absolute;top:-40px;left:0;background:#eee;z-index:100}.skip-link:focus{top:0}h1,h2,h3,h4,h5,strong,b{font-size:inherit;font-weight:600}header{line-height:2;padding-bottom:1.5rem}.link{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-decoration:none}.time{font-variant-numeric:tabular-nums;white-space:nowrap}blockquote{border-left:5px solid #eee;padding-left:1rem;margin:0}a,a:visited{color:inherit}a:hover,a.heading-link{text-decoration:none}pre{padding:.5rem;overflow:auto;overflow-x:scroll;overflow-wrap:normal}code,pre{font-family:San Francisco Mono,Monaco,consolas,lucida console,dejavu sans mono,bitstream vera sans mono,monospace;font-size:normal;font-size:small;background:#eee}code{margin:.1rem;border:none}ul{list-style-type:square}ul,ol{padding-left:1.2rem}.list{line-height:2;list-style-type:none;padding-left:0}.list li{padding-bottom:.1rem}.meta{color:#777}.content{max-width:70ch;margin:0 auto}header{line-height:2;display:flex;justify-content:space-between;padding-bottom:1rem}header a{text-decoration:none}header ul{list-style-type:none;padding:0}header li,header a{display:inline}h2.post{padding-top:.5rem}header ul a:first-child{padding-left:1rem}.nav{height:1px;background:#000;content:'';max-width:10%}.list li{display:flex;align-items:baseline}.list li time{flex:initial}.hr-list{margin-top:0;margin-bottom:0;margin-right:.5rem;margin-left:.5rem;height:1px;border:0;border-bottom:1px dotted #ccc;flex:1 0 1rem}.m,hr{border:0;margin:3rem 0}img{max-width:100%;height:auto}.post-date{margin:5% 0}.index-date{color:#9a9a9a}.animate-blink{animation:opacity 1s infinite;opacity:1}@keyframes opacity{0%{opacity:1}50%{opacity:.5}100%{opacity:0}}.tags{display:flex;justify-content:space-between}.tags ul{padding:0;margin:0}.tags li{display:inline}.avatar{height:120px;width:120px;position:relative;margin:-10px 0 0 15px;float:right;border-radius:50%}table{width:100%;border-collapse:collapse}th,td{border:1px solid #ddd;text-align:left;padding:8px}th{background-color:#f2f2f2} :root{color-scheme:light;--bg:#f5f5f5;--text:#111111;--muted:#777777;--border:#d8d8d8;--soft-border:#e9e9e9;--code-bg:#ececec;--blockquote-border:#d9d9d9;--table-head:#efefef;--button-bg:rgba(255, 255, 255, 0.92);--button-hover:rgba(245, 245, 245, 0.98);--shadow:0 10px 24px rgba(0, 0, 0, 0.12)}html[data-theme=dark]{color-scheme:dark;--bg:#0f1115;--text:#e8eaf0;--muted:#a2a9b3;--border:#2b3038;--soft-border:#20242b;--code-bg:#171b21;--blockquote-border:#2c3440;--table-head:#171b21;--button-bg:rgba(20, 24, 31, 0.92);--button-hover:rgba(28, 33, 42, 0.98);--shadow:0 10px 24px rgba(0, 0, 0, 0.35)}html,body{background:var(--bg);color:var(--text)}body{background:var(--bg);color:var(--text);transition:background .2s ease,color .2s ease}.meta,.index-date{color:var(--muted)}blockquote{border-left-color:var(--blockquote-border)}code,pre{background:var(--code-bg)}th,td{border-color:var(--border)}th{background-color:var(--table-head)}.hr-list{border-bottom-color:var(--border)}.nav,hr{background:var(--text)}.header-actions{display:flex;align-items:center;gap:.9rem}.theme-toggle{display:inline-flex;align-items:center;justify-content:center;width:2.25rem;height:2.25rem;border:1px solid var(--border);border-radius:9999px;background:var(--button-bg);color:var(--text);box-shadow:var(--shadow);cursor:pointer;transition:background .2s ease,transform .2s ease,border-color .2s ease}.theme-toggle:hover{background:var(--button-hover);transform:translateY(-1px)}.theme-toggle__icon{font-size:1rem;line-height:1}#back-to-top{position:fixed;right:1.25rem;bottom:1.25rem;z-index:999;display:inline-flex;align-items:center;justify-content:center;width:2.75rem;height:2.75rem;border:1px solid var(--border);border-radius:9999px;background:var(--button-bg);color:var(--text);box-shadow:var(--shadow);cursor:pointer;opacity:0;visibility:hidden;transform:translateY(10px);transition:opacity .2s ease,transform .2s ease,visibility .2s ease,background .2s ease;backdrop-filter:blur(6px)}#back-to-top:hover{background:var(--button-hover)}#back-to-top.show{opacity:1;visibility:visible;transform:translateY(0)}#back-to-top span{font-size:1.1rem;line-height:1}@media(max-width:640px){.header-actions{gap:.5rem}.theme-toggle{width:2rem;height:2rem}#back-to-top{right:1rem;bottom:1rem;width:2.5rem;height:2.5rem}}</style>
+  
+    
+  
+  
+  <script type="application/ld+json">
+  {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "articleSection": "posts",
+      "name": "Acquy_UPS",
+      "headline": "Acquy_UPS",
+      "alternativeHeadline": "",
+      "description": "\u003cp\u003eMình đang sử dụng bộ UPS này \u003cem\u003e(PRO1201SFC: không có cổng USB)\u003c\/em\u003e.\u003c\/p\u003e\n\u003ch2 id=\u0022bộ-lưu-điện-ups-prolink-pro1201sfc-1200va\u0022\u003e\u003ca href=\u0022https:\/\/shopee.vn\/B%E1%BB%99-l%C6%B0u-%C4%91i%E1%BB%87n-UPS-PROLINK-PRO1201SFC-(1200VA)-c%C3%B4ng-su%E1%BA%A5t-600W-t%C3%ADch-h%E1%BB%A3p-b%E1%BB%99-AVR-s%E1%BA%A1c-si%C3%AAu-nhanh-d%C3%B9ng-cho-PC-Camera-Wifi-i.278127770.6863767439?xptdk=a06c6e92-3f49-40e4-ae05-a8ddbbd69305\u0022\u003eBộ lưu điện UPS PROLINK PRO1201SFC (1200VA)\u003c\/a\u003e\u003c\/h2\u003e\n\u003cul\u003e\n\u003cli\u003eThông số:\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cpre tabindex=\u00220\u0022\u003e\u003ccode\u003e\u002b Dung lượng: 1200VA.\n\u002b Kích thước: 320x130x182mm (Dài x rộng x cao).\n\u002b Trọng lượng: 8.2kg.\n\u002b Thông số đầu vào:\n       - Điện áp định mức: 200\/208\/220\/230\/240 VAC.\n       - Dải điện áp vào: 110-300VAC.\n       - Tần số định danh: 40 Hz ~ 70 Hz.\n\u002b Thông số đầu ra:       \n       - Điện áp đầu ra: 200\/208\/220\/230\/240 VAC ± 1%.\n       - Tần số ở chế độ ắc quy: 50 ± 0.1Hz hoặc 60 ± 0.3Hz.\n       - Thời gian chuyển mạch: 2ms.\n       - Dạng sóng: sóng sin mô phỏng.\n\u002b Cảnh báo: Âm thanh \u002b màn hình LCD.\n\u002b Form: Tower.\n\u002b Ắc quy\/Giao tiếp:\n       - Số lượng ắc quy: 2x 12V\/8.2Ah.\n       - Thời gian sạc (90%): 4-6 tiếng.\n\u003c\/code\u003e\u003c\/pre\u003e\u003cul\u003e\n\u003cli\u003eTÍNH NĂNG NỔI BẬT:\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cpre tabindex=\u00220\u0022\u003e\u003ccode\u003e\u002b Super Fast Charging - Công nghệ sạc siêu nhanh.\n\u002b AVR - Công nghệ tự động điều chỉnh dải điện áp đầu vào.\n\u002b Dải điện đầu vào rộng 140-300V.\n\u002b Thời gian chuyển mạch ngắn 2-6ms.\n\u002b Tự động khởi động lại sau khi có điện.\n\u002b Dung lượng ắc quy vượt trội 8.2-10 Ah.\n\u002b Sử dụng bộ vi xử lý mạnh đảm bảo độ tin cậy cao.\n\u002b Đáp ứng: Desktop, Laptop, Workstation, Printer, Fax, Modem.\n\u003c\/code\u003e\u003c\/pre\u003e\u003ch2 id=\u0022tình-trạng\u0022\u003eTình trạng\u003c\/h2\u003e\n\u003cul\u003e\n\u003cli\u003eDùng cũng một thời gian rồi, bây giờ cái UPS hoạt động không ổn nữa \u003cem\u003e(cúp điện UPS không duy trì được, phát tiếng kêu inh ỏi và hiện led đỏ)\u003c\/em\u003e\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cp\u003e\u003cimg\n  src=\u0022\/image\/Others\/Acquy_UPS\/Hinh_1.jpg\u0022\n  alt=\u0022Hình 1\u0022\n  loading=\u0022lazy\u0022\n  decoding=\u0022async\u0022\n  class=\u0022full-width\u0022\n\/\u003e\n\n\u003c\/p\u003e",
+      "inLanguage": "en-us",
+      "isFamilyFriendly": "true",
+      "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https:\/\/vinhlin.github.io\/posts\/others\/acquy_ups\/"
+      },
+      "author" : {
+          "@type": "Person",
+          "name": "Vincent"
+      },
+      "creator" : {
+          "@type": "Person",
+          "name": "Vincent"
+      },
+      "accountablePerson" : {
+          "@type": "Person",
+          "name": "Vincent"
+      },
+      "copyrightHolder" : "VinhLD",
+      "copyrightYear" : "2026",
+      "dateCreated": "2026-08-16T16:01:58.00Z",
+      "datePublished": "2026-08-16T16:01:58.00Z",
+      "dateModified": "2026-08-16T16:01:58.00Z",
+      "publisher":{
+          "@type":"Organization",
+          "name": "VinhLD",
+          "url": "https:\/\/vinhlin.github.io\/",
+          "logo": {
+              "@type": "ImageObject",
+              "url": "https:\/\/vinhlin.github.io\/assets\/favicon.ico",
+              "width":"32",
+              "height":"32"
+          }
+      },
+      "image": "https:\/\/vinhlin.github.io\/assets\/favicon.ico",
+      "url" : "https:\/\/vinhlin.github.io\/posts\/others\/acquy_ups\/",
+      "wordCount" : "496",
+      "genre" : [ ],
+      "keywords" : [ ]
+  }
+  </script>
+  
+  
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to main</a>
+    <main id="main">
+      <div class="content">
+        <header>
+<p style="padding: 0;margin: 0;">
+  <a href="/">
+    <b>VinhLD</b>
+    <span class="text-stone-500 animate-blink">▮</span>
+  </a>
+</p>
+<div class="header-actions">
+  <ul style="padding: 0;margin: 0;">
+    
+    
+    <li class="">
+      <a href="/changelog/"><span>Changelog</span></a>
+      
+    <li class="">
+      <a href="/posts/"><span>Post</span></a>
+      
+    <li class="">
+      <a href="/search/"><span>Search</span></a>
+      
+    <li class="">
+      <a href="/about/"><span>About</span></a>
+      
+    </li>
+  </ul>
+  <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+    <span class="theme-toggle__icon" aria-hidden="true">◐</span>
+  </button>
+</div>
+</header>
+<hr class="hr-list" style="padding: 0;margin: 0;">
+
+        
+<section>
+  <h2 class="post">Acquy_UPS</h2>
+  <p>Mình đang sử dụng bộ UPS này <em>(PRO1201SFC: không có cổng USB)</em>.</p>
+<h2 id="bộ-lưu-điện-ups-prolink-pro1201sfc-1200va"><a href="https://shopee.vn/B%E1%BB%99-l%C6%B0u-%C4%91i%E1%BB%87n-UPS-PROLINK-PRO1201SFC-(1200VA)-c%C3%B4ng-su%E1%BA%A5t-600W-t%C3%ADch-h%E1%BB%A3p-b%E1%BB%99-AVR-s%E1%BA%A1c-si%C3%AAu-nhanh-d%C3%B9ng-cho-PC-Camera-Wifi-i.278127770.6863767439?xptdk=a06c6e92-3f49-40e4-ae05-a8ddbbd69305">Bộ lưu điện UPS PROLINK PRO1201SFC (1200VA)</a></h2>
+<ul>
+<li>Thông số:</li>
+</ul>
+<pre tabindex="0"><code>+ Dung lượng: 1200VA.
++ Kích thước: 320x130x182mm (Dài x rộng x cao).
++ Trọng lượng: 8.2kg.
++ Thông số đầu vào:
+       - Điện áp định mức: 200/208/220/230/240 VAC.
+       - Dải điện áp vào: 110-300VAC.
+       - Tần số định danh: 40 Hz ~ 70 Hz.
++ Thông số đầu ra:       
+       - Điện áp đầu ra: 200/208/220/230/240 VAC ± 1%.
+       - Tần số ở chế độ ắc quy: 50 ± 0.1Hz hoặc 60 ± 0.3Hz.
+       - Thời gian chuyển mạch: 2ms.
+       - Dạng sóng: sóng sin mô phỏng.
++ Cảnh báo: Âm thanh + màn hình LCD.
++ Form: Tower.
++ Ắc quy/Giao tiếp:
+       - Số lượng ắc quy: 2x 12V/8.2Ah.
+       - Thời gian sạc (90%): 4-6 tiếng.
+</code></pre><ul>
+<li>TÍNH NĂNG NỔI BẬT:</li>
+</ul>
+<pre tabindex="0"><code>+ Super Fast Charging - Công nghệ sạc siêu nhanh.
++ AVR - Công nghệ tự động điều chỉnh dải điện áp đầu vào.
++ Dải điện đầu vào rộng 140-300V.
++ Thời gian chuyển mạch ngắn 2-6ms.
++ Tự động khởi động lại sau khi có điện.
++ Dung lượng ắc quy vượt trội 8.2-10 Ah.
++ Sử dụng bộ vi xử lý mạnh đảm bảo độ tin cậy cao.
++ Đáp ứng: Desktop, Laptop, Workstation, Printer, Fax, Modem.
+</code></pre><h2 id="tình-trạng">Tình trạng</h2>
+<ul>
+<li>Dùng cũng một thời gian rồi, bây giờ cái UPS hoạt động không ổn nữa <em>(cúp điện UPS không duy trì được, phát tiếng kêu inh ỏi và hiện led đỏ)</em></li>
+</ul>
+<p><img
+  src="/image/Others/Acquy_UPS/Hinh_1.jpg"
+  alt="Hình 1"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<ul>
+<li>Lên mạng search thông tin về tình trạng:</li>
+</ul>
+<pre tabindex="0"><code>https://upschinhhang.com/tin-tuc/huong-dan-su-dung-bo-luu-dien-prolink-pro1201sfcu-755.html
+https://www.youtube.com/shorts/u42ROVGxAnc
+</code></pre><p><img
+  src="/image/Others/Acquy_UPS/Hinh_2.webp"
+  alt="Hình 2"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p><img
+  src="/image/Others/Acquy_UPS/Hinh_3.png"
+  alt="Hình 3"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p><img
+  src="/image/Others/Acquy_UPS/Hinh_4.png"
+  alt="Hình 4"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<blockquote>
+<p><em><strong>Vậy là cũng có chút thông tin, nhưng mình nghiêng về hướng sự cố về acquy</strong></em> </br></p>
+</blockquote>
+<h2 id="kiểm-tra">Kiểm tra</h2>
+<ul>
+<li>Tiến hành tháo bộ UPS ra.</li>
+</ul>
+<p><img
+  src="/image/Others/Acquy_UPS/Hinh_5.jpg"
+  alt="Hình 5"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p><img
+  src="/image/Others/Acquy_UPS/Hinh_6.jpg"
+  alt="Hình 6"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<h3 id="kiểm-tra-sức-khỏe-acquy">Kiểm tra sức khỏe Acquy</h3>
+<ul>
+<li>Mình có <a href="https://blog.vinhld-homelab.io.vn/posts/others/cong_cu_test_acquy/">công cụ để đo acquy</a>, nhưng cần search thêm về loại acquy mà UPS đang dùng.</li>
+</ul>
+<blockquote>
+<p><em>Vì <strong>Acquy cho UPS</strong> sẽ khác với <strong>Acquy cho động cơ</strong>, nên seting trên máy sẽ khác đôi chút.</em> </br></p>
+</blockquote>
+<p><img
+  src="/image/Others/Acquy_UPS/Hinh_7.png"
+  alt="Hình 7"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p><img
+  src="/image/Others/Acquy_UPS/Hinh_8.png"
+  alt="Hình 8"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p><img
+  src="/image/Others/Acquy_UPS/Hinh_9.png"
+  alt="Hình 9"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<ul>
+<li>Vậy là để check cho đúng, thì mình cần thiết lập cho máy là:</li>
+</ul>
+<blockquote>
+<p><code>TYPE</code>: chọn <strong>AGM</strong> <em>(hoặc GEL)</em> </br>
+<code>D-STD</code>: Chọn đến dòng <strong>AH</strong> <em>(Nhập số là <code>8 AH</code>)</em> </br>
+Sau đó nhấn <code>TESST</code> </br></p>
+</blockquote>
+<p><img
+  src="/image/Others/Acquy_UPS/Hinh_10.jpg"
+  alt="Hình 10"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p><img
+  src="/image/Others/Acquy_UPS/Hinh_11.jpg"
+  alt="Hình 11"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p><strong>Vậy là đoán đúng, nguyên nhân là do cái bình Acquy</strong></p>
+<h3 id="thắc-mắc">Thắc mắc</h3>
+<ul>
+<li>Nhưng có điều mình thắc mắc là <strong>Tại sao bình yếu mà đo nối tiếp 2 bình, vẫn được hơn 24VDC?</strong></li>
+</ul>
+<p><img
+  src="/image/Others/Acquy_UPS/Hinh_12.jpg"
+  alt="Hình 12"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<ul>
+<li>Nhờ AI giải đáp, và mình có kết quả:</li>
+</ul>
+<p><img
+  src="/image/Others/Acquy_UPS/Hinh_13.png"
+  alt="Hình 13"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p><img
+  src="/image/Others/Acquy_UPS/Hinh_14.png"
+  alt="Hình 14"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<h3 id="thay-thế-acquy">Thay thế Acquy</h3>
+<ul>
+<li>Việc lựa chọn acquy, mình cần phải chọn <strong>loại dành cho UPS</strong>, <strong>đúng kích thước</strong> và <strong>đúng dung lượng</strong>.</li>
+<li>Chọn được <a href="https://s.shopee.vn/AAGMMW78YV">sản phẩm này</a>:</li>
+</ul>
+<pre tabindex="0"><code>Bình ắc quy 12VDC - 9AH
+Dài x Rộng x Cao x TC: 151 x 66 x 94 x 100
+</code></pre><ul>
+<li>Đặt hàng, mình tiến hành kiểm tra lại sức khỏe acquy.</li>
+</ul>
+<p><img
+  src="/image/Others/Acquy_UPS/Hinh_15.jpg"
+  alt="Hình 15"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p><img
+  src="/image/Others/Acquy_UPS/Hinh_16.jpg"
+  alt="Hình 16"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<ul>
+<li>Ổn áp, lắp lại vào UPS. Mỗi thứ đều OK và đã học thêm được một kỹ năng khác. =]]</li>
+</ul>
+<h2 id="tham-khảo-thêm-về-ups-và-ats">Tham khảo thêm về UPS và ATS</h2>
+<pre tabindex="0"><code>https://atdc.com.vn/giai-phap/giai-phap-du-phong-nguon-dien-trong-data-center-188.html
+https://thietbidienkv.vn/ups-bo-luu-dien-la-gi-ats-bo-chuyen-mach-la-gi/
+https://munhean.vn/ats-la-gi-tim-hieu-ve-thiet-bi-chuyen-nguon-tu-dong.html
+https://banlinhkien.com/minhdt-bo-dieu-khien-ats-control-v3.0-p12117736.html
+</code></pre><p><img
+  src="/image/Others/Acquy_UPS/Hinh_17.png"
+  alt="Hình 17"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p><img
+  src="/image/Others/Acquy_UPS/Hinh_18.png"
+  alt="Hình 18"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p><img
+  src="/image/Others/Acquy_UPS/Hinh_19.png"
+  alt="Hình 19"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p><img
+  src="/image/Others/Acquy_UPS/Hinh_20.png"
+  alt="Hình 20"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+
+  
+  <div class="post-date">
+    <span class="g time">August 16, 2026</span> &#8729;
+    
+  </div>
+  
+</section>
+
+
+
+
+        <footer>
+  <p>© 2026</p>
+  
+  <button id="backToTop" onclick="topFunction()" title="Go to top">
+    <span class="arrow">↑</span> Back To Top
+  </button>
+
+  <div id="google_translate_element" style="margin-top: 20px; text-align: center;"></div>
+</footer>
+
+<style>
+   
+  #backToTop {
+    display: none; 
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 999;
+    background: #fff;
+    color: #222;
+    border: 1px solid #eee;
+    padding: 8px 15px;
+    border-radius: 4px;  
+    cursor: pointer;
+    font-size: 14px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    align-items: center;
+    gap: 5px;
+  }
+  #backToTop:hover {
+    background: #fafafa;
+    border-color: #ccc;
+  }
+</style>
+
+<script>
+  var mybutton = document.getElementById("backToTop");
+
+  
+  window.addEventListener('scroll', function() {
+    if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+      mybutton.style.display = "flex";
+    } else {
+      mybutton.style.display = "none";
+    }
+  });
+
+  function topFunction() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
+      </div>
+    </main>
+    
+<button id="back-to-top" type="button" aria-label="Back to top" title="Back to top">
+  <span aria-hidden="true">↑</span>
+</button>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const root = document.documentElement;
+    const toggle = document.getElementById('theme-toggle');
+    const backToTop = document.getElementById('back-to-top');
+
+    const setTheme = (theme) => {
+      root.setAttribute('data-theme', theme);
+      try {
+        localStorage.setItem('theme', theme);
+      } catch (e) {}
+      if (toggle) {
+        toggle.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+        toggle.setAttribute('title', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+      }
+    };
+
+    if (toggle) {
+      toggle.addEventListener('click', function () {
+        const current = root.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+        setTheme(current === 'dark' ? 'light' : 'dark');
+      });
+
+      const initial = root.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+      setTheme(initial);
+    }
+
+    if (backToTop) {
+      const toggleButton = () => {
+        if (window.scrollY > 320) {
+          backToTop.classList.add('show');
+        } else {
+          backToTop.classList.remove('show');
+        }
+      };
+
+      window.addEventListener('scroll', toggleButton, { passive: true });
+      toggleButton();
+
+      backToTop.addEventListener('click', function () {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    }
+  });
+</script>
+
+  </body>
+</html>

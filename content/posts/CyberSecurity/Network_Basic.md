@@ -42,7 +42,7 @@ May mắn là mình lụm được danh sách các kiến thức cơ bản về 
 
 ![How_bank_protect_network](/image/CyberSecurity/Network_Basic/How_bank_protect_network.jfif)
 
-### IT_Engineering_Paths.jpg
+### IT Engineering Paths
 
 ![IT_Engineering_Paths](/image/CyberSecurity/Network_Basic/IT_Engineering_Paths.jpg)
 

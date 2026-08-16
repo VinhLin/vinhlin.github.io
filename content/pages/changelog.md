@@ -313,6 +313,7 @@ STT |		Tiêu đề			|		Mô tả				|
 24  | [Basic_Knowledge][Basic_Knowledge]| Tổng hợp các kiến thức cơ bản			|
 25  | [But_do_pH][But_do_pH]		| Thông tin về **bút đo độ pH**			|
 26  | [Samsung_Switch][Samsung_Switch]	| Ứng dụng đồng bộ dữ liệu cho thiết bị Samsung	|
+27  | [Acquy_UPS][Acquy_UPS]		| Ghi chú lại về loại, cách test và thay thế acquy cho UPS |
 
 [Ngoai_ngu]: https://blog.vinhld-homelab.io.vn/posts/others/goc_nhin_ve_ngoai_ngu/
 [Hardware_Hacking]: https://blog.vinhld-homelab.io.vn/posts/others/suy_nghi_ve_hardware_hacking/
@@ -340,6 +341,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [Basic_Knowledge]: https://blog.vinhld-homelab.io.vn/posts/others/basic_knowledge/
 [But_do_pH]: https://blog.vinhld-homelab.io.vn/posts/others/but_do_ph/
 [Samsung_Switch]: https://blog.vinhld-homelab.io.vn/posts/others/samsung_switch/
+[Acquy_UPS]: https://blog.vinhld-homelab.io.vn/posts/others/acquy_ups/
 
 ## AI
 
