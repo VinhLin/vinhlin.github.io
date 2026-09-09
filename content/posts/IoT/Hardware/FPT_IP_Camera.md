@@ -9,7 +9,7 @@ Bữa mình mua được một chiếc **Camera IP của FPT**, hàng **second-h
 ![Hình 1](/image/IoT/FPT_IP_Camera/Hinh_1.jpg)
 
 - Camera mà mình mua có mã là **FPT Camera IQ 4S**
-- Theo trên mạng thì đây là một dòng thuộc **Cloud Camera**
+- Theo trên mạng thì đây là một dòng thuộc **Cloud Camera** *(Một video ngắn nói về [Cloud Camera](https://www.youtube.com/watch?v=X2cahs4Ld7k&list=PLUD8HYMnoROxPqDsDzyTagU3l6V1CbbAy&index=18))*
 
 ![Hình 2](/image/IoT/FPT_IP_Camera/Hinh_2.jpg)
 

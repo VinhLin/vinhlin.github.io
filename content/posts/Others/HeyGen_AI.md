@@ -28,7 +28,7 @@ Các tính năng của **HeyGen**:
 
 Mình đã test thử:
 
-![HeyGen_Video](/image/Others/HeyGen_Video.jpg)
+![HeyGen_Video](/image/Others/HeyGen_AI/HeyGen_Video.jpg)
 
 Một số API như **List language**: https://docs.heygen.com/reference/list-supported-languages
 
@@ -76,6 +76,9 @@ Timeline (GSAP) → Render → MP4
 * Convert docs / data → video
 * Agent workflow (AI → video output)
 
+## Cập nhật ngày `16/8/2026`: Đã test và chạy thành công
+- Mình đã dùng **OpenClaw** + **Hyperframes** để tạo ra một video ngắn. Đã tạo ra thành công.
+- Chi phí trong quá trình làm video là **hơn 2$**.
 
-
+![Result](/image/Others/HeyGen_AI/Test-Hyperframes.png)
 

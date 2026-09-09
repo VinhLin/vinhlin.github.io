@@ -31,8 +31,8 @@ Mình vẫn sẽ tiếp tục củng cố, trau dồi để *làm đầy roadmap
 ### Về lập trình:
 - Script: **Bash-script** và **Powershell**.
 - Do yếu tố cốt lõi là về **Hardware/IoT** nên sẽ tập trung nhiều về **lập trình nhúng**.
-- Ưu tiên dùng **Rust-lang** cho lập trình **firmware MCU**, **nhúng linux (ARM)** và các **ứng dụng console trên Linux, Windows**.
-- Dùng **lập trình Aruduino** với các dự án cần **hoàn thành nhanh**, **dễ bảo trì**, và **thư viện hỗ trợ nhiều**.
+- Ưu tiên dùng **Rust-lang** cho lập trình **nhúng linux (ARM)** và các **ứng dụng console trên Linux, Windows**.
+- Dùng **lập trình Aruduino** *(PlatformIO Framework)* cho lập trình **firmware MCU** với các dự án cần **hoàn thành nhanh**, **dễ bảo trì**, và **thư viện hỗ trợ nhiều**.
 > Ngôn ngữ **Rust là trọng tâm**, lập trình **Arduino là nền tảng**. </br>
 
 ![Mindmap](/image/Mindmap.png)

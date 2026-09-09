@@ -2,8 +2,6 @@
 
 ### [Malware](https://www.youtube.com/watch?v=rXCQHEa5BOY&list=PLUD8HYMnoROxPqDsDzyTagU3l6V1CbbAy&index=14)
 
-### [Cloud Camera](https://www.youtube.com/watch?v=X2cahs4Ld7k&list=PLUD8HYMnoROxPqDsDzyTagU3l6V1CbbAy&index=17)
-
 ### WearOS
 ```
 https://www.instructables.com/MutantW-V2-DIY-ESP32-S3-Smartwatch-That-You-Can-We/

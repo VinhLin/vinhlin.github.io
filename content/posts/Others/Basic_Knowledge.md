@@ -69,4 +69,18 @@ Thôi thi bây giờ, tận dụng blog để mốt cần gì, lên đây search
 
 ![Hình 11](/image/Others/Basic_Knowledge/Hinh_11.jpg)
 
+### Cấu trúc của QR-Code
+
+![Hình 12](/image/Others/Basic_Knowledge/Hinh_12.jpg)
+
+### Tổng hợp các mạch điện tử cơ bản *(Basic Electronic)*
+
+![Hình 13-1](/image/Others/Basic_Knowledge/Hinh_13-1.jpg)
+
+![Hình 13-2](/image/Others/Basic_Knowledge/Hinh_13-2.jpg)
+
+![Hình 13-3](/image/Others/Basic_Knowledge/Hinh_13-3.jpg)
+
+![Hình 13-4](/image/Others/Basic_Knowledge/Hinh_13-4.jpg)
+
 

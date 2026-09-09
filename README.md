@@ -134,6 +134,7 @@ hugo new posts/IoT/Hardware/Solar_Led_Teardown.md
 hugo new posts/IoT/Hardware/May_do_buc_xa.md
 hugo new posts/IoT/Hardware/Cac_dong_ESP32.md
 hugo new posts/IoT/Hardware/FPT_IP_Camera.md
+hugo new posts/IoT/Hardware/Ezviz_ONVIF.md
 ```
 - Software
 ```

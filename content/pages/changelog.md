@@ -44,6 +44,7 @@ STT |		Tiêu đề			|		Mô tả				|
 32  | [May_do_buc_xa][May_do_buc_xa]	| Ghi chú về **máy đo bức xạ**			|
 33  | [Cac_dong_ESP32][Cac_dong_ESP32]	| Ghi chú lại về **các dòng MCU ESP32**		|
 34  | [FPT_IP_Camera][FPT_IP_Camera]	| Ghi chú thêm về thông tin của **FPT-Camera**	|
+35  | [Ezviz_ONVIF][Ezviz_ONVIF]	| Ghi chú về các dòng camera Ezviz hỗ trợ ONVIF	|
 
 [UNIHIKER]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/unihiker/
 [ESD]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/esd/
@@ -79,6 +80,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [May_do_buc_xa]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/may_do_buc_xa/
 [Cac_dong_ESP32]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/cac_dong_esp32/
 [FPT_IP_Camera]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/fpt_ip_camera/
+[Ezviz_ONVIF]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/ezviz_onvif/
 
 ## ***SOFTWARE***
 
