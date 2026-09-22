@@ -16,6 +16,21 @@
 
     
     {
+      "id": "2e6ce679a1071b9d97e9ce4a2d0ef08dd700e123",
+      "title": "TFCard_Teardowns",
+      "summary": "",
+      "content_text": "Làm về camera nên đụng nhiều về thẻ nhớ.\nHôm bữa test thiết bị, vô tình gặp một thẻ nhớ bị hư (máy tính không nhận thẻ)\nTiện luôn, mình thử re-search teardowns của thẻ nhớ (TFCard)\nTài liệu tham khảo Datasheet TFCard Link tham khảo: https://rossmanngroup.com/videos/microsd-card-data-recovery-guide https://www.lcsc.com/product-detail/SD-Card-Connectors_SHOU-HAN-TF-PUSH_C393941.html Hình ảnh Pinout/Teardowns của TFCard ",
+      "content_html": "\u003cp\u003eLàm về camera nên đụng nhiều về thẻ nhớ.\u003c/p\u003e\n\u003cp\u003eHôm bữa test thiết bị, vô tình gặp một thẻ nhớ bị hư \u003cem\u003e(máy tính không nhận thẻ)\u003c/em\u003e\u003c/p\u003e\n\u003cp\u003eTiện luôn, mình thử re-search \u003cstrong\u003eteardowns\u003c/strong\u003e của thẻ nhớ \u003cem\u003e(TFCard)\u003c/em\u003e\u003c/p\u003e\n\u003ch3 id=\"tài-liệu-tham-khảo\"\u003eTài liệu tham khảo\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"/docs/Datasheet_TFCard_Push.pdf\"\u003eDatasheet TFCard\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003eLink tham khảo:\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003ehttps://rossmanngroup.com/videos/microsd-card-data-recovery-guide\nhttps://www.lcsc.com/product-detail/SD-Card-Connectors_SHOU-HAN-TF-PUSH_C393941.html\n\u003c/code\u003e\u003c/pre\u003e\u003ch3 id=\"hình-ảnh-pinoutteardowns-của-tfcard\"\u003eHình ảnh Pinout/Teardowns của TFCard\u003c/h3\u003e\n\u003cp\u003e\u003cimg\n  src=\"/mage/IoT/TFCard_Teardowns/Hinh_1.jpg\"\n  alt=\"Hình 1\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003cp\u003e\u003cimg\n  src=\"/mage/IoT/TFCard_Teardowns/Hinh_2.jpg\"\n  alt=\"Hình 2\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n\u003cp\u003e\u003cimg\n  src=\"/mage/IoT/TFCard_Teardowns/Hinh_3.png\"\n  alt=\"Hình 3\"\n  loading=\"lazy\"\n  decoding=\"async\"\n  class=\"full-width\"\n/\u003e\n\n\u003c/p\u003e\n",
+      "url": "https://vinhlin.github.io/posts/iot/hardware/tfcard_teardowns/",
+      "date_published": "22096-22-09T959:2222:00+07:00",
+      "date_modified": "22096-22-09T959:2222:00+07:00",
+      "author": {
+        "name": "Vincent",
+        "url": "https://vinhlin.github.io/"
+      }
+    },
+    
+    {
       "id": "32469ac37c80aea4288e81b8da71f45d77ee26b6",
       "title": "Ezviz_ONVIF",
       "summary": "",

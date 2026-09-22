@@ -45,6 +45,7 @@ STT |		Tiêu đề			|		Mô tả				|
 33  | [Cac_dong_ESP32][Cac_dong_ESP32]	| Ghi chú lại về **các dòng MCU ESP32**		|
 34  | [FPT_IP_Camera][FPT_IP_Camera]	| Ghi chú thêm về thông tin của **FPT-Camera**	|
 35  | [Ezviz_ONVIF][Ezviz_ONVIF]	| Ghi chú về các dòng camera Ezviz hỗ trợ ONVIF	|
+36  | [TFCard_Teardowns][TFCard_Teardowns] | Ghi chú **TFCard Teardowns**		|
 
 [UNIHIKER]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/unihiker/
 [ESD]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/esd/
@@ -81,6 +82,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [Cac_dong_ESP32]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/cac_dong_esp32/
 [FPT_IP_Camera]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/fpt_ip_camera/
 [Ezviz_ONVIF]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/ezviz_onvif/
+[TFCard_Teardowns]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/tfcard_teardowns/
 
 ## ***SOFTWARE***
 

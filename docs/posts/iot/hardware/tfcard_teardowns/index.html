@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="en-us">
   <head>
-	<meta name="generator" content="Hugo 0.163.2">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,25 +17,32 @@
       })();
     </script>
     <meta name="author" content="Liste - https://vinhlin.github.io/">
-    <title>VinhLD</title>
+    <title>TFCard_Teardowns | VinhLD</title>
     <meta name="description" content="Technology Blog">
-    <meta property="og:url" content="https://vinhlin.github.io/">
+    <meta property="og:url" content="https://vinhlin.github.io/posts/iot/hardware/tfcard_teardowns/">
 	<meta property="og:site_name" content="VinhLD">
-	<meta property="og:title" content="VinhLD">
-	<meta property="og:description" content="Hi there! 👋 Là một người có thói quen hay ghi chú những điều hay ho về IoT/Điện tử (nói riêng) và Công nghệ (nói chung).
-Tình cờ thế nào mình biết được có thể host một trang web (free) bằng Github Page, kết hợp với framework Hugo để tạo web tĩnh. Và thế là trang blog này ra đời. (Bài viết đầu tiên được khởi tạo là vào đúng ngày cá tháng tư 1/4/2024) =]]">
+	<meta property="og:title" content="TFCard_Teardowns">
+	<meta property="og:description" content="Làm về camera nên đụng nhiều về thẻ nhớ.
+Hôm bữa test thiết bị, vô tình gặp một thẻ nhớ bị hư (máy tính không nhận thẻ)
+Tiện luôn, mình thử re-search teardowns của thẻ nhớ (TFCard)
+Tài liệu tham khảo Datasheet TFCard Link tham khảo: https://rossmanngroup.com/videos/microsd-card-data-recovery-guide https://www.lcsc.com/product-detail/SD-Card-Connectors_SHOU-HAN-TF-PUSH_C393941.html Hình ảnh Pinout/Teardowns của TFCard">
 	<meta property="og:locale" content="en_us">
-	<meta property="og:type" content="website">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2026-09-22T16:59:53+07:00">
+		<meta property="article:modified_time" content="2026-09-22T16:59:53+07:00">
 
     
-	<meta itemprop="name" content="VinhLD">
-	<meta itemprop="description" content="Hi there! 👋 Là một người có thói quen hay ghi chú những điều hay ho về IoT/Điện tử (nói riêng) và Công nghệ (nói chung).
-Tình cờ thế nào mình biết được có thể host một trang web (free) bằng Github Page, kết hợp với framework Hugo để tạo web tĩnh. Và thế là trang blog này ra đời. (Bài viết đầu tiên được khởi tạo là vào đúng ngày cá tháng tư 1/4/2024) =]]">
-	<meta itemprop="datePublished" content="2024-07-06T15:21:33+07:00">
-	<meta itemprop="dateModified" content="2024-07-06T15:21:33+07:00">
-	<meta itemprop="wordCount" content="500">
+	<meta itemprop="name" content="TFCard_Teardowns">
+	<meta itemprop="description" content="Làm về camera nên đụng nhiều về thẻ nhớ.
+Hôm bữa test thiết bị, vô tình gặp một thẻ nhớ bị hư (máy tính không nhận thẻ)
+Tiện luôn, mình thử re-search teardowns của thẻ nhớ (TFCard)
+Tài liệu tham khảo Datasheet TFCard Link tham khảo: https://rossmanngroup.com/videos/microsd-card-data-recovery-guide https://www.lcsc.com/product-detail/SD-Card-Connectors_SHOU-HAN-TF-PUSH_C393941.html Hình ảnh Pinout/Teardowns của TFCard">
+	<meta itemprop="datePublished" content="2026-09-22T16:59:53+07:00">
+	<meta itemprop="dateModified" content="2026-09-22T16:59:53+07:00">
+	<meta itemprop="wordCount" content="53">
     
-    <link rel="canonical" href="https://vinhlin.github.io/">
+    <link rel="canonical" href="https://vinhlin.github.io/posts/iot/hardware/tfcard_teardowns/">
     <link rel="icon" href="https://vinhlin.github.io//assets/favicon.ico">
     <link rel="dns-prefetch" href="https://www.google-analytics.com">
     <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
@@ -47,15 +53,57 @@ Tình cờ thế nào mình biết được có thể host một trang web (free
     
     <style>*,:after,:before{box-sizing:border-box;padding:0}body{font:1rem/1.5 '-apple-system',BlinkMacSystemFont,avenir next,avenir,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding:2rem;background:#f5f5f5;color:#000}.skip-link{position:absolute;top:-40px;left:0;background:#eee;z-index:100}.skip-link:focus{top:0}h1,h2,h3,h4,h5,strong,b{font-size:inherit;font-weight:600}header{line-height:2;padding-bottom:1.5rem}.link{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-decoration:none}.time{font-variant-numeric:tabular-nums;white-space:nowrap}blockquote{border-left:5px solid #eee;padding-left:1rem;margin:0}a,a:visited{color:inherit}a:hover,a.heading-link{text-decoration:none}pre{padding:.5rem;overflow:auto;overflow-x:scroll;overflow-wrap:normal}code,pre{font-family:San Francisco Mono,Monaco,consolas,lucida console,dejavu sans mono,bitstream vera sans mono,monospace;font-size:normal;font-size:small;background:#eee}code{margin:.1rem;border:none}ul{list-style-type:square}ul,ol{padding-left:1.2rem}.list{line-height:2;list-style-type:none;padding-left:0}.list li{padding-bottom:.1rem}.meta{color:#777}.content{max-width:70ch;margin:0 auto}header{line-height:2;display:flex;justify-content:space-between;padding-bottom:1rem}header a{text-decoration:none}header ul{list-style-type:none;padding:0}header li,header a{display:inline}h2.post{padding-top:.5rem}header ul a:first-child{padding-left:1rem}.nav{height:1px;background:#000;content:'';max-width:10%}.list li{display:flex;align-items:baseline}.list li time{flex:initial}.hr-list{margin-top:0;margin-bottom:0;margin-right:.5rem;margin-left:.5rem;height:1px;border:0;border-bottom:1px dotted #ccc;flex:1 0 1rem}.m,hr{border:0;margin:3rem 0}img{max-width:100%;height:auto}.post-date{margin:5% 0}.index-date{color:#9a9a9a}.animate-blink{animation:opacity 1s infinite;opacity:1}@keyframes opacity{0%{opacity:1}50%{opacity:.5}100%{opacity:0}}.tags{display:flex;justify-content:space-between}.tags ul{padding:0;margin:0}.tags li{display:inline}.avatar{height:120px;width:120px;position:relative;margin:-10px 0 0 15px;float:right;border-radius:50%}table{width:100%;border-collapse:collapse}th,td{border:1px solid #ddd;text-align:left;padding:8px}th{background-color:#f2f2f2} :root{color-scheme:light;--bg:#f5f5f5;--text:#111111;--muted:#777777;--border:#d8d8d8;--soft-border:#e9e9e9;--code-bg:#ececec;--blockquote-border:#d9d9d9;--table-head:#efefef;--button-bg:rgba(255, 255, 255, 0.92);--button-hover:rgba(245, 245, 245, 0.98);--shadow:0 10px 24px rgba(0, 0, 0, 0.12)}html[data-theme=dark]{color-scheme:dark;--bg:#0f1115;--text:#e8eaf0;--muted:#a2a9b3;--border:#2b3038;--soft-border:#20242b;--code-bg:#171b21;--blockquote-border:#2c3440;--table-head:#171b21;--button-bg:rgba(20, 24, 31, 0.92);--button-hover:rgba(28, 33, 42, 0.98);--shadow:0 10px 24px rgba(0, 0, 0, 0.35)}html,body{background:var(--bg);color:var(--text)}body{background:var(--bg);color:var(--text);transition:background .2s ease,color .2s ease}.meta,.index-date{color:var(--muted)}blockquote{border-left-color:var(--blockquote-border)}code,pre{background:var(--code-bg)}th,td{border-color:var(--border)}th{background-color:var(--table-head)}.hr-list{border-bottom-color:var(--border)}.nav,hr{background:var(--text)}.header-actions{display:flex;align-items:center;gap:.9rem}.theme-toggle{display:inline-flex;align-items:center;justify-content:center;width:2.25rem;height:2.25rem;border:1px solid var(--border);border-radius:9999px;background:var(--button-bg);color:var(--text);box-shadow:var(--shadow);cursor:pointer;transition:background .2s ease,transform .2s ease,border-color .2s ease}.theme-toggle:hover{background:var(--button-hover);transform:translateY(-1px)}.theme-toggle__icon{font-size:1rem;line-height:1}#back-to-top{position:fixed;right:1.25rem;bottom:1.25rem;z-index:999;display:inline-flex;align-items:center;justify-content:center;width:2.75rem;height:2.75rem;border:1px solid var(--border);border-radius:9999px;background:var(--button-bg);color:var(--text);box-shadow:var(--shadow);cursor:pointer;opacity:0;visibility:hidden;transform:translateY(10px);transition:opacity .2s ease,transform .2s ease,visibility .2s ease,background .2s ease;backdrop-filter:blur(6px)}#back-to-top:hover{background:var(--button-hover)}#back-to-top.show{opacity:1;visibility:visible;transform:translateY(0)}#back-to-top span{font-size:1.1rem;line-height:1}@media(max-width:640px){.header-actions{gap:.5rem}.theme-toggle{width:2rem;height:2rem}#back-to-top{right:1rem;bottom:1rem;width:2.5rem;height:2.5rem}}</style>
   
-    <script type="application/ld+json">
+    
+  
+  
+  <script type="application/ld+json">
   {
       "@context": "http://schema.org",
-      "@type": "WebSite",
-      "name": "VinhLD",
-      "url": "https:\/\/vinhlin.github.io\/",
-      "description": "Technology Blog",
-      "thumbnailUrl": "https:\/\/vinhlin.github.io\/assets\/favicon.ico",
-      "license": ""
+      "@type": "BlogPosting",
+      "articleSection": "posts",
+      "name": "TFCard_Teardowns",
+      "headline": "TFCard_Teardowns",
+      "alternativeHeadline": "",
+      "description": "\u003cp\u003eLàm về camera nên đụng nhiều về thẻ nhớ.\u003c\/p\u003e\n\u003cp\u003eHôm bữa test thiết bị, vô tình gặp một thẻ nhớ bị hư \u003cem\u003e(máy tính không nhận thẻ)\u003c\/em\u003e\u003c\/p\u003e\n\u003cp\u003eTiện luôn, mình thử re-search \u003cstrong\u003eteardowns\u003c\/strong\u003e của thẻ nhớ \u003cem\u003e(TFCard)\u003c\/em\u003e\u003c\/p\u003e\n\u003ch3 id=\u0022tài-liệu-tham-khảo\u0022\u003eTài liệu tham khảo\u003c\/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\u0022\/docs\/Datasheet_TFCard_Push.pdf\u0022\u003eDatasheet TFCard\u003c\/a\u003e\u003c\/li\u003e\n\u003cli\u003eLink tham khảo:\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cpre tabindex=\u00220\u0022\u003e\u003ccode\u003ehttps:\/\/rossmanngroup.com\/videos\/microsd-card-data-recovery-guide\nhttps:\/\/www.lcsc.com\/product-detail\/SD-Card-Connectors_SHOU-HAN-TF-PUSH_C393941.html\n\u003c\/code\u003e\u003c\/pre\u003e\u003ch3 id=\u0022hình-ảnh-pinoutteardowns-của-tfcard\u0022\u003eHình ảnh Pinout\/Teardowns của TFCard\u003c\/h3\u003e\n\u003cp\u003e\u003cimg\n  src=\u0022\/mage\/IoT\/TFCard_Teardowns\/Hinh_1.jpg\u0022\n  alt=\u0022Hình 1\u0022\n  loading=\u0022lazy\u0022\n  decoding=\u0022async\u0022\n  class=\u0022full-width\u0022\n\/\u003e\n\n\u003c\/p\u003e\n\u003cp\u003e\u003cimg\n  src=\u0022\/mage\/IoT\/TFCard_Teardowns\/Hinh_2.jpg\u0022\n  alt=\u0022Hình 2\u0022\n  loading=\u0022lazy\u0022\n  decoding=\u0022async\u0022\n  class=\u0022full-width\u0022\n\/\u003e\n\n\u003c\/p\u003e\n\u003cp\u003e\u003cimg\n  src=\u0022\/mage\/IoT\/TFCard_Teardowns\/Hinh_3.png\u0022\n  alt=\u0022Hình 3\u0022\n  loading=\u0022lazy\u0022\n  decoding=\u0022async\u0022\n  class=\u0022full-width\u0022\n\/\u003e\n\n\u003c\/p\u003e",
+      "inLanguage": "en-us",
+      "isFamilyFriendly": "true",
+      "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https:\/\/vinhlin.github.io\/posts\/iot\/hardware\/tfcard_teardowns\/"
+      },
+      "author" : {
+          "@type": "Person",
+          "name": "Vincent"
+      },
+      "creator" : {
+          "@type": "Person",
+          "name": "Vincent"
+      },
+      "accountablePerson" : {
+          "@type": "Person",
+          "name": "Vincent"
+      },
+      "copyrightHolder" : "VinhLD",
+      "copyrightYear" : "2026",
+      "dateCreated": "2026-09-22T16:59:53.00Z",
+      "datePublished": "2026-09-22T16:59:53.00Z",
+      "dateModified": "2026-09-22T16:59:53.00Z",
+      "publisher":{
+          "@type":"Organization",
+          "name": "VinhLD",
+          "url": "https:\/\/vinhlin.github.io\/",
+          "logo": {
+              "@type": "ImageObject",
+              "url": "https:\/\/vinhlin.github.io\/assets\/favicon.ico",
+              "width":"32",
+              "height":"32"
+          }
+      },
+      "image": "https:\/\/vinhlin.github.io\/assets\/favicon.ico",
+      "url" : "https:\/\/vinhlin.github.io\/posts\/iot\/hardware\/tfcard_teardowns\/",
+      "wordCount" : "53",
+      "genre" : [ ],
+      "keywords" : [ ]
   }
   </script>
   
@@ -99,117 +147,56 @@ Tình cờ thế nào mình biết được có thể host một trang web (free
 <hr class="hr-list" style="padding: 0;margin: 0;">
 
         
-<h2 id="hi-there-">Hi there! 👋</h2>
-<img class="avatar" src="../Image.jpg" alt="avatar">
-<p>Là một người có thói quen hay ghi chú những điều hay ho về <strong>IoT/Điện tử</strong> (<em>nói riêng</em>) và <strong>Công nghệ</strong> (<em>nói chung</em>).</p>
-<p>Tình cờ thế nào mình biết được có thể host một trang web (<em>free</em>) bằng <strong>Github Page</strong>, kết hợp với <a href="https://gohugo.io/">framework Hugo</a> để tạo <strong>web tĩnh</strong>. Và thế là trang blog này ra đời.
-<em>(Bài viết đầu tiên được khởi tạo là vào đúng ngày cá tháng tư <strong>1/4/2024</strong>)</em> =]]</p>
-<p>Trang blog này như một <strong>cuốn sổ tay cá nhân</strong>, nơi mà mình ghi chú lại những điều hay ho, kiến thức mới mẻ, cũng như cập nhật lại tri thức cũ.</p>
-<p>Đây cũng là nơi để mình ghi ra những suy nghĩ cá nhân và danh sách những việc cần làm để update bản thân, tránh bị tuột hậu so với thời đại.</p>
-<h2 id="-dự-án-cá-nhân-homelab-server">👨‍💻 Dự án cá nhân: <mark><a href="http://172.16.40.40:3000/">HOMELAB Server</a></mark></h2>
-<blockquote>
-<p>Đây là dự án <strong>đang được vận hành</strong> bởi chính mình cho <strong>cửa hàng tạp hóa nhỏ</strong> của gia đình. </br></p>
-</blockquote>
-<p>Bản thân là một người thích tìm hiểu cái mới. Nên ngoài chuyên môn về điện tử, mình có học và tìm hiểu thêm về <strong>Network</strong>, <strong>System</strong> và <strong>Security</strong>.</p>
-<p>Mình áp dụng những kiến thức của bản thân để tự build lên hệ thống với 2 mục đích chính <em>(phục vụ nhu cầu cá nhân và cho gia đình)</em>:</p>
-<h3 id="1-áp-dụng-server-này-cho-nhà-của-mình">1. Áp dụng Server này cho nhà của mình:</h3>
-<ul>
-<li>Phủ wifi cho ngôi nhà bằng công nghệ <strong>Mesh WiFi</strong> của <strong>Aruba</strong>, phân chia giữa <em>mạng nội bộ</em> và <em>mạng dành cho khách</em>.</li>
-<li>Thiết lập camera an ninh <em>(CCTV)</em>, giám sát 24/7.</li>
-<li>Triển khai <strong>DNS local</strong>, chặn quảng cáo và web độc hại.</li>
-<li>Triển khai chia sẻ file nội bộ <em>(Internal Access)</em> - <strong>SMB Service</strong>.</li>
-</ul>
-<h3 id="2-nơi-mình-sẽ-áp-dụng-những-kiến-thức-đã-học-và-những-kiến-thức-mới">2. Nơi mình sẽ áp dụng những kiến thức đã học và những kiến thức mới:</h3>
-<ul>
-<li>Thiết lập kết nối từ xa <strong>Fortigate VPN</strong>, và <strong>Jump-Server</strong>.</li>
-<li>Quản lý hạ tầng tập trung: quản lý log tập trung SIEM, quản lý network (Zabbix).</li>
-<li>Triển khai chia sẻ file từ Internet <em>(External Access)</em> - <strong>FTP Service</strong>.</li>
-<li>Xây dựng và triển khai <strong>AI Assistant</strong> <em>(trợ lý AI cá nhân)</em>, sử dụng mô hình dùng kết hợp giữa <strong>OpenClaw</strong> + <strong>OpenAPI API</strong> + <strong>Telegram Bot</strong>.</li>
-<li>Triển khai và vận hành các dịch vụ cũng như các công cụ khác như: MQTT Broker, Honeypot, UptimeKuma, Gitlab,&hellip;</li>
-</ul>
-<p>🌱 Một số ý tưởng project nhỏ khác, <a href="https://blog.vinhld-homelab.io.vn/posts/others/y_tuong_project/">thông tin tại đây</a></p>
-<h2 id="-studylearning">🔭 Study/Learning:</h2>
-<p>✔ Lab:</p>
-<blockquote>
-<p>Tìm hiểu sâu hơn về <strong>Wazuh (SIEM)</strong>: FIM, SCA, MISP,&hellip; </br>
-Build và làm lại các bài lab về Web-Pentest bên CyberJutsu. </br>
-<a href="https://github.com/VNCERT-CC/digital-forensics-lab">VNCERT-CC/digital-forensics-lab</a> </br></p>
-</blockquote>
-<p>✔ Rust-lang</p>
-<blockquote>
-<p><a href="https://nbaksalyar.github.io/2015/07/10/writing-chat-in-rust.html">Rust in Detail: Writing Scalable Chat Service from Scratch</a> </br>
-<a href="https://github.com/sivakumar-sivaprakasam/rust-examples">sivakumar-sivaprakasam/rust-examples</a> </br></p>
-</blockquote>
-<p>✔ Learn Hardware Hacking &amp; IoT Firmware Reverse</p>
-<blockquote>
-<p><a href="https://github.com/The-Art-of-Hacking/h4cker">The-Art-of-Hacking/h4cker</a> </br>
-<a href="https://github.com/tsug0d/AndroidMobilePentest101">tsug0d/AndroidMobilePentest101</a> </br>
-<a href="https://github.com/mcw0/PoC">mcw0/PoC</a> </br>
-<a href="https://github.com/adamhlt/TL-WR841N">adamhlt/TL-WR841N</a> </br>
-<a href="https://github.com/OWASP/IoTGoat">OWASP/IoTGoat</a> </br>
-<a href="https://github.com/emproof-com/workshop_firmware_reverse_engineering">workshop_firmware_reverse_engineering</a> </br></p>
-</blockquote>
-<h2 id="-others-information">💬 Others Information:</h2>
-<ul>
-<li>📺 Blog: <a href="https://vinhlin.github.io/">https://vinhlin.github.io/</a></li>
-<li>❤️ Github: <a href="https://github.com/VinhLin">https://github.com/VinhLin</a></li>
-<li>📫 Linkedin Profile: <a href="https://www.linkedin.com/in/vinh-lin-3921a8191/">https://www.linkedin.com/in/vinh-lin-3921a8191/</a></li>
-<li>👨‍💻 Youtube Channel: <a href="https://www.youtube.com/@vinhlin5194">https://www.youtube.com/@vinhlin5194</a></li>
-<li>🌱 Facebook: <a href="https://www.facebook.com/vinh.linduc/">https://www.facebook.com/vinh.linduc/</a></li>
-</ul>
-<p>👉 <a href="https://dashboard.vinhld-homelab.io.vn:3080/">My Dashboard HOMELAB Server</a></p>
-<p><img
-  src="/image/Dashboard_HOMELAB.png"
-  alt="Dashboard_HL"
-  loading="lazy"
-  decoding="async"
-  class="full-width"
-/>
-
-</p>
-<h3 id="tham-khảo-lộ-trình-cyber-security-expert">Tham khảo lộ trình <a href="https://roadmap.sh/cyber-security">Cyber Security Expert</a></h3>
-<h3 id="tham-khảo-embedded-systems-hacking-roadmap">Tham khảo <a href="https://voidstarsec.com/roadmap/">Embedded Systems Hacking Roadmap</a></h3>
-<p><img
-  src="/image/Embedded_Systems_Hacking_Roadmap.png"
-  alt="Embedded Systems Hacking Roadmap"
-  loading="lazy"
-  decoding="async"
-  class="full-width"
-/>
-
-</p>
-<h3 id="tham-khảo-lộ-trình-embedded-engineering-roadmap">Tham khảo lộ trình <a href="https://github.com/m3y54m/Embedded-Engineering-Roadmap">Embedded-Engineering-Roadmap</a></h3>
-<h3 id="embedded-career">Embedded Career</h3>
-<p><img
-  src="/image/Embedded_Career.jpg"
-  alt="Embedded Career"
-  loading="lazy"
-  decoding="async"
-  class="full-width"
-/>
-
-</p>
-
-
-<h1>Latest Post</h1>
 <section>
+  <h2 class="post">TFCard_Teardowns</h2>
+  <p>Làm về camera nên đụng nhiều về thẻ nhớ.</p>
+<p>Hôm bữa test thiết bị, vô tình gặp một thẻ nhớ bị hư <em>(máy tính không nhận thẻ)</em></p>
+<p>Tiện luôn, mình thử re-search <strong>teardowns</strong> của thẻ nhớ <em>(TFCard)</em></p>
+<h3 id="tài-liệu-tham-khảo">Tài liệu tham khảo</h3>
+<ul>
+<li><a href="/docs/Datasheet_TFCard_Push.pdf">Datasheet TFCard</a></li>
+<li>Link tham khảo:</li>
+</ul>
+<pre tabindex="0"><code>https://rossmanngroup.com/videos/microsd-card-data-recovery-guide
+https://www.lcsc.com/product-detail/SD-Card-Connectors_SHOU-HAN-TF-PUSH_C393941.html
+</code></pre><h3 id="hình-ảnh-pinoutteardowns-của-tfcard">Hình ảnh Pinout/Teardowns của TFCard</h3>
+<p><img
+  src="/mage/IoT/TFCard_Teardowns/Hinh_1.jpg"
+  alt="Hình 1"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p><img
+  src="/mage/IoT/TFCard_Teardowns/Hinh_2.jpg"
+  alt="Hình 2"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p><img
+  src="/mage/IoT/TFCard_Teardowns/Hinh_3.png"
+  alt="Hình 3"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+
   
-    <p>
-      <time class="g time" datetime="2026-09-22">2026-09-22</time>&nbsp;
-      <a href="https://vinhlin.github.io/posts/iot/hardware/tfcard_teardowns/">TFCard_Teardowns</a>
-    </p>
-  
-    <p>
-      <time class="g time" datetime="2026-09-09">2026-09-09</time>&nbsp;
-      <a href="https://vinhlin.github.io/posts/iot/hardware/ezviz_onvif/">Ezviz_ONVIF</a>
-    </p>
-  
-    <p>
-      <time class="g time" datetime="2026-08-16">2026-08-16</time>&nbsp;
-      <a href="https://vinhlin.github.io/posts/others/acquy_ups/">Acquy_UPS</a>
-    </p>
+  <div class="post-date">
+    <span class="g time">September 22, 2026</span> &#8729;
+    
+  </div>
   
 </section>
+
+
 
 
         <footer>
@@ -266,6 +253,10 @@ Build và làm lại các bài lab về Web-Pentest bên CyberJutsu. </br>
       </div>
     </main>
     
+<button id="back-to-top" type="button" aria-label="Back to top" title="Back to top">
+  <span aria-hidden="true">↑</span>
+</button>
+
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
