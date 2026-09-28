@@ -20,10 +20,10 @@ https://www.lcsc.com/product-detail/SD-Card-Connectors_SHOU-HAN-TF-PUSH_C393941.
 
 ### Hình ảnh Pinout/Teardowns của TFCard
 
-![Hình 1](/mage/IoT/TFCard_Teardowns/Hinh_1.jpg)
+![Hình 1](/image/IoT/TFCard_Teardowns/Hinh_1.jpg)
 
-![Hình 2](/mage/IoT/TFCard_Teardowns/Hinh_2.jpg)
+![Hình 2](/image/IoT/TFCard_Teardowns/Hinh_2.jpg)
 
-![Hình 3](/mage/IoT/TFCard_Teardowns/Hinh_3.png)
+![Hình 3](/image/IoT/TFCard_Teardowns/Hinh_3.png)
 
 
