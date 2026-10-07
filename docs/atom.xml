@@ -14,6 +14,137 @@
     
     
     <item>
+      <title>MinIO</title>
+      <link>https://vinhlin.github.io/posts/system-devops/minio/</link>
+      <description>&lt;h3 id=&#34;changelog&#34;&gt;Changelog&lt;/h3&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Date&lt;/th&gt;
+					&lt;th&gt;Mô tả&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;16/10/2025&lt;/td&gt;
+					&lt;td&gt;Khởi tạo bài viết, và take note về MinIO&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;7/10/2026&lt;/td&gt;
+					&lt;td&gt;Build và test thử về MinIO&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;MinIO là giải pháp object storage mã nguồn mở, hiệu năng cao, và hoàn toàn tương thích với API của Amazon S3&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;tài-liệu&#34;&gt;Tài liệu:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/minio/minio&#34;&gt;Github minio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tham khảo khác:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://200lab.io/blog/minio-la-gi
+https://docs.min.io/enterprise/aistor-object-store/reference/cli/
+https://www.min.io/download?license=agpl&amp;amp;platform=linux
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Thông tin thêm khi hỏi Grok về MinIO và so sánh với FTP server, NAS Server&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/MinIO/Hinh_1.png&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/MinIO/Hinh_2.png&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/MinIO/Hinh_3.png&#34;
+  alt=&#34;Hình 3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/MinIO/Hinh_4.png&#34;
+  alt=&#34;Hình 4&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;note&#34;&gt;Note&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Tạm thời thì hiểu như vậy về &lt;strong&gt;MinIO&lt;/strong&gt;, mình đã có &lt;strong&gt;FTP Server&lt;/strong&gt; và &lt;strong&gt;NAS Server&lt;/strong&gt;. Nên cũng chưa hình dung áp dụng MinIO như nào.&lt;/li&gt;
+&lt;li&gt;Có thể sẽ cần tìm hiểu thêm về &lt;a href=&#34;https://fptcloud.com/object-storage/&#34;&gt;object storage&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;update-7102026&#34;&gt;Update: &lt;code&gt;7/10/2026&lt;/code&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Theo thông tin mình đọc được thì dự án mã nguồn mở MinIO đã không còn được cập nhật nữa, mà mô hình sang kiểu &lt;strong&gt;Enterprise&lt;/strong&gt; &lt;em&gt;(trả phí)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Mình cũng thử build và đã build thành công.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;test-file-transfer-over-mqtt&#34;&gt;Test &lt;a href=&#34;https://www.emqx.com/en/blog/file-transfer-over-mqtt&#34;&gt;&lt;code&gt;File Transfer over MQTT&lt;/code&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Dùng công cụ &lt;code&gt;emqx-ft&lt;/code&gt; để test.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/MinIO/Hinh_5.png&#34;
+  alt=&#34;Hình 5&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Đã upload thành công.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/MinIO/Hinh_6.png&#34;
+  alt=&#34;Hình 6&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;kiểm-tra-cve-2023-28432&#34;&gt;Kiểm tra &lt;a href=&#34;https://nvd.nist.gov/vuln/detail/cve-2023-28432&#34;&gt;&lt;code&gt;CVE-2023-28432&lt;/code&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;MinIO bị CVE này từ phiên bản &lt;code&gt;RELEASE.2023-03-20T20-16-18Z&lt;/code&gt; trở về trước.&lt;/li&gt;
+&lt;li&gt;Mình cần test xem bản MinIO đang build có bị CVE này không &lt;em&gt;(để còn update kiph thời)&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/MinIO/Hinh_7.png&#34;
+  alt=&#34;Hình 7&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;May quá không bị =]]&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <author>Vincent</author>
+      <guid>https://vinhlin.github.io/posts/system-devops/minio/</guid>
+      <pubDate>Wed, 07 Oct 2026 08:41:38 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Bom_lop_Mini</title>
       <link>https://vinhlin.github.io/posts/others/bom_lop_mini/</link>
       <description>&lt;p&gt;Vô tình lướt shoppe, thấy có bán loại thiết bị &lt;strong&gt;&amp;ldquo;Bơm lốp mini cầm tay&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
@@ -7313,70 +7444,6 @@ https://dl.sipeed.com/shareURL/MaixCAM/Sensors
       <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/others/sw_model/</guid>
       <pubDate>Mon, 20 Oct 2025 09:26:10 +0700</pubDate>
-    </item>
-    
-    <item>
-      <title>MinIO</title>
-      <link>https://vinhlin.github.io/posts/system-devops/minio/</link>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;MinIO là giải pháp object storage mã nguồn mở, hiệu năng cao, và hoàn toàn tương thích với API của Amazon S3&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&#34;tài-liệu&#34;&gt;Tài liệu:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/minio/minio&#34;&gt;Github minio&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Tham khảo khác:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://200lab.io/blog/minio-la-gi
-https://docs.min.io/enterprise/aistor-object-store/reference/cli/
-https://www.min.io/download?license=agpl&amp;amp;platform=linux
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
-&lt;li&gt;Thông tin thêm khi hỏi Grok về MinIO và so sánh với FTP server, NAS Server&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/System-DevOps/MinIO/Hinh_1.png&#34;
-  alt=&#34;Hình 1&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/System-DevOps/MinIO/Hinh_2.png&#34;
-  alt=&#34;Hình 2&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/System-DevOps/MinIO/Hinh_3.png&#34;
-  alt=&#34;Hình 3&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/System-DevOps/MinIO/Hinh_4.png&#34;
-  alt=&#34;Hình 4&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;h3 id=&#34;note&#34;&gt;Note&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Tạm thời thì hiểu như vậy về &lt;strong&gt;MinIO&lt;/strong&gt;, mình đã có &lt;strong&gt;FTP Server&lt;/strong&gt; và &lt;strong&gt;NAS Server&lt;/strong&gt;. Nên cũng chưa hình dung áp dụng MinIO như nào.&lt;/li&gt;
-&lt;li&gt;Có thể sẽ cần tìm hiểu thêm về &lt;a href=&#34;https://fptcloud.com/object-storage/&#34;&gt;object storage&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-      <author>Vincent</author>
-      <guid>https://vinhlin.github.io/posts/system-devops/minio/</guid>
-      <pubDate>Thu, 16 Oct 2025 11:41:38 +0700</pubDate>
     </item>
     
     <item>
