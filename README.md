@@ -137,6 +137,8 @@ hugo new posts/IoT/Hardware/Cac_dong_ESP32.md
 hugo new posts/IoT/Hardware/FPT_IP_Camera.md
 hugo new posts/IoT/Hardware/Ezviz_ONVIF.md
 hugo new posts/IoT/Hardware/TFCard_Teardowns.md
+hugo new posts/IoT/Hardware/Oscilloscope-DSO_510.md
+hugo new posts/IoT/Hardware/Fix_MiLife_E15.md
 ```
 - Software
 ```

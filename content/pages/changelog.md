@@ -46,6 +46,8 @@ STT |		Tiêu đề			|		Mô tả				|
 34  | [FPT_IP_Camera][FPT_IP_Camera]	| Ghi chú thêm về thông tin của **FPT-Camera**	|
 35  | [Ezviz_ONVIF][Ezviz_ONVIF]	| Ghi chú về các dòng camera Ezviz hỗ trợ ONVIF	|
 36  | [TFCard_Teardowns][TFCard_Teardowns] | Ghi chú **TFCard Teardowns**		|
+37  | [Oscilloscope-DSO_510][Oscilloscope-DSO_510] | Ghi chú và ghi nhớ về cách dùng **máy hiện sóng cầm tay** |
+38  | [Fix_MiLife_E15][Fix_MiLife_E15]	| Hướng dẫn cách đo và sửa lỗi cho quạt hơi nước mini E15 |
 
 [UNIHIKER]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/unihiker/
 [ESD]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/esd/
@@ -83,6 +85,8 @@ STT |		Tiêu đề			|		Mô tả				|
 [FPT_IP_Camera]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/fpt_ip_camera/
 [Ezviz_ONVIF]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/ezviz_onvif/
 [TFCard_Teardowns]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/tfcard_teardowns/
+[Oscilloscope-DSO_510]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/oscilloscope-dso_510/
+[Fix_MiLife_E15]: https://blog.vinhld-homelab.io.vn/posts/iot/hardware/fix_milife_e15
 
 ## ***SOFTWARE***
 

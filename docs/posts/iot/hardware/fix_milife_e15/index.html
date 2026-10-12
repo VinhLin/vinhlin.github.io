@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem('theme');
+          var systemDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var theme = stored || (systemDark ? 'dark' : 'light');
+          document.documentElement.setAttribute('data-theme', theme);
+        } catch (e) {
+          document.documentElement.setAttribute('data-theme', 'light');
+        }
+      })();
+    </script>
+    <meta name="author" content="Liste - https://vinhlin.github.io/">
+    <title>Fix_MiLife_E15 | VinhLD</title>
+    <meta name="description" content="Technology Blog">
+    <meta property="og:url" content="https://vinhlin.github.io/posts/iot/hardware/fix_milife_e15/">
+	<meta property="og:site_name" content="VinhLD">
+	<meta property="og:title" content="Fix_MiLife_E15">
+	<meta property="og:description" content="Mình có mua Quạt hơi nước mini miLife E15.
+Mục đích ban đầu là vừa làm mát, vừa cấp ẩm cho phòng (phòng có điều hòa, mất độ ẩm) Xài một thời gian, mình thấy máy không còn quạt nữa. Rồi xong, bắt đầu quá trình ngâm cứu và sữa chữa.
+Tham khảo video: CÁI QUẠT NÀY mới là LÀM MÁT KHÔNG KHÍ NÀY! miLife E15 Test &amp; Teardown Hên là có xem video của anh chàng này, tham khảo cách mà ảnh tháo máy. Mình xem và làm theo, cuối cùng cũng thoái ra được hết.">
+	<meta property="og:locale" content="en_us">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2026-10-12T15:12:21+07:00">
+		<meta property="article:modified_time" content="2026-10-12T15:12:21+07:00">
+
+    
+	<meta itemprop="name" content="Fix_MiLife_E15">
+	<meta itemprop="description" content="Mình có mua Quạt hơi nước mini miLife E15.
+Mục đích ban đầu là vừa làm mát, vừa cấp ẩm cho phòng (phòng có điều hòa, mất độ ẩm) Xài một thời gian, mình thấy máy không còn quạt nữa. Rồi xong, bắt đầu quá trình ngâm cứu và sữa chữa.
+Tham khảo video: CÁI QUẠT NÀY mới là LÀM MÁT KHÔNG KHÍ NÀY! miLife E15 Test &amp; Teardown Hên là có xem video của anh chàng này, tham khảo cách mà ảnh tháo máy. Mình xem và làm theo, cuối cùng cũng thoái ra được hết.">
+	<meta itemprop="datePublished" content="2026-10-12T15:12:21+07:00">
+	<meta itemprop="dateModified" content="2026-10-12T15:12:21+07:00">
+	<meta itemprop="wordCount" content="531">
+    
+    <link rel="canonical" href="https://vinhlin.github.io/posts/iot/hardware/fix_milife_e15/">
+    <link rel="icon" href="https://vinhlin.github.io//assets/favicon.ico">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
+    <link rel="alternate" type="application/atom+xml" title="VinhLD" href="https://vinhlin.github.io//atom.xml" />
+    <link rel="alternate" type="application/json" title="VinhLD" href="https://vinhlin.github.io//feed.json" />
+    <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=">
+    
+    
+    <style>*,:after,:before{box-sizing:border-box;padding:0}body{font:1rem/1.5 '-apple-system',BlinkMacSystemFont,avenir next,avenir,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding:2rem;background:#f5f5f5;color:#000}.skip-link{position:absolute;top:-40px;left:0;background:#eee;z-index:100}.skip-link:focus{top:0}h1,h2,h3,h4,h5,strong,b{font-size:inherit;font-weight:600}header{line-height:2;padding-bottom:1.5rem}.link{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-decoration:none}.time{font-variant-numeric:tabular-nums;white-space:nowrap}blockquote{border-left:5px solid #eee;padding-left:1rem;margin:0}a,a:visited{color:inherit}a:hover,a.heading-link{text-decoration:none}pre{padding:.5rem;overflow:auto;overflow-x:scroll;overflow-wrap:normal}code,pre{font-family:San Francisco Mono,Monaco,consolas,lucida console,dejavu sans mono,bitstream vera sans mono,monospace;font-size:normal;font-size:small;background:#eee}code{margin:.1rem;border:none}ul{list-style-type:square}ul,ol{padding-left:1.2rem}.list{line-height:2;list-style-type:none;padding-left:0}.list li{padding-bottom:.1rem}.meta{color:#777}.content{max-width:70ch;margin:0 auto}header{line-height:2;display:flex;justify-content:space-between;padding-bottom:1rem}header a{text-decoration:none}header ul{list-style-type:none;padding:0}header li,header a{display:inline}h2.post{padding-top:.5rem}header ul a:first-child{padding-left:1rem}.nav{height:1px;background:#000;content:'';max-width:10%}.list li{display:flex;align-items:baseline}.list li time{flex:initial}.hr-list{margin-top:0;margin-bottom:0;margin-right:.5rem;margin-left:.5rem;height:1px;border:0;border-bottom:1px dotted #ccc;flex:1 0 1rem}.m,hr{border:0;margin:3rem 0}img{max-width:100%;height:auto}.post-date{margin:5% 0}.index-date{color:#9a9a9a}.animate-blink{animation:opacity 1s infinite;opacity:1}@keyframes opacity{0%{opacity:1}50%{opacity:.5}100%{opacity:0}}.tags{display:flex;justify-content:space-between}.tags ul{padding:0;margin:0}.tags li{display:inline}.avatar{height:120px;width:120px;position:relative;margin:-10px 0 0 15px;float:right;border-radius:50%}table{width:100%;border-collapse:collapse}th,td{border:1px solid #ddd;text-align:left;padding:8px}th{background-color:#f2f2f2} :root{color-scheme:light;--bg:#f5f5f5;--text:#111111;--muted:#777777;--border:#d8d8d8;--soft-border:#e9e9e9;--code-bg:#ececec;--blockquote-border:#d9d9d9;--table-head:#efefef;--button-bg:rgba(255, 255, 255, 0.92);--button-hover:rgba(245, 245, 245, 0.98);--shadow:0 10px 24px rgba(0, 0, 0, 0.12)}html[data-theme=dark]{color-scheme:dark;--bg:#0f1115;--text:#e8eaf0;--muted:#a2a9b3;--border:#2b3038;--soft-border:#20242b;--code-bg:#171b21;--blockquote-border:#2c3440;--table-head:#171b21;--button-bg:rgba(20, 24, 31, 0.92);--button-hover:rgba(28, 33, 42, 0.98);--shadow:0 10px 24px rgba(0, 0, 0, 0.35)}html,body{background:var(--bg);color:var(--text)}body{background:var(--bg);color:var(--text);transition:background .2s ease,color .2s ease}.meta,.index-date{color:var(--muted)}blockquote{border-left-color:var(--blockquote-border)}code,pre{background:var(--code-bg)}th,td{border-color:var(--border)}th{background-color:var(--table-head)}.hr-list{border-bottom-color:var(--border)}.nav,hr{background:var(--text)}.header-actions{display:flex;align-items:center;gap:.9rem}.theme-toggle{display:inline-flex;align-items:center;justify-content:center;width:2.25rem;height:2.25rem;border:1px solid var(--border);border-radius:9999px;background:var(--button-bg);color:var(--text);box-shadow:var(--shadow);cursor:pointer;transition:background .2s ease,transform .2s ease,border-color .2s ease}.theme-toggle:hover{background:var(--button-hover);transform:translateY(-1px)}.theme-toggle__icon{font-size:1rem;line-height:1}#back-to-top{position:fixed;right:1.25rem;bottom:1.25rem;z-index:999;display:inline-flex;align-items:center;justify-content:center;width:2.75rem;height:2.75rem;border:1px solid var(--border);border-radius:9999px;background:var(--button-bg);color:var(--text);box-shadow:var(--shadow);cursor:pointer;opacity:0;visibility:hidden;transform:translateY(10px);transition:opacity .2s ease,transform .2s ease,visibility .2s ease,background .2s ease;backdrop-filter:blur(6px)}#back-to-top:hover{background:var(--button-hover)}#back-to-top.show{opacity:1;visibility:visible;transform:translateY(0)}#back-to-top span{font-size:1.1rem;line-height:1}@media(max-width:640px){.header-actions{gap:.5rem}.theme-toggle{width:2rem;height:2rem}#back-to-top{right:1rem;bottom:1rem;width:2.5rem;height:2.5rem}}</style>
+  
+    
+  
+  
+  <script type="application/ld+json">
+  {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "articleSection": "posts",
+      "name": "Fix_MiLife_E15",
+      "headline": "Fix_MiLife_E15",
+      "alternativeHeadline": "",
+      "description": "\u003cp\u003eMình có mua \u003cstrong\u003eQuạt hơi nước mini miLife E15\u003c\/strong\u003e.\u003c\/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003cem\u003eMục đích ban đầu là vừa làm mát, vừa cấp ẩm cho phòng (phòng có điều hòa, mất độ ẩm)\u003c\/em\u003e \u003c\/br\u003e\u003c\/p\u003e\n\u003c\/blockquote\u003e\n\u003cp\u003e\u003cimg\n  src=\u0022\/image\/IoT\/Fix_MiLife_E15\/Hinh_0.jpg\u0022\n  alt=\u0022Hình 0\u0022\n  loading=\u0022lazy\u0022\n  decoding=\u0022async\u0022\n  class=\u0022full-width\u0022\n\/\u003e\n\n\u003c\/p\u003e\n\u003cp\u003eXài một thời gian, mình thấy máy không còn quạt nữa. Rồi xong, bắt đầu quá trình ngâm cứu và sữa chữa.\u003c\/p\u003e\n\u003ch3 id=\u0022tham-khảo-video-cái-quạt-này-mới-là-làm-mát-không-khí-này-milife-e15-test--teardown\u0022\u003eTham khảo video: \u003ca href=\u0022https:\/\/www.youtube.com\/watch?v=2L9e1bUlk8U\u0022\u003eCÁI QUẠT NÀY mới là LÀM MÁT KHÔNG KHÍ NÀY! miLife E15 Test \u0026amp; Teardown\u003c\/a\u003e\u003c\/h3\u003e\n\u003cul\u003e\n\u003cli\u003eHên là có xem video của anh chàng này, tham khảo cách mà ảnh tháo máy.\u003c\/li\u003e\n\u003cli\u003eMình xem và làm theo, cuối cùng cũng thoái ra được hết.\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cp\u003e\u003cimg\n  src=\u0022\/image\/IoT\/Fix_MiLife_E15\/Hinh_1.jpg\u0022\n  alt=\u0022Hình 1\u0022\n  loading=\u0022lazy\u0022\n  decoding=\u0022async\u0022\n  class=\u0022full-width\u0022\n\/\u003e\n\n\u003c\/p\u003e",
+      "inLanguage": "en-us",
+      "isFamilyFriendly": "true",
+      "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https:\/\/vinhlin.github.io\/posts\/iot\/hardware\/fix_milife_e15\/"
+      },
+      "author" : {
+          "@type": "Person",
+          "name": "Vincent"
+      },
+      "creator" : {
+          "@type": "Person",
+          "name": "Vincent"
+      },
+      "accountablePerson" : {
+          "@type": "Person",
+          "name": "Vincent"
+      },
+      "copyrightHolder" : "VinhLD",
+      "copyrightYear" : "2026",
+      "dateCreated": "2026-10-12T15:12:21.00Z",
+      "datePublished": "2026-10-12T15:12:21.00Z",
+      "dateModified": "2026-10-12T15:12:21.00Z",
+      "publisher":{
+          "@type":"Organization",
+          "name": "VinhLD",
+          "url": "https:\/\/vinhlin.github.io\/",
+          "logo": {
+              "@type": "ImageObject",
+              "url": "https:\/\/vinhlin.github.io\/assets\/favicon.ico",
+              "width":"32",
+              "height":"32"
+          }
+      },
+      "image": "https:\/\/vinhlin.github.io\/assets\/favicon.ico",
+      "url" : "https:\/\/vinhlin.github.io\/posts\/iot\/hardware\/fix_milife_e15\/",
+      "wordCount" : "531",
+      "genre" : [ ],
+      "keywords" : [ ]
+  }
+  </script>
+  
+  
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to main</a>
+    <main id="main">
+      <div class="content">
+        <header>
+<p style="padding: 0;margin: 0;">
+  <a href="/">
+    <b>VinhLD</b>
+    <span class="text-stone-500 animate-blink">▮</span>
+  </a>
+</p>
+<div class="header-actions">
+  <ul style="padding: 0;margin: 0;">
+    
+    
+    <li class="">
+      <a href="/changelog/"><span>Changelog</span></a>
+      
+    <li class="">
+      <a href="/posts/"><span>Post</span></a>
+      
+    <li class="">
+      <a href="/search/"><span>Search</span></a>
+      
+    <li class="">
+      <a href="/about/"><span>About</span></a>
+      
+    </li>
+  </ul>
+  <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+    <span class="theme-toggle__icon" aria-hidden="true">◐</span>
+  </button>
+</div>
+</header>
+<hr class="hr-list" style="padding: 0;margin: 0;">
+
+        
+<section>
+  <h2 class="post">Fix_MiLife_E15</h2>
+  <p>Mình có mua <strong>Quạt hơi nước mini miLife E15</strong>.</p>
+<blockquote>
+<p><em>Mục đích ban đầu là vừa làm mát, vừa cấp ẩm cho phòng (phòng có điều hòa, mất độ ẩm)</em> </br></p>
+</blockquote>
+<p><img
+  src="/image/IoT/Fix_MiLife_E15/Hinh_0.jpg"
+  alt="Hình 0"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p>Xài một thời gian, mình thấy máy không còn quạt nữa. Rồi xong, bắt đầu quá trình ngâm cứu và sữa chữa.</p>
+<h3 id="tham-khảo-video-cái-quạt-này-mới-là-làm-mát-không-khí-này-milife-e15-test--teardown">Tham khảo video: <a href="https://www.youtube.com/watch?v=2L9e1bUlk8U">CÁI QUẠT NÀY mới là LÀM MÁT KHÔNG KHÍ NÀY! miLife E15 Test &amp; Teardown</a></h3>
+<ul>
+<li>Hên là có xem video của anh chàng này, tham khảo cách mà ảnh tháo máy.</li>
+<li>Mình xem và làm theo, cuối cùng cũng thoái ra được hết.</li>
+</ul>
+<p><img
+  src="/image/IoT/Fix_MiLife_E15/Hinh_1.jpg"
+  alt="Hình 1"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p><img
+  src="/image/IoT/Fix_MiLife_E15/Hinh_2.jpg"
+  alt="Hình 2"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p><img
+  src="/image/IoT/Fix_MiLife_E15/Hinh_3.jpg"
+  alt="Hình 3"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<h3 id="ic-trên-mạch">IC trên mạch</h3>
+<ul>
+<li>IC đầu tiên để ý thấy chính là IC nguồn <strong>78L05</strong></li>
+</ul>
+<p><img
+  src="/image/IoT/Fix_MiLife_E15/Hinh_4.gif"
+  alt="Hình 4"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<ul>
+<li>Loại thứ 2, thì thấy ghi là: <strong>FMD D4rSYGH</strong></li>
+</ul>
+<p><img
+  src="/image/IoT/Fix_MiLife_E15/Hinh_5.JPG"
+  alt="Hình 5"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p>Đây là thông tin của Gemini về dòng <strong>chip vi điều khiển FMD (Fremont Micro Devices)</strong></p>
+<blockquote>
+<p><em><strong>Nhà sản xuất: FMD (Fremont Micro Devices)</strong> — một hãng sản xuất chip vi điều khiển (MCU 8-bit RISC) và EEPROM rất phổ biến trong thiết bị gia dụng Trung Quốc.</em> </br>
+<em>IC này đóng vai trò là <strong>bộ vi điều khiển trung tâm (MCU)</strong> điều khiển phím bấm, hiển thị và xuất tín hiệu kích Triac/Relay.</em> </br></p>
+</blockquote>
+<h2 id="hướng-kiểm-tra-và-fix-lỗi">Hướng kiểm tra và fix lỗi</h2>
+<ul>
+<li>Khi mình nhấn start, mình dùng VOM đo ngay phần connector, thấy có sự sụt áp.</li>
+<li>Đo <strong>output của IC 78L05</strong>:
+<ul>
+<li>Khi chưa nhấn start -&gt; output là 5VDC</li>
+<li>Khi nhấn start -&gt; output xuống 2.5VDC</li>
+</ul>
+</li>
+<li><strong>Đặt câu hỏi, chẳng lẽ bị hư IC?</strong> Tiếp tục đo phần input đầu vào của 78L05:
+<ul>
+<li>Khi chưa nhấn start -&gt; kết quả đo là 12VDC</li>
+<li>Khi nhấn start -&gt; Kết quả đo là 4.2VDC</li>
+</ul>
+</li>
+<li>WTF? <strong>Điều gì khiến nó sụt áp trên IC chuyển nguồn?</strong></li>
+<li>Rút jack kết nối quạt, kiểm tra lại. <strong>Vẫn bị sụt áp</strong>.</li>
+</ul>
+<blockquote>
+<p>&ndash;&gt; <em><strong>Khả năng lỗi đến từ bộ boost</strong></em></p>
+</blockquote>
+<h3 id="kiểm-tra-mạch-boost-5vdc-lên-12vdc">Kiểm tra mạch Boost (5VDC lên 12VDC)</h3>
+<ul>
+<li>Khi chưa nhấn start -&gt; output là 12VDC</li>
+<li>Tham khảo Gemini, thì mạch boost này lỗi có thể liên quan đến: tụ lọc nguồn 12V, Diode Schottky và Cuộn cảm (Inductor)</li>
+</ul>
+<h3 id="đo-cuộn-cảm">Đo cuộn cảm</h3>
+<ul>
+<li>Mình dùng <strong><a href="https://www.facebook.com/61578691146194/videos/955575240173932/">bút đo cuộn cảm W01</a></strong> để kiểm tra cuộn cảm</li>
+</ul>
+<blockquote>
+<p><em>Cấp nguồn cho bút, nhấn giữ nút button, và đưa lại gần cuộn cảm</em> </br></p>
+</blockquote>
+<ul>
+<li>Kết quả: khi chưa nhấn nút start, đèn của bút sáng lên</li>
+</ul>
+<p><img
+  src="/image/IoT/Fix_MiLife_E15/Hinh_6.jpg"
+  alt="Hình 6"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<ul>
+<li>Còn khi nhấn nút start thì, đèn trên bút tắt</li>
+</ul>
+<p><img
+  src="/image/IoT/Fix_MiLife_E15/Hinh_7.jpg"
+  alt="Hình 7"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<ul>
+<li>Nhờ Gemini phân tích hiện tượng:</li>
+</ul>
+<p><img
+  src="/image/IoT/Fix_MiLife_E15/Hinh_8.png"
+  alt="Hình 8"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<ul>
+<li>Thông tin Gemini đưa ra là chính xác: <strong>Cuộn cảm là linh kiện thụ động, nếu nó hỏng thì ngay từ đầu sẽ không sinh ra cảm ứng điện từ</strong>.</li>
+</ul>
+<h3 id="tiến-hành-thay-tụ-điện-và-kiểm-tra">Tiến hành thay tụ điện, và kiểm tra</h3>
+<ul>
+<li>Trên mạch ghi là tụ <strong>33uF/25V</strong>, nhưng mình ko có giá trị này. Nên lấy tụ <strong>220uF/16V</strong> thay vào thử.</li>
+<li>Ohm, mạch đã thật sự hoạt động trở lại. Gắn lại quạt và nó thật sự đã quay.</li>
+</ul>
+<p><img
+  src="/image/IoT/Fix_MiLife_E15/Hinh_9.jpg"
+  alt="Hình 9"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<ul>
+<li>Tham khảo Gemini về nguyên nhân:</li>
+</ul>
+<blockquote>
+<p><em><strong>Tụ lọc nguồn 12V ở đầu ra mạch Boost (thường là tụ hóa 16V/25V): Tụ bị phồng, khô hoặc giảm dung lượng sẽ làm áp 12V bị tụt ngay khi có tải.</strong></em> </br></p>
+</blockquote>
+<ul>
+<li>Bây giờ thì tiến hành đặt lại vị trí con tụ cho phù hợp, lắp lại và sử dụng tiếp. =]]</li>
+</ul>
+
+  
+  <div class="post-date">
+    <span class="g time">October 12, 2026</span> &#8729;
+    
+  </div>
+  
+</section>
+
+
+
+
+        <footer>
+  <p>© 2026</p>
+  
+  <button id="backToTop" onclick="topFunction()" title="Go to top">
+    <span class="arrow">↑</span> Back To Top
+  </button>
+
+  <div id="google_translate_element" style="margin-top: 20px; text-align: center;"></div>
+</footer>
+
+<style>
+   
+  #backToTop {
+    display: none; 
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 999;
+    background: #fff;
+    color: #222;
+    border: 1px solid #eee;
+    padding: 8px 15px;
+    border-radius: 4px;  
+    cursor: pointer;
+    font-size: 14px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    align-items: center;
+    gap: 5px;
+  }
+  #backToTop:hover {
+    background: #fafafa;
+    border-color: #ccc;
+  }
+</style>
+
+<script>
+  var mybutton = document.getElementById("backToTop");
+
+  
+  window.addEventListener('scroll', function() {
+    if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+      mybutton.style.display = "flex";
+    } else {
+      mybutton.style.display = "none";
+    }
+  });
+
+  function topFunction() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
+      </div>
+    </main>
+    
+<button id="back-to-top" type="button" aria-label="Back to top" title="Back to top">
+  <span aria-hidden="true">↑</span>
+</button>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const root = document.documentElement;
+    const toggle = document.getElementById('theme-toggle');
+    const backToTop = document.getElementById('back-to-top');
+
+    const setTheme = (theme) => {
+      root.setAttribute('data-theme', theme);
+      try {
+        localStorage.setItem('theme', theme);
+      } catch (e) {}
+      if (toggle) {
+        toggle.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+        toggle.setAttribute('title', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+      }
+    };
+
+    if (toggle) {
+      toggle.addEventListener('click', function () {
+        const current = root.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+        setTheme(current === 'dark' ? 'light' : 'dark');
+      });
+
+      const initial = root.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+      setTheme(initial);
+    }
+
+    if (backToTop) {
+      const toggleButton = () => {
+        if (window.scrollY > 320) {
+          backToTop.classList.add('show');
+        } else {
+          backToTop.classList.remove('show');
+        }
+      };
+
+      window.addEventListener('scroll', toggleButton, { passive: true });
+      toggleButton();
+
+      backToTop.addEventListener('click', function () {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    }
+  });
+</script>
+
+  </body>
+</html>
