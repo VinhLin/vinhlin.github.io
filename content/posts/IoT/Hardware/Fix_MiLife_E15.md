@@ -4,11 +4,11 @@ date = 2026-10-12T15:12:21+07:00
 draft = true
 +++
  Mình có mua **Quạt hơi nước mini miLife E15**. 
-> *Mục đích ban đầu là vừa làm mát, vừa cấp ẩm cho phòng (phòng có điều hòa, mất độ ẩm)* </br>
+> *Mục đích ban đầu là vừa làm mát, vừa cấp ẩm cho phòng (phòng mình xài điều hòa, rất dễ mất độ ẩm khi ở lâu trong phòng)* </br>
 
 ![Hình 0](/image/IoT/Fix_MiLife_E15/Hinh_0.jpg)
 
-Xài một thời gian, mình thấy máy không còn quạt nữa. Rồi xong, bắt đầu quá trình ngâm cứu và sữa chữa.
+Xài một thời gian, mình thấy **máy không còn quạt nữa**. Rồi xong, bắt đầu quá trình ngâm cứu và sữa chữa.
 
 ### Tham khảo video: [CÁI QUẠT NÀY mới là LÀM MÁT KHÔNG KHÍ NÀY! miLife E15 Test & Teardown](https://www.youtube.com/watch?v=2L9e1bUlk8U)
 - Hên là có xem video của anh chàng này, tham khảo cách mà ảnh tháo máy.

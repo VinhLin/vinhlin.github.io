@@ -18,9 +18,8 @@ Thứ 2: Mình làm nhiều về IoT, vi điều khiển. Nên nếu có đó s�
 
 ![Hình 1](/image/IoT/Oscilloscope-DSO_510/Hinh_1.jpg)
 
-- Tài liệu và video hướng dẫn:
+- Tài liệu [Manual](https://manuals.plus/m/fd6a7e8bcb2e74fd28e599da0d33d634464f2f9b6cf0113e4eb45b4415283164_optim.pdf) và video hướng dẫn:
 ```
-https://manuals.plus/m/fd6a7e8bcb2e74fd28e599da0d33d634464f2f9b6cf0113e4eb45b4415283164_optim.pdf
 https://www.youtube.com/watch?v=Y_1N-bWSvI4&t=1605s
 https://www.youtube.com/watch?v=Xx78aBCxnCU&pp=ugUEEgJlbg%3D%3D
 ```

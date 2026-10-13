@@ -1,6 +1,6 @@
 +++
 title = 'Blog_Page'
-date = 2026-04-25T10:38:05+07:00
+date = 2026-10-13T10:38:05+07:00
 draft = true
 +++
 
@@ -8,7 +8,7 @@ Date	|		Mô tả				|
 --------|-----------------------------------------------|
 3/4/2026 | Khởi tạo bài viết				|
 25/4/2026| Cập nhật những tính năng đã làm được		|
----------|----------------------------------------------|
+13/10/2026| So sánh việc build Blog với Wiki		|
 
 Mình thỉnh thoảng cũng tham khảo tài liệu trên trang blog của anh này, [Thuan Bui](https://thuanbui.me/)
 
@@ -39,7 +39,7 @@ Cũng đú theo dùng [PageSpeed Insights](https://pagespeed.web.dev/) để che
 ![Hình 4](/image/Others/Blog_Page/Hinh_4.png)
 
 -----------------------------------------
-### Cập nhật 25/4/2026
+## Cập nhật 25/4/2026
 - Nay ngày 25/4/2026, ngồi note lại những tính năng đã được cải thiện trên blog này.
 - Ban đầu blog dựa trên **themes/maverick**, mang phong cách tối giản và rất simple.
 - Dần dần mình tham khảo và muốn cải thiện thêm những tính năng như:
@@ -55,5 +55,21 @@ Cũng đú theo dùng [PageSpeed Insights](https://pagespeed.web.dev/) để che
 ![Hình 6](/image/Others/Blog_Page/Hinh_6.png)
 
 - Tạm thời là như vậy, có thể sau này sẽ cập nhật những tính năng hữu ích khác, nhưng vẫn giữ phong cách **tối giản**.
+
+----------------------------------------
+## Cập nhật 13/10/2026
+- Dạo gần đây mình thấy có rất nhiều bài viết hay nội dung AI nói về việc xây dựng **second brain** *(bộ não thứ 2)*
+- **Notion** hoặc bây giờ là [outline](https://www.getoutline.com/) để xây dựng document cho bản thân.
+- Thế là bây giờ mình đặt câu hỏi cho AI:
+> *việc xây dựng trang blog (https://blog.vinhld-homelab.io.vn/) với việc tự build wiki bằng outline (https://www.getoutline.com/). Cái nào sẽ ok hơn? Tôi có nên dịch chuyển sang outline không?* </br>
+
+![Hình 7](/image/Others/Blog_Page/Hinh_7.png)
+
+![Hình 8](/image/Others/Blog_Page/Hinh_8.png)
+
+![Hình 9](/image/Others/Blog_Page/Hinh_9.png)
+
+- Đúng là hiện tại trang blog này là nơi để mình search nhanh về các bài viết kỹ thuật. Không phụ thuộc vào resource homelab.
+- Tuy nhiên công cụ Notion hay Outline cũng là thứ mình có thể ngâm cứu, nếu dự tính trong tương lai cần mở rộng document.
 
 
