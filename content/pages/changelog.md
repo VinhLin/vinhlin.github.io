@@ -207,6 +207,7 @@ STT |		Tiêu đề			|		Mô tả				|
 22  | [Android_Hacking_Tools][Android_Hacking_Tools] | Tổng hợp và ghi chú về các công cụ Pentest Android |
 23  | [CCTV_Hacking][CCTV_Hacking]	| Một vài ghi chú về **CCTV Camera Hacking**		|
 24  | [IoT_Security_Tools][IoT_Security_Tools] | Tổng hợp và ghi chú về các **phần mềm pentest** cho IoT |
+25  | [CTF_Sherlock][CTF_Sherlock]	| Làm lại theo bài write-up về CTF Sherlock	|
 
 [NIS2]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/nis2/
 [FW_CheckList]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/firewall_checklist/
@@ -232,6 +233,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [Android_Hacking_Tools]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/android_hacking_tools/
 [CCTV_Hacking]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/cctv_hacking/
 [IoT_Security_Tools]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/iot_security_tools/
+[CTF_Sherlock]: https://blog.vinhld-homelab.io.vn/posts/cybersecurity/technical/ctf_sherlock/
 
 -----------------------------------------------------------------------------------------
 # <mark>System-DevOps</mark>

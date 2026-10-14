@@ -14,6 +14,478 @@
     
     
     <item>
+      <title>CTF_Sherlock</title>
+      <link>https://vinhlin.github.io/posts/cybersecurity/technical/ctf_sherlock/</link>
+      <description>&lt;h1 id=&#34;writeup-sherlock&#34;&gt;&lt;a href=&#34;https://www.hackingarticles.in/ha-sherlock-vulnhub-walkthrough/&#34;&gt;Writeup: Sherlock&lt;/a&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Máy ảo mà mình cài Sherlock có IP là: &lt;code&gt;172.16.30.10&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Mục tiêu của CTF này là để mình làm theo, học thêm các công cụ cũng như kỹ năng về &lt;strong&gt;&amp;ldquo;truy vết&amp;rdquo;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;mục-1-15-điểm&#34;&gt;Mục 1: 15 điểm&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Truy cập vào link: &lt;code&gt;http://172.16.30.10&lt;/code&gt; nhấn &lt;strong&gt;F12&lt;/strong&gt; &lt;em&gt;(như &lt;strong&gt;hình 1&lt;/strong&gt;)&lt;/em&gt;, sẽ thấy nội dung: &lt;code&gt;sherlock said to irene that there was an .mp4 file hidden somehwere.&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/CTF_Sherlock/Hinh_1.png&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tức là đường link này có ẩn file &lt;code&gt;.mp4&lt;/code&gt;, do đó mình sử dụng công cụ &lt;strong&gt;gobuster&lt;/strong&gt; để kiểm tra:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;gobuster dir -u http://172.16.30.10/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x mp4 -k -c -a &amp;#34;Mozilla/5.0&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Như &lt;strong&gt;hình 2&lt;/strong&gt;, vậy là mình đã kiếm được link: &lt;code&gt;http://172.16.30.10/irene.mp4&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/CTF_Sherlock/Hinh_2.png&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Không có gì trong video này cả, ban đầu scan dùng &lt;strong&gt;nmap&lt;/strong&gt; thấy có xuất hiện &lt;strong&gt;port 22&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;nmap -sV 172.16.30.10
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Thử ssh vào xem thế nào:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ssh 172.16.30.10
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Theo write-up thì password chính là mã &lt;strong&gt;morse&lt;/strong&gt;. Truy cập &lt;a href=&#34;https://morsecode.world/international/translator.html&#34;&gt;trang translator morse&lt;/a&gt;:&lt;/li&gt;
+&lt;li&gt;Nhập input vào:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt; -... .- ... -.- . .-. ...- .. .-.. .-.. .
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Mình thu được output là &lt;strong&gt;BASKERVILLE&lt;/strong&gt; &lt;em&gt;(như &lt;strong&gt;hình 3&lt;/strong&gt;)&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/CTF_Sherlock/Hinh_3.png&#34;
+  alt=&#34;Hình 3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ban đầu mình cứ nghĩ &lt;code&gt;BASKERVILLE&lt;/code&gt; chính là password để ssh vào hệ thống, nhưng có vẻ sai rồi.&lt;/li&gt;
+&lt;li&gt;Chỗ này chưa rõ lý do tại sao tác giả write-up lại nghĩ đến &lt;strong&gt;giải mã video bằng password&lt;/strong&gt; &lt;em&gt;(chắc là do kinh nghiệm)&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Mình thử làm theo 1 hướng khác xem như thế nào.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;dùng-kali-để-kiểm-tra-file&#34;&gt;Dùng kali để kiểm tra file&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;mkdir ctf_sherlock/
+cd ctf_sherlock/
+wget http://172.16.30.10/irene.mp4
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Check thông tin:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;file irene.mp4
+hexdump -C irene.mp4 |head -n 20
+binwalk -e irene.mp4
+strings irene.mp4 |head -n 20
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Nhưng không có thông tin gì hữu ích &lt;em&gt;(như &lt;strong&gt;hình 4&lt;/strong&gt;)&lt;/em&gt;. Chuyển sang check &lt;code&gt;metadata&lt;/code&gt;, dùng công cụ &lt;code&gt;exiftool&lt;/code&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo apt update -y
+sudo apt install -y libimage-exiftool-perl
+exiftool irene.mp4
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/CTF_Sherlock/Hinh_4.png&#34;
+  alt=&#34;Hình 4&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Copy kết quả và tham khảo Gemini, thì các điểm bất thường gồm:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Warning : Unknown trailer with truncated &amp;#39;\x00\x80\x88\xc9&amp;#39; data at offset 0x101bf8
+Media Data Size   : 0
+Media Data Offset : 1051515
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Như &lt;strong&gt;hình 5&lt;/strong&gt;, kết quả nhận xét của Gemini là &lt;strong&gt;file MP4 đã bị can thiệp&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/CTF_Sherlock/Hinh_5.png&#34;
+  alt=&#34;Hình 5&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;dùng-tool-steganography&#34;&gt;Dùng tool &lt;code&gt;steganography&lt;/code&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Trang chính thức hình như đã dead rồi, nên mình phải tải lại tool trên trang khác.&lt;/li&gt;
+&lt;li&gt;Tham khảo trang:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;http://justsolve.archiveteam.org/wiki/Our_Secret
+https://web.archive.org/web/20161203120534/http://www.securekit.net/OurSecret.exe
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Tải và cài tool cho windows, phần &lt;strong&gt;UNHIDE&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Chọn file: irene.mp4
+Điền pass: BASKERVILLE
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Mình thu được file &lt;code&gt;.txt&lt;/code&gt; &lt;em&gt;(như &lt;strong&gt;hình 6&lt;/strong&gt;)&lt;/em&gt; và kết quả như &lt;strong&gt;hình 7&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/CTF_Sherlock/Hinh_6.png&#34;
+  alt=&#34;Hình 6&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/CTF_Sherlock/Hinh_7.png&#34;
+  alt=&#34;Hình 7&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;mục-2-10-điểm&#34;&gt;Mục 2: 10 điểm&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ban đầu khi dùng nmap để scan ip, nó đã scan ra giao thức POP3:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&#34;https://vietnix.vn/pop3-va-imap-la-gi/&#34;&gt;Giao thức POP3&lt;/a&gt; là giao thức được sử dụng để kết nối tới server email và tải email xuống máy tính cá nhân thông qua những ứng dụng phổ biến như Outlook, Thunderbird, Windows Mail, Mac Mail,…&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Và theo hướng đi của tác giả write-up, sẽ tiến hành dùng công cụ &lt;strong&gt;hydra&lt;/strong&gt; để &lt;strong&gt;brute force&lt;/strong&gt; thử&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hydra -l harshit -P /usr/share/wordlists/rockyou.txt 172.16.30.10 pop3s
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Tại sao username lại là &lt;code&gt;harshit&lt;/code&gt;, vì theo tiến truyện, đây là máy tính của nạn nhân (máy vẫn đang hoạt động), và chủ nhân của máy này chính là &lt;code&gt;Harshit&lt;/code&gt;&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Kết quả sau khi &amp;ldquo;brute force&amp;rdquo; &lt;em&gt;(như &lt;strong&gt;hình 8&lt;/strong&gt;)&lt;/em&gt; là:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;username: harshit
+pass: superman
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/CTF_Sherlock/Hinh_8.png&#34;
+  alt=&#34;Hình 8&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;truy-cập-mail&#34;&gt;Truy cập mail&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Giao thức &lt;strong&gt;POP3 (Post Office Protocol version 3)&lt;/strong&gt; chạy trên &lt;strong&gt;cổng 110 (chưa mã hóa)&lt;/strong&gt; hoặc &lt;strong&gt;995 (mã hóa SSL/TLS)&lt;/strong&gt; là một giao thức dạng văn bản (text-based protocol) phục vụ truyền tải dữ liệu email, &lt;strong&gt;hoàn toàn không có giao diện web (GUI)&lt;/strong&gt; để mở bằng trình duyệt như Chrome hay Firefox.&lt;/li&gt;
+&lt;li&gt;Vậy là muốn truy cập mail bằng giao thức POP3, mình cần dùng command-line:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;openssl s_client -crlf -connect 172.16.30.10:110 -starttls pop3
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Nhập thông tin theo command và đọc nội dung mail &lt;em&gt;(như &lt;strong&gt;hình 9&lt;/strong&gt;)&lt;/em&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;USER harshit
+PASS superman
+retr 1
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/CTF_Sherlock/Hinh_9.png&#34;
+  alt=&#34;Hình 9&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Đọc tiếp nội dung mail thứ 2 &lt;em&gt;(như &lt;strong&gt;hình 10&lt;/strong&gt;)&lt;/em&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;retr 2
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/CTF_Sherlock/Hinh_10.png&#34;
+  alt=&#34;Hình 10&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Đọc tiếp nội dung mail thứ 3 &lt;em&gt;(như &lt;strong&gt;hình 11&lt;/strong&gt;)&lt;/em&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;retr 3
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/CTF_Sherlock/Hinh_11.png&#34;
+  alt=&#34;Hình 11&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Chuyển đổi &lt;code&gt;May 27, 2020 11:02:09 AM&lt;/code&gt; sang &lt;a href=&#34;https://www.epochconverter.com/&#34;&gt;unixtime&lt;/a&gt;, được kết quả là: &lt;strong&gt;1590577329&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Nhập đường dẫn &lt;code&gt;http://172.16.30.10/1590577329/&lt;/code&gt; &lt;em&gt;(như &lt;strong&gt;hình 12&lt;/strong&gt;)&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Cái mình thắc mắc là tại sao lại nghĩ đến việc convert thời gian này sang UnixTime, và làm sao nghĩ đến việc unixtime này lại là path cho URL này?&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/CTF_Sherlock/Hinh_12.png&#34;
+  alt=&#34;Hình 12&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Nhấn vào file &lt;code&gt;10_Points.txt&lt;/code&gt; &lt;em&gt;(như &lt;strong&gt;hình 13&lt;/strong&gt;)&lt;/em&gt; , thu được 10 điểm tiếp theo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/CTF_Sherlock/Hinh_13.png&#34;
+  alt=&#34;Hình 13&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;mục-3-10-điểm&#34;&gt;Mục 3: 10 điểm&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Phần này liên quan đến việc phân tích file dump của memory.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;wget http://172.16.30.10/1590577329/john.mem
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Cần cài đặt &lt;strong&gt;&lt;a href=&#34;https://github.com/volatilityfoundation/volatility3&#34;&gt;Volatility 3&lt;/a&gt;&lt;/strong&gt; cho Kali. Lệnh cho &lt;strong&gt;Volatility 3&lt;/strong&gt; sẽ hơi khác so với &lt;strong&gt;Volatility 2&lt;/strong&gt; &lt;em&gt;(tham khảo &lt;a href=&#34;https://blog.onfvp.com/post/volatility-cheatsheet/&#34;&gt;cheatsheet&lt;/a&gt;)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Thực hiện lệnh:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cd ctf_sherlock/
+volatility3 -f john.mem windows.info
+volatility3 -f john.mem windows.cmdline
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Như &lt;strong&gt;hình 14&lt;/strong&gt;, mình sẽ có 2 tiến trình &lt;code&gt;notepad&lt;/code&gt; là &lt;strong&gt;628&lt;/strong&gt; và &lt;strong&gt;1804&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/CTF_Sherlock/Hinh_14.png&#34;
+  alt=&#34;Hình 14&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Nhưng với &lt;strong&gt;Vol 3&lt;/strong&gt; thì mình không thể đọc trực tiếp file, mà phải thực hiện gián tiếp:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;volatility3 -f john.mem windows.memmap --pid 628 --dump
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Thu được file &lt;code&gt;pid.628.dmp&lt;/code&gt; &lt;em&gt;(đây là ảnh bộ nhớ thô của process &lt;code&gt;notepad.exe&lt;/code&gt;)&lt;/em&gt;. Nội dung text trong Notepad có thể nằm ở:
+&lt;ul&gt;
+&lt;li&gt;dạng &lt;strong&gt;UTF-16 Little Endian&lt;/strong&gt; trên Windows&lt;/li&gt;
+&lt;li&gt;bị xen giữa nhiều vùng nhớ khác&lt;/li&gt;
+&lt;li&gt;không còn là chuỗi ASCII liên tục&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Nên để đọc đẩy đủ nội dung trong file &lt;strong&gt;pid.628.dmp&lt;/strong&gt; sẽ cần:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;strings -el pid.628.dmp | more
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Như &lt;strong&gt;hình 15&lt;/strong&gt;, do mình biết trước kết quả, nên chỉ cần &lt;code&gt;grep&lt;/code&gt; là xong.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Nhưng cái mình thắc mắc là tại sao tác giả writeup lại thấy chữ &lt;code&gt;Thcgpune&lt;/code&gt; đặc biệt và chuyển sang &lt;strong&gt;rot13&lt;/strong&gt;&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/CTF_Sherlock/Hinh_15.png&#34;
+  alt=&#34;Hình 15&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ROT13: &lt;strong&gt;ROT13 là cách đổi mỗi chữ cái thành chữ cái đứng cách nó 13 vị trí trong bảng alphabet&lt;/strong&gt;. &lt;em&gt;(&lt;a href=&#34;https://en.wikipedia.org/wiki/ROT13&#34;&gt;Wiki ROT13&lt;/a&gt;)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Truy cập trang &lt;a href=&#34;https://rot13.com/&#34;&gt;rot13.com&lt;/a&gt;, để chuyển đổi &lt;em&gt;(như &lt;strong&gt;hình 16&lt;/strong&gt;)&lt;/em&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Thcgpune -&amp;gt; Guptchar
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/CTF_Sherlock/Hinh_16.png&#34;
+  alt=&#34;Hình 16&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dùng công cụ &lt;strong&gt;WinSCP&lt;/strong&gt; để truy cập FTP Server, nhập thông tin:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;host: 172.16.30.10
+port: 21
+username: john
+pass: Guptchar
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Thu được file &lt;code&gt;10_Points.txt&lt;/code&gt; &lt;em&gt;(như &lt;strong&gt;hình 17&lt;/strong&gt;)&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/CTF_Sherlock/Hinh_17.png&#34;
+  alt=&#34;Hình 17&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;mục-4-10-điểm&#34;&gt;Mục 4: 10 điểm&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Mặc dù công cụ &lt;strong&gt;autopsy có sẵn trên kali&lt;/strong&gt;, nhưng chưa rõ lý do gì mà mình không thể truy cập link &lt;code&gt;http://192.168.100.118:9999/autopsy&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Nên mình sẽ cài đặt &lt;a href=&#34;https://www.autopsy.com/download/&#34;&gt;công cụ autopsy trên Windows&lt;/a&gt; &lt;em&gt;(&lt;a href=&#34;https://www.gocnhinanninhmang.vn/2024/07/huong-dan-toan-dien-ve-cong-cu-autopsy.html&#34;&gt;tham khảo cách dùng autopsy trên Windows&lt;/a&gt;)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Thao tác như &lt;strong&gt;hình 18&lt;/strong&gt; -&amp;gt; &lt;strong&gt;hình 22&lt;/strong&gt;, mình sẽ lấy được flag.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/CTF_Sherlock/Hinh_18.png&#34;
+  alt=&#34;Hình 18&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/CTF_Sherlock/Hinh_19.png&#34;
+  alt=&#34;Hình 19&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/CTF_Sherlock/Hinh_20.png&#34;
+  alt=&#34;Hình 20&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/CTF_Sherlock/Hinh_21.png&#34;
+  alt=&#34;Hình 21&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/CTF_Sherlock/Hinh_22.png&#34;
+  alt=&#34;Hình 22&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;mục-5-15-điểm&#34;&gt;Mục 5: 15 điểm&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Lưu 2 file &lt;code&gt;hint.jpg&lt;/code&gt; và &lt;code&gt;mycroft.png&lt;/code&gt; ra máy tính. Dùng chức năng &lt;strong&gt;&amp;ldquo;Extract File(s)&amp;rdquo;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Sau đó mình chép lại vào FTP server của máy &lt;code&gt;172.16.30.10&lt;/code&gt;, rồi trên kali, tiến hành download lại &lt;em&gt;(làm hơi rườm rà, nhưng thôi kệ)&lt;/em&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cd ctf_sherlock/
+wget ftp://john:Guptchar@172.16.30.10/files/mycroft.png
+wget ftp://john:Guptchar@172.16.30.10/files/hint.jpg
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Mình đã xem file ảnh &lt;code&gt;hint.jpg&lt;/code&gt; và dùng tool &lt;code&gt;exiftool&lt;/code&gt; để check thử, chưa thấy có gì bất thường &lt;em&gt;(như &lt;strong&gt;hình 23&lt;/strong&gt;)&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/CTF_Sherlock/Hinh_23.png&#34;
+  alt=&#34;Hình 23&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Làm theo write-up, conver &lt;a href=&#34;https://www.rapidtables.com/convert/number/ascii-hex-bin-dec-converter.html&#34;&gt;&lt;strong&gt;hex&lt;/strong&gt; sang &lt;strong&gt;ASCII text&lt;/strong&gt;&lt;/a&gt; &lt;em&gt;(như &lt;strong&gt;hình 24&lt;/strong&gt;)&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;HEX: 4b 68 75 66 69 79 61
+ASCII text: Khufiya
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/CTF_Sherlock/Hinh_24.png&#34;
+  alt=&#34;Hình 24&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tác giả đặt giả thuyết có thể &lt;code&gt;mycroft&lt;/code&gt; &lt;em&gt;(là username)&lt;/em&gt; &lt;code&gt;Khufiya&lt;/code&gt; &lt;em&gt;(là password)&lt;/em&gt; cho &lt;strong&gt;dịch vụ SSH&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Tiến hành dùng &lt;a href=&#34;https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Metasploit%20-%20Cheatsheet.md&#34;&gt;&lt;strong&gt;Metasploit&lt;/strong&gt;&lt;/a&gt; để khai thác lỗ hổng (nếu có):&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;msfconsole
+use auxiliary/scanner/ssh/ssh_login
+set rhosts 172.16.30.10
+set username mycroft
+set password Khufiya
+exploit
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Kết quả như &lt;strong&gt;hình 25&lt;/strong&gt;, tiếp tục thực hiện command:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sessions -u 1
+sessions 2
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/CTF_Sherlock/Hinh_25.png&#34;
+  alt=&#34;Hình 25&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Quá trình xử lý quá lâu, nhưng mà điều mình biết là với user và pass cung cấp ban đầu, thì đã &lt;strong&gt;exploit thành công&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Vậy thì mình tiến hành &lt;code&gt;ssh&lt;/code&gt; trực tiếp luôn:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ssh mycroft@172.16.30.10
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Nhập pass &lt;code&gt;Khufiya&lt;/code&gt;, truy cập thành công &lt;em&gt;(như &lt;strong&gt;hình 26&lt;/strong&gt;)&lt;/em&gt;. Thực hiện tiếp:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ls
+cat 15_Points.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/CTF_Sherlock/Hinh_26.png&#34;
+  alt=&#34;Hình 26&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>Vincent</author>
+      <guid>https://vinhlin.github.io/posts/cybersecurity/technical/ctf_sherlock/</guid>
+      <pubDate>Wed, 14 Oct 2026 16:49:36 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Blog_Page</title>
       <link>https://vinhlin.github.io/posts/others/blog_page/</link>
       <description>&lt;table&gt;

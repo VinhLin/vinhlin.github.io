@@ -1,0 +1,727 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem('theme');
+          var systemDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var theme = stored || (systemDark ? 'dark' : 'light');
+          document.documentElement.setAttribute('data-theme', theme);
+        } catch (e) {
+          document.documentElement.setAttribute('data-theme', 'light');
+        }
+      })();
+    </script>
+    <meta name="author" content="Liste - https://vinhlin.github.io/">
+    <title>CTF_Sherlock | VinhLD</title>
+    <meta name="description" content="Technology Blog">
+    <meta property="og:url" content="https://vinhlin.github.io/posts/cybersecurity/technical/ctf_sherlock/">
+	<meta property="og:site_name" content="VinhLD">
+	<meta property="og:title" content="CTF_Sherlock">
+	<meta property="og:description" content="Writeup: Sherlock Máy ảo mà mình cài Sherlock có IP là: 172.16.30.10 Mục tiêu của CTF này là để mình làm theo, học thêm các công cụ cũng như kỹ năng về “truy vết” Mục 1: 15 điểm Truy cập vào link: http://172.16.30.10 nhấn F12 (như hình 1), sẽ thấy nội dung: sherlock said to irene that there was an .mp4 file hidden somehwere. Tức là đường link này có ẩn file .mp4, do đó mình sử dụng công cụ gobuster để kiểm tra: gobuster dir -u http://172.16.30.10/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x mp4 -k -c -a &#34;Mozilla/5.0&#34; Như hình 2, vậy là mình đã kiếm được link: http://172.16.30.10/irene.mp4">
+	<meta property="og:locale" content="en_us">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2026-10-14T16:49:36+07:00">
+		<meta property="article:modified_time" content="2026-10-14T16:49:36+07:00">
+
+    
+	<meta itemprop="name" content="CTF_Sherlock">
+	<meta itemprop="description" content="Writeup: Sherlock Máy ảo mà mình cài Sherlock có IP là: 172.16.30.10 Mục tiêu của CTF này là để mình làm theo, học thêm các công cụ cũng như kỹ năng về “truy vết” Mục 1: 15 điểm Truy cập vào link: http://172.16.30.10 nhấn F12 (như hình 1), sẽ thấy nội dung: sherlock said to irene that there was an .mp4 file hidden somehwere. Tức là đường link này có ẩn file .mp4, do đó mình sử dụng công cụ gobuster để kiểm tra: gobuster dir -u http://172.16.30.10/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x mp4 -k -c -a &#34;Mozilla/5.0&#34; Như hình 2, vậy là mình đã kiếm được link: http://172.16.30.10/irene.mp4">
+	<meta itemprop="datePublished" content="2026-10-14T16:49:36+07:00">
+	<meta itemprop="dateModified" content="2026-10-14T16:49:36+07:00">
+	<meta itemprop="wordCount" content="1209">
+    
+    <link rel="canonical" href="https://vinhlin.github.io/posts/cybersecurity/technical/ctf_sherlock/">
+    <link rel="icon" href="https://vinhlin.github.io//assets/favicon.ico">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
+    <link rel="alternate" type="application/atom+xml" title="VinhLD" href="https://vinhlin.github.io//atom.xml" />
+    <link rel="alternate" type="application/json" title="VinhLD" href="https://vinhlin.github.io//feed.json" />
+    <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=">
+    
+    
+    <style>*,:after,:before{box-sizing:border-box;padding:0}body{font:1rem/1.5 '-apple-system',BlinkMacSystemFont,avenir next,avenir,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding:2rem;background:#f5f5f5;color:#000}.skip-link{position:absolute;top:-40px;left:0;background:#eee;z-index:100}.skip-link:focus{top:0}h1,h2,h3,h4,h5,strong,b{font-size:inherit;font-weight:600}header{line-height:2;padding-bottom:1.5rem}.link{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-decoration:none}.time{font-variant-numeric:tabular-nums;white-space:nowrap}blockquote{border-left:5px solid #eee;padding-left:1rem;margin:0}a,a:visited{color:inherit}a:hover,a.heading-link{text-decoration:none}pre{padding:.5rem;overflow:auto;overflow-x:scroll;overflow-wrap:normal}code,pre{font-family:San Francisco Mono,Monaco,consolas,lucida console,dejavu sans mono,bitstream vera sans mono,monospace;font-size:normal;font-size:small;background:#eee}code{margin:.1rem;border:none}ul{list-style-type:square}ul,ol{padding-left:1.2rem}.list{line-height:2;list-style-type:none;padding-left:0}.list li{padding-bottom:.1rem}.meta{color:#777}.content{max-width:70ch;margin:0 auto}header{line-height:2;display:flex;justify-content:space-between;padding-bottom:1rem}header a{text-decoration:none}header ul{list-style-type:none;padding:0}header li,header a{display:inline}h2.post{padding-top:.5rem}header ul a:first-child{padding-left:1rem}.nav{height:1px;background:#000;content:'';max-width:10%}.list li{display:flex;align-items:baseline}.list li time{flex:initial}.hr-list{margin-top:0;margin-bottom:0;margin-right:.5rem;margin-left:.5rem;height:1px;border:0;border-bottom:1px dotted #ccc;flex:1 0 1rem}.m,hr{border:0;margin:3rem 0}img{max-width:100%;height:auto}.post-date{margin:5% 0}.index-date{color:#9a9a9a}.animate-blink{animation:opacity 1s infinite;opacity:1}@keyframes opacity{0%{opacity:1}50%{opacity:.5}100%{opacity:0}}.tags{display:flex;justify-content:space-between}.tags ul{padding:0;margin:0}.tags li{display:inline}.avatar{height:120px;width:120px;position:relative;margin:-10px 0 0 15px;float:right;border-radius:50%}table{width:100%;border-collapse:collapse}th,td{border:1px solid #ddd;text-align:left;padding:8px}th{background-color:#f2f2f2} :root{color-scheme:light;--bg:#f5f5f5;--text:#111111;--muted:#777777;--border:#d8d8d8;--soft-border:#e9e9e9;--code-bg:#ececec;--blockquote-border:#d9d9d9;--table-head:#efefef;--button-bg:rgba(255, 255, 255, 0.92);--button-hover:rgba(245, 245, 245, 0.98);--shadow:0 10px 24px rgba(0, 0, 0, 0.12)}html[data-theme=dark]{color-scheme:dark;--bg:#0f1115;--text:#e8eaf0;--muted:#a2a9b3;--border:#2b3038;--soft-border:#20242b;--code-bg:#171b21;--blockquote-border:#2c3440;--table-head:#171b21;--button-bg:rgba(20, 24, 31, 0.92);--button-hover:rgba(28, 33, 42, 0.98);--shadow:0 10px 24px rgba(0, 0, 0, 0.35)}html,body{background:var(--bg);color:var(--text)}body{background:var(--bg);color:var(--text);transition:background .2s ease,color .2s ease}.meta,.index-date{color:var(--muted)}blockquote{border-left-color:var(--blockquote-border)}code,pre{background:var(--code-bg)}th,td{border-color:var(--border)}th{background-color:var(--table-head)}.hr-list{border-bottom-color:var(--border)}.nav,hr{background:var(--text)}.header-actions{display:flex;align-items:center;gap:.9rem}.theme-toggle{display:inline-flex;align-items:center;justify-content:center;width:2.25rem;height:2.25rem;border:1px solid var(--border);border-radius:9999px;background:var(--button-bg);color:var(--text);box-shadow:var(--shadow);cursor:pointer;transition:background .2s ease,transform .2s ease,border-color .2s ease}.theme-toggle:hover{background:var(--button-hover);transform:translateY(-1px)}.theme-toggle__icon{font-size:1rem;line-height:1}#back-to-top{position:fixed;right:1.25rem;bottom:1.25rem;z-index:999;display:inline-flex;align-items:center;justify-content:center;width:2.75rem;height:2.75rem;border:1px solid var(--border);border-radius:9999px;background:var(--button-bg);color:var(--text);box-shadow:var(--shadow);cursor:pointer;opacity:0;visibility:hidden;transform:translateY(10px);transition:opacity .2s ease,transform .2s ease,visibility .2s ease,background .2s ease;backdrop-filter:blur(6px)}#back-to-top:hover{background:var(--button-hover)}#back-to-top.show{opacity:1;visibility:visible;transform:translateY(0)}#back-to-top span{font-size:1.1rem;line-height:1}@media(max-width:640px){.header-actions{gap:.5rem}.theme-toggle{width:2rem;height:2rem}#back-to-top{right:1rem;bottom:1rem;width:2.5rem;height:2.5rem}}</style>
+  
+    
+  
+  
+  <script type="application/ld+json">
+  {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "articleSection": "posts",
+      "name": "CTF_Sherlock",
+      "headline": "CTF_Sherlock",
+      "alternativeHeadline": "",
+      "description": "\u003ch1 id=\u0022writeup-sherlock\u0022\u003e\u003ca href=\u0022https:\/\/www.hackingarticles.in\/ha-sherlock-vulnhub-walkthrough\/\u0022\u003eWriteup: Sherlock\u003c\/a\u003e\u003c\/h1\u003e\n\u003cul\u003e\n\u003cli\u003eMáy ảo mà mình cài Sherlock có IP là: \u003ccode\u003e172.16.30.10\u003c\/code\u003e\u003c\/li\u003e\n\u003cli\u003eMục tiêu của CTF này là để mình làm theo, học thêm các công cụ cũng như kỹ năng về \u003cstrong\u003e\u0026ldquo;truy vết\u0026rdquo;\u003c\/strong\u003e\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003ch2 id=\u0022mục-1-15-điểm\u0022\u003eMục 1: 15 điểm\u003c\/h2\u003e\n\u003cul\u003e\n\u003cli\u003eTruy cập vào link: \u003ccode\u003ehttp:\/\/172.16.30.10\u003c\/code\u003e nhấn \u003cstrong\u003eF12\u003c\/strong\u003e \u003cem\u003e(như \u003cstrong\u003ehình 1\u003c\/strong\u003e)\u003c\/em\u003e, sẽ thấy nội dung: \u003ccode\u003esherlock said to irene that there was an .mp4 file hidden somehwere.\u003c\/code\u003e\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cp\u003e\u003cimg\n  src=\u0022\/image\/CyberSecurity\/CTF_Sherlock\/Hinh_1.png\u0022\n  alt=\u0022Hình 1\u0022\n  loading=\u0022lazy\u0022\n  decoding=\u0022async\u0022\n  class=\u0022full-width\u0022\n\/\u003e\n\n\u003c\/p\u003e\n\u003cul\u003e\n\u003cli\u003eTức là đường link này có ẩn file \u003ccode\u003e.mp4\u003c\/code\u003e, do đó mình sử dụng công cụ \u003cstrong\u003egobuster\u003c\/strong\u003e để kiểm tra:\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cpre tabindex=\u00220\u0022\u003e\u003ccode\u003egobuster dir -u http:\/\/172.16.30.10\/ -w \/usr\/share\/wordlists\/dirbuster\/directory-list-2.3-medium.txt -x mp4 -k -c -a \u0026#34;Mozilla\/5.0\u0026#34;\n\u003c\/code\u003e\u003c\/pre\u003e\u003cul\u003e\n\u003cli\u003eNhư \u003cstrong\u003ehình 2\u003c\/strong\u003e, vậy là mình đã kiếm được link: \u003ccode\u003ehttp:\/\/172.16.30.10\/irene.mp4\u003c\/code\u003e\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cp\u003e\u003cimg\n  src=\u0022\/image\/CyberSecurity\/CTF_Sherlock\/Hinh_2.png\u0022\n  alt=\u0022Hình 2\u0022\n  loading=\u0022lazy\u0022\n  decoding=\u0022async\u0022\n  class=\u0022full-width\u0022\n\/\u003e\n\n\u003c\/p\u003e",
+      "inLanguage": "en-us",
+      "isFamilyFriendly": "true",
+      "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https:\/\/vinhlin.github.io\/posts\/cybersecurity\/technical\/ctf_sherlock\/"
+      },
+      "author" : {
+          "@type": "Person",
+          "name": "Vincent"
+      },
+      "creator" : {
+          "@type": "Person",
+          "name": "Vincent"
+      },
+      "accountablePerson" : {
+          "@type": "Person",
+          "name": "Vincent"
+      },
+      "copyrightHolder" : "VinhLD",
+      "copyrightYear" : "2026",
+      "dateCreated": "2026-10-14T16:49:36.00Z",
+      "datePublished": "2026-10-14T16:49:36.00Z",
+      "dateModified": "2026-10-14T16:49:36.00Z",
+      "publisher":{
+          "@type":"Organization",
+          "name": "VinhLD",
+          "url": "https:\/\/vinhlin.github.io\/",
+          "logo": {
+              "@type": "ImageObject",
+              "url": "https:\/\/vinhlin.github.io\/assets\/favicon.ico",
+              "width":"32",
+              "height":"32"
+          }
+      },
+      "image": "https:\/\/vinhlin.github.io\/assets\/favicon.ico",
+      "url" : "https:\/\/vinhlin.github.io\/posts\/cybersecurity\/technical\/ctf_sherlock\/",
+      "wordCount" : "1209",
+      "genre" : [ ],
+      "keywords" : [ ]
+  }
+  </script>
+  
+  
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to main</a>
+    <main id="main">
+      <div class="content">
+        <header>
+<p style="padding: 0;margin: 0;">
+  <a href="/">
+    <b>VinhLD</b>
+    <span class="text-stone-500 animate-blink">▮</span>
+  </a>
+</p>
+<div class="header-actions">
+  <ul style="padding: 0;margin: 0;">
+    
+    
+    <li class="">
+      <a href="/changelog/"><span>Changelog</span></a>
+      
+    <li class="">
+      <a href="/posts/"><span>Post</span></a>
+      
+    <li class="">
+      <a href="/search/"><span>Search</span></a>
+      
+    <li class="">
+      <a href="/about/"><span>About</span></a>
+      
+    </li>
+  </ul>
+  <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+    <span class="theme-toggle__icon" aria-hidden="true">◐</span>
+  </button>
+</div>
+</header>
+<hr class="hr-list" style="padding: 0;margin: 0;">
+
+        
+<section>
+  <h2 class="post">CTF_Sherlock</h2>
+  <h1 id="writeup-sherlock"><a href="https://www.hackingarticles.in/ha-sherlock-vulnhub-walkthrough/">Writeup: Sherlock</a></h1>
+<ul>
+<li>Máy ảo mà mình cài Sherlock có IP là: <code>172.16.30.10</code></li>
+<li>Mục tiêu của CTF này là để mình làm theo, học thêm các công cụ cũng như kỹ năng về <strong>&ldquo;truy vết&rdquo;</strong></li>
+</ul>
+<h2 id="mục-1-15-điểm">Mục 1: 15 điểm</h2>
+<ul>
+<li>Truy cập vào link: <code>http://172.16.30.10</code> nhấn <strong>F12</strong> <em>(như <strong>hình 1</strong>)</em>, sẽ thấy nội dung: <code>sherlock said to irene that there was an .mp4 file hidden somehwere.</code></li>
+</ul>
+<p><img
+  src="/image/CyberSecurity/CTF_Sherlock/Hinh_1.png"
+  alt="Hình 1"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<ul>
+<li>Tức là đường link này có ẩn file <code>.mp4</code>, do đó mình sử dụng công cụ <strong>gobuster</strong> để kiểm tra:</li>
+</ul>
+<pre tabindex="0"><code>gobuster dir -u http://172.16.30.10/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x mp4 -k -c -a &#34;Mozilla/5.0&#34;
+</code></pre><ul>
+<li>Như <strong>hình 2</strong>, vậy là mình đã kiếm được link: <code>http://172.16.30.10/irene.mp4</code></li>
+</ul>
+<p><img
+  src="/image/CyberSecurity/CTF_Sherlock/Hinh_2.png"
+  alt="Hình 2"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<ul>
+<li>Không có gì trong video này cả, ban đầu scan dùng <strong>nmap</strong> thấy có xuất hiện <strong>port 22</strong></li>
+</ul>
+<pre tabindex="0"><code>nmap -sV 172.16.30.10
+</code></pre><ul>
+<li>Thử ssh vào xem thế nào:</li>
+</ul>
+<pre tabindex="0"><code>ssh 172.16.30.10
+</code></pre><ul>
+<li>Theo write-up thì password chính là mã <strong>morse</strong>. Truy cập <a href="https://morsecode.world/international/translator.html">trang translator morse</a>:</li>
+<li>Nhập input vào:</li>
+</ul>
+<pre tabindex="0"><code> -... .- ... -.- . .-. ...- .. .-.. .-.. .
+</code></pre><ul>
+<li>Mình thu được output là <strong>BASKERVILLE</strong> <em>(như <strong>hình 3</strong>)</em></li>
+</ul>
+<p><img
+  src="/image/CyberSecurity/CTF_Sherlock/Hinh_3.png"
+  alt="Hình 3"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<ul>
+<li>Ban đầu mình cứ nghĩ <code>BASKERVILLE</code> chính là password để ssh vào hệ thống, nhưng có vẻ sai rồi.</li>
+<li>Chỗ này chưa rõ lý do tại sao tác giả write-up lại nghĩ đến <strong>giải mã video bằng password</strong> <em>(chắc là do kinh nghiệm)</em>.</li>
+<li>Mình thử làm theo 1 hướng khác xem như thế nào.</li>
+</ul>
+<h3 id="dùng-kali-để-kiểm-tra-file">Dùng kali để kiểm tra file</h3>
+<pre tabindex="0"><code>mkdir ctf_sherlock/
+cd ctf_sherlock/
+wget http://172.16.30.10/irene.mp4
+</code></pre><ul>
+<li>Check thông tin:</li>
+</ul>
+<pre tabindex="0"><code>file irene.mp4
+hexdump -C irene.mp4 |head -n 20
+binwalk -e irene.mp4
+strings irene.mp4 |head -n 20
+</code></pre><ul>
+<li>Nhưng không có thông tin gì hữu ích <em>(như <strong>hình 4</strong>)</em>. Chuyển sang check <code>metadata</code>, dùng công cụ <code>exiftool</code>:</li>
+</ul>
+<pre tabindex="0"><code>sudo apt update -y
+sudo apt install -y libimage-exiftool-perl
+exiftool irene.mp4
+</code></pre><p><img
+  src="/image/CyberSecurity/CTF_Sherlock/Hinh_4.png"
+  alt="Hình 4"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<ul>
+<li>Copy kết quả và tham khảo Gemini, thì các điểm bất thường gồm:</li>
+</ul>
+<pre tabindex="0"><code>Warning : Unknown trailer with truncated &#39;\x00\x80\x88\xc9&#39; data at offset 0x101bf8
+Media Data Size   : 0
+Media Data Offset : 1051515
+</code></pre><ul>
+<li>Như <strong>hình 5</strong>, kết quả nhận xét của Gemini là <strong>file MP4 đã bị can thiệp</strong>.</li>
+</ul>
+<p><img
+  src="/image/CyberSecurity/CTF_Sherlock/Hinh_5.png"
+  alt="Hình 5"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<h3 id="dùng-tool-steganography">Dùng tool <code>steganography</code></h3>
+<ul>
+<li>Trang chính thức hình như đã dead rồi, nên mình phải tải lại tool trên trang khác.</li>
+<li>Tham khảo trang:</li>
+</ul>
+<pre tabindex="0"><code>http://justsolve.archiveteam.org/wiki/Our_Secret
+https://web.archive.org/web/20161203120534/http://www.securekit.net/OurSecret.exe
+</code></pre><ul>
+<li>Tải và cài tool cho windows, phần <strong>UNHIDE</strong></li>
+</ul>
+<pre tabindex="0"><code>Chọn file: irene.mp4
+Điền pass: BASKERVILLE
+</code></pre><ul>
+<li>Mình thu được file <code>.txt</code> <em>(như <strong>hình 6</strong>)</em> và kết quả như <strong>hình 7</strong>.</li>
+</ul>
+<p><img
+  src="/image/CyberSecurity/CTF_Sherlock/Hinh_6.png"
+  alt="Hình 6"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p><img
+  src="/image/CyberSecurity/CTF_Sherlock/Hinh_7.png"
+  alt="Hình 7"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<hr>
+<h2 id="mục-2-10-điểm">Mục 2: 10 điểm</h2>
+<ul>
+<li>Ban đầu khi dùng nmap để scan ip, nó đã scan ra giao thức POP3:</li>
+</ul>
+<blockquote>
+<p><em><a href="https://vietnix.vn/pop3-va-imap-la-gi/">Giao thức POP3</a> là giao thức được sử dụng để kết nối tới server email và tải email xuống máy tính cá nhân thông qua những ứng dụng phổ biến như Outlook, Thunderbird, Windows Mail, Mac Mail,…</em> </br></p>
+</blockquote>
+<ul>
+<li>Và theo hướng đi của tác giả write-up, sẽ tiến hành dùng công cụ <strong>hydra</strong> để <strong>brute force</strong> thử</li>
+</ul>
+<pre tabindex="0"><code>hydra -l harshit -P /usr/share/wordlists/rockyou.txt 172.16.30.10 pop3s
+</code></pre><blockquote>
+<p><em>Tại sao username lại là <code>harshit</code>, vì theo tiến truyện, đây là máy tính của nạn nhân (máy vẫn đang hoạt động), và chủ nhân của máy này chính là <code>Harshit</code></em> </br></p>
+</blockquote>
+<ul>
+<li>Kết quả sau khi &ldquo;brute force&rdquo; <em>(như <strong>hình 8</strong>)</em> là:</li>
+</ul>
+<pre tabindex="0"><code>username: harshit
+pass: superman
+</code></pre><p><img
+  src="/image/CyberSecurity/CTF_Sherlock/Hinh_8.png"
+  alt="Hình 8"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<h3 id="truy-cập-mail">Truy cập mail</h3>
+<ul>
+<li>Giao thức <strong>POP3 (Post Office Protocol version 3)</strong> chạy trên <strong>cổng 110 (chưa mã hóa)</strong> hoặc <strong>995 (mã hóa SSL/TLS)</strong> là một giao thức dạng văn bản (text-based protocol) phục vụ truyền tải dữ liệu email, <strong>hoàn toàn không có giao diện web (GUI)</strong> để mở bằng trình duyệt như Chrome hay Firefox.</li>
+<li>Vậy là muốn truy cập mail bằng giao thức POP3, mình cần dùng command-line:</li>
+</ul>
+<pre tabindex="0"><code>openssl s_client -crlf -connect 172.16.30.10:110 -starttls pop3
+</code></pre><ul>
+<li>Nhập thông tin theo command và đọc nội dung mail <em>(như <strong>hình 9</strong>)</em>:</li>
+</ul>
+<pre tabindex="0"><code>USER harshit
+PASS superman
+retr 1
+</code></pre><p><img
+  src="/image/CyberSecurity/CTF_Sherlock/Hinh_9.png"
+  alt="Hình 9"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<ul>
+<li>Đọc tiếp nội dung mail thứ 2 <em>(như <strong>hình 10</strong>)</em>:</li>
+</ul>
+<pre tabindex="0"><code>retr 2
+</code></pre><p><img
+  src="/image/CyberSecurity/CTF_Sherlock/Hinh_10.png"
+  alt="Hình 10"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<ul>
+<li>Đọc tiếp nội dung mail thứ 3 <em>(như <strong>hình 11</strong>)</em>:</li>
+</ul>
+<pre tabindex="0"><code>retr 3
+</code></pre><p><img
+  src="/image/CyberSecurity/CTF_Sherlock/Hinh_11.png"
+  alt="Hình 11"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<ul>
+<li>Chuyển đổi <code>May 27, 2020 11:02:09 AM</code> sang <a href="https://www.epochconverter.com/">unixtime</a>, được kết quả là: <strong>1590577329</strong></li>
+<li>Nhập đường dẫn <code>http://172.16.30.10/1590577329/</code> <em>(như <strong>hình 12</strong>)</em></li>
+</ul>
+<blockquote>
+<p><em>Cái mình thắc mắc là tại sao lại nghĩ đến việc convert thời gian này sang UnixTime, và làm sao nghĩ đến việc unixtime này lại là path cho URL này?</em> </br></p>
+</blockquote>
+<p><img
+  src="/image/CyberSecurity/CTF_Sherlock/Hinh_12.png"
+  alt="Hình 12"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<ul>
+<li>Nhấn vào file <code>10_Points.txt</code> <em>(như <strong>hình 13</strong>)</em> , thu được 10 điểm tiếp theo.</li>
+</ul>
+<p><img
+  src="/image/CyberSecurity/CTF_Sherlock/Hinh_13.png"
+  alt="Hình 13"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<hr>
+<h2 id="mục-3-10-điểm">Mục 3: 10 điểm</h2>
+<ul>
+<li>Phần này liên quan đến việc phân tích file dump của memory.</li>
+</ul>
+<pre tabindex="0"><code>wget http://172.16.30.10/1590577329/john.mem
+</code></pre><ul>
+<li>Cần cài đặt <strong><a href="https://github.com/volatilityfoundation/volatility3">Volatility 3</a></strong> cho Kali. Lệnh cho <strong>Volatility 3</strong> sẽ hơi khác so với <strong>Volatility 2</strong> <em>(tham khảo <a href="https://blog.onfvp.com/post/volatility-cheatsheet/">cheatsheet</a>)</em></li>
+<li>Thực hiện lệnh:</li>
+</ul>
+<pre tabindex="0"><code>cd ctf_sherlock/
+volatility3 -f john.mem windows.info
+volatility3 -f john.mem windows.cmdline
+</code></pre><ul>
+<li>Như <strong>hình 14</strong>, mình sẽ có 2 tiến trình <code>notepad</code> là <strong>628</strong> và <strong>1804</strong></li>
+</ul>
+<p><img
+  src="/image/CyberSecurity/CTF_Sherlock/Hinh_14.png"
+  alt="Hình 14"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<ul>
+<li>Nhưng với <strong>Vol 3</strong> thì mình không thể đọc trực tiếp file, mà phải thực hiện gián tiếp:</li>
+</ul>
+<pre tabindex="0"><code>volatility3 -f john.mem windows.memmap --pid 628 --dump
+</code></pre><ul>
+<li>Thu được file <code>pid.628.dmp</code> <em>(đây là ảnh bộ nhớ thô của process <code>notepad.exe</code>)</em>. Nội dung text trong Notepad có thể nằm ở:
+<ul>
+<li>dạng <strong>UTF-16 Little Endian</strong> trên Windows</li>
+<li>bị xen giữa nhiều vùng nhớ khác</li>
+<li>không còn là chuỗi ASCII liên tục</li>
+</ul>
+</li>
+<li>Nên để đọc đẩy đủ nội dung trong file <strong>pid.628.dmp</strong> sẽ cần:</li>
+</ul>
+<pre tabindex="0"><code>strings -el pid.628.dmp | more
+</code></pre><ul>
+<li>Như <strong>hình 15</strong>, do mình biết trước kết quả, nên chỉ cần <code>grep</code> là xong.</li>
+</ul>
+<blockquote>
+<p><em>Nhưng cái mình thắc mắc là tại sao tác giả writeup lại thấy chữ <code>Thcgpune</code> đặc biệt và chuyển sang <strong>rot13</strong></em> </br></p>
+</blockquote>
+<p><img
+  src="/image/CyberSecurity/CTF_Sherlock/Hinh_15.png"
+  alt="Hình 15"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<ul>
+<li>ROT13: <strong>ROT13 là cách đổi mỗi chữ cái thành chữ cái đứng cách nó 13 vị trí trong bảng alphabet</strong>. <em>(<a href="https://en.wikipedia.org/wiki/ROT13">Wiki ROT13</a>)</em></li>
+<li>Truy cập trang <a href="https://rot13.com/">rot13.com</a>, để chuyển đổi <em>(như <strong>hình 16</strong>)</em>:</li>
+</ul>
+<pre tabindex="0"><code>Thcgpune -&gt; Guptchar
+</code></pre><p><img
+  src="/image/CyberSecurity/CTF_Sherlock/Hinh_16.png"
+  alt="Hình 16"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<ul>
+<li>Dùng công cụ <strong>WinSCP</strong> để truy cập FTP Server, nhập thông tin:</li>
+</ul>
+<pre tabindex="0"><code>host: 172.16.30.10
+port: 21
+username: john
+pass: Guptchar
+</code></pre><ul>
+<li>Thu được file <code>10_Points.txt</code> <em>(như <strong>hình 17</strong>)</em></li>
+</ul>
+<p><img
+  src="/image/CyberSecurity/CTF_Sherlock/Hinh_17.png"
+  alt="Hình 17"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<hr>
+<h2 id="mục-4-10-điểm">Mục 4: 10 điểm</h2>
+<ul>
+<li>Mặc dù công cụ <strong>autopsy có sẵn trên kali</strong>, nhưng chưa rõ lý do gì mà mình không thể truy cập link <code>http://192.168.100.118:9999/autopsy</code>.</li>
+<li>Nên mình sẽ cài đặt <a href="https://www.autopsy.com/download/">công cụ autopsy trên Windows</a> <em>(<a href="https://www.gocnhinanninhmang.vn/2024/07/huong-dan-toan-dien-ve-cong-cu-autopsy.html">tham khảo cách dùng autopsy trên Windows</a>)</em></li>
+<li>Thao tác như <strong>hình 18</strong> -&gt; <strong>hình 22</strong>, mình sẽ lấy được flag.</li>
+</ul>
+<p><img
+  src="/image/CyberSecurity/CTF_Sherlock/Hinh_18.png"
+  alt="Hình 18"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p><img
+  src="/image/CyberSecurity/CTF_Sherlock/Hinh_19.png"
+  alt="Hình 19"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p><img
+  src="/image/CyberSecurity/CTF_Sherlock/Hinh_20.png"
+  alt="Hình 20"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p><img
+  src="/image/CyberSecurity/CTF_Sherlock/Hinh_21.png"
+  alt="Hình 21"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p><img
+  src="/image/CyberSecurity/CTF_Sherlock/Hinh_22.png"
+  alt="Hình 22"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<hr>
+<h2 id="mục-5-15-điểm">Mục 5: 15 điểm</h2>
+<ul>
+<li>Lưu 2 file <code>hint.jpg</code> và <code>mycroft.png</code> ra máy tính. Dùng chức năng <strong>&ldquo;Extract File(s)&rdquo;</strong></li>
+<li>Sau đó mình chép lại vào FTP server của máy <code>172.16.30.10</code>, rồi trên kali, tiến hành download lại <em>(làm hơi rườm rà, nhưng thôi kệ)</em>:</li>
+</ul>
+<pre tabindex="0"><code>cd ctf_sherlock/
+wget ftp://john:Guptchar@172.16.30.10/files/mycroft.png
+wget ftp://john:Guptchar@172.16.30.10/files/hint.jpg
+</code></pre><ul>
+<li>Mình đã xem file ảnh <code>hint.jpg</code> và dùng tool <code>exiftool</code> để check thử, chưa thấy có gì bất thường <em>(như <strong>hình 23</strong>)</em>.</li>
+</ul>
+<p><img
+  src="/image/CyberSecurity/CTF_Sherlock/Hinh_23.png"
+  alt="Hình 23"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<ul>
+<li>Làm theo write-up, conver <a href="https://www.rapidtables.com/convert/number/ascii-hex-bin-dec-converter.html"><strong>hex</strong> sang <strong>ASCII text</strong></a> <em>(như <strong>hình 24</strong>)</em></li>
+</ul>
+<pre tabindex="0"><code>HEX: 4b 68 75 66 69 79 61
+ASCII text: Khufiya
+</code></pre><p><img
+  src="/image/CyberSecurity/CTF_Sherlock/Hinh_24.png"
+  alt="Hình 24"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<ul>
+<li>Tác giả đặt giả thuyết có thể <code>mycroft</code> <em>(là username)</em> <code>Khufiya</code> <em>(là password)</em> cho <strong>dịch vụ SSH</strong>.</li>
+<li>Tiến hành dùng <a href="https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Metasploit%20-%20Cheatsheet.md"><strong>Metasploit</strong></a> để khai thác lỗ hổng (nếu có):</li>
+</ul>
+<pre tabindex="0"><code>msfconsole
+use auxiliary/scanner/ssh/ssh_login
+set rhosts 172.16.30.10
+set username mycroft
+set password Khufiya
+exploit
+</code></pre><ul>
+<li>Kết quả như <strong>hình 25</strong>, tiếp tục thực hiện command:</li>
+</ul>
+<pre tabindex="0"><code>sessions -u 1
+sessions 2
+</code></pre><p><img
+  src="/image/CyberSecurity/CTF_Sherlock/Hinh_25.png"
+  alt="Hình 25"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<ul>
+<li>Quá trình xử lý quá lâu, nhưng mà điều mình biết là với user và pass cung cấp ban đầu, thì đã <strong>exploit thành công</strong>.</li>
+<li>Vậy thì mình tiến hành <code>ssh</code> trực tiếp luôn:</li>
+</ul>
+<pre tabindex="0"><code>ssh mycroft@172.16.30.10
+</code></pre><ul>
+<li>Nhập pass <code>Khufiya</code>, truy cập thành công <em>(như <strong>hình 26</strong>)</em>. Thực hiện tiếp:</li>
+</ul>
+<pre tabindex="0"><code>ls
+cat 15_Points.txt
+</code></pre><p><img
+  src="/image/CyberSecurity/CTF_Sherlock/Hinh_26.png"
+  alt="Hình 26"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+
+  
+  <div class="post-date">
+    <span class="g time">October 14, 2026</span> &#8729;
+    
+  </div>
+  
+</section>
+
+
+
+
+        <footer>
+  <p>© 2026</p>
+  
+  <button id="backToTop" onclick="topFunction()" title="Go to top">
+    <span class="arrow">↑</span> Back To Top
+  </button>
+
+  <div id="google_translate_element" style="margin-top: 20px; text-align: center;"></div>
+</footer>
+
+<style>
+   
+  #backToTop {
+    display: none; 
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 999;
+    background: #fff;
+    color: #222;
+    border: 1px solid #eee;
+    padding: 8px 15px;
+    border-radius: 4px;  
+    cursor: pointer;
+    font-size: 14px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    align-items: center;
+    gap: 5px;
+  }
+  #backToTop:hover {
+    background: #fafafa;
+    border-color: #ccc;
+  }
+</style>
+
+<script>
+  var mybutton = document.getElementById("backToTop");
+
+  
+  window.addEventListener('scroll', function() {
+    if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+      mybutton.style.display = "flex";
+    } else {
+      mybutton.style.display = "none";
+    }
+  });
+
+  function topFunction() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
+      </div>
+    </main>
+    
+<button id="back-to-top" type="button" aria-label="Back to top" title="Back to top">
+  <span aria-hidden="true">↑</span>
+</button>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const root = document.documentElement;
+    const toggle = document.getElementById('theme-toggle');
+    const backToTop = document.getElementById('back-to-top');
+
+    const setTheme = (theme) => {
+      root.setAttribute('data-theme', theme);
+      try {
+        localStorage.setItem('theme', theme);
+      } catch (e) {}
+      if (toggle) {
+        toggle.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+        toggle.setAttribute('title', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+      }
+    };
+
+    if (toggle) {
+      toggle.addEventListener('click', function () {
+        const current = root.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+        setTheme(current === 'dark' ? 'light' : 'dark');
+      });
+
+      const initial = root.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+      setTheme(initial);
+    }
+
+    if (backToTop) {
+      const toggleButton = () => {
+        if (window.scrollY > 320) {
+          backToTop.classList.add('show');
+        } else {
+          backToTop.classList.remove('show');
+        }
+      };
+
+      window.addEventListener('scroll', toggleButton, { passive: true });
+      toggleButton();
+
+      backToTop.addEventListener('click', function () {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    }
+  });
+</script>
+
+  </body>
+</html>

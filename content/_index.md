@@ -80,3 +80,7 @@ Mình áp dụng những kiến thức của bản thân để tự build lên h
 
 ![Embedded Career](/image/Embedded_Career.jpg)
 
+### Tham khảo: 11 Nhóm Công nghệ Chiến lược
+
+![Công nghệ chiến lược](/image/11_nhóm_Công_nghệ_Chiến_lược.jpg)
+

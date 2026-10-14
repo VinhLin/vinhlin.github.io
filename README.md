@@ -204,6 +204,7 @@ hugo new posts/CyberSecurity/Technical/Win_CMD_for_CyberSecurity.md
 hugo new posts/CyberSecurity/Technical/Android_Hacking_Tools.md
 hugo new posts/CyberSecurity/Technical/CCTV_Hacking.md
 hugo new posts/CyberSecurity/Technical/IoT_Security_Tools.md
+hugo new posts/CyberSecurity/Technical/CTF_Sherlock.md
 ```
 
 ### System-DevOps
