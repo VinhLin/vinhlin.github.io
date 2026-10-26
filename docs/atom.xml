@@ -14,6 +14,150 @@
     
     
     <item>
+      <title>Fleet_Platform</title>
+      <link>https://vinhlin.github.io/posts/system-devops/fleet_platform/</link>
+      <description>&lt;h2 id=&#34;changelog&#34;&gt;Changelog&lt;/h2&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Date&lt;/th&gt;
+					&lt;th&gt;Mô tả&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;24/12/2025&lt;/td&gt;
+					&lt;td&gt;Khởi tạo bài viết, ghi chú về &lt;strong&gt;Fleet Platform&lt;/strong&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;25/10/2026&lt;/td&gt;
+					&lt;td&gt;Vide Code &lt;strong&gt;&amp;ldquo;JT808 Gateway&amp;rdquo;&lt;/strong&gt;, demo thành công&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Làm về mảng Dashcam, mình có nghe đến các cụm từ như &lt;strong&gt;Vehicle Video Monitoring Platform&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/Fleet_Platform/Hinh_1.png&#34;
+  alt=&#34;Hình 1&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Trung Quốc, công xưởng của thế giới, nền tảng Logistics của họ rất phát triển.&lt;/p&gt;
+&lt;p&gt;Họ có những chuẩn riêng cho thiết bị như &lt;strong&gt;JT808&lt;/strong&gt; &lt;em&gt;(nó như dạng QCVN31 của Việt Nam cho thiết bị tracker)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Còn có một số thuật ngữ phần mềm như: &lt;strong&gt;Fleet Platform&lt;/strong&gt;, &lt;strong&gt;CSMV6&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Quá nhiều thứ, nên mình quay qua hỏi AI thôi =]]&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Vehicle Video Monitoring Platform&lt;/strong&gt; mà bạn muốn build chính là một dạng Fleet Management Platform chuyên sâu vào video (dashcam live/record, AI detection) kết hợp GPS tracking.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/Fleet_Platform/Hinh_2.png&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Tức là nếu mình muốn build một &lt;strong&gt;Fleet Platform&lt;/strong&gt; thì mình sẽ cần ít nhất là 2 thứ:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Thứ 1: &lt;strong&gt;GPS Tracking Server&lt;/strong&gt; để nhận dữ liệu JT808.&lt;/li&gt;
+&lt;li&gt;Thứ 2: &lt;strong&gt;Media Server&lt;/strong&gt; để nhận data video stream.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/Fleet_Platform/Hinh_3.png&#34;
+  alt=&#34;Hình 3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;gps-tracking-server&#34;&gt;GPS Tracking Server&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Và AI giới thiệu mình là dùng &lt;a href=&#34;https://www.traccar.org/&#34;&gt;Traccar - Modern GPS Tracking Platform&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Vừa mã nguồn mở, vừa support rất nhiều loại thiết bị khác nhau.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;media-server&#34;&gt;Media Server&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Có đến 2 giải pháp, đó là:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Ant Media Server&lt;/strong&gt;&lt;/em&gt; &lt;/br&gt;
+&lt;em&gt;&lt;strong&gt;SRS(Simple Realtime Server)&lt;/strong&gt;&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;giải-pháp-1-ant-media-server&#34;&gt;Giải pháp 1: &lt;a href=&#34;https://antmedia.io/&#34;&gt;Ant Media Server&lt;/a&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Dự án này có phiên bản mã nguồn mở, nhưng bị giới hạn. Lợi điểm là build nhanh.&lt;/li&gt;
+&lt;li&gt;Tài liệu:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://antmedia.io/#selfhosted&#34;&gt;selfhosted&lt;/a&gt; &lt;/br&gt;
+&lt;a href=&#34;https://github.com/ant-media/Ant-Media-Server&#34;&gt;github project&lt;/a&gt; &lt;/br&gt;
+&lt;a href=&#34;https://docs.antmedia.io/guides/installing-on-linux/installing-ams-on-linux/&#34;&gt;Install ASM on Linux&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;giải-pháp-2-srssimple-realtime-server&#34;&gt;Giải pháp 2: SRS(Simple Realtime Server)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ossrs/srs&#34;&gt;Github dự án srs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Dự án hoàn toàn là mã nguồn mở. &lt;a href=&#34;https://www.youtube.com/watch?v=k5IbcYqXCqs&#34;&gt;Tham khảo video này&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/Fleet_Platform/Hinh_4.png&#34;
+  alt=&#34;Hình 4&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;kết-luận&#34;&gt;Kết luận:&lt;/h3&gt;
+&lt;p&gt;Tham khảo xong thì có thể mình chọn giải pháp là: &lt;strong&gt;Traccar + Ant Media Server&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;một-bài-viết-về-lỗ-hổng-trên-cmsv6&#34;&gt;Một bài viết về lỗ hổng trên CMSV6&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dev.to/sharon_42e16b8da44dabde6d/sql-injection-to-rce-in-cmsv6-fleet-platform-patch-now-91e&#34;&gt;https://dev.to/sharon_42e16b8da44dabde6d/sql-injection-to-rce-in-cmsv6-fleet-platform-patch-now-91e&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fleetmasterusa.com/wp-content/uploads/2019/11/FleetVu_User-Manual-V1.0.pdf&#34;&gt;https://fleetmasterusa.com/wp-content/uploads/2019/11/FleetVu_User-Manual-V1.0.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;iothub&#34;&gt;IoTHub&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.jimicloud.com/overview/getting-started.html#overview&#34;&gt;https://docs.jimicloud.com/overview/getting-started.html#overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.jimicloud.com/installation/installation.html&#34;&gt;https://docs.jimicloud.com/installation/installation.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.jimicloud.com/test/test.html&#34;&gt;https://docs.jimicloud.com/test/test.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;tham-khảo-khác&#34;&gt;Tham khảo khác&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/SmallChi/JT808&#34;&gt;https://github.com/SmallChi/JT808&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/SmallChi/JT1078&#34;&gt;https://github.com/SmallChi/JT1078&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ZLMediaKit/ZLMediaKit&#34;&gt;https://github.com/ZLMediaKit/ZLMediaKit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;cập-nhật-25102026&#34;&gt;Cập nhật &lt;code&gt;25/10/2026&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;Sau khi tìm hiểu kỹ càng về &lt;strong&gt;&amp;ldquo;JT808/1078 protocol&amp;rdquo;&lt;/strong&gt; &lt;em&gt;(Location sẽ có gói tin là &lt;code&gt;0x0200&lt;/code&gt;, còn gói live-stream sẽ là &lt;code&gt;0x9101&lt;/code&gt;)&lt;/em&gt;, thử nghiệm và thất bại nhiều lần.&lt;/p&gt;
+&lt;p&gt;Cuối cùng mình quyết định &lt;strong&gt;vide code&lt;/strong&gt;, tự build một gateway &lt;em&gt;(được viết bằng &lt;strong&gt;Rust-lang&lt;/strong&gt;)&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Workflow:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[Thiết bị JT808/2019 + JT1078 Video]
+        │
+        ├──► (Dữ liệu định vị GPS / Alarms) ──► [jt808-gateway] ──(Convert -&amp;gt; JT808/2013)──► [Traccar Platform]
+        │
+        └──► (Luồng Video Raw JT1078)      ──► [jt808-gateway] ──► [ZLMediaKit / SRS Server] ──(RTSP)──► [CCTV DVR]
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Đã demo thành công.&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/Fleet_Platform/Hinh_5.jpg&#34;
+  alt=&#34;Hình 5&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author>Vincent</author>
+      <guid>https://vinhlin.github.io/posts/system-devops/fleet_platform/</guid>
+      <pubDate>Sun, 25 Oct 2026 20:49:26 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>CTF_Sherlock</title>
       <link>https://vinhlin.github.io/posts/cybersecurity/technical/ctf_sherlock/</link>
       <description>&lt;h1 id=&#34;writeup-sherlock&#34;&gt;&lt;a href=&#34;https://www.hackingarticles.in/ha-sherlock-vulnhub-walkthrough/&#34;&gt;Writeup: Sherlock&lt;/a&gt;&lt;/h1&gt;
@@ -6343,117 +6487,11 @@ https://www.linkedin.com/pulse/choosing-best-file-format-sd-card-external-hard-d
     </item>
     
     <item>
-      <title>Fleet_Platform</title>
-      <link>https://vinhlin.github.io/posts/system-devops/fleet_platform/</link>
-      <description>&lt;p&gt;Làm về mảng Dashcam, mình có nghe đến các cụm từ như &lt;strong&gt;Vehicle Video Monitoring Platform&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/System-DevOps/Fleet_Platform/Hinh_1.png&#34;
-  alt=&#34;Hình 1&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;p&gt;Trung Quốc, công xưởng của thế giới, nền tảng Logistics của họ rất phát triển.&lt;/p&gt;
-&lt;p&gt;Họ có những chuẩn riêng cho thiết bị như &lt;strong&gt;JT808&lt;/strong&gt; &lt;em&gt;(nó như dạng QCVN31 của Việt Nam cho thiết bị tracker)&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Còn có một số thuật ngữ phần mềm như: &lt;strong&gt;Fleet Platform&lt;/strong&gt;, &lt;strong&gt;CSMV6&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Quá nhiều thứ, nên mình quay qua hỏi AI thôi =]]&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Vehicle Video Monitoring Platform&lt;/strong&gt; mà bạn muốn build chính là một dạng Fleet Management Platform chuyên sâu vào video (dashcam live/record, AI detection) kết hợp GPS tracking.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/System-DevOps/Fleet_Platform/Hinh_2.png&#34;
-  alt=&#34;Hình 2&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;p&gt;Tức là nếu mình muốn build một &lt;strong&gt;Fleet Platform&lt;/strong&gt; thì mình sẽ cần ít nhất là 2 thứ:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Thứ 1: &lt;strong&gt;GPS Tracking Server&lt;/strong&gt; để nhận dữ liệu JT808.&lt;/li&gt;
-&lt;li&gt;Thứ 2: &lt;strong&gt;Media Server&lt;/strong&gt; để nhận data video stream.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/System-DevOps/Fleet_Platform/Hinh_3.png&#34;
-  alt=&#34;Hình 3&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;h3 id=&#34;gps-tracking-server&#34;&gt;GPS Tracking Server&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Và AI giới thiệu mình là dùng &lt;a href=&#34;https://www.traccar.org/&#34;&gt;Traccar - Modern GPS Tracking Platform&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Vừa mã nguồn mở, vừa support rất nhiều loại thiết bị khác nhau.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;media-server&#34;&gt;Media Server&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Có đến 2 giải pháp, đó là:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;Ant Media Server&lt;/strong&gt;&lt;/em&gt; &lt;/br&gt;
-&lt;em&gt;&lt;strong&gt;SRS(Simple Realtime Server)&lt;/strong&gt;&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4 id=&#34;giải-pháp-1-ant-media-server&#34;&gt;Giải pháp 1: &lt;a href=&#34;https://antmedia.io/&#34;&gt;Ant Media Server&lt;/a&gt;&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Dự án này có phiên bản mã nguồn mở, nhưng bị giới hạn. Lợi điểm là build nhanh.&lt;/li&gt;
-&lt;li&gt;Tài liệu:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;https://antmedia.io/#selfhosted&#34;&gt;selfhosted&lt;/a&gt; &lt;/br&gt;
-&lt;a href=&#34;https://github.com/ant-media/Ant-Media-Server&#34;&gt;github project&lt;/a&gt; &lt;/br&gt;
-&lt;a href=&#34;https://docs.antmedia.io/guides/installing-on-linux/installing-ams-on-linux/&#34;&gt;Install ASM on Linux&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4 id=&#34;giải-pháp-2-srssimple-realtime-server&#34;&gt;Giải pháp 2: SRS(Simple Realtime Server)&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/ossrs/srs&#34;&gt;Github dự án srs&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Dự án hoàn toàn là mã nguồn mở. &lt;a href=&#34;https://www.youtube.com/watch?v=k5IbcYqXCqs&#34;&gt;Tham khảo video này&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://vinhlin.github.io/image/System-DevOps/Fleet_Platform/Hinh_4.png&#34;
-  alt=&#34;Hình 4&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;h3 id=&#34;kết-luận&#34;&gt;Kết luận:&lt;/h3&gt;
-&lt;p&gt;Tham khảo xong thì có thể mình chọn giải pháp là: &lt;strong&gt;Traccar + Ant Media Server&lt;/strong&gt;.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;một-bài-viết-về-lỗ-hổng-trên-cmsv6&#34;&gt;Một bài viết về lỗ hổng trên CMSV6&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://dev.to/sharon_42e16b8da44dabde6d/sql-injection-to-rce-in-cmsv6-fleet-platform-patch-now-91e&#34;&gt;https://dev.to/sharon_42e16b8da44dabde6d/sql-injection-to-rce-in-cmsv6-fleet-platform-patch-now-91e&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://fleetmasterusa.com/wp-content/uploads/2019/11/FleetVu_User-Manual-V1.0.pdf&#34;&gt;https://fleetmasterusa.com/wp-content/uploads/2019/11/FleetVu_User-Manual-V1.0.pdf&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;iothub&#34;&gt;IoTHub&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.jimicloud.com/overview/getting-started.html#overview&#34;&gt;https://docs.jimicloud.com/overview/getting-started.html#overview&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.jimicloud.com/installation/installation.html&#34;&gt;https://docs.jimicloud.com/installation/installation.html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.jimicloud.com/test/test.html&#34;&gt;https://docs.jimicloud.com/test/test.html&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;tham-khảo-khác&#34;&gt;Tham khảo khác&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/SmallChi/JT808&#34;&gt;https://github.com/SmallChi/JT808&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/SmallChi/JT1078&#34;&gt;https://github.com/SmallChi/JT1078&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/ZLMediaKit/ZLMediaKit&#34;&gt;https://github.com/ZLMediaKit/ZLMediaKit&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-      <author>Vincent</author>
-      <guid>https://vinhlin.github.io/posts/system-devops/fleet_platform/</guid>
-      <pubDate>Wed, 24 Dec 2025 20:49:26 +0700</pubDate>
-    </item>
-    
-    <item>
       <title>OT_Security_Lab</title>
       <link>https://vinhlin.github.io/posts/cybersecurity/ot_security_lab/</link>
       <description>&lt;h3 id=&#34;bài-viết&#34;&gt;&lt;a href=&#34;https://www.linkedin.com/feed/update/urn:li:activity:7409103868728635392/&#34;&gt;Bài viết&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://media.licdn.com/dms/image/v2/D4E22AQF7v2KlyXxuaw/feedshare-shrink_800/B4EZs2pwTXIwAg-/0/1766148475742?e=1767830400&amp;amp;v=beta&amp;amp;t=dbtKFyUJN263AeGnnt0tls56acNlzLK2SNVIFmFng3E&#34;
+  src=&#34;https://github.com/zakharb/labshock/blob/main/img/lab-diagram.png&#34;
   alt=&#34;Hình 1&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
