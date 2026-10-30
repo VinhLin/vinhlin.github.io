@@ -163,6 +163,7 @@ hugo new posts/IoT/Software/PicoClaw.md
 hugo new posts/IoT/Software/Android_RDP.md
 hugo new posts/IoT/Software/Raspberry_Cam.md
 hugo new posts/IoT/Software/USB_SDR.md
+hugo new posts/IoT/Software/Debloat_TV.md
 ```
 
 ### CyberSecurity:

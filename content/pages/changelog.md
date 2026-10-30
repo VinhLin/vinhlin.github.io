@@ -106,6 +106,7 @@ STT |		Tiêu đề			|		Mô tả				|
 12  | [Android_RDP][Android_RDP]	| Ghi chú về cách kết nối RDP cho Android	|
 13  | [Raspberry_Cam][Raspberry_Cam]	| Ý tưởng triển khai dự án Raspberry Camera	|
 14  | [USB_SDR][USB_SDR]		| Tổng hợp và ghi chú về khái niệm **SDR** *(Software-Defined Radio)*	|
+15  | [Debloat_TV][Debloat_TV]		| Ghi chú lại về dự án custom smart TV		|
 
 [PiKVM]: https://blog.vinhld-homelab.io.vn/posts/iot/software/pikvm/
 [Pi400-Keyboard]: https://blog.vinhld-homelab.io.vn/posts/iot/software/pi400-keyboard/
@@ -121,6 +122,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [Android_RDP]: https://blog.vinhld-homelab.io.vn/posts/iot/software/android_rdp/
 [Raspberry_Cam]: https://blog.vinhld-homelab.io.vn/posts/iot/software/raspberry_cam/
 [USB_SDR]: https://blog.vinhld-homelab.io.vn/posts/iot/software/usb_sdr/
+[Debloat_TV]: https://blog.vinhld-homelab.io.vn/posts/iot/software/debloat_tv/
 
 ### Rust-lang
 > Tổng hợp ghi chú về ngôn ngữ lập trình **Rust** </br>

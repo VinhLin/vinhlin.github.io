@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem('theme');
+          var systemDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var theme = stored || (systemDark ? 'dark' : 'light');
+          document.documentElement.setAttribute('data-theme', theme);
+        } catch (e) {
+          document.documentElement.setAttribute('data-theme', 'light');
+        }
+      })();
+    </script>
+    <meta name="author" content="Liste - https://vinhlin.github.io/">
+    <title>Debloat_TV | VinhLD</title>
+    <meta name="description" content="Technology Blog">
+    <meta property="og:url" content="https://vinhlin.github.io/posts/iot/software/debloat_tv/">
+	<meta property="og:site_name" content="VinhLD">
+	<meta property="og:title" content="Debloat_TV">
+	<meta property="og:description" content="Dạo gần đây mình thấy trên facebook xuất hiện nhiều bài viết về việc custom lại Smart TV.
+Ví dụ như bài viết Thay đổi giao diện (Launcher) trên facebook
+Rồi còn thêm bài viết nói về Debloat TV (Gỡ bỏ ứng dụng rác, tăng tốc Smart TV). Tham khảo bài viết: Hướng dẫn dùng CleanYourTV: Xóa quảng cáo trên TV Android, Google TV
+Dự án cleanyourtv Github gốc Gathin23/cleanyourtv: Dự án này được thiết kế để “dọn rác”, loại bỏ quảng cáo và tối ưu hóa giao diện cho các dòng Android TV và Google TV. Tổng hợp các loại smart TV mà dự án hỗ trợ: /example Các điểm nổi bật và tính năng chính của dự án: Loại bỏ quảng cáo và ứng dụng ngầm (Bloatware): Công cụ kết nối với TV thông qua mạng Wi-Fi (sử dụng ADB - Android Debug Bridge) để lọc và vô hiệu hóa các ứng dụng chứa quảng cáo, các tiến trình thu thập dữ liệu ngầm (telemetry) Không cần Root máy: Quá trình tinh chỉnh hoàn toàn không cần can thiệp sâu vào hệ thống gốc (no root). Không gỡ bỏ vĩnh viễn (Safe): Các ứng dụng hệ thống rác chỉ bị “đóng băng/vô hiệu hóa” chứ không bị gỡ hẳn, đảm bảo an toàn. Giao diện tối giản phong cách Apple TV: Dự án cung cấp tùy chọn cài đặt một Launcher (màn hình chính) siêu nhẹ (dung lượng chỉ vài trăm KB, không đòi hỏi quyền truy cập mạng). Biến màn hình tivi trở nên gọn gàng, mượt mà, loại bỏ các banner quảng cáo phiền phức và mang lại trải nghiệm tinh tế, thanh lịch giống như giao diện của Apple TV. Giúp tivi chạy nhẹ nhàng hơn, kể cả với các mẫu tivi cấu hình thấp (RAM ít). Cơ chế khôi phục dễ dàng (Reversible): Đi kèm với các tập lệnh (script) khôi phục (restore), cho phép người dùng đưa tivi về trạng thái ban đầu hoặc bật lại các ứng dụng hệ thống cũ bất cứ lúc nào chỉ bằng một lệnh đơn giản nếu muốn. Các repo khác tương tự hoặc custom lại từ cleanyourtv https://github.com/udeshvirk/sony-bravia-launcher https://github.com/yendangn/xyz-tvhome https://github.com/samipuro/tv-launcher">
+	<meta property="og:locale" content="en_us">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2026-10-26T13:42:13+07:00">
+		<meta property="article:modified_time" content="2026-10-26T13:42:13+07:00">
+
+    
+	<meta itemprop="name" content="Debloat_TV">
+	<meta itemprop="description" content="Dạo gần đây mình thấy trên facebook xuất hiện nhiều bài viết về việc custom lại Smart TV.
+Ví dụ như bài viết Thay đổi giao diện (Launcher) trên facebook
+Rồi còn thêm bài viết nói về Debloat TV (Gỡ bỏ ứng dụng rác, tăng tốc Smart TV). Tham khảo bài viết: Hướng dẫn dùng CleanYourTV: Xóa quảng cáo trên TV Android, Google TV
+Dự án cleanyourtv Github gốc Gathin23/cleanyourtv: Dự án này được thiết kế để “dọn rác”, loại bỏ quảng cáo và tối ưu hóa giao diện cho các dòng Android TV và Google TV. Tổng hợp các loại smart TV mà dự án hỗ trợ: /example Các điểm nổi bật và tính năng chính của dự án: Loại bỏ quảng cáo và ứng dụng ngầm (Bloatware): Công cụ kết nối với TV thông qua mạng Wi-Fi (sử dụng ADB - Android Debug Bridge) để lọc và vô hiệu hóa các ứng dụng chứa quảng cáo, các tiến trình thu thập dữ liệu ngầm (telemetry) Không cần Root máy: Quá trình tinh chỉnh hoàn toàn không cần can thiệp sâu vào hệ thống gốc (no root). Không gỡ bỏ vĩnh viễn (Safe): Các ứng dụng hệ thống rác chỉ bị “đóng băng/vô hiệu hóa” chứ không bị gỡ hẳn, đảm bảo an toàn. Giao diện tối giản phong cách Apple TV: Dự án cung cấp tùy chọn cài đặt một Launcher (màn hình chính) siêu nhẹ (dung lượng chỉ vài trăm KB, không đòi hỏi quyền truy cập mạng). Biến màn hình tivi trở nên gọn gàng, mượt mà, loại bỏ các banner quảng cáo phiền phức và mang lại trải nghiệm tinh tế, thanh lịch giống như giao diện của Apple TV. Giúp tivi chạy nhẹ nhàng hơn, kể cả với các mẫu tivi cấu hình thấp (RAM ít). Cơ chế khôi phục dễ dàng (Reversible): Đi kèm với các tập lệnh (script) khôi phục (restore), cho phép người dùng đưa tivi về trạng thái ban đầu hoặc bật lại các ứng dụng hệ thống cũ bất cứ lúc nào chỉ bằng một lệnh đơn giản nếu muốn. Các repo khác tương tự hoặc custom lại từ cleanyourtv https://github.com/udeshvirk/sony-bravia-launcher https://github.com/yendangn/xyz-tvhome https://github.com/samipuro/tv-launcher">
+	<meta itemprop="datePublished" content="2026-10-26T13:42:13+07:00">
+	<meta itemprop="dateModified" content="2026-10-26T13:42:13+07:00">
+	<meta itemprop="wordCount" content="364">
+    
+    <link rel="canonical" href="https://vinhlin.github.io/posts/iot/software/debloat_tv/">
+    <link rel="icon" href="https://vinhlin.github.io//assets/favicon.ico">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
+    <link rel="alternate" type="application/atom+xml" title="VinhLD" href="https://vinhlin.github.io//atom.xml" />
+    <link rel="alternate" type="application/json" title="VinhLD" href="https://vinhlin.github.io//feed.json" />
+    <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=">
+    
+    
+    <style>*,:after,:before{box-sizing:border-box;padding:0}body{font:1rem/1.5 '-apple-system',BlinkMacSystemFont,avenir next,avenir,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding:2rem;background:#f5f5f5;color:#000}.skip-link{position:absolute;top:-40px;left:0;background:#eee;z-index:100}.skip-link:focus{top:0}h1,h2,h3,h4,h5,strong,b{font-size:inherit;font-weight:600}header{line-height:2;padding-bottom:1.5rem}.link{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-decoration:none}.time{font-variant-numeric:tabular-nums;white-space:nowrap}blockquote{border-left:5px solid #eee;padding-left:1rem;margin:0}a,a:visited{color:inherit}a:hover,a.heading-link{text-decoration:none}pre{padding:.5rem;overflow:auto;overflow-x:scroll;overflow-wrap:normal}code,pre{font-family:San Francisco Mono,Monaco,consolas,lucida console,dejavu sans mono,bitstream vera sans mono,monospace;font-size:normal;font-size:small;background:#eee}code{margin:.1rem;border:none}ul{list-style-type:square}ul,ol{padding-left:1.2rem}.list{line-height:2;list-style-type:none;padding-left:0}.list li{padding-bottom:.1rem}.meta{color:#777}.content{max-width:70ch;margin:0 auto}header{line-height:2;display:flex;justify-content:space-between;padding-bottom:1rem}header a{text-decoration:none}header ul{list-style-type:none;padding:0}header li,header a{display:inline}h2.post{padding-top:.5rem}header ul a:first-child{padding-left:1rem}.nav{height:1px;background:#000;content:'';max-width:10%}.list li{display:flex;align-items:baseline}.list li time{flex:initial}.hr-list{margin-top:0;margin-bottom:0;margin-right:.5rem;margin-left:.5rem;height:1px;border:0;border-bottom:1px dotted #ccc;flex:1 0 1rem}.m,hr{border:0;margin:3rem 0}img{max-width:100%;height:auto}.post-date{margin:5% 0}.index-date{color:#9a9a9a}.animate-blink{animation:opacity 1s infinite;opacity:1}@keyframes opacity{0%{opacity:1}50%{opacity:.5}100%{opacity:0}}.tags{display:flex;justify-content:space-between}.tags ul{padding:0;margin:0}.tags li{display:inline}.avatar{height:120px;width:120px;position:relative;margin:-10px 0 0 15px;float:right;border-radius:50%}table{width:100%;border-collapse:collapse}th,td{border:1px solid #ddd;text-align:left;padding:8px}th{background-color:#f2f2f2} :root{color-scheme:light;--bg:#f5f5f5;--text:#111111;--muted:#777777;--border:#d8d8d8;--soft-border:#e9e9e9;--code-bg:#ececec;--blockquote-border:#d9d9d9;--table-head:#efefef;--button-bg:rgba(255, 255, 255, 0.92);--button-hover:rgba(245, 245, 245, 0.98);--shadow:0 10px 24px rgba(0, 0, 0, 0.12)}html[data-theme=dark]{color-scheme:dark;--bg:#0f1115;--text:#e8eaf0;--muted:#a2a9b3;--border:#2b3038;--soft-border:#20242b;--code-bg:#171b21;--blockquote-border:#2c3440;--table-head:#171b21;--button-bg:rgba(20, 24, 31, 0.92);--button-hover:rgba(28, 33, 42, 0.98);--shadow:0 10px 24px rgba(0, 0, 0, 0.35)}html,body{background:var(--bg);color:var(--text)}body{background:var(--bg);color:var(--text);transition:background .2s ease,color .2s ease}.meta,.index-date{color:var(--muted)}blockquote{border-left-color:var(--blockquote-border)}code,pre{background:var(--code-bg)}th,td{border-color:var(--border)}th{background-color:var(--table-head)}.hr-list{border-bottom-color:var(--border)}.nav,hr{background:var(--text)}.header-actions{display:flex;align-items:center;gap:.9rem}.theme-toggle{display:inline-flex;align-items:center;justify-content:center;width:2.25rem;height:2.25rem;border:1px solid var(--border);border-radius:9999px;background:var(--button-bg);color:var(--text);box-shadow:var(--shadow);cursor:pointer;transition:background .2s ease,transform .2s ease,border-color .2s ease}.theme-toggle:hover{background:var(--button-hover);transform:translateY(-1px)}.theme-toggle__icon{font-size:1rem;line-height:1}#back-to-top{position:fixed;right:1.25rem;bottom:1.25rem;z-index:999;display:inline-flex;align-items:center;justify-content:center;width:2.75rem;height:2.75rem;border:1px solid var(--border);border-radius:9999px;background:var(--button-bg);color:var(--text);box-shadow:var(--shadow);cursor:pointer;opacity:0;visibility:hidden;transform:translateY(10px);transition:opacity .2s ease,transform .2s ease,visibility .2s ease,background .2s ease;backdrop-filter:blur(6px)}#back-to-top:hover{background:var(--button-hover)}#back-to-top.show{opacity:1;visibility:visible;transform:translateY(0)}#back-to-top span{font-size:1.1rem;line-height:1}@media(max-width:640px){.header-actions{gap:.5rem}.theme-toggle{width:2rem;height:2rem}#back-to-top{right:1rem;bottom:1rem;width:2.5rem;height:2.5rem}}</style>
+  
+    
+  
+  
+  <script type="application/ld+json">
+  {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "articleSection": "posts",
+      "name": "Debloat_TV",
+      "headline": "Debloat_TV",
+      "alternativeHeadline": "",
+      "description": "\u003cp\u003eDạo gần đây mình thấy trên facebook xuất hiện nhiều bài viết về việc \u003cstrong\u003ecustom lại Smart TV\u003c\/strong\u003e.\u003c\/p\u003e\n\u003cp\u003eVí dụ như bài viết \u003ca href=\u0022https:\/\/www.facebook.com\/groups\/cuongtruewireless\/posts\/2421192382004373\/\u0022\u003eThay đổi giao diện (Launcher) trên facebook\u003c\/a\u003e\u003c\/p\u003e\n\u003cp\u003eRồi còn thêm bài viết nói về \u003cstrong\u003eDebloat TV\u003c\/strong\u003e \u003cem\u003e(Gỡ bỏ ứng dụng rác, tăng tốc Smart TV)\u003c\/em\u003e. Tham khảo bài viết: \u003ca href=\u0022https:\/\/anonyviet.com\/huong-dan-dung-cleanyourtv-xoa-quang-cao-tren-tv\/\u0022\u003eHướng dẫn dùng CleanYourTV: Xóa quảng cáo trên TV Android, Google TV\u003c\/a\u003e\u003c\/p\u003e\n\u003ch2 id=\u0022dự-án-cleanyourtv\u0022\u003eDự án \u003ca href=\u0022https:\/\/cleanyour.tv\/\u0022\u003ecleanyourtv\u003c\/a\u003e\u003c\/h2\u003e\n\u003cul\u003e\n\u003cli\u003eGithub gốc \u003ca href=\u0022https:\/\/github.com\/Gathin23\/cleanyourtv\u0022\u003e\u003ccode\u003eGathin23\/cleanyourtv\u003c\/code\u003e\u003c\/a\u003e: Dự án này được thiết kế để \u003cstrong\u003e\u0026ldquo;dọn rác\u0026rdquo;\u003c\/strong\u003e, loại bỏ quảng cáo và tối ưu hóa giao diện cho các dòng \u003cstrong\u003eAndroid TV\u003c\/strong\u003e và \u003cstrong\u003eGoogle TV\u003c\/strong\u003e.\u003c\/li\u003e\n\u003cli\u003eTổng hợp các loại smart TV mà dự án hỗ trợ: \u003ca href=\u0022https:\/\/github.com\/Gathin23\/cleanyourtv\/tree\/main\/examples\u0022\u003e\u003ccode\u003e\/example\u003c\/code\u003e\u003c\/a\u003e\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003ch3 id=\u0022các-điểm-nổi-bật-và-tính-năng-chính-của-dự-án\u0022\u003eCác điểm nổi bật và tính năng chính của dự án:\u003c\/h3\u003e\n\u003col\u003e\n\u003cli\u003eLoại bỏ quảng cáo và ứng dụng ngầm (Bloatware):\u003c\/li\u003e\n\u003c\/ol\u003e\n\u003cul\u003e\n\u003cli\u003eCông cụ kết nối với TV thông qua mạng Wi-Fi (sử dụng ADB - Android Debug Bridge) để lọc và vô hiệu hóa các ứng dụng chứa quảng cáo, các tiến trình thu thập dữ liệu ngầm (telemetry)\u003c\/li\u003e\n\u003cli\u003e\u003cstrong\u003eKhông cần Root máy\u003c\/strong\u003e: Quá trình tinh chỉnh hoàn toàn không cần can thiệp sâu vào hệ thống gốc (no root).\u003c\/li\u003e\n\u003cli\u003e\u003cstrong\u003eKhông gỡ bỏ vĩnh viễn (Safe)\u003c\/strong\u003e: Các ứng dụng hệ thống rác chỉ bị \u0026ldquo;đóng băng\/vô hiệu hóa\u0026rdquo; chứ không bị gỡ hẳn, đảm bảo an toàn.\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003col start=\u00222\u0022\u003e\n\u003cli\u003eGiao diện tối giản phong cách Apple TV:\u003c\/li\u003e\n\u003c\/ol\u003e\n\u003cul\u003e\n\u003cli\u003eDự án cung cấp tùy chọn cài đặt một \u003cstrong\u003eLauncher (màn hình chính)\u003c\/strong\u003e siêu nhẹ (dung lượng chỉ vài trăm KB, không đòi hỏi quyền truy cập mạng).\u003c\/li\u003e\n\u003cli\u003eBiến màn hình tivi trở nên gọn gàng, mượt mà, loại bỏ các banner quảng cáo phiền phức và mang lại trải nghiệm tinh tế, thanh lịch giống như giao diện của Apple TV.\u003c\/li\u003e\n\u003cli\u003eGiúp tivi chạy nhẹ nhàng hơn, kể cả với các mẫu tivi cấu hình thấp (RAM ít).\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003col start=\u00223\u0022\u003e\n\u003cli\u003eCơ chế khôi phục dễ dàng (Reversible):\nĐi kèm với các tập lệnh (script) khôi phục (restore), cho phép người dùng đưa tivi về trạng thái ban đầu hoặc bật lại các ứng dụng hệ thống cũ bất cứ lúc nào chỉ bằng một lệnh đơn giản nếu muốn.\u003c\/li\u003e\n\u003c\/ol\u003e\n\u003ch3 id=\u0022các-repo-khác-tương-tự-hoặc-custom-lại-từ-cleanyourtv\u0022\u003eCác repo khác tương tự hoặc custom lại từ \u003ccode\u003ecleanyourtv\u003c\/code\u003e\u003c\/h3\u003e\n\u003cpre tabindex=\u00220\u0022\u003e\u003ccode\u003ehttps:\/\/github.com\/udeshvirk\/sony-bravia-launcher\nhttps:\/\/github.com\/yendangn\/xyz-tvhome\nhttps:\/\/github.com\/samipuro\/tv-launcher\n\u003c\/code\u003e\u003c\/pre\u003e",
+      "inLanguage": "en-us",
+      "isFamilyFriendly": "true",
+      "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https:\/\/vinhlin.github.io\/posts\/iot\/software\/debloat_tv\/"
+      },
+      "author" : {
+          "@type": "Person",
+          "name": "Vincent"
+      },
+      "creator" : {
+          "@type": "Person",
+          "name": "Vincent"
+      },
+      "accountablePerson" : {
+          "@type": "Person",
+          "name": "Vincent"
+      },
+      "copyrightHolder" : "VinhLD",
+      "copyrightYear" : "2026",
+      "dateCreated": "2026-10-26T13:42:13.00Z",
+      "datePublished": "2026-10-26T13:42:13.00Z",
+      "dateModified": "2026-10-26T13:42:13.00Z",
+      "publisher":{
+          "@type":"Organization",
+          "name": "VinhLD",
+          "url": "https:\/\/vinhlin.github.io\/",
+          "logo": {
+              "@type": "ImageObject",
+              "url": "https:\/\/vinhlin.github.io\/assets\/favicon.ico",
+              "width":"32",
+              "height":"32"
+          }
+      },
+      "image": "https:\/\/vinhlin.github.io\/assets\/favicon.ico",
+      "url" : "https:\/\/vinhlin.github.io\/posts\/iot\/software\/debloat_tv\/",
+      "wordCount" : "364",
+      "genre" : [ ],
+      "keywords" : [ ]
+  }
+  </script>
+  
+  
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to main</a>
+    <main id="main">
+      <div class="content">
+        <header>
+<p style="padding: 0;margin: 0;">
+  <a href="/">
+    <b>VinhLD</b>
+    <span class="text-stone-500 animate-blink">▮</span>
+  </a>
+</p>
+<div class="header-actions">
+  <ul style="padding: 0;margin: 0;">
+    
+    
+    <li class="">
+      <a href="/changelog/"><span>Changelog</span></a>
+      
+    <li class="">
+      <a href="/posts/"><span>Post</span></a>
+      
+    <li class="">
+      <a href="/search/"><span>Search</span></a>
+      
+    <li class="">
+      <a href="/about/"><span>About</span></a>
+      
+    </li>
+  </ul>
+  <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+    <span class="theme-toggle__icon" aria-hidden="true">◐</span>
+  </button>
+</div>
+</header>
+<hr class="hr-list" style="padding: 0;margin: 0;">
+
+        
+<section>
+  <h2 class="post">Debloat_TV</h2>
+  <p>Dạo gần đây mình thấy trên facebook xuất hiện nhiều bài viết về việc <strong>custom lại Smart TV</strong>.</p>
+<p>Ví dụ như bài viết <a href="https://www.facebook.com/groups/cuongtruewireless/posts/2421192382004373/">Thay đổi giao diện (Launcher) trên facebook</a></p>
+<p>Rồi còn thêm bài viết nói về <strong>Debloat TV</strong> <em>(Gỡ bỏ ứng dụng rác, tăng tốc Smart TV)</em>. Tham khảo bài viết: <a href="https://anonyviet.com/huong-dan-dung-cleanyourtv-xoa-quang-cao-tren-tv/">Hướng dẫn dùng CleanYourTV: Xóa quảng cáo trên TV Android, Google TV</a></p>
+<h2 id="dự-án-cleanyourtv">Dự án <a href="https://cleanyour.tv/">cleanyourtv</a></h2>
+<ul>
+<li>Github gốc <a href="https://github.com/Gathin23/cleanyourtv"><code>Gathin23/cleanyourtv</code></a>: Dự án này được thiết kế để <strong>&ldquo;dọn rác&rdquo;</strong>, loại bỏ quảng cáo và tối ưu hóa giao diện cho các dòng <strong>Android TV</strong> và <strong>Google TV</strong>.</li>
+<li>Tổng hợp các loại smart TV mà dự án hỗ trợ: <a href="https://github.com/Gathin23/cleanyourtv/tree/main/examples"><code>/example</code></a></li>
+</ul>
+<h3 id="các-điểm-nổi-bật-và-tính-năng-chính-của-dự-án">Các điểm nổi bật và tính năng chính của dự án:</h3>
+<ol>
+<li>Loại bỏ quảng cáo và ứng dụng ngầm (Bloatware):</li>
+</ol>
+<ul>
+<li>Công cụ kết nối với TV thông qua mạng Wi-Fi (sử dụng ADB - Android Debug Bridge) để lọc và vô hiệu hóa các ứng dụng chứa quảng cáo, các tiến trình thu thập dữ liệu ngầm (telemetry)</li>
+<li><strong>Không cần Root máy</strong>: Quá trình tinh chỉnh hoàn toàn không cần can thiệp sâu vào hệ thống gốc (no root).</li>
+<li><strong>Không gỡ bỏ vĩnh viễn (Safe)</strong>: Các ứng dụng hệ thống rác chỉ bị &ldquo;đóng băng/vô hiệu hóa&rdquo; chứ không bị gỡ hẳn, đảm bảo an toàn.</li>
+</ul>
+<ol start="2">
+<li>Giao diện tối giản phong cách Apple TV:</li>
+</ol>
+<ul>
+<li>Dự án cung cấp tùy chọn cài đặt một <strong>Launcher (màn hình chính)</strong> siêu nhẹ (dung lượng chỉ vài trăm KB, không đòi hỏi quyền truy cập mạng).</li>
+<li>Biến màn hình tivi trở nên gọn gàng, mượt mà, loại bỏ các banner quảng cáo phiền phức và mang lại trải nghiệm tinh tế, thanh lịch giống như giao diện của Apple TV.</li>
+<li>Giúp tivi chạy nhẹ nhàng hơn, kể cả với các mẫu tivi cấu hình thấp (RAM ít).</li>
+</ul>
+<ol start="3">
+<li>Cơ chế khôi phục dễ dàng (Reversible):
+Đi kèm với các tập lệnh (script) khôi phục (restore), cho phép người dùng đưa tivi về trạng thái ban đầu hoặc bật lại các ứng dụng hệ thống cũ bất cứ lúc nào chỉ bằng một lệnh đơn giản nếu muốn.</li>
+</ol>
+<h3 id="các-repo-khác-tương-tự-hoặc-custom-lại-từ-cleanyourtv">Các repo khác tương tự hoặc custom lại từ <code>cleanyourtv</code></h3>
+<pre tabindex="0"><code>https://github.com/udeshvirk/sony-bravia-launcher
+https://github.com/yendangn/xyz-tvhome
+https://github.com/samipuro/tv-launcher
+</code></pre>
+  
+  <div class="post-date">
+    <span class="g time">October 26, 2026</span> &#8729;
+    
+  </div>
+  
+</section>
+
+
+
+
+        <footer>
+  <p>© 2026</p>
+  
+  <button id="backToTop" onclick="topFunction()" title="Go to top">
+    <span class="arrow">↑</span> Back To Top
+  </button>
+
+  <div id="google_translate_element" style="margin-top: 20px; text-align: center;"></div>
+</footer>
+
+<style>
+   
+  #backToTop {
+    display: none; 
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 999;
+    background: #fff;
+    color: #222;
+    border: 1px solid #eee;
+    padding: 8px 15px;
+    border-radius: 4px;  
+    cursor: pointer;
+    font-size: 14px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    align-items: center;
+    gap: 5px;
+  }
+  #backToTop:hover {
+    background: #fafafa;
+    border-color: #ccc;
+  }
+</style>
+
+<script>
+  var mybutton = document.getElementById("backToTop");
+
+  
+  window.addEventListener('scroll', function() {
+    if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+      mybutton.style.display = "flex";
+    } else {
+      mybutton.style.display = "none";
+    }
+  });
+
+  function topFunction() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
+      </div>
+    </main>
+    
+<button id="back-to-top" type="button" aria-label="Back to top" title="Back to top">
+  <span aria-hidden="true">↑</span>
+</button>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const root = document.documentElement;
+    const toggle = document.getElementById('theme-toggle');
+    const backToTop = document.getElementById('back-to-top');
+
+    const setTheme = (theme) => {
+      root.setAttribute('data-theme', theme);
+      try {
+        localStorage.setItem('theme', theme);
+      } catch (e) {}
+      if (toggle) {
+        toggle.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+        toggle.setAttribute('title', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+      }
+    };
+
+    if (toggle) {
+      toggle.addEventListener('click', function () {
+        const current = root.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+        setTheme(current === 'dark' ? 'light' : 'dark');
+      });
+
+      const initial = root.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+      setTheme(initial);
+    }
+
+    if (backToTop) {
+      const toggleButton = () => {
+        if (window.scrollY > 320) {
+          backToTop.classList.add('show');
+        } else {
+          backToTop.classList.remove('show');
+        }
+      };
+
+      window.addEventListener('scroll', toggleButton, { passive: true });
+      toggleButton();
+
+      backToTop.addEventListener('click', function () {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    }
+  });
+</script>
+
+  </body>
+</html>

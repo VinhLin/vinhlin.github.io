@@ -14,6 +14,48 @@
     
     
     <item>
+      <title>Debloat_TV</title>
+      <link>https://vinhlin.github.io/posts/iot/software/debloat_tv/</link>
+      <description>&lt;p&gt;Dạo gần đây mình thấy trên facebook xuất hiện nhiều bài viết về việc &lt;strong&gt;custom lại Smart TV&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Ví dụ như bài viết &lt;a href=&#34;https://www.facebook.com/groups/cuongtruewireless/posts/2421192382004373/&#34;&gt;Thay đổi giao diện (Launcher) trên facebook&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Rồi còn thêm bài viết nói về &lt;strong&gt;Debloat TV&lt;/strong&gt; &lt;em&gt;(Gỡ bỏ ứng dụng rác, tăng tốc Smart TV)&lt;/em&gt;. Tham khảo bài viết: &lt;a href=&#34;https://anonyviet.com/huong-dan-dung-cleanyourtv-xoa-quang-cao-tren-tv/&#34;&gt;Hướng dẫn dùng CleanYourTV: Xóa quảng cáo trên TV Android, Google TV&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;dự-án-cleanyourtv&#34;&gt;Dự án &lt;a href=&#34;https://cleanyour.tv/&#34;&gt;cleanyourtv&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Github gốc &lt;a href=&#34;https://github.com/Gathin23/cleanyourtv&#34;&gt;&lt;code&gt;Gathin23/cleanyourtv&lt;/code&gt;&lt;/a&gt;: Dự án này được thiết kế để &lt;strong&gt;&amp;ldquo;dọn rác&amp;rdquo;&lt;/strong&gt;, loại bỏ quảng cáo và tối ưu hóa giao diện cho các dòng &lt;strong&gt;Android TV&lt;/strong&gt; và &lt;strong&gt;Google TV&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Tổng hợp các loại smart TV mà dự án hỗ trợ: &lt;a href=&#34;https://github.com/Gathin23/cleanyourtv/tree/main/examples&#34;&gt;&lt;code&gt;/example&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;các-điểm-nổi-bật-và-tính-năng-chính-của-dự-án&#34;&gt;Các điểm nổi bật và tính năng chính của dự án:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Loại bỏ quảng cáo và ứng dụng ngầm (Bloatware):&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Công cụ kết nối với TV thông qua mạng Wi-Fi (sử dụng ADB - Android Debug Bridge) để lọc và vô hiệu hóa các ứng dụng chứa quảng cáo, các tiến trình thu thập dữ liệu ngầm (telemetry)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Không cần Root máy&lt;/strong&gt;: Quá trình tinh chỉnh hoàn toàn không cần can thiệp sâu vào hệ thống gốc (no root).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Không gỡ bỏ vĩnh viễn (Safe)&lt;/strong&gt;: Các ứng dụng hệ thống rác chỉ bị &amp;ldquo;đóng băng/vô hiệu hóa&amp;rdquo; chứ không bị gỡ hẳn, đảm bảo an toàn.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Giao diện tối giản phong cách Apple TV:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Dự án cung cấp tùy chọn cài đặt một &lt;strong&gt;Launcher (màn hình chính)&lt;/strong&gt; siêu nhẹ (dung lượng chỉ vài trăm KB, không đòi hỏi quyền truy cập mạng).&lt;/li&gt;
+&lt;li&gt;Biến màn hình tivi trở nên gọn gàng, mượt mà, loại bỏ các banner quảng cáo phiền phức và mang lại trải nghiệm tinh tế, thanh lịch giống như giao diện của Apple TV.&lt;/li&gt;
+&lt;li&gt;Giúp tivi chạy nhẹ nhàng hơn, kể cả với các mẫu tivi cấu hình thấp (RAM ít).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Cơ chế khôi phục dễ dàng (Reversible):
+Đi kèm với các tập lệnh (script) khôi phục (restore), cho phép người dùng đưa tivi về trạng thái ban đầu hoặc bật lại các ứng dụng hệ thống cũ bất cứ lúc nào chỉ bằng một lệnh đơn giản nếu muốn.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;các-repo-khác-tương-tự-hoặc-custom-lại-từ-cleanyourtv&#34;&gt;Các repo khác tương tự hoặc custom lại từ &lt;code&gt;cleanyourtv&lt;/code&gt;&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://github.com/udeshvirk/sony-bravia-launcher
+https://github.com/yendangn/xyz-tvhome
+https://github.com/samipuro/tv-launcher
+&lt;/code&gt;&lt;/pre&gt;</description>
+      <author>Vincent</author>
+      <guid>https://vinhlin.github.io/posts/iot/software/debloat_tv/</guid>
+      <pubDate>Mon, 26 Oct 2026 13:42:13 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Fleet_Platform</title>
       <link>https://vinhlin.github.io/posts/system-devops/fleet_platform/</link>
       <description>&lt;h2 id=&#34;changelog&#34;&gt;Changelog&lt;/h2&gt;
