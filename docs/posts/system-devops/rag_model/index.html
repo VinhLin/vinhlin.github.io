@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem('theme');
+          var systemDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var theme = stored || (systemDark ? 'dark' : 'light');
+          document.documentElement.setAttribute('data-theme', theme);
+        } catch (e) {
+          document.documentElement.setAttribute('data-theme', 'light');
+        }
+      })();
+    </script>
+    <meta name="author" content="Liste - https://vinhlin.github.io/">
+    <title>RAG_Model | VinhLD</title>
+    <meta name="description" content="Technology Blog">
+    <meta property="og:url" content="https://vinhlin.github.io/posts/system-devops/rag_model/">
+	<meta property="og:site_name" content="VinhLD">
+	<meta property="og:title" content="RAG_Model">
+	<meta property="og:description" content="Giới thiệu về RAG (viết tắt của Retrieval-Augmented Generation - Tạo sinh kết hợp truy xuất thông tin) Tham khảo: https://www.youtube.com/watch?v=NQOYXmZxqvI https://vietnix.vn/agentic-rag/ Thông tin thêm từ AI về RAG Hãy tưởng tượng bạn đang hỏi một trợ lý về một thư viện tài liệu lớn. Nếu trợ lý chỉ dựa vào những gì đã học lúc huấn luyện, nó có thể không biết tài liệu riêng của bạn hoặc thông tin mới. RAG cho nó “mở sách tra trước khi trả lời”. Sinh câu trả lời có tăng cường bằng truy xuất: Nạp tài liệu: đọc PDF, Word, trang web…; trích văn bản, chia thành các đoạn nhỏ và gắn thông tin như ngày, nguồn, loại tài liệu. Tìm phần liên quan: khi có câu hỏi, tìm các đoạn phù hợp bằng tìm kiếm từ khóa, tìm kiếm ngữ nghĩa hoặc kết hợp cả hai. Trả lời dựa trên phần tìm được: đưa các đoạn đó vào ngữ cảnh của mô hình ngôn ngữ (LLM), rồi yêu cầu nó tổng hợp và dẫn nguồn. Nói gọn: RAG không phải “dạy lại” mô hình và cũng không phải bản thân một cơ sở dữ liệu; nó là cách nối kho tri thức với mô hình ngay lúc trả lời. Nếu tìm sai đoạn, tài liệu cũ hoặc thiếu nguồn, câu trả lời vẫn có thể sai — có RAG không đồng nghĩa với chính xác tuyệt đối. Cách hiểu của bản thân: RAG theo mình hiểu thì đây là mô hình giúp AI không bị giới hạn bởi kiến thức huấn luyện trước đó. Tức là mình cung cấp tài liệu, AI dựa vào những kiến thức của bản thân và tài liệu được cung cấp để trả lời câu hỏi. Mình có thể tưởng tượng RAG giống như: NotebookLM &#43; GEmini -&gt; Tra cứu thông tin mới nhất trên internet, và trả lời những câu hỏi có trong tài liệu nội bộ trong NotebookLM Tencent/WeKnora Đây là nền tảng tri thức mã nguồn mở có ba kiểu sử dụng trên cùng kho tài liệu: RAG: hỏi đáp, tìm kiếm lai (từ khóa &#43; ngữ nghĩa), xử lý nhiều loại tài liệu và trích dẫn nguồn. Agent: xử lý việc nhiều bước bằng công cụ. Wiki: sắp xếp tri thức thành wiki/đồ thị tri thức. Để mình có thể dùng OpenClaw (Nyra) &#43; Weknora thì sẽ cần thêm một API token cho Weknora. Tại sao: Vì “Nyra gọi được WeKnora” là khả năng kết nối, không có nghĩa WeKnora tự biết Nyra là ai hoặc tự cho Nyra quyền đọc dữ liệu.">
+	<meta property="og:locale" content="en_us">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2026-11-08T12:21:42+07:00">
+		<meta property="article:modified_time" content="2026-11-08T12:21:42+07:00">
+
+    
+	<meta itemprop="name" content="RAG_Model">
+	<meta itemprop="description" content="Giới thiệu về RAG (viết tắt của Retrieval-Augmented Generation - Tạo sinh kết hợp truy xuất thông tin) Tham khảo: https://www.youtube.com/watch?v=NQOYXmZxqvI https://vietnix.vn/agentic-rag/ Thông tin thêm từ AI về RAG Hãy tưởng tượng bạn đang hỏi một trợ lý về một thư viện tài liệu lớn. Nếu trợ lý chỉ dựa vào những gì đã học lúc huấn luyện, nó có thể không biết tài liệu riêng của bạn hoặc thông tin mới. RAG cho nó “mở sách tra trước khi trả lời”. Sinh câu trả lời có tăng cường bằng truy xuất: Nạp tài liệu: đọc PDF, Word, trang web…; trích văn bản, chia thành các đoạn nhỏ và gắn thông tin như ngày, nguồn, loại tài liệu. Tìm phần liên quan: khi có câu hỏi, tìm các đoạn phù hợp bằng tìm kiếm từ khóa, tìm kiếm ngữ nghĩa hoặc kết hợp cả hai. Trả lời dựa trên phần tìm được: đưa các đoạn đó vào ngữ cảnh của mô hình ngôn ngữ (LLM), rồi yêu cầu nó tổng hợp và dẫn nguồn. Nói gọn: RAG không phải “dạy lại” mô hình và cũng không phải bản thân một cơ sở dữ liệu; nó là cách nối kho tri thức với mô hình ngay lúc trả lời. Nếu tìm sai đoạn, tài liệu cũ hoặc thiếu nguồn, câu trả lời vẫn có thể sai — có RAG không đồng nghĩa với chính xác tuyệt đối. Cách hiểu của bản thân: RAG theo mình hiểu thì đây là mô hình giúp AI không bị giới hạn bởi kiến thức huấn luyện trước đó. Tức là mình cung cấp tài liệu, AI dựa vào những kiến thức của bản thân và tài liệu được cung cấp để trả lời câu hỏi. Mình có thể tưởng tượng RAG giống như: NotebookLM &#43; GEmini -&gt; Tra cứu thông tin mới nhất trên internet, và trả lời những câu hỏi có trong tài liệu nội bộ trong NotebookLM Tencent/WeKnora Đây là nền tảng tri thức mã nguồn mở có ba kiểu sử dụng trên cùng kho tài liệu: RAG: hỏi đáp, tìm kiếm lai (từ khóa &#43; ngữ nghĩa), xử lý nhiều loại tài liệu và trích dẫn nguồn. Agent: xử lý việc nhiều bước bằng công cụ. Wiki: sắp xếp tri thức thành wiki/đồ thị tri thức. Để mình có thể dùng OpenClaw (Nyra) &#43; Weknora thì sẽ cần thêm một API token cho Weknora. Tại sao: Vì “Nyra gọi được WeKnora” là khả năng kết nối, không có nghĩa WeKnora tự biết Nyra là ai hoặc tự cho Nyra quyền đọc dữ liệu.">
+	<meta itemprop="datePublished" content="2026-11-08T12:21:42+07:00">
+	<meta itemprop="dateModified" content="2026-11-08T12:21:42+07:00">
+	<meta itemprop="wordCount" content="639">
+    
+    <link rel="canonical" href="https://vinhlin.github.io/posts/system-devops/rag_model/">
+    <link rel="icon" href="https://vinhlin.github.io//assets/favicon.ico">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
+    <link rel="alternate" type="application/atom+xml" title="VinhLD" href="https://vinhlin.github.io//atom.xml" />
+    <link rel="alternate" type="application/json" title="VinhLD" href="https://vinhlin.github.io//feed.json" />
+    <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=">
+    
+    
+    <style>*,:after,:before{box-sizing:border-box;padding:0}body{font:1rem/1.5 '-apple-system',BlinkMacSystemFont,avenir next,avenir,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding:2rem;background:#f5f5f5;color:#000}.skip-link{position:absolute;top:-40px;left:0;background:#eee;z-index:100}.skip-link:focus{top:0}h1,h2,h3,h4,h5,strong,b{font-size:inherit;font-weight:600}header{line-height:2;padding-bottom:1.5rem}.link{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-decoration:none}.time{font-variant-numeric:tabular-nums;white-space:nowrap}blockquote{border-left:5px solid #eee;padding-left:1rem;margin:0}a,a:visited{color:inherit}a:hover,a.heading-link{text-decoration:none}pre{padding:.5rem;overflow:auto;overflow-x:scroll;overflow-wrap:normal}code,pre{font-family:San Francisco Mono,Monaco,consolas,lucida console,dejavu sans mono,bitstream vera sans mono,monospace;font-size:normal;font-size:small;background:#eee}code{margin:.1rem;border:none}ul{list-style-type:square}ul,ol{padding-left:1.2rem}.list{line-height:2;list-style-type:none;padding-left:0}.list li{padding-bottom:.1rem}.meta{color:#777}.content{max-width:70ch;margin:0 auto}header{line-height:2;display:flex;justify-content:space-between;padding-bottom:1rem}header a{text-decoration:none}header ul{list-style-type:none;padding:0}header li,header a{display:inline}h2.post{padding-top:.5rem}header ul a:first-child{padding-left:1rem}.nav{height:1px;background:#000;content:'';max-width:10%}.list li{display:flex;align-items:baseline}.list li time{flex:initial}.hr-list{margin-top:0;margin-bottom:0;margin-right:.5rem;margin-left:.5rem;height:1px;border:0;border-bottom:1px dotted #ccc;flex:1 0 1rem}.m,hr{border:0;margin:3rem 0}img{max-width:100%;height:auto}.post-date{margin:5% 0}.index-date{color:#9a9a9a}.animate-blink{animation:opacity 1s infinite;opacity:1}@keyframes opacity{0%{opacity:1}50%{opacity:.5}100%{opacity:0}}.tags{display:flex;justify-content:space-between}.tags ul{padding:0;margin:0}.tags li{display:inline}.avatar{height:120px;width:120px;position:relative;margin:-10px 0 0 15px;float:right;border-radius:50%}table{width:100%;border-collapse:collapse}th,td{border:1px solid #ddd;text-align:left;padding:8px}th{background-color:#f2f2f2} :root{color-scheme:light;--bg:#f5f5f5;--text:#111111;--muted:#777777;--border:#d8d8d8;--soft-border:#e9e9e9;--code-bg:#ececec;--blockquote-border:#d9d9d9;--table-head:#efefef;--button-bg:rgba(255, 255, 255, 0.92);--button-hover:rgba(245, 245, 245, 0.98);--shadow:0 10px 24px rgba(0, 0, 0, 0.12)}html[data-theme=dark]{color-scheme:dark;--bg:#0f1115;--text:#e8eaf0;--muted:#a2a9b3;--border:#2b3038;--soft-border:#20242b;--code-bg:#171b21;--blockquote-border:#2c3440;--table-head:#171b21;--button-bg:rgba(20, 24, 31, 0.92);--button-hover:rgba(28, 33, 42, 0.98);--shadow:0 10px 24px rgba(0, 0, 0, 0.35)}html,body{background:var(--bg);color:var(--text)}body{background:var(--bg);color:var(--text);transition:background .2s ease,color .2s ease}.meta,.index-date{color:var(--muted)}blockquote{border-left-color:var(--blockquote-border)}code,pre{background:var(--code-bg)}th,td{border-color:var(--border)}th{background-color:var(--table-head)}.hr-list{border-bottom-color:var(--border)}.nav,hr{background:var(--text)}.header-actions{display:flex;align-items:center;gap:.9rem}.theme-toggle{display:inline-flex;align-items:center;justify-content:center;width:2.25rem;height:2.25rem;border:1px solid var(--border);border-radius:9999px;background:var(--button-bg);color:var(--text);box-shadow:var(--shadow);cursor:pointer;transition:background .2s ease,transform .2s ease,border-color .2s ease}.theme-toggle:hover{background:var(--button-hover);transform:translateY(-1px)}.theme-toggle__icon{font-size:1rem;line-height:1}#back-to-top{position:fixed;right:1.25rem;bottom:1.25rem;z-index:999;display:inline-flex;align-items:center;justify-content:center;width:2.75rem;height:2.75rem;border:1px solid var(--border);border-radius:9999px;background:var(--button-bg);color:var(--text);box-shadow:var(--shadow);cursor:pointer;opacity:0;visibility:hidden;transform:translateY(10px);transition:opacity .2s ease,transform .2s ease,visibility .2s ease,background .2s ease;backdrop-filter:blur(6px)}#back-to-top:hover{background:var(--button-hover)}#back-to-top.show{opacity:1;visibility:visible;transform:translateY(0)}#back-to-top span{font-size:1.1rem;line-height:1}@media(max-width:640px){.header-actions{gap:.5rem}.theme-toggle{width:2rem;height:2rem}#back-to-top{right:1rem;bottom:1rem;width:2.5rem;height:2.5rem}}</style>
+  
+    
+  
+  
+  <script type="application/ld+json">
+  {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "articleSection": "posts",
+      "name": "RAG_Model",
+      "headline": "RAG_Model",
+      "alternativeHeadline": "",
+      "description": "\u003ch2 id=\u0022giới-thiệu-về-rag-viết-tắt-của-retrieval-augmented-generation---tạo-sinh-kết-hợp-truy-xuất-thông-tin\u0022\u003eGiới thiệu về RAG \u003cem\u003e(viết tắt của Retrieval-Augmented Generation - Tạo sinh kết hợp truy xuất thông tin)\u003c\/em\u003e\u003c\/h2\u003e\n\u003cul\u003e\n\u003cli\u003eTham khảo:\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cpre tabindex=\u00220\u0022\u003e\u003ccode\u003ehttps:\/\/www.youtube.com\/watch?v=NQOYXmZxqvI\nhttps:\/\/vietnix.vn\/agentic-rag\/\n\u003c\/code\u003e\u003c\/pre\u003e\u003ch3 id=\u0022thông-tin-thêm-từ-ai-về-rag\u0022\u003eThông tin thêm từ AI về RAG\u003c\/h3\u003e\n\u003cul\u003e\n\u003cli\u003eHãy tưởng tượng bạn đang hỏi một trợ lý về một thư viện tài liệu lớn. Nếu trợ lý chỉ dựa vào những gì đã học lúc huấn luyện, nó có thể không biết tài liệu riêng của bạn hoặc thông tin mới. RAG cho nó “mở sách tra trước khi trả lời”.\u003c\/li\u003e\n\u003cli\u003eSinh câu trả lời có tăng cường bằng truy xuất:\n\u003col\u003e\n\u003cli\u003e\u003cstrong\u003eNạp tài liệu\u003c\/strong\u003e: đọc PDF, Word, trang web…; trích văn bản, chia thành các đoạn nhỏ và gắn thông tin như ngày, nguồn, loại tài liệu.\u003c\/li\u003e\n\u003cli\u003e\u003cstrong\u003eTìm phần liên quan\u003c\/strong\u003e: khi có câu hỏi, tìm các đoạn phù hợp bằng tìm kiếm từ khóa, tìm kiếm ngữ nghĩa hoặc kết hợp cả hai.\u003c\/li\u003e\n\u003cli\u003e\u003cstrong\u003eTrả lời dựa trên phần tìm được\u003c\/strong\u003e: đưa các đoạn đó vào ngữ cảnh của mô hình ngôn ngữ (LLM), rồi yêu cầu nó tổng hợp và dẫn nguồn.\u003c\/li\u003e\n\u003c\/ol\u003e\n\u003c\/li\u003e\n\u003cli\u003eNói gọn: \u003cem\u003eRAG không phải “dạy lại” mô hình và cũng không phải bản thân một cơ sở dữ liệu\u003c\/em\u003e; nó là cách nối kho tri thức với mô hình ngay lúc trả lời. Nếu tìm sai đoạn, tài liệu cũ hoặc thiếu nguồn, câu trả lời vẫn có thể sai — có RAG không đồng nghĩa với chính xác tuyệt đối.\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003ch3 id=\u0022cách-hiểu-của-bản-thân\u0022\u003eCách hiểu của bản thân:\u003c\/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eRAG\u003c\/strong\u003e theo mình hiểu thì đây là mô hình giúp AI không bị giới hạn bởi kiến thức huấn luyện trước đó.\u003c\/li\u003e\n\u003cli\u003eTức là mình cung cấp tài liệu, AI dựa vào những kiến thức của bản thân và tài liệu được cung cấp để trả lời câu hỏi.\u003c\/li\u003e\n\u003cli\u003eMình có thể tưởng tượng RAG giống như: \u003cstrong\u003eNotebookLM \u002b GEmini\u003c\/strong\u003e -\u0026gt; Tra cứu thông tin mới nhất trên internet, và trả lời những câu hỏi có trong tài liệu nội bộ trong NotebookLM\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003ch2 id=\u0022tencentweknora\u0022\u003e\u003ca href=\u0022https:\/\/github.com\/Tencent\/WeKnora\u0022\u003eTencent\/WeKnora\u003c\/a\u003e\u003c\/h2\u003e\n\u003cul\u003e\n\u003cli\u003eĐây là nền tảng tri thức mã nguồn mở có ba kiểu sử dụng trên cùng kho tài liệu:\n\u003col\u003e\n\u003cli\u003e\u003cstrong\u003eRAG\u003c\/strong\u003e: hỏi đáp, tìm kiếm lai (từ khóa \u002b ngữ nghĩa), xử lý nhiều loại tài liệu và trích dẫn nguồn.\u003c\/li\u003e\n\u003cli\u003e\u003cstrong\u003eAgent\u003c\/strong\u003e: xử lý việc nhiều bước bằng công cụ.\u003c\/li\u003e\n\u003cli\u003e\u003cstrong\u003eWiki\u003c\/strong\u003e: sắp xếp tri thức thành wiki\/đồ thị tri thức.\u003c\/li\u003e\n\u003c\/ol\u003e\n\u003c\/li\u003e\n\u003cli\u003eĐể mình có thể dùng \u003cstrong\u003eOpenClaw \u003cem\u003e(Nyra)\u003c\/em\u003e \u002b Weknora\u003c\/strong\u003e thì sẽ cần thêm một \u003cstrong\u003eAPI token\u003c\/strong\u003e cho Weknora. Tại sao:\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003cem\u003eVì “Nyra gọi được WeKnora” là khả năng kết nối, không có nghĩa WeKnora tự biết Nyra là ai hoặc tự cho Nyra quyền đọc dữ liệu.\u003c\/em\u003e \u003c\/br\u003e\u003c\/p\u003e",
+      "inLanguage": "en-us",
+      "isFamilyFriendly": "true",
+      "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https:\/\/vinhlin.github.io\/posts\/system-devops\/rag_model\/"
+      },
+      "author" : {
+          "@type": "Person",
+          "name": "Vincent"
+      },
+      "creator" : {
+          "@type": "Person",
+          "name": "Vincent"
+      },
+      "accountablePerson" : {
+          "@type": "Person",
+          "name": "Vincent"
+      },
+      "copyrightHolder" : "VinhLD",
+      "copyrightYear" : "2026",
+      "dateCreated": "2026-11-08T12:21:42.00Z",
+      "datePublished": "2026-11-08T12:21:42.00Z",
+      "dateModified": "2026-11-08T12:21:42.00Z",
+      "publisher":{
+          "@type":"Organization",
+          "name": "VinhLD",
+          "url": "https:\/\/vinhlin.github.io\/",
+          "logo": {
+              "@type": "ImageObject",
+              "url": "https:\/\/vinhlin.github.io\/assets\/favicon.ico",
+              "width":"32",
+              "height":"32"
+          }
+      },
+      "image": "https:\/\/vinhlin.github.io\/assets\/favicon.ico",
+      "url" : "https:\/\/vinhlin.github.io\/posts\/system-devops\/rag_model\/",
+      "wordCount" : "639",
+      "genre" : [ ],
+      "keywords" : [ ]
+  }
+  </script>
+  
+  
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to main</a>
+    <main id="main">
+      <div class="content">
+        <header>
+<p style="padding: 0;margin: 0;">
+  <a href="/">
+    <b>VinhLD</b>
+    <span class="text-stone-500 animate-blink">▮</span>
+  </a>
+</p>
+<div class="header-actions">
+  <ul style="padding: 0;margin: 0;">
+    
+    
+    <li class="">
+      <a href="/changelog/"><span>Changelog</span></a>
+      
+    <li class="">
+      <a href="/posts/"><span>Post</span></a>
+      
+    <li class="">
+      <a href="/search/"><span>Search</span></a>
+      
+    <li class="">
+      <a href="/about/"><span>About</span></a>
+      
+    </li>
+  </ul>
+  <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+    <span class="theme-toggle__icon" aria-hidden="true">◐</span>
+  </button>
+</div>
+</header>
+<hr class="hr-list" style="padding: 0;margin: 0;">
+
+        
+<section>
+  <h2 class="post">RAG_Model</h2>
+  <h2 id="giới-thiệu-về-rag-viết-tắt-của-retrieval-augmented-generation---tạo-sinh-kết-hợp-truy-xuất-thông-tin">Giới thiệu về RAG <em>(viết tắt của Retrieval-Augmented Generation - Tạo sinh kết hợp truy xuất thông tin)</em></h2>
+<ul>
+<li>Tham khảo:</li>
+</ul>
+<pre tabindex="0"><code>https://www.youtube.com/watch?v=NQOYXmZxqvI
+https://vietnix.vn/agentic-rag/
+</code></pre><h3 id="thông-tin-thêm-từ-ai-về-rag">Thông tin thêm từ AI về RAG</h3>
+<ul>
+<li>Hãy tưởng tượng bạn đang hỏi một trợ lý về một thư viện tài liệu lớn. Nếu trợ lý chỉ dựa vào những gì đã học lúc huấn luyện, nó có thể không biết tài liệu riêng của bạn hoặc thông tin mới. RAG cho nó “mở sách tra trước khi trả lời”.</li>
+<li>Sinh câu trả lời có tăng cường bằng truy xuất:
+<ol>
+<li><strong>Nạp tài liệu</strong>: đọc PDF, Word, trang web…; trích văn bản, chia thành các đoạn nhỏ và gắn thông tin như ngày, nguồn, loại tài liệu.</li>
+<li><strong>Tìm phần liên quan</strong>: khi có câu hỏi, tìm các đoạn phù hợp bằng tìm kiếm từ khóa, tìm kiếm ngữ nghĩa hoặc kết hợp cả hai.</li>
+<li><strong>Trả lời dựa trên phần tìm được</strong>: đưa các đoạn đó vào ngữ cảnh của mô hình ngôn ngữ (LLM), rồi yêu cầu nó tổng hợp và dẫn nguồn.</li>
+</ol>
+</li>
+<li>Nói gọn: <em>RAG không phải “dạy lại” mô hình và cũng không phải bản thân một cơ sở dữ liệu</em>; nó là cách nối kho tri thức với mô hình ngay lúc trả lời. Nếu tìm sai đoạn, tài liệu cũ hoặc thiếu nguồn, câu trả lời vẫn có thể sai — có RAG không đồng nghĩa với chính xác tuyệt đối.</li>
+</ul>
+<h3 id="cách-hiểu-của-bản-thân">Cách hiểu của bản thân:</h3>
+<ul>
+<li><strong>RAG</strong> theo mình hiểu thì đây là mô hình giúp AI không bị giới hạn bởi kiến thức huấn luyện trước đó.</li>
+<li>Tức là mình cung cấp tài liệu, AI dựa vào những kiến thức của bản thân và tài liệu được cung cấp để trả lời câu hỏi.</li>
+<li>Mình có thể tưởng tượng RAG giống như: <strong>NotebookLM + GEmini</strong> -&gt; Tra cứu thông tin mới nhất trên internet, và trả lời những câu hỏi có trong tài liệu nội bộ trong NotebookLM</li>
+</ul>
+<h2 id="tencentweknora"><a href="https://github.com/Tencent/WeKnora">Tencent/WeKnora</a></h2>
+<ul>
+<li>Đây là nền tảng tri thức mã nguồn mở có ba kiểu sử dụng trên cùng kho tài liệu:
+<ol>
+<li><strong>RAG</strong>: hỏi đáp, tìm kiếm lai (từ khóa + ngữ nghĩa), xử lý nhiều loại tài liệu và trích dẫn nguồn.</li>
+<li><strong>Agent</strong>: xử lý việc nhiều bước bằng công cụ.</li>
+<li><strong>Wiki</strong>: sắp xếp tri thức thành wiki/đồ thị tri thức.</li>
+</ol>
+</li>
+<li>Để mình có thể dùng <strong>OpenClaw <em>(Nyra)</em> + Weknora</strong> thì sẽ cần thêm một <strong>API token</strong> cho Weknora. Tại sao:</li>
+</ul>
+<blockquote>
+<p><em>Vì “Nyra gọi được WeKnora” là khả năng kết nối, không có nghĩa WeKnora tự biết Nyra là ai hoặc tự cho Nyra quyền đọc dữ liệu.</em> </br></p>
+</blockquote>
+<h3 id="hai-hệ-thống-là-hai-dịch-vụ-riêng">Hai hệ thống là hai dịch vụ riêng:</h3>
+<ul>
+<li><strong>WeKnora → mô hình AI</strong>: nếu WeKnora dùng model cloud, nó cần khóa của nhà cung cấp để gửi yêu cầu đến model. Dùng model chạy nội bộ thì thường không cần khóa cloud này.</li>
+<li><strong>Nyra/OpenClaw → WeKnora</strong>: WeKnora cần xác thực Nyra và giới hạn Nyra được tra cứu kho nào/công cụ nào. MCP endpoint của WeKnora cấp một token riêng cho việc đó.</li>
+</ul>
+<blockquote>
+<p><em>Ví dụ: WeKnora là thư viện; mình biết đường đến thư viện, nhưng vẫn cần thẻ để vào đúng phòng. Thẻ đó không phải chìa khóa để thư viện gọi dịch vụ AI bên ngoài.</em></p>
+</blockquote>
+<h3 id="vai-trò">Vai trò:</h3>
+<ul>
+<li><strong>WeKnora</strong>: kho tri thức + bộ nạp tài liệu + RAG; ngoài ra có Agent/Wiki và MCP. Nó gần với một nền tảng quản lý tri thức có hỏi đáp hơn là “một model như Gemini”.</li>
+<li><strong>Nyra</strong>: trợ lý giao tiếp và điều phối; có thể nhận câu hỏi, gọi WeKnora qua MCP khi cần tài liệu nội bộ, dùng web search cho tin mới, rồi tổng hợp câu trả lời.</li>
+<li><strong>MCP</strong>: chỉ là cầu nối để Nyra gọi công cụ của WeKnora; bản thân MCP không làm model thông minh hơn hay tự cập nhật tài liệu.</li>
+</ul>
+
+  
+  <div class="post-date">
+    <span class="g time">November 8, 2026</span> &#8729;
+    
+  </div>
+  
+</section>
+
+
+
+
+        <footer>
+  <p>© 2026</p>
+  
+  <button id="backToTop" onclick="topFunction()" title="Go to top">
+    <span class="arrow">↑</span> Back To Top
+  </button>
+
+  <div id="google_translate_element" style="margin-top: 20px; text-align: center;"></div>
+</footer>
+
+<style>
+   
+  #backToTop {
+    display: none; 
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 999;
+    background: #fff;
+    color: #222;
+    border: 1px solid #eee;
+    padding: 8px 15px;
+    border-radius: 4px;  
+    cursor: pointer;
+    font-size: 14px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    align-items: center;
+    gap: 5px;
+  }
+  #backToTop:hover {
+    background: #fafafa;
+    border-color: #ccc;
+  }
+</style>
+
+<script>
+  var mybutton = document.getElementById("backToTop");
+
+  
+  window.addEventListener('scroll', function() {
+    if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+      mybutton.style.display = "flex";
+    } else {
+      mybutton.style.display = "none";
+    }
+  });
+
+  function topFunction() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
+      </div>
+    </main>
+    
+<button id="back-to-top" type="button" aria-label="Back to top" title="Back to top">
+  <span aria-hidden="true">↑</span>
+</button>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const root = document.documentElement;
+    const toggle = document.getElementById('theme-toggle');
+    const backToTop = document.getElementById('back-to-top');
+
+    const setTheme = (theme) => {
+      root.setAttribute('data-theme', theme);
+      try {
+        localStorage.setItem('theme', theme);
+      } catch (e) {}
+      if (toggle) {
+        toggle.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+        toggle.setAttribute('title', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+      }
+    };
+
+    if (toggle) {
+      toggle.addEventListener('click', function () {
+        const current = root.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+        setTheme(current === 'dark' ? 'light' : 'dark');
+      });
+
+      const initial = root.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+      setTheme(initial);
+    }
+
+    if (backToTop) {
+      const toggleButton = () => {
+        if (window.scrollY > 320) {
+          backToTop.classList.add('show');
+        } else {
+          backToTop.classList.remove('show');
+        }
+      };
+
+      window.addEventListener('scroll', toggleButton, { passive: true });
+      toggleButton();
+
+      backToTop.addEventListener('click', function () {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    }
+  });
+</script>
+
+  </body>
+</html>

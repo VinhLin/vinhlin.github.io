@@ -14,6 +14,67 @@
     
     
     <item>
+      <title>RAG_Model</title>
+      <link>https://vinhlin.github.io/posts/system-devops/rag_model/</link>
+      <description>&lt;h2 id=&#34;giới-thiệu-về-rag-viết-tắt-của-retrieval-augmented-generation---tạo-sinh-kết-hợp-truy-xuất-thông-tin&#34;&gt;Giới thiệu về RAG &lt;em&gt;(viết tắt của Retrieval-Augmented Generation - Tạo sinh kết hợp truy xuất thông tin)&lt;/em&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Tham khảo:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://www.youtube.com/watch?v=NQOYXmZxqvI
+https://vietnix.vn/agentic-rag/
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;thông-tin-thêm-từ-ai-về-rag&#34;&gt;Thông tin thêm từ AI về RAG&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Hãy tưởng tượng bạn đang hỏi một trợ lý về một thư viện tài liệu lớn. Nếu trợ lý chỉ dựa vào những gì đã học lúc huấn luyện, nó có thể không biết tài liệu riêng của bạn hoặc thông tin mới. RAG cho nó “mở sách tra trước khi trả lời”.&lt;/li&gt;
+&lt;li&gt;Sinh câu trả lời có tăng cường bằng truy xuất:
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Nạp tài liệu&lt;/strong&gt;: đọc PDF, Word, trang web…; trích văn bản, chia thành các đoạn nhỏ và gắn thông tin như ngày, nguồn, loại tài liệu.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tìm phần liên quan&lt;/strong&gt;: khi có câu hỏi, tìm các đoạn phù hợp bằng tìm kiếm từ khóa, tìm kiếm ngữ nghĩa hoặc kết hợp cả hai.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Trả lời dựa trên phần tìm được&lt;/strong&gt;: đưa các đoạn đó vào ngữ cảnh của mô hình ngôn ngữ (LLM), rồi yêu cầu nó tổng hợp và dẫn nguồn.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Nói gọn: &lt;em&gt;RAG không phải “dạy lại” mô hình và cũng không phải bản thân một cơ sở dữ liệu&lt;/em&gt;; nó là cách nối kho tri thức với mô hình ngay lúc trả lời. Nếu tìm sai đoạn, tài liệu cũ hoặc thiếu nguồn, câu trả lời vẫn có thể sai — có RAG không đồng nghĩa với chính xác tuyệt đối.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;cách-hiểu-của-bản-thân&#34;&gt;Cách hiểu của bản thân:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;RAG&lt;/strong&gt; theo mình hiểu thì đây là mô hình giúp AI không bị giới hạn bởi kiến thức huấn luyện trước đó.&lt;/li&gt;
+&lt;li&gt;Tức là mình cung cấp tài liệu, AI dựa vào những kiến thức của bản thân và tài liệu được cung cấp để trả lời câu hỏi.&lt;/li&gt;
+&lt;li&gt;Mình có thể tưởng tượng RAG giống như: &lt;strong&gt;NotebookLM + GEmini&lt;/strong&gt; -&amp;gt; Tra cứu thông tin mới nhất trên internet, và trả lời những câu hỏi có trong tài liệu nội bộ trong NotebookLM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;tencentweknora&#34;&gt;&lt;a href=&#34;https://github.com/Tencent/WeKnora&#34;&gt;Tencent/WeKnora&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Đây là nền tảng tri thức mã nguồn mở có ba kiểu sử dụng trên cùng kho tài liệu:
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;RAG&lt;/strong&gt;: hỏi đáp, tìm kiếm lai (từ khóa + ngữ nghĩa), xử lý nhiều loại tài liệu và trích dẫn nguồn.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Agent&lt;/strong&gt;: xử lý việc nhiều bước bằng công cụ.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Wiki&lt;/strong&gt;: sắp xếp tri thức thành wiki/đồ thị tri thức.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Để mình có thể dùng &lt;strong&gt;OpenClaw &lt;em&gt;(Nyra)&lt;/em&gt; + Weknora&lt;/strong&gt; thì sẽ cần thêm một &lt;strong&gt;API token&lt;/strong&gt; cho Weknora. Tại sao:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Vì “Nyra gọi được WeKnora” là khả năng kết nối, không có nghĩa WeKnora tự biết Nyra là ai hoặc tự cho Nyra quyền đọc dữ liệu.&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;hai-hệ-thống-là-hai-dịch-vụ-riêng&#34;&gt;Hai hệ thống là hai dịch vụ riêng:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;WeKnora → mô hình AI&lt;/strong&gt;: nếu WeKnora dùng model cloud, nó cần khóa của nhà cung cấp để gửi yêu cầu đến model. Dùng model chạy nội bộ thì thường không cần khóa cloud này.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nyra/OpenClaw → WeKnora&lt;/strong&gt;: WeKnora cần xác thực Nyra và giới hạn Nyra được tra cứu kho nào/công cụ nào. MCP endpoint của WeKnora cấp một token riêng cho việc đó.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Ví dụ: WeKnora là thư viện; mình biết đường đến thư viện, nhưng vẫn cần thẻ để vào đúng phòng. Thẻ đó không phải chìa khóa để thư viện gọi dịch vụ AI bên ngoài.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;vai-trò&#34;&gt;Vai trò:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;WeKnora&lt;/strong&gt;: kho tri thức + bộ nạp tài liệu + RAG; ngoài ra có Agent/Wiki và MCP. Nó gần với một nền tảng quản lý tri thức có hỏi đáp hơn là “một model như Gemini”.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nyra&lt;/strong&gt;: trợ lý giao tiếp và điều phối; có thể nhận câu hỏi, gọi WeKnora qua MCP khi cần tài liệu nội bộ, dùng web search cho tin mới, rồi tổng hợp câu trả lời.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MCP&lt;/strong&gt;: chỉ là cầu nối để Nyra gọi công cụ của WeKnora; bản thân MCP không làm model thông minh hơn hay tự cập nhật tài liệu.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <author>Vincent</author>
+      <guid>https://vinhlin.github.io/posts/system-devops/rag_model/</guid>
+      <pubDate>Sun, 08 Nov 2026 12:21:42 +0700</pubDate>
+    </item>
+    
+    <item>
       <title>Debloat_TV</title>
       <link>https://vinhlin.github.io/posts/iot/software/debloat_tv/</link>
       <description>&lt;p&gt;Dạo gần đây mình thấy trên facebook xuất hiện nhiều bài viết về việc &lt;strong&gt;custom lại Smart TV&lt;/strong&gt;.&lt;/p&gt;
@@ -3391,7 +3452,27 @@ https://github.com/caddyserver/caddy
 /&gt;
 
 &lt;/p&gt;
-&lt;h2 id=&#34;phân-loại-các-loại-cáp-ethernet&#34;&gt;Phân loại các loại cáp Ethernet&lt;/h2&gt;
+&lt;p&gt;Chuẩn &lt;strong&gt;T568A&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/Basic_Knowledge/Hinh_3-2.png&#34;
+  alt=&#34;Hình 3-2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Chuẩn &lt;strong&gt;T568B&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/Basic_Knowledge/Hinh_3-3.png&#34;
+  alt=&#34;Hình 3-3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h4 id=&#34;phân-loại-các-loại-cáp-ethernet&#34;&gt;Phân loại các loại cáp Ethernet&lt;/h4&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/Others/Basic_Knowledge/Hinh_3-1.jpg&#34;
   alt=&#34;Hình 3-1&#34;
@@ -4617,7 +4698,7 @@ https://xiaomiprotool.com/
       <description>&lt;p&gt;Mình đã từng có bài viết ghi chú về &lt;strong&gt;Các công cụ AI&lt;/strong&gt; mà bản thân đang dùng. &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/others/cong_cu_ai/&#34;&gt;Tham khảo&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Sau đây bài viết này mình sẽ tổng hợp lại các công cụ khác, &lt;em&gt;&lt;strong&gt;các công cụ online, offline hoặc các nền tảng khác&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;translation-văn-bản&#34;&gt;Translation văn bản&lt;/h2&gt;
-&lt;h3 id=&#34;wps-ai&#34;&gt;&lt;a href=&#34;https://www.wps.ai/&#34;&gt;WPS-AI&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;1-wps-ai&#34;&gt;1. &lt;a href=&#34;https://www.wps.ai/&#34;&gt;WPS-AI&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Video tham khảo, &lt;a href=&#34;https://www.youtube.com/watch?v=izQn-zgmN-Q&amp;amp;pp=ygUHV1BTLUFJIA%3D%3D&#34;&gt;Tôi Đã Xoá Microsoft Office… Vì WPS Quá ĐỈNH! (Tích Hợp AI + Miễn Phí)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Tài liệu khác:&lt;/li&gt;
@@ -4625,50 +4706,8 @@ https://xiaomiprotool.com/
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;&lt;a href=&#34;https://vi.wps.com/create-with-ai/what-is-wps-ai-and-how-to-download/&#34;&gt;https://vi.wps.com/create-with-ai/what-is-wps-ai-and-how-to-download/&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h3 id=&#34;anydoc-translator&#34;&gt;&lt;a href=&#34;https://anydoctranslator.toolsmart.ai/pricing?position=top_bar_pricing&#34;&gt;AnyDoc Translator&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id=&#34;tổng-hợp-các-dự-án-dịch-thuật-tài-liệu&#34;&gt;Tổng hợp các dự án Dịch thuật tài liệu:&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;PDF Translator for Human&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;GitHub Link:&lt;/strong&gt; &lt;a href=&#34;https://github.com/davideuler/pdf-translator-for-human&#34;&gt;davideuler/pdf-translator-for-human&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mô tả ngắn gọn:&lt;/strong&gt; Công cụ dịch PDF “dành cho con người đọc”, hiển thị song song bản gốc và bản dịch, cực kỳ tiện.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;&lt;strong&gt;PDFMathTranslate&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;GitHub Link:&lt;/strong&gt; &lt;a href=&#34;https://github.com/Byaidu/PDFMathTranslate&#34;&gt;Byaidu/PDFMathTranslate&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mô tả ngắn gọn:&lt;/strong&gt; Chuyên dịch bài báo khoa học, luận văn, tài liệu toán học (giữ công thức LaTeX hoàn hảo).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;&lt;strong&gt;BabelDOC&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;GitHub Link:&lt;/strong&gt; &lt;a href=&#34;https://github.com/funstory-ai/BabelDOC&#34;&gt;funstory-ai/BabelDOC&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mô tả ngắn gọn:&lt;/strong&gt; Thư viện Python dịch PDF song ngữ (Anh ↔ Trung/Việt), hỗ trợ cả PDF scan.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;&lt;strong&gt;OpenAI Translator&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;GitHub Link:&lt;/strong&gt; &lt;a href=&#34;https://github.com/DjangoPeng/openai-translator&#34;&gt;DjangoPeng/openai-translator&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mô tả ngắn gọn:&lt;/strong&gt; Ứng dụng desktop chuyên dịch sách PDF tiếng Anh → tiếng Trung (có thể đổi sang tiếng Việt).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol start=&#34;5&#34;&gt;
-&lt;li&gt;&lt;strong&gt;Zotero PDF Translate&lt;/strong&gt; (plugin)&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;GitHub Link:&lt;/strong&gt; &lt;a href=&#34;https://github.com/windingwind/zotero-pdf-translate&#34;&gt;windingwind/zotero-pdf-translate&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mô tả ngắn gọn:&lt;/strong&gt; Plugin Zotero cực mạnh, dịch ngay trong thư viện tài liệu khoa học.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol start=&#34;6&#34;&gt;
-&lt;li&gt;&lt;strong&gt;LingoLift PDF Translator&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;GitHub Link:&lt;/strong&gt; &lt;a href=&#34;https://github.com/lingolift/pdf-translator&#34;&gt;lingolift/pdf-translator&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mô tả ngắn gọn:&lt;/strong&gt; Ứng dụng GUI nhẹ, đẹp, dành cho người dùng phổ thông.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h3 id=&#34;2-anydoc-translator&#34;&gt;2. &lt;a href=&#34;https://anydoctranslator.toolsmart.ai/pricing?position=top_bar_pricing&#34;&gt;AnyDoc Translator&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;3-other&#34;&gt;3. Other&lt;/h3&gt;
 &lt;p&gt;&lt;img
   src=&#34;https://vinhlin.github.io/image/Others/Tong_hop_AI_Tools/Hinh_1.png&#34;
   alt=&#34;Hinh 1&#34;
@@ -4678,7 +4717,6 @@ https://xiaomiprotool.com/
 /&gt;
 
 &lt;/p&gt;
-&lt;hr&gt;
 &lt;h2 id=&#34;speech-to-text&#34;&gt;Speech to Text&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Tham khảo: &lt;a href=&#34;https://platform.openai.com/docs/guides/speech-to-text&#34;&gt;https://platform.openai.com/docs/guides/speech-to-text&lt;/a&gt;&lt;/li&gt;
@@ -4689,16 +4727,25 @@ https://xiaomiprotool.com/
 &lt;li&gt;&lt;a href=&#34;https://huggingface.co/tasks/text-to-speech&#34;&gt;Text to Speech&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;tạo-video&#34;&gt;Tạo Video&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Tham khảo bài viết về &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/others/heygen_ai/&#34;&gt;HeyGen AI&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h3 id=&#34;1-heygen-ai&#34;&gt;1. &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/others/heygen_ai/&#34;&gt;HeyGen AI&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;2-calesthioopenmontage&#34;&gt;2. &lt;a href=&#34;https://github.com/calesthio/openmontage&#34;&gt;calesthio/OpenMontage&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/Others/Tong_hop_AI_Tools/Hinh_2.png&#34;
+  alt=&#34;Hinh 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
 &lt;h2 id=&#34;ai-assistant---trợ-lý-ai&#34;&gt;AI Assistant - Trợ lý AI&lt;/h2&gt;
-&lt;h3 id=&#34;dự-án-astrbot&#34;&gt;Dự án &lt;a href=&#34;https://astrbot.app/&#34;&gt;AstrBot&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;1-openclaw&#34;&gt;1. &lt;a href=&#34;https://blog.vinhld-homelab.io.vn/posts/system-devops/openclaw/&#34;&gt;OpenClaw&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;2-dự-án-astrbot&#34;&gt;2. Dự án &lt;a href=&#34;https://astrbot.app/&#34;&gt;AstrBot&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Github project &lt;a href=&#34;https://github.com/AstrBotDevs/AstrBot&#34;&gt;AstrBotDevs/AstrBot&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Docs: &lt;a href=&#34;https://docs.astrbot.app/en/&#34;&gt;https://docs.astrbot.app/en/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;picoclaw&#34;&gt;&lt;a href=&#34;https://picoclaw.io/&#34;&gt;PicoClaw&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;3-picoclaw&#34;&gt;3. &lt;a href=&#34;https://picoclaw.io/&#34;&gt;PicoClaw&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Github project &lt;a href=&#34;https://github.com/sipeed/picoclaw&#34;&gt;sipeed/picoclaw&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Một dự án được viết bằng Golang, có thể chạy trên máy tính nhúng.&lt;/li&gt;
@@ -4709,7 +4756,6 @@ https://xiaomiprotool.com/
 &lt;li&gt;Tham khảo bài viết: &lt;a href=&#34;https://www.facebook.com/groups/cto.platform/posts/2406887023090659/&#34;&gt;AI phân tích dữ liệu bằng chat thay vì dashboard&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Github dự án &lt;a href=&#34;https://github.com/zhongyu09/openchatbi&#34;&gt;zhongyu09/openchatbi&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;hr&gt;
 &lt;h2 id=&#34;các-dự-án-khác&#34;&gt;Các dự án khác:&lt;/h2&gt;
 &lt;h3 id=&#34;x-plugmobileagent&#34;&gt;&lt;a href=&#34;https://github.com/X-PLUG/MobileAgent&#34;&gt;X-PLUG/MobileAgent&lt;/a&gt;&lt;/h3&gt;
 &lt;blockquote&gt;
@@ -4725,6 +4771,12 @@ https://xiaomiprotool.com/
 &lt;p&gt;&lt;em&gt;&lt;a href=&#34;https://github.com/lfnovo/open-notebook&#34;&gt;Github project&lt;/a&gt;&lt;/em&gt; &lt;/br&gt;
 &lt;em&gt;&lt;a href=&#34;https://www.open-notebook.ai/basics.html&#34;&gt;Docs&lt;/a&gt;&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;h3 id=&#34;oblienopenship&#34;&gt;&lt;a href=&#34;https://github.com/oblien/openship&#34;&gt;oblien/openship&lt;/a&gt;&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Open-source, self-hostable deployment platform with built-in CI/CD.&lt;/em&gt; &lt;/br&gt;
+&lt;em&gt;Drive it from a desktop app, web dashboard, or CLI.&lt;/em&gt; &lt;/br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;shiyu-coderkronos&#34;&gt;&lt;a href=&#34;https://github.com/shiyu-coder/Kronos&#34;&gt;shiyu-coder/Kronos&lt;/a&gt;&lt;/h3&gt;
 </description>
       <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/others/tong_hop_ai_tools/</guid>
@@ -6533,7 +6585,7 @@ https://www.linkedin.com/pulse/choosing-best-file-format-sd-card-external-hard-d
       <link>https://vinhlin.github.io/posts/cybersecurity/ot_security_lab/</link>
       <description>&lt;h3 id=&#34;bài-viết&#34;&gt;&lt;a href=&#34;https://www.linkedin.com/feed/update/urn:li:activity:7409103868728635392/&#34;&gt;Bài viết&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://github.com/zakharb/labshock/blob/main/img/lab-diagram.png&#34;
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/OT_Security_Lab/lab-diagram.png&#34;
   alt=&#34;Hình 1&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -6545,13 +6597,33 @@ https://www.linkedin.com/pulse/choosing-best-file-format-sd-card-external-hard-d
 &lt;li&gt;Từ bài viết này mình mới biết là có những dự án hỗ trợ làm lab về &lt;strong&gt;OT Security&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;Link Github dự án &lt;a href=&#34;https://github.com/zakharb/labshock&#34;&gt;labshock&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;tham-khảo-tài-liệu&#34;&gt;Tham khảo tài liệu&lt;/h3&gt;
+&lt;h2 id=&#34;tham-khảo-tài-liệu&#34;&gt;Tham khảo tài liệu&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Link trang chủ &lt;a href=&#34;https://www.labshocksecurity.com/#&#34;&gt;labshocksecurity&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/zakharb/labshock/wiki&#34;&gt;Wiki về dự án&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/zakharb/labshock/wiki/Quickstart-Guide&#34;&gt;Cài đặt với docker&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLC93sRj_3EZ2Ydl1t5Kr6p4klYDLDEQUF&#34;&gt;Kênh youtube dự án&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3 id=&#34;defending_ot_with_att-ck&#34;&gt;&lt;code&gt;Defending_OT_with_ATT-CK&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/OT_Security_Lab/Defending_OT_with_ATT-CK.jfif&#34;
+  alt=&#34;Hình 2&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;ot_resource&#34;&gt;&lt;code&gt;OT_Resource&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/CyberSecurity/OT_Security_Lab/OT_Resource.jpg&#34;
+  alt=&#34;Hình 3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
 </description>
       <author>Vincent</author>
       <guid>https://vinhlin.github.io/posts/cybersecurity/ot_security_lab/</guid>
@@ -8362,7 +8434,28 @@ https://docs.aws.amazon.com/iot/latest/developerguide/iot-moisture-raspi-setup.h
 /&gt;
 
 &lt;/p&gt;
-&lt;h3 id=&#34;một-số-dự-án-chạy-bằng-docker&#34;&gt;Một số dự án chạy bằng docker&lt;/h3&gt;
+&lt;h4 id=&#34;cài-đặt-docker-v2-trên-linux&#34;&gt;Cài đặt &lt;code&gt;Docker v2&lt;/code&gt; trên Linux:&lt;/h4&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://vinhlin.github.io/image/System-DevOps/DevOps/Docker_3.png&#34;
+  alt=&#34;Docker 3&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Command:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;curl -L https://get.docker.com | sh
+sudo usermod -aG docker $USER
+sudo reboot
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Check version:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;docker --version
+docker compose version
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;một-số-dự-án-chạy-bằng-docker&#34;&gt;Một số dự án chạy bằng docker&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Chạy &lt;strong&gt;Raspberry OS trên Docker&lt;/strong&gt;: &lt;a href=&#34;https://github.com/lukechilds/dockerpi&#34;&gt;DockerPi&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;

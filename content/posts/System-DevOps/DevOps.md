@@ -51,6 +51,22 @@ https://docs.aws.amazon.com/iot/latest/developerguide/iot-moisture-raspi-setup.h
 
 ![Docker 2](/image/System-DevOps/DevOps/Docker_2.jpg)
 
+#### Cài đặt `Docker v2` trên Linux:
+
+![Docker 3](/image/System-DevOps/DevOps/Docker_3.png)
+
+- Command:
+```
+curl -L https://get.docker.com | sh
+sudo usermod -aG docker $USER
+sudo reboot
+```
+- Check version:
+```
+docker --version
+docker compose version
+```
+
 ### Một số dự án chạy bằng docker
 - Chạy **Raspberry OS trên Docker**: [DockerPi](https://github.com/lukechilds/dockerpi)
 ```

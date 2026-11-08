@@ -267,6 +267,7 @@ STT |		Tiêu đề			|		Mô tả				|
 22  | [WebVM][WebVM]			| Ghi chú về **WebVM**, ứng dụng Linux đầy đủ trên Web |
 23  | [OpenClaw][OpenClaw]		| Ghi chú về OpenClaw, một trợ lý AI		|
 24  | [Proxy_Caddy][Proxy_Caddy]	| Setup và thử nghiệm về **Reverse Proxy Caddy**|
+25  | [RAG_Model][RAG_Model]		| Ghi chú về **RAG**				|
 
 [Permission_Linux]: https://blog.vinhld-homelab.io.vn/posts/system-devops/permission_linux/
 [Huly]: https://blog.vinhld-homelab.io.vn/posts/system-devops/huly/
@@ -292,6 +293,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [WebVM]: https://blog.vinhld-homelab.io.vn/posts/system-devops/webvm/
 [OpenClaw]: https://blog.vinhld-homelab.io.vn/posts/system-devops/openclaw/
 [Proxy_Caddy]: https://blog.vinhld-homelab.io.vn/posts/system-devops/proxy_caddy/
+[RAG_Model]: https://blog.vinhld-homelab.io.vn/posts/system-devops/rag_model/
 
 -----------------------------------------------------------------------------------------
 # <mark>Others</mark>

@@ -28,7 +28,15 @@ Thôi thi bây giờ, tận dụng blog để mốt cần gì, lên đây search
 
 ![Hình 3](/image/Others/Basic_Knowledge/Hinh_3.jpg)
 
-## Phân loại các loại cáp Ethernet
+Chuẩn **T568A**:
+
+![Hình 3-2](/image/Others/Basic_Knowledge/Hinh_3-2.png)
+
+Chuẩn **T568B**:
+
+![Hình 3-3](/image/Others/Basic_Knowledge/Hinh_3-3.png)
+
+#### Phân loại các loại cáp Ethernet
 
 ![Hình 3-1](/image/Others/Basic_Knowledge/Hinh_3-1.jpg)
 

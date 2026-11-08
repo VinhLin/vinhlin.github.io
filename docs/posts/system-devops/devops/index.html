@@ -40,7 +40,7 @@ Lúc trước mình cũng lân la đi đọc JD của vai trò DevOps, học cơ
 Và khóa học free mà mình thấy hấp dẫn nhất chính là DevOps for Freshers">
 	<meta itemprop="datePublished" content="2025-10-07T09:01:18+07:00">
 	<meta itemprop="dateModified" content="2025-10-07T09:01:18+07:00">
-	<meta itemprop="wordCount" content="247">
+	<meta itemprop="wordCount" content="273">
     
     <link rel="canonical" href="https://vinhlin.github.io/posts/system-devops/devops/">
     <link rel="icon" href="https://vinhlin.github.io//assets/favicon.ico">
@@ -101,7 +101,7 @@ Và khóa học free mà mình thấy hấp dẫn nhất chính là DevOps for F
       },
       "image": "https:\/\/vinhlin.github.io\/assets\/favicon.ico",
       "url" : "https:\/\/vinhlin.github.io\/posts\/system-devops\/devops\/",
-      "wordCount" : "247",
+      "wordCount" : "273",
       "genre" : [ ],
       "keywords" : [ ]
   }
@@ -236,7 +236,28 @@ https://docs.aws.amazon.com/iot/latest/developerguide/iot-moisture-raspi-setup.h
 />
 
 </p>
-<h3 id="một-số-dự-án-chạy-bằng-docker">Một số dự án chạy bằng docker</h3>
+<h4 id="cài-đặt-docker-v2-trên-linux">Cài đặt <code>Docker v2</code> trên Linux:</h4>
+<p><img
+  src="/image/System-DevOps/DevOps/Docker_3.png"
+  alt="Docker 3"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<ul>
+<li>Command:</li>
+</ul>
+<pre tabindex="0"><code>curl -L https://get.docker.com | sh
+sudo usermod -aG docker $USER
+sudo reboot
+</code></pre><ul>
+<li>Check version:</li>
+</ul>
+<pre tabindex="0"><code>docker --version
+docker compose version
+</code></pre><h3 id="một-số-dự-án-chạy-bằng-docker">Một số dự án chạy bằng docker</h3>
 <ul>
 <li>Chạy <strong>Raspberry OS trên Docker</strong>: <a href="https://github.com/lukechilds/dockerpi">DockerPi</a></li>
 </ul>
