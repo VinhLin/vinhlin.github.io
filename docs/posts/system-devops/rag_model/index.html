@@ -26,15 +26,15 @@
 	<meta property="og:locale" content="en_us">
 	<meta property="og:type" content="article">
 		<meta property="article:section" content="posts">
-		<meta property="article:published_time" content="2026-11-08T12:21:42+07:00">
-		<meta property="article:modified_time" content="2026-11-08T12:21:42+07:00">
+		<meta property="article:published_time" content="2026-11-10T12:21:42+07:00">
+		<meta property="article:modified_time" content="2026-11-10T12:21:42+07:00">
 
     
 	<meta itemprop="name" content="RAG_Model">
 	<meta itemprop="description" content="Giới thiệu về RAG (viết tắt của Retrieval-Augmented Generation - Tạo sinh kết hợp truy xuất thông tin) Tham khảo: https://www.youtube.com/watch?v=NQOYXmZxqvI https://vietnix.vn/agentic-rag/ Thông tin thêm từ AI về RAG Hãy tưởng tượng bạn đang hỏi một trợ lý về một thư viện tài liệu lớn. Nếu trợ lý chỉ dựa vào những gì đã học lúc huấn luyện, nó có thể không biết tài liệu riêng của bạn hoặc thông tin mới. RAG cho nó “mở sách tra trước khi trả lời”. Sinh câu trả lời có tăng cường bằng truy xuất: Nạp tài liệu: đọc PDF, Word, trang web…; trích văn bản, chia thành các đoạn nhỏ và gắn thông tin như ngày, nguồn, loại tài liệu. Tìm phần liên quan: khi có câu hỏi, tìm các đoạn phù hợp bằng tìm kiếm từ khóa, tìm kiếm ngữ nghĩa hoặc kết hợp cả hai. Trả lời dựa trên phần tìm được: đưa các đoạn đó vào ngữ cảnh của mô hình ngôn ngữ (LLM), rồi yêu cầu nó tổng hợp và dẫn nguồn. Nói gọn: RAG không phải “dạy lại” mô hình và cũng không phải bản thân một cơ sở dữ liệu; nó là cách nối kho tri thức với mô hình ngay lúc trả lời. Nếu tìm sai đoạn, tài liệu cũ hoặc thiếu nguồn, câu trả lời vẫn có thể sai — có RAG không đồng nghĩa với chính xác tuyệt đối. Cách hiểu của bản thân: RAG theo mình hiểu thì đây là mô hình giúp AI không bị giới hạn bởi kiến thức huấn luyện trước đó. Tức là mình cung cấp tài liệu, AI dựa vào những kiến thức của bản thân và tài liệu được cung cấp để trả lời câu hỏi. Mình có thể tưởng tượng RAG giống như: NotebookLM &#43; GEmini -&gt; Tra cứu thông tin mới nhất trên internet, và trả lời những câu hỏi có trong tài liệu nội bộ trong NotebookLM Tencent/WeKnora Đây là nền tảng tri thức mã nguồn mở có ba kiểu sử dụng trên cùng kho tài liệu: RAG: hỏi đáp, tìm kiếm lai (từ khóa &#43; ngữ nghĩa), xử lý nhiều loại tài liệu và trích dẫn nguồn. Agent: xử lý việc nhiều bước bằng công cụ. Wiki: sắp xếp tri thức thành wiki/đồ thị tri thức. Để mình có thể dùng OpenClaw (Nyra) &#43; Weknora thì sẽ cần thêm một API token cho Weknora. Tại sao: Vì “Nyra gọi được WeKnora” là khả năng kết nối, không có nghĩa WeKnora tự biết Nyra là ai hoặc tự cho Nyra quyền đọc dữ liệu.">
-	<meta itemprop="datePublished" content="2026-11-08T12:21:42+07:00">
-	<meta itemprop="dateModified" content="2026-11-08T12:21:42+07:00">
-	<meta itemprop="wordCount" content="639">
+	<meta itemprop="datePublished" content="2026-11-10T12:21:42+07:00">
+	<meta itemprop="dateModified" content="2026-11-10T12:21:42+07:00">
+	<meta itemprop="wordCount" content="741">
     
     <link rel="canonical" href="https://vinhlin.github.io/posts/system-devops/rag_model/">
     <link rel="icon" href="https://vinhlin.github.io//assets/favicon.ico">
@@ -79,9 +79,9 @@
       },
       "copyrightHolder" : "VinhLD",
       "copyrightYear" : "2026",
-      "dateCreated": "2026-11-08T12:21:42.00Z",
-      "datePublished": "2026-11-08T12:21:42.00Z",
-      "dateModified": "2026-11-08T12:21:42.00Z",
+      "dateCreated": "2026-11-10T12:21:42.00Z",
+      "datePublished": "2026-11-10T12:21:42.00Z",
+      "dateModified": "2026-11-10T12:21:42.00Z",
       "publisher":{
           "@type":"Organization",
           "name": "VinhLD",
@@ -95,7 +95,7 @@
       },
       "image": "https:\/\/vinhlin.github.io\/assets\/favicon.ico",
       "url" : "https:\/\/vinhlin.github.io\/posts\/system-devops\/rag_model\/",
-      "wordCount" : "639",
+      "wordCount" : "741",
       "genre" : [ ],
       "keywords" : [ ]
   }
@@ -195,10 +195,49 @@ https://vietnix.vn/agentic-rag/
 <li><strong>Nyra</strong>: trợ lý giao tiếp và điều phối; có thể nhận câu hỏi, gọi WeKnora qua MCP khi cần tài liệu nội bộ, dùng web search cho tin mới, rồi tổng hợp câu trả lời.</li>
 <li><strong>MCP</strong>: chỉ là cầu nối để Nyra gọi công cụ của WeKnora; bản thân MCP không làm model thông minh hơn hay tự cập nhật tài liệu.</li>
 </ul>
+<h2 id="build">Build</h2>
+<ul>
+<li>Đã build và cho chạy thành công <strong>WeKnora</strong> <em>(<code>http://172.16.20.51:8090/</code>)</em></li>
+<li>Mô hình này sẽ là <strong>một kho lưu trữ tri thức cá nhân</strong>, là sự kết hợp của:</li>
+</ul>
+<blockquote>
+<p><em>AI Agent - <strong>OpenClaw Nyra</strong></em> </br>
+<em>RAG - <strong>WeKnora</strong></em> </br>
+<em>NAS server local - <strong>OMV SMB</strong></em> </br></p>
+</blockquote>
+<h3 id="sơ-đồ-kết-nối">Sơ đồ kết nối:</h3>
+<pre tabindex="0"><code>Vincent (Telegram)
+        │ yêu cầu / câu hỏi
+        ▼
+OpenClaw Gateway / Nyra
+        │ MCP over HTTP
+        ▼
+WeKnora MCP trên host 172.16.20.51:8090
+        │
+        ▼
+WeKnora app / document pipeline
+        │ đọc/nhận file tại container: /data/files
+        │ Docker bind mount
+        ▼
+Host mount: /mnt/nas_data/2_RAG_Library
+        │ SMB mount
+        ▼
+NAS: \\192.168.100.123\DATA-Shared\2_RAG_Library
+</code></pre><h3 id="kết-quả">Kết quả:</h3>
+<p><img
+  src="/image/System-DevOps/RAG_Model/Ket_qua.png"
+  alt="Kết quả"
+  loading="lazy"
+  decoding="async"
+  class="full-width"
+/>
+
+</p>
+<p><strong>Thành công mỹ mãn</strong>.</p>
 
   
   <div class="post-date">
-    <span class="g time">November 8, 2026</span> &#8729;
+    <span class="g time">November 10, 2026</span> &#8729;
     
   </div>
   

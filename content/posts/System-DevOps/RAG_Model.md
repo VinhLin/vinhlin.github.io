@@ -1,6 +1,6 @@
 +++
 title = 'RAG_Model'
-date = 2026-11-08T12:21:42+07:00
+date = 2026-11-10T12:21:42+07:00
 draft = true
 +++
 
@@ -41,5 +41,38 @@ https://vietnix.vn/agentic-rag/
 - **Nyra**: trợ lý giao tiếp và điều phối; có thể nhận câu hỏi, gọi WeKnora qua MCP khi cần tài liệu nội bộ, dùng web search cho tin mới, rồi tổng hợp câu trả lời.
 - **MCP**: chỉ là cầu nối để Nyra gọi công cụ của WeKnora; bản thân MCP không làm model thông minh hơn hay tự cập nhật tài liệu.
 
+## Build
+- Đã build và cho chạy thành công **WeKnora** *(`http://172.16.20.51:8090/`)*
+- Mô hình này sẽ là **một kho lưu trữ tri thức cá nhân**, là sự kết hợp của:
+> *AI Agent - **OpenClaw Nyra*** </br>
+> *RAG - **WeKnora*** </br>
+> *NAS server local - **OMV SMB*** </br>
+
+### Sơ đồ kết nối:
+```
+Vincent (Telegram)
+        │ yêu cầu / câu hỏi
+        ▼
+OpenClaw Gateway / Nyra
+        │ MCP over HTTP
+        ▼
+WeKnora MCP trên host 172.16.20.51:8090
+        │
+        ▼
+WeKnora app / document pipeline
+        │ đọc/nhận file tại container: /data/files
+        │ Docker bind mount
+        ▼
+Host mount: /mnt/nas_data/2_RAG_Library
+        │ SMB mount
+        ▼
+NAS: \\192.168.100.123\DATA-Shared\2_RAG_Library
+```
+
+### Kết quả:
+
+![Kết quả](/image/System-DevOps/RAG_Model/Ket_qua.png)
+
+**Thành công mỹ mãn**.
 
 
