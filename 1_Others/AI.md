@@ -3,6 +3,7 @@
 
 ### TTS
 - https://github.com/microsoft/VibeVoice
+- https://github.com/supertone-oss-archive/supertonic
 
 ### Rule cho vide code
 - https://github.com/github/spec-kit
@@ -13,19 +14,8 @@
 ### AI Pentest
 - https://github.com/usestrix/strix
 
---------------------------------------------------
-## Trading
-- Tham khảo khác:
-```
-https://github.com/shiyu-coder/Kronos
-```
-
-### RAG
-- https://github.com/tencent/weknora
-
-### Trading Agent
-- https://github.com/tauricresearch/tradingagents
-
+### Công việc quản lý AI Coding
+- https://github.com/anomalyco/opencode
 
 
 

@@ -4,7 +4,7 @@ date = 2024-07-12T15:21:41+07:00
 draft = true
 +++
 
-# [My Resume](../CV_VinhLD-T10_2026.pdf)
+# [My Resume](../CV_VinhLD-T11_2026.pdf)
 
 <h2 align="center">👋 A person loving and working in IoT & Cyber-Security</h2>
 
@@ -34,6 +34,19 @@ Mình vẫn sẽ tiếp tục củng cố, trau dồi để *làm đầy roadmap
 - Ưu tiên dùng **Rust-lang** cho lập trình **nhúng linux (ARM)** và các **ứng dụng console trên Linux, Windows**.
 - Dùng **lập trình Aruduino** *(PlatformIO Framework)* cho lập trình **firmware MCU** với các dự án cần **hoàn thành nhanh**, **dễ bảo trì**, và **thư viện hỗ trợ nhiều**.
 > Ngôn ngữ **Rust là trọng tâm**, lập trình **Arduino là nền tảng**. </br>
+
+### Về network/system/security:
+Mình xây dựng skill theo hướng **"Blue-Team"**, thông qua hệ thống **HOMELAB**.
+1. Thiết kế và triển khai hệ thống Wi-Fi Mesh
+2. Triển khai hệ thống giám sát (NVR/DVR, Camera IP), phân quyền truy cập. 
+3. Xây dựng dịch vụ lưu trữ tài liệu nội bộ phục vụ chia sẻ file và backup dữ liệu.
+4. Thiết lập giám sát hạ tầng mạng và cảnh báo sự cố downtime
+5. Triển khai các thành phần DNS nội bộ, firewall, VPN và SIEM.
+
+### Về ứng dụng AI
+- Build AI Agent OpenClaw, tích hợp chat qua Telegram
+- Vide coding ứng dụng **JT808-Gateway**
+- Xây dựng **"Kho tri thức cá nhân"**, thông qua việc triển khai **RAG**
 
 ![Mindmap](/image/Mindmap.png)
 
