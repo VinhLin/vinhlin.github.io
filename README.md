@@ -96,6 +96,7 @@ hugo new posts/Others/But_do_pH.md
 hugo new posts/Others/Samsung_Switch.md
 hugo new posts/Others/Acquy_UPS.md
 hugo new posts/Others/Bom_lop_Mini.md
+hugo new posts/Others/Vietnix_Test.md
 ```
 
 ### Embedded - IoT:

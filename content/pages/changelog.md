@@ -329,6 +329,7 @@ STT |		Tiêu đề			|		Mô tả				|
 26  | [Samsung_Switch][Samsung_Switch]	| Ứng dụng đồng bộ dữ liệu cho thiết bị Samsung	|
 27  | [Acquy_UPS][Acquy_UPS]		| Ghi chú lại về loại, cách test và thay thế acquy cho UPS |
 28  | [Bom_lop_Mini][Bom_lop_Mini]	| Ghi chú về công cụ bơm lốp mini và áp suất bánh xe |
+29  | [Vietnix_Test][Vietnix_Test]	| Ghi chú về bài thi ứng tuyển bên Vietnix	|
 
 [Ngoai_ngu]: https://blog.vinhld-homelab.io.vn/posts/others/goc_nhin_ve_ngoai_ngu/
 [Hardware_Hacking]: https://blog.vinhld-homelab.io.vn/posts/others/suy_nghi_ve_hardware_hacking/
@@ -358,6 +359,7 @@ STT |		Tiêu đề			|		Mô tả				|
 [Samsung_Switch]: https://blog.vinhld-homelab.io.vn/posts/others/samsung_switch/
 [Acquy_UPS]: https://blog.vinhld-homelab.io.vn/posts/others/acquy_ups/
 [Bom_lop_Mini]: https://blog.vinhld-homelab.io.vn/posts/others/bom_lop_mini/
+[Vietnix_Test]: https://blog.vinhld-homelab.io.vn/posts/others/vietnix_test/
 
 ## AI
 

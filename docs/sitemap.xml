@@ -3,7 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://vinhlin.github.io/posts/</loc>
-    <lastmod>2026-11-10T12:21:42+07:00</lastmod>
+    <lastmod>2026-11-13T12:40:01+07:00</lastmod>
+  </url><url>
+    <loc>https://vinhlin.github.io/posts/others/vietnix_test/</loc>
+    <lastmod>2026-11-13T12:40:01+07:00</lastmod>
+  </url><url>
+    <loc>https://vinhlin.github.io/posts/others/tong_hop_ai_tools/</loc>
+    <lastmod>2026-11-12T11:33:27+07:00</lastmod>
   </url><url>
     <loc>https://vinhlin.github.io/posts/system-devops/rag_model/</loc>
     <lastmod>2026-11-10T12:21:42+07:00</lastmod>
@@ -124,9 +130,6 @@
   </url><url>
     <loc>https://vinhlin.github.io/posts/iot/software/picoclaw/</loc>
     <lastmod>2026-03-16T16:31:35+07:00</lastmod>
-  </url><url>
-    <loc>https://vinhlin.github.io/posts/others/tong_hop_ai_tools/</loc>
-    <lastmod>2026-03-15T11:33:27+07:00</lastmod>
   </url><url>
     <loc>https://vinhlin.github.io/posts/iot/software/raspberry-openauto/</loc>
     <lastmod>2026-03-12T10:50:07+07:00</lastmod>
